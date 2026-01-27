@@ -50,6 +50,7 @@ import {
 import { ChatMessage, PlaceCard, Chat, ChatFilters, Trip, Collection, Guide, KnowledgeNode, PriceRange, MapMarker } from '../types/chatbot';
 import { CAYMAN_CONFIG, CAYMAN_KNOWLEDGE_BASE, CAYMAN_GUIDES } from '../data/cayman-islands-knowledge';
 import InteractiveMap from './InteractiveMap';
+import { processQuery } from '../services/ragService';
 
 // ============ TYPES ============
 
@@ -807,7 +808,7 @@ const ChatbotPanel: React.FC<ChatbotPanelProps> = ({ isOpen, onClose, onPlaceSel
     else if (activeTab === 'inspiration') setChatView('inspiration');
   }, [activeTab]);
 
-  // Simulate AI response (will be replaced with real RAG)
+  // Process message using RAG service
   const handleSendMessage = async (content: string) => {
     const userMessage: ChatMessage = {
       id: `msg-${Date.now()}`,
@@ -820,159 +821,50 @@ const ChatbotPanel: React.FC<ChatbotPanelProps> = ({ isOpen, onClose, onPlaceSel
     setMessages(prev => [...prev, userMessage]);
     setIsLoading(true);
 
-    // Simulate RAG response
-    setTimeout(() => {
-      const lowerContent = content.toLowerCase();
-      let response: ChatMessage;
+    try {
+      // Call RAG service
+      const ragResponse = await processQuery(content, messages);
 
-      if (lowerContent.includes('beach') || lowerContent.includes('snorkel')) {
-        response = {
-          id: `msg-${Date.now() + 1}`,
-          chatId: 'current',
-          role: 'assistant',
-          content: `**The Best Beaches in the Cayman Islands** 🏖️
+      // Create assistant message from RAG response
+      const assistantMessage: ChatMessage = {
+        id: `msg-${Date.now() + 1}`,
+        chatId: 'current',
+        role: 'assistant',
+        content: ragResponse.content,
+        timestamp: new Date().toISOString(),
+        places: ragResponse.places,
+        mapMarkers: ragResponse.mapMarkers,
+        suggestedActions: ragResponse.suggestedActions
+      };
 
-For snorkeling and pristine waters, here are my top recommendations:
-
-🥇 **Seven Mile Beach**
-The crown jewel of Grand Cayman - 5.5 miles of powder-white sand and crystal-clear turquoise water. Perfect for swimming, snorkeling, and watching stunning sunsets.
-
-🥈 **Starfish Point**
-A magical shallow cove where you can see beautiful red cushion starfish in their natural habitat. Best visited at low tide!
-
-🥉 **Cemetery Beach**
-A local secret with excellent snorkeling - you'll find vibrant coral and tropical fish just steps from shore.
-
-Would you like me to show these on the map or give you more details about any of them?`,
-          timestamp: new Date().toISOString(),
-          places: [
-            { nodeId: 'beach-001', name: 'Seven Mile Beach', category: 'beach', thumbnail: CAYMAN_KNOWLEDGE_BASE.find(n => n.id === 'beach-001')?.media.thumbnail || '', rating: 4.9, reviewCount: 8934, priceRange: '$', shortDescription: 'World-famous pristine white sand beach', location: { latitude: 19.3389, longitude: -81.3879, district: 'Seven Mile Beach' } },
-            { nodeId: 'beach-002', name: 'Starfish Point', category: 'beach', thumbnail: CAYMAN_KNOWLEDGE_BASE.find(n => n.id === 'beach-002')?.media.thumbnail || '', rating: 4.6, reviewCount: 3421, priceRange: '$', shortDescription: 'See red cushion starfish in crystal-clear water', location: { latitude: 19.3678, longitude: -81.2589, district: 'North Side' } }
-          ],
-          mapMarkers: [
-            { id: 'm1', nodeId: 'beach-001', latitude: 19.3389, longitude: -81.3879, title: 'Seven Mile Beach', category: 'beach' },
-            { id: 'm2', nodeId: 'beach-002', latitude: 19.3678, longitude: -81.2589, title: 'Starfish Point', category: 'beach' }
-          ],
-          suggestedActions: [
-            { id: 'a1', type: 'directions', label: 'Get directions', nodeId: 'beach-001' },
-            { id: 'a2', type: 'save', label: 'Save to collection' },
-            { id: 'a3', type: 'add_to_trip', label: 'Add to trip' }
-          ]
-        };
-        setMapMarkers([
-          { id: 'm1', nodeId: 'beach-001', latitude: 19.3389, longitude: -81.3879, title: 'Seven Mile Beach', category: 'beach', isActive: true },
-          { id: 'm2', nodeId: 'beach-002', latitude: 19.3678, longitude: -81.2589, title: 'Starfish Point', category: 'beach' }
-        ]);
-      } else if (lowerContent.includes('luxury') || lowerContent.includes('villa') || lowerContent.includes('hotel')) {
-        response = {
-          id: `msg-${Date.now() + 1}`,
-          chatId: 'current',
-          role: 'assistant',
-          content: `**The Most Exclusive Stays in the Cayman Islands** 🏰
-
-For a truly luxurious experience, here are the absolute top options:
-
-🥇 **The Ritz-Carlton, Grand Cayman**
-- Iconic 5-star resort on Seven Mile Beach
-- La Prairie Spa - the only one in the Caribbean
-- Blue by Eric Ripert (Michelin-starred chef)
-- From $800/night
-
-🥈 **Kimpton Seafire Resort + Spa**
-- Contemporary luxury with stunning design
-- Award-winning FLOAT spa
-- No resort fees (rare!)
-- From $500/night
-
-🏠 **For Ultimate Privacy: Castillo Caribe**
-- $60M Caribbean castle estate
-- 10 bedrooms, private beach
-- Full staff including butler & chef
-- From $35,000/night
-
-What's your priority - beachfront resort, private villa, or something else?`,
-          timestamp: new Date().toISOString(),
-          places: [
-            { nodeId: 'hotel-001', name: 'The Ritz-Carlton, Grand Cayman', category: 'hotel', thumbnail: CAYMAN_KNOWLEDGE_BASE.find(n => n.id === 'hotel-001')?.media.thumbnail || '', rating: 4.8, reviewCount: 2847, priceRange: '$$$$$', shortDescription: 'Iconic luxury resort on Seven Mile Beach', location: { latitude: 19.3405, longitude: -81.3869, district: 'Seven Mile Beach' } }
-          ]
-        };
-      } else if (lowerContent.includes('restaurant') || lowerContent.includes('food') || lowerContent.includes('eat') || lowerContent.includes('dinner')) {
-        response = {
-          id: `msg-${Date.now() + 1}`,
-          chatId: 'current',
-          role: 'assistant',
-          content: `**Culinary Highlights of the Cayman Islands** 🍽️
-
-From fine dining to beach bars, here are must-try spots:
-
-⭐ **Blue by Eric Ripert** (Fine Dining)
-Michelin-starred chef's oceanfront restaurant at The Ritz-Carlton. Seafood tasting menus that will blow your mind. From $185.
-
-🌅 **Agua Restaurant** (Camana Bay)
-Contemporary Caribbean with stunning harbor views. Perfect for sunset dinners. Great cocktails!
-
-🏖️ **Kaibo Beach Bar** (Rum Point)
-The ultimate casual beach experience. Feet in the sand, rum punch in hand, fresh fish tacos. A local institution.
-
-What are you in the mood for - fine dining, casual beach vibes, or local cuisine?`,
-          timestamp: new Date().toISOString()
-        };
-      } else if (lowerContent.includes('stingray') || lowerContent.includes('diving') || lowerContent.includes('activity')) {
-        response = {
-          id: `msg-${Date.now() + 1}`,
-          chatId: 'current',
-          role: 'assistant',
-          content: `**Must-Do Activities in the Cayman Islands** 🤿
-
-Here are the experiences you absolutely cannot miss:
-
-🥇 **Stingray City** ⭐ #1 Attraction
-Swim with friendly wild stingrays in crystal-clear shallow water. This is the world's most famous animal encounter! Tours from ~$50.
-
-🤿 **USS Kittiwake Wreck Dive**
-A 251-foot former Navy vessel, now a premier dive site. Suitable for all certified divers with depths from 15-65 feet.
-
-🐢 **Cayman Turtle Centre**
-See green sea turtles up close, learn about conservation, and swim in the lagoon. Great for families!
-
-Want me to help you book any of these or show them on the map?`,
-          timestamp: new Date().toISOString(),
-          places: [
-            { nodeId: 'dive-001', name: 'Stingray City', category: 'diving_snorkeling', thumbnail: CAYMAN_KNOWLEDGE_BASE.find(n => n.id === 'dive-001')?.media.thumbnail || '', rating: 4.8, reviewCount: 12453, priceRange: '$$', shortDescription: 'World-famous sandbar to swim with stingrays', location: { latitude: 19.3889, longitude: -81.3000, district: 'North Sound' } }
-          ]
-        };
-      } else {
-        response = {
-          id: `msg-${Date.now() + 1}`,
-          chatId: 'current',
-          role: 'assistant',
-          content: `I'd love to help you explore the Cayman Islands! 🌴
-
-Here are some things I can help you with:
-
-**🏖️ Beaches & Relaxation**
-Find the perfect beach for swimming, snorkeling, or just soaking up the sun.
-
-**🏨 Accommodation**
-From luxury resorts like The Ritz-Carlton to private villas with staff.
-
-**🍽️ Dining**
-Michelin-starred restaurants to laid-back beach bars.
-
-**🤿 Activities**
-Stingray City, diving, water sports, and island adventures.
-
-**🛥️ VIP Services**
-Yacht charters, private tours, and concierge services.
-
-What interests you most?`,
-          timestamp: new Date().toISOString()
-        };
+      // Update map markers if RAG returned any
+      if (ragResponse.mapMarkers.length > 0) {
+        setMapMarkers(ragResponse.mapMarkers);
       }
 
-      setMessages(prev => [...prev, response]);
+      setMessages(prev => [...prev, assistantMessage]);
+    } catch (error) {
+      console.error('Error processing message:', error);
+
+      // Fallback error message
+      const errorMessage: ChatMessage = {
+        id: `msg-${Date.now() + 1}`,
+        chatId: 'current',
+        role: 'assistant',
+        content: `I apologize, but I encountered an issue processing your request. Please try again, or feel free to ask me about:
+
+- **Beaches** - Seven Mile Beach, Starfish Point, and more
+- **Hotels** - From The Ritz-Carlton to private villas
+- **Restaurants** - Fine dining to beach bars
+- **Activities** - Stingray City, diving, and adventures
+
+How can I help you explore the Cayman Islands?`,
+        timestamp: new Date().toISOString()
+      };
+      setMessages(prev => [...prev, errorMessage]);
+    } finally {
       setIsLoading(false);
-    }, 1500);
+    }
   };
 
   const handlePlaceSelectInternal = (place: KnowledgeNode) => {
