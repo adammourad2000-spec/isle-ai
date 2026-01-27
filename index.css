@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap');
+/* Fallback for Helvetica-like feel */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-zinc-950 text-white antialiased overflow-x-hidden;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #050505;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .font-helvetica-light {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+  }
+
+  .font-helvetica {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+  }
+
+  .font-helvetica-bold {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply tracking-tight;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+  }
+
+  ::selection {
+    @apply bg-yellow-600/30 text-yellow-300;
+  }
+
+  /* Custom Scrollbar - Liquid Gold */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-zinc-800 rounded-full hover:bg-zinc-700 transition-colors;
+  }
+
+  /* For dark mode scrollbar inside specific containers */
+  .dark-scroll::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, #71717a, #52525b);
+  }
+}
+
+@layer components {
+  .glass-panel {
+    @apply bg-[#0a0a0b]/90 backdrop-blur-xl border border-white/[0.05] shadow-2xl;
+  }
+
+  .text-gold {
+    color: #D4AF37;
+  }
+
+  .border-gold {
+    border-color: #D4AF37;
+  }
+
+  /* Gold Frame Button Primitive */
+  .btn-gold-frame {
+    @apply border border-[#D4AF37] bg-[#0a0a0b] text-[#D4AF37] transition-all duration-300;
+  }
+
+  .btn-gold-frame:hover {
+    @apply bg-[#D4AF37] text-black shadow-[0_0_20px_rgba(212, 175, 55, 0.4)];
+  }
+
+  .liquid-scroll {
+    scrollbar-gutter: stable;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    will-change: scroll-position;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+  }
+}
+
+/* Global utility classes for animations that might not be in Tailwind keys */
+.delay-100 {
+  animation-delay: 100ms;
+}
+
+.delay-200 {
+  animation-delay: 200ms;
+}
+
+.delay-300 {
+  animation-delay: 300ms;
+}
+
+.delay-500 {
+  animation-delay: 500ms;
+}
+
+.delay-700 {
+  animation-delay: 700ms;
+}
+
+/* Luxury Radiant Animations */
+@keyframes radiant-pulse {
+  0% {
+    transform: scale(0.3);
+    opacity: 1;
+    border-width: 4px;
+  }
+
+  100% {
+    transform: scale(2.5);
+    opacity: 0;
+    border-width: 1px;
+  }
+}
+
+@keyframes gold-shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+@keyframes expand-x {
+  0% {
+    width: 0%;
+    left: 50%;
+    opacity: 0;
+  }
+
+  100% {
+    width: 100%;
+    left: 0%;
+    opacity: 1;
+  }
+}
+
+@keyframes page-entrance {
+  0% {
+    opacity: 0;
+    transform: scale(0.985);
+    filter: blur(4px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+    filter: blur(0);
+  }
+}
+
+@keyframes sweep-light {
+  0% {
+    transform: translateX(-100%) skewX(-45deg);
+  }
+
+  100% {
+    transform: translateX(200%) skewX(-45deg);
+  }
+}
+
+.animate-radiant {
+  animation: radiant-pulse 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  will-change: transform, opacity;
+}
+
+.animate-gold-flood {
+  background: linear-gradient(90deg, transparent, rgba(212, 175, 55, 0.2), transparent);
+  background-size: 200% 100%;
+  animation: gold-shimmer 1s infinite linear;
+}
+
+.animate-expand-x {
+  animation: expand-x 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-page-entrance {
+  animation: page-entrance 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  will-change: transform, opacity, filter;
+  backface-visibility: hidden;
+}
+
+.light-sweep {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(to right, transparent, rgba(212, 175, 55, 0.05), transparent);
+  animation: sweep-light 1.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  pointer-events: none;
+  z-index: 0;
+}
