@@ -46,7 +46,8 @@ import {
   FileSpreadsheet,
   MessageSquare,
   Sparkles,
-  Bot
+  Bot,
+  Layers
 } from 'lucide-react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell, PieChart, Pie } from 'recharts';
 import { LiquidBackground } from './components/LiquidBackground';
@@ -54,6 +55,7 @@ import { GlassCard, PrimaryButton, SecondaryButton, ProgressBar, Badge, FileDrop
 import { AnimatePresence, Reorder, motion, LayoutGroup } from 'framer-motion';
 import { PageTransition } from './components/PageTransition';
 import ChatbotPanel from './components/ChatbotPanel';
+import { KnowledgeAdmin } from './components/admin';
 import { dataService } from './services/dataService';
 import { authAPI, setAuthToken, getAuthToken, PendingUser, adminAPI } from './services/api';
 import api from './services/api';
@@ -330,6 +332,9 @@ const App: React.FC = () => {
 
   // Chatbot state
   const [isChatbotOpen, setIsChatbotOpen] = useState(false);
+
+  // Knowledge Admin state (for admin users)
+  const [isKnowledgeAdminOpen, setIsKnowledgeAdminOpen] = useState(false);
 
   // Restore session on page load/refresh
   useEffect(() => {
@@ -4494,6 +4499,45 @@ const App: React.FC = () => {
               isOpen={isChatbotOpen}
               onClose={() => setIsChatbotOpen(false)}
             />
+          )}
+        </AnimatePresence>
+
+        {/* Knowledge Admin Button (Admin only) */}
+        {currentUser?.role === 'ADMIN' && !isChatbotOpen && !isKnowledgeAdminOpen && (
+          <motion.button
+            initial={{ scale: 0, opacity: 0 }}
+            animate={{ scale: 1, opacity: 1 }}
+            transition={{ delay: 1.2, type: 'spring', stiffness: 200 }}
+            onClick={() => setIsKnowledgeAdminOpen(true)}
+            className="fixed bottom-6 right-24 z-40 group"
+          >
+            <div className="relative">
+              {/* Glow effect */}
+              <div className="absolute inset-0 bg-gradient-to-r from-violet-500 to-purple-500 rounded-full blur-lg opacity-50 group-hover:opacity-75 transition-opacity" />
+              {/* Button */}
+              <div className="relative w-12 h-12 rounded-full bg-gradient-to-r from-violet-500 to-purple-500 flex items-center justify-center shadow-2xl hover:scale-110 transition-transform cursor-pointer">
+                <Layers className="text-white" size={20} />
+              </div>
+              {/* Tooltip */}
+              <div className="absolute bottom-full right-0 mb-2 px-3 py-1.5 bg-zinc-800 rounded-lg text-sm text-white whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none shadow-xl">
+                Knowledge Admin
+                <div className="absolute top-full right-4 w-2 h-2 bg-zinc-800 rotate-45 -mt-1" />
+              </div>
+            </div>
+          </motion.button>
+        )}
+
+        {/* Knowledge Admin Panel */}
+        <AnimatePresence>
+          {isKnowledgeAdminOpen && (
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              className="fixed inset-0 z-50"
+            >
+              <KnowledgeAdmin onClose={() => setIsKnowledgeAdminOpen(false)} />
+            </motion.div>
           )}
         </AnimatePresence>
       </div>
