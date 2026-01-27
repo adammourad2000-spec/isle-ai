@@ -43,13 +43,17 @@ import {
   Maximize2,
   Minimize2,
   ExternalLink,
-  FileSpreadsheet
+  FileSpreadsheet,
+  MessageSquare,
+  Sparkles,
+  Bot
 } from 'lucide-react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell, PieChart, Pie } from 'recharts';
 import { LiquidBackground } from './components/LiquidBackground';
 import { GlassCard, PrimaryButton, SecondaryButton, ProgressBar, Badge, FileDropZone, IconButton, ToastProvider, useToast, LiquidVideoFrame } from './components/UIComponents';
 import { AnimatePresence, Reorder, motion, LayoutGroup } from 'framer-motion';
 import { PageTransition } from './components/PageTransition';
+import ChatbotPanel from './components/ChatbotPanel';
 import { dataService } from './services/dataService';
 import { authAPI, setAuthToken, getAuthToken, PendingUser, adminAPI } from './services/api';
 import api from './services/api';
@@ -323,6 +327,9 @@ const App: React.FC = () => {
     lessonsCompleted: number;
     averageQuizScore: number;
   } | null>(null);
+
+  // Chatbot state
+  const [isChatbotOpen, setIsChatbotOpen] = useState(false);
 
   // Restore session on page load/refresh
   useEffect(() => {
@@ -4456,6 +4463,39 @@ const App: React.FC = () => {
             )}
           </AnimatePresence>
         </main>
+
+        {/* Isle AI Chatbot Floating Button */}
+        <motion.button
+          initial={{ scale: 0, opacity: 0 }}
+          animate={{ scale: 1, opacity: 1 }}
+          transition={{ delay: 1, type: 'spring', stiffness: 200 }}
+          onClick={() => setIsChatbotOpen(true)}
+          className="fixed bottom-6 right-6 z-40 group"
+        >
+          <div className="relative">
+            {/* Glow effect */}
+            <div className="absolute inset-0 bg-gradient-to-r from-cyan-500 to-teal-500 rounded-full blur-lg opacity-50 group-hover:opacity-75 transition-opacity" />
+            {/* Button */}
+            <div className="relative w-14 h-14 rounded-full bg-gradient-to-r from-cyan-500 to-teal-500 flex items-center justify-center shadow-2xl hover:scale-110 transition-transform cursor-pointer">
+              <Sparkles className="text-white" size={24} />
+            </div>
+            {/* Tooltip */}
+            <div className="absolute bottom-full right-0 mb-2 px-3 py-1.5 bg-zinc-800 rounded-lg text-sm text-white whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none shadow-xl">
+              Isle AI Concierge
+              <div className="absolute top-full right-4 w-2 h-2 bg-zinc-800 rotate-45 -mt-1" />
+            </div>
+          </div>
+        </motion.button>
+
+        {/* Chatbot Panel */}
+        <AnimatePresence>
+          {isChatbotOpen && (
+            <ChatbotPanel
+              isOpen={isChatbotOpen}
+              onClose={() => setIsChatbotOpen(false)}
+            />
+          )}
+        </AnimatePresence>
       </div>
     </ToastProvider>
   );

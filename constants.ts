@@ -1,235 +1,436 @@
-import { Course, CourseStatus, UserRole, User, LearningPath } from './types';
+import { Destination, DestinationStatus, UserRole, User, Journey } from './types';
 
 export const MOCK_USER: User = {
   id: 'u1',
-  name: 'Sarah Jenkins',
-  email: 'sarah.j@gov.bb',
-  role: UserRole.LEARNER,
-  ministry: 'Ministry of Innovation',
-  enrolledCourses: ['c1'],
-  completedPaths: []
+  name: 'Marco Silva',
+  email: 'marco.silva@email.com',
+  role: UserRole.EXPLORER,
+  nationality: 'Portugal',
+  savedDestinations: ['d1'],
+  completedJourneys: [],
+  explorerLevel: 1,
+  totalPointsEarned: 0,
+  badges: []
 };
 
-// Bajan-X Curriculum - 8 Modules
-// Week 1-2 (Beginner): BX1, BX2, BX3, BX4
-// Week 3 (Intermediate): BX5, BX6
-// Week 4 (Advanced): BX7, BX8
+// Island Zones
+export const ISLAND_ZONES = [
+  'North Coast',
+  'South Coast',
+  'East Coast',
+  'West Coast',
+  'Central Highlands',
+  'Capital District',
+  'Historic Quarter'
+];
 
-export const MOCK_COURSES: Course[] = [
-  // === BEGINNER COURSES (Week 1-2) ===
+// Destination Categories
+export const DESTINATION_CATEGORIES = [
+  'Beach',
+  'Nature',
+  'Culture',
+  'Adventure',
+  'Gastronomy',
+  'Nightlife',
+  'Historical'
+];
+
+// Sample Destinations for a Caribbean Island
+export const MOCK_DESTINATIONS: Destination[] = [
+  // === BEACHES ===
   {
-    id: 'bx1',
-    title: 'BX1: Introduction to APIs',
-    description: 'What is an API? Why do we use APIs? Real-world examples of APIs in government services.',
-    thumbnail: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=2070&auto=format&fit=crop',
-    level: 'Beginner',
-    totalDuration: '45-60 min',
-    status: CourseStatus.NOT_STARTED,
+    id: 'd1',
+    title: 'Coral Paradise Beach',
+    description: 'Crystal-clear turquoise waters and pristine white sand. Perfect for snorkeling with sea turtles.',
+    thumbnail: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=2073&auto=format&fit=crop',
+    category: 'Beach',
+    zone: 'West Coast',
+    totalDuration: '2-4 hours',
+    status: DestinationStatus.NOT_VISITED,
     progress: 0,
-    enrolledCount: 1240,
-    rating: 4.8,
-    lessons: [
-      { id: 'bx1-l1', title: 'What is an API?', type: 'video', durationMin: 10, isCompleted: false },
-      { id: 'bx1-l2', title: 'Real-World API Examples', type: 'pdf', durationMin: 15, isCompleted: false },
-      { id: 'bx1-l3', title: 'APIs in Government Services', type: 'video', durationMin: 15, isCompleted: false },
-      { id: 'bx1-l4', title: 'Module Quiz', type: 'quiz', durationMin: 10, quiz: [
-        { id: 'bx1-q1', question: 'What does API stand for?', options: ['Application Programming Interface', 'Automated Protocol Interface', 'Application Process Integration'], correctAnswer: 0 }
-      ], isCompleted: false }
-    ]
-  },
-  {
-    id: 'bx2',
-    title: 'BX2: Understanding RESTful APIs',
-    description: 'HTTP methods (GET, POST, PUT, DELETE), status codes, request/response structure.',
-    thumbnail: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop',
-    level: 'Beginner',
-    totalDuration: '60-90 min',
-    status: CourseStatus.NOT_STARTED,
-    progress: 0,
-    enrolledCount: 1100,
-    rating: 4.7,
-    lessons: [
-      { id: 'bx2-l1', title: 'Introduction to REST', type: 'video', durationMin: 15, isCompleted: false },
-      { id: 'bx2-l2', title: 'HTTP Methods Deep Dive', type: 'pdf', durationMin: 20, isCompleted: false },
-      { id: 'bx2-l3', title: 'Status Codes Explained', type: 'video', durationMin: 15, isCompleted: false },
-      { id: 'bx2-l4', title: 'Request/Response Structure', type: 'presentation', durationMin: 20, isCompleted: false },
-      { id: 'bx2-l5', title: 'Module Quiz', type: 'quiz', durationMin: 10, quiz: [
-        { id: 'bx2-q1', question: 'Which HTTP method is used to retrieve data?', options: ['GET', 'POST', 'DELETE'], correctAnswer: 0 }
-      ], isCompleted: false }
-    ]
-  },
-  {
-    id: 'bx3',
-    title: 'BX3: Hands-On with Postman',
-    description: 'Setting up Postman, making your first API call, testing endpoints practically.',
-    thumbnail: 'https://images.unsplash.com/photo-1531746790731-6c087fecd65a?q=80&w=2006&auto=format&fit=crop',
-    level: 'Beginner',
-    totalDuration: '60-90 min',
-    status: CourseStatus.NOT_STARTED,
-    progress: 0,
-    enrolledCount: 980,
+    visitCount: 12400,
     rating: 4.9,
-    lessons: [
-      { id: 'bx3-l1', title: 'Installing Postman', type: 'video', durationMin: 10, isCompleted: false },
-      { id: 'bx3-l2', title: 'Making Your First API Call', type: 'video', durationMin: 20, isCompleted: false },
-      { id: 'bx3-l3', title: 'Testing Different Endpoints', type: 'pdf', durationMin: 25, isCompleted: false },
-      { id: 'bx3-l4', title: 'Hands-On Exercise', type: 'quiz', durationMin: 20, quiz: [
-        { id: 'bx3-q1', question: 'What is Postman primarily used for?', options: ['Testing APIs', 'Writing code', 'Database management'], correctAnswer: 0 }
+    reviewCount: 856,
+    priceRange: '$',
+    isFree: true,
+    openingHours: 'Open 24/7',
+    activities: [
+      { id: 'd1-a1', title: 'Beach Overview', type: 'video', durationMin: 3, isCompleted: false, insiderTip: 'Arrive before 9am for the best spots' },
+      { id: 'd1-a2', title: 'Snorkeling Spots Guide', type: 'info', durationMin: 5, isCompleted: false, bestTimeToVisit: 'Morning, 8am-11am' },
+      { id: 'd1-a3', title: '360° Beach View', type: 'panorama', durationMin: 2, isCompleted: false },
+      { id: 'd1-a4', title: 'Beach Trivia Challenge', type: 'challenge', durationMin: 5, challenge: [
+        { id: 'd1-q1', question: 'What type of turtles can you see here?', options: ['Hawksbill turtles', 'Loggerhead turtles', 'Leatherback turtles'], correctAnswer: 0, funFact: 'Hawksbill turtles are critically endangered and this beach is one of their nesting sites!' }
       ], isCompleted: false }
     ]
   },
   {
-    id: 'bx4',
-    title: 'BX4: Reading API Documentation',
-    description: 'Understanding API docs, field definitions, response formats, and error handling.',
-    thumbnail: 'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?q=80&w=2070&auto=format&fit=crop',
-    level: 'Beginner',
-    totalDuration: '60-90 min',
-    status: CourseStatus.NOT_STARTED,
+    id: 'd2',
+    title: 'Hidden Cove Bay',
+    description: 'A secluded beach accessible only by boat or hiking trail. Untouched natural beauty.',
+    thumbnail: 'https://images.unsplash.com/photo-1519046904884-53103b34b206?q=80&w=2070&auto=format&fit=crop',
+    category: 'Beach',
+    zone: 'North Coast',
+    totalDuration: '3-5 hours',
+    status: DestinationStatus.NOT_VISITED,
     progress: 0,
-    enrolledCount: 850,
+    visitCount: 3200,
+    rating: 4.8,
+    reviewCount: 234,
+    priceRange: '$$',
+    activities: [
+      { id: 'd2-a1', title: 'Getting There', type: 'video', durationMin: 4, isCompleted: false },
+      { id: 'd2-a2', title: 'Trail Guide', type: 'info', durationMin: 8, isCompleted: false },
+      { id: 'd2-a3', title: 'Hidden Cove Gallery', type: 'gallery', durationMin: 3, isCompleted: false }
+    ]
+  },
+
+  // === NATURE ===
+  {
+    id: 'd3',
+    title: 'Rainforest Canopy Walk',
+    description: 'Walk among the treetops on suspended bridges. Spot exotic birds and wildlife.',
+    thumbnail: 'https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=2070&auto=format&fit=crop',
+    category: 'Nature',
+    zone: 'Central Highlands',
+    totalDuration: '2-3 hours',
+    status: DestinationStatus.NOT_VISITED,
+    progress: 0,
+    visitCount: 8900,
+    rating: 4.7,
+    reviewCount: 567,
+    priceRange: '$$',
+    openingHours: '7:00 AM - 5:00 PM',
+    activities: [
+      { id: 'd3-a1', title: 'Canopy Experience', type: 'video', durationMin: 5, isCompleted: false },
+      { id: 'd3-a2', title: 'Wildlife Spotting Guide', type: 'info', durationMin: 10, isCompleted: false },
+      { id: 'd3-a3', title: 'Bird Species Challenge', type: 'challenge', durationMin: 5, challenge: [
+        { id: 'd3-q1', question: 'Which colorful bird is native to this rainforest?', options: ['Bananaquit', 'Penguin', 'Flamingo'], correctAnswer: 0, funFact: 'The Bananaquit is also called the "sugar bird" because it loves nectar!' }
+      ], isCompleted: false }
+    ]
+  },
+  {
+    id: 'd4',
+    title: 'Volcanic Hot Springs',
+    description: 'Natural thermal pools heated by volcanic activity. Healing mineral-rich waters.',
+    thumbnail: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?q=80&w=2070&auto=format&fit=crop',
+    category: 'Nature',
+    zone: 'Central Highlands',
+    totalDuration: '2-4 hours',
+    status: DestinationStatus.NOT_VISITED,
+    progress: 0,
+    visitCount: 6700,
     rating: 4.6,
-    lessons: [
-      { id: 'bx4-l1', title: 'Anatomy of API Documentation', type: 'video', durationMin: 15, isCompleted: false },
-      { id: 'bx4-l2', title: 'Understanding Field Definitions', type: 'pdf', durationMin: 20, isCompleted: false },
-      { id: 'bx4-l3', title: 'Response Formats (JSON/XML)', type: 'video', durationMin: 20, isCompleted: false },
-      { id: 'bx4-l4', title: 'Error Handling Best Practices', type: 'presentation', durationMin: 15, isCompleted: false },
-      { id: 'bx4-l5', title: 'Module Quiz', type: 'quiz', durationMin: 10, quiz: [
-        { id: 'bx4-q1', question: 'What format is most commonly used for API responses?', options: ['JSON', 'CSV', 'TXT'], correctAnswer: 0 }
-      ], isCompleted: false }
+    reviewCount: 445,
+    priceRange: '$$',
+    openingHours: '9:00 AM - 8:00 PM',
+    activities: [
+      { id: 'd4-a1', title: 'Hot Springs Tour', type: 'video', durationMin: 4, isCompleted: false },
+      { id: 'd4-a2', title: 'Health Benefits', type: 'info', durationMin: 5, isCompleted: false }
     ]
   },
 
-  // === INTERMEDIATE COURSES (Week 3) ===
+  // === CULTURE ===
   {
-    id: 'bx5',
-    title: 'BX5: Authentication & Security',
-    description: 'API keys, OAuth basics, securing your API requests, best practices for government data.',
-    thumbnail: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?q=80&w=2070&auto=format&fit=crop',
-    level: 'Intermediate',
-    totalDuration: '90-120 min',
-    status: CourseStatus.NOT_STARTED,
+    id: 'd5',
+    title: 'Heritage Village Museum',
+    description: 'Step back in time and discover the island\'s rich history, traditions, and cultural heritage.',
+    thumbnail: 'https://images.unsplash.com/photo-1582555172866-f73bb12a2ab3?q=80&w=2080&auto=format&fit=crop',
+    category: 'Culture',
+    zone: 'Historic Quarter',
+    totalDuration: '2-3 hours',
+    status: DestinationStatus.NOT_VISITED,
     progress: 0,
-    enrolledCount: 720,
+    visitCount: 5400,
     rating: 4.8,
-    lessons: [
-      { id: 'bx5-l1', title: 'API Keys Explained', type: 'video', durationMin: 15, isCompleted: false },
-      { id: 'bx5-l2', title: 'Introduction to OAuth', type: 'video', durationMin: 25, isCompleted: false },
-      { id: 'bx5-l3', title: 'Securing API Requests', type: 'pdf', durationMin: 20, isCompleted: false },
-      { id: 'bx5-l4', title: 'Government Data Security Standards', type: 'presentation', durationMin: 25, isCompleted: false },
-      { id: 'bx5-l5', title: 'Security Quiz', type: 'quiz', durationMin: 15, quiz: [
-        { id: 'bx5-q1', question: 'What is OAuth used for?', options: ['Authorization', 'Database queries', 'File storage'], correctAnswer: 0 }
+    reviewCount: 389,
+    priceRange: '$',
+    openingHours: '10:00 AM - 6:00 PM (Closed Mondays)',
+    activities: [
+      { id: 'd5-a1', title: 'Museum Virtual Tour', type: 'video', durationMin: 8, isCompleted: false },
+      { id: 'd5-a2', title: 'Island History Timeline', type: 'info', durationMin: 15, isCompleted: false },
+      { id: 'd5-a3', title: 'Traditional Crafts Gallery', type: 'gallery', durationMin: 5, isCompleted: false },
+      { id: 'd5-a4', title: 'History Challenge', type: 'challenge', durationMin: 8, challenge: [
+        { id: 'd5-q1', question: 'When was the island first settled?', options: ['1627', '1492', '1776'], correctAnswer: 0 },
+        { id: 'd5-q2', question: 'What was the main crop during colonial times?', options: ['Sugar cane', 'Tobacco', 'Cotton'], correctAnswer: 0, funFact: 'Sugar was so valuable it was called "white gold"!' }
       ], isCompleted: false }
     ]
   },
   {
-    id: 'bx6',
-    title: 'BX6: Connecting to Bajan-X APIs',
-    description: 'Overview of Bajan-X platform, available endpoints, making authenticated calls.',
-    thumbnail: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=2034&auto=format&fit=crop',
-    level: 'Intermediate',
-    totalDuration: '90-120 min',
-    status: CourseStatus.NOT_STARTED,
+    id: 'd6',
+    title: 'Local Market Experience',
+    description: 'Immerse yourself in local life. Fresh produce, spices, crafts, and authentic street food.',
+    thumbnail: 'https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=2074&auto=format&fit=crop',
+    category: 'Culture',
+    zone: 'Capital District',
+    totalDuration: '1-3 hours',
+    status: DestinationStatus.NOT_VISITED,
     progress: 0,
-    enrolledCount: 680,
-    rating: 4.7,
-    lessons: [
-      { id: 'bx6-l1', title: 'Bajan-X Platform Overview', type: 'video', durationMin: 20, isCompleted: false },
-      { id: 'bx6-l2', title: 'Available API Endpoints', type: 'pdf', durationMin: 25, isCompleted: false },
-      { id: 'bx6-l3', title: 'Getting Your API Credentials', type: 'video', durationMin: 15, isCompleted: false },
-      { id: 'bx6-l4', title: 'Making Authenticated Calls', type: 'video', durationMin: 25, isCompleted: false },
-      { id: 'bx6-l5', title: 'Hands-On: Your First Bajan-X Call', type: 'quiz', durationMin: 20, quiz: [
-        { id: 'bx6-q1', question: 'What do you need to make authenticated API calls?', options: ['API credentials', 'Admin access', 'Physical token'], correctAnswer: 0 }
-      ], isCompleted: false }
+    visitCount: 9800,
+    rating: 4.5,
+    reviewCount: 712,
+    priceRange: '$',
+    openingHours: '6:00 AM - 2:00 PM (Sat only full day)',
+    activities: [
+      { id: 'd6-a1', title: 'Market Walkthrough', type: 'video', durationMin: 6, isCompleted: false },
+      { id: 'd6-a2', title: 'Must-Try Foods Guide', type: 'info', durationMin: 8, isCompleted: false },
+      { id: 'd6-a3', title: 'Haggling Tips', type: 'info', durationMin: 3, isCompleted: false }
     ]
   },
 
-  // === ADVANCED COURSES (Week 4) ===
+  // === ADVENTURE ===
   {
-    id: 'bx7',
-    title: 'BX7: Data Integration Workflows',
-    description: 'Combining multiple API calls, data transformation, building automated workflows.',
-    thumbnail: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop',
-    level: 'Advanced',
-    totalDuration: '120-150 min',
-    status: CourseStatus.NOT_STARTED,
+    id: 'd7',
+    title: 'Cliff Diving Point',
+    description: 'Adrenaline rush guaranteed! Jump from natural rock formations into crystal-clear pools.',
+    thumbnail: 'https://images.unsplash.com/photo-1504701954957-2010ec3bcec1?q=80&w=2071&auto=format&fit=crop',
+    category: 'Adventure',
+    zone: 'East Coast',
+    totalDuration: '2-4 hours',
+    status: DestinationStatus.NOT_VISITED,
     progress: 0,
-    enrolledCount: 450,
+    visitCount: 4500,
     rating: 4.9,
-    lessons: [
-      { id: 'bx7-l1', title: 'Multi-API Workflow Design', type: 'video', durationMin: 25, isCompleted: false },
-      { id: 'bx7-l2', title: 'Data Transformation Techniques', type: 'pdf', durationMin: 30, isCompleted: false },
-      { id: 'bx7-l3', title: 'Building Automated Pipelines', type: 'video', durationMin: 30, isCompleted: false },
-      { id: 'bx7-l4', title: 'Error Handling in Workflows', type: 'presentation', durationMin: 20, isCompleted: false },
-      { id: 'bx7-l5', title: 'Capstone Project: Integration Workflow', type: 'quiz', durationMin: 30, quiz: [
-        { id: 'bx7-q1', question: 'What is data transformation?', options: ['Converting data format/structure', 'Deleting data', 'Copying data'], correctAnswer: 0 }
+    reviewCount: 298,
+    priceRange: '$',
+    isFree: true,
+    activities: [
+      { id: 'd7-a1', title: 'Safety Briefing', type: 'video', durationMin: 5, isCompleted: false },
+      { id: 'd7-a2', title: 'Jump Levels Guide', type: 'info', durationMin: 4, isCompleted: false },
+      { id: 'd7-a3', title: 'Epic Jumps Gallery', type: 'gallery', durationMin: 3, isCompleted: false }
+    ]
+  },
+  {
+    id: 'd8',
+    title: 'Underwater Cave Diving',
+    description: 'Explore mysterious underwater caves with bioluminescent organisms. Certified divers only.',
+    thumbnail: 'https://images.unsplash.com/photo-1544551763-77ef2d0cfc6c?q=80&w=2070&auto=format&fit=crop',
+    category: 'Adventure',
+    zone: 'South Coast',
+    totalDuration: '4-6 hours',
+    status: DestinationStatus.NOT_VISITED,
+    progress: 0,
+    visitCount: 1200,
+    rating: 5.0,
+    reviewCount: 89,
+    priceRange: '$$$$',
+    activities: [
+      { id: 'd8-a1', title: 'Cave System Overview', type: 'video', durationMin: 8, isCompleted: false },
+      { id: 'd8-a2', title: 'What to Expect', type: 'info', durationMin: 10, isCompleted: false },
+      { id: 'd8-a3', title: 'Bioluminescence Explained', type: 'info', durationMin: 5, isCompleted: false }
+    ]
+  },
+
+  // === GASTRONOMY ===
+  {
+    id: 'd9',
+    title: 'Rum Distillery Tour',
+    description: 'Discover the art of rum-making. Tour the historic distillery and taste premium aged rums.',
+    thumbnail: 'https://images.unsplash.com/photo-1569529465841-dfecdab7503b?q=80&w=2071&auto=format&fit=crop',
+    category: 'Gastronomy',
+    zone: 'North Coast',
+    totalDuration: '2-3 hours',
+    status: DestinationStatus.NOT_VISITED,
+    progress: 0,
+    visitCount: 7600,
+    rating: 4.7,
+    reviewCount: 534,
+    priceRange: '$$',
+    openingHours: '10:00 AM - 4:00 PM',
+    activities: [
+      { id: 'd9-a1', title: 'Distillery Tour', type: 'video', durationMin: 10, isCompleted: false },
+      { id: 'd9-a2', title: 'Rum History', type: 'info', durationMin: 8, isCompleted: false },
+      { id: 'd9-a3', title: 'Tasting Guide', type: 'info', durationMin: 5, isCompleted: false },
+      { id: 'd9-a4', title: 'Rum Expert Challenge', type: 'challenge', durationMin: 5, challenge: [
+        { id: 'd9-q1', question: 'What gives dark rum its color?', options: ['Barrel aging', 'Added caramel', 'Molasses'], correctAnswer: 0, funFact: 'Premium rums can be aged for over 20 years!' }
       ], isCompleted: false }
     ]
   },
   {
-    id: 'bx8',
-    title: 'BX8: Capstone & Certification',
-    description: 'Final project applying all skills, certification exam, becoming a Bajan-X champion.',
-    thumbnail: 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=2070&auto=format&fit=crop',
-    level: 'Advanced',
-    totalDuration: '150-180 min',
-    status: CourseStatus.NOT_STARTED,
+    id: 'd10',
+    title: 'Seafood Beach Restaurant Row',
+    description: 'Fresh catch of the day prepared right on the beach. Multiple restaurants to choose from.',
+    thumbnail: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=2070&auto=format&fit=crop',
+    category: 'Gastronomy',
+    zone: 'West Coast',
+    totalDuration: '2-3 hours',
+    status: DestinationStatus.NOT_VISITED,
     progress: 0,
-    enrolledCount: 320,
-    rating: 5.0,
-    lessons: [
-      { id: 'bx8-l1', title: 'Capstone Project Brief', type: 'pdf', durationMin: 15, isCompleted: false },
-      { id: 'bx8-l2', title: 'Project Implementation Guide', type: 'video', durationMin: 45, isCompleted: false },
-      { id: 'bx8-l3', title: 'Best Practices Review', type: 'presentation', durationMin: 30, isCompleted: false },
-      { id: 'bx8-l4', title: 'Final Certification Exam', type: 'quiz', durationMin: 45, quiz: [
-        { id: 'bx8-q1', question: 'Which HTTP status code indicates success?', options: ['200', '404', '500'], correctAnswer: 0 },
-        { id: 'bx8-q2', question: 'What is the main purpose of API authentication?', options: ['Security', 'Speed', 'Storage'], correctAnswer: 0 }
-      ], isCompleted: false },
-      { id: 'bx8-l5', title: 'Certification & Next Steps', type: 'video', durationMin: 15, isCompleted: false }
+    visitCount: 11200,
+    rating: 4.6,
+    reviewCount: 823,
+    priceRange: '$$',
+    openingHours: '11:00 AM - 11:00 PM',
+    activities: [
+      { id: 'd10-a1', title: 'Restaurant Guide', type: 'video', durationMin: 5, isCompleted: false },
+      { id: 'd10-a2', title: 'Must-Try Dishes', type: 'info', durationMin: 6, isCompleted: false }
+    ]
+  },
+
+  // === HISTORICAL ===
+  {
+    id: 'd11',
+    title: 'Colonial Fort & Garrison',
+    description: 'UNESCO World Heritage Site. Explore 17th-century fortifications with panoramic ocean views.',
+    thumbnail: 'https://images.unsplash.com/photo-1539650116574-8efeb43e2750?q=80&w=2070&auto=format&fit=crop',
+    category: 'Historical',
+    zone: 'Historic Quarter',
+    totalDuration: '2-3 hours',
+    status: DestinationStatus.NOT_VISITED,
+    progress: 0,
+    visitCount: 6300,
+    rating: 4.8,
+    reviewCount: 467,
+    priceRange: '$',
+    openingHours: '9:00 AM - 5:00 PM',
+    activities: [
+      { id: 'd11-a1', title: 'Fort History', type: 'video', durationMin: 12, isCompleted: false },
+      { id: 'd11-a2', title: 'Self-Guided Tour Map', type: 'info', durationMin: 5, isCompleted: false },
+      { id: 'd11-a3', title: 'Cannon Deck 360°', type: 'panorama', durationMin: 3, isCompleted: false },
+      { id: 'd11-a4', title: 'Military History Challenge', type: 'challenge', durationMin: 8, challenge: [
+        { id: 'd11-q1', question: 'What was the fort built to protect against?', options: ['Pirates and invaders', 'Hurricanes', 'Wild animals'], correctAnswer: 0 }
+      ], isCompleted: false }
+    ]
+  },
+  {
+    id: 'd12',
+    title: 'Plantation Great House',
+    description: 'Beautifully preserved 18th-century plantation. Learn about the complex history of sugar and slavery.',
+    thumbnail: 'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?q=80&w=2070&auto=format&fit=crop',
+    category: 'Historical',
+    zone: 'Central Highlands',
+    totalDuration: '2-3 hours',
+    status: DestinationStatus.NOT_VISITED,
+    progress: 0,
+    visitCount: 4800,
+    rating: 4.7,
+    reviewCount: 356,
+    priceRange: '$$',
+    openingHours: '10:00 AM - 4:00 PM',
+    activities: [
+      { id: 'd12-a1', title: 'House Tour', type: 'video', durationMin: 15, isCompleted: false },
+      { id: 'd12-a2', title: 'Plantation History', type: 'info', durationMin: 12, isCompleted: false },
+      { id: 'd12-a3', title: 'Garden Walk', type: 'gallery', durationMin: 5, isCompleted: false }
     ]
   }
 ];
 
-export const MOCK_PATHS: LearningPath[] = [
+// Curated Journeys (Itineraries)
+export const MOCK_JOURNEYS: Journey[] = [
   {
-    id: 'beginner',
-    title: 'Beginner Track (Week 1-2)',
-    description: 'Foundation modules for all learners. Complete all 4 courses to unlock Intermediate.',
-    courseIds: ['bx1', 'bx2', 'bx3', 'bx4'],
-    role: 'ALL'
+    id: 'j1',
+    title: 'Beach Lover\'s Paradise',
+    description: 'The ultimate beach experience. Discover the island\'s most stunning coastal spots.',
+    destinationIds: ['d1', 'd2', 'd10'],
+    theme: 'Relaxation',
+    estimatedDays: 2,
+    difficulty: 'Easy'
   },
   {
-    id: 'intermediate',
-    title: 'Intermediate Track (Week 3)',
-    description: 'Security and platform integration. Complete all Beginner courses first.',
-    courseIds: ['bx5', 'bx6'],
-    role: 'ALL'
+    id: 'j2',
+    title: 'Adventure Seeker',
+    description: 'For thrill-seekers only. Cliff diving, cave exploration, and rainforest adventures.',
+    destinationIds: ['d7', 'd8', 'd3'],
+    theme: 'Adventure',
+    estimatedDays: 3,
+    difficulty: 'Challenging'
   },
   {
-    id: 'advanced',
-    title: 'Advanced Track (Week 4)',
-    description: 'Data workflows and certification. Complete all Intermediate courses first.',
-    courseIds: ['bx7', 'bx8'],
-    role: 'ALL'
+    id: 'j3',
+    title: 'Cultural Immersion',
+    description: 'Dive deep into local culture, history, and traditions.',
+    destinationIds: ['d5', 'd6', 'd11', 'd12'],
+    theme: 'Culture',
+    estimatedDays: 2,
+    difficulty: 'Easy'
+  },
+  {
+    id: 'j4',
+    title: 'Taste of the Island',
+    description: 'A culinary journey through local flavors, from street food to fine dining.',
+    destinationIds: ['d6', 'd9', 'd10'],
+    theme: 'Relaxation',
+    estimatedDays: 2,
+    difficulty: 'Easy'
+  },
+  {
+    id: 'j5',
+    title: 'Complete Island Explorer',
+    description: 'The ultimate island experience. Visit every corner and become a true explorer.',
+    destinationIds: ['d1', 'd3', 'd5', 'd7', 'd9', 'd11'],
+    theme: 'All',
+    estimatedDays: 5,
+    difficulty: 'Moderate'
   }
 ];
 
-export const MINISTRY_STATS = [
-  { name: 'Innovation', value: 85 },
-  { name: 'Finance', value: 62 },
-  { name: 'Education', value: 45 },
-  { name: 'Health', value: 78 },
+// Zone statistics for the exploration map
+export const ZONE_STATS = [
+  { name: 'North Coast', value: 85 },
+  { name: 'South Coast', value: 62 },
+  { name: 'East Coast', value: 45 },
+  { name: 'West Coast', value: 92 },
+  { name: 'Central Highlands', value: 58 },
+  { name: 'Capital District', value: 78 },
+  { name: 'Historic Quarter', value: 70 }
 ];
 
-export const MINISTRIES = [
-  'Ministry of Industry, Innovation, Science and Technology',
-  'Ministry of Education and Science',
-  'Business Barbados',
-  'Trident ID',
-  'Ministry of Energy',
-  'Lands and Survey',
-  'Ministry of Finance',
-  'Ministry of Health',
-  'Ministry of Transport',
-  'Office of the Prime Minister'
+// Popular nationalities visiting
+export const VISITOR_NATIONALITIES = [
+  'United States',
+  'United Kingdom',
+  'Canada',
+  'Germany',
+  'France',
+  'Brazil',
+  'Netherlands',
+  'Italy',
+  'Spain',
+  'Australia'
 ];
+
+// ============ LEGACY COMPATIBILITY EXPORTS ============
+// These maintain backwards compatibility with existing code
+// TODO: Migrate fully to new Destination/Activity model
+
+// Legacy Course type mapped from Destination
+export const MOCK_COURSES = MOCK_DESTINATIONS.map(dest => ({
+  id: dest.id,
+  code: dest.id.toUpperCase(),
+  title: dest.title,
+  description: dest.description,
+  thumbnail: dest.thumbnail,
+  level: dest.category === 'Beach' ? 'Beginner' : dest.category === 'Adventure' ? 'Advanced' : 'Intermediate' as 'Beginner' | 'Intermediate' | 'Advanced',
+  totalDuration: dest.totalDuration,
+  lessons: dest.activities.map(act => ({
+    id: act.id,
+    title: act.title,
+    type: act.type === 'challenge' ? 'quiz' : act.type === 'info' ? 'text' : 'video' as any,
+    durationMin: act.durationMin,
+    videoUrl: act.videoUrl,
+    content: act.content,
+    isCompleted: act.isCompleted || false,
+    quiz: act.challenge?.map(q => ({
+      id: q.id,
+      question: q.question,
+      options: q.options,
+      correctAnswer: q.correctAnswer,
+      explanation: q.explanation
+    }))
+  })),
+  progress: dest.progress,
+  status: dest.status === 'NOT_VISITED' ? 'NOT_STARTED' : dest.status === 'EXPLORING' ? 'IN_PROGRESS' : 'COMPLETED',
+  enrolledCount: dest.visitCount,
+  rating: dest.rating,
+  orderIndex: dest.orderIndex
+}));
+
+export const MOCK_PATHS = MOCK_JOURNEYS.map(journey => ({
+  id: journey.id,
+  title: journey.title,
+  description: journey.description,
+  courseIds: journey.destinationIds,
+  role: 'ALL' as const
+}));
+
+export const MINISTRY_STATS = ZONE_STATS;
+export const MINISTRIES = ISLAND_ZONES;
