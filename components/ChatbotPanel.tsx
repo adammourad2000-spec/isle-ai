@@ -49,6 +49,7 @@ import {
 } from 'lucide-react';
 import { ChatMessage, PlaceCard, Chat, ChatFilters, Trip, Collection, Guide, KnowledgeNode, PriceRange, MapMarker } from '../types/chatbot';
 import { CAYMAN_CONFIG, CAYMAN_KNOWLEDGE_BASE, CAYMAN_GUIDES } from '../data/cayman-islands-knowledge';
+import InteractiveMap from './InteractiveMap';
 
 // ============ TYPES ============
 
@@ -1067,8 +1068,8 @@ What interests you most?`,
           {/* Map panel (only for chat view) */}
           {chatView === 'chat' && showMap && (
             <div className="w-[45%] border-l border-white/5 bg-zinc-900 relative">
-              {/* Map controls */}
-              <div className="absolute top-4 left-4 z-10">
+              {/* Map toggle button */}
+              <div className="absolute top-4 left-4 z-20">
                 <button
                   onClick={() => setShowMap(false)}
                   className="p-2 rounded-lg bg-zinc-800/90 backdrop-blur-sm border border-white/10 text-white hover:bg-zinc-700 transition-all"
@@ -1076,35 +1077,22 @@ What interests you most?`,
                   <ChevronLeft size={20} />
                 </button>
               </div>
-              <div className="absolute top-4 right-4 z-10 flex gap-2">
-                <button className="p-2 rounded-lg bg-zinc-800/90 backdrop-blur-sm border border-white/10 text-white hover:bg-zinc-700 transition-all">
-                  <Sliders size={18} />
-                </button>
-              </div>
-              <div className="absolute bottom-4 right-4 z-10 flex flex-col gap-2">
-                <button className="p-2 rounded-lg bg-zinc-800/90 backdrop-blur-sm border border-white/10 text-white hover:bg-zinc-700 transition-all">
-                  <Plus size={18} />
-                </button>
-                <button className="p-2 rounded-lg bg-zinc-800/90 backdrop-blur-sm border border-white/10 text-white hover:bg-zinc-700 transition-all">
-                  <span className="text-sm font-bold">−</span>
-                </button>
-              </div>
 
-              {/* Placeholder map */}
-              <div className="w-full h-full bg-zinc-800 flex items-center justify-center">
-                <div className="text-center">
-                  <Map size={48} className="text-zinc-600 mx-auto mb-4" />
-                  <p className="text-zinc-500 text-sm">Interactive map will be here</p>
-                  <p className="text-zinc-600 text-xs mt-1">Google Maps integration</p>
-
-                  {/* Show markers count */}
-                  {mapMarkers.length > 0 && (
-                    <div className="mt-4 px-4 py-2 bg-zinc-900/80 rounded-lg inline-block">
-                      <p className="text-cyan-400 text-xs">{mapMarkers.length} places to show</p>
-                    </div>
-                  )}
-                </div>
-              </div>
+              {/* Interactive Map */}
+              <InteractiveMap
+                markers={mapMarkers}
+                selectedMarkerId={mapMarkers.find(m => m.isActive)?.id}
+                onMarkerSelect={(markerId) => {
+                  const marker = mapMarkers.find(m => m.id === markerId);
+                  if (marker?.nodeId) {
+                    const place = CAYMAN_KNOWLEDGE_BASE.find(n => n.id === marker.nodeId);
+                    if (place) handlePlaceSelectInternal(place);
+                  }
+                }}
+                className="w-full h-full"
+                showFilters={true}
+                showSearch={true}
+              />
             </div>
           )}
 
