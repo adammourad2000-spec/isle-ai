@@ -1,0 +1,13 @@
+{
+  "lastProcessedIndex": 4,
+  "processedIds": [
+    "osm-node/775748058",
+    "osm-node/776452247",
+    "osm-node/777053418",
+    "osm-node/801080337",
+    "osm-node/819001334"
+  ],
+  "failedIds": [],
+  "startedAt": "2026-02-04T02:27:55.075Z",
+  "lastUpdated": "2026-02-04T02:29:20.860Z"
+}

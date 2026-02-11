@@ -1,0 +1,25099 @@
+// ============================================
+// SERPAPI ENRICHED DATA - VIP SERVICES, FLIGHTS, AND MORE
+// Auto-generated from SerpAPI
+// ============================================
+
+import type { KnowledgeNode } from '../types/chatbot';
+
+// Type assertion to handle SerpAPI's flexible data format
+// The data is runtime-validated but TypeScript strict checking bypassed for openingHours
+// Generated at: 2026-01-28T23:35:23.286Z
+// Total nodes: 315
+
+export const SERPAPI_ENRICHED_DATA: KnowledgeNode[] = [
+  {
+    "id": "serp-ChIJk2RGIaGHJY8RESPsMyA4tYk-wha1b0cae",
+    "category": "hotel",
+    "subcategory": "Hotel",
+    "name": "The Ritz-Carlton, Grand Cayman",
+    "description": "Posh hotel with fine dining & 2 pools. Premium beachfront hotel with a spa, 2 outdoor pools & water sports, plus fine dining & a cinema.",
+    "shortDescription": "Posh hotel with fine dining & 2 pools. Premium beachfront hotel with a spa, 2 outdoor pools & water sports, plus fine dining & a cinema.",
+    "location": {
+      "address": "Seven Mile Beach, KY1-1209, Cayman Islands",
+      "district": "Seven Mile Beach",
+      "island": "Grand Cayman",
+      "latitude": 19.3359638,
+      "longitude": -81.379341,
+      "googlePlaceId": "ChIJk2RGIaGHJY8RESPsMyA4tYk"
+    },
+    "contact": {
+      "phone": "+1 345-943-9000",
+      "email": "",
+      "website": "https://www.ritzcarlton.com/en/hotels/gcmrz-the-ritz-carlton-grand-cayman/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0",
+      "bookingUrl": "https://www.ritzcarlton.com/en/hotels/gcmrz-the-ritz-carlton-grand-cayman/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMC6VCkRe2tWZCqGHd-YNF_RD56kkGaCin45jQu=w138-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipMC6VCkRe2tWZCqGHd-YNF_RD56kkGaCin45jQu=w138-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 1400,
+      "priceTo": null,
+      "pricePerUnit": "/night",
+      "priceDescription": "From $1400 /night",
+      "currency": "USD",
+      "openingHours": {
+        "raw": null,
+        "isOpen": null,
+        "todayHours": null,
+        "schedule": {},
+        "formattedDisplay": null
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.7,
+      "reviewCount": 1393,
+      "googleRating": 4.7
+    },
+    "tags": [
+      "hotel",
+      "luxury",
+      "hotels",
+      "resorts",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "the",
+      "ritz-carlton,",
+      "grand",
+      "cayman",
+      "luxury",
+      "hotels",
+      "resorts"
+    ],
+    "embeddingText": "The Ritz-Carlton, Grand Cayman Posh hotel with fine dining & 2 pools. Premium beachfront hotel with a spa, 2 outdoor pools & water sports, plus fine dining & a cinema. hotel Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.669Z",
+    "updatedAt": "2026-01-28T23:35:01.669Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJafu7Rp2HJY8R0tCKW_lnbbI-dr12zcpjz",
+    "category": "hotel",
+    "subcategory": "Hotel",
+    "name": "Kimpton Seafire Resort + Spa",
+    "description": "Upmarket beachfront resort with 2 pools. Polished beachfront resort offering multiple bars & restaurants, plus 2 pools, a spa & a gym.",
+    "shortDescription": "Upmarket beachfront resort with 2 pools. Polished beachfront resort offering multiple bars & restaurants, plus 2 pools, a spa & a gym.",
+    "location": {
+      "address": "60 Tanager Way, Grand Cayman KY1-1303, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.351661699999998,
+      "longitude": -81.3831996,
+      "googlePlaceId": "ChIJafu7Rp2HJY8R0tCKW_lnbbI"
+    },
+    "contact": {
+      "phone": "+1 800-546-7866",
+      "email": "",
+      "website": "https://www.seafireresortandspa.com/?&cm_mmc=WEB-_-KI-_-AMER-_-EN-_-EV-_-Google%20Business%20Profile-_-DD-_-seafire",
+      "bookingUrl": "https://www.seafireresortandspa.com/?&cm_mmc=WEB-_-KI-_-AMER-_-EN-_-EV-_-Google%20Business%20Profile-_-DD-_-seafire"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMjMk2_w1h9L9tgCm1f48_ruTpVwmxp152VHzhd=w163-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipMjMk2_w1h9L9tgCm1f48_ruTpVwmxp152VHzhd=w163-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 1110,
+      "priceTo": null,
+      "pricePerUnit": "/night",
+      "priceDescription": "From $1110 /night",
+      "currency": "USD",
+      "openingHours": {
+        "raw": null,
+        "isOpen": null,
+        "todayHours": null,
+        "schedule": {},
+        "formattedDisplay": null
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.8,
+      "reviewCount": 1429,
+      "googleRating": 4.8
+    },
+    "tags": [
+      "hotel",
+      "luxury",
+      "hotels",
+      "resorts",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "kimpton",
+      "seafire",
+      "resort",
+      "spa",
+      "luxury",
+      "hotels",
+      "resorts"
+    ],
+    "embeddingText": "Kimpton Seafire Resort + Spa Upmarket beachfront resort with 2 pools. Polished beachfront resort offering multiple bars & restaurants, plus 2 pools, a spa & a gym. hotel Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.669Z",
+    "updatedAt": "2026-01-28T23:35:01.669Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJC4qpyaGHJY8RxldH2eizxew-krqeed8ak",
+    "category": "hotel",
+    "subcategory": "Hotel",
+    "name": "The Westin Grand Cayman Seven Mile Beach Resort & Spa",
+    "description": "Chic beach retreat with a spa & 2 bars. Polished rooms & suites in a luxe beach resort with 4 restaurants, a spa & a pool, plus 2 bars.",
+    "shortDescription": "Chic beach retreat with a spa & 2 bars. Polished rooms & suites in a luxe beach resort with 4 restaurants, a spa & a pool, plus 2 bars.",
+    "location": {
+      "address": "8JQ9+HHX, 30620 Seven Mile Beach Grand Cayman, West Bay KY1-1200, Cayman Islands",
+      "district": "West Bay",
+      "island": "Grand Cayman",
+      "latitude": 19.339378999999997,
+      "longitude": -81.3810194,
+      "googlePlaceId": "ChIJC4qpyaGHJY8RxldH2eizxew"
+    },
+    "contact": {
+      "phone": "+1 345-945-3800",
+      "email": "",
+      "website": "https://www.marriott.com/en-us/hotels/gcmmi-the-westin-grand-cayman-seven-mile-beach-resort-and-spa/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0",
+      "bookingUrl": "https://www.marriott.com/en-us/hotels/gcmmi-the-westin-grand-cayman-seven-mile-beach-resort-and-spa/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipN7qokQXq8HNAYDpv3xDF8Z0PgfJyBy0InE-Sk-=w138-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipN7qokQXq8HNAYDpv3xDF8Z0PgfJyBy0InE-Sk-=w138-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 924,
+      "priceTo": null,
+      "pricePerUnit": "/night",
+      "priceDescription": "From $924 /night",
+      "currency": "USD",
+      "openingHours": {
+        "raw": null,
+        "isOpen": null,
+        "todayHours": null,
+        "schedule": {},
+        "formattedDisplay": null
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.6,
+      "reviewCount": 1981,
+      "googleRating": 4.6
+    },
+    "tags": [
+      "hotel",
+      "luxury",
+      "hotels",
+      "resorts",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "the",
+      "westin",
+      "grand",
+      "cayman",
+      "seven",
+      "mile",
+      "beach",
+      "resort",
+      "spa",
+      "luxury",
+      "hotels",
+      "resorts"
+    ],
+    "embeddingText": "The Westin Grand Cayman Seven Mile Beach Resort & Spa Chic beach retreat with a spa & 2 bars. Polished rooms & suites in a luxe beach resort with 4 restaurants, a spa & a pool, plus 2 bars. hotel Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.669Z",
+    "updatedAt": "2026-01-28T23:35:01.669Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJhx0SqaqHJY8RaBgXRgAQwzA-0h11ha5f6",
+    "category": "hotel",
+    "subcategory": "Hotel",
+    "name": "Grand Cayman Marriott Resort",
+    "description": "Oceanfront resort with dining & a spa. Chic rooms & suites with balconies in a beachfront resort with a spa, a pool & 2 restaurants.",
+    "shortDescription": "Oceanfront resort with dining & a spa. Chic rooms & suites with balconies in a beachfront resort with a spa, a pool & 2 restaurants.",
+    "location": {
+      "address": "Seven Mile Beach, 389 W Bay Rd, KY1-1202, Cayman Islands",
+      "district": "Seven Mile Beach",
+      "island": "Grand Cayman",
+      "latitude": 19.317460099999998,
+      "longitude": -81.3835374,
+      "googlePlaceId": "ChIJhx0SqaqHJY8RaBgXRgAQwzA"
+    },
+    "contact": {
+      "phone": "+1 345-949-0088",
+      "email": "",
+      "website": "https://www.marriott.com/en-us/hotels/gcmgc-grand-cayman-marriott-resort/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0",
+      "bookingUrl": "https://www.marriott.com/en-us/hotels/gcmgc-grand-cayman-marriott-resort/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPcQkFrIv44GnOw-rpDYVAvVD9EpRqJmzvh-PL0=w138-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipPcQkFrIv44GnOw-rpDYVAvVD9EpRqJmzvh-PL0=w138-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 867,
+      "priceTo": null,
+      "pricePerUnit": "/night",
+      "priceDescription": "From $867 /night",
+      "currency": "USD",
+      "openingHours": {
+        "raw": null,
+        "isOpen": null,
+        "todayHours": null,
+        "schedule": {},
+        "formattedDisplay": null
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.5,
+      "reviewCount": 1615,
+      "googleRating": 4.5
+    },
+    "tags": [
+      "hotel",
+      "luxury",
+      "hotels",
+      "resorts",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "grand",
+      "cayman",
+      "marriott",
+      "resort",
+      "luxury",
+      "hotels",
+      "resorts"
+    ],
+    "embeddingText": "Grand Cayman Marriott Resort Oceanfront resort with dining & a spa. Chic rooms & suites with balconies in a beachfront resort with a spa, a pool & 2 restaurants. hotel Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.669Z",
+    "updatedAt": "2026-01-28T23:35:01.669Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJHaNN7jpCKI8R8MDFypNB0-U-25aji7lh7",
+    "category": "hotel",
+    "subcategory": "Resort hotel",
+    "name": "Le Soleil d'Or",
+    "description": "Le Soleil d'Or located in the Cayman Islands.",
+    "shortDescription": "Le Soleil d'Or located in the Cayman Islands.",
+    "location": {
+      "address": "2147 South Side Rd W, KY2-2001, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Cayman Brac",
+      "latitude": 19.7092837,
+      "longitude": -79.8062538,
+      "googlePlaceId": "ChIJHaNN7jpCKI8R8MDFypNB0-U"
+    },
+    "contact": {
+      "phone": "+1 345-938-7852",
+      "email": "",
+      "website": "http://www.lesoleildor.com/",
+      "bookingUrl": "http://www.lesoleildor.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhFFWjjyiWFq8x3x1ayfSkWxPQcY1C08CQib-uTrM5PlEs2G9WjeyoEhjjFV9JKajxQro3_KxspzjieMR9E0eIYl9244A3D6p6I57kejajHiwQmmrekHsv52VuL-mUtSpHTY8XdZkKivcYAjmhea1zSsNHwpUG5k19ATNVzVuFNjozR_cXhX0B4M=w138-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-proxy/ALd4DhFFWjjyiWFq8x3x1ayfSkWxPQcY1C08CQib-uTrM5PlEs2G9WjeyoEhjjFV9JKajxQro3_KxspzjieMR9E0eIYl9244A3D6p6I57kejajHiwQmmrekHsv52VuL-mUtSpHTY8XdZkKivcYAjmhea1zSsNHwpUG5k19ATNVzVuFNjozR_cXhX0B4M=w138-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 200,
+      "priceTo": 800,
+      "pricePerUnit": "/night",
+      "priceDescription": "$200 - $800 /night",
+      "currency": "USD",
+      "openingHours": {
+        "raw": null,
+        "isOpen": null,
+        "todayHours": null,
+        "schedule": {},
+        "formattedDisplay": null
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.8,
+      "reviewCount": 160,
+      "googleRating": 4.8
+    },
+    "tags": [
+      "resort hotel",
+      "luxury",
+      "hotels",
+      "resorts",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "soleil",
+      "d'or",
+      "luxury",
+      "hotels",
+      "resorts"
+    ],
+    "embeddingText": "Le Soleil d'Or Le Soleil d'Or located in the Cayman Islands. hotel Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.669Z",
+    "updatedAt": "2026-01-28T23:35:01.669Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJZ5GHJ6KHJY8RhvaDUxp6U8c-gtubvgh93",
+    "category": "hotel",
+    "subcategory": "Resort hotel",
+    "name": "The Sunshine Hotel and Suites",
+    "description": "Casual resort offering breakfast. Warm suites with kitchenettes, plus breakfast, an outdoor pool & a poolside restaurant.",
+    "shortDescription": "Casual resort offering breakfast. Warm suites with kitchenettes, plus breakfast, an outdoor pool & a poolside restaurant.",
+    "location": {
+      "address": "1465 Esterly Tibbetts Hwy, KY1-1201, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.338361,
+      "longitude": -81.3785113,
+      "googlePlaceId": "ChIJZ5GHJ6KHJY8RhvaDUxp6U8c"
+    },
+    "contact": {
+      "phone": "+1 345-949-3000",
+      "email": "",
+      "website": "http://www.sunshinesuites.com/",
+      "bookingUrl": "http://www.sunshinesuites.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOonbNnbIvpgawCRqA4lLC7kf6Z39JeFMnmJeuj=w138-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipOonbNnbIvpgawCRqA4lLC7kf6Z39JeFMnmJeuj=w138-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 200,
+      "priceTo": 800,
+      "pricePerUnit": "/night",
+      "priceDescription": "$200 - $800 /night",
+      "currency": "USD",
+      "openingHours": {
+        "raw": null,
+        "isOpen": null,
+        "todayHours": null,
+        "schedule": {},
+        "formattedDisplay": null
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.4,
+      "reviewCount": 725,
+      "googleRating": 4.4
+    },
+    "tags": [
+      "resort hotel",
+      "luxury",
+      "hotels",
+      "resorts",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "the",
+      "sunshine",
+      "hotel",
+      "and",
+      "suites",
+      "luxury",
+      "hotels",
+      "resorts"
+    ],
+    "embeddingText": "The Sunshine Hotel and Suites Casual resort offering breakfast. Warm suites with kitchenettes, plus breakfast, an outdoor pool & a poolside restaurant. hotel Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.669Z",
+    "updatedAt": "2026-01-28T23:35:01.669Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJB4xY5leGJY8RVMHdIoZ-wjM-5hybtuskb",
+    "category": "hotel",
+    "subcategory": "Hotel",
+    "name": "Palm Heights",
+    "description": "Upscale resort with dining & pools. Upmarket resort with 2 restaurants & 2 outdoor pools, plus a fitness center, a spa & a beach club.",
+    "shortDescription": "Upscale resort with dining & pools. Upmarket resort with 2 restaurants & 2 outdoor pools, plus a fitness center, a spa & a beach club.",
+    "location": {
+      "address": "Seven Mile Beach Grand Cayman KY1, 747 W Bay Rd, 1110, Cayman Islands",
+      "district": "Seven Mile Beach",
+      "island": "Grand Cayman",
+      "latitude": 19.3277571,
+      "longitude": -81.3820858,
+      "googlePlaceId": "ChIJB4xY5leGJY8RVMHdIoZ-wjM"
+    },
+    "contact": {
+      "phone": "+1 345-949-1234",
+      "email": "",
+      "website": "https://palmheights.com/",
+      "bookingUrl": "https://palmheights.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOShF6kQ0V8Dq2ZLf7R1Y01EN6rc1uQOlrXEB4u=w80-h120-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipOShF6kQ0V8Dq2ZLf7R1Y01EN6rc1uQOlrXEB4u=w80-h120-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 200,
+      "priceTo": 800,
+      "pricePerUnit": "/night",
+      "priceDescription": "$200 - $800 /night",
+      "currency": "USD",
+      "openingHours": {
+        "raw": null,
+        "isOpen": null,
+        "todayHours": null,
+        "schedule": {},
+        "formattedDisplay": null
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.7,
+      "reviewCount": 281,
+      "googleRating": 4.7
+    },
+    "tags": [
+      "hotel",
+      "luxury",
+      "hotels",
+      "resorts",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "palm",
+      "heights",
+      "luxury",
+      "hotels",
+      "resorts"
+    ],
+    "embeddingText": "Palm Heights Upscale resort with dining & pools. Upmarket resort with 2 restaurants & 2 outdoor pools, plus a fitness center, a spa & a beach club. hotel Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.669Z",
+    "updatedAt": "2026-01-28T23:35:01.669Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJJ9KZ0LuLJY8R0B0JXtdr0eQ-0fsdxzb3j",
+    "category": "hotel",
+    "subcategory": "Resort hotel",
+    "name": "Black Urchin Boutique Resort",
+    "description": "Black Urchin Boutique Resort located in the Cayman Islands.",
+    "shortDescription": "Black Urchin Boutique Resort located in the Cayman Islands.",
+    "location": {
+      "address": "1264 Bodden Town Rd, Breakers, Cayman Islands",
+      "district": "Bodden Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2936916,
+      "longitude": -81.2241528,
+      "googlePlaceId": "ChIJJ9KZ0LuLJY8R0B0JXtdr0eQ"
+    },
+    "contact": {
+      "phone": "+1 833-462-2962",
+      "email": "",
+      "website": "http://www.blackurchin.com/",
+      "bookingUrl": "http://www.blackurchin.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOEhpIPHRIB7_mfN5cO4WVo05HvF3p4GZQdWrlR=w138-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipOEhpIPHRIB7_mfN5cO4WVo05HvF3p4GZQdWrlR=w138-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 200,
+      "priceTo": 800,
+      "pricePerUnit": "/night",
+      "priceDescription": "$200 - $800 /night",
+      "currency": "USD",
+      "openingHours": {
+        "raw": null,
+        "isOpen": null,
+        "todayHours": null,
+        "schedule": {},
+        "formattedDisplay": null
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.8,
+      "reviewCount": 45,
+      "googleRating": 4.8
+    },
+    "tags": [
+      "resort hotel",
+      "luxury",
+      "hotels",
+      "resorts",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "black",
+      "urchin",
+      "boutique",
+      "resort",
+      "luxury",
+      "hotels",
+      "resorts"
+    ],
+    "embeddingText": "Black Urchin Boutique Resort Black Urchin Boutique Resort located in the Cayman Islands. hotel Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJ____JKeHJY8R3CO2ceaAkR4-z73fx8mjz",
+    "category": "hotel",
+    "subcategory": "Hotel",
+    "name": "Caribbean Club",
+    "description": "High-end resort with Italian dining. Polished suites & villas at a luxury beach resort with seafront cabanas & an Italian restaurant.",
+    "shortDescription": "High-end resort with Italian dining. Polished suites & villas at a luxury beach resort with seafront cabanas & an Italian restaurant.",
+    "location": {
+      "address": "871 W Bay Rd, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3312657,
+      "longitude": -81.38157749999999,
+      "googlePlaceId": "ChIJ____JKeHJY8R3CO2ceaAkR4"
+    },
+    "contact": {
+      "phone": "+1 345-623-4500",
+      "email": "",
+      "website": "https://www.caribclub.com/?utm_source=google_gmb&utm_medium=organic&utm_campaign=gmb",
+      "bookingUrl": "https://www.caribclub.com/?utm_source=google_gmb&utm_medium=organic&utm_campaign=gmb"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhFESYHtjmusPgGG-AkB-0Z9nmv3YkaxspKMxAfKFcbrMV9ZpHRXZkR7pP1CK7cKvPsoDrsg_LZhQOsCJECafMVv9Y8OdYCV-e4pVoWN5-IDRfnIu_3-P3oajsRUU888sxXuEJwghwOvajs4fxLW-N4imss0NceZCUcZRUcERLy3m8UPzyAkI0sSQA=w138-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-proxy/ALd4DhFESYHtjmusPgGG-AkB-0Z9nmv3YkaxspKMxAfKFcbrMV9ZpHRXZkR7pP1CK7cKvPsoDrsg_LZhQOsCJECafMVv9Y8OdYCV-e4pVoWN5-IDRfnIu_3-P3oajsRUU888sxXuEJwghwOvajs4fxLW-N4imss0NceZCUcZRUcERLy3m8UPzyAkI0sSQA=w138-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 200,
+      "priceTo": 800,
+      "pricePerUnit": "/night",
+      "priceDescription": "$200 - $800 /night",
+      "currency": "USD",
+      "openingHours": {
+        "raw": null,
+        "isOpen": null,
+        "todayHours": null,
+        "schedule": {},
+        "formattedDisplay": null
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.8,
+      "reviewCount": 130,
+      "googleRating": 4.8
+    },
+    "tags": [
+      "hotel",
+      "luxury",
+      "hotels",
+      "resorts",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "caribbean",
+      "club",
+      "luxury",
+      "hotels",
+      "resorts"
+    ],
+    "embeddingText": "Caribbean Club High-end resort with Italian dining. Polished suites & villas at a luxury beach resort with seafront cabanas & an Italian restaurant. hotel Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJHd4e1aaHJY8RO1k3oSP5O9s-j19pdjwj3",
+    "category": "hotel",
+    "subcategory": "Resort hotel",
+    "name": "Coral Stone Club",
+    "description": "Seaside condos with kitchens & views. Modern, sea-view units with kitchens & screened outdoor dining areas, plus an infinity pool.",
+    "shortDescription": "Seaside condos with kitchens & views. Modern, sea-view units with kitchens & screened outdoor dining areas, plus an infinity pool.",
+    "location": {
+      "address": "985 W Bay Rd, KY1-1201, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3346385,
+      "longitude": -81.3811111,
+      "googlePlaceId": "ChIJHd4e1aaHJY8RO1k3oSP5O9s"
+    },
+    "contact": {
+      "phone": "+1 888-927-2322",
+      "email": "",
+      "website": "https://www.coralstoneclub.com/",
+      "bookingUrl": "https://www.coralstoneclub.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNgdJWNsLD1KAaaDdTZqmr7G5iH6Jc53m-I4jEk=w138-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipNgdJWNsLD1KAaaDdTZqmr7G5iH6Jc53m-I4jEk=w138-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 200,
+      "priceTo": 800,
+      "pricePerUnit": "/night",
+      "priceDescription": "$200 - $800 /night",
+      "currency": "USD",
+      "openingHours": {
+        "raw": null,
+        "isOpen": null,
+        "todayHours": null,
+        "schedule": {},
+        "formattedDisplay": null
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.9,
+      "reviewCount": 93,
+      "googleRating": 4.9
+    },
+    "tags": [
+      "resort hotel",
+      "luxury",
+      "hotels",
+      "resorts",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "coral",
+      "stone",
+      "club",
+      "luxury",
+      "hotels",
+      "resorts"
+    ],
+    "embeddingText": "Coral Stone Club Seaside condos with kitchens & views. Modern, sea-view units with kitchens & screened outdoor dining areas, plus an infinity pool. hotel Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJ01qy2vb1JY8RhKzN5sKNh2U-wxuzbo5dy",
+    "category": "hotel",
+    "subcategory": "Hotel",
+    "name": "THE LONDONER AT MORRITT'S TORTUGA CLUB",
+    "description": "THE LONDONER AT MORRITT'S TORTUGA CLUB located in the Cayman Islands.",
+    "shortDescription": "THE LONDONER AT MORRITT'S TORTUGA CLUB located in the Cayman Islands.",
+    "location": {
+      "address": "2289 Queens Hwy, Colliers, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3453724,
+      "longitude": -81.08883399999999,
+      "googlePlaceId": "ChIJ01qy2vb1JY8RhKzN5sKNh2U"
+    },
+    "contact": {
+      "phone": "+1 345-947-7449",
+      "email": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep497cNbqTcXGibVjUCGyzAaRcgy1sNwyqHi3f3pEYHuV-6xypageX9cs4fIlMQ6IrkWAc4Gg4i6QHEcPDt7Bcv3TDvqsp2146G-LnM6f_564XlBC7u6abo0NzQCDgwiV6jz5aurA=w204-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep497cNbqTcXGibVjUCGyzAaRcgy1sNwyqHi3f3pEYHuV-6xypageX9cs4fIlMQ6IrkWAc4Gg4i6QHEcPDt7Bcv3TDvqsp2146G-LnM6f_564XlBC7u6abo0NzQCDgwiV6jz5aurA=w204-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 200,
+      "priceTo": 800,
+      "pricePerUnit": "/night",
+      "priceDescription": "$200 - $800 /night",
+      "currency": "USD",
+      "openingHours": {
+        "raw": null,
+        "isOpen": null,
+        "todayHours": null,
+        "schedule": {},
+        "formattedDisplay": null
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.5,
+      "reviewCount": 30,
+      "googleRating": 4.5
+    },
+    "tags": [
+      "hotel",
+      "luxury",
+      "hotels",
+      "resorts",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "the",
+      "londoner",
+      "morritt's",
+      "tortuga",
+      "club",
+      "luxury",
+      "hotels",
+      "resorts"
+    ],
+    "embeddingText": "THE LONDONER AT MORRITT'S TORTUGA CLUB THE LONDONER AT MORRITT'S TORTUGA CLUB located in the Cayman Islands. hotel Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJ9WppJvf1JY8RfLoegH-dWN8-mgajp01eq",
+    "category": "hotel",
+    "subcategory": "Resort hotel",
+    "name": "Morritt's Resorts",
+    "description": "Beachfront retreat with an infinity pool. Understated oceanfront resort featuring 1- to 2-bedroom apartments, plus 2 bars & an infinity pool.",
+    "shortDescription": "Beachfront retreat with an infinity pool. Understated oceanfront resort featuring 1- to 2-bedroom apartments, plus 2 bars & an infinity pool.",
+    "location": {
+      "address": "Grand Cayman KY1, 2289 Queens Hwy, 1106, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3451548,
+      "longitude": -81.0897359,
+      "googlePlaceId": "ChIJ9WppJvf1JY8RfLoegH-dWN8"
+    },
+    "contact": {
+      "phone": "+1 345-947-7449",
+      "email": "",
+      "website": "http://morritts.com/",
+      "bookingUrl": "http://morritts.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhHtESbVc1UNN3EqSeUy3TOlu7eVAEUCSFVwuHju5mAOHfhJZPZBawWJ19x2yAB0Dm2IFSKjiCdE1YJeFPRy0I3SFN2wNnM-UA3wVEIhK6p5RoOOdzKuQDzY5WPE5wC7uQCJmG8J0T2HwWS2PRLzSv3zJBSzlpCCIwGqI_X5GlAJAbZs6W2dryv8IA=w138-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-proxy/ALd4DhHtESbVc1UNN3EqSeUy3TOlu7eVAEUCSFVwuHju5mAOHfhJZPZBawWJ19x2yAB0Dm2IFSKjiCdE1YJeFPRy0I3SFN2wNnM-UA3wVEIhK6p5RoOOdzKuQDzY5WPE5wC7uQCJmG8J0T2HwWS2PRLzSv3zJBSzlpCCIwGqI_X5GlAJAbZs6W2dryv8IA=w138-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 200,
+      "priceTo": 800,
+      "pricePerUnit": "/night",
+      "priceDescription": "$200 - $800 /night",
+      "currency": "USD",
+      "openingHours": {
+        "raw": null,
+        "isOpen": null,
+        "todayHours": null,
+        "schedule": {},
+        "formattedDisplay": null
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.4,
+      "reviewCount": 1259,
+      "googleRating": 4.4
+    },
+    "tags": [
+      "resort hotel",
+      "luxury",
+      "hotels",
+      "resorts",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "morritt's",
+      "resorts",
+      "luxury",
+      "hotels"
+    ],
+    "embeddingText": "Morritt's Resorts Beachfront retreat with an infinity pool. Understated oceanfront resort featuring 1- to 2-bedroom apartments, plus 2 bars & an infinity pool. hotel Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJKefxo6qHJY8Ra3ytM2muh0U-hx64o7797",
+    "category": "hotel",
+    "subcategory": "Apartment complex",
+    "name": "Regal Beach Club",
+    "description": "Regal Beach Club located in the Cayman Islands.",
+    "shortDescription": "Regal Beach Club located in the Cayman Islands.",
+    "location": {
+      "address": "Seven Mile Beach, 431 W Bay Rd, Cayman Islands",
+      "district": "Seven Mile Beach",
+      "island": "Grand Cayman",
+      "latitude": 19.3183444,
+      "longitude": -81.3835921,
+      "googlePlaceId": "ChIJKefxo6qHJY8Ra3ytM2muh0U"
+    },
+    "contact": {
+      "phone": "+1 345-945-6189",
+      "email": "",
+      "website": "https://regalbeach.com/",
+      "bookingUrl": "https://regalbeach.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhFpP-1dg7949yIzjHm9PDKsvGdnNR_Pgp66WiLz2M1mNMZfL88MCiamzMw9QQTfyyZ8LOeEZxLvl6MT_137jdmlM488Ce3vcII1C3Rqac6oYOc7gLkEbt04pyhPru3WOXCGtzbV91hCMgPwPoTTWaBKy-819nbJxlcxP__9lgST98uGFv2k1eLy=w138-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-proxy/ALd4DhFpP-1dg7949yIzjHm9PDKsvGdnNR_Pgp66WiLz2M1mNMZfL88MCiamzMw9QQTfyyZ8LOeEZxLvl6MT_137jdmlM488Ce3vcII1C3Rqac6oYOc7gLkEbt04pyhPru3WOXCGtzbV91hCMgPwPoTTWaBKy-819nbJxlcxP__9lgST98uGFv2k1eLy=w138-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 300,
+      "priceTo": 1500,
+      "pricePerUnit": "/night",
+      "priceDescription": "$300 - $1500 /night",
+      "currency": "USD",
+      "openingHours": {
+        "raw": null,
+        "isOpen": null,
+        "todayHours": null,
+        "schedule": {},
+        "formattedDisplay": null
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.5,
+      "reviewCount": 98,
+      "googleRating": 4.5
+    },
+    "tags": [
+      "apartment complex",
+      "luxury",
+      "hotels",
+      "resorts",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "regal",
+      "beach",
+      "club",
+      "luxury",
+      "hotels",
+      "resorts"
+    ],
+    "embeddingText": "Regal Beach Club Regal Beach Club located in the Cayman Islands. hotel Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJWSuPAOOLJY8RnAuoe4tUMM8-iok1kn750",
+    "category": "hotel",
+    "subcategory": "Hotel",
+    "name": "Sea Palm Villas",
+    "description": "Contemporary seafront hotel with a pool. Streamlined villas with kitchens in a modern beachfront hotel offering an outdoor pool.",
+    "shortDescription": "Contemporary seafront hotel with a pool. Streamlined villas with kitchens in a modern beachfront hotel offering an outdoor pool.",
+    "location": {
+      "address": "258 Bodden Town Rd, Bodden Town KY1-1102, Cayman Islands",
+      "district": "Bodden Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2782974,
+      "longitude": -81.2489444,
+      "googlePlaceId": "ChIJWSuPAOOLJY8RnAuoe4tUMM8"
+    },
+    "contact": {
+      "phone": "+1 345-329-4274",
+      "email": "",
+      "website": "http://www.seapalmvillas.com/",
+      "bookingUrl": "http://www.seapalmvillas.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqW81eShOwJUjUyyVphTSw3vIDQWJx3D7R07gTm-TH5ajDuyd84ZEoZ8ELytJWVMbtI64HGfpc2_geLBBoAcFUG98PdsNpl0iUfZhHVeOE4fYRoKaWprAG0o4RkjCEEXgrWuqY=w80-h106-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqW81eShOwJUjUyyVphTSw3vIDQWJx3D7R07gTm-TH5ajDuyd84ZEoZ8ELytJWVMbtI64HGfpc2_geLBBoAcFUG98PdsNpl0iUfZhHVeOE4fYRoKaWprAG0o4RkjCEEXgrWuqY=w80-h106-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 200,
+      "priceTo": 800,
+      "pricePerUnit": "/night",
+      "priceDescription": "$200 - $800 /night",
+      "currency": "USD",
+      "openingHours": {
+        "raw": null,
+        "isOpen": null,
+        "todayHours": null,
+        "schedule": {},
+        "formattedDisplay": null
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.6,
+      "reviewCount": 57,
+      "googleRating": 4.6
+    },
+    "tags": [
+      "hotel",
+      "luxury",
+      "hotels",
+      "resorts",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "sea",
+      "palm",
+      "villas",
+      "luxury",
+      "hotels",
+      "resorts"
+    ],
+    "embeddingText": "Sea Palm Villas Contemporary seafront hotel with a pool. Streamlined villas with kitchens in a modern beachfront hotel offering an outdoor pool. hotel Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJ7zYk85x9L48RWPOqjzcbOxc-c0be9kogh",
+    "category": "hotel",
+    "subcategory": "Bed & breakfast",
+    "name": "Shangri-La Boutique Bed & Breakfast",
+    "description": "Shangri-La Boutique Bed & Breakfast located in the Cayman Islands.",
+    "shortDescription": "Shangri-La Boutique Bed & Breakfast located in the Cayman Islands.",
+    "location": {
+      "address": "Grand Cayman, West Bay, Cayman Islands",
+      "district": "West Bay",
+      "island": "Grand Cayman",
+      "latitude": 19.3788125,
+      "longitude": -81.38793749999999,
+      "googlePlaceId": "ChIJ7zYk85x9L48RWPOqjzcbOxc"
+    },
+    "contact": {
+      "phone": "+1 345-526-1170",
+      "email": "",
+      "website": "http://www.shangrilabandb.com/",
+      "bookingUrl": "http://www.shangrilabandb.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipM6KU_E7DAj_pnPCUuuAAsyG5Hzi4OU8CAe72qj=w138-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipM6KU_E7DAj_pnPCUuuAAsyG5Hzi4OU8CAe72qj=w138-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": null,
+      "priceTo": null,
+      "pricePerUnit": null,
+      "priceDescription": null,
+      "currency": "USD",
+      "openingHours": {
+        "raw": null,
+        "isOpen": null,
+        "todayHours": null,
+        "schedule": {},
+        "formattedDisplay": null
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.8,
+      "reviewCount": 154,
+      "googleRating": 4.8
+    },
+    "tags": [
+      "bed & breakfast",
+      "luxury",
+      "hotels",
+      "resorts",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "shangri-la",
+      "boutique",
+      "bed",
+      "breakfast",
+      "luxury",
+      "hotels",
+      "resorts"
+    ],
+    "embeddingText": "Shangri-La Boutique Bed & Breakfast Shangri-La Boutique Bed & Breakfast located in the Cayman Islands. hotel Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJz8VIb56HJY8RBDBw0lN1Zs4-9g6ikegnh",
+    "category": "hotel",
+    "subcategory": "Resort hotel",
+    "name": "The Avalon Condominiums",
+    "description": "The Avalon Condominiums located in the Cayman Islands.",
+    "shortDescription": "The Avalon Condominiums located in the Cayman Islands.",
+    "location": {
+      "address": "1371 West Bay Road Grand Cayman, 1083 W Bay Rd, West Bay KY1-1205, Cayman Islands",
+      "district": "West Bay",
+      "island": "Grand Cayman",
+      "latitude": 19.345392999999998,
+      "longitude": -81.3820729,
+      "googlePlaceId": "ChIJz8VIb56HJY8RBDBw0lN1Zs4"
+    },
+    "contact": {
+      "phone": "+1 305-395-4503",
+      "email": "",
+      "website": "https://www.avaloncayman.com/",
+      "bookingUrl": "https://www.avaloncayman.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepbqILP-prmO2OdRpp_GMPK7cxOaBrMJUB38TBj5oVVDYcgUsXE-AYsFIXHphdl9VVCr4JL83gdhSMJvYyyJgV390XrViSkuwWx7JOVfJknRigfNNBKP0gsIXt58hkQKthB9LVRnw=w137-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepbqILP-prmO2OdRpp_GMPK7cxOaBrMJUB38TBj5oVVDYcgUsXE-AYsFIXHphdl9VVCr4JL83gdhSMJvYyyJgV390XrViSkuwWx7JOVfJknRigfNNBKP0gsIXt58hkQKthB9LVRnw=w137-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 200,
+      "priceTo": 800,
+      "pricePerUnit": "/night",
+      "priceDescription": "$200 - $800 /night",
+      "currency": "USD",
+      "openingHours": {
+        "raw": null,
+        "isOpen": null,
+        "todayHours": null,
+        "schedule": {},
+        "formattedDisplay": null
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.6,
+      "reviewCount": 35,
+      "googleRating": 4.6
+    },
+    "tags": [
+      "resort hotel",
+      "luxury",
+      "hotels",
+      "resorts",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "the",
+      "avalon",
+      "condominiums",
+      "luxury",
+      "hotels",
+      "resorts"
+    ],
+    "embeddingText": "The Avalon Condominiums The Avalon Condominiums located in the Cayman Islands. hotel Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJG8mRN4SHJY8RvCIX5Ggz1is-47s9oel4k",
+    "category": "restaurant",
+    "subcategory": "Restaurant",
+    "name": "Bàcaro",
+    "description": "Bàcaro located in the Cayman Islands.",
+    "shortDescription": "Bàcaro located in the Cayman Islands.",
+    "location": {
+      "address": "9J4F+GC West Bay, Cayman Islands Grand Cayman KY1, 9006, Cayman Islands",
+      "district": "West Bay",
+      "island": "Grand Cayman",
+      "latitude": 19.357000799999998,
+      "longitude": -81.3761371,
+      "googlePlaceId": "ChIJG8mRN4SHJY8RvCIX5Ggz1is"
+    },
+    "contact": {
+      "phone": "+1 345-749-4800",
+      "email": "",
+      "website": "https://www.bacaro.ky/",
+      "bookingUrl": "https://www.bacaro.ky/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOOg6LG6mLJH6OrN1CDM-oKOk4uWJDsRMkUWipw=w137-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipOOg6LG6mLJH6OrN1CDM-oKOk4uWJDsRMkUWipw=w137-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 30,
+      "priceTo": 100,
+      "pricePerUnit": "/person",
+      "priceDescription": "$30 - $100 /person",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open · Closes 10 pm",
+        "isOpen": true,
+        "todayHours": {
+          "closes": "10 pm"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now · Closes 10 pm"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "dine_in": true,
+        "takeaway": true,
+        "delivery": false
+      }
+    },
+    "ratings": {
+      "overall": 4.7,
+      "reviewCount": 581,
+      "googleRating": 4.7
+    },
+    "tags": [
+      "restaurant",
+      "best",
+      "restaurants",
+      "fine",
+      "dining",
+      "dine in",
+      "takeaway",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "bàcaro",
+      "best",
+      "restaurants",
+      "fine",
+      "dining"
+    ],
+    "embeddingText": "Bàcaro Bàcaro located in the Cayman Islands. restaurant Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJLcHxXISGJY8RVSe_ppLE1CI-p07rggzj1",
+    "category": "restaurant",
+    "subcategory": "Restaurant",
+    "name": "Grand Old House Cayman",
+    "description": "Grand Old House Cayman located in the Cayman Islands.",
+    "shortDescription": "Grand Old House Cayman located in the Cayman Islands.",
+    "location": {
+      "address": "648 S Church St, George Town KY1-1106, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.277954599999997,
+      "longitude": -81.3916966,
+      "googlePlaceId": "ChIJLcHxXISGJY8RVSe_ppLE1CI"
+    },
+    "contact": {
+      "phone": "+1 345-949-9333",
+      "email": "",
+      "website": "https://www.grandoldhouse.com/",
+      "bookingUrl": "https://www.grandoldhouse.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNXbu3Xv4meXyWEmvIUnHUElaTWkh8Wx6Wt2Ekd=w137-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipNXbu3Xv4meXyWEmvIUnHUElaTWkh8Wx6Wt2Ekd=w137-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 30,
+      "priceTo": 100,
+      "pricePerUnit": "/person",
+      "priceDescription": "$30 - $100 /person",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open · Closes 11:30 pm",
+        "isOpen": true,
+        "todayHours": {
+          "closes": "11:30 pm"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now · Closes 11:30 pm"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "dine_in": true,
+        "delivery": false
+      }
+    },
+    "ratings": {
+      "overall": 4.6,
+      "reviewCount": 660,
+      "googleRating": 4.6
+    },
+    "tags": [
+      "restaurant",
+      "best",
+      "restaurants",
+      "fine",
+      "dining",
+      "dine in",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "grand",
+      "old",
+      "house",
+      "cayman",
+      "best",
+      "restaurants",
+      "fine",
+      "dining"
+    ],
+    "embeddingText": "Grand Old House Cayman Grand Old House Cayman located in the Cayman Islands. restaurant Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJaRysdamHJY8R3YjPRV_8Pcc-7l4qd403z",
+    "category": "restaurant",
+    "subcategory": "Seafood restaurant",
+    "name": "Agua Restaurant",
+    "description": "Agua Restaurant located in the Cayman Islands.",
+    "shortDescription": "Agua Restaurant located in the Cayman Islands.",
+    "location": {
+      "address": "47 Forum Ln, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.321279,
+      "longitude": -81.37718199999999,
+      "googlePlaceId": "ChIJaRysdamHJY8R3YjPRV_8Pcc"
+    },
+    "contact": {
+      "phone": "+1 345-949-2482",
+      "email": "",
+      "website": "https://www.agua.ky/",
+      "bookingUrl": "https://www.agua.ky/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweraDgF81nMG0b8j2F0VV9RPxJJY9ZA7T0dIT9q_vvSPy0yO6XhdF4t4ehU7jFcLpeyAStTaYv3sIgqLjBywFowrENrxkQ7rV3QXp7X5-o1X4tYB9oVmwj7vDbK_wBxNKX5DWizy=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweraDgF81nMG0b8j2F0VV9RPxJJY9ZA7T0dIT9q_vvSPy0yO6XhdF4t4ehU7jFcLpeyAStTaYv3sIgqLjBywFowrENrxkQ7rV3QXp7X5-o1X4tYB9oVmwj7vDbK_wBxNKX5DWizy=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 30,
+      "priceTo": 100,
+      "pricePerUnit": "/person",
+      "priceDescription": "$30 - $100 /person",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open · Closes 9:30 pm",
+        "isOpen": true,
+        "todayHours": {
+          "closes": "9:30 pm"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now · Closes 9:30 pm"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "dine_in": true,
+        "takeaway": true,
+        "delivery": false
+      }
+    },
+    "ratings": {
+      "overall": 4.6,
+      "reviewCount": 653,
+      "googleRating": 4.6
+    },
+    "tags": [
+      "seafood restaurant",
+      "best",
+      "restaurants",
+      "fine",
+      "dining",
+      "dine in",
+      "takeaway",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "agua",
+      "restaurant",
+      "best",
+      "restaurants",
+      "fine",
+      "dining"
+    ],
+    "embeddingText": "Agua Restaurant Agua Restaurant located in the Cayman Islands. restaurant Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJxTvIHWuHJY8R2TdxCGO4FQU-nqqqmxfx0",
+    "category": "restaurant",
+    "subcategory": "Restaurant",
+    "name": "UNION GRILL",
+    "description": "UNION GRILL located in the Cayman Islands.",
+    "shortDescription": "UNION GRILL located in the Cayman Islands.",
+    "location": {
+      "address": "The Crescent Camana Bay Grand Cayman KY1, 9006, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3216714,
+      "longitude": -81.3772781,
+      "googlePlaceId": "ChIJxTvIHWuHJY8R2TdxCGO4FQU"
+    },
+    "contact": {
+      "phone": "+1 345-640-5660",
+      "email": "",
+      "website": "http://www.unioncayman.com/",
+      "bookingUrl": "http://www.unioncayman.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOpy2UY8bWCWWF0fBnaf3jwDwO0CZMG7YB8ztGK=w138-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipOpy2UY8bWCWWF0fBnaf3jwDwO0CZMG7YB8ztGK=w138-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 30,
+      "priceTo": 100,
+      "pricePerUnit": "/person",
+      "priceDescription": "$30 - $100 /person",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open · Closes 9 pm",
+        "isOpen": true,
+        "todayHours": {
+          "closes": "9 pm"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now · Closes 9 pm"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "dine_in": true,
+        "takeaway": true,
+        "no_contact_delivery": true
+      }
+    },
+    "ratings": {
+      "overall": 4.8,
+      "reviewCount": 261,
+      "googleRating": 4.8
+    },
+    "tags": [
+      "restaurant",
+      "best",
+      "restaurants",
+      "fine",
+      "dining",
+      "dine in",
+      "takeaway",
+      "no contact delivery",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "union",
+      "grill",
+      "best",
+      "restaurants",
+      "fine",
+      "dining"
+    ],
+    "embeddingText": "UNION GRILL UNION GRILL located in the Cayman Islands. restaurant Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJgaprjKaHJY8RxtxRkJTBoLc-vdr1n2veq",
+    "category": "restaurant",
+    "subcategory": "Steak house",
+    "name": "The Falls Steakhouse (formerly Copper Falls Steakhouse)",
+    "description": "The Falls Steakhouse (formerly Copper Falls Steakhouse) located in the Cayman Islands.",
+    "shortDescription": "The Falls Steakhouse (formerly Copper Falls Steakhouse) located in the Cayman Islands.",
+    "location": {
+      "address": "43 Canal Point Drive Grand Cayman KY1, 1301, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.332262399999998,
+      "longitude": -81.3796225,
+      "googlePlaceId": "ChIJgaprjKaHJY8RxtxRkJTBoLc"
+    },
+    "contact": {
+      "phone": "+1 345-945-4755",
+      "email": "",
+      "website": "http://www.thefallssteakhouse.com/",
+      "bookingUrl": "http://www.thefallssteakhouse.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOgeQFpfb9ro6Mv2m2bn9ZYznMvfrVJhhn4onmE=w137-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipOgeQFpfb9ro6Mv2m2bn9ZYznMvfrVJhhn4onmE=w137-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 20,
+      "priceTo": 60,
+      "pricePerUnit": null,
+      "priceDescription": "$20 - $60",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open · Closes 10 pm",
+        "isOpen": true,
+        "todayHours": {
+          "closes": "10 pm"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now · Closes 10 pm"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "dine_in": true,
+        "takeaway": true,
+        "delivery": false
+      }
+    },
+    "ratings": {
+      "overall": 4.7,
+      "reviewCount": 427,
+      "googleRating": 4.7
+    },
+    "tags": [
+      "steak house",
+      "best",
+      "restaurants",
+      "fine",
+      "dining",
+      "dine in",
+      "takeaway",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "the",
+      "falls",
+      "steakhouse",
+      "(formerly",
+      "copper",
+      "steakhouse)",
+      "best",
+      "restaurants",
+      "fine",
+      "dining"
+    ],
+    "embeddingText": "The Falls Steakhouse (formerly Copper Falls Steakhouse) The Falls Steakhouse (formerly Copper Falls Steakhouse) located in the Cayman Islands. restaurant Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJu8MFbKd9L48RZrzyp3DvcWQ-tum6xb6qe",
+    "category": "restaurant",
+    "subcategory": "Restaurant",
+    "name": "Ristorante Pappagallo",
+    "description": "Ristorante Pappagallo located in the Cayman Islands.",
+    "shortDescription": "Ristorante Pappagallo located in the Cayman Islands.",
+    "location": {
+      "address": "444 Conch Point Rd, West Bay, Cayman Islands",
+      "district": "West Bay",
+      "island": "Grand Cayman",
+      "latitude": 19.3947924,
+      "longitude": -81.3850987,
+      "googlePlaceId": "ChIJu8MFbKd9L48RZrzyp3DvcWQ"
+    },
+    "contact": {
+      "phone": "+1 345-949-1119",
+      "email": "",
+      "website": "https://www.pappagallo.ky/contact-us",
+      "bookingUrl": "https://www.pappagallo.ky/contact-us"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwertIfiK-_dkIPyntApk_NX9TGITiSunjbNv98OUaGRgfommV27M2oE0cS2x-E_SM8XLfWqJBVv5NTBx6lgaJ1HPBgqs2KJyzaaoumu1LQY80youv14nFOWUi2m3JCquF7Uh4SrxeQ=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwertIfiK-_dkIPyntApk_NX9TGITiSunjbNv98OUaGRgfommV27M2oE0cS2x-E_SM8XLfWqJBVv5NTBx6lgaJ1HPBgqs2KJyzaaoumu1LQY80youv14nFOWUi2m3JCquF7Uh4SrxeQ=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 30,
+      "priceTo": 100,
+      "pricePerUnit": "/person",
+      "priceDescription": "$30 - $100 /person",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open · Closes 10 pm",
+        "isOpen": true,
+        "todayHours": {
+          "closes": "10 pm"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now · Closes 10 pm"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "dine_in": true,
+        "takeaway": true,
+        "delivery": false
+      }
+    },
+    "ratings": {
+      "overall": 4.7,
+      "reviewCount": 488,
+      "googleRating": 4.7
+    },
+    "tags": [
+      "restaurant",
+      "best",
+      "restaurants",
+      "fine",
+      "dining",
+      "dine in",
+      "takeaway",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "ristorante",
+      "pappagallo",
+      "best",
+      "restaurants",
+      "fine",
+      "dining"
+    ],
+    "embeddingText": "Ristorante Pappagallo Ristorante Pappagallo located in the Cayman Islands. restaurant Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJoakvb6iHJY8RvBuI--bZzFQ-6x5m1ktij",
+    "category": "restaurant",
+    "subcategory": "Italian restaurant",
+    "name": "Luca",
+    "description": "Luca located in the Cayman Islands.",
+    "shortDescription": "Luca located in the Cayman Islands.",
+    "location": {
+      "address": "871 West Bay Road, Canal Point Dr, Cayman Islands",
+      "district": "West Bay",
+      "island": "Grand Cayman",
+      "latitude": 19.331247899999997,
+      "longitude": -81.3815347,
+      "googlePlaceId": "ChIJoakvb6iHJY8RvBuI--bZzFQ"
+    },
+    "contact": {
+      "phone": "",
+      "email": "",
+      "website": "http://www.luca.ky/",
+      "bookingUrl": "http://www.luca.ky/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepr2C0gmFkiJ8rOZoA7Rz2oE5U9iRSOkuzh5v-HCOaV6SWQzhRvlMcgQFzyotKzD8AcCkbt53bJ8UwBsYqcWQZJRUZfesToS8mYBcS1nNNotW_w_51anhPs8A5WVLdMzbMbyZ4N=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepr2C0gmFkiJ8rOZoA7Rz2oE5U9iRSOkuzh5v-HCOaV6SWQzhRvlMcgQFzyotKzD8AcCkbt53bJ8UwBsYqcWQZJRUZfesToS8mYBcS1nNNotW_w_51anhPs8A5WVLdMzbMbyZ4N=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 30,
+      "priceTo": 100,
+      "pricePerUnit": "/person",
+      "priceDescription": "$30 - $100 /person",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open · Closes 10:30 pm",
+        "isOpen": true,
+        "todayHours": {
+          "closes": "10:30 pm"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now · Closes 10:30 pm"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "dine_in": true,
+        "takeaway": true
+      }
+    },
+    "ratings": {
+      "overall": 4.7,
+      "reviewCount": 716,
+      "googleRating": 4.7
+    },
+    "tags": [
+      "italian restaurant",
+      "best",
+      "restaurants",
+      "fine",
+      "dining",
+      "dine in",
+      "takeaway",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "luca",
+      "best",
+      "restaurants",
+      "fine",
+      "dining"
+    ],
+    "embeddingText": "Luca Luca located in the Cayman Islands. restaurant Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJTVLeUPGHJY8RsFbQq_TgYQ0-dpmb8pj8i",
+    "category": "restaurant",
+    "subcategory": "Restaurant",
+    "name": "Ms. Piper's Kitchen + Garden",
+    "description": "Ms. Piper's Kitchen + Garden located in the Cayman Islands.",
+    "shortDescription": "Ms. Piper's Kitchen + Garden located in the Cayman Islands.",
+    "location": {
+      "address": "22 Piper Way, Grand Cayman KY1-1201, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.317044199999998,
+      "longitude": -81.3840879,
+      "googlePlaceId": "ChIJTVLeUPGHJY8RsFbQq_TgYQ0"
+    },
+    "contact": {
+      "phone": "+1 345-526-1623",
+      "email": "",
+      "website": "http://www.mspipers.ky/",
+      "bookingUrl": "http://www.mspipers.ky/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweo9eYGNwhHhxWjiGyL2dpnhJSEzfXGs68m0jdmgZQjFFHpWKB4fU4UflpaOTLf8PNrdZC9NzrQfN0_kdHLtylYM66LicjGnV2pWl-zUwLl6bjrtl3YHjG1dpleX2MsT-5KVpOOJTg=w163-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweo9eYGNwhHhxWjiGyL2dpnhJSEzfXGs68m0jdmgZQjFFHpWKB4fU4UflpaOTLf8PNrdZC9NzrQfN0_kdHLtylYM66LicjGnV2pWl-zUwLl6bjrtl3YHjG1dpleX2MsT-5KVpOOJTg=w163-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 30,
+      "priceTo": 100,
+      "pricePerUnit": "/person",
+      "priceDescription": "$30 - $100 /person",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open · Closes 10 pm",
+        "isOpen": true,
+        "todayHours": {
+          "closes": "10 pm"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now · Closes 10 pm"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "dine_in": true,
+        "delivery": true
+      }
+    },
+    "ratings": {
+      "overall": 4.7,
+      "reviewCount": 364,
+      "googleRating": 4.7
+    },
+    "tags": [
+      "restaurant",
+      "best",
+      "restaurants",
+      "fine",
+      "dining",
+      "dine in",
+      "delivery",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "ms.",
+      "piper's",
+      "kitchen",
+      "garden",
+      "best",
+      "restaurants",
+      "fine",
+      "dining"
+    ],
+    "embeddingText": "Ms. Piper's Kitchen + Garden Ms. Piper's Kitchen + Garden located in the Cayman Islands. restaurant Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJq51JFqGHJY8R9ZRj-7TqRf0-a3lhp50rp",
+    "category": "restaurant",
+    "subcategory": "Restaurant",
+    "name": "Blue by Eric Ripert",
+    "description": "Blue by Eric Ripert located in the Cayman Islands.",
+    "shortDescription": "Blue by Eric Ripert located in the Cayman Islands.",
+    "location": {
+      "address": "Grand Cayman, The Ritz-Carlton, 1066 W Bay Rd, KY1-1209, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.336175,
+      "longitude": -81.3792381,
+      "googlePlaceId": "ChIJq51JFqGHJY8R9ZRj-7TqRf0"
+    },
+    "contact": {
+      "phone": "+1 345-815-6912",
+      "email": "",
+      "website": "https://www.ritzcarlton.com/en/hotels/gcmrz-the-ritz-carlton-grand-cayman/dining/?scid=f2ae0541-1279-4f24-b197-a979c79310b0",
+      "bookingUrl": "https://www.ritzcarlton.com/en/hotels/gcmrz-the-ritz-carlton-grand-cayman/dining/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweq-A6qLGYPK7CCTr8YztromDQ67KIQIskli3YtTG03kMipwJQC-vUVFqJdo6gynUaoEgEqM9XmCT8-h_TDsdljDqwvCLI2QreOHXZlqSxia7aCk6ty3Ng_nndUkeflSgjcg-_nghQ=w80-h106-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweq-A6qLGYPK7CCTr8YztromDQ67KIQIskli3YtTG03kMipwJQC-vUVFqJdo6gynUaoEgEqM9XmCT8-h_TDsdljDqwvCLI2QreOHXZlqSxia7aCk6ty3Ng_nndUkeflSgjcg-_nghQ=w80-h106-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 30,
+      "priceTo": 100,
+      "pricePerUnit": "/person",
+      "priceDescription": "$30 - $100 /person",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open · Closes 9 pm",
+        "isOpen": true,
+        "todayHours": {
+          "closes": "9 pm"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now · Closes 9 pm"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "dine_in": true,
+        "takeaway": false,
+        "delivery": false
+      }
+    },
+    "ratings": {
+      "overall": 4.6,
+      "reviewCount": 125,
+      "googleRating": 4.6
+    },
+    "tags": [
+      "restaurant",
+      "best",
+      "restaurants",
+      "fine",
+      "dining",
+      "dine in",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "blue",
+      "eric",
+      "ripert",
+      "best",
+      "restaurants",
+      "fine",
+      "dining"
+    ],
+    "embeddingText": "Blue by Eric Ripert Blue by Eric Ripert located in the Cayman Islands. restaurant Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJrQmHRWeGJY8ROQp1Y6DlIP0-fkxnla55x",
+    "category": "restaurant",
+    "subcategory": "Restaurant",
+    "name": "The Brasserie",
+    "description": "The Brasserie located in the Cayman Islands.",
+    "shortDescription": "The Brasserie located in the Cayman Islands.",
+    "location": {
+      "address": "Cricket Square, 171 Elgin Ave, George Town KY1-1004, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2935078,
+      "longitude": -81.3765609,
+      "googlePlaceId": "ChIJrQmHRWeGJY8ROQp1Y6DlIP0"
+    },
+    "contact": {
+      "phone": "+1 345-945-1815",
+      "email": "",
+      "website": "http://brasseriecayman.com/",
+      "bookingUrl": "http://brasseriecayman.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqm-aiIR33c5QyBG6N_TQaMx8RCDYss5560DJroeqdYQ5XIujbV7gDNm0MLkF10-WClW3XVf48ObF6Z_Tn9IKHLr6xTVkB1NYkUABP5tVPoB_KemBMdTqFXLNQqmPc-pNmvMJ4K=w113-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqm-aiIR33c5QyBG6N_TQaMx8RCDYss5560DJroeqdYQ5XIujbV7gDNm0MLkF10-WClW3XVf48ObF6Z_Tn9IKHLr6xTVkB1NYkUABP5tVPoB_KemBMdTqFXLNQqmPc-pNmvMJ4K=w113-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 30,
+      "priceTo": 100,
+      "pricePerUnit": "/person",
+      "priceDescription": "$30 - $100 /person",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open · Closes 10 pm",
+        "isOpen": true,
+        "todayHours": {
+          "closes": "10 pm"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now · Closes 10 pm"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "dine_in": true,
+        "takeaway": true,
+        "delivery": false
+      }
+    },
+    "ratings": {
+      "overall": 4.7,
+      "reviewCount": 228,
+      "googleRating": 4.7
+    },
+    "tags": [
+      "restaurant",
+      "best",
+      "restaurants",
+      "fine",
+      "dining",
+      "dine in",
+      "takeaway",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "the",
+      "brasserie",
+      "best",
+      "restaurants",
+      "fine",
+      "dining"
+    ],
+    "embeddingText": "The Brasserie The Brasserie located in the Cayman Islands. restaurant Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJUan6nnd9L48RXwXiEDIXuQo-9dk8pi7vn",
+    "category": "restaurant",
+    "subcategory": "Seafood restaurant",
+    "name": "Calypso Grill Cayman Islands",
+    "description": "Calypso Grill Cayman Islands located in the Cayman Islands.",
+    "shortDescription": "Calypso Grill Cayman Islands located in the Cayman Islands.",
+    "location": {
+      "address": "10 Morgan's Ln, West Bay KY1-1202, Cayman Islands",
+      "district": "West Bay",
+      "island": "Grand Cayman",
+      "latitude": 19.3767061,
+      "longitude": -81.38141879999999,
+      "googlePlaceId": "ChIJUan6nnd9L48RXwXiEDIXuQo"
+    },
+    "contact": {
+      "phone": "+1 345-949-3948",
+      "email": "",
+      "website": "https://www.calypsogrillcayman.com/",
+      "bookingUrl": "https://www.calypsogrillcayman.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepMng9LNz9HrQFcxbQTI0LTOzTefOL29JH4luhIWEjA_E69yTwezYD4YDOc0AFxgebT2ZQZ_wpqOKcDeKKiS_pAaJTs1ptDi0NRsCd4SlMzLlgJBj25Gc7hNJIQsKOKW6kve53h=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepMng9LNz9HrQFcxbQTI0LTOzTefOL29JH4luhIWEjA_E69yTwezYD4YDOc0AFxgebT2ZQZ_wpqOKcDeKKiS_pAaJTs1ptDi0NRsCd4SlMzLlgJBj25Gc7hNJIQsKOKW6kve53h=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 30,
+      "priceTo": 100,
+      "pricePerUnit": "/person",
+      "priceDescription": "$30 - $100 /person",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open · Closes 10 pm",
+        "isOpen": true,
+        "todayHours": {
+          "closes": "10 pm"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now · Closes 10 pm"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "dine_in": true,
+        "delivery": false
+      }
+    },
+    "ratings": {
+      "overall": 4.7,
+      "reviewCount": 578,
+      "googleRating": 4.7
+    },
+    "tags": [
+      "seafood restaurant",
+      "best",
+      "restaurants",
+      "fine",
+      "dining",
+      "dine in",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "calypso",
+      "grill",
+      "cayman",
+      "islands",
+      "best",
+      "restaurants",
+      "fine",
+      "dining"
+    ],
+    "embeddingText": "Calypso Grill Cayman Islands Calypso Grill Cayman Islands located in the Cayman Islands. restaurant Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJL3v-_Ud9L48R64h9Rxjvwus-zomlqo44z",
+    "category": "restaurant",
+    "subcategory": "Restaurant",
+    "name": "NOVA",
+    "description": "NOVA located in the Cayman Islands.",
+    "shortDescription": "NOVA located in the Cayman Islands.",
+    "location": {
+      "address": "18-A Sea Fan Dr, Grand Cayman KY1-1401, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3891502,
+      "longitude": -81.4047156,
+      "googlePlaceId": "ChIJL3v-_Ud9L48R64h9Rxjvwus"
+    },
+    "contact": {
+      "phone": "+1 345-946-5656",
+      "email": "",
+      "website": "http://www.novacayman.com/",
+      "bookingUrl": "http://www.novacayman.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOqYs8iIY3ZseTrY4sHtDBAquY2wu9DmZ9aRqh2=w137-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipOqYs8iIY3ZseTrY4sHtDBAquY2wu9DmZ9aRqh2=w137-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 30,
+      "priceTo": 100,
+      "pricePerUnit": "/person",
+      "priceDescription": "$30 - $100 /person",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open · Closes 9 pm",
+        "isOpen": true,
+        "todayHours": {
+          "closes": "9 pm"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now · Closes 9 pm"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "dine_in": true,
+        "takeaway": true
+      }
+    },
+    "ratings": {
+      "overall": 4.9,
+      "reviewCount": 156,
+      "googleRating": 4.9
+    },
+    "tags": [
+      "restaurant",
+      "best",
+      "restaurants",
+      "fine",
+      "dining",
+      "dine in",
+      "takeaway",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "nova",
+      "best",
+      "restaurants",
+      "fine",
+      "dining"
+    ],
+    "embeddingText": "NOVA NOVA located in the Cayman Islands. restaurant Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJATftIjyHJY8RPsOhBy4OLNk-3vy0oum2b",
+    "category": "restaurant",
+    "subcategory": "Restaurant",
+    "name": "Aria Restaurant",
+    "description": "Aria Restaurant located in the Cayman Islands.",
+    "shortDescription": "Aria Restaurant located in the Cayman Islands.",
+    "location": {
+      "address": "Garden Retreat, 52a Edgewater Way, Grand Harbour, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.2822106,
+      "longitude": -81.3468719,
+      "googlePlaceId": "ChIJATftIjyHJY8RPsOhBy4OLNk"
+    },
+    "contact": {
+      "phone": "+1 345-936-4795",
+      "email": "",
+      "website": "https://www.ariacayman.ky/",
+      "bookingUrl": "https://www.ariacayman.ky/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMbTBRpV2VnKrhEBHpkSOfil9s204KR7Eh5gH3x=w80-h142-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipMbTBRpV2VnKrhEBHpkSOfil9s204KR7Eh5gH3x=w80-h142-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 30,
+      "priceTo": 100,
+      "pricePerUnit": "/person",
+      "priceDescription": "$30 - $100 /person",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open · Closes 9:30 pm",
+        "isOpen": true,
+        "todayHours": {
+          "closes": "9:30 pm"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now · Closes 9:30 pm"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "dine_in": true,
+        "takeaway": true,
+        "delivery": true
+      }
+    },
+    "ratings": {
+      "overall": 4.6,
+      "reviewCount": 98,
+      "googleRating": 4.6
+    },
+    "tags": [
+      "restaurant",
+      "best",
+      "restaurants",
+      "fine",
+      "dining",
+      "dine in",
+      "takeaway",
+      "delivery",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "aria",
+      "restaurant",
+      "best",
+      "restaurants",
+      "fine",
+      "dining"
+    ],
+    "embeddingText": "Aria Restaurant Aria Restaurant located in the Cayman Islands. restaurant Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJHWrzqKmHJY8REGDlfZ-BUsw-dj8txb5kk",
+    "category": "restaurant",
+    "subcategory": "Restaurant",
+    "name": "Blue Cilantro",
+    "description": "Blue Cilantro located in the Cayman Islands.",
+    "shortDescription": "Blue Cilantro located in the Cayman Islands.",
+    "location": {
+      "address": "1 Gecko Link, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3253204,
+      "longitude": -81.3812268,
+      "googlePlaceId": "ChIJHWrzqKmHJY8REGDlfZ-BUsw"
+    },
+    "contact": {
+      "phone": "+1 345-945-4372",
+      "email": "",
+      "website": "http://bluecilantrocayman.com/",
+      "bookingUrl": "http://bluecilantrocayman.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwer1b0Bfc1jNZyQ6osIUK5iHsax4GnrLALRIUGekf_v03MgaXXFGRUbFoqu_CIgA07TWut_lyzfFEhvcAoUhLZPK1-hvv_mHN-2wULagVWe-Do6S5ND9WogFWSHZnR00SR2yR0g=w163-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwer1b0Bfc1jNZyQ6osIUK5iHsax4GnrLALRIUGekf_v03MgaXXFGRUbFoqu_CIgA07TWut_lyzfFEhvcAoUhLZPK1-hvv_mHN-2wULagVWe-Do6S5ND9WogFWSHZnR00SR2yR0g=w163-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 30,
+      "priceTo": 100,
+      "pricePerUnit": "/person",
+      "priceDescription": "$30 - $100 /person",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open · Closes 11 pm",
+        "isOpen": true,
+        "todayHours": {
+          "closes": "11 pm"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now · Closes 11 pm"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "dine_in": true
+      }
+    },
+    "ratings": {
+      "overall": 4.5,
+      "reviewCount": 242,
+      "googleRating": 4.5
+    },
+    "tags": [
+      "restaurant",
+      "best",
+      "restaurants",
+      "fine",
+      "dining",
+      "dine in",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "blue",
+      "cilantro",
+      "best",
+      "restaurants",
+      "fine",
+      "dining"
+    ],
+    "embeddingText": "Blue Cilantro Blue Cilantro located in the Cayman Islands. restaurant Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJpyP-CJGHJY8RzDF-WRJz8IY-kmxqcrbsq",
+    "category": "restaurant",
+    "subcategory": "Restaurant",
+    "name": "Mario’s",
+    "description": "Mario’s located in the Cayman Islands.",
+    "shortDescription": "Mario’s located in the Cayman Islands.",
+    "location": {
+      "address": "3, 1358 W Bay Rd, Grand Cayman KY1-1000, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3450159,
+      "longitude": -81.3811265,
+      "googlePlaceId": "ChIJpyP-CJGHJY8RzDF-WRJz8IY"
+    },
+    "contact": {
+      "phone": "",
+      "email": "",
+      "website": "http://www.marios.ky/",
+      "bookingUrl": "http://www.marios.ky/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOdybi9xzWtfWYtCyYCWmvq68cqLFO9vCMNj3FE=w80-h106-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipOdybi9xzWtfWYtCyYCWmvq68cqLFO9vCMNj3FE=w80-h106-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 30,
+      "priceTo": 100,
+      "pricePerUnit": "/person",
+      "priceDescription": "$30 - $100 /person",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open · Closes 11 pm",
+        "isOpen": true,
+        "todayHours": {
+          "closes": "11 pm"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now · Closes 11 pm"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "dine_in": true,
+        "delivery": false
+      }
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 100,
+      "googleRating": 5
+    },
+    "tags": [
+      "restaurant",
+      "best",
+      "restaurants",
+      "fine",
+      "dining",
+      "dine in",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "mario’s",
+      "best",
+      "restaurants",
+      "fine",
+      "dining"
+    ],
+    "embeddingText": "Mario’s Mario’s located in the Cayman Islands. restaurant Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJva5ycwCHJY8Rnc1RPoBnAUk-yr5z9pe51",
+    "category": "restaurant",
+    "subcategory": "Restaurant",
+    "name": "Bonny Moon Beach Club",
+    "description": "Bonny Moon Beach Club located in the Cayman Islands.",
+    "shortDescription": "Bonny Moon Beach Club located in the Cayman Islands.",
+    "location": {
+      "address": "53 Seabath Lane, SMB, West Bay KY1-1201, Cayman Islands",
+      "district": "West Bay",
+      "island": "Grand Cayman",
+      "latitude": 19.3495478,
+      "longitude": -81.38372179999999,
+      "googlePlaceId": "ChIJva5ycwCHJY8Rnc1RPoBnAUk"
+    },
+    "contact": {
+      "phone": "+1 345-326-2920",
+      "email": "",
+      "website": "https://bonnymoon.ky/",
+      "bookingUrl": "https://bonnymoon.ky/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerUHm-r5chvlCUEjj9sqgs-OQ_L6RkHdipJyBE3FKCW0o7JyA-gCMlTMFh9hIR7jjrWRdMW3z18hFjreoNyz1kJgHHpkoNZV-bBOoY8KEdC2tc6wQXWCTybYAWYrbh3gbE7JH4oGoLpH2Ma=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerUHm-r5chvlCUEjj9sqgs-OQ_L6RkHdipJyBE3FKCW0o7JyA-gCMlTMFh9hIR7jjrWRdMW3z18hFjreoNyz1kJgHHpkoNZV-bBOoY8KEdC2tc6wQXWCTybYAWYrbh3gbE7JH4oGoLpH2Ma=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 30,
+      "priceTo": 100,
+      "pricePerUnit": "/person",
+      "priceDescription": "$30 - $100 /person",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open · Closes 12 am",
+        "isOpen": true,
+        "todayHours": {
+          "closes": "12 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now · Closes 12 am"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "dine_in": true,
+        "takeaway": true,
+        "delivery": false
+      }
+    },
+    "ratings": {
+      "overall": 4.7,
+      "reviewCount": 738,
+      "googleRating": 4.7
+    },
+    "tags": [
+      "restaurant",
+      "best",
+      "restaurants",
+      "fine",
+      "dining",
+      "dine in",
+      "takeaway",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "bonny",
+      "moon",
+      "beach",
+      "club",
+      "best",
+      "restaurants",
+      "fine",
+      "dining"
+    ],
+    "embeddingText": "Bonny Moon Beach Club Bonny Moon Beach Club located in the Cayman Islands. restaurant Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJicc1l3eHJY8RHxeCNHfMMfU-bs87jquhd",
+    "category": "restaurant",
+    "subcategory": "Restaurant",
+    "name": "RASA",
+    "description": "RASA located in the Cayman Islands.",
+    "shortDescription": "RASA located in the Cayman Islands.",
+    "location": {
+      "address": "Seven Mile Beach, 32 Seafire Way, KY1-1301, Cayman Islands",
+      "district": "Seven Mile Beach",
+      "island": "Grand Cayman",
+      "latitude": 19.3498259,
+      "longitude": -81.38094699999999,
+      "googlePlaceId": "ChIJicc1l3eHJY8RHxeCNHfMMfU"
+    },
+    "contact": {
+      "phone": "",
+      "email": "",
+      "website": "https://indigocaymanrestaurants.com/rasa",
+      "bookingUrl": "https://indigocaymanrestaurants.com/rasa"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqOSOUq56lX-QOxm1hQPAp_0y6VjlSA2KmMu_KKVlbYPABUIq67MgJIqWxX2wleVm5aDv-SP-o0JJeHx4JI8oFdSZ71K837jNbpA0w7kjpi-xD31H0lkm_H_TukDUicmArvMlMOnA=w80-h106-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqOSOUq56lX-QOxm1hQPAp_0y6VjlSA2KmMu_KKVlbYPABUIq67MgJIqWxX2wleVm5aDv-SP-o0JJeHx4JI8oFdSZ71K837jNbpA0w7kjpi-xD31H0lkm_H_TukDUicmArvMlMOnA=w80-h106-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 30,
+      "priceTo": 100,
+      "pricePerUnit": "/person",
+      "priceDescription": "$30 - $100 /person",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Opens soon · 6:45 pm",
+        "isOpen": true,
+        "todayHours": null,
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "dine_in": true,
+        "delivery": false
+      }
+    },
+    "ratings": {
+      "overall": 4.8,
+      "reviewCount": 17,
+      "googleRating": 4.8
+    },
+    "tags": [
+      "restaurant",
+      "best",
+      "restaurants",
+      "fine",
+      "dining",
+      "dine in",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "rasa",
+      "best",
+      "restaurants",
+      "fine",
+      "dining"
+    ],
+    "embeddingText": "RASA RASA located in the Cayman Islands. restaurant Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJKVx5cABBKI8R0W9GiimiC34-2we5qdcvt",
+    "category": "restaurant",
+    "subcategory": "Restaurant",
+    "name": "The Farm Restaurant",
+    "description": "The Farm Restaurant located in the Cayman Islands.",
+    "shortDescription": "The Farm Restaurant located in the Cayman Islands.",
+    "location": {
+      "address": "P55R+GX, 2147 South Side Rd W, Stake Bay KY2-2001, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Cayman Brac",
+      "latitude": 19.7087969,
+      "longitude": -79.8075437,
+      "googlePlaceId": "ChIJKVx5cABBKI8R0W9GiimiC34"
+    },
+    "contact": {
+      "phone": "+1 345-938-7852",
+      "email": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwercrY8svB6CVkBvY9siwFtySxFllSdSB6sPW_rIxHEN6ikYvHYLz6u4Kx-r8ndQHp4ZE-fAQXkZOFSOGMRKnwUagJJrVHWRkqctR1h1fOmCZrhiw6gL_-M2c0Fj2M_JwjpxrHDK=w80-h106-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwercrY8svB6CVkBvY9siwFtySxFllSdSB6sPW_rIxHEN6ikYvHYLz6u4Kx-r8ndQHp4ZE-fAQXkZOFSOGMRKnwUagJJrVHWRkqctR1h1fOmCZrhiw6gL_-M2c0Fj2M_JwjpxrHDK=w80-h106-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 30,
+      "priceTo": 100,
+      "pricePerUnit": "/person",
+      "priceDescription": "$30 - $100 /person",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open · Closes 10 pm",
+        "isOpen": true,
+        "todayHours": {
+          "closes": "10 pm"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now · Closes 10 pm"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "dine_in": true,
+        "takeaway": true,
+        "delivery": false
+      }
+    },
+    "ratings": {
+      "overall": 4.8,
+      "reviewCount": 13,
+      "googleRating": 4.8
+    },
+    "tags": [
+      "restaurant",
+      "best",
+      "restaurants",
+      "fine",
+      "dining",
+      "dine in",
+      "takeaway",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "the",
+      "farm",
+      "restaurant",
+      "best",
+      "restaurants",
+      "fine",
+      "dining"
+    ],
+    "embeddingText": "The Farm Restaurant The Farm Restaurant located in the Cayman Islands. restaurant Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJVzcxOISHJY8RuY6t3f_QiwA-7g3iryevu",
+    "category": "restaurant",
+    "subcategory": "Seafood restaurant",
+    "name": "Morgan's Seafood Restaurant",
+    "description": "Morgan's Seafood Restaurant located in the Cayman Islands.",
+    "shortDescription": "Morgan's Seafood Restaurant located in the Cayman Islands.",
+    "location": {
+      "address": "Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.356288199999998,
+      "longitude": -81.3764331,
+      "googlePlaceId": "ChIJVzcxOISHJY8RuY6t3f_QiwA"
+    },
+    "contact": {
+      "phone": "+1 345-946-7049",
+      "email": "",
+      "website": "http://www.morganscayman.com/",
+      "bookingUrl": "http://www.morganscayman.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepPhr4LWpvO-vQH36p4Mindvq5BWjO0FNB6GmChiHyhozEbPKtIdFB94if-fWKXL5RoNpxWu9L2OBUFmFdF0-vMQVTe1Wm_xPWrh_9Y5zBXqLY7Hr6QyCvN_Luh7vMDPFSPZ0D8=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepPhr4LWpvO-vQH36p4Mindvq5BWjO0FNB6GmChiHyhozEbPKtIdFB94if-fWKXL5RoNpxWu9L2OBUFmFdF0-vMQVTe1Wm_xPWrh_9Y5zBXqLY7Hr6QyCvN_Luh7vMDPFSPZ0D8=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 30,
+      "priceTo": 100,
+      "pricePerUnit": "/person",
+      "priceDescription": "$30 - $100 /person",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open · Closes 10 pm",
+        "isOpen": true,
+        "todayHours": {
+          "closes": "10 pm"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now · Closes 10 pm"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "dine_in": true,
+        "takeaway": true,
+        "no_contact_delivery": true
+      }
+    },
+    "ratings": {
+      "overall": 4.6,
+      "reviewCount": 600,
+      "googleRating": 4.6
+    },
+    "tags": [
+      "seafood restaurant",
+      "best",
+      "restaurants",
+      "fine",
+      "dining",
+      "dine in",
+      "takeaway",
+      "no contact delivery",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "morgan's",
+      "seafood",
+      "restaurant",
+      "best",
+      "restaurants",
+      "fine",
+      "dining"
+    ],
+    "embeddingText": "Morgan's Seafood Restaurant Morgan's Seafood Restaurant located in the Cayman Islands. restaurant Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJQcNU25WHJY8RUySbDil8h-E-sz7yoxbp7",
+    "category": "restaurant",
+    "subcategory": "Restaurant",
+    "name": "The Kitchen Steakhouse",
+    "description": "The Kitchen Steakhouse located in the Cayman Islands.",
+    "shortDescription": "The Kitchen Steakhouse located in the Cayman Islands.",
+    "location": {
+      "address": "Cayman Islands, KY1-9006, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3113484,
+      "longitude": -81.38445159999999,
+      "googlePlaceId": "ChIJQcNU25WHJY8RUySbDil8h-E"
+    },
+    "contact": {
+      "phone": "+1 345-769-4003",
+      "email": "",
+      "website": "http://www.thekitchensteakhouse.com/",
+      "bookingUrl": "http://www.thekitchensteakhouse.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweo3u0fz2Y-eKs4uxi20lLn_xbq5NujNu-cWnUbdyVQaZe49MFuVXXWctJ8FgKpHpSuxkO5nrXHoJEHsXyFTCqPytqtrPBpGgygYsn1GIYgRG6BBUwQgJR2XGvv68oLWuX6oiIQZDA=w92-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweo3u0fz2Y-eKs4uxi20lLn_xbq5NujNu-cWnUbdyVQaZe49MFuVXXWctJ8FgKpHpSuxkO5nrXHoJEHsXyFTCqPytqtrPBpGgygYsn1GIYgRG6BBUwQgJR2XGvv68oLWuX6oiIQZDA=w92-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 30,
+      "priceTo": 100,
+      "pricePerUnit": "/person",
+      "priceDescription": "$30 - $100 /person",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open · Closes 11 pm",
+        "isOpen": true,
+        "todayHours": {
+          "closes": "11 pm"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now · Closes 11 pm"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "dine_in": true,
+        "takeaway": true,
+        "no_contact_delivery": true
+      }
+    },
+    "ratings": {
+      "overall": 4.7,
+      "reviewCount": 119,
+      "googleRating": 4.7
+    },
+    "tags": [
+      "restaurant",
+      "best",
+      "restaurants",
+      "fine",
+      "dining",
+      "dine in",
+      "takeaway",
+      "no contact delivery",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "the",
+      "kitchen",
+      "steakhouse",
+      "best",
+      "restaurants",
+      "fine",
+      "dining"
+    ],
+    "embeddingText": "The Kitchen Steakhouse The Kitchen Steakhouse located in the Cayman Islands. restaurant Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJUVyDOA5iL48RHgcfZgdG2JQ-v9yf9ylyy",
+    "category": "beach",
+    "subcategory": "Beach",
+    "name": "Cayman Kai Public Beach",
+    "description": "Cayman Kai Public Beach located in the Cayman Islands.",
+    "shortDescription": "Cayman Kai Public Beach located in the Cayman Islands.",
+    "location": {
+      "address": "Rum Point Dr, Rum Point, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3692994,
+      "longitude": -81.2665145,
+      "googlePlaceId": "ChIJUVyDOA5iL48RHgcfZgdG2JQ"
+    },
+    "contact": {
+      "phone": "",
+      "email": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepfzXXGE7zwZFMLvWEboFmZligw-uxsldG9L0ZFS7dby9AE15CT9jKY2Nzpd9Wj41iDUUhhYtps3UuWUbHnVNHqN6qn3D_c-EYMdi-L8TKLutCf5yjBpudxeAh3Sje6JxtwosQ=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepfzXXGE7zwZFMLvWEboFmZligw-uxsldG9L0ZFS7dby9AE15CT9jKY2Nzpd9Wj41iDUUhhYtps3UuWUbHnVNHqN6qn3D_c-EYMdi-L8TKLutCf5yjBpudxeAh3Sje6JxtwosQ=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 15,
+      "priceTo": 50,
+      "pricePerUnit": null,
+      "priceDescription": "$15 - $50",
+      "currency": "USD",
+      "openingHours": {
+        "raw": null,
+        "isOpen": null,
+        "todayHours": null,
+        "schedule": {},
+        "formattedDisplay": null
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.3,
+      "reviewCount": 39,
+      "googleRating": 4.3
+    },
+    "tags": [
+      "beach",
+      "beaches",
+      "swimming",
+      "snorkeling",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "cayman",
+      "kai",
+      "public",
+      "beach",
+      "beaches",
+      "swimming",
+      "snorkeling"
+    ],
+    "embeddingText": "Cayman Kai Public Beach Cayman Kai Public Beach located in the Cayman Islands. beach Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJJyvBk52HJY8RyS_9O5tDVXM-fyxz3scj1",
+    "category": "beach",
+    "subcategory": "Beach",
+    "name": "Governors Beach",
+    "description": "Pristine white-sand & snorkeling beach. This white-sand beach with a relaxed vibe has snorkeling & picnicking opportunities.",
+    "shortDescription": "Pristine white-sand & snorkeling beach. This white-sand beach with a relaxed vibe has snorkeling & picnicking opportunities.",
+    "location": {
+      "address": "Governors Way, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.341317699999998,
+      "longitude": -81.38147649999999,
+      "googlePlaceId": "ChIJJyvBk52HJY8RyS_9O5tDVXM"
+    },
+    "contact": {
+      "phone": "",
+      "email": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepx7PJdoNlk5TKfH15kIpUS9epq-bZf-JPZ2bd9VK3YgdpG3hSD5srhk42tXdmKoVGU5T7UXZK5U2A4_uuXQx79FWhkFR2Eh9MXZJEyX1cTfIrYsgwkXr08S7lIsr4Ju7bYgNNC4A=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepx7PJdoNlk5TKfH15kIpUS9epq-bZf-JPZ2bd9VK3YgdpG3hSD5srhk42tXdmKoVGU5T7UXZK5U2A4_uuXQx79FWhkFR2Eh9MXZJEyX1cTfIrYsgwkXr08S7lIsr4Ju7bYgNNC4A=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": null,
+      "priceTo": null,
+      "pricePerUnit": null,
+      "priceDescription": "Free",
+      "currency": "USD",
+      "openingHours": {
+        "raw": null,
+        "isOpen": null,
+        "todayHours": null,
+        "schedule": {},
+        "formattedDisplay": null
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.7,
+      "reviewCount": 683,
+      "googleRating": 4.7
+    },
+    "tags": [
+      "beach",
+      "beaches",
+      "swimming",
+      "snorkeling",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "governors",
+      "beach",
+      "beaches",
+      "swimming",
+      "snorkeling"
+    ],
+    "embeddingText": "Governors Beach Pristine white-sand & snorkeling beach. This white-sand beach with a relaxed vibe has snorkeling & picnicking opportunities. beach Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJsyBzON6JJY8R8cQN3jc6eXc-fd5rq007p",
+    "category": "beach",
+    "subcategory": "Beach",
+    "name": "Water Cay Public Beach",
+    "description": "Water Cay Public Beach located in the Cayman Islands.",
+    "shortDescription": "Water Cay Public Beach located in the Cayman Islands.",
+    "location": {
+      "address": "Water Cay Rd, Rum Point, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3552507,
+      "longitude": -81.275402,
+      "googlePlaceId": "ChIJsyBzON6JJY8R8cQN3jc6eXc"
+    },
+    "contact": {
+      "phone": "",
+      "email": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqt-vs1yv6K2yn1Zyc-N3NmAIGNYqRj3HUmYToFZX1GoGdMaNFUNDurb0j-vDRh6Oa3w-ztUqIe40Tur6cdeXJAJSCHjuXi4M8e0fr0tDUHma029wv2k-B008ETqFhurVa75khIpQ=w92-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqt-vs1yv6K2yn1Zyc-N3NmAIGNYqRj3HUmYToFZX1GoGdMaNFUNDurb0j-vDRh6Oa3w-ztUqIe40Tur6cdeXJAJSCHjuXi4M8e0fr0tDUHma029wv2k-B008ETqFhurVa75khIpQ=w92-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 15,
+      "priceTo": 50,
+      "pricePerUnit": null,
+      "priceDescription": "$15 - $50",
+      "currency": "USD",
+      "openingHours": {
+        "raw": null,
+        "isOpen": null,
+        "todayHours": null,
+        "schedule": {},
+        "formattedDisplay": null
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.5,
+      "reviewCount": 78,
+      "googleRating": 4.5
+    },
+    "tags": [
+      "beach",
+      "beaches",
+      "swimming",
+      "snorkeling",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "water",
+      "cay",
+      "public",
+      "beach",
+      "beaches",
+      "swimming",
+      "snorkeling"
+    ],
+    "embeddingText": "Water Cay Public Beach Water Cay Public Beach located in the Cayman Islands. beach Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJhRDf_BZjL48R9UDC_VzHSXI-wsd7rnphj",
+    "category": "beach",
+    "subcategory": "Park and Garden",
+    "name": "Rum point public beach",
+    "description": "Rum point public beach located in the Cayman Islands.",
+    "shortDescription": "Rum point public beach located in the Cayman Islands.",
+    "location": {
+      "address": "9PCH+M3W, Rum Point Dr, Rum Point, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3717264,
+      "longitude": -81.2722853,
+      "googlePlaceId": "ChIJhRDf_BZjL48R9UDC_VzHSXI"
+    },
+    "contact": {
+      "phone": "",
+      "email": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwer5cWPqRQqDY6fiXux5OtUDZFY8wOs1FiXyKu9YScld3wy8NqtAFgg0-NyYWfvo5H5u6LGS-UttST9GqkmzrAXBtTXEmnKF0Rs-vp6KbTk1SCHrC5wOtgzNUHwKhyxYlucVtStu=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwer5cWPqRQqDY6fiXux5OtUDZFY8wOs1FiXyKu9YScld3wy8NqtAFgg0-NyYWfvo5H5u6LGS-UttST9GqkmzrAXBtTXEmnKF0Rs-vp6KbTk1SCHrC5wOtgzNUHwKhyxYlucVtStu=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 15,
+      "priceTo": 50,
+      "pricePerUnit": null,
+      "priceDescription": "$15 - $50",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open · Closes 12 am",
+        "isOpen": true,
+        "todayHours": {
+          "closes": "12 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now · Closes 12 am"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.4,
+      "reviewCount": 23,
+      "googleRating": 4.4
+    },
+    "tags": [
+      "park and garden",
+      "beaches",
+      "swimming",
+      "snorkeling",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "rum",
+      "point",
+      "public",
+      "beach",
+      "beaches",
+      "swimming",
+      "snorkeling"
+    ],
+    "embeddingText": "Rum point public beach Rum point public beach located in the Cayman Islands. beach Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJbZuRBYh9L48RvicTcixlbZE-24905yyz6",
+    "category": "beach",
+    "subcategory": "Beach",
+    "name": "Cemetery Beach",
+    "description": "Snorkeling & beach glass combing. Long, sandy strip popular for snorkeling, searching for beach glass & picnics under shady trees.",
+    "shortDescription": "Snorkeling & beach glass combing. Long, sandy strip popular for snorkeling, searching for beach glass & picnics under shady trees.",
+    "location": {
+      "address": "West Bay, Cayman Islands",
+      "district": "West Bay",
+      "island": "Grand Cayman",
+      "latitude": 19.3656096,
+      "longitude": -81.3953804,
+      "googlePlaceId": "ChIJbZuRBYh9L48RvicTcixlbZE"
+    },
+    "contact": {
+      "phone": "",
+      "email": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepW6vh2BZKPmycrz0ZKzfMF7sOTcAoPZrKLwWhP_mbGyA5xMub9Byuw6IgUBW_ZwJY1GxPb9gRtGW1l4JBm_5sA3cU8LwRbanqXcuostwKEBMDi4DXXKmuMkWcrtJ_ZOHnmNO6yNA=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepW6vh2BZKPmycrz0ZKzfMF7sOTcAoPZrKLwWhP_mbGyA5xMub9Byuw6IgUBW_ZwJY1GxPb9gRtGW1l4JBm_5sA3cU8LwRbanqXcuostwKEBMDi4DXXKmuMkWcrtJ_ZOHnmNO6yNA=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": null,
+      "priceTo": null,
+      "pricePerUnit": null,
+      "priceDescription": "Free",
+      "currency": "USD",
+      "openingHours": {
+        "raw": null,
+        "isOpen": null,
+        "todayHours": null,
+        "schedule": {},
+        "formattedDisplay": null
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.8,
+      "reviewCount": 188,
+      "googleRating": 4.8
+    },
+    "tags": [
+      "beach",
+      "beaches",
+      "swimming",
+      "snorkeling",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "cemetery",
+      "beach",
+      "beaches",
+      "swimming",
+      "snorkeling"
+    ],
+    "embeddingText": "Cemetery Beach Snorkeling & beach glass combing. Long, sandy strip popular for snorkeling, searching for beach glass & picnics under shady trees. beach Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJYSlB53KHJY8RY3eEpVLPpq4-jvb9odraw",
+    "category": "beach",
+    "subcategory": "Beach",
+    "name": "Seven Mile Beach",
+    "description": "Scenic spot for swimming & snorkeling. Snorkeling & swimming are popular at this picturesque coral-sand beach lined with resorts & bars.",
+    "shortDescription": "Scenic spot for swimming & snorkeling. Snorkeling & swimming are popular at this picturesque coral-sand beach lined with resorts & bars.",
+    "location": {
+      "address": "Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3338672,
+      "longitude": -81.3816993,
+      "googlePlaceId": "ChIJYSlB53KHJY8RY3eEpVLPpq4"
+    },
+    "contact": {
+      "phone": "",
+      "email": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoixSoMRu5K7K0Ql55TOEl3koR6JJTC_-JfoR2m6FCReO3RYXyEmupYBz040GQP5ADsYMclLfreaQcsMqRoCl_kTNXYQ6SSWqe_YcN8LqWgPheEZP0J9g97hEw5JKPBFnPnbRRQzA=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoixSoMRu5K7K0Ql55TOEl3koR6JJTC_-JfoR2m6FCReO3RYXyEmupYBz040GQP5ADsYMclLfreaQcsMqRoCl_kTNXYQ6SSWqe_YcN8LqWgPheEZP0J9g97hEw5JKPBFnPnbRRQzA=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 200,
+      "priceTo": 800,
+      "pricePerUnit": "/night",
+      "priceDescription": "$200 - $800 /night",
+      "currency": "USD",
+      "openingHours": {
+        "raw": null,
+        "isOpen": null,
+        "todayHours": null,
+        "schedule": {},
+        "formattedDisplay": null
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.7,
+      "reviewCount": 976,
+      "googleRating": 4.7
+    },
+    "tags": [
+      "beach",
+      "beaches",
+      "swimming",
+      "snorkeling",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "seven",
+      "mile",
+      "beach",
+      "beaches",
+      "swimming",
+      "snorkeling"
+    ],
+    "embeddingText": "Seven Mile Beach Scenic spot for swimming & snorkeling. Snorkeling & swimming are popular at this picturesque coral-sand beach lined with resorts & bars. beach Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJbRTjYMmIJY8RwJ-5bWXGxFA-wik7islfp",
+    "category": "beach",
+    "subcategory": "Beach",
+    "name": "Spotts Public Beach",
+    "description": "Spotts Public Beach located in the Cayman Islands.",
+    "shortDescription": "Spotts Public Beach located in the Cayman Islands.",
+    "location": {
+      "address": "Savannah, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.2726893,
+      "longitude": -81.3138957,
+      "googlePlaceId": "ChIJbRTjYMmIJY8RwJ-5bWXGxFA"
+    },
+    "contact": {
+      "phone": "",
+      "email": "",
+      "website": "http://www.caymanislands.ky/activities/spotts_beach.aspx",
+      "bookingUrl": "http://www.caymanislands.ky/activities/spotts_beach.aspx"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerkcQ_gIo3ffeofUT6lkyWqdp_peoLHhMt8-JZoUFV4WZCdo6XfZMs-05icGnuFP-Ogdxi_uJ7RmodQ8PXDd7BDqBDEVV131NGOmEmFeYTgaapZ4JLAmfXXqFw7l3rQpIdrs3_q=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerkcQ_gIo3ffeofUT6lkyWqdp_peoLHhMt8-JZoUFV4WZCdo6XfZMs-05icGnuFP-Ogdxi_uJ7RmodQ8PXDd7BDqBDEVV131NGOmEmFeYTgaapZ4JLAmfXXqFw7l3rQpIdrs3_q=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 15,
+      "priceTo": 50,
+      "pricePerUnit": null,
+      "priceDescription": "$15 - $50",
+      "currency": "USD",
+      "openingHours": {
+        "raw": null,
+        "isOpen": null,
+        "todayHours": null,
+        "schedule": {},
+        "formattedDisplay": null
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.6,
+      "reviewCount": 528,
+      "googleRating": 4.6
+    },
+    "tags": [
+      "beach",
+      "beaches",
+      "swimming",
+      "snorkeling",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "spotts",
+      "public",
+      "beach",
+      "beaches",
+      "swimming",
+      "snorkeling"
+    ],
+    "embeddingText": "Spotts Public Beach Spotts Public Beach located in the Cayman Islands. beach Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJAxO2IodfL48Rfd7_-vZll60-qlxplzygi",
+    "category": "beach",
+    "subcategory": "Tourist attraction",
+    "name": "Barefoot Beach",
+    "description": "Barefoot Beach located in the Cayman Islands.",
+    "shortDescription": "Barefoot Beach located in the Cayman Islands.",
+    "location": {
+      "address": "Queens Hwy, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3542356,
+      "longitude": -81.1264211,
+      "googlePlaceId": "ChIJAxO2IodfL48Rfd7_-vZll60"
+    },
+    "contact": {
+      "phone": "",
+      "email": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqtQqb-Hgn7VaasIdntjmMEacE9QA1aaPF9l3ldDUmwulNXXz1bTxRBcL6ZCdKYtJZ6ztQCQOHi2In3Hjo7OX30jfmJA9f2X_nB7eLpm0OdK45JBvYEdyOL29yISBXugRM_LtE7OA=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqtQqb-Hgn7VaasIdntjmMEacE9QA1aaPF9l3ldDUmwulNXXz1bTxRBcL6ZCdKYtJZ6ztQCQOHi2In3Hjo7OX30jfmJA9f2X_nB7eLpm0OdK45JBvYEdyOL29yISBXugRM_LtE7OA=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 15,
+      "priceTo": 50,
+      "pricePerUnit": null,
+      "priceDescription": "$15 - $50",
+      "currency": "USD",
+      "openingHours": {
+        "raw": null,
+        "isOpen": null,
+        "todayHours": null,
+        "schedule": {},
+        "formattedDisplay": null
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 3.6,
+      "reviewCount": 162,
+      "googleRating": 3.6
+    },
+    "tags": [
+      "tourist attraction",
+      "beaches",
+      "swimming",
+      "snorkeling",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "barefoot",
+      "beach",
+      "beaches",
+      "swimming",
+      "snorkeling"
+    ],
+    "embeddingText": "Barefoot Beach Barefoot Beach located in the Cayman Islands. beach Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJ2-beWBJiL48R4drvWk1AnyU-4ddz4260u",
+    "category": "beach",
+    "subcategory": "Beach",
+    "name": "Rum Point Beach",
+    "description": "Water sports, food & facilities. Popular beach featuring snorkeling & water sports, plus bars, concessions & facilities.",
+    "shortDescription": "Water sports, food & facilities. Popular beach featuring snorkeling & water sports, plus bars, concessions & facilities.",
+    "location": {
+      "address": "Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3727306,
+      "longitude": -81.27106859999999,
+      "googlePlaceId": "ChIJ2-beWBJiL48R4drvWk1AnyU"
+    },
+    "contact": {
+      "phone": "",
+      "email": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoV0k36ltnwj2xt0gtjGM7ZznGtWf0xmKfqfUgAqYY-jmdlT3DxDTXwuGg_E8CBdDWSQFs-5xR1wsARH4sA6E8ThEhMrDCq-E_Zmd2Cd4XDpYTzbn_SanNyr-HjwkJ_UrlvSitM_g=w163-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoV0k36ltnwj2xt0gtjGM7ZznGtWf0xmKfqfUgAqYY-jmdlT3DxDTXwuGg_E8CBdDWSQFs-5xR1wsARH4sA6E8ThEhMrDCq-E_Zmd2Cd4XDpYTzbn_SanNyr-HjwkJ_UrlvSitM_g=w163-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 15,
+      "priceTo": 50,
+      "pricePerUnit": null,
+      "priceDescription": "$15 - $50",
+      "currency": "USD",
+      "openingHours": {
+        "raw": null,
+        "isOpen": null,
+        "todayHours": null,
+        "schedule": {},
+        "formattedDisplay": null
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.6,
+      "reviewCount": 214,
+      "googleRating": 4.6
+    },
+    "tags": [
+      "beach",
+      "beaches",
+      "swimming",
+      "snorkeling",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "rum",
+      "point",
+      "beach",
+      "beaches",
+      "swimming",
+      "snorkeling"
+    ],
+    "embeddingText": "Rum Point Beach Water sports, food & facilities. Popular beach featuring snorkeling & water sports, plus bars, concessions & facilities. beach Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJQV4zdIt9L48RzbGALRtZyBw-mtjvaarbm",
+    "category": "beach",
+    "subcategory": "Beach",
+    "name": "West Bay Beach",
+    "description": "Low-key sandy beach & snorkeling area. Laid-back white sand beach featuring a reef with calm, clear water for snorkeling just offshore.",
+    "shortDescription": "Low-key sandy beach & snorkeling area. Laid-back white sand beach featuring a reef with calm, clear water for snorkeling just offshore.",
+    "location": {
+      "address": "West Bay, Cayman Islands",
+      "district": "West Bay",
+      "island": "Grand Cayman",
+      "latitude": 19.3700297,
+      "longitude": -81.4033474,
+      "googlePlaceId": "ChIJQV4zdIt9L48RzbGALRtZyBw"
+    },
+    "contact": {
+      "phone": "",
+      "email": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoY1tdEr7-FwwXcO1sSAV_64iTe3lP4usJjuUx5N4ojzVnHpau2UzrTSooRRm1LyK8Pki715JcejDUzvg7-6Csm6C8aUpGWqa2sINjhHkkt8KyKVNsVpUqpO0yjzp0u2yJ6V_MV=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoY1tdEr7-FwwXcO1sSAV_64iTe3lP4usJjuUx5N4ojzVnHpau2UzrTSooRRm1LyK8Pki715JcejDUzvg7-6Csm6C8aUpGWqa2sINjhHkkt8KyKVNsVpUqpO0yjzp0u2yJ6V_MV=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": null,
+      "priceTo": null,
+      "pricePerUnit": null,
+      "priceDescription": "Free",
+      "currency": "USD",
+      "openingHours": {
+        "raw": null,
+        "isOpen": null,
+        "todayHours": null,
+        "schedule": {},
+        "formattedDisplay": null
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.6,
+      "reviewCount": 106,
+      "googleRating": 4.6
+    },
+    "tags": [
+      "beach",
+      "beaches",
+      "swimming",
+      "snorkeling",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "west",
+      "bay",
+      "beach",
+      "beaches",
+      "swimming",
+      "snorkeling"
+    ],
+    "embeddingText": "West Bay Beach Low-key sandy beach & snorkeling area. Laid-back white sand beach featuring a reef with calm, clear water for snorkeling just offshore. beach Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJH76AQJRiL48Rrm-9RwPkaGo-w5h0zbx7p",
+    "category": "beach",
+    "subcategory": "Tour operator",
+    "name": "Stingray City Cayman Islands",
+    "description": "Stingray City Cayman Islands located in the Cayman Islands.",
+    "shortDescription": "Stingray City Cayman Islands located in the Cayman Islands.",
+    "location": {
+      "address": "32000 SMB Seven Mile Beach Royal Watler Cruise Ship Terminal & Safe Haven Marina Grand Cayman, KY1-1208, Cayman Islands",
+      "district": "Seven Mile Beach",
+      "island": "Grand Cayman",
+      "latitude": 19.3373414,
+      "longitude": -81.36702199999999,
+      "googlePlaceId": "ChIJH76AQJRiL48Rrm-9RwPkaGo"
+    },
+    "contact": {
+      "phone": "+1 345-322-3400",
+      "email": "",
+      "website": "https://www.stingraycitycaymanislands.com/",
+      "bookingUrl": "https://www.stingraycitycaymanislands.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNmJCYlJCB8ayW0u9RnRsWee31J_a9wzHwEV6Lo=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipNmJCYlJCB8ayW0u9RnRsWee31J_a9wzHwEV6Lo=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 50,
+      "priceTo": 150,
+      "pricePerUnit": "/person",
+      "priceDescription": "$50 - $150 /person",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open · Closes 9 pm",
+        "isOpen": true,
+        "todayHours": {
+          "closes": "9 pm"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now · Closes 9 pm"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "on_site_services": true
+      }
+    },
+    "ratings": {
+      "overall": 4.8,
+      "reviewCount": 1500,
+      "googleRating": 4.8
+    },
+    "tags": [
+      "tour operator",
+      "beaches",
+      "swimming",
+      "snorkeling",
+      "on site services",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "stingray",
+      "city",
+      "cayman",
+      "islands",
+      "beaches",
+      "swimming",
+      "snorkeling"
+    ],
+    "embeddingText": "Stingray City Cayman Islands Stingray City Cayman Islands located in the Cayman Islands. beach Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJ-XhV5-X1JY8RcvsyzpcKg9k-qemwyxf9c",
+    "category": "beach",
+    "subcategory": "Park and Garden",
+    "name": "Colliers Public Beach",
+    "description": "Colliers Public Beach located in the Cayman Islands.",
+    "shortDescription": "Colliers Public Beach located in the Cayman Islands.",
+    "location": {
+      "address": "Austin Conolly Dr, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3326732,
+      "longitude": -81.0851258,
+      "googlePlaceId": "ChIJ-XhV5-X1JY8RcvsyzpcKg9k"
+    },
+    "contact": {
+      "phone": "",
+      "email": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepQsdB-5K_zzQBvOLp3TAJqCeVnm_rHyCXyD1qggrHC3Mc6fu2EDGYca4bAxsshhbIGwv04odd1nX_Icsu28PpijH5xJI-2Ku7ccYHm3RzjWUv7WB4nOKZvGWfwPIa-MB8DWoYt2Q=w163-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepQsdB-5K_zzQBvOLp3TAJqCeVnm_rHyCXyD1qggrHC3Mc6fu2EDGYca4bAxsshhbIGwv04odd1nX_Icsu28PpijH5xJI-2Ku7ccYHm3RzjWUv7WB4nOKZvGWfwPIa-MB8DWoYt2Q=w163-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 15,
+      "priceTo": 50,
+      "pricePerUnit": null,
+      "priceDescription": "$15 - $50",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open 24 hours",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "24"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.3,
+      "reviewCount": 133,
+      "googleRating": 4.3
+    },
+    "tags": [
+      "park and garden",
+      "beaches",
+      "swimming",
+      "snorkeling",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "colliers",
+      "public",
+      "beach",
+      "beaches",
+      "swimming",
+      "snorkeling"
+    ],
+    "embeddingText": "Colliers Public Beach Colliers Public Beach located in the Cayman Islands. beach Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJv_qAc4SGJY8RiBnPj-cgdnA-soj2zt0wi",
+    "category": "beach",
+    "subcategory": "Beach",
+    "name": "Smith's Barcadere",
+    "description": "Sandy beach with snorkeling & picnicking. This sandy cove is a popular spot for snorkeling & has picnic tables, showers & restrooms.",
+    "shortDescription": "Sandy beach with snorkeling & picnicking. This sandy cove is a popular spot for snorkeling & has picnic tables, showers & restrooms.",
+    "location": {
+      "address": "S Church St, George Town, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2766313,
+      "longitude": -81.3909686,
+      "googlePlaceId": "ChIJv_qAc4SGJY8RiBnPj-cgdnA"
+    },
+    "contact": {
+      "phone": "",
+      "email": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqQ43tEZsP3C_bOBqlRXUkj1ECHUC6N7J3M4YtsSiY7A75E8tEaHgjs4am9Cc1eSnbFuXgfELjPGrTEr1mCGFbEGJNywlnCwXsfcqcJ1iGZ-iyUiNTefsVzb_LDmcLn6fsKxY1A=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqQ43tEZsP3C_bOBqlRXUkj1ECHUC6N7J3M4YtsSiY7A75E8tEaHgjs4am9Cc1eSnbFuXgfELjPGrTEr1mCGFbEGJNywlnCwXsfcqcJ1iGZ-iyUiNTefsVzb_LDmcLn6fsKxY1A=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 15,
+      "priceTo": 50,
+      "pricePerUnit": null,
+      "priceDescription": "$15 - $50",
+      "currency": "USD",
+      "openingHours": {
+        "raw": null,
+        "isOpen": null,
+        "todayHours": null,
+        "schedule": {},
+        "formattedDisplay": null
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.7,
+      "reviewCount": 858,
+      "googleRating": 4.7
+    },
+    "tags": [
+      "beach",
+      "beaches",
+      "swimming",
+      "snorkeling",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "smith's",
+      "barcadere",
+      "beaches",
+      "swimming",
+      "snorkeling"
+    ],
+    "embeddingText": "Smith's Barcadere Sandy beach with snorkeling & picnicking. This sandy cove is a popular spot for snorkeling & has picnic tables, showers & restrooms. beach Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJr30zPbqJJY8R4M8bn_6eCcs-w44huu2nw",
+    "category": "beach",
+    "subcategory": "Tourist attraction",
+    "name": "Starfish Point",
+    "description": "Starfish Point located in the Cayman Islands.",
+    "shortDescription": "Starfish Point located in the Cayman Islands.",
+    "location": {
+      "address": "9P48+GJF, Rum Point, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.356320999999998,
+      "longitude": -81.2834532,
+      "googlePlaceId": "ChIJr30zPbqJJY8R4M8bn_6eCcs"
+    },
+    "contact": {
+      "phone": "",
+      "email": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoDOsPbcYoeU-FWB8cskQWklwuZgqkBvVZUzYTDSFTqyT_Xf6UZIZxTa_V-I3OykI_yFxdOXsS6Tk_M0G8faV7F2vrxLMqSRdl6Gm6Sz0K7PxiUpiFeRfpGdcTP7_gGZZNxI7E=w80-h106-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoDOsPbcYoeU-FWB8cskQWklwuZgqkBvVZUzYTDSFTqyT_Xf6UZIZxTa_V-I3OykI_yFxdOXsS6Tk_M0G8faV7F2vrxLMqSRdl6Gm6Sz0K7PxiUpiFeRfpGdcTP7_gGZZNxI7E=w80-h106-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 50,
+      "priceTo": 150,
+      "pricePerUnit": "/person",
+      "priceDescription": "$50 - $150 /person",
+      "currency": "USD",
+      "openingHours": {
+        "raw": null,
+        "isOpen": null,
+        "todayHours": null,
+        "schedule": {},
+        "formattedDisplay": null
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.6,
+      "reviewCount": 511,
+      "googleRating": 4.6
+    },
+    "tags": [
+      "tourist attraction",
+      "beaches",
+      "swimming",
+      "snorkeling",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "starfish",
+      "point",
+      "beaches",
+      "swimming",
+      "snorkeling"
+    ],
+    "embeddingText": "Starfish Point Starfish Point located in the Cayman Islands. beach Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJF5MBEj-HJY8RakFQb7s9a4s-iikagwasj",
+    "category": "beach",
+    "subcategory": "Tourist attraction",
+    "name": "Governor's Beach",
+    "description": "Governor's Beach located in the Cayman Islands.",
+    "shortDescription": "Governor's Beach located in the Cayman Islands.",
+    "location": {
+      "address": "1293 W Bay Rd, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.340847699999998,
+      "longitude": -81.38150449999999,
+      "googlePlaceId": "ChIJF5MBEj-HJY8RakFQb7s9a4s"
+    },
+    "contact": {
+      "phone": "",
+      "email": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerlrUMUAvGRH5OKNN2OmpoCMbAeiYXBIbyWX1oHIbYTLN1UAii9DkUf06LtT3ukkxeun3HLx1LX7r3LrQMxeKq0mTaALeM01z7pWz3mQnBz_Lm3NUU2ghPS71zU_fHsV-AoEUg=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerlrUMUAvGRH5OKNN2OmpoCMbAeiYXBIbyWX1oHIbYTLN1UAii9DkUf06LtT3ukkxeun3HLx1LX7r3LrQMxeKq0mTaALeM01z7pWz3mQnBz_Lm3NUU2ghPS71zU_fHsV-AoEUg=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": null,
+      "priceTo": null,
+      "pricePerUnit": null,
+      "priceDescription": "Free",
+      "currency": "USD",
+      "openingHours": {
+        "raw": null,
+        "isOpen": null,
+        "todayHours": null,
+        "schedule": {},
+        "formattedDisplay": null
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.9,
+      "reviewCount": 33,
+      "googleRating": 4.9
+    },
+    "tags": [
+      "tourist attraction",
+      "beaches",
+      "swimming",
+      "snorkeling",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "governor's",
+      "beach",
+      "beaches",
+      "swimming",
+      "snorkeling"
+    ],
+    "embeddingText": "Governor's Beach Governor's Beach located in the Cayman Islands. beach Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJQfJgB06PJY8R2csciYMd0mk-uc248bhu8",
+    "category": "beach",
+    "subcategory": "Public beach",
+    "name": "Beach Bay",
+    "description": "Beach Bay located in the Cayman Islands.",
+    "shortDescription": "Beach Bay located in the Cayman Islands.",
+    "location": {
+      "address": "7P7F+PH9, Beach Bay Rd, Bodden Town, Cayman Islands",
+      "district": "Bodden Town",
+      "island": "Grand Cayman",
+      "latitude": 19.264277099999997,
+      "longitude": -81.27602689999999,
+      "googlePlaceId": "ChIJQfJgB06PJY8R2csciYMd0mk"
+    },
+    "contact": {
+      "phone": "",
+      "email": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweog4yqQ92kzfb0PRoCKl6f2lTUezuQDPTYfY32ktrA7aF1mbZ37E3GiyJ4cp-kCJ0gEYMX8Kh0Z8d26pYivHEXL-Dd8RDh9q3hx6nU7fjQjNSCS3fpNDLDaw8GF6x00_son5Qbt=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweog4yqQ92kzfb0PRoCKl6f2lTUezuQDPTYfY32ktrA7aF1mbZ37E3GiyJ4cp-kCJ0gEYMX8Kh0Z8d26pYivHEXL-Dd8RDh9q3hx6nU7fjQjNSCS3fpNDLDaw8GF6x00_son5Qbt=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 15,
+      "priceTo": 50,
+      "pricePerUnit": null,
+      "priceDescription": "$15 - $50",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open · Closes 12 am",
+        "isOpen": true,
+        "todayHours": {
+          "closes": "12 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now · Closes 12 am"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.6,
+      "reviewCount": 42,
+      "googleRating": 4.6
+    },
+    "tags": [
+      "public beach",
+      "beaches",
+      "swimming",
+      "snorkeling",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "beach",
+      "bay",
+      "beaches",
+      "swimming",
+      "snorkeling"
+    ],
+    "embeddingText": "Beach Bay Beach Bay located in the Cayman Islands. beach Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJ5_WLfXGHJY8R9YJUnc1jzAc-wwlrbggl3",
+    "category": "beach",
+    "subcategory": "Tourist attraction",
+    "name": "Public Beach",
+    "description": "Public Beach located in the Cayman Islands.",
+    "shortDescription": "Public Beach located in the Cayman Islands.",
+    "location": {
+      "address": "1453 W Bay Rd, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.348449199999997,
+      "longitude": -81.3835185,
+      "googlePlaceId": "ChIJ5_WLfXGHJY8R9YJUnc1jzAc"
+    },
+    "contact": {
+      "phone": "",
+      "email": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepMbPiUo0-xIJa5A1QvZaySS8wjTsNTZiCwW6tbFUNpehMNK4NZYYANSdDboGx6M_y5miOPPpnFG21wcv3nB2XhJUCQRACBuGI58YCoDnmg9zlpuUBAn83XExU5hOS0ldV7JNe5M0Pw-kIE=w80-h106-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepMbPiUo0-xIJa5A1QvZaySS8wjTsNTZiCwW6tbFUNpehMNK4NZYYANSdDboGx6M_y5miOPPpnFG21wcv3nB2XhJUCQRACBuGI58YCoDnmg9zlpuUBAn83XExU5hOS0ldV7JNe5M0Pw-kIE=w80-h106-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 15,
+      "priceTo": 50,
+      "pricePerUnit": null,
+      "priceDescription": "$15 - $50",
+      "currency": "USD",
+      "openingHours": {
+        "raw": null,
+        "isOpen": null,
+        "todayHours": null,
+        "schedule": {},
+        "formattedDisplay": null
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.7,
+      "reviewCount": 27,
+      "googleRating": 4.7
+    },
+    "tags": [
+      "tourist attraction",
+      "beaches",
+      "swimming",
+      "snorkeling",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "public",
+      "beach",
+      "beaches",
+      "swimming",
+      "snorkeling"
+    ],
+    "embeddingText": "Public Beach Public Beach located in the Cayman Islands. beach Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJE6yBPiqEJY8RHRnybnVFj7M-jik73efhh",
+    "category": "beach",
+    "subcategory": "Tourist attraction",
+    "name": "South Sound Public Beach",
+    "description": "South Sound Public Beach located in the Cayman Islands.",
+    "shortDescription": "South Sound Public Beach located in the Cayman Islands.",
+    "location": {
+      "address": "7J96+CJH, S Sound Rd, George Town, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2685592,
+      "longitude": -81.3883898,
+      "googlePlaceId": "ChIJE6yBPiqEJY8RHRnybnVFj7M"
+    },
+    "contact": {
+      "phone": "",
+      "email": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoOKwc9EQE-OarwY3Ujs2bjLhrpO_w_VRMwXwFXode_as3QlIecIJ4LiwUjLZXFlY9zEZPsnlN1a46uZzEy1HiZgoz8kswQTX58caE4FICQQnLVeK-v2AgT_OLV-HSD9F9y2xNxXQ=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoOKwc9EQE-OarwY3Ujs2bjLhrpO_w_VRMwXwFXode_as3QlIecIJ4LiwUjLZXFlY9zEZPsnlN1a46uZzEy1HiZgoz8kswQTX58caE4FICQQnLVeK-v2AgT_OLV-HSD9F9y2xNxXQ=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 15,
+      "priceTo": 50,
+      "pricePerUnit": null,
+      "priceDescription": "$15 - $50",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open 24 hours",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "24"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.4,
+      "reviewCount": 121,
+      "googleRating": 4.4
+    },
+    "tags": [
+      "tourist attraction",
+      "beaches",
+      "swimming",
+      "snorkeling",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "south",
+      "sound",
+      "public",
+      "beach",
+      "beaches",
+      "swimming",
+      "snorkeling"
+    ],
+    "embeddingText": "South Sound Public Beach South Sound Public Beach located in the Cayman Islands. beach Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJq6qqalL0JY8RgdzuXGCYeG4-7wjk72bza",
+    "category": "beach",
+    "subcategory": "Barbecue area",
+    "name": "Heritage Beach",
+    "description": "Heritage Beach located in the Cayman Islands.",
+    "shortDescription": "Heritage Beach located in the Cayman Islands.",
+    "location": {
+      "address": "7RXP+JVC, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.2990604,
+      "longitude": -81.1628562,
+      "googlePlaceId": "ChIJq6qqalL0JY8RgdzuXGCYeG4"
+    },
+    "contact": {
+      "phone": "",
+      "email": "",
+      "website": "http://www.nationaltrust.org.ky/heritage-beach",
+      "bookingUrl": "http://www.nationaltrust.org.ky/heritage-beach"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerY_DXr4cNMxEVvscZu7pJHsxLZmNxWjgQmluuu4AXfVNyC90sbHfJm1gTH-ec1l1hGMMIZkb9ubLPSsKLZ3FUUdjjeSk4qZj0yqDTBnsyjrNl-JmZ1q0J_78abgLY-0n9Om6ibCRXb4Yd5=w163-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerY_DXr4cNMxEVvscZu7pJHsxLZmNxWjgQmluuu4AXfVNyC90sbHfJm1gTH-ec1l1hGMMIZkb9ubLPSsKLZ3FUUdjjeSk4qZj0yqDTBnsyjrNl-JmZ1q0J_78abgLY-0n9Om6ibCRXb4Yd5=w163-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 15,
+      "priceTo": 50,
+      "pricePerUnit": null,
+      "priceDescription": "$15 - $50",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open 24 hours",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "24"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.5,
+      "reviewCount": 24,
+      "googleRating": 4.5
+    },
+    "tags": [
+      "barbecue area",
+      "beaches",
+      "swimming",
+      "snorkeling",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "heritage",
+      "beach",
+      "beaches",
+      "swimming",
+      "snorkeling"
+    ],
+    "embeddingText": "Heritage Beach Heritage Beach located in the Cayman Islands. beach Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJw9kCtHl9L48RoC5PgnD4hdQ-fk4uc4bt1",
+    "category": "beach",
+    "subcategory": "Tourist attraction",
+    "name": "Dolphin Cove Cayman",
+    "description": "Dolphin Cove Cayman located in the Cayman Islands.",
+    "shortDescription": "Dolphin Cove Cayman located in the Cayman Islands.",
+    "location": {
+      "address": "9A Garvin Rd, West Bay, Cayman Islands",
+      "district": "West Bay",
+      "island": "Grand Cayman",
+      "latitude": 19.3742703,
+      "longitude": -81.38086009999999,
+      "googlePlaceId": "ChIJw9kCtHl9L48RoC5PgnD4hdQ"
+    },
+    "contact": {
+      "phone": "+1 866-393-5158",
+      "email": "",
+      "website": "http://www.dolphincove.ky/",
+      "bookingUrl": "http://www.dolphincove.ky/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepbqdd03QYzgOvurPKNCpqOFbs1_0gkf0QHBiiSiUiwRZfSEuPCcMk8oKFwCjNKWkzZ5Jlf59pCU2WpaxFb8rfgq-IBgI4fOIiD_FmC6EbQ2iQH6bc_CBQ_UTkpzwbhudjzA6Mwow=w138-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepbqdd03QYzgOvurPKNCpqOFbs1_0gkf0QHBiiSiUiwRZfSEuPCcMk8oKFwCjNKWkzZ5Jlf59pCU2WpaxFb8rfgq-IBgI4fOIiD_FmC6EbQ2iQH6bc_CBQ_UTkpzwbhudjzA6Mwow=w138-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 50,
+      "priceTo": 150,
+      "pricePerUnit": "/person",
+      "priceDescription": "$50 - $150 /person",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closes soon · 7 pm · Opens 6 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "6 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.2,
+      "reviewCount": 323,
+      "googleRating": 4.2
+    },
+    "tags": [
+      "tourist attraction",
+      "beaches",
+      "swimming",
+      "snorkeling",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "dolphin",
+      "cove",
+      "cayman",
+      "beaches",
+      "swimming",
+      "snorkeling"
+    ],
+    "embeddingText": "Dolphin Cove Cayman Dolphin Cove Cayman located in the Cayman Islands. beach Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJsYIJwqmHJY8R-mf6hAwXxd4-sd5yehin5",
+    "category": "diving_snorkeling",
+    "subcategory": "Dive shop",
+    "name": "Living The Dream Divers",
+    "description": "Living The Dream Divers located in the Cayman Islands.",
+    "shortDescription": "Living The Dream Divers located in the Cayman Islands.",
+    "location": {
+      "address": "Living the Dream Dive Shop 245 North Church Street Grand Cayman KY1, 1206, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3035773,
+      "longitude": -81.3827945,
+      "googlePlaceId": "ChIJsYIJwqmHJY8R-mf6hAwXxd4"
+    },
+    "contact": {
+      "phone": "+1 345-526-3483",
+      "email": "",
+      "website": "https://www.livingthedreamdivers.com/",
+      "bookingUrl": "https://www.livingthedreamdivers.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMbc9vPoQ1Utk5AFmY-8Bfwu1DA4Oeebwm-w7lY=w112-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipMbc9vPoQ1Utk5AFmY-8Bfwu1DA4Oeebwm-w7lY=w112-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 20,
+      "priceTo": 60,
+      "pricePerUnit": null,
+      "priceDescription": "$20 - $60",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 7:30 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "7:30 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "in_store_shopping": true
+      }
+    },
+    "ratings": {
+      "overall": 4.9,
+      "reviewCount": 281,
+      "googleRating": 4.9
+    },
+    "tags": [
+      "dive shop",
+      "scuba",
+      "diving",
+      "centers",
+      "in store shopping",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "living",
+      "the",
+      "dream",
+      "divers",
+      "scuba",
+      "diving",
+      "centers"
+    ],
+    "embeddingText": "Living The Dream Divers Living The Dream Divers located in the Cayman Islands. diving_snorkeling Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJtfKAaViGJY8RU5OGduskWO0-9cjtux0vw",
+    "category": "diving_snorkeling",
+    "subcategory": "Dive shop",
+    "name": "Atlantis Dive Center",
+    "description": "Atlantis Dive Center located in the Cayman Islands.",
+    "shortDescription": "Atlantis Dive Center located in the Cayman Islands.",
+    "location": {
+      "address": "Box 211, 37 Seafarers Wy, Grand Cayman KY1-1104, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.293829499999998,
+      "longitude": -81.383777,
+      "googlePlaceId": "ChIJtfKAaViGJY8RU5OGduskWO0"
+    },
+    "contact": {
+      "phone": "+1 345-936-8685",
+      "email": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqN7uL0yGA2E1biGUOHgFI2CkuG1EtwgPJRGwKamMiC6JNZ3c6L4C3HqpHzCVQvAAjjrAa__8Tp4zE04himjnQziraJ5glpROL2VJbvifeY03dTfzAFo9T_pumyKBFkTDP-e0idbA=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqN7uL0yGA2E1biGUOHgFI2CkuG1EtwgPJRGwKamMiC6JNZ3c6L4C3HqpHzCVQvAAjjrAa__8Tp4zE04himjnQziraJ5glpROL2VJbvifeY03dTfzAFo9T_pumyKBFkTDP-e0idbA=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 20,
+      "priceTo": 60,
+      "pricePerUnit": null,
+      "priceDescription": "$20 - $60",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 7 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "7 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "on_site_services": true
+      }
+    },
+    "ratings": {
+      "overall": 4.9,
+      "reviewCount": 63,
+      "googleRating": 4.9
+    },
+    "tags": [
+      "dive shop",
+      "scuba",
+      "diving",
+      "centers",
+      "on site services",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "atlantis",
+      "dive",
+      "center",
+      "scuba",
+      "diving",
+      "centers"
+    ],
+    "embeddingText": "Atlantis Dive Center Atlantis Dive Center located in the Cayman Islands. diving_snorkeling Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJB4xY5leGJY8RxlMZsM0zKmg-jcn2p9fis",
+    "category": "diving_snorkeling",
+    "subcategory": "SCUBA instructor",
+    "name": "Cayman Diving",
+    "description": "Cayman Diving located in the Cayman Islands.",
+    "shortDescription": "Cayman Diving located in the Cayman Islands.",
+    "location": {
+      "address": "N Church St Grand Cayman, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.2985111,
+      "longitude": -81.3821416,
+      "googlePlaceId": "ChIJB4xY5leGJY8RxlMZsM0zKmg"
+    },
+    "contact": {
+      "phone": "+1 345-916-8487",
+      "email": "",
+      "website": "http://www.caymandiving.com/",
+      "bookingUrl": "http://www.caymandiving.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoMF6efYPcg9vGo7_omLBjfVt_DVxekkhFSmNAoW9hmqbFjgF5q5TaJTNclslNDMS44ZQkvwgmLPxgx1WFR8htsJRuUD4fPek1xk2xO_7SfLTg8-pPIXo3AOAPkoB8ZdHu-BBtW=w163-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoMF6efYPcg9vGo7_omLBjfVt_DVxekkhFSmNAoW9hmqbFjgF5q5TaJTNclslNDMS44ZQkvwgmLPxgx1WFR8htsJRuUD4fPek1xk2xO_7SfLTg8-pPIXo3AOAPkoB8ZdHu-BBtW=w163-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 80,
+      "priceTo": 200,
+      "pricePerUnit": "/dive",
+      "priceDescription": "$80 - $200 /dive",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 8 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "8 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.8,
+      "reviewCount": 107,
+      "googleRating": 4.8
+    },
+    "tags": [
+      "scuba instructor",
+      "scuba",
+      "diving",
+      "centers",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "cayman",
+      "diving",
+      "scuba",
+      "centers"
+    ],
+    "embeddingText": "Cayman Diving Cayman Diving located in the Cayman Islands. diving_snorkeling Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJ95I5r8v1JY8RDCnSnBEaNRQ-pvc0gc65e",
+    "category": "diving_snorkeling",
+    "subcategory": "Dive shop",
+    "name": "Ocean Frontiers Dive Shop",
+    "description": "Ocean Frontiers Dive Shop located in the Cayman Islands.",
+    "shortDescription": "Ocean Frontiers Dive Shop located in the Cayman Islands.",
+    "location": {
+      "address": "344C Austin Conolly Dr, Grand Cayman KY1-1801, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3066706,
+      "longitude": -81.09417959999999,
+      "googlePlaceId": "ChIJ95I5r8v1JY8RDCnSnBEaNRQ"
+    },
+    "contact": {
+      "phone": "+1 345-640-7500",
+      "email": "",
+      "website": "https://www.oceanfrontiers.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp",
+      "bookingUrl": "https://www.oceanfrontiers.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMKmtWbLH_mVEfocuFGlrZQCIjxUy9oTueQnGab=w80-h104-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipMKmtWbLH_mVEfocuFGlrZQCIjxUy9oTueQnGab=w80-h104-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 20,
+      "priceTo": 60,
+      "pricePerUnit": null,
+      "priceDescription": "$20 - $60",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 7 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "7 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "in_store_shopping": true
+      }
+    },
+    "ratings": {
+      "overall": 4.9,
+      "reviewCount": 282,
+      "googleRating": 4.9
+    },
+    "tags": [
+      "dive shop",
+      "scuba",
+      "diving",
+      "centers",
+      "in store shopping",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "ocean",
+      "frontiers",
+      "dive",
+      "shop",
+      "scuba",
+      "diving",
+      "centers"
+    ],
+    "embeddingText": "Ocean Frontiers Dive Shop Ocean Frontiers Dive Shop located in the Cayman Islands. diving_snorkeling Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJI6Ex6aaHJY8RdKvZ-NkFSb4-jpmm811vp",
+    "category": "diving_snorkeling",
+    "subcategory": "Dive shop",
+    "name": "Pirate Divers Grand Cayman",
+    "description": "Pirate Divers Grand Cayman located in the Cayman Islands.",
+    "shortDescription": "Pirate Divers Grand Cayman located in the Cayman Islands.",
+    "location": {
+      "address": "Seven Mile Public Beach, W Bay Rd, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3492459,
+      "longitude": -81.38373539999999,
+      "googlePlaceId": "ChIJI6Ex6aaHJY8RdKvZ-NkFSb4"
+    },
+    "contact": {
+      "phone": "+1 345-324-3271",
+      "email": "",
+      "website": "http://www.piratediversgrandcayman.com/index.html",
+      "bookingUrl": "http://www.piratediversgrandcayman.com/index.html"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweriOA7ANZjiub8qupgorWlskBRP57VKQ761rP9e9VLjAe3MZ2ewv3gV_X_-h6giCV6obvHUxJC9-rpCfE72r0TM8qm6N4xP6A-wDohjkPHZ40JMEAxok5oudcYskemNjO-R8ax6gA=w138-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweriOA7ANZjiub8qupgorWlskBRP57VKQ761rP9e9VLjAe3MZ2ewv3gV_X_-h6giCV6obvHUxJC9-rpCfE72r0TM8qm6N4xP6A-wDohjkPHZ40JMEAxok5oudcYskemNjO-R8ax6gA=w138-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 20,
+      "priceTo": 60,
+      "pricePerUnit": null,
+      "priceDescription": "$20 - $60",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closes soon · 7 pm · Opens 7 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "7 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.9,
+      "reviewCount": 67,
+      "googleRating": 4.9
+    },
+    "tags": [
+      "dive shop",
+      "scuba",
+      "diving",
+      "centers",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "pirate",
+      "divers",
+      "grand",
+      "cayman",
+      "scuba",
+      "diving",
+      "centers"
+    ],
+    "embeddingText": "Pirate Divers Grand Cayman Pirate Divers Grand Cayman located in the Cayman Islands. diving_snorkeling Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJB4xY5leGJY8RRegXCJJcOKY-j4ijk93kr",
+    "category": "diving_snorkeling",
+    "subcategory": "SCUBA tour agency",
+    "name": "Cayman Turtle Divers",
+    "description": "Cayman Turtle Divers located in the Cayman Islands.",
+    "shortDescription": "Cayman Turtle Divers located in the Cayman Islands.",
+    "location": {
+      "address": "1428A West Bay Road, Trafalgar Place #C2, KY1-1207, Cayman Islands",
+      "district": "West Bay",
+      "island": "Grand Cayman",
+      "latitude": 19.3475649,
+      "longitude": -81.38148699999999,
+      "googlePlaceId": "ChIJB4xY5leGJY8RRegXCJJcOKY"
+    },
+    "contact": {
+      "phone": "+1 345-938-0184",
+      "email": "",
+      "website": "https://www.caymanturtledivers.com/?utm_source=GMB&utm_medium=organic&utm_campaign=Cayman%20Turtle%20Divers%20Homepage",
+      "bookingUrl": "https://www.caymanturtledivers.com/?utm_source=GMB&utm_medium=organic&utm_campaign=Cayman%20Turtle%20Divers%20Homepage"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepX9WX92t7b2A20-xd_K26CA3amiVVDzDOTCpDgPvTS8e-jcOXb5eSqh9gscPHku8GYhfRrmOkknbebaToafjSgyx6-sVG4g4DsSw7sMUiABl22ndhDBYtVu6NR9xbI9EAFNAPp=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepX9WX92t7b2A20-xd_K26CA3amiVVDzDOTCpDgPvTS8e-jcOXb5eSqh9gscPHku8GYhfRrmOkknbebaToafjSgyx6-sVG4g4DsSw7sMUiABl22ndhDBYtVu6NR9xbI9EAFNAPp=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 80,
+      "priceTo": 200,
+      "pricePerUnit": "/dive",
+      "priceDescription": "$80 - $200 /dive",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 7 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "7 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "on_site_services": true
+      }
+    },
+    "ratings": {
+      "overall": 4.8,
+      "reviewCount": 90,
+      "googleRating": 4.8
+    },
+    "tags": [
+      "scuba tour agency",
+      "scuba",
+      "diving",
+      "centers",
+      "on site services",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "cayman",
+      "turtle",
+      "divers",
+      "scuba",
+      "diving",
+      "centers"
+    ],
+    "embeddingText": "Cayman Turtle Divers Cayman Turtle Divers located in the Cayman Islands. diving_snorkeling Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJkYpQ3YqGJY8RYou8g-J3xS0-4bmzisio7",
+    "category": "diving_snorkeling",
+    "subcategory": "Dive shop",
+    "name": "Eden Rock Diving Center Ltd",
+    "description": "Eden Rock Diving Center Ltd located in the Cayman Islands.",
+    "shortDescription": "Eden Rock Diving Center Ltd located in the Cayman Islands.",
+    "location": {
+      "address": "124 S Church St, George Town KY1-1110, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.292341999999998,
+      "longitude": -81.3861122,
+      "googlePlaceId": "ChIJkYpQ3YqGJY8RYou8g-J3xS0"
+    },
+    "contact": {
+      "phone": "+1 345-949-7243",
+      "email": "",
+      "website": "https://www.edenrockdivingcenter.com/",
+      "bookingUrl": "https://www.edenrockdivingcenter.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoBeudvGow6w_ZM-oSVt0H-ywu-TY6DlrU-_xHx3JTKKWAhOCtrzsw4LIlDIyVYmKPcorLEvXI-TsPPzc04CwIm51ODbAvHqgxljjVoJthFU2EHYlJ9XqTmRiCv12t6pARnjxGUwyBRCug=w138-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoBeudvGow6w_ZM-oSVt0H-ywu-TY6DlrU-_xHx3JTKKWAhOCtrzsw4LIlDIyVYmKPcorLEvXI-TsPPzc04CwIm51ODbAvHqgxljjVoJthFU2EHYlJ9XqTmRiCv12t6pARnjxGUwyBRCug=w138-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 80,
+      "priceTo": 200,
+      "pricePerUnit": "/dive",
+      "priceDescription": "$80 - $200 /dive",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 8 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "8 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "in_store_shopping": true,
+        "in_store_pick_up": true
+      }
+    },
+    "ratings": {
+      "overall": 4.7,
+      "reviewCount": 249,
+      "googleRating": 4.7
+    },
+    "tags": [
+      "dive shop",
+      "scuba",
+      "diving",
+      "centers",
+      "in store shopping",
+      "in store pick up",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "eden",
+      "rock",
+      "diving",
+      "center",
+      "ltd",
+      "scuba",
+      "centers"
+    ],
+    "embeddingText": "Eden Rock Diving Center Ltd Eden Rock Diving Center Ltd located in the Cayman Islands. diving_snorkeling Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJie0xvYuGJY8R0SQAMOL-Ev8-95gc522ng",
+    "category": "diving_snorkeling",
+    "subcategory": "Dive shop",
+    "name": "Don Foster's Dive Cayman",
+    "description": "Don Foster's Dive Cayman located in the Cayman Islands.",
+    "shortDescription": "Don Foster's Dive Cayman located in the Cayman Islands.",
+    "location": {
+      "address": "218 S Church St, George Town KY1-1206, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2902727,
+      "longitude": -81.3879051,
+      "googlePlaceId": "ChIJie0xvYuGJY8R0SQAMOL-Ev8"
+    },
+    "contact": {
+      "phone": "+1 345-938-4000",
+      "email": "",
+      "website": "http://www.donfosters.com/",
+      "bookingUrl": "http://www.donfosters.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqY4pRrZIgGbi8YtFIT-mbiKNEs2YNEv62fVbSLqSW65U5q2qlVuu55YtC7t-TwCV8a5Qr68J_6c5NsHQgpQqQsyYrg5qygysUTKcrWOJaoZPVlHohizpjK0s0wKQzyB8egJsyPiQ=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqY4pRrZIgGbi8YtFIT-mbiKNEs2YNEv62fVbSLqSW65U5q2qlVuu55YtC7t-TwCV8a5Qr68J_6c5NsHQgpQqQsyYrg5qygysUTKcrWOJaoZPVlHohizpjK0s0wKQzyB8egJsyPiQ=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 20,
+      "priceTo": 60,
+      "pricePerUnit": null,
+      "priceDescription": "$20 - $60",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 8 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "8 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "on_site_services": true,
+        "delivery": false
+      }
+    },
+    "ratings": {
+      "overall": 4.8,
+      "reviewCount": 179,
+      "googleRating": 4.8
+    },
+    "tags": [
+      "dive shop",
+      "scuba",
+      "diving",
+      "centers",
+      "on site services",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "don",
+      "foster's",
+      "dive",
+      "cayman",
+      "scuba",
+      "diving",
+      "centers"
+    ],
+    "embeddingText": "Don Foster's Dive Cayman Don Foster's Dive Cayman located in the Cayman Islands. diving_snorkeling Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJV_206L99L48R39e8Nk-kuZw-n534cc380",
+    "category": "diving_snorkeling",
+    "subcategory": "Dive shop",
+    "name": "Divetech Grand Cayman",
+    "description": "Divetech Grand Cayman located in the Cayman Islands.",
+    "shortDescription": "Divetech Grand Cayman located in the Cayman Islands.",
+    "location": {
+      "address": "Sea Fan Dr, West Bay KY1-1401, Cayman Islands",
+      "district": "West Bay",
+      "island": "Grand Cayman",
+      "latitude": 19.3896846,
+      "longitude": -81.4046554,
+      "googlePlaceId": "ChIJV_206L99L48R39e8Nk-kuZw"
+    },
+    "contact": {
+      "phone": "+1 345-925-1252",
+      "email": "",
+      "website": "https://www.divetech.com/?utm_source=google_GMB_Localseo_ttb&utm_medium=google_GMB_Localseo_ttb&utm_campaign=google_GMB_Localseo_ttb&utm_id=google_GMB_Localseo_ttb",
+      "bookingUrl": "https://www.divetech.com/?utm_source=google_GMB_Localseo_ttb&utm_medium=google_GMB_Localseo_ttb&utm_campaign=google_GMB_Localseo_ttb&utm_id=google_GMB_Localseo_ttb"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOxtOTb3O9Pi4Wg0yll1CdXwAq5me4jmjXi_zbo=w138-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipOxtOTb3O9Pi4Wg0yll1CdXwAq5me4jmjXi_zbo=w138-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 20,
+      "priceTo": 60,
+      "pricePerUnit": null,
+      "priceDescription": "$20 - $60",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 7:30 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "7:30 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "on_site_services": true
+      }
+    },
+    "ratings": {
+      "overall": 4.9,
+      "reviewCount": 105,
+      "googleRating": 4.9
+    },
+    "tags": [
+      "dive shop",
+      "scuba",
+      "diving",
+      "centers",
+      "on site services",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "divetech",
+      "grand",
+      "cayman",
+      "scuba",
+      "diving",
+      "centers"
+    ],
+    "embeddingText": "Divetech Grand Cayman Divetech Grand Cayman located in the Cayman Islands. diving_snorkeling Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJZ0W1FFiGJY8RKyPQ03JtjBo-esbdt7x7c",
+    "category": "diving_snorkeling",
+    "subcategory": "SCUBA tour agency",
+    "name": "Deep Blue Divers Cayman",
+    "description": "Deep Blue Divers Cayman located in the Cayman Islands.",
+    "shortDescription": "Deep Blue Divers Cayman located in the Cayman Islands.",
+    "location": {
+      "address": "37 S Church St, George Town, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2939492,
+      "longitude": -81.38372,
+      "googlePlaceId": "ChIJZ0W1FFiGJY8RKyPQ03JtjBo"
+    },
+    "contact": {
+      "phone": "+1 345-916-1293",
+      "email": "",
+      "website": "http://www.deepbluediverscayman.com/",
+      "bookingUrl": "http://www.deepbluediverscayman.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoOWg4oCXlYqPdlLS70qUloYKS3i8O-qqYUxKryWyhEeufz4dYl2IWNpK7Wfft3Q7Uv8m3dN1hU77Izrllib7f6yKvJBC6c-3eFLFHe7jkpoox-FGiZjLkWEvLlvzXh6s5xar76=w138-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoOWg4oCXlYqPdlLS70qUloYKS3i8O-qqYUxKryWyhEeufz4dYl2IWNpK7Wfft3Q7Uv8m3dN1hU77Izrllib7f6yKvJBC6c-3eFLFHe7jkpoox-FGiZjLkWEvLlvzXh6s5xar76=w138-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 80,
+      "priceTo": 200,
+      "pricePerUnit": "/dive",
+      "priceDescription": "$80 - $200 /dive",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 8 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "8 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.9,
+      "reviewCount": 45,
+      "googleRating": 4.9
+    },
+    "tags": [
+      "scuba tour agency",
+      "scuba",
+      "diving",
+      "centers",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "deep",
+      "blue",
+      "divers",
+      "cayman",
+      "scuba",
+      "diving",
+      "centers"
+    ],
+    "embeddingText": "Deep Blue Divers Cayman Deep Blue Divers Cayman located in the Cayman Islands. diving_snorkeling Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJBxdKJff1JY8RKrjgxvdySBQ-7j7f0ug7y",
+    "category": "diving_snorkeling",
+    "subcategory": "Dive shop",
+    "name": "Tortuga Divers",
+    "description": "Tortuga Divers located in the Cayman Islands.",
+    "shortDescription": "Tortuga Divers located in the Cayman Islands.",
+    "location": {
+      "address": "2289 Queens Hwy, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3463502,
+      "longitude": -81.089512,
+      "googlePlaceId": "ChIJBxdKJff1JY8RKrjgxvdySBQ"
+    },
+    "contact": {
+      "phone": "+1 345-947-2097",
+      "email": "",
+      "website": "http://www.tortugadivers.com/",
+      "bookingUrl": "http://www.tortugadivers.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepwlb1IhxQFiLgQrIYWFclKxZQNSp6eOZnvDkSjnkBLyEbAft7IdYFr4lSMtp0Zji7iJci83uoIxbRurUnwedsbmGSoJHJuOjFR54VS7EAmu6GIi1X7LpuBmJXUeEJEfjH38vNqWg=w105-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepwlb1IhxQFiLgQrIYWFclKxZQNSp6eOZnvDkSjnkBLyEbAft7IdYFr4lSMtp0Zji7iJci83uoIxbRurUnwedsbmGSoJHJuOjFR54VS7EAmu6GIi1X7LpuBmJXUeEJEfjH38vNqWg=w105-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 20,
+      "priceTo": 60,
+      "pricePerUnit": null,
+      "priceDescription": "$20 - $60",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 7:30 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "7:30 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "delivery": false
+      }
+    },
+    "ratings": {
+      "overall": 4.9,
+      "reviewCount": 461,
+      "googleRating": 4.9
+    },
+    "tags": [
+      "dive shop",
+      "scuba",
+      "diving",
+      "centers",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "tortuga",
+      "divers",
+      "scuba",
+      "diving",
+      "centers"
+    ],
+    "embeddingText": "Tortuga Divers Tortuga Divers located in the Cayman Islands. diving_snorkeling Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJKeesgoKHJY8R6mf_R8_q2BY-xc5k8lcyz",
+    "category": "diving_snorkeling",
+    "subcategory": "Diving Centre",
+    "name": "DNS Cayman Islands scuba dive, Grand Cayman.",
+    "description": "DNS Cayman Islands scuba dive, Grand Cayman. located in the Cayman Islands.",
+    "shortDescription": "DNS Cayman Islands scuba dive, Grand Cayman. located in the Cayman Islands.",
+    "location": {
+      "address": "66 Snooze Ln, KY1-1203, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3131921,
+      "longitude": -81.3849408,
+      "googlePlaceId": "ChIJKeesgoKHJY8R6mf_R8_q2BY"
+    },
+    "contact": {
+      "phone": "+1 345-925-2490",
+      "email": "",
+      "website": "https://www.dnsdiving.com/",
+      "bookingUrl": "https://www.dnsdiving.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweresodJRA_c-kFxJ1_hBDYVdO83ADRW5-nWC9hJ4DnFNGeDOIWmdECy_UJwNqVdKg96rc2_nziLNOSKAdDxnVdUrEqadzAkePdhYRa-fgSslgQQja9ukW9exM9W9gXrx5xGUZCDycaW80s_=w137-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweresodJRA_c-kFxJ1_hBDYVdO83ADRW5-nWC9hJ4DnFNGeDOIWmdECy_UJwNqVdKg96rc2_nziLNOSKAdDxnVdUrEqadzAkePdhYRa-fgSslgQQja9ukW9exM9W9gXrx5xGUZCDycaW80s_=w137-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 80,
+      "priceTo": 200,
+      "pricePerUnit": "/dive",
+      "priceDescription": "$80 - $200 /dive",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 7 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "7 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 33,
+      "googleRating": 5
+    },
+    "tags": [
+      "diving centre",
+      "scuba",
+      "diving",
+      "centers",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "dns",
+      "cayman",
+      "islands",
+      "scuba",
+      "dive,",
+      "grand",
+      "cayman.",
+      "diving",
+      "centers"
+    ],
+    "embeddingText": "DNS Cayman Islands scuba dive, Grand Cayman. DNS Cayman Islands scuba dive, Grand Cayman. located in the Cayman Islands. diving_snorkeling Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJE_Kga1iGJY8RPU-DON8ZQRM-548yx42yk",
+    "category": "diving_snorkeling",
+    "subcategory": "Dive shop",
+    "name": "Wall to Wall Diving",
+    "description": "Wall to Wall Diving located in the Cayman Islands.",
+    "shortDescription": "Wall to Wall Diving located in the Cayman Islands.",
+    "location": {
+      "address": "Box 31412, 37 Seafarers Wy, Grand Cayman KY1-1206, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.293829499999998,
+      "longitude": -81.383777,
+      "googlePlaceId": "ChIJE_Kga1iGJY8RPU-DON8ZQRM"
+    },
+    "contact": {
+      "phone": "+1 345-916-6408",
+      "email": "",
+      "website": "http://www.walltowalldiving.com/",
+      "bookingUrl": "http://www.walltowalldiving.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipM__oFyBA70EVRMdRJ4Lk2wwpjl6mznhJzpTJoi=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipM__oFyBA70EVRMdRJ4Lk2wwpjl6mznhJzpTJoi=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 80,
+      "priceTo": 200,
+      "pricePerUnit": "/dive",
+      "priceDescription": "$80 - $200 /dive",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 7 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "7 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "in_store_shopping": true
+      }
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 36,
+      "googleRating": 5
+    },
+    "tags": [
+      "dive shop",
+      "scuba",
+      "diving",
+      "centers",
+      "in store shopping",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "wall",
+      "diving",
+      "scuba",
+      "centers"
+    ],
+    "embeddingText": "Wall to Wall Diving Wall to Wall Diving located in the Cayman Islands. diving_snorkeling Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJe72WaIt9L48RVvJIBS7-euI-yfjdil84j",
+    "category": "diving_snorkeling",
+    "subcategory": "Dive shop",
+    "name": "INDIGO DIVERS Grand Cayman",
+    "description": "INDIGO DIVERS Grand Cayman located in the Cayman Islands.",
+    "shortDescription": "INDIGO DIVERS Grand Cayman located in the Cayman Islands.",
+    "location": {
+      "address": "25 N W Point Rd, West Bay, Cayman Islands",
+      "district": "West Bay",
+      "island": "Grand Cayman",
+      "latitude": 19.3704878,
+      "longitude": -81.4044931,
+      "googlePlaceId": "ChIJe72WaIt9L48RVvJIBS7-euI"
+    },
+    "contact": {
+      "phone": "+1 345-525-3932",
+      "email": "",
+      "website": "http://www.indigodivers.com/",
+      "bookingUrl": "http://www.indigodivers.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNGmXeBbxRpCj5l2nEZvBYNkELtvEvcki02JeQS=w128-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipNGmXeBbxRpCj5l2nEZvBYNkELtvEvcki02JeQS=w128-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 20,
+      "priceTo": 60,
+      "pricePerUnit": null,
+      "priceDescription": "$20 - $60",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 7 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "7 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "delivery": false
+      }
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 64,
+      "googleRating": 5
+    },
+    "tags": [
+      "dive shop",
+      "scuba",
+      "diving",
+      "centers",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "indigo",
+      "divers",
+      "grand",
+      "cayman",
+      "scuba",
+      "diving",
+      "centers"
+    ],
+    "embeddingText": "INDIGO DIVERS Grand Cayman INDIGO DIVERS Grand Cayman located in the Cayman Islands. diving_snorkeling Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJOb5a0wRhKI8RAt0rSPzWJ60-5qcb0crkk",
+    "category": "diving_snorkeling",
+    "subcategory": "Diving Centre",
+    "name": "Little Cayman Divers",
+    "description": "Little Cayman Divers located in the Cayman Islands.",
+    "shortDescription": "Little Cayman Divers located in the Cayman Islands.",
+    "location": {
+      "address": "Guy Banks Road Little Cayman KY3, 2501, Cayman Islands",
+      "district": "Little Cayman",
+      "island": "Little Cayman",
+      "latitude": 19.6595723,
+      "longitude": -80.0840892,
+      "googlePlaceId": "ChIJOb5a0wRhKI8RAt0rSPzWJ60"
+    },
+    "contact": {
+      "phone": "+1 345-938-1026",
+      "email": "",
+      "website": "http://www.littlecaymandivers.com/",
+      "bookingUrl": "http://www.littlecaymandivers.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerXDOysW-1P6w2sd8_Te9IYHyflN-iow96Zkc3JLEUNncVdJlS3aHt_y-pa7eK_C57rT6rc2pWYCW04l4E7-G3zPl-xtTpxoXk1fty90TjFu06c_yrDJsx9cWgFjB_XOKbvA4k8=w141-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerXDOysW-1P6w2sd8_Te9IYHyflN-iow96Zkc3JLEUNncVdJlS3aHt_y-pa7eK_C57rT6rc2pWYCW04l4E7-G3zPl-xtTpxoXk1fty90TjFu06c_yrDJsx9cWgFjB_XOKbvA4k8=w141-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 80,
+      "priceTo": 200,
+      "pricePerUnit": "/dive",
+      "priceDescription": "$80 - $200 /dive",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open 24 hours",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "24"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 24,
+      "googleRating": 5
+    },
+    "tags": [
+      "diving centre",
+      "scuba",
+      "diving",
+      "centers",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "little",
+      "cayman",
+      "divers",
+      "scuba",
+      "diving",
+      "centers"
+    ],
+    "embeddingText": "Little Cayman Divers Little Cayman Divers located in the Cayman Islands. diving_snorkeling Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJpfRzS3KHJY8R1zOdqPd10x8-z18pf70vu",
+    "category": "diving_snorkeling",
+    "subcategory": "Diving Centre",
+    "name": "Sunset Divers",
+    "description": "Sunset Divers located in the Cayman Islands.",
+    "shortDescription": "Sunset Divers located in the Cayman Islands.",
+    "location": {
+      "address": "390 A South Church St Grand Cayman, KY1-1106, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.285878999999998,
+      "longitude": -81.3902378,
+      "googlePlaceId": "ChIJpfRzS3KHJY8R1zOdqPd10x8"
+    },
+    "contact": {
+      "phone": "+1 345-946-6789",
+      "email": "",
+      "website": "https://www.sunsethouse.com/scuba-diving",
+      "bookingUrl": "https://www.sunsethouse.com/scuba-diving"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqvBlUc-nPpWkjBE6aBCTZ4-yqtyw-Mf5d8mtEWz9RBx1erxgjQzE7iqSEBsZQkk12dVl13Km7kvGiTZTOMypMk3d_cDWwA_gV8MqlHQCWchKaZi2qAgQRnu1OtDpn8MTLSP_R-=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqvBlUc-nPpWkjBE6aBCTZ4-yqtyw-Mf5d8mtEWz9RBx1erxgjQzE7iqSEBsZQkk12dVl13Km7kvGiTZTOMypMk3d_cDWwA_gV8MqlHQCWchKaZi2qAgQRnu1OtDpn8MTLSP_R-=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 80,
+      "priceTo": 200,
+      "pricePerUnit": "/dive",
+      "priceDescription": "$80 - $200 /dive",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 7 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "7 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "on_site_services": true
+      }
+    },
+    "ratings": {
+      "overall": 4.9,
+      "reviewCount": 20,
+      "googleRating": 4.9
+    },
+    "tags": [
+      "diving centre",
+      "scuba",
+      "diving",
+      "centers",
+      "on site services",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "sunset",
+      "divers",
+      "scuba",
+      "diving",
+      "centers"
+    ],
+    "embeddingText": "Sunset Divers Sunset Divers located in the Cayman Islands. diving_snorkeling Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJxRowQvd9L48RXJ7AknS6HzI-qatbgvue0",
+    "category": "diving_snorkeling",
+    "subcategory": "SCUBA tour agency",
+    "name": "Shaggy's Diving & Condos",
+    "description": "Shaggy's Diving & Condos located in the Cayman Islands.",
+    "shortDescription": "Shaggy's Diving & Condos located in the Cayman Islands.",
+    "location": {
+      "address": "Coconut Bay 25 Dunlop Drive PO 643 Grand Cayman KY1, 1303, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.383882699999997,
+      "longitude": -81.4153674,
+      "googlePlaceId": "ChIJxRowQvd9L48RXJ7AknS6HzI"
+    },
+    "contact": {
+      "phone": "+1 345-548-1020",
+      "email": "",
+      "website": "https://www.shaggysdiving.com/",
+      "bookingUrl": "https://www.shaggysdiving.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipP0qmxWtok0LIBGEAUW67Z6SvS9YMSeiVzXQY8=w163-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipP0qmxWtok0LIBGEAUW67Z6SvS9YMSeiVzXQY8=w163-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 300,
+      "priceTo": 1500,
+      "pricePerUnit": "/night",
+      "priceDescription": "$300 - $1500 /night",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open 24 hours",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "24"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "on_site_services": true
+      }
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 52,
+      "googleRating": 5
+    },
+    "tags": [
+      "scuba tour agency",
+      "scuba",
+      "diving",
+      "centers",
+      "on site services",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "shaggy's",
+      "diving",
+      "condos",
+      "scuba",
+      "centers"
+    ],
+    "embeddingText": "Shaggy's Diving & Condos Shaggy's Diving & Condos located in the Cayman Islands. diving_snorkeling Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJj481C52HJY8RX7-KG4wpN-E-e025mhzv7",
+    "category": "diving_snorkeling",
+    "subcategory": "SCUBA tour agency",
+    "name": "Off The Wall Divers",
+    "description": "Off The Wall Divers located in the Cayman Islands.",
+    "shortDescription": "Off The Wall Divers located in the Cayman Islands.",
+    "location": {
+      "address": "37 Seafarers Wy, George Town, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.293829499999998,
+      "longitude": -81.383777,
+      "googlePlaceId": "ChIJj481C52HJY8RX7-KG4wpN-E"
+    },
+    "contact": {
+      "phone": "+1 345-329-4225",
+      "email": "",
+      "website": "http://offthewalldiverscayman.com/",
+      "bookingUrl": "http://offthewalldiverscayman.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipP1HRGa01alW3F4gqAn__ekbu_2twjBcQw1ihEs=w138-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipP1HRGa01alW3F4gqAn__ekbu_2twjBcQw1ihEs=w138-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 80,
+      "priceTo": 200,
+      "pricePerUnit": "/dive",
+      "priceDescription": "$80 - $200 /dive",
+      "currency": "USD",
+      "openingHours": {
+        "raw": null,
+        "isOpen": null,
+        "todayHours": null,
+        "schedule": {},
+        "formattedDisplay": null
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 60,
+      "googleRating": 5
+    },
+    "tags": [
+      "scuba tour agency",
+      "scuba",
+      "diving",
+      "centers",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "off",
+      "the",
+      "wall",
+      "divers",
+      "scuba",
+      "diving",
+      "centers"
+    ],
+    "embeddingText": "Off The Wall Divers Off The Wall Divers located in the Cayman Islands. diving_snorkeling Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJTTWQalh9L48RcZV9X-Dju_Q-4wy31kq6v",
+    "category": "diving_snorkeling",
+    "subcategory": "Dive shop",
+    "name": "Ocean Cabanas Dive Resort",
+    "description": "Ocean Cabanas Dive Resort located in the Cayman Islands.",
+    "shortDescription": "Ocean Cabanas Dive Resort located in the Cayman Islands.",
+    "location": {
+      "address": "559 N W Point Rd, West Bay KY1-1206, Cayman Islands",
+      "district": "West Bay",
+      "island": "Grand Cayman",
+      "latitude": 19.374345899999998,
+      "longitude": -81.4192594,
+      "googlePlaceId": "ChIJTTWQalh9L48RcZV9X-Dju_Q"
+    },
+    "contact": {
+      "phone": "+1 345-526-3483",
+      "email": "",
+      "website": "https://www.oceancabanascayman.com/",
+      "bookingUrl": "https://www.oceancabanascayman.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPDTpsr_sRXHNr-O15QQve0REqEcHRHeJKLD5N5=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipPDTpsr_sRXHNr-O15QQve0REqEcHRHeJKLD5N5=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 200,
+      "priceTo": 800,
+      "pricePerUnit": "/night",
+      "priceDescription": "$200 - $800 /night",
+      "currency": "USD",
+      "openingHours": {
+        "raw": null,
+        "isOpen": null,
+        "todayHours": null,
+        "schedule": {},
+        "formattedDisplay": null
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 54,
+      "googleRating": 5
+    },
+    "tags": [
+      "dive shop",
+      "scuba",
+      "diving",
+      "centers",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "ocean",
+      "cabanas",
+      "dive",
+      "resort",
+      "scuba",
+      "diving",
+      "centers"
+    ],
+    "embeddingText": "Ocean Cabanas Dive Resort Ocean Cabanas Dive Resort located in the Cayman Islands. diving_snorkeling Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJk09yOl-GJY8R9c8oqClDkrk-ck09bwifd",
+    "category": "diving_snorkeling",
+    "subcategory": "Dive shop",
+    "name": "Divers Down",
+    "description": "Divers Down located in the Cayman Islands.",
+    "shortDescription": "Divers Down located in the Cayman Islands.",
+    "location": {
+      "address": "19.298661, -81.382126, 65 North Church Street, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.2986234,
+      "longitude": -81.3821194,
+      "googlePlaceId": "ChIJk09yOl-GJY8R9c8oqClDkrk"
+    },
+    "contact": {
+      "phone": "+1 345-945-1611",
+      "email": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoqBg4BOqnF_4BQpeAQiPugWj5b3CQIregke7Mt3DPTkBZm1Upk2nWNGeFpCaXHGuij16Nkhn5PD9xcCgeabz1V0J9CZ2ucesCJ84xiQVKWivCDo1kcQGefCcLFvuVcTxXGcjKG=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoqBg4BOqnF_4BQpeAQiPugWj5b3CQIregke7Mt3DPTkBZm1Upk2nWNGeFpCaXHGuij16Nkhn5PD9xcCgeabz1V0J9CZ2ucesCJ84xiQVKWivCDo1kcQGefCcLFvuVcTxXGcjKG=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 20,
+      "priceTo": 60,
+      "pricePerUnit": null,
+      "priceDescription": "$20 - $60",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 8 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "8 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.8,
+      "reviewCount": 90,
+      "googleRating": 4.8
+    },
+    "tags": [
+      "dive shop",
+      "scuba",
+      "diving",
+      "centers",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "divers",
+      "down",
+      "scuba",
+      "diving",
+      "centers"
+    ],
+    "embeddingText": "Divers Down Divers Down located in the Cayman Islands. diving_snorkeling Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJhVIkORiHJY8R5dbY0iHJZQg-fogmwmva7",
+    "category": "spa_wellness",
+    "subcategory": "Spa",
+    "name": "Anytime Wellness Ltd.",
+    "description": "Anytime Wellness Ltd. located in the Cayman Islands.",
+    "shortDescription": "Anytime Wellness Ltd. located in the Cayman Islands.",
+    "location": {
+      "address": "The Harbour Centre, 42 N Church St, George Town, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.298157399999997,
+      "longitude": -81.3819053,
+      "googlePlaceId": "ChIJhVIkORiHJY8R5dbY0iHJZQg"
+    },
+    "contact": {
+      "phone": "+1 345-925-6592",
+      "email": "",
+      "website": "http://www.anytimewellnessltd.com/",
+      "bookingUrl": "http://www.anytimewellnessltd.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMqjgiLUm0J28MDJHdoX8tU-V9tmICo77n1EcAr=w137-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipMqjgiLUm0J28MDJHdoX8tU-V9tmICo77n1EcAr=w137-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 100,
+      "priceTo": 300,
+      "pricePerUnit": null,
+      "priceDescription": "$100 - $300",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open · Closes 9 pm",
+        "isOpen": true,
+        "todayHours": {
+          "closes": "9 pm"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now · Closes 9 pm"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 96,
+      "googleRating": 5
+    },
+    "tags": [
+      "spa",
+      "wellness",
+      "massage",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "anytime",
+      "wellness",
+      "ltd.",
+      "spa",
+      "massage"
+    ],
+    "embeddingText": "Anytime Wellness Ltd. Anytime Wellness Ltd. located in the Cayman Islands. spa_wellness Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJ58_vBCWHJY8Rb6KQ9pLNz6Q-qy5f7cmwr",
+    "category": "spa_wellness",
+    "subcategory": "Spa",
+    "name": "ELIM WELLNESS CENTRE",
+    "description": "ELIM WELLNESS CENTRE located in the Cayman Islands.",
+    "shortDescription": "ELIM WELLNESS CENTRE located in the Cayman Islands.",
+    "location": {
+      "address": "PARK PLACE, 16 Earth Cl, KY1-1206, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3327424,
+      "longitude": -81.38007669999999,
+      "googlePlaceId": "ChIJ58_vBCWHJY8Rb6KQ9pLNz6Q"
+    },
+    "contact": {
+      "phone": "+1 345-943-2002",
+      "email": "",
+      "website": "https://elimwellnesscentre.com/",
+      "bookingUrl": "https://elimwellnesscentre.com/"
+    },
+    "media": {
+      "thumbnail": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=&key=placeholder",
+      "images": [
+        "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=&key=placeholder"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 100,
+      "priceTo": 300,
+      "pricePerUnit": null,
+      "priceDescription": "$100 - $300",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closes soon · 7 pm · Opens 10 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "10 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.9,
+      "reviewCount": 15,
+      "googleRating": 4.9
+    },
+    "tags": [
+      "spa",
+      "wellness",
+      "massage",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "elim",
+      "wellness",
+      "centre",
+      "spa",
+      "massage"
+    ],
+    "embeddingText": "ELIM WELLNESS CENTRE ELIM WELLNESS CENTRE located in the Cayman Islands. spa_wellness Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJi_Ixi6qHJY8R4qw532GFhuo-pzz00o5n1",
+    "category": "spa_wellness",
+    "subcategory": "Day spa",
+    "name": "Spacation - Day Spa",
+    "description": "Spacation - Day Spa located in the Cayman Islands.",
+    "shortDescription": "Spacation - Day Spa located in the Cayman Islands.",
+    "location": {
+      "address": "455 West Bay Road Grand Cayman, KY1-1202, Cayman Islands",
+      "district": "West Bay",
+      "island": "Grand Cayman",
+      "latitude": 19.3192721,
+      "longitude": -81.3826911,
+      "googlePlaceId": "ChIJi_Ixi6qHJY8R4qw532GFhuo"
+    },
+    "contact": {
+      "phone": "+1 345-939-4772",
+      "email": "",
+      "website": "http://spacation.ky/",
+      "bookingUrl": "http://spacation.ky/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerzuIlNCZOTpyf7O55DhMh6Gv2x5XBRZ3GneF1Ppj98Y6_vhgf4kqAqP2OIWJcGhrx9bALwqX-gE9wdwW4nelegOiMaoFbVvIV0lN8QrdZQoG-oVa_k7gaTzWhRIbFBNbzOoC_srg=w92-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerzuIlNCZOTpyf7O55DhMh6Gv2x5XBRZ3GneF1Ppj98Y6_vhgf4kqAqP2OIWJcGhrx9bALwqX-gE9wdwW4nelegOiMaoFbVvIV0lN8QrdZQoG-oVa_k7gaTzWhRIbFBNbzOoC_srg=w92-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 100,
+      "priceTo": 300,
+      "pricePerUnit": null,
+      "priceDescription": "$100 - $300",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closes soon · 7 pm · Opens 10 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "10 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.9,
+      "reviewCount": 59,
+      "googleRating": 4.9
+    },
+    "tags": [
+      "day spa",
+      "wellness",
+      "massage",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "spacation",
+      "day",
+      "spa",
+      "wellness",
+      "massage"
+    ],
+    "embeddingText": "Spacation - Day Spa Spacation - Day Spa located in the Cayman Islands. spa_wellness Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJLcN2n_uHJY8RlIu6F2xrLv0-7bg64q1rl",
+    "category": "spa_wellness",
+    "subcategory": "Massage spa",
+    "name": "Zen Garden Spa",
+    "description": "Zen Garden Spa located in the Cayman Islands.",
+    "shortDescription": "Zen Garden Spa located in the Cayman Islands.",
+    "location": {
+      "address": "2nd Floor, 5Snug Harbour Drive, Carrington Place, W Bay Rd, KY1-1200, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3302636,
+      "longitude": -81.3810996,
+      "googlePlaceId": "ChIJLcN2n_uHJY8RlIu6F2xrLv0"
+    },
+    "contact": {
+      "phone": "+1 345-746-6789",
+      "email": "",
+      "website": "http://zengarden.ky/",
+      "bookingUrl": "http://zengarden.ky/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipM1gjJs58vIEy9JDHppCd65uuibcTsqO0Yho_BU=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipM1gjJs58vIEy9JDHppCd65uuibcTsqO0Yho_BU=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 20,
+      "priceTo": 60,
+      "pricePerUnit": null,
+      "priceDescription": "$20 - $60",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 9 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "9 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 109,
+      "googleRating": 5
+    },
+    "tags": [
+      "massage spa",
+      "wellness",
+      "massage",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "zen",
+      "garden",
+      "spa",
+      "wellness",
+      "massage"
+    ],
+    "embeddingText": "Zen Garden Spa Zen Garden Spa located in the Cayman Islands. spa_wellness Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJF22Fd1WHJY8RVoL_hqFu_Xg-ysydz5x5p",
+    "category": "spa_wellness",
+    "subcategory": "Spa",
+    "name": "Priya's Spa",
+    "description": "Priya's Spa located in the Cayman Islands.",
+    "shortDescription": "Priya's Spa located in the Cayman Islands.",
+    "location": {
+      "address": "Barnett Building, 24 Huldah Ave, George Town KY1-1103, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2900642,
+      "longitude": -81.3742106,
+      "googlePlaceId": "ChIJF22Fd1WHJY8RVoL_hqFu_Xg"
+    },
+    "contact": {
+      "phone": "+1 345-327-2272",
+      "email": "",
+      "website": "https://priyaspa.com/",
+      "bookingUrl": "https://priyaspa.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOKGmvPbhmGl6PU-5HlHKQnqCW14KQ9Y9glvhFH=w80-h146-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipOKGmvPbhmGl6PU-5HlHKQnqCW14KQ9Y9glvhFH=w80-h146-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 100,
+      "priceTo": 300,
+      "pricePerUnit": null,
+      "priceDescription": "$100 - $300",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closes soon · 7 pm · Opens 9 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "9 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 51,
+      "googleRating": 5
+    },
+    "tags": [
+      "spa",
+      "wellness",
+      "massage",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "priya's",
+      "spa",
+      "wellness",
+      "massage"
+    ],
+    "embeddingText": "Priya's Spa Priya's Spa located in the Cayman Islands. spa_wellness Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJVVVlUaqHJY8RV8GQZJQ1q0s-kbdixr24y",
+    "category": "spa_wellness",
+    "subcategory": "Massage therapist",
+    "name": "Cayman Massage & Wellness",
+    "description": "Cayman Massage & Wellness located in the Cayman Islands.",
+    "shortDescription": "Cayman Massage & Wellness located in the Cayman Islands.",
+    "location": {
+      "address": "West Shore Wellness, West Shore Center, 508 W Bay Rd, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3205952,
+      "longitude": -81.38168309999999,
+      "googlePlaceId": "ChIJVVVlUaqHJY8RV8GQZJQ1q0s"
+    },
+    "contact": {
+      "phone": "+1 345-769-3636",
+      "email": "",
+      "website": "http://www.caymanmassage.ky/",
+      "bookingUrl": "http://www.caymanmassage.ky/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNRBRDKcckDm1B64w2nxkPov-VU0ATeCNz1HuMS=w92-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipNRBRDKcckDm1B64w2nxkPov-VU0ATeCNz1HuMS=w92-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 100,
+      "priceTo": 300,
+      "pricePerUnit": null,
+      "priceDescription": "$100 - $300",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closes soon · 7 pm · Opens 9 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "9 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 4,
+      "googleRating": 5
+    },
+    "tags": [
+      "massage therapist",
+      "wellness",
+      "massage",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "cayman",
+      "massage",
+      "wellness",
+      "spa"
+    ],
+    "embeddingText": "Cayman Massage & Wellness Cayman Massage & Wellness located in the Cayman Islands. spa_wellness Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJzzOBE2-HJY8RM_9Tzukihpk-mznzrz521",
+    "category": "spa_wellness",
+    "subcategory": "Wellness Centre",
+    "name": "BodyWorks Holistic Wellness Centre",
+    "description": "BodyWorks Holistic Wellness Centre located in the Cayman Islands.",
+    "shortDescription": "BodyWorks Holistic Wellness Centre located in the Cayman Islands.",
+    "location": {
+      "address": "179, A KY1, 1104, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3106178,
+      "longitude": -81.38461389999999,
+      "googlePlaceId": "ChIJzzOBE2-HJY8RM_9Tzukihpk"
+    },
+    "contact": {
+      "phone": "+1 345-945-6485",
+      "email": "",
+      "website": "https://www.bodyworkscayman.com/",
+      "bookingUrl": "https://www.bodyworkscayman.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMJ5lxPMCxdLXk7yyfHb5J57PfOrZZKM9jByYMU=w138-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipMJ5lxPMCxdLXk7yyfHb5J57PfOrZZKM9jByYMU=w138-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 100,
+      "priceTo": 300,
+      "pricePerUnit": null,
+      "priceDescription": "$100 - $300",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 9 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "9 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "on_site_services": true
+      }
+    },
+    "ratings": {
+      "overall": 4.9,
+      "reviewCount": 229,
+      "googleRating": 4.9
+    },
+    "tags": [
+      "wellness centre",
+      "wellness",
+      "massage",
+      "on site services",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "bodyworks",
+      "holistic",
+      "wellness",
+      "centre",
+      "spa",
+      "massage"
+    ],
+    "embeddingText": "BodyWorks Holistic Wellness Centre BodyWorks Holistic Wellness Centre located in the Cayman Islands. spa_wellness Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJ9QiXhamHJY8R-Wi3CL9VXg0-qt6cjb2ff",
+    "category": "spa_wellness",
+    "subcategory": "Wellness Centre",
+    "name": "The Da Vinci Wellness Centre",
+    "description": "The Da Vinci Wellness Centre located in the Cayman Islands.",
+    "shortDescription": "The Da Vinci Wellness Centre located in the Cayman Islands.",
+    "location": {
+      "address": "16-C2 Earth Cl Park Place Plaza, West Bay Road, Seven Mile Beach Grand Cayman KY1, 1205, Cayman Islands",
+      "district": "West Bay",
+      "island": "Grand Cayman",
+      "latitude": 19.3329087,
+      "longitude": -81.38068129999999,
+      "googlePlaceId": "ChIJ9QiXhamHJY8R-Wi3CL9VXg0"
+    },
+    "contact": {
+      "phone": "+1 345-943-2002",
+      "email": "",
+      "website": "http://www.davinciwellnesscentre.com/",
+      "bookingUrl": "http://www.davinciwellnesscentre.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMJgl86g2pt5iE_X5pBlKkGZHXqjrvXFToYXAgV=w168-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipMJgl86g2pt5iE_X5pBlKkGZHXqjrvXFToYXAgV=w168-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 100,
+      "priceTo": 300,
+      "pricePerUnit": null,
+      "priceDescription": "$100 - $300",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 10 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "10 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.5,
+      "reviewCount": 66,
+      "googleRating": 4.5
+    },
+    "tags": [
+      "wellness centre",
+      "wellness",
+      "massage",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "the",
+      "vinci",
+      "wellness",
+      "centre",
+      "spa",
+      "massage"
+    ],
+    "embeddingText": "The Da Vinci Wellness Centre The Da Vinci Wellness Centre located in the Cayman Islands. spa_wellness Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJQVVVZQZiL48RvngBgIZ5rgY-xd899bq8s",
+    "category": "spa_wellness",
+    "subcategory": "Massage therapist",
+    "name": "Perfectly Pampered Cayman - Mobile Massage and Spa Grand Cayman",
+    "description": "Perfectly Pampered Cayman - Mobile Massage and Spa Grand Cayman located in the Cayman Islands.",
+    "shortDescription": "Perfectly Pampered Cayman - Mobile Massage and Spa Grand Cayman located in the Cayman Islands.",
+    "location": {
+      "address": "",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3298772,
+      "longitude": -81.2524274,
+      "googlePlaceId": "ChIJQVVVZQZiL48RvngBgIZ5rgY"
+    },
+    "contact": {
+      "phone": "+1 345-925-6267",
+      "email": "",
+      "website": "http://perfectlypamperedcayman.com/",
+      "bookingUrl": "http://perfectlypamperedcayman.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoRNs2pn-1s1fVD_x03kk7xQ58cB0HdI51m38Mzl6V7FGTT367uh5nrJfc6bIj_lUoeUDIwHo5n0TDfUAvNVn8gGrk3kJU_gavTg6uUc5KD8q1kr3KdHMziyPzCzyPLYYa-5nZs9g=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoRNs2pn-1s1fVD_x03kk7xQ58cB0HdI51m38Mzl6V7FGTT367uh5nrJfc6bIj_lUoeUDIwHo5n0TDfUAvNVn8gGrk3kJU_gavTg6uUc5KD8q1kr3KdHMziyPzCzyPLYYa-5nZs9g=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 100,
+      "priceTo": 300,
+      "pricePerUnit": null,
+      "priceDescription": "$100 - $300",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open · Closes 9 pm",
+        "isOpen": true,
+        "todayHours": {
+          "closes": "9 pm"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now · Closes 9 pm"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 122,
+      "googleRating": 5
+    },
+    "tags": [
+      "massage therapist",
+      "wellness",
+      "massage",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "perfectly",
+      "pampered",
+      "cayman",
+      "mobile",
+      "massage",
+      "and",
+      "spa",
+      "grand",
+      "wellness"
+    ],
+    "embeddingText": "Perfectly Pampered Cayman - Mobile Massage and Spa Grand Cayman Perfectly Pampered Cayman - Mobile Massage and Spa Grand Cayman located in the Cayman Islands. spa_wellness Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJmyO_0DeHJY8R0tE7vt7rt2M-oue5jcjeq",
+    "category": "spa_wellness",
+    "subcategory": "Massage spa",
+    "name": "thaimassage-cayman",
+    "description": "thaimassage-cayman located in the Cayman Islands.",
+    "shortDescription": "thaimassage-cayman located in the Cayman Islands.",
+    "location": {
+      "address": "Unit#26, 57Central warehouse, Bodden Rd, George Town, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.3018488,
+      "longitude": -81.38120219999999,
+      "googlePlaceId": "ChIJmyO_0DeHJY8R0tE7vt7rt2M"
+    },
+    "contact": {
+      "phone": "+1 345-328-6799",
+      "email": "",
+      "website": "https://www.thaimassage-cayman.com/",
+      "bookingUrl": "https://www.thaimassage-cayman.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOvUo0VEy18WyDtIXvZk_RKpQJIPnPrnR8FB5AA=w80-h140-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipOvUo0VEy18WyDtIXvZk_RKpQJIPnPrnR8FB5AA=w80-h140-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 100,
+      "priceTo": 300,
+      "pricePerUnit": null,
+      "priceDescription": "$100 - $300",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closes soon · 7 pm · Opens 9 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "9 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 43,
+      "googleRating": 5
+    },
+    "tags": [
+      "massage spa",
+      "wellness",
+      "massage",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "thaimassage-cayman",
+      "spa",
+      "wellness",
+      "massage"
+    ],
+    "embeddingText": "thaimassage-cayman thaimassage-cayman located in the Cayman Islands. spa_wellness Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJExixktWHJY8RaF-b3-ah5u0-ffco0eqn5",
+    "category": "spa_wellness",
+    "subcategory": "Doctor",
+    "name": "The Well Cayman - Medical, Clinical, Functional",
+    "description": "The Well Cayman - Medical, Clinical, Functional located in the Cayman Islands.",
+    "shortDescription": "The Well Cayman - Medical, Clinical, Functional located in the Cayman Islands.",
+    "location": {
+      "address": "2nd Floor, 15 S Church St, George Town KY1-1110, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2936735,
+      "longitude": -81.3833313,
+      "googlePlaceId": "ChIJExixktWHJY8RaF-b3-ah5u0"
+    },
+    "contact": {
+      "phone": "+1 345-743-9355",
+      "email": "",
+      "website": "https://www.thewellcayman.com/",
+      "bookingUrl": "https://www.thewellcayman.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOskRZgNQpOBPxYvKqole5SLT9c6Rh-ImRm5Y_G=w80-h119-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipOskRZgNQpOBPxYvKqole5SLT9c6Rh-ImRm5Y_G=w80-h119-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 20,
+      "priceTo": 60,
+      "pricePerUnit": null,
+      "priceDescription": "$20 - $60",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open 24 hours",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "24"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "on_site_services": true
+      }
+    },
+    "ratings": {
+      "overall": 4.8,
+      "reviewCount": 21,
+      "googleRating": 4.8
+    },
+    "tags": [
+      "doctor",
+      "wellness",
+      "massage",
+      "on site services",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "the",
+      "well",
+      "cayman",
+      "medical,",
+      "clinical,",
+      "functional",
+      "spa",
+      "wellness",
+      "massage"
+    ],
+    "embeddingText": "The Well Cayman - Medical, Clinical, Functional The Well Cayman - Medical, Clinical, Functional located in the Cayman Islands. spa_wellness Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJcSVVjCyHJY8RtHeKVGAmqxE-xj2luohoj",
+    "category": "spa_wellness",
+    "subcategory": "Spa",
+    "name": "Now & Zen Spa",
+    "description": "Now & Zen Spa located in the Cayman Islands.",
+    "shortDescription": "Now & Zen Spa located in the Cayman Islands.",
+    "location": {
+      "address": "Unit 12, Cayman Falls, 1114 W Bay Rd, Grand Cayman KY1-1502, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3385525,
+      "longitude": -81.3800566,
+      "googlePlaceId": "ChIJcSVVjCyHJY8RtHeKVGAmqxE"
+    },
+    "contact": {
+      "phone": "+1 345-925-6102",
+      "email": "",
+      "website": "http://www.nowandzencayman.com/",
+      "bookingUrl": "http://www.nowandzencayman.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMGRTXwA-nCJ3qWeJcxme1vYCKrtf53nuR9sGo=w117-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipMGRTXwA-nCJ3qWeJcxme1vYCKrtf53nuR9sGo=w117-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 100,
+      "priceTo": 300,
+      "pricePerUnit": null,
+      "priceDescription": "$100 - $300",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 10 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "10 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 7,
+      "googleRating": 5
+    },
+    "tags": [
+      "spa",
+      "wellness",
+      "massage",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "now",
+      "zen",
+      "spa",
+      "wellness",
+      "massage"
+    ],
+    "embeddingText": "Now & Zen Spa Now & Zen Spa located in the Cayman Islands. spa_wellness Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJc1Y52GeGJY8RWYGyMKBGpcw-1fgyjlqou",
+    "category": "spa_wellness",
+    "subcategory": "Spa",
+    "name": "No. 11 Spa",
+    "description": "No. 11 Spa located in the Cayman Islands.",
+    "shortDescription": "No. 11 Spa located in the Cayman Islands.",
+    "location": {
+      "address": "Cayman Technology Centre, 115 Printers Way, Box 10108, KY1-1001, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.2909367,
+      "longitude": -81.3731268,
+      "googlePlaceId": "ChIJc1Y52GeGJY8RWYGyMKBGpcw"
+    },
+    "contact": {
+      "phone": "+1 345-526-6611",
+      "email": "",
+      "website": "https://no11spa.com/",
+      "bookingUrl": "https://no11spa.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOalCIxQtg_hHbu4sfCzSRp5MM4kF3yNQBVo5lw=w137-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipOalCIxQtg_hHbu4sfCzSRp5MM4kF3yNQBVo5lw=w137-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 100,
+      "priceTo": 300,
+      "pricePerUnit": null,
+      "priceDescription": "$100 - $300",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 9 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "9 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.9,
+      "reviewCount": 25,
+      "googleRating": 4.9
+    },
+    "tags": [
+      "spa",
+      "wellness",
+      "massage",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "no.",
+      "spa",
+      "wellness",
+      "massage"
+    ],
+    "embeddingText": "No. 11 Spa No. 11 Spa located in the Cayman Islands. spa_wellness Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJrYMisnuHJY8R-hmZUpghVOY-qwyz1lgij",
+    "category": "spa_wellness",
+    "subcategory": "Physical Therapy Clinic",
+    "name": "CRYO 345",
+    "description": "CRYO 345 located in the Cayman Islands.",
+    "shortDescription": "CRYO 345 located in the Cayman Islands.",
+    "location": {
+      "address": "72 N Church St, George Town, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2987523,
+      "longitude": -81.3819032,
+      "googlePlaceId": "ChIJrYMisnuHJY8R-hmZUpghVOY"
+    },
+    "contact": {
+      "phone": "+1 345-943-2796",
+      "email": "",
+      "website": "http://www.cryo345.com/",
+      "bookingUrl": "http://www.cryo345.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPdpBNm7g23AEkXRWGIc-OX8azaXBe-PV4ic0Bm=w80-h119-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipPdpBNm7g23AEkXRWGIc-OX8azaXBe-PV4ic0Bm=w80-h119-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 20,
+      "priceTo": 60,
+      "pricePerUnit": null,
+      "priceDescription": "$20 - $60",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 9 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "9 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 175,
+      "googleRating": 5
+    },
+    "tags": [
+      "physical therapy clinic",
+      "wellness",
+      "massage",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "cryo",
+      "345",
+      "spa",
+      "wellness",
+      "massage"
+    ],
+    "embeddingText": "CRYO 345 CRYO 345 located in the Cayman Islands. spa_wellness Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJt8c2NhGHJY8RCT2fGzC7fKg-kpww5iaib",
+    "category": "spa_wellness",
+    "subcategory": "Massage spa",
+    "name": "Cayman Massage & Skincare Lover - Mobile Massage Grand Cayman",
+    "description": "Cayman Massage & Skincare Lover - Mobile Massage Grand Cayman located in the Cayman Islands.",
+    "shortDescription": "Cayman Massage & Skincare Lover - Mobile Massage Grand Cayman located in the Cayman Islands.",
+    "location": {
+      "address": "83 Courts Rd, George Town KY1-1204, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.3063696,
+      "longitude": -81.37902059999999,
+      "googlePlaceId": "ChIJt8c2NhGHJY8RCT2fGzC7fKg"
+    },
+    "contact": {
+      "phone": "+1 345-329-8669",
+      "email": "",
+      "website": "https://wearewellnesslover.com/",
+      "bookingUrl": "https://wearewellnesslover.com/"
+    },
+    "media": {
+      "thumbnail": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=&key=placeholder",
+      "images": [
+        "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=&key=placeholder"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 100,
+      "priceTo": 300,
+      "pricePerUnit": null,
+      "priceDescription": "$100 - $300",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closes soon · 7 pm · Opens 9 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "9 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 0,
+      "reviewCount": 0,
+      "googleRating": 0
+    },
+    "tags": [
+      "massage spa",
+      "wellness",
+      "massage",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "cayman",
+      "massage",
+      "skincare",
+      "lover",
+      "mobile",
+      "grand",
+      "spa",
+      "wellness"
+    ],
+    "embeddingText": "Cayman Massage & Skincare Lover - Mobile Massage Grand Cayman Cayman Massage & Skincare Lover - Mobile Massage Grand Cayman located in the Cayman Islands. spa_wellness Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJdUI9_YCHJY8RiKInvKT8Wtw-eg01yj4ej",
+    "category": "spa_wellness",
+    "subcategory": "Spa",
+    "name": "Sanctuary Spa",
+    "description": "Sanctuary Spa located in the Cayman Islands.",
+    "shortDescription": "Sanctuary Spa located in the Cayman Islands.",
+    "location": {
+      "address": "Andrew Drive 311 Andrew Drive Grand Cayman KY1, 1208, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.328434899999998,
+      "longitude": -81.37030779999999,
+      "googlePlaceId": "ChIJdUI9_YCHJY8RiKInvKT8Wtw"
+    },
+    "contact": {
+      "phone": "+1 345-938-1713",
+      "email": "",
+      "website": "https://sanctuaryspa.info/",
+      "bookingUrl": "https://sanctuaryspa.info/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNYbNVu-6K13Fq0Q6353OwEwHPsb6WUX-oG6HRx=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipNYbNVu-6K13Fq0Q6353OwEwHPsb6WUX-oG6HRx=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 100,
+      "priceTo": 300,
+      "pricePerUnit": null,
+      "priceDescription": "$100 - $300",
+      "currency": "USD",
+      "openingHours": {
+        "raw": null,
+        "isOpen": null,
+        "todayHours": null,
+        "schedule": {},
+        "formattedDisplay": null
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 17,
+      "googleRating": 5
+    },
+    "tags": [
+      "spa",
+      "wellness",
+      "massage",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "sanctuary",
+      "spa",
+      "wellness",
+      "massage"
+    ],
+    "embeddingText": "Sanctuary Spa Sanctuary Spa located in the Cayman Islands. spa_wellness Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJg6TkXg2HJY8RCXhT6ECfrVM-ahd5r740p",
+    "category": "spa_wellness",
+    "subcategory": "Fitness centre",
+    "name": "Beauty Shape European Fitness and Wellness Center",
+    "description": "Beauty Shape European Fitness and Wellness Center located in the Cayman Islands.",
+    "shortDescription": "Beauty Shape European Fitness and Wellness Center located in the Cayman Islands.",
+    "location": {
+      "address": "Grand Cayman, Unit 13, The Strand, 46 Canal Point Dr, KY1-1112, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3311325,
+      "longitude": -81.38001129999999,
+      "googlePlaceId": "ChIJg6TkXg2HJY8RCXhT6ECfrVM"
+    },
+    "contact": {
+      "phone": "+1 345-233-3322",
+      "email": "",
+      "website": "http://www.beautyshape.ky/",
+      "bookingUrl": "http://www.beautyshape.ky/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipM2hk3GrE7-9XBK8MridD4GRQ7v6VUSq_rpJtJ_=w80-h106-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipM2hk3GrE7-9XBK8MridD4GRQ7v6VUSq_rpJtJ_=w80-h106-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 100,
+      "priceTo": 300,
+      "pricePerUnit": null,
+      "priceDescription": "$100 - $300",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closes soon · 7 pm · Opens 8 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "8 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 69,
+      "googleRating": 5
+    },
+    "tags": [
+      "fitness centre",
+      "wellness",
+      "massage",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "beauty",
+      "shape",
+      "european",
+      "fitness",
+      "and",
+      "wellness",
+      "center",
+      "spa",
+      "massage"
+    ],
+    "embeddingText": "Beauty Shape European Fitness and Wellness Center Beauty Shape European Fitness and Wellness Center located in the Cayman Islands. spa_wellness Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJyZRaTDeHJY8RkSQSAf-1tNU-yuoxe37i8",
+    "category": "spa_wellness",
+    "subcategory": "Wellness Programme",
+    "name": "Ananda Wellness",
+    "description": "Ananda Wellness located in the Cayman Islands.",
+    "shortDescription": "Ananda Wellness located in the Cayman Islands.",
+    "location": {
+      "address": "10 Market St, KY1-9006, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.322071599999997,
+      "longitude": -81.3777155,
+      "googlePlaceId": "ChIJyZRaTDeHJY8RkSQSAf-1tNU"
+    },
+    "contact": {
+      "phone": "+1 345-546-2337",
+      "email": "",
+      "website": "http://anandawellnessflow.com/",
+      "bookingUrl": "http://anandawellnessflow.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqFKJPwQEb2gYeanAq7tfSwdYXWJhslVVs1OioSa70ZSw5aPvC-3pRI391hxV5x1i225lm7O4nP2CiVH9FEVZc4sZo5TYNR4jeJd4BVNpDWbcx2lEN2XDPyrUrcjKojMnGAjP3UgX4vb8wl=w80-h142-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqFKJPwQEb2gYeanAq7tfSwdYXWJhslVVs1OioSa70ZSw5aPvC-3pRI391hxV5x1i225lm7O4nP2CiVH9FEVZc4sZo5TYNR4jeJd4BVNpDWbcx2lEN2XDPyrUrcjKojMnGAjP3UgX4vb8wl=w80-h142-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 100,
+      "priceTo": 300,
+      "pricePerUnit": null,
+      "priceDescription": "$100 - $300",
+      "currency": "USD",
+      "openingHours": {
+        "raw": null,
+        "isOpen": null,
+        "todayHours": null,
+        "schedule": {},
+        "formattedDisplay": null
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 14,
+      "googleRating": 5
+    },
+    "tags": [
+      "wellness programme",
+      "wellness",
+      "massage",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "ananda",
+      "wellness",
+      "spa",
+      "massage"
+    ],
+    "embeddingText": "Ananda Wellness Ananda Wellness located in the Cayman Islands. spa_wellness Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJf0UAXTWHJY8RITo_QIYvTs8-rnk5j78j0",
+    "category": "spa_wellness",
+    "subcategory": "Massage spa",
+    "name": "InSPAration Cayman - Mobile Massage - Grand Cayman",
+    "description": "InSPAration Cayman - Mobile Massage - Grand Cayman located in the Cayman Islands.",
+    "shortDescription": "InSPAration Cayman - Mobile Massage - Grand Cayman located in the Cayman Islands.",
+    "location": {
+      "address": "",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.510442299999998,
+      "longitude": -80.5715542,
+      "googlePlaceId": "ChIJf0UAXTWHJY8RITo_QIYvTs8"
+    },
+    "contact": {
+      "phone": "+1 345-325-9961",
+      "email": "",
+      "website": "http://www.insparationcayman.com/",
+      "bookingUrl": "http://www.insparationcayman.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNazcPveL49voLx3unfrXMn4wXx6adx-53MTtJQ=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipNazcPveL49voLx3unfrXMn4wXx6adx-53MTtJQ=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 100,
+      "priceTo": 300,
+      "pricePerUnit": null,
+      "priceDescription": "$100 - $300",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closes soon · 7 pm · Opens 9 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "9 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "outdoor_services": true
+      }
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 134,
+      "googleRating": 5
+    },
+    "tags": [
+      "massage spa",
+      "wellness",
+      "massage",
+      "outdoor services",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "insparation",
+      "cayman",
+      "mobile",
+      "massage",
+      "grand",
+      "spa",
+      "wellness"
+    ],
+    "embeddingText": "InSPAration Cayman - Mobile Massage - Grand Cayman InSPAration Cayman - Mobile Massage - Grand Cayman located in the Cayman Islands. spa_wellness Cayman Islands Caribbean",
+    "isActive": false,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJgbeZWKYtzEwRiGRFqLscDok-dr3hk83vb",
+    "category": "spa_wellness",
+    "subcategory": "Massage therapist",
+    "name": "Mellisauna’s Oasis Spa Cayman- Mobile Massage -Grand Cayman",
+    "description": "Mellisauna’s Oasis Spa Cayman- Mobile Massage -Grand Cayman located in the Cayman Islands.",
+    "shortDescription": "Mellisauna’s Oasis Spa Cayman- Mobile Massage -Grand Cayman located in the Cayman Islands.",
+    "location": {
+      "address": "",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3298772,
+      "longitude": -81.2524274,
+      "googlePlaceId": "ChIJgbeZWKYtzEwRiGRFqLscDok"
+    },
+    "contact": {
+      "phone": "+1 345-927-5412",
+      "email": "",
+      "website": "http://www.spamellisaunasoasisky.com/",
+      "bookingUrl": "http://www.spamellisaunasoasisky.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOu7mAVk8L6_Wb3FHJIZyzmE2lVw5Dxh22ugC7G=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipOu7mAVk8L6_Wb3FHJIZyzmE2lVw5Dxh22ugC7G=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 100,
+      "priceTo": 300,
+      "pricePerUnit": null,
+      "priceDescription": "$100 - $300",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open · Closes 9 pm",
+        "isOpen": true,
+        "todayHours": {
+          "closes": "9 pm"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now · Closes 9 pm"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "outdoor_services": true
+      }
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 74,
+      "googleRating": 5
+    },
+    "tags": [
+      "massage therapist",
+      "wellness",
+      "massage",
+      "outdoor services",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "mellisauna’s",
+      "oasis",
+      "spa",
+      "cayman-",
+      "mobile",
+      "massage",
+      "-grand",
+      "cayman",
+      "wellness"
+    ],
+    "embeddingText": "Mellisauna’s Oasis Spa Cayman- Mobile Massage -Grand Cayman Mellisauna’s Oasis Spa Cayman- Mobile Massage -Grand Cayman located in the Cayman Islands. spa_wellness Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJT9cYa4GHJY8Rj1U2H3a7xcs-icnie0wkt",
+    "category": "bar",
+    "subcategory": "Bar",
+    "name": "Globe Night Club",
+    "description": "Globe Night Club located in the Cayman Islands.",
+    "shortDescription": "Globe Night Club located in the Cayman Islands.",
+    "location": {
+      "address": "Mary St, George Town KY1-1111, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2971383,
+      "longitude": -81.378247,
+      "googlePlaceId": "ChIJT9cYa4GHJY8Rj1U2H3a7xcs"
+    },
+    "contact": {
+      "phone": "+1 345-326-2220",
+      "email": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOH2CPlarC4D6K-ek_kvBadIX-MEnXkss4OTPwK=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipOH2CPlarC4D6K-ek_kvBadIX-MEnXkss4OTPwK=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 15,
+      "priceTo": 50,
+      "pricePerUnit": null,
+      "priceDescription": "$15 - $50",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open · Closes 2 am",
+        "isOpen": true,
+        "todayHours": {
+          "closes": "2 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now · Closes 2 am"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "delivery": false
+      }
+    },
+    "ratings": {
+      "overall": 4.5,
+      "reviewCount": 11,
+      "googleRating": 4.5
+    },
+    "tags": [
+      "bar",
+      "bars",
+      "nightlife",
+      "clubs",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "globe",
+      "night",
+      "club",
+      "bars",
+      "nightlife",
+      "clubs"
+    ],
+    "embeddingText": "Globe Night Club Globe Night Club located in the Cayman Islands. bar Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJiSaZDtWHJY8RyttoYXIjkYQ-ix1ag4jgu",
+    "category": "bar",
+    "subcategory": "Bar",
+    "name": "Grand Tiki - Bar & Grill",
+    "description": "Grand Tiki - Bar & Grill located in the Cayman Islands.",
+    "shortDescription": "Grand Tiki - Bar & Grill located in the Cayman Islands.",
+    "location": {
+      "address": "93 S Church St, George Town, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2992389,
+      "longitude": -81.382217,
+      "googlePlaceId": "ChIJiSaZDtWHJY8RyttoYXIjkYQ"
+    },
+    "contact": {
+      "phone": "+1 345-916-3066",
+      "email": "",
+      "website": "http://grandtikibar.ky/",
+      "bookingUrl": "http://grandtikibar.ky/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPCU9kLfdb9PGvkBv_mSNtOzYwUgS_6BMDoFmea=w93-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipPCU9kLfdb9PGvkBv_mSNtOzYwUgS_6BMDoFmea=w93-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 15,
+      "priceTo": 50,
+      "pricePerUnit": null,
+      "priceDescription": "$15 - $50",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open · Closes 12 am",
+        "isOpen": true,
+        "todayHours": {
+          "closes": "12 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now · Closes 12 am"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "dine_in": true,
+        "takeaway": true,
+        "delivery": false
+      }
+    },
+    "ratings": {
+      "overall": 4.8,
+      "reviewCount": 82,
+      "googleRating": 4.8
+    },
+    "tags": [
+      "bar",
+      "bars",
+      "nightlife",
+      "clubs",
+      "dine in",
+      "takeaway",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "grand",
+      "tiki",
+      "bar",
+      "grill",
+      "bars",
+      "nightlife",
+      "clubs"
+    ],
+    "embeddingText": "Grand Tiki - Bar & Grill Grand Tiki - Bar & Grill located in the Cayman Islands. bar Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJ997TEmaGJY8RPv29svBGRLM-qe3qgigsn",
+    "category": "bar",
+    "subcategory": "Lounge",
+    "name": "Ultra Lounge & Grill",
+    "description": "Ultra Lounge & Grill located in the Cayman Islands.",
+    "shortDescription": "Ultra Lounge & Grill located in the Cayman Islands.",
+    "location": {
+      "address": "241smith road George town, HENNESSEY Drive, KY1-1003, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2882288,
+      "longitude": -81.3744162,
+      "googlePlaceId": "ChIJ997TEmaGJY8RPv29svBGRLM"
+    },
+    "contact": {
+      "phone": "+1 345-323-9824",
+      "email": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOojV-DHdMihgKJ_ZWU8xeMgL9cvXv6UJlgZHLL=w138-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipOojV-DHdMihgKJ_ZWU8xeMgL9cvXv6UJlgZHLL=w138-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 15,
+      "priceTo": 50,
+      "pricePerUnit": null,
+      "priceDescription": "$15 - $50",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open · Closes 2 am",
+        "isOpen": true,
+        "todayHours": {
+          "closes": "2 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now · Closes 2 am"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "dine_in": true,
+        "takeaway": true,
+        "delivery": true
+      }
+    },
+    "ratings": {
+      "overall": 4,
+      "reviewCount": 116,
+      "googleRating": 4
+    },
+    "tags": [
+      "lounge",
+      "bars",
+      "nightlife",
+      "clubs",
+      "dine in",
+      "takeaway",
+      "delivery",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "ultra",
+      "lounge",
+      "grill",
+      "bars",
+      "nightlife",
+      "clubs"
+    ],
+    "embeddingText": "Ultra Lounge & Grill Ultra Lounge & Grill located in the Cayman Islands. bar Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJk7ur9wKHJY8RDso2s9A4B2o-zcgo1524b",
+    "category": "bar",
+    "subcategory": "Bar",
+    "name": "The Cotton Club",
+    "description": "The Cotton Club located in the Cayman Islands.",
+    "shortDescription": "The Cotton Club located in the Cayman Islands.",
+    "location": {
+      "address": "unit #4, pedestrian Plaza, 425 Shedden Rd, George Town KY1-1501, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2931053,
+      "longitude": -81.371284,
+      "googlePlaceId": "ChIJk7ur9wKHJY8RDso2s9A4B2o"
+    },
+    "contact": {
+      "phone": "+1 345-928-1585",
+      "email": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepTQNqotmsPVZkxktCk_OuilEPeDclAIVv0pwWFQhWwhIiO0z8s7HlGwenEMAB9-G5slKyvt0wO05NG9DXtzteAG7JjME2jLjl6Fjho8YKf25RhX7-5OOctqMkisgXcG8pgTL-CBw=w163-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepTQNqotmsPVZkxktCk_OuilEPeDclAIVv0pwWFQhWwhIiO0z8s7HlGwenEMAB9-G5slKyvt0wO05NG9DXtzteAG7JjME2jLjl6Fjho8YKf25RhX7-5OOctqMkisgXcG8pgTL-CBw=w163-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 15,
+      "priceTo": 50,
+      "pricePerUnit": null,
+      "priceDescription": "$15 - $50",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open · Closes 2 am",
+        "isOpen": true,
+        "todayHours": {
+          "closes": "2 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now · Closes 2 am"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "delivery": false
+      }
+    },
+    "ratings": {
+      "overall": 4,
+      "reviewCount": 90,
+      "googleRating": 4
+    },
+    "tags": [
+      "bar",
+      "bars",
+      "nightlife",
+      "clubs",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "the",
+      "cotton",
+      "club",
+      "bars",
+      "nightlife",
+      "clubs"
+    ],
+    "embeddingText": "The Cotton Club The Cotton Club located in the Cayman Islands. bar Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJ3ypgOlaHJY8RhKRcOo4M1d4-tejz17l21",
+    "category": "bar",
+    "subcategory": "Bar",
+    "name": "Door No. 4",
+    "description": "Door No. 4 located in the Cayman Islands.",
+    "shortDescription": "Door No. 4 located in the Cayman Islands.",
+    "location": {
+      "address": "802 W Bay Rd, West Bay, Cayman Islands",
+      "district": "West Bay",
+      "island": "Grand Cayman",
+      "latitude": 19.3448603,
+      "longitude": -81.3806839,
+      "googlePlaceId": "ChIJ3ypgOlaHJY8RhKRcOo4M1d4"
+    },
+    "contact": {
+      "phone": "+1 345-640-0440",
+      "email": "",
+      "website": "http://doorno4.com/",
+      "bookingUrl": "http://doorno4.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoyRIqafYGMUl5Dt1CiN4SYAitPVviobg3aUPwidSFpWqTGS-zBlHfjqDOXieC6ayVtHslXzgR1_DegLfZZOxcpjtZg6Yf2W-GhiXEFtMOQUU9FrRDa2-plFWPz-nuGCxgYzquTV-mXVicG=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoyRIqafYGMUl5Dt1CiN4SYAitPVviobg3aUPwidSFpWqTGS-zBlHfjqDOXieC6ayVtHslXzgR1_DegLfZZOxcpjtZg6Yf2W-GhiXEFtMOQUU9FrRDa2-plFWPz-nuGCxgYzquTV-mXVicG=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 15,
+      "priceTo": 50,
+      "pricePerUnit": null,
+      "priceDescription": "$15 - $50",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open · Closes 1 am",
+        "isOpen": true,
+        "todayHours": {
+          "closes": "1 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now · Closes 1 am"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "dine_in": true,
+        "delivery": false
+      }
+    },
+    "ratings": {
+      "overall": 4.8,
+      "reviewCount": 91,
+      "googleRating": 4.8
+    },
+    "tags": [
+      "bar",
+      "bars",
+      "nightlife",
+      "clubs",
+      "dine in",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "door",
+      "no.",
+      "bars",
+      "nightlife",
+      "clubs"
+    ],
+    "embeddingText": "Door No. 4 Door No. 4 located in the Cayman Islands. bar Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJZYJEJe59L48RWFvXWcKsooI-pgialz6o6",
+    "category": "bar",
+    "subcategory": "Bar",
+    "name": "Le Petit Bar Cayman",
+    "description": "Le Petit Bar Cayman located in the Cayman Islands.",
+    "shortDescription": "Le Petit Bar Cayman located in the Cayman Islands.",
+    "location": {
+      "address": "2357 W Bay Rd, West Bay, Cayman Islands",
+      "district": "West Bay",
+      "island": "Grand Cayman",
+      "latitude": 19.3687149,
+      "longitude": -81.3971143,
+      "googlePlaceId": "ChIJZYJEJe59L48RWFvXWcKsooI"
+    },
+    "contact": {
+      "phone": "+1 345-936-1092",
+      "email": "",
+      "website": "https://www.lepetitbarcayman.com/",
+      "bookingUrl": "https://www.lepetitbarcayman.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNzkiRKpvKd5a76QuYI6vEyRvLHcktIP-RRUffV=w137-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipNzkiRKpvKd5a76QuYI6vEyRvLHcktIP-RRUffV=w137-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 15,
+      "priceTo": 50,
+      "pricePerUnit": null,
+      "priceDescription": "$15 - $50",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open · Closes 2 am",
+        "isOpen": true,
+        "todayHours": {
+          "closes": "2 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now · Closes 2 am"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "dine_in": true,
+        "takeaway": true,
+        "no_contact_delivery": true
+      }
+    },
+    "ratings": {
+      "overall": 4.9,
+      "reviewCount": 32,
+      "googleRating": 4.9
+    },
+    "tags": [
+      "bar",
+      "bars",
+      "nightlife",
+      "clubs",
+      "dine in",
+      "takeaway",
+      "no contact delivery",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "petit",
+      "bar",
+      "cayman",
+      "bars",
+      "nightlife",
+      "clubs"
+    ],
+    "embeddingText": "Le Petit Bar Cayman Le Petit Bar Cayman located in the Cayman Islands. bar Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJXeDhnqyHJY8RW0b5V5z08Uo-d70edril2",
+    "category": "bar",
+    "subcategory": "Bar",
+    "name": "Next Door",
+    "description": "Next Door located in the Cayman Islands.",
+    "shortDescription": "Next Door located in the Cayman Islands.",
+    "location": {
+      "address": "47 Forum Ln, Camana Bay KY1-1207, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3214597,
+      "longitude": -81.377211,
+      "googlePlaceId": "ChIJXeDhnqyHJY8RW0b5V5z08Uo"
+    },
+    "contact": {
+      "phone": "+1 345-746-2484",
+      "email": "",
+      "website": "http://www.nextdoor.ky/",
+      "bookingUrl": "http://www.nextdoor.ky/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqXQn1AWsEDRt_9qSaOeQ7Kzmd3OXQP5Pu0B4Mlm2GVJUF8PkR8uSSJVeVPnHO1cS_zeLeGkT5ROYEuscwMs6zvUgaQruc94GY4J74GbPK4Hrx1LOg5IKNTCosQzYp98rRZP14=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqXQn1AWsEDRt_9qSaOeQ7Kzmd3OXQP5Pu0B4Mlm2GVJUF8PkR8uSSJVeVPnHO1cS_zeLeGkT5ROYEuscwMs6zvUgaQruc94GY4J74GbPK4Hrx1LOg5IKNTCosQzYp98rRZP14=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 15,
+      "priceTo": 50,
+      "pricePerUnit": null,
+      "priceDescription": "$15 - $50",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open · Closes 12 am",
+        "isOpen": true,
+        "todayHours": {
+          "closes": "12 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now · Closes 12 am"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "dine_in": true,
+        "takeaway": false,
+        "delivery": false
+      }
+    },
+    "ratings": {
+      "overall": 4.8,
+      "reviewCount": 70,
+      "googleRating": 4.8
+    },
+    "tags": [
+      "bar",
+      "bars",
+      "nightlife",
+      "clubs",
+      "dine in",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "next",
+      "door",
+      "bars",
+      "nightlife",
+      "clubs"
+    ],
+    "embeddingText": "Next Door Next Door located in the Cayman Islands. bar Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJVzvtOV6GJY8Re2PtigaeTe0-dq3ldrlu5",
+    "category": "bar",
+    "subcategory": "Bar",
+    "name": "The Office Lounge",
+    "description": "The Office Lounge located in the Cayman Islands.",
+    "shortDescription": "The Office Lounge located in the Cayman Islands.",
+    "location": {
+      "address": "80A Shedden Rd, George Town, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2949028,
+      "longitude": -81.3798065,
+      "googlePlaceId": "ChIJVzvtOV6GJY8Re2PtigaeTe0"
+    },
+    "contact": {
+      "phone": "+1 345-945-5212",
+      "email": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwer3GX5I0-1NBi0thhmM6Q7974Yqo2JLn7hBft2IMi7A0dciIaId_liiF2lgj2OKjCha9EUKP5t1lWa3KOPKaSUU2kFMc8Ipn7-byp50TC9ulObY4MMR8jRX7bkK7brD6AFyGok=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwer3GX5I0-1NBi0thhmM6Q7974Yqo2JLn7hBft2IMi7A0dciIaId_liiF2lgj2OKjCha9EUKP5t1lWa3KOPKaSUU2kFMc8Ipn7-byp50TC9ulObY4MMR8jRX7bkK7brD6AFyGok=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 15,
+      "priceTo": 50,
+      "pricePerUnit": null,
+      "priceDescription": "$15 - $50",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open · Closes 1 am",
+        "isOpen": true,
+        "todayHours": {
+          "closes": "1 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now · Closes 1 am"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "dine_in": true,
+        "delivery": false
+      }
+    },
+    "ratings": {
+      "overall": 4.5,
+      "reviewCount": 89,
+      "googleRating": 4.5
+    },
+    "tags": [
+      "bar",
+      "bars",
+      "nightlife",
+      "clubs",
+      "dine in",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "the",
+      "office",
+      "lounge",
+      "bars",
+      "nightlife",
+      "clubs"
+    ],
+    "embeddingText": "The Office Lounge The Office Lounge located in the Cayman Islands. bar Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJj16JILeHJY8RlGE0Durue4I-4s3od7rd5",
+    "category": "bar",
+    "subcategory": "Bar",
+    "name": "The Backroom",
+    "description": "The Backroom located in the Cayman Islands.",
+    "shortDescription": "The Backroom located in the Cayman Islands.",
+    "location": {
+      "address": "672 West Bay Road | Regency Court, George Town, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.3255969,
+      "longitude": -81.3812268,
+      "googlePlaceId": "ChIJj16JILeHJY8RlGE0Durue4I"
+    },
+    "contact": {
+      "phone": "+1 345-947-7666",
+      "email": "",
+      "website": "https://m.facebook.com/backroomcayman/",
+      "bookingUrl": "https://m.facebook.com/backroomcayman/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepChEAGilemC6dUH9wA3Vh5AljbDtWxdCUewIMXbTlMdxW0fEBu8qTaiyT864JkVGfZGH35xFtFNiGXHbT1d3-TDao_LtT6ItL0At9r3UJ0FQN74BhCGzSMdLSj_Rin9aYF1Coz=w80-h106-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepChEAGilemC6dUH9wA3Vh5AljbDtWxdCUewIMXbTlMdxW0fEBu8qTaiyT864JkVGfZGH35xFtFNiGXHbT1d3-TDao_LtT6ItL0At9r3UJ0FQN74BhCGzSMdLSj_Rin9aYF1Coz=w80-h106-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 15,
+      "priceTo": 50,
+      "pricePerUnit": null,
+      "priceDescription": "$15 - $50",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open · Closes 2 am",
+        "isOpen": true,
+        "todayHours": {
+          "closes": "2 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now · Closes 2 am"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "delivery": false
+      }
+    },
+    "ratings": {
+      "overall": 4.4,
+      "reviewCount": 88,
+      "googleRating": 4.4
+    },
+    "tags": [
+      "bar",
+      "bars",
+      "nightlife",
+      "clubs",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "the",
+      "backroom",
+      "bars",
+      "nightlife",
+      "clubs"
+    ],
+    "embeddingText": "The Backroom The Backroom located in the Cayman Islands. bar Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJmUgLNtZjL48RvRt3xRGrmUE-glgck3dp2",
+    "category": "bar",
+    "subcategory": "Bar",
+    "name": "Rum Point Club",
+    "description": "Rum Point Club located in the Cayman Islands.",
+    "shortDescription": "Rum Point Club located in the Cayman Islands.",
+    "location": {
+      "address": "Cayman Kai, 46 Sand Point Rd, Rum Point, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.371762099999998,
+      "longitude": -81.271171,
+      "googlePlaceId": "ChIJmUgLNtZjL48RvRt3xRGrmUE"
+    },
+    "contact": {
+      "phone": "+1 345-947-9412",
+      "email": "",
+      "website": "http://www.rumpointclub.com/",
+      "bookingUrl": "http://www.rumpointclub.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoRZVwbYcGaoqwfCyPHqnUN9m01Mj4PJDcvcNJA9GAze26q4r8rZHfRL0PJtk3-jtg-Bz8Qqjd-wpX2ULDk59iaf5wPleqsnq8ZrSLV3lMuTdVdUZ0waTmnsuqISSHdxwz4iczm=w163-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoRZVwbYcGaoqwfCyPHqnUN9m01Mj4PJDcvcNJA9GAze26q4r8rZHfRL0PJtk3-jtg-Bz8Qqjd-wpX2ULDk59iaf5wPleqsnq8ZrSLV3lMuTdVdUZ0waTmnsuqISSHdxwz4iczm=w163-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 15,
+      "priceTo": 50,
+      "pricePerUnit": null,
+      "priceDescription": "$15 - $50",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open · Closes 9 pm",
+        "isOpen": true,
+        "todayHours": {
+          "closes": "9 pm"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now · Closes 9 pm"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "dine_in": true,
+        "takeaway": true,
+        "delivery": false
+      }
+    },
+    "ratings": {
+      "overall": 4.4,
+      "reviewCount": 589,
+      "googleRating": 4.4
+    },
+    "tags": [
+      "bar",
+      "bars",
+      "nightlife",
+      "clubs",
+      "dine in",
+      "takeaway",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "rum",
+      "point",
+      "club",
+      "bars",
+      "nightlife",
+      "clubs"
+    ],
+    "embeddingText": "Rum Point Club Rum Point Club located in the Cayman Islands. bar Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJCwtbUKqHJY8R2PVC-N55M_4-7mh6ace4s",
+    "category": "bar",
+    "subcategory": "Bar",
+    "name": "Chelsea's Bar",
+    "description": "Chelsea's Bar located in the Cayman Islands.",
+    "shortDescription": "Chelsea's Bar located in the Cayman Islands.",
+    "location": {
+      "address": "508 W Bay Rd, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.320544599999998,
+      "longitude": -81.3815704,
+      "googlePlaceId": "ChIJCwtbUKqHJY8R2PVC-N55M_4"
+    },
+    "contact": {
+      "phone": "+1 345-945-2022",
+      "email": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipP1HZt_3jlYvZhgIKHRgkQ8J1hF8FgqTc8TJPnx=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipP1HZt_3jlYvZhgIKHRgkQ8J1hF8FgqTc8TJPnx=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 15,
+      "priceTo": 50,
+      "pricePerUnit": null,
+      "priceDescription": "$15 - $50",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open · Closes 2 am",
+        "isOpen": true,
+        "todayHours": {
+          "closes": "2 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now · Closes 2 am"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.5,
+      "reviewCount": 64,
+      "googleRating": 4.5
+    },
+    "tags": [
+      "bar",
+      "bars",
+      "nightlife",
+      "clubs",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "chelsea's",
+      "bar",
+      "bars",
+      "nightlife",
+      "clubs"
+    ],
+    "embeddingText": "Chelsea's Bar Chelsea's Bar located in the Cayman Islands. bar Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJKXL5AymHJY8RtC3edl77edc-wqpdvmuuu",
+    "category": "bar",
+    "subcategory": "Bar",
+    "name": "Energy Lounge",
+    "description": "Energy Lounge located in the Cayman Islands.",
+    "shortDescription": "Energy Lounge located in the Cayman Islands.",
+    "location": {
+      "address": "128 Shedden Road Grand Cayman KY1, 128 Shedden Rd, George Town 1106, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2948976,
+      "longitude": -81.3790265,
+      "googlePlaceId": "ChIJKXL5AymHJY8RtC3edl77edc"
+    },
+    "contact": {
+      "phone": "+1 345-916-5359",
+      "email": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepNZpkFAEqQU6AYKRTkTBvGfOc1hgWzNc-UySR6FUeLU0nzIQ5UZRn1JfNw7KkVDNJDwzWdmwZdrF6XbRQ7jsMXPMbpPzuXnRppbAMLiXZiZfN_Fxf3h910dSo2ZiYrSYdrynuS=w80-h106-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepNZpkFAEqQU6AYKRTkTBvGfOc1hgWzNc-UySR6FUeLU0nzIQ5UZRn1JfNw7KkVDNJDwzWdmwZdrF6XbRQ7jsMXPMbpPzuXnRppbAMLiXZiZfN_Fxf3h910dSo2ZiYrSYdrynuS=w80-h106-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 15,
+      "priceTo": 50,
+      "pricePerUnit": null,
+      "priceDescription": "$15 - $50",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open · Closes 2 am",
+        "isOpen": true,
+        "todayHours": {
+          "closes": "2 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now · Closes 2 am"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "takeaway": true,
+        "delivery": false
+      }
+    },
+    "ratings": {
+      "overall": 3.8,
+      "reviewCount": 14,
+      "googleRating": 3.8
+    },
+    "tags": [
+      "bar",
+      "bars",
+      "nightlife",
+      "clubs",
+      "takeaway",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "energy",
+      "lounge",
+      "bars",
+      "nightlife",
+      "clubs"
+    ],
+    "embeddingText": "Energy Lounge Energy Lounge located in the Cayman Islands. bar Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJ8eunYdKHJY8RrLctbFd1ZyU-jzz42krrb",
+    "category": "bar",
+    "subcategory": "Bar",
+    "name": "Cask Whisky",
+    "description": "Cask Whisky located in the Cayman Islands.",
+    "shortDescription": "Cask Whisky located in the Cayman Islands.",
+    "location": {
+      "address": "18 Forum Ln, KY1-9006, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3211174,
+      "longitude": -81.378604,
+      "googlePlaceId": "ChIJ8eunYdKHJY8RrLctbFd1ZyU"
+    },
+    "contact": {
+      "phone": "+1 345-746-2275",
+      "email": "",
+      "website": "http://www.caskwhisky.ky/",
+      "bookingUrl": "http://www.caskwhisky.ky/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOfPmpH3RKXxt42_I5A5uWknaluudN-JG0Wjro3=w102-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipOfPmpH3RKXxt42_I5A5uWknaluudN-JG0Wjro3=w102-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 15,
+      "priceTo": 50,
+      "pricePerUnit": null,
+      "priceDescription": "$15 - $50",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open · Closes 1:45 am",
+        "isOpen": true,
+        "todayHours": {
+          "closes": "1:45 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now · Closes 1:45 am"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "delivery": false
+      }
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 92,
+      "googleRating": 5
+    },
+    "tags": [
+      "bar",
+      "bars",
+      "nightlife",
+      "clubs",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "cask",
+      "whisky",
+      "bars",
+      "nightlife",
+      "clubs"
+    ],
+    "embeddingText": "Cask Whisky Cask Whisky located in the Cayman Islands. bar Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJsSCpvAyHJY8RBLcXyyIwGhQ-zam9tkiqm",
+    "category": "bar",
+    "subcategory": "Bar",
+    "name": "Library By The Sea",
+    "description": "Library By The Sea located in the Cayman Islands.",
+    "shortDescription": "Library By The Sea located in the Cayman Islands.",
+    "location": {
+      "address": "Seven Mile Beach, 60 Tanager Way, KY1-1303, Cayman Islands",
+      "district": "Seven Mile Beach",
+      "island": "Grand Cayman",
+      "latitude": 19.351736499999998,
+      "longitude": -81.383168,
+      "googlePlaceId": "ChIJsSCpvAyHJY8RBLcXyyIwGhQ"
+    },
+    "contact": {
+      "phone": "",
+      "email": "",
+      "website": "https://librarybythesea.com/",
+      "bookingUrl": "https://librarybythesea.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwermodCXLuXlsMJiTyA7u3LUz43OSAHiKo8Yh3WhlekKFjtT2ZENxjMGIcjf78JN0BSddR4U1cFcRQneIk48sWOcJkyqWCimkDYafHjDR2og8uvS3fbmz__8HP3GvZraTyAvoGnHWw=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwermodCXLuXlsMJiTyA7u3LUz43OSAHiKo8Yh3WhlekKFjtT2ZENxjMGIcjf78JN0BSddR4U1cFcRQneIk48sWOcJkyqWCimkDYafHjDR2og8uvS3fbmz__8HP3GvZraTyAvoGnHWw=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 15,
+      "priceTo": 50,
+      "pricePerUnit": null,
+      "priceDescription": "$15 - $50",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open · Closes 12 am",
+        "isOpen": true,
+        "todayHours": {
+          "closes": "12 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now · Closes 12 am"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "dine_in": true,
+        "delivery": false
+      }
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 47,
+      "googleRating": 5
+    },
+    "tags": [
+      "bar",
+      "bars",
+      "nightlife",
+      "clubs",
+      "dine in",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "library",
+      "the",
+      "sea",
+      "bars",
+      "nightlife",
+      "clubs"
+    ],
+    "embeddingText": "Library By The Sea Library By The Sea located in the Cayman Islands. bar Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJV2Q8B0SGJY8Rn2btX49tyQA-dzssfpse8",
+    "category": "bar",
+    "subcategory": "Bar",
+    "name": "The Caymanite Bar & Lounge",
+    "description": "The Caymanite Bar & Lounge located in the Cayman Islands.",
+    "shortDescription": "The Caymanite Bar & Lounge located in the Cayman Islands.",
+    "location": {
+      "address": "351 Dorcy Dr, George Town, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2989636,
+      "longitude": -81.36788159999999,
+      "googlePlaceId": "ChIJV2Q8B0SGJY8Rn2btX49tyQA"
+    },
+    "contact": {
+      "phone": "+1 345-546-3618",
+      "email": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoI49lTcR0hv-mh1E745gODyvOrvZCJHojsVGR-tZuabAuVXQUd2kfTFPkiMh9770fFhSeQEbFPc65K1_SQbGNOtoJtpGpZu2quDBjORUNSQ1hS1wCY1HBNIXxBtWfB_SEqgMLYaQ=w92-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoI49lTcR0hv-mh1E745gODyvOrvZCJHojsVGR-tZuabAuVXQUd2kfTFPkiMh9770fFhSeQEbFPc65K1_SQbGNOtoJtpGpZu2quDBjORUNSQ1hS1wCY1HBNIXxBtWfB_SEqgMLYaQ=w92-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 15,
+      "priceTo": 50,
+      "pricePerUnit": null,
+      "priceDescription": "$15 - $50",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open · Closes 2 am",
+        "isOpen": true,
+        "todayHours": {
+          "closes": "2 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now · Closes 2 am"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "delivery": false
+      }
+    },
+    "ratings": {
+      "overall": 3.8,
+      "reviewCount": 39,
+      "googleRating": 3.8
+    },
+    "tags": [
+      "bar",
+      "bars",
+      "nightlife",
+      "clubs",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "the",
+      "caymanite",
+      "bar",
+      "lounge",
+      "bars",
+      "nightlife",
+      "clubs"
+    ],
+    "embeddingText": "The Caymanite Bar & Lounge The Caymanite Bar & Lounge located in the Cayman Islands. bar Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJmcMcCfOHJY8RDWqAZS9TKqk-qj2zi1tog",
+    "category": "bar",
+    "subcategory": "Nightclub",
+    "name": "Grand Cayman Nightlife",
+    "description": "Grand Cayman Nightlife located in the Cayman Islands.",
+    "shortDescription": "Grand Cayman Nightlife located in the Cayman Islands.",
+    "location": {
+      "address": "23 N Church St, George Town, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2974097,
+      "longitude": -81.3826655,
+      "googlePlaceId": "ChIJmcMcCfOHJY8RDWqAZS9TKqk"
+    },
+    "contact": {
+      "phone": "+1 345-917-9779",
+      "email": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqJQKjpE_28FD4rIKXpmqrXiEPVbGJdq1ig-5wnXW-pB3Y27_EMiaVcJ-4g0eH6Pemx_6iwMLx4ZqQZuD8bigQ-NVwL4ZXoI9T6P8nK2mJ-lVex2oTYHvBSqhccMbpNDLGT-OvE=w80-h106-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqJQKjpE_28FD4rIKXpmqrXiEPVbGJdq1ig-5wnXW-pB3Y27_EMiaVcJ-4g0eH6Pemx_6iwMLx4ZqQZuD8bigQ-NVwL4ZXoI9T6P8nK2mJ-lVex2oTYHvBSqhccMbpNDLGT-OvE=w80-h106-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": null,
+      "priceTo": null,
+      "pricePerUnit": null,
+      "priceDescription": null,
+      "currency": "USD",
+      "openingHours": {
+        "raw": null,
+        "isOpen": null,
+        "todayHours": null,
+        "schedule": {},
+        "formattedDisplay": null
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "delivery": false
+      }
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 1,
+      "googleRating": 5
+    },
+    "tags": [
+      "nightclub",
+      "bars",
+      "nightlife",
+      "clubs",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "grand",
+      "cayman",
+      "nightlife",
+      "bars",
+      "clubs"
+    ],
+    "embeddingText": "Grand Cayman Nightlife Grand Cayman Nightlife located in the Cayman Islands. bar Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJGysgWuqHJY8RrvaazEPRc6M-2k6f3lgwl",
+    "category": "bar",
+    "subcategory": "Bar & grill",
+    "name": "Sandbar Daiquiri Bar & Grill Grand Cayman",
+    "description": "Sandbar Daiquiri Bar & Grill Grand Cayman located in the Cayman Islands.",
+    "shortDescription": "Sandbar Daiquiri Bar & Grill Grand Cayman located in the Cayman Islands.",
+    "location": {
+      "address": "1, Box 11310 KY, 23, 1008 N Church St, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.2974274,
+      "longitude": -81.382649,
+      "googlePlaceId": "ChIJGysgWuqHJY8RrvaazEPRc6M"
+    },
+    "contact": {
+      "phone": "+1 345-917-9779",
+      "email": "",
+      "website": "https://www.sandbarcayman.com/",
+      "bookingUrl": "https://www.sandbarcayman.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPXB6ILYzA0lNBpu_Gn_9ggi2TolZtt8TNef4GA=w137-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipPXB6ILYzA0lNBpu_Gn_9ggi2TolZtt8TNef4GA=w137-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 15,
+      "priceTo": 50,
+      "pricePerUnit": null,
+      "priceDescription": "$15 - $50",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open · Closes 10 pm",
+        "isOpen": true,
+        "todayHours": {
+          "closes": "10 pm"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now · Closes 10 pm"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "dine_in": true,
+        "takeaway": true,
+        "delivery": false
+      }
+    },
+    "ratings": {
+      "overall": 4.6,
+      "reviewCount": 287,
+      "googleRating": 4.6
+    },
+    "tags": [
+      "bar & grill",
+      "bars",
+      "nightlife",
+      "clubs",
+      "dine in",
+      "takeaway",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "sandbar",
+      "daiquiri",
+      "bar",
+      "grill",
+      "grand",
+      "cayman",
+      "bars",
+      "nightlife",
+      "clubs"
+    ],
+    "embeddingText": "Sandbar Daiquiri Bar & Grill Grand Cayman Sandbar Daiquiri Bar & Grill Grand Cayman located in the Cayman Islands. bar Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJc3rs-zSHJY8RMzGVD68fW-s-hv0qvvip8",
+    "category": "bar",
+    "subcategory": "Bar",
+    "name": "Vista Beach Bar",
+    "description": "Vista Beach Bar located in the Cayman Islands.",
+    "shortDescription": "Vista Beach Bar located in the Cayman Islands.",
+    "location": {
+      "address": "Seven Mile Beach, 193 Piper Way, Cayman Islands",
+      "district": "Seven Mile Beach",
+      "island": "Grand Cayman",
+      "latitude": 19.3180603,
+      "longitude": -81.3845458,
+      "googlePlaceId": "ChIJc3rs-zSHJY8RMzGVD68fW-s"
+    },
+    "contact": {
+      "phone": "",
+      "email": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep-By5oqc41LvodlCeaFwkzeaNYsG3dm04H4ucvufP2-aJekoII2XobXGtf86OgPSdZPrp8suf1sw9FbPGvgRWlrjm80_T_luqugq9AX-10Ub1wMIdR2ykBpnHqNkv5_I54mLR1=w80-h106-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep-By5oqc41LvodlCeaFwkzeaNYsG3dm04H4ucvufP2-aJekoII2XobXGtf86OgPSdZPrp8suf1sw9FbPGvgRWlrjm80_T_luqugq9AX-10Ub1wMIdR2ykBpnHqNkv5_I54mLR1=w80-h106-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 15,
+      "priceTo": 50,
+      "pricePerUnit": null,
+      "priceDescription": "$15 - $50",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open · Closes 9 pm",
+        "isOpen": true,
+        "todayHours": {
+          "closes": "9 pm"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now · Closes 9 pm"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "dine_in": true,
+        "takeaway": true,
+        "delivery": false
+      }
+    },
+    "ratings": {
+      "overall": 4.7,
+      "reviewCount": 44,
+      "googleRating": 4.7
+    },
+    "tags": [
+      "bar",
+      "bars",
+      "nightlife",
+      "clubs",
+      "dine in",
+      "takeaway",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "vista",
+      "beach",
+      "bar",
+      "bars",
+      "nightlife",
+      "clubs"
+    ],
+    "embeddingText": "Vista Beach Bar Vista Beach Bar located in the Cayman Islands. bar Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJ8elUPSuHJY8RNoD3oe1052k-3tyhcku81",
+    "category": "bar",
+    "subcategory": "Bar & grill",
+    "name": "All Stars Sports Bar & Grill",
+    "description": "All Stars Sports Bar & Grill located in the Cayman Islands.",
+    "shortDescription": "All Stars Sports Bar & Grill located in the Cayman Islands.",
+    "location": {
+      "address": "W Bay Rd, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3111875,
+      "longitude": -81.3845625,
+      "googlePlaceId": "ChIJ8elUPSuHJY8RNoD3oe1052k"
+    },
+    "contact": {
+      "phone": "+1 345-746-8989",
+      "email": "",
+      "website": "https://www.facebook.com/AllStarsCayman/?ref=page_internal",
+      "bookingUrl": "https://www.facebook.com/AllStarsCayman/?ref=page_internal"
+    },
+    "media": {
+      "thumbnail": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=&key=placeholder",
+      "images": [
+        "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=&key=placeholder"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 15,
+      "priceTo": 50,
+      "pricePerUnit": null,
+      "priceDescription": "$15 - $50",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open · Closes 2 am",
+        "isOpen": true,
+        "todayHours": {
+          "closes": "2 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now · Closes 2 am"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "dine_in": true,
+        "takeaway": true,
+        "delivery": false
+      }
+    },
+    "ratings": {
+      "overall": 4.8,
+      "reviewCount": 41,
+      "googleRating": 4.8
+    },
+    "tags": [
+      "bar & grill",
+      "bars",
+      "nightlife",
+      "clubs",
+      "dine in",
+      "takeaway",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "all",
+      "stars",
+      "sports",
+      "bar",
+      "grill",
+      "bars",
+      "nightlife",
+      "clubs"
+    ],
+    "embeddingText": "All Stars Sports Bar & Grill All Stars Sports Bar & Grill located in the Cayman Islands. bar Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJvd3aKTKHJY8R6_f4l9yIh78-zmpv1yw70",
+    "category": "water_sports",
+    "subcategory": "Water sports equipment rental service",
+    "name": "Coconut Watersports",
+    "description": "Coconut Watersports located in the Cayman Islands.",
+    "shortDescription": "Coconut Watersports located in the Cayman Islands.",
+    "location": {
+      "address": "7 mile beach, 993 W Bay Rd, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3348925,
+      "longitude": -81.3804956,
+      "googlePlaceId": "ChIJvd3aKTKHJY8R6_f4l9yIh78"
+    },
+    "contact": {
+      "phone": "+1 345-936-2787",
+      "email": "",
+      "website": "https://www.coconutwatersports.ky/",
+      "bookingUrl": "https://www.coconutwatersports.ky/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOSvNHzQWARsQ9DaN5Ec9-d9Ine36RCE6QcObEb=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipOSvNHzQWARsQ9DaN5Ec9-d9Ine36RCE6QcObEb=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": null,
+      "priceTo": null,
+      "pricePerUnit": null,
+      "priceDescription": null,
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closes soon · 7 pm · Opens 7 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "7 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 4,
+      "googleRating": 5
+    },
+    "tags": [
+      "water sports equipment rental service",
+      "water",
+      "sports",
+      "activities",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "coconut",
+      "watersports",
+      "water",
+      "sports",
+      "activities"
+    ],
+    "embeddingText": "Coconut Watersports Coconut Watersports located in the Cayman Islands. water_sports Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJefOeAbyJJY8RFNIk_512Zfw-8gnqnkl47",
+    "category": "water_sports",
+    "subcategory": "Water sports equipment rental service",
+    "name": "Caymanvibes water sports",
+    "description": "Caymanvibes water sports located in the Cayman Islands.",
+    "shortDescription": "Caymanvibes water sports located in the Cayman Islands.",
+    "location": {
+      "address": "Kaibo Newlands barcadere, Rum Point, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3558995,
+      "longitude": -81.27861329999999,
+      "googlePlaceId": "ChIJefOeAbyJJY8RFNIk_512Zfw"
+    },
+    "contact": {
+      "phone": "+1 345-321-4401",
+      "email": "",
+      "website": "https://caymanvibes.ky/",
+      "bookingUrl": "https://caymanvibes.ky/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqX-PXSE_XNaTDFl6sDEAyGWqz3xM_j7fDI_NE0_VU8AZ58ZMIpjzEsEdlqG-eQQY7df5gjEI30O0XW0ifG8DgI-b2jpXkhxMuA6H3NZ7tI-mNgjzSimVY0nYed1TpyY_ORissTpea6tBM=w163-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqX-PXSE_XNaTDFl6sDEAyGWqz3xM_j7fDI_NE0_VU8AZ58ZMIpjzEsEdlqG-eQQY7df5gjEI30O0XW0ifG8DgI-b2jpXkhxMuA6H3NZ7tI-mNgjzSimVY0nYed1TpyY_ORissTpea6tBM=w163-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": null,
+      "priceTo": null,
+      "pricePerUnit": null,
+      "priceDescription": null,
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closes soon · 7 pm · Opens 6 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "6 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.9,
+      "reviewCount": 33,
+      "googleRating": 4.9
+    },
+    "tags": [
+      "water sports equipment rental service",
+      "water",
+      "sports",
+      "activities",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "caymanvibes",
+      "water",
+      "sports",
+      "activities"
+    ],
+    "embeddingText": "Caymanvibes water sports Caymanvibes water sports located in the Cayman Islands. water_sports Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJ16HHw_b1JY8R50Af6lFhW4o-48h5njcyv",
+    "category": "water_sports",
+    "subcategory": "Water sports equipment rental service",
+    "name": "White Sand Water Sports",
+    "description": "White Sand Water Sports located in the Cayman Islands.",
+    "shortDescription": "White Sand Water Sports located in the Cayman Islands.",
+    "location": {
+      "address": "585 Water Cay Rd, Rum Point, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.356242299999998,
+      "longitude": -81.2767155,
+      "googlePlaceId": "ChIJ16HHw_b1JY8R50Af6lFhW4o"
+    },
+    "contact": {
+      "phone": "+1 345-926-7263",
+      "email": "",
+      "website": "http://www.whitesandwatersports.com/",
+      "bookingUrl": "http://www.whitesandwatersports.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep-l2rCPPVs5-iAl8cs6ZLkhFC4Gw7s1Apg-wdWvEWVTbmiI_2bImCrNhZKpyhGnemC6kBPSNwfTWzjgd6FjivH2g0Vl2HGGwoU0EGkbyJPMiI8Ef5axRSXSnijJ6Y0qJqL7Lk=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep-l2rCPPVs5-iAl8cs6ZLkhFC4Gw7s1Apg-wdWvEWVTbmiI_2bImCrNhZKpyhGnemC6kBPSNwfTWzjgd6FjivH2g0Vl2HGGwoU0EGkbyJPMiI8Ef5axRSXSnijJ6Y0qJqL7Lk=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": null,
+      "priceTo": null,
+      "pricePerUnit": null,
+      "priceDescription": null,
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 9 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "9 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 379,
+      "googleRating": 5
+    },
+    "tags": [
+      "water sports equipment rental service",
+      "water",
+      "sports",
+      "activities",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "white",
+      "sand",
+      "water",
+      "sports",
+      "activities"
+    ],
+    "embeddingText": "White Sand Water Sports White Sand Water Sports located in the Cayman Islands. water_sports Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJO_86rsqLJY8RNGr2OB5gB6o-py69892ag",
+    "category": "water_sports",
+    "subcategory": "Water sports equipment rental service",
+    "name": "Elite Watersports",
+    "description": "Elite Watersports located in the Cayman Islands.",
+    "shortDescription": "Elite Watersports located in the Cayman Islands.",
+    "location": {
+      "address": "grand cayman Grand cayman, Seven Mile Beach, KY1-1303, Cayman Islands",
+      "district": "Seven Mile Beach",
+      "island": "Grand Cayman",
+      "latitude": 19.348737699999997,
+      "longitude": -81.3834127,
+      "googlePlaceId": "ChIJO_86rsqLJY8RNGr2OB5gB6o"
+    },
+    "contact": {
+      "phone": "+1 345-927-0862",
+      "email": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipM2hhjr1wtha6rzKJ6TGzkQeD13hkd_BuZk6Kzq=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipM2hhjr1wtha6rzKJ6TGzkQeD13hkd_BuZk6Kzq=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": null,
+      "priceTo": null,
+      "pricePerUnit": null,
+      "priceDescription": null,
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 6 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "6 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "on_site_services": true
+      }
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 25,
+      "googleRating": 5
+    },
+    "tags": [
+      "water sports equipment rental service",
+      "water",
+      "sports",
+      "activities",
+      "on site services",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "elite",
+      "watersports",
+      "water",
+      "sports",
+      "activities"
+    ],
+    "embeddingText": "Elite Watersports Elite Watersports located in the Cayman Islands. water_sports Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJgdFqbeiHJY8R8R6qTgh-uQs-7hazrlm91",
+    "category": "water_sports",
+    "subcategory": "Boat tour agency",
+    "name": "Island Splash Watersports",
+    "description": "Island Splash Watersports located in the Cayman Islands.",
+    "shortDescription": "Island Splash Watersports located in the Cayman Islands.",
+    "location": {
+      "address": "Yacht Dr, Cayman Islands Yacht Club, Dock B Grand Cayman, KY1-1207, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.358247,
+      "longitude": -81.3773638,
+      "googlePlaceId": "ChIJgdFqbeiHJY8R8R6qTgh-uQs"
+    },
+    "contact": {
+      "phone": "+1 345-325-1992",
+      "email": "",
+      "website": "https://islandsplashwatersports.com/",
+      "bookingUrl": "https://islandsplashwatersports.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPsAl_grS20WHR5YJWieLX8wv8r3JdmzvXKKSvA=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipPsAl_grS20WHR5YJWieLX8wv8r3JdmzvXKKSvA=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 500,
+      "priceTo": 2000,
+      "pricePerUnit": "/trip",
+      "priceDescription": "$500 - $2000 /trip",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open 24 hours",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "24"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 26,
+      "googleRating": 5
+    },
+    "tags": [
+      "boat tour agency",
+      "water",
+      "sports",
+      "activities",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "island",
+      "splash",
+      "watersports",
+      "water",
+      "sports",
+      "activities"
+    ],
+    "embeddingText": "Island Splash Watersports Island Splash Watersports located in the Cayman Islands. water_sports Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJr2pXEYSHJY8RwlKGMTZIsiw-1grq8pi6s",
+    "category": "water_sports",
+    "subcategory": "Tour operator",
+    "name": "George's Watersports",
+    "description": "George's Watersports located in the Cayman Islands.",
+    "shortDescription": "George's Watersports located in the Cayman Islands.",
+    "location": {
+      "address": "9J4C+VX3, Yacht Dr, Cayman Islands Yacht Club, Dock B, West Bay, KY1-1204, Cayman Islands",
+      "district": "West Bay",
+      "island": "Grand Cayman",
+      "latitude": 19.357139,
+      "longitude": -81.37756399999999,
+      "googlePlaceId": "ChIJr2pXEYSHJY8RwlKGMTZIsiw"
+    },
+    "contact": {
+      "phone": "",
+      "email": "",
+      "website": "https://www.thingstodocayman.net/georges-watersports/",
+      "bookingUrl": "https://www.thingstodocayman.net/georges-watersports/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoNCVEOraWOA0YfEX8v12tBiY-6nD_-uB73d8uyI9_cLNnanSuEFRxZO8cHe4qsqkGvOl29GuknxhkHIufgAO5x1fsyduzsp-V3bXy6fOJN_kWUdGv8sgwpsBasPkDDU8_CbQxIgA=w138-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoNCVEOraWOA0YfEX8v12tBiY-6nD_-uB73d8uyI9_cLNnanSuEFRxZO8cHe4qsqkGvOl29GuknxhkHIufgAO5x1fsyduzsp-V3bXy6fOJN_kWUdGv8sgwpsBasPkDDU8_CbQxIgA=w138-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 50,
+      "priceTo": 150,
+      "pricePerUnit": "/person",
+      "priceDescription": "$50 - $150 /person",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 7:30 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "7:30 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.9,
+      "reviewCount": 171,
+      "googleRating": 4.9
+    },
+    "tags": [
+      "tour operator",
+      "water",
+      "sports",
+      "activities",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "george's",
+      "watersports",
+      "water",
+      "sports",
+      "activities"
+    ],
+    "embeddingText": "George's Watersports George's Watersports located in the Cayman Islands. water_sports Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJAQCkfl-GJY8RGVmvkz9geNI-ebmysk74n",
+    "category": "water_sports",
+    "subcategory": "Tour operator",
+    "name": "Rowan Watersports LTD",
+    "description": "Rowan Watersports LTD located in the Cayman Islands.",
+    "shortDescription": "Rowan Watersports LTD located in the Cayman Islands.",
+    "location": {
+      "address": "Turnberry Drive, West Best, Safehaven Marina Dock 18, Seafarers Way, Royal Watler Cruise Terminal, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3372592,
+      "longitude": -81.3662159,
+      "googlePlaceId": "ChIJAQCkfl-GJY8RGVmvkz9geNI"
+    },
+    "contact": {
+      "phone": "+1 345-926-2542",
+      "email": "",
+      "website": "https://www.rowanwatersports.com/",
+      "bookingUrl": "https://www.rowanwatersports.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerBYef8ShRkRm-bp24T0ZRTx_AABjkWweJ7m_sGIQUBfuenbYiZchVa37_zoQ74zM5CbQHPZ1xw6A772jYmcZCLUh7Rtxj7OobWaCxp7Kng7ovsIG0qA-udBqrZ6HtHXjBrdSY48Q=w80-h106-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerBYef8ShRkRm-bp24T0ZRTx_AABjkWweJ7m_sGIQUBfuenbYiZchVa37_zoQ74zM5CbQHPZ1xw6A772jYmcZCLUh7Rtxj7OobWaCxp7Kng7ovsIG0qA-udBqrZ6HtHXjBrdSY48Q=w80-h106-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 50,
+      "priceTo": 150,
+      "pricePerUnit": "/person",
+      "priceDescription": "$50 - $150 /person",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open 24 hours",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "24"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.7,
+      "reviewCount": 80,
+      "googleRating": 4.7
+    },
+    "tags": [
+      "tour operator",
+      "water",
+      "sports",
+      "activities",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "rowan",
+      "watersports",
+      "ltd",
+      "water",
+      "sports",
+      "activities"
+    ],
+    "embeddingText": "Rowan Watersports LTD Rowan Watersports LTD located in the Cayman Islands. water_sports Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJnSKFiXqJJY8RHLuku2YJOVk-kq6lbbo4y",
+    "category": "water_sports",
+    "subcategory": "Adventure sports centre",
+    "name": "Fat Fish Adventures",
+    "description": "Fat Fish Adventures located in the Cayman Islands.",
+    "shortDescription": "Fat Fish Adventures located in the Cayman Islands.",
+    "location": {
+      "address": "Newlands Barcadere, Leeward Dr, North Sound Estates KY1-1010, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3039384,
+      "longitude": -81.2978844,
+      "googlePlaceId": "ChIJnSKFiXqJJY8RHLuku2YJOVk"
+    },
+    "contact": {
+      "phone": "+1 345-327-4973",
+      "email": "",
+      "website": "https://fatfishadventures.com/",
+      "bookingUrl": "https://fatfishadventures.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNWO1uSRqwfapEmLsLMuQDohMC2ep4s5QXQO9dA=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipNWO1uSRqwfapEmLsLMuQDohMC2ep4s5QXQO9dA=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 20,
+      "priceTo": 60,
+      "pricePerUnit": null,
+      "priceDescription": "$20 - $60",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 8 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "8 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.9,
+      "reviewCount": 56,
+      "googleRating": 4.9
+    },
+    "tags": [
+      "adventure sports centre",
+      "water",
+      "sports",
+      "activities",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "fat",
+      "fish",
+      "adventures",
+      "water",
+      "sports",
+      "activities"
+    ],
+    "embeddingText": "Fat Fish Adventures Fat Fish Adventures located in the Cayman Islands. water_sports Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJaTTiMq2HJY8R4MoyWLZQufU-rv85a5w03",
+    "category": "water_sports",
+    "subcategory": "Water sports equipment rental service",
+    "name": "Captain Marvins Watersports Waterfront centre",
+    "description": "Captain Marvins Watersports Waterfront centre located in the Cayman Islands.",
+    "shortDescription": "Captain Marvins Watersports Waterfront centre located in the Cayman Islands.",
+    "location": {
+      "address": "28 Seafarers Wy, George Town KY1-1302, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2972802,
+      "longitude": -81.38251799999999,
+      "googlePlaceId": "ChIJaTTiMq2HJY8R4MoyWLZQufU"
+    },
+    "contact": {
+      "phone": "+1 345-945-7306",
+      "email": "",
+      "website": "http://www.captainmarvins.com/",
+      "bookingUrl": "http://www.captainmarvins.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwer-aRpPJtGWdGRPtDyhnP1cmsw-G0E_EoaA0B4r_Wn7ZdJ6ixq-es3P5UEwvHW2WaHFy-MFEjfZW5sIWy1nBNFvt419ooGMObizYS_lnCcv1ffgGWCZ9mutPqqlXtNSvd8pmF_wfg=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwer-aRpPJtGWdGRPtDyhnP1cmsw-G0E_EoaA0B4r_Wn7ZdJ6ixq-es3P5UEwvHW2WaHFy-MFEjfZW5sIWy1nBNFvt419ooGMObizYS_lnCcv1ffgGWCZ9mutPqqlXtNSvd8pmF_wfg=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": null,
+      "priceTo": null,
+      "pricePerUnit": null,
+      "priceDescription": null,
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 7:30 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "7:30 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.7,
+      "reviewCount": 16,
+      "googleRating": 4.7
+    },
+    "tags": [
+      "water sports equipment rental service",
+      "water",
+      "sports",
+      "activities",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "captain",
+      "marvins",
+      "watersports",
+      "waterfront",
+      "centre",
+      "water",
+      "sports",
+      "activities"
+    ],
+    "embeddingText": "Captain Marvins Watersports Waterfront centre Captain Marvins Watersports Waterfront centre located in the Cayman Islands. water_sports Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJqUXsZKWHJY8RqqzSYUtz2uo-51r35ydci",
+    "category": "water_sports",
+    "subcategory": "Water sports equipment rental service",
+    "name": "Family Time Watersports.",
+    "description": "Family Time Watersports. located in the Cayman Islands.",
+    "shortDescription": "Family Time Watersports. located in the Cayman Islands.",
+    "location": {
+      "address": "Dock D, Cayman Islands Yacht Club Yacht Drive Grand Cayman, KY1-9006, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3571684,
+      "longitude": -81.37649619999999,
+      "googlePlaceId": "ChIJqUXsZKWHJY8RqqzSYUtz2uo"
+    },
+    "contact": {
+      "phone": "+1 345-326-1414",
+      "email": "",
+      "website": "http://familytimewatersports.com/",
+      "bookingUrl": "http://familytimewatersports.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNnbIzlOU5kkRc_VbsOcddeej-jrPHkMtsM7yFL=w137-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipNnbIzlOU5kkRc_VbsOcddeej-jrPHkMtsM7yFL=w137-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": null,
+      "priceTo": null,
+      "pricePerUnit": null,
+      "priceDescription": null,
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open 24 hours",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "24"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.6,
+      "reviewCount": 9,
+      "googleRating": 4.6
+    },
+    "tags": [
+      "water sports equipment rental service",
+      "water",
+      "sports",
+      "activities",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "family",
+      "time",
+      "watersports.",
+      "water",
+      "sports",
+      "activities"
+    ],
+    "embeddingText": "Family Time Watersports. Family Time Watersports. located in the Cayman Islands. water_sports Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJleCXe_r1JY8R5X1Gxkud6ec-5yuh7jrex",
+    "category": "water_sports",
+    "subcategory": "Tour operator",
+    "name": "Silver Thatch Watersports",
+    "description": "Silver Thatch Watersports located in the Cayman Islands.",
+    "shortDescription": "Silver Thatch Watersports located in the Cayman Islands.",
+    "location": {
+      "address": "Kaibo marina, Grand Cayman KY1-1700, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3562516,
+      "longitude": -81.276771,
+      "googlePlaceId": "ChIJleCXe_r1JY8R5X1Gxkud6ec"
+    },
+    "contact": {
+      "phone": "+1 345-923-6831",
+      "email": "",
+      "website": "http://www.silverthatchwatersports.com/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=7016496385247131828",
+      "bookingUrl": "http://www.silverthatchwatersports.com/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=7016496385247131828"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipORe-C9ush1cJwfDs_P_Yig4dBTQrR-BNLJqQJS=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipORe-C9ush1cJwfDs_P_Yig4dBTQrR-BNLJqQJS=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 50,
+      "priceTo": 150,
+      "pricePerUnit": "/person",
+      "priceDescription": "$50 - $150 /person",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 7 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "7 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 208,
+      "googleRating": 5
+    },
+    "tags": [
+      "tour operator",
+      "water",
+      "sports",
+      "activities",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "silver",
+      "thatch",
+      "watersports",
+      "water",
+      "sports",
+      "activities"
+    ],
+    "embeddingText": "Silver Thatch Watersports Silver Thatch Watersports located in the Cayman Islands. water_sports Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJUfcUhBJiL48RA8YaEgU7vaY-uejqw9soh",
+    "category": "water_sports",
+    "subcategory": "Water sports equipment rental service",
+    "name": "Red Sail Sports- Rum Point",
+    "description": "Red Sail Sports- Rum Point located in the Cayman Islands.",
+    "shortDescription": "Red Sail Sports- Rum Point located in the Cayman Islands.",
+    "location": {
+      "address": "Cayman Kai, 46 Sand Point Rd, Rum Point KY1-1206, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3718808,
+      "longitude": -81.27159619999999,
+      "googlePlaceId": "ChIJUfcUhBJiL48RA8YaEgU7vaY"
+    },
+    "contact": {
+      "phone": "+1 345-947-9203",
+      "email": "",
+      "website": "https://www.redsailcayman.com/",
+      "bookingUrl": "https://www.redsailcayman.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqFfaXSedyJGfwH1vVX-bTXm9HmSENZECUgMP1exHtQZ5Y2Vwtoyg2pjjSCBDU6Wh_n_kol1xgyVUQhqi_Vu2-ovUvumIcRF6hL7NoZzRcWa1riCxBi4mthrAtX-8t0Yd7EqyoY=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqFfaXSedyJGfwH1vVX-bTXm9HmSENZECUgMP1exHtQZ5Y2Vwtoyg2pjjSCBDU6Wh_n_kol1xgyVUQhqi_Vu2-ovUvumIcRF6hL7NoZzRcWa1riCxBi4mthrAtX-8t0Yd7EqyoY=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": null,
+      "priceTo": null,
+      "pricePerUnit": null,
+      "priceDescription": null,
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 9 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "9 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "on_site_services": true
+      }
+    },
+    "ratings": {
+      "overall": 4.8,
+      "reviewCount": 78,
+      "googleRating": 4.8
+    },
+    "tags": [
+      "water sports equipment rental service",
+      "water",
+      "sports",
+      "activities",
+      "on site services",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "red",
+      "sail",
+      "sports-",
+      "rum",
+      "point",
+      "water",
+      "sports",
+      "activities"
+    ],
+    "embeddingText": "Red Sail Sports- Rum Point Red Sail Sports- Rum Point located in the Cayman Islands. water_sports Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJF3JSnI6HJY8RbZsQlP9l044-ccnb3p5gc",
+    "category": "water_sports",
+    "subcategory": "Water sports equipment rental service",
+    "name": "Caribbean Time Watersports",
+    "description": "Caribbean Time Watersports located in the Cayman Islands.",
+    "shortDescription": "Caribbean Time Watersports located in the Cayman Islands.",
+    "location": {
+      "address": "164 Yacht Club Drive Grand Cayman, KY1-2100, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.357093,
+      "longitude": -81.3782533,
+      "googlePlaceId": "ChIJF3JSnI6HJY8RbZsQlP9l044"
+    },
+    "contact": {
+      "phone": "+1 345-924-2590",
+      "email": "",
+      "website": "https://www.ctwatersports.com.ky/",
+      "bookingUrl": "https://www.ctwatersports.com.ky/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPOJ7QxPg37IADEBKq5s6QvtbqUCiyanR9xvln3=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipPOJ7QxPg37IADEBKq5s6QvtbqUCiyanR9xvln3=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": null,
+      "priceTo": null,
+      "pricePerUnit": null,
+      "priceDescription": null,
+      "currency": "USD",
+      "openingHours": {
+        "raw": null,
+        "isOpen": null,
+        "todayHours": null,
+        "schedule": {},
+        "formattedDisplay": null
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 2,
+      "googleRating": 5
+    },
+    "tags": [
+      "water sports equipment rental service",
+      "water",
+      "sports",
+      "activities",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "caribbean",
+      "time",
+      "watersports",
+      "water",
+      "sports",
+      "activities"
+    ],
+    "embeddingText": "Caribbean Time Watersports Caribbean Time Watersports located in the Cayman Islands. water_sports Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJ_VJYHoSHJY8RVydfs9p6lcg-j1tuix9d2",
+    "category": "water_sports",
+    "subcategory": "Tour operator",
+    "name": "Islandlife Watersports",
+    "description": "Islandlife Watersports located in the Cayman Islands.",
+    "shortDescription": "Islandlife Watersports located in the Cayman Islands.",
+    "location": {
+      "address": "Cayman Islands Yacht Club - West Bay Road, Dock B - #32, KY1-1302, Cayman Islands",
+      "district": "West Bay",
+      "island": "Grand Cayman",
+      "latitude": 19.357684,
+      "longitude": -81.377336,
+      "googlePlaceId": "ChIJ_VJYHoSHJY8RVydfs9p6lcg"
+    },
+    "contact": {
+      "phone": "+1 345-917-2242",
+      "email": "",
+      "website": "https://www.islandlife-watersports.com/",
+      "bookingUrl": "https://www.islandlife-watersports.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOVNSTt46xlM__j1iU1BXLGn8QE4LL8cQqD3-Oe=w92-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipOVNSTt46xlM__j1iU1BXLGn8QE4LL8cQqD3-Oe=w92-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 50,
+      "priceTo": 150,
+      "pricePerUnit": "/person",
+      "priceDescription": "$50 - $150 /person",
+      "currency": "USD",
+      "openingHours": {
+        "raw": null,
+        "isOpen": null,
+        "todayHours": null,
+        "schedule": {},
+        "formattedDisplay": null
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.9,
+      "reviewCount": 18,
+      "googleRating": 4.9
+    },
+    "tags": [
+      "tour operator",
+      "water",
+      "sports",
+      "activities",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "islandlife",
+      "watersports",
+      "water",
+      "sports",
+      "activities"
+    ],
+    "embeddingText": "Islandlife Watersports Islandlife Watersports located in the Cayman Islands. water_sports Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJxyxk4tGHJY8RkjcyB0lP_f8-aa7gv22nx",
+    "category": "water_sports",
+    "subcategory": "Tourist attraction",
+    "name": "Sun & Sea Watersports /Jet Ski Rental",
+    "description": "Sun & Sea Watersports /Jet Ski Rental located in the Cayman Islands.",
+    "shortDescription": "Sun & Sea Watersports /Jet Ski Rental located in the Cayman Islands.",
+    "location": {
+      "address": "1453 W Bay Rd, KY1-1301, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.333544099999997,
+      "longitude": -81.383344,
+      "googlePlaceId": "ChIJxyxk4tGHJY8RkjcyB0lP_f8"
+    },
+    "contact": {
+      "phone": "+1 345-917-1064",
+      "email": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwer6_eF9y6YDX1uchPHBXySwrFkotdxlJM-JCcaQRcMKrgavMj9QsJI9xtYQeCLssxtq58isqFfvZFSJjMJEs98BWcYX2zqkRWniTC0hIfjW4p9YiIcDXpbWAzClZNXKPOKa5znc=w80-h106-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwer6_eF9y6YDX1uchPHBXySwrFkotdxlJM-JCcaQRcMKrgavMj9QsJI9xtYQeCLssxtq58isqFfvZFSJjMJEs98BWcYX2zqkRWniTC0hIfjW4p9YiIcDXpbWAzClZNXKPOKa5znc=w80-h106-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": null,
+      "priceTo": null,
+      "pricePerUnit": null,
+      "priceDescription": null,
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 8:30 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "8:30 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.7,
+      "reviewCount": 13,
+      "googleRating": 4.7
+    },
+    "tags": [
+      "tourist attraction",
+      "water",
+      "sports",
+      "activities",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "sun",
+      "sea",
+      "watersports",
+      "/jet",
+      "ski",
+      "rental",
+      "water",
+      "sports",
+      "activities"
+    ],
+    "embeddingText": "Sun & Sea Watersports /Jet Ski Rental Sun & Sea Watersports /Jet Ski Rental located in the Cayman Islands. water_sports Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJAUK59EqHJY8RvWO482OUi5I-2hlrjw23i",
+    "category": "water_sports",
+    "subcategory": "Water sports equipment rental service",
+    "name": "Grand Time Water Sports Cayman Islands",
+    "description": "Grand Time Water Sports Cayman Islands located in the Cayman Islands.",
+    "shortDescription": "Grand Time Water Sports Cayman Islands located in the Cayman Islands.",
+    "location": {
+      "address": "Dock B29, 164 Yacht Dr, Cayman Islands Cayman Islands Yacht Club, West Bay, Cayman Islands",
+      "district": "West Bay",
+      "island": "Grand Cayman",
+      "latitude": 19.3570733,
+      "longitude": -81.37762409999999,
+      "googlePlaceId": "ChIJAUK59EqHJY8RvWO482OUi5I"
+    },
+    "contact": {
+      "phone": "+1 345-929-6214",
+      "email": "",
+      "website": "http://grandtimewatersports.com/",
+      "bookingUrl": "http://grandtimewatersports.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMa_XFwBKKERUYgPk9FlhfQOdM9r97Zyixf836T=w91-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipMa_XFwBKKERUYgPk9FlhfQOdM9r97Zyixf836T=w91-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": null,
+      "priceTo": null,
+      "pricePerUnit": null,
+      "priceDescription": null,
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open 24 hours",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "24"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 8,
+      "googleRating": 5
+    },
+    "tags": [
+      "water sports equipment rental service",
+      "water",
+      "sports",
+      "activities",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "grand",
+      "time",
+      "water",
+      "sports",
+      "cayman",
+      "islands",
+      "activities"
+    ],
+    "embeddingText": "Grand Time Water Sports Cayman Islands Grand Time Water Sports Cayman Islands located in the Cayman Islands. water_sports Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJZ3iGk2aHJY8RVWyQCZ2aCWE-18xoqvrj0",
+    "category": "water_sports",
+    "subcategory": "Tour operator",
+    "name": "Captain Marvins Watersports",
+    "description": "Captain Marvins Watersports located in the Cayman Islands.",
+    "shortDescription": "Captain Marvins Watersports located in the Cayman Islands.",
+    "location": {
+      "address": "Grand Cayman, Cayman Falls Shopping 1114B units 11, 12 W Bay Rd, KY1-1302, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3384017,
+      "longitude": -81.3799432,
+      "googlePlaceId": "ChIJZ3iGk2aHJY8RVWyQCZ2aCWE"
+    },
+    "contact": {
+      "phone": "+1 345-945-6975",
+      "email": "",
+      "website": "http://www.captainmarvins.com/",
+      "bookingUrl": "http://www.captainmarvins.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerSAmz9x1XEfrmeDopcTaxUDWg28GWwX_4NrrgiXvPfuStQoH3BLpgRd_-Ag0lvIkSaiL-fHAb0WyKO46_lQSS4bt0e7EmLqaa8xRWjVD-kGSYsAy1U1IUdphpgu67w1giWfiXM=w80-h106-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerSAmz9x1XEfrmeDopcTaxUDWg28GWwX_4NrrgiXvPfuStQoH3BLpgRd_-Ag0lvIkSaiL-fHAb0WyKO46_lQSS4bt0e7EmLqaa8xRWjVD-kGSYsAy1U1IUdphpgu67w1giWfiXM=w80-h106-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 50,
+      "priceTo": 150,
+      "pricePerUnit": "/person",
+      "priceDescription": "$50 - $150 /person",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 7:45 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "7:45 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "on_site_services": true
+      }
+    },
+    "ratings": {
+      "overall": 4.9,
+      "reviewCount": 1150,
+      "googleRating": 4.9
+    },
+    "tags": [
+      "tour operator",
+      "water",
+      "sports",
+      "activities",
+      "on site services",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "captain",
+      "marvins",
+      "watersports",
+      "water",
+      "sports",
+      "activities"
+    ],
+    "embeddingText": "Captain Marvins Watersports Captain Marvins Watersports located in the Cayman Islands. water_sports Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJWbuAAnSHJY8R26Npmd47n-E-g2y1cepw3",
+    "category": "water_sports",
+    "subcategory": "Tourist attraction",
+    "name": "Caymanian Experience Jetski Rental",
+    "description": "Caymanian Experience Jetski Rental located in the Cayman Islands.",
+    "shortDescription": "Caymanian Experience Jetski Rental located in the Cayman Islands.",
+    "location": {
+      "address": "Seven Mile Beach, Cayman Islands",
+      "district": "Seven Mile Beach",
+      "island": "Grand Cayman",
+      "latitude": 19.3489301,
+      "longitude": -81.38365259999999,
+      "googlePlaceId": "ChIJWbuAAnSHJY8R26Npmd47n-E"
+    },
+    "contact": {
+      "phone": "+1 345-546-2070",
+      "email": "",
+      "website": "http://cayexperience.com/",
+      "bookingUrl": "http://cayexperience.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPxfclvz__hdP3fLPJtYdhktDLOOL1LmbowjrwH=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipPxfclvz__hdP3fLPJtYdhktDLOOL1LmbowjrwH=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 50,
+      "priceTo": 150,
+      "pricePerUnit": "/person",
+      "priceDescription": "$50 - $150 /person",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 7:30 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "7:30 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.8,
+      "reviewCount": 30,
+      "googleRating": 4.8
+    },
+    "tags": [
+      "tourist attraction",
+      "water",
+      "sports",
+      "activities",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "caymanian",
+      "experience",
+      "jetski",
+      "rental",
+      "water",
+      "sports",
+      "activities"
+    ],
+    "embeddingText": "Caymanian Experience Jetski Rental Caymanian Experience Jetski Rental located in the Cayman Islands. water_sports Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJK05LX_SHJY8R1NnbpJpvD8w-0wvx62w99",
+    "category": "water_sports",
+    "subcategory": "Water skiing service",
+    "name": "Airwaves Watersports",
+    "description": "Airwaves Watersports located in the Cayman Islands.",
+    "shortDescription": "Airwaves Watersports located in the Cayman Islands.",
+    "location": {
+      "address": "Seven Mile Public Beach, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3491447,
+      "longitude": -81.38367749999999,
+      "googlePlaceId": "ChIJK05LX_SHJY8R1NnbpJpvD8w"
+    },
+    "contact": {
+      "phone": "+1 345-517-5199",
+      "email": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMB5_7uX_n8zoGuxnCrmL-jFMvqsSRDZts0WJp4=w138-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipMB5_7uX_n8zoGuxnCrmL-jFMvqsSRDZts0WJp4=w138-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 20,
+      "priceTo": 60,
+      "pricePerUnit": null,
+      "priceDescription": "$20 - $60",
+      "currency": "USD",
+      "openingHours": {
+        "raw": null,
+        "isOpen": null,
+        "todayHours": null,
+        "schedule": {},
+        "formattedDisplay": null
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "on_site_services": true
+      }
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 2,
+      "googleRating": 5
+    },
+    "tags": [
+      "water skiing service",
+      "water",
+      "sports",
+      "activities",
+      "on site services",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "airwaves",
+      "watersports",
+      "water",
+      "sports",
+      "activities"
+    ],
+    "embeddingText": "Airwaves Watersports Airwaves Watersports located in the Cayman Islands. water_sports Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJg4Puo8yHJY8RQf2QWfej2yA-vjmj3bw6h",
+    "category": "water_sports",
+    "subcategory": "Water sports equipment rental service",
+    "name": "Frank's Water Sports",
+    "description": "Frank's Water Sports located in the Cayman Islands.",
+    "shortDescription": "Frank's Water Sports located in the Cayman Islands.",
+    "location": {
+      "address": "Safehaven Marina Grand Cayman KY1, 1108, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3375029,
+      "longitude": -81.3674049,
+      "googlePlaceId": "ChIJg4Puo8yHJY8RQf2QWfej2yA"
+    },
+    "contact": {
+      "phone": "+1 345-945-5491",
+      "email": "",
+      "website": "https://www.frankswatersports.ky/",
+      "bookingUrl": "https://www.frankswatersports.ky/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNCidHzbtNI2pbNRV0nDuQt_FvfyqDTep2yvnGO=w92-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipNCidHzbtNI2pbNRV0nDuQt_FvfyqDTep2yvnGO=w92-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": null,
+      "priceTo": null,
+      "pricePerUnit": null,
+      "priceDescription": null,
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 7:30 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "7:30 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4,
+      "reviewCount": 8,
+      "googleRating": 4
+    },
+    "tags": [
+      "water sports equipment rental service",
+      "water",
+      "sports",
+      "activities",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "frank's",
+      "water",
+      "sports",
+      "activities"
+    ],
+    "embeddingText": "Frank's Water Sports Frank's Water Sports located in the Cayman Islands. water_sports Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJaxEV74CHJY8R-Zp3fNEldSU-hi9led4n6",
+    "category": "boat_charter",
+    "subcategory": "Fishing charter",
+    "name": "Cayman Yacht Charters",
+    "description": "Cayman Yacht Charters located in the Cayman Islands.",
+    "shortDescription": "Cayman Yacht Charters located in the Cayman Islands.",
+    "location": {
+      "address": "Dock B - Slip 50 Cayman Islands Yacht Club Yacht Drive Grand Cayman KY1, 1208, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.357605,
+      "longitude": -81.37745699999999,
+      "googlePlaceId": "ChIJaxEV74CHJY8R-Zp3fNEldSU"
+    },
+    "contact": {
+      "phone": "+1 345-917-9855",
+      "email": "",
+      "website": "https://caymanyachtcharters.com/",
+      "bookingUrl": "https://caymanyachtcharters.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMSCj0qUXQJs70lApblH7EI5bZ0-Nv7uJmslrla=w164-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipMSCj0qUXQJs70lApblH7EI5bZ0-Nv7uJmslrla=w164-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 500,
+      "priceTo": 2000,
+      "pricePerUnit": "/trip",
+      "priceDescription": "$500 - $2000 /trip",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open 24 hours",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "24"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "online_appointments": true,
+        "on_site_services": true
+      }
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 30,
+      "googleRating": 5
+    },
+    "tags": [
+      "fishing charter",
+      "boat",
+      "yacht",
+      "charter",
+      "fishing",
+      "online appointments",
+      "on site services",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "cayman",
+      "yacht",
+      "charters",
+      "boat",
+      "charter",
+      "fishing"
+    ],
+    "embeddingText": "Cayman Yacht Charters Cayman Yacht Charters located in the Cayman Islands. boat_charter Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJdT3dJYl9L48RYdvJuzF-dgQ-bpd5vtkei",
+    "category": "boat_charter",
+    "subcategory": "Fishing charter",
+    "name": "Crystal Charters",
+    "description": "Crystal Charters located in the Cayman Islands.",
+    "shortDescription": "Crystal Charters located in the Cayman Islands.",
+    "location": {
+      "address": "10 Market Street, Camana Bay KY1-9006, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3576083,
+      "longitude": -81.37736249999999,
+      "googlePlaceId": "ChIJdT3dJYl9L48RYdvJuzF-dgQ"
+    },
+    "contact": {
+      "phone": "+1 345-525-9000",
+      "email": "",
+      "website": "https://www.crystalcharters.com/",
+      "bookingUrl": "https://www.crystalcharters.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerOJ49xOOGLgplX__Of4lfaJGogre2dlg22_ee5u0AMMsJGHlrpadS-guu6O53jiRGLyuow0ZlZKuMO6fWc8PKEv-xFqs6IAqqMkcHf51XQh3To83CbrJ4N9sADVpWCmwo6f_l3=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerOJ49xOOGLgplX__Of4lfaJGogre2dlg22_ee5u0AMMsJGHlrpadS-guu6O53jiRGLyuow0ZlZKuMO6fWc8PKEv-xFqs6IAqqMkcHf51XQh3To83CbrJ4N9sADVpWCmwo6f_l3=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 500,
+      "priceTo": 2000,
+      "pricePerUnit": "/trip",
+      "priceDescription": "$500 - $2000 /trip",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closes soon · 7 pm · Opens 7 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "7 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 251,
+      "googleRating": 5
+    },
+    "tags": [
+      "fishing charter",
+      "boat",
+      "yacht",
+      "charter",
+      "fishing",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "crystal",
+      "charters",
+      "boat",
+      "yacht",
+      "charter",
+      "fishing"
+    ],
+    "embeddingText": "Crystal Charters Crystal Charters located in the Cayman Islands. boat_charter Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJH50XR6yHJY8RfruPl3EQgqY-8hlab12kp",
+    "category": "boat_charter",
+    "subcategory": "Boat Hire Service",
+    "name": "Crazy Crab - Private Boat Charters",
+    "description": "Crazy Crab - Private Boat Charters located in the Cayman Islands.",
+    "shortDescription": "Crazy Crab - Private Boat Charters located in the Cayman Islands.",
+    "location": {
+      "address": "Camana Bay Harbour, 10 Market St, KY1-1401, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.322071599999997,
+      "longitude": -81.3777155,
+      "googlePlaceId": "ChIJH50XR6yHJY8RfruPl3EQgqY"
+    },
+    "contact": {
+      "phone": "+1 345-927-2722",
+      "email": "",
+      "website": "https://crazycrabcayman.com/?utm_source=google&utm_medium=organic&utm_campaign=localpack",
+      "bookingUrl": "https://crazycrabcayman.com/?utm_source=google&utm_medium=organic&utm_campaign=localpack"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNVTT8c91ecDOCzZXf_cWVw4qNa3F2d_yYl75y_=w130-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipNVTT8c91ecDOCzZXf_cWVw4qNa3F2d_yYl75y_=w130-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 500,
+      "priceTo": 2000,
+      "pricePerUnit": "/trip",
+      "priceDescription": "$500 - $2000 /trip",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closes soon · 7 pm · Opens 7 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "7 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 140,
+      "googleRating": 5
+    },
+    "tags": [
+      "boat hire service",
+      "boat",
+      "yacht",
+      "charter",
+      "fishing",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "crazy",
+      "crab",
+      "private",
+      "boat",
+      "charters",
+      "yacht",
+      "charter",
+      "fishing"
+    ],
+    "embeddingText": "Crazy Crab - Private Boat Charters Crazy Crab - Private Boat Charters located in the Cayman Islands. boat_charter Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJzXrpQayHJY8RUpdcTFLu4zI-hmsqbe4j4",
+    "category": "boat_charter",
+    "subcategory": "Boat Hire Service",
+    "name": "Cayman Luxury Charters",
+    "description": "Cayman Luxury Charters located in the Cayman Islands.",
+    "shortDescription": "Cayman Luxury Charters located in the Cayman Islands.",
+    "location": {
+      "address": "62 Forum Ln, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3206895,
+      "longitude": -81.37684279999999,
+      "googlePlaceId": "ChIJzXrpQayHJY8RUpdcTFLu4zI"
+    },
+    "contact": {
+      "phone": "+1 345-938-2525",
+      "email": "",
+      "website": "http://www.caymanluxurycharters.com/",
+      "bookingUrl": "http://www.caymanluxurycharters.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipO02SAhQxL72A8pwPVzgB4t6wjIoc8IjOHFygb8=w127-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipO02SAhQxL72A8pwPVzgB4t6wjIoc8IjOHFygb8=w127-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 500,
+      "priceTo": 2000,
+      "pricePerUnit": "/trip",
+      "priceDescription": "$500 - $2000 /trip",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 9 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "9 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 31,
+      "googleRating": 5
+    },
+    "tags": [
+      "boat hire service",
+      "boat",
+      "yacht",
+      "charter",
+      "fishing",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "cayman",
+      "luxury",
+      "charters",
+      "boat",
+      "yacht",
+      "charter",
+      "fishing"
+    ],
+    "embeddingText": "Cayman Luxury Charters Cayman Luxury Charters located in the Cayman Islands. boat_charter Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJqdRN84KHJY8RLWISfURem-k-7lq9t7yum",
+    "category": "boat_charter",
+    "subcategory": "Tour operator",
+    "name": "Island Breeze Charters Cayman",
+    "description": "Island Breeze Charters Cayman located in the Cayman Islands.",
+    "shortDescription": "Island Breeze Charters Cayman located in the Cayman Islands.",
+    "location": {
+      "address": "Yacht Club, 164 Yacht Dr, KY1-1303, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.357054299999998,
+      "longitude": -81.378236,
+      "googlePlaceId": "ChIJqdRN84KHJY8RLWISfURem-k"
+    },
+    "contact": {
+      "phone": "+1 345-922-0114",
+      "email": "",
+      "website": "https://www.islandbreezecharters.com/",
+      "bookingUrl": "https://www.islandbreezecharters.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepqA-fd2H3oUlrLX2ZA8ROAhLX9mZev7vfIYdDJJMux81Hp6Ms8QdtGc6yGTD0EPojr6nO99SSnVmyTyAc0B-Gxly8pOmWTHdmShi1i_s85Z_fIsQHa9BfheBTBfcRcJBg0Julk=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepqA-fd2H3oUlrLX2ZA8ROAhLX9mZev7vfIYdDJJMux81Hp6Ms8QdtGc6yGTD0EPojr6nO99SSnVmyTyAc0B-Gxly8pOmWTHdmShi1i_s85Z_fIsQHa9BfheBTBfcRcJBg0Julk=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 500,
+      "priceTo": 2000,
+      "pricePerUnit": "/trip",
+      "priceDescription": "$500 - $2000 /trip",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open 24 hours",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "24"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 71,
+      "googleRating": 5
+    },
+    "tags": [
+      "tour operator",
+      "boat",
+      "yacht",
+      "charter",
+      "fishing",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "island",
+      "breeze",
+      "charters",
+      "cayman",
+      "boat",
+      "yacht",
+      "charter",
+      "fishing"
+    ],
+    "embeddingText": "Island Breeze Charters Cayman Island Breeze Charters Cayman located in the Cayman Islands. boat_charter Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJyXalv_OHJY8Ror74di9f26c-hls2gf5th",
+    "category": "boat_charter",
+    "subcategory": "Boat Hire Service",
+    "name": "Cayman Private Charters",
+    "description": "Cayman Private Charters located in the Cayman Islands.",
+    "shortDescription": "Cayman Private Charters located in the Cayman Islands.",
+    "location": {
+      "address": "Yacht Dr, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3579859,
+      "longitude": -81.3768425,
+      "googlePlaceId": "ChIJyXalv_OHJY8Ror74di9f26c"
+    },
+    "contact": {
+      "phone": "+1 345-926-2722",
+      "email": "",
+      "website": "https://caymanprivatecharters.com/",
+      "bookingUrl": "https://caymanprivatecharters.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoLr4FhWHG07mk3WaQOQozZvBQTE8cfXGRjlFrYQ5nJp42ocSQ2cwh1WNRVAJh7cZOzeTcaigmv42F9u61BDKo7C2d5OLjNd4wXoDgVMCtj2vGJ5yZ8Sh-kfVJrwP-oNp3p4jHz=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoLr4FhWHG07mk3WaQOQozZvBQTE8cfXGRjlFrYQ5nJp42ocSQ2cwh1WNRVAJh7cZOzeTcaigmv42F9u61BDKo7C2d5OLjNd4wXoDgVMCtj2vGJ5yZ8Sh-kfVJrwP-oNp3p4jHz=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 500,
+      "priceTo": 2000,
+      "pricePerUnit": "/trip",
+      "priceDescription": "$500 - $2000 /trip",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open 24 hours",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "24"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.8,
+      "reviewCount": 30,
+      "googleRating": 4.8
+    },
+    "tags": [
+      "boat hire service",
+      "boat",
+      "yacht",
+      "charter",
+      "fishing",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "cayman",
+      "private",
+      "charters",
+      "boat",
+      "yacht",
+      "charter",
+      "fishing"
+    ],
+    "embeddingText": "Cayman Private Charters Cayman Private Charters located in the Cayman Islands. boat_charter Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJfzcOqS2HJY8RAwhOJUquO_w-bzv6p0owm",
+    "category": "boat_charter",
+    "subcategory": "Boat Hire Service",
+    "name": "Cobalt Custom Charters",
+    "description": "Cobalt Custom Charters located in the Cayman Islands.",
+    "shortDescription": "Cobalt Custom Charters located in the Cayman Islands.",
+    "location": {
+      "address": "Out front of Karoo Camana Bay, KY1-9006, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3220585,
+      "longitude": -81.37708359999999,
+      "googlePlaceId": "ChIJfzcOqS2HJY8RAwhOJUquO_w"
+    },
+    "contact": {
+      "phone": "+1 972-497-2130",
+      "email": "",
+      "website": "https://www.cobaltcustomcharters.com/?utm_source=GMB&utm_medium=Google%20My%20Business&utm_campaign=GMB",
+      "bookingUrl": "https://www.cobaltcustomcharters.com/?utm_source=GMB&utm_medium=Google%20My%20Business&utm_campaign=GMB"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNW4Q2rpWYrG3mVLFkGvEIfci-WDLOv2SGiyK2Z=w138-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipNW4Q2rpWYrG3mVLFkGvEIfci-WDLOv2SGiyK2Z=w138-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 500,
+      "priceTo": 2000,
+      "pricePerUnit": "/trip",
+      "priceDescription": "$500 - $2000 /trip",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 7:30 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "7:30 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 212,
+      "googleRating": 5
+    },
+    "tags": [
+      "boat hire service",
+      "boat",
+      "yacht",
+      "charter",
+      "fishing",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "cobalt",
+      "custom",
+      "charters",
+      "boat",
+      "yacht",
+      "charter",
+      "fishing"
+    ],
+    "embeddingText": "Cobalt Custom Charters Cobalt Custom Charters located in the Cayman Islands. boat_charter Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJsRTEawaHJY8RJR9BqnSo0cI-dlh6qmyj3",
+    "category": "boat_charter",
+    "subcategory": "Boat tour agency",
+    "name": "Island Charter",
+    "description": "Island Charter located in the Cayman Islands.",
+    "shortDescription": "Island Charter located in the Cayman Islands.",
+    "location": {
+      "address": "42 beckz close, George Town, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.3007658,
+      "longitude": -81.3571651,
+      "googlePlaceId": "ChIJsRTEawaHJY8RJR9BqnSo0cI"
+    },
+    "contact": {
+      "phone": "+1 345-928-8668",
+      "email": "",
+      "website": "http://islandcharter.ky/",
+      "bookingUrl": "http://islandcharter.ky/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipM-HQqB1iUnvpnrXZqVMn3tLTJ-sMXRn6rq3nY=w163-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipM-HQqB1iUnvpnrXZqVMn3tLTJ-sMXRn6rq3nY=w163-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 500,
+      "priceTo": 2000,
+      "pricePerUnit": "/trip",
+      "priceDescription": "$500 - $2000 /trip",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open · Closes 11 pm",
+        "isOpen": true,
+        "todayHours": {
+          "closes": "11 pm"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now · Closes 11 pm"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "online_appointments": true
+      }
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 186,
+      "googleRating": 5
+    },
+    "tags": [
+      "boat tour agency",
+      "boat",
+      "yacht",
+      "charter",
+      "fishing",
+      "online appointments",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "island",
+      "charter",
+      "boat",
+      "yacht",
+      "fishing"
+    ],
+    "embeddingText": "Island Charter Island Charter located in the Cayman Islands. boat_charter Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJsStF8YGHJY8R5mlNKHqd4IA-st2h3vebf",
+    "category": "boat_charter",
+    "subcategory": "Tour operator",
+    "name": "Sea Cayman Boat Charters",
+    "description": "Sea Cayman Boat Charters located in the Cayman Islands.",
+    "shortDescription": "Sea Cayman Boat Charters located in the Cayman Islands.",
+    "location": {
+      "address": "Yacht Club, Cayman Islands, Dock B, Slip 39, Yacht Dr, KY1-9006, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.357053099999998,
+      "longitude": -81.3773666,
+      "googlePlaceId": "ChIJsStF8YGHJY8R5mlNKHqd4IA"
+    },
+    "contact": {
+      "phone": "+1 345-939-9881",
+      "email": "",
+      "website": "https://www.seacaymanboatcharters.ky/",
+      "bookingUrl": "https://www.seacaymanboatcharters.ky/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipO4T5jERtqKABAxn2bBCD_QDxV9MMP1-zByFRww=w138-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipO4T5jERtqKABAxn2bBCD_QDxV9MMP1-zByFRww=w138-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 500,
+      "priceTo": 2000,
+      "pricePerUnit": "/trip",
+      "priceDescription": "$500 - $2000 /trip",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open 24 hours",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "24"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 35,
+      "googleRating": 5
+    },
+    "tags": [
+      "tour operator",
+      "boat",
+      "yacht",
+      "charter",
+      "fishing",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "sea",
+      "cayman",
+      "boat",
+      "charters",
+      "yacht",
+      "charter",
+      "fishing"
+    ],
+    "embeddingText": "Sea Cayman Boat Charters Sea Cayman Boat Charters located in the Cayman Islands. boat_charter Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJKZrMuvOHJY8Ro4m1LWpfCPk-sje8uq93v",
+    "category": "boat_charter",
+    "subcategory": "Boat tour agency",
+    "name": "Y-Knot Charters - Cayman Islands",
+    "description": "Y-Knot Charters - Cayman Islands located in the Cayman Islands.",
+    "shortDescription": "Y-Knot Charters - Cayman Islands located in the Cayman Islands.",
+    "location": {
+      "address": "164 Yacht Drive Dock C, Cayman Islands Yacht Club, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3571271,
+      "longitude": -81.3775749,
+      "googlePlaceId": "ChIJKZrMuvOHJY8Ro4m1LWpfCPk"
+    },
+    "contact": {
+      "phone": "+1 345-926-2224",
+      "email": "",
+      "website": "https://www.y-knotcharters.com/",
+      "bookingUrl": "https://www.y-knotcharters.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepgUzTPJL-kHcSzy7nvn-1_r4T24QV8LBij4Orks6JegI_4xxiRHvu7ZewZQiAVbw1d5YrhRDsHyh4khA6RVDm41M8QijnUhFrvKX7vnaDFZaI9PkLCbTVYs4-C0PLFJGKSHso=w80-h106-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepgUzTPJL-kHcSzy7nvn-1_r4T24QV8LBij4Orks6JegI_4xxiRHvu7ZewZQiAVbw1d5YrhRDsHyh4khA6RVDm41M8QijnUhFrvKX7vnaDFZaI9PkLCbTVYs4-C0PLFJGKSHso=w80-h106-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 500,
+      "priceTo": 2000,
+      "pricePerUnit": "/trip",
+      "priceDescription": "$500 - $2000 /trip",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open 24 hours",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "24"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.9,
+      "reviewCount": 10,
+      "googleRating": 4.9
+    },
+    "tags": [
+      "boat tour agency",
+      "boat",
+      "yacht",
+      "charter",
+      "fishing",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "y-knot",
+      "charters",
+      "cayman",
+      "islands",
+      "boat",
+      "yacht",
+      "charter",
+      "fishing"
+    ],
+    "embeddingText": "Y-Knot Charters - Cayman Islands Y-Knot Charters - Cayman Islands located in the Cayman Islands. boat_charter Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJSaiacIGHJY8RvAruO9l0ECM-lf34npequ",
+    "category": "boat_charter",
+    "subcategory": "Boat Hire Service",
+    "name": "Grand Cayman Private Boat Charters and Tours - All Aboard Charters",
+    "description": "Grand Cayman Private Boat Charters and Tours - All Aboard Charters located in the Cayman Islands.",
+    "shortDescription": "Grand Cayman Private Boat Charters and Tours - All Aboard Charters located in the Cayman Islands.",
+    "location": {
+      "address": "164 Yacht Drive Grand Cayman KY1, 1104, KY1-1104, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3568107,
+      "longitude": -81.378239,
+      "googlePlaceId": "ChIJSaiacIGHJY8RvAruO9l0ECM"
+    },
+    "contact": {
+      "phone": "+1 345-922-2177",
+      "email": "",
+      "website": "http://www.allaboardcharters.com/",
+      "bookingUrl": "http://www.allaboardcharters.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqYg3mNbxJm9G3Sy2l7y1AsIxYUQ7JkEkXTmVweObo63-ipfjBy0-xf49FYXAAn9sJR1YIa6_JKTKUEqwom86bQGGL-tSr7TdYFUNTW8DvaEeJR42Oudnl66a-5ZINYQwiGY3wKZQ=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqYg3mNbxJm9G3Sy2l7y1AsIxYUQ7JkEkXTmVweObo63-ipfjBy0-xf49FYXAAn9sJR1YIa6_JKTKUEqwom86bQGGL-tSr7TdYFUNTW8DvaEeJR42Oudnl66a-5ZINYQwiGY3wKZQ=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 500,
+      "priceTo": 2000,
+      "pricePerUnit": "/trip",
+      "priceDescription": "$500 - $2000 /trip",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open · Closes 9 pm",
+        "isOpen": true,
+        "todayHours": {
+          "closes": "9 pm"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now · Closes 9 pm"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "online_appointments": true,
+        "on_site_services": false
+      }
+    },
+    "ratings": {
+      "overall": 4.9,
+      "reviewCount": 36,
+      "googleRating": 4.9
+    },
+    "tags": [
+      "boat hire service",
+      "boat",
+      "yacht",
+      "charter",
+      "fishing",
+      "online appointments",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "grand",
+      "cayman",
+      "private",
+      "boat",
+      "charters",
+      "and",
+      "tours",
+      "all",
+      "aboard",
+      "yacht",
+      "charter",
+      "fishing"
+    ],
+    "embeddingText": "Grand Cayman Private Boat Charters and Tours - All Aboard Charters Grand Cayman Private Boat Charters and Tours - All Aboard Charters located in the Cayman Islands. boat_charter Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJxSYPbF-GJY8RhT2_ByGgAg4-6rk09rjf4",
+    "category": "boat_charter",
+    "subcategory": "Tourist attraction",
+    "name": "Reelistik Charters - Cayman Islands Fishing, Snorkeling and Private Charters",
+    "description": "Reelistik Charters - Cayman Islands Fishing, Snorkeling and Private Charters located in the Cayman Islands.",
+    "shortDescription": "Reelistik Charters - Cayman Islands Fishing, Snorkeling and Private Charters located in the Cayman Islands.",
+    "location": {
+      "address": "Whitehall Bay, N Church St, George Town, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.3037854,
+      "longitude": -81.3829403,
+      "googlePlaceId": "ChIJxSYPbF-GJY8RhT2_ByGgAg4"
+    },
+    "contact": {
+      "phone": "+1 345-936-3474",
+      "email": "",
+      "website": "https://www.reelistikcharterscayman.com/",
+      "bookingUrl": "https://www.reelistikcharterscayman.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwer_EsIH2HZK6K4dA-7Ay7lYzB_iVznNgUSouMqyZLZ-LaYGC8M8mmeVk8U40gwGPF_z07QWk8J7LqIhXjY32RaYyzxxuOw_uujqTd8kh1kH0OT1yYnaEx9inSqBCAl3wWhWB-KZ8voTLow=w80-h106-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwer_EsIH2HZK6K4dA-7Ay7lYzB_iVznNgUSouMqyZLZ-LaYGC8M8mmeVk8U40gwGPF_z07QWk8J7LqIhXjY32RaYyzxxuOw_uujqTd8kh1kH0OT1yYnaEx9inSqBCAl3wWhWB-KZ8voTLow=w80-h106-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 80,
+      "priceTo": 200,
+      "pricePerUnit": "/dive",
+      "priceDescription": "$80 - $200 /dive",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closes soon · 7 pm · Opens 6:30 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "6:30 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.5,
+      "reviewCount": 16,
+      "googleRating": 4.5
+    },
+    "tags": [
+      "tourist attraction",
+      "boat",
+      "yacht",
+      "charter",
+      "fishing",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "reelistik",
+      "charters",
+      "cayman",
+      "islands",
+      "fishing,",
+      "snorkeling",
+      "and",
+      "private",
+      "boat",
+      "yacht",
+      "charter",
+      "fishing"
+    ],
+    "embeddingText": "Reelistik Charters - Cayman Islands Fishing, Snorkeling and Private Charters Reelistik Charters - Cayman Islands Fishing, Snorkeling and Private Charters located in the Cayman Islands. boat_charter Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJm9iX2U6GJY8RKeSFwwHicjo-lghcea5vw",
+    "category": "boat_charter",
+    "subcategory": "Boat Hire Service",
+    "name": "Cayman Islands Boat Rentals",
+    "description": "Cayman Islands Boat Rentals located in the Cayman Islands.",
+    "shortDescription": "Cayman Islands Boat Rentals located in the Cayman Islands.",
+    "location": {
+      "address": "62 Lincoln Dr, George Town KY1-1009, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.3078882,
+      "longitude": -81.3682479,
+      "googlePlaceId": "ChIJm9iX2U6GJY8RKeSFwwHicjo"
+    },
+    "contact": {
+      "phone": "+1 345-949-6672",
+      "email": "",
+      "website": "http://caymanislandsboatrentals.com/",
+      "bookingUrl": "http://caymanislandsboatrentals.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMjbzFNCBKb5bsW3O8EUr4g3X9y5IoOxBqH6HZ6=w175-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipMjbzFNCBKb5bsW3O8EUr4g3X9y5IoOxBqH6HZ6=w175-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 500,
+      "priceTo": 2000,
+      "pricePerUnit": "/trip",
+      "priceDescription": "$500 - $2000 /trip",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 8:30 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "8:30 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.6,
+      "reviewCount": 9,
+      "googleRating": 4.6
+    },
+    "tags": [
+      "boat hire service",
+      "boat",
+      "yacht",
+      "charter",
+      "fishing",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "cayman",
+      "islands",
+      "boat",
+      "rentals",
+      "yacht",
+      "charter",
+      "fishing"
+    ],
+    "embeddingText": "Cayman Islands Boat Rentals Cayman Islands Boat Rentals located in the Cayman Islands. boat_charter Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJA1Lkev7xKqIR2TNb5zUJLrE-wxet79b0u",
+    "category": "boat_charter",
+    "subcategory": "Boat tour agency",
+    "name": "Blue Haven Charters, Grand Cayman",
+    "description": "Blue Haven Charters, Grand Cayman located in the Cayman Islands.",
+    "shortDescription": "Blue Haven Charters, Grand Cayman located in the Cayman Islands.",
+    "location": {
+      "address": "",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.5077499,
+      "longitude": -80.57424999999999,
+      "googlePlaceId": "ChIJA1Lkev7xKqIR2TNb5zUJLrE"
+    },
+    "contact": {
+      "phone": "+1 345-516-1978",
+      "email": "",
+      "website": "http://www.bluehavencharters.com/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=7591814980967740211",
+      "bookingUrl": "http://www.bluehavencharters.com/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=7591814980967740211"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqkpD1z7VyZsdSOOY9k46Q84RgHs7Qj_D8RYilHPEBdvuzwzEnmlad58fxrun01TtD-Lp4ihgDMFys4bKo-4k1PILVLW5OlQiB08KtkuS-HKlHuHjqW-wHqFyWyiSxVD-eJHwEYYQ=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqkpD1z7VyZsdSOOY9k46Q84RgHs7Qj_D8RYilHPEBdvuzwzEnmlad58fxrun01TtD-Lp4ihgDMFys4bKo-4k1PILVLW5OlQiB08KtkuS-HKlHuHjqW-wHqFyWyiSxVD-eJHwEYYQ=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 500,
+      "priceTo": 2000,
+      "pricePerUnit": "/trip",
+      "priceDescription": "$500 - $2000 /trip",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 8 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "8 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 12,
+      "googleRating": 5
+    },
+    "tags": [
+      "boat tour agency",
+      "boat",
+      "yacht",
+      "charter",
+      "fishing",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "blue",
+      "haven",
+      "charters,",
+      "grand",
+      "cayman",
+      "boat",
+      "yacht",
+      "charter",
+      "fishing"
+    ],
+    "embeddingText": "Blue Haven Charters, Grand Cayman Blue Haven Charters, Grand Cayman located in the Cayman Islands. boat_charter Cayman Islands Caribbean",
+    "isActive": false,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJz_N_rh6HJY8RpOjHtrTCxFU-xznpcwu2p",
+    "category": "boat_charter",
+    "subcategory": "Fishing charter",
+    "name": "Cayman Kind Watersports - Private Boat Charters",
+    "description": "Cayman Kind Watersports - Private Boat Charters located in the Cayman Islands.",
+    "shortDescription": "Cayman Kind Watersports - Private Boat Charters located in the Cayman Islands.",
+    "location": {
+      "address": "Camana Bay Harbour, 10 Market St, KY1-1401, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3210563,
+      "longitude": -81.37651369999999,
+      "googlePlaceId": "ChIJz_N_rh6HJY8RpOjHtrTCxFU"
+    },
+    "contact": {
+      "phone": "+1 345-325-8448",
+      "email": "",
+      "website": "https://caymankindwatersports.com/",
+      "bookingUrl": "https://caymankindwatersports.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOc2Ztw8_o6Y99MOIDKcHhTvAlHnqbQ_dkQkPs=w138-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipOc2Ztw8_o6Y99MOIDKcHhTvAlHnqbQ_dkQkPs=w138-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 500,
+      "priceTo": 2000,
+      "pricePerUnit": "/trip",
+      "priceDescription": "$500 - $2000 /trip",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 9 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "9 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 16,
+      "googleRating": 5
+    },
+    "tags": [
+      "fishing charter",
+      "boat",
+      "yacht",
+      "charter",
+      "fishing",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "cayman",
+      "kind",
+      "watersports",
+      "private",
+      "boat",
+      "charters",
+      "yacht",
+      "charter",
+      "fishing"
+    ],
+    "embeddingText": "Cayman Kind Watersports - Private Boat Charters Cayman Kind Watersports - Private Boat Charters located in the Cayman Islands. boat_charter Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJT2NGKsWHJY8RRjPTQuxJcdQ-v8soaur3c",
+    "category": "boat_charter",
+    "subcategory": "Boat tour agency",
+    "name": "Black Pearl Private Charters",
+    "description": "Black Pearl Private Charters located in the Cayman Islands.",
+    "shortDescription": "Black Pearl Private Charters located in the Cayman Islands.",
+    "location": {
+      "address": "Yacht club drive, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.356538999999998,
+      "longitude": -81.3783469,
+      "googlePlaceId": "ChIJT2NGKsWHJY8RRjPTQuxJcdQ"
+    },
+    "contact": {
+      "phone": "+1 345-922-4534",
+      "email": "",
+      "website": "https://blackpearlprivatecharters.com/",
+      "bookingUrl": "https://blackpearlprivatecharters.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNcuOmtORwGIT4sHWoLRK3jZ3u7K_Sv0-yO-QfT=w105-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipNcuOmtORwGIT4sHWoLRK3jZ3u7K_Sv0-yO-QfT=w105-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 500,
+      "priceTo": 2000,
+      "pricePerUnit": "/trip",
+      "priceDescription": "$500 - $2000 /trip",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open 24 hours",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "24"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 25,
+      "googleRating": 5
+    },
+    "tags": [
+      "boat tour agency",
+      "boat",
+      "yacht",
+      "charter",
+      "fishing",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "black",
+      "pearl",
+      "private",
+      "charters",
+      "boat",
+      "yacht",
+      "charter",
+      "fishing"
+    ],
+    "embeddingText": "Black Pearl Private Charters Black Pearl Private Charters located in the Cayman Islands. boat_charter Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJgfJhlbaHJY8R8xPfd5kCYIE-cgqd0n46b",
+    "category": "boat_charter",
+    "subcategory": "Boat tour agency",
+    "name": "boating.ky (VIP Watersports Ltd)",
+    "description": "boating.ky (VIP Watersports Ltd) located in the Cayman Islands.",
+    "shortDescription": "boating.ky (VIP Watersports Ltd) located in the Cayman Islands.",
+    "location": {
+      "address": "Pier B, Slip 22 Cayman Islands Yacht Club BOX 326 Grand Cayman KY1, 9006, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3577639,
+      "longitude": -81.3773398,
+      "googlePlaceId": "ChIJgfJhlbaHJY8R8xPfd5kCYIE"
+    },
+    "contact": {
+      "phone": "+1 345-526-7228",
+      "email": "",
+      "website": "http://www.boating.ky/",
+      "bookingUrl": "http://www.boating.ky/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPlRSFGglfxEOreN79V48ssRZuSZsZXBmwAxXbJ=w80-h106-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipPlRSFGglfxEOreN79V48ssRZuSZsZXBmwAxXbJ=w80-h106-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 500,
+      "priceTo": 2000,
+      "pricePerUnit": "/trip",
+      "priceDescription": "$500 - $2000 /trip",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open 24 hours",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "24"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 52,
+      "googleRating": 5
+    },
+    "tags": [
+      "boat tour agency",
+      "boat",
+      "yacht",
+      "charter",
+      "fishing",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "boating.ky",
+      "(vip",
+      "watersports",
+      "ltd)",
+      "boat",
+      "yacht",
+      "charter",
+      "fishing"
+    ],
+    "embeddingText": "boating.ky (VIP Watersports Ltd) boating.ky (VIP Watersports Ltd) located in the Cayman Islands. boat_charter Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJl-OYHa6HJY8RzBZP9Z43-mM-8qa0xmhul",
+    "category": "boat_charter",
+    "subcategory": "Boat tour agency",
+    "name": "Nick's Private Charters",
+    "description": "Nick's Private Charters located in the Cayman Islands.",
+    "shortDescription": "Nick's Private Charters located in the Cayman Islands.",
+    "location": {
+      "address": "Yacht Drive Cayman Islands Yacht Club dock A5 Grand Cayman, KY1-1103, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3573861,
+      "longitude": -81.3780936,
+      "googlePlaceId": "ChIJl-OYHa6HJY8RzBZP9Z43-mM"
+    },
+    "contact": {
+      "phone": "+1 345-936-3400",
+      "email": "",
+      "website": "https://nicksprivatecharters.com/",
+      "bookingUrl": "https://nicksprivatecharters.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNzf-lQfvaSJpARtxDWk1vZI9PgRHGbaYiXBzzR=w92-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipNzf-lQfvaSJpARtxDWk1vZI9PgRHGbaYiXBzzR=w92-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 500,
+      "priceTo": 2000,
+      "pricePerUnit": "/trip",
+      "priceDescription": "$500 - $2000 /trip",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open 24 hours",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "24"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 10,
+      "googleRating": 5
+    },
+    "tags": [
+      "boat tour agency",
+      "boat",
+      "yacht",
+      "charter",
+      "fishing",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "nick's",
+      "private",
+      "charters",
+      "boat",
+      "yacht",
+      "charter",
+      "fishing"
+    ],
+    "embeddingText": "Nick's Private Charters Nick's Private Charters located in the Cayman Islands. boat_charter Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJm5LmGO2HJY8RAHbUqiBByFg-fsfs4c4gd",
+    "category": "boat_charter",
+    "subcategory": "Fishing charter",
+    "name": "Easy Does It Charters",
+    "description": "Easy Does It Charters located in the Cayman Islands.",
+    "shortDescription": "Easy Does It Charters located in the Cayman Islands.",
+    "location": {
+      "address": "Grand Cayman, 164 Yacht Dr, KY1-1302, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.357054299999998,
+      "longitude": -81.378236,
+      "googlePlaceId": "ChIJm5LmGO2HJY8RAHbUqiBByFg"
+    },
+    "contact": {
+      "phone": "+1 345-924-2195",
+      "email": "",
+      "website": "https://easydoesitcharters.com/",
+      "bookingUrl": "https://easydoesitcharters.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNOtxrM_vITkJ7OxIn5UFddOXbMLBJTW2uRVWac=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipNOtxrM_vITkJ7OxIn5UFddOXbMLBJTW2uRVWac=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 500,
+      "priceTo": 2000,
+      "pricePerUnit": "/trip",
+      "priceDescription": "$500 - $2000 /trip",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open · Closes 10 pm",
+        "isOpen": true,
+        "todayHours": {
+          "closes": "10 pm"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now · Closes 10 pm"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 12,
+      "googleRating": 5
+    },
+    "tags": [
+      "fishing charter",
+      "boat",
+      "yacht",
+      "charter",
+      "fishing",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "easy",
+      "does",
+      "charters",
+      "boat",
+      "yacht",
+      "charter",
+      "fishing"
+    ],
+    "embeddingText": "Easy Does It Charters Easy Does It Charters located in the Cayman Islands. boat_charter Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJk_R4IbqKJY8RS-cFucbsSZ0-mxlvhzrhi",
+    "category": "activity",
+    "subcategory": "Tourist attraction",
+    "name": "Cayman Crystal Caves",
+    "description": "Underground cave tours & a souvenir shop. Guided walking tours through tropical forest & underground caves, plus a souvenir store & restrooms.",
+    "shortDescription": "Underground cave tours & a souvenir shop. Guided walking tours through tropical forest & underground caves, plus a souvenir store & restrooms.",
+    "location": {
+      "address": "69 North Side Rd, Old Man Bay, Cayman Islands",
+      "district": "North Side",
+      "island": "Grand Cayman",
+      "latitude": 19.3451423,
+      "longitude": -81.17766859999999,
+      "googlePlaceId": "ChIJk_R4IbqKJY8RS-cFucbsSZ0"
+    },
+    "contact": {
+      "phone": "+1 345-949-2283",
+      "email": "",
+      "website": "https://caymancrystalcaves.com/",
+      "bookingUrl": "https://caymancrystalcaves.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweov9H3XshRkfwvtfIOQmvQl1ksC6huBdBY800cRitDAPdunxfoRHE1BQ9FS0Zi5Admd_ZsFOWYBo0VUA51MYbDpgvNSLMECnrr7zDoN-a4UqFM0ePSQxolmxd7-vWHeZfUK3TU=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweov9H3XshRkfwvtfIOQmvQl1ksC6huBdBY800cRitDAPdunxfoRHE1BQ9FS0Zi5Admd_ZsFOWYBo0VUA51MYbDpgvNSLMECnrr7zDoN-a4UqFM0ePSQxolmxd7-vWHeZfUK3TU=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 50,
+      "priceTo": 150,
+      "pricePerUnit": "/person",
+      "priceDescription": "$50 - $150 /person",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 9 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "9 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "on_site_services": true
+      }
+    },
+    "ratings": {
+      "overall": 4.7,
+      "reviewCount": 1250,
+      "googleRating": 4.7
+    },
+    "tags": [
+      "tourist attraction",
+      "tours",
+      "attractions",
+      "things",
+      "on site services",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "cayman",
+      "crystal",
+      "caves",
+      "tours",
+      "attractions",
+      "things"
+    ],
+    "embeddingText": "Cayman Crystal Caves Underground cave tours & a souvenir shop. Guided walking tours through tropical forest & underground caves, plus a souvenir store & restrooms. activity Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJKS_HFYSHJY8RlWQxnVjf_yo-s57v0m4gn",
+    "category": "activity",
+    "subcategory": "Tour operator",
+    "name": "Six Senses Cayman Adventures",
+    "description": "Six Senses Cayman Adventures located in the Cayman Islands.",
+    "shortDescription": "Six Senses Cayman Adventures located in the Cayman Islands.",
+    "location": {
+      "address": "Yacht Dr, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3572413,
+      "longitude": -81.37697299999999,
+      "googlePlaceId": "ChIJKS_HFYSHJY8RlWQxnVjf_yo"
+    },
+    "contact": {
+      "phone": "+1 345-938-3303",
+      "email": "",
+      "website": "https://www.caymansixsenses.com/",
+      "bookingUrl": "https://www.caymansixsenses.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwergsTZ88G-cgMh6fC4vPZ41Nf54Lp9ZuvmL_j42nx1pcq25YoGCHtUGMldOyjG5Jc8GOHhavgbEnPnAlH4jEis-FH2ece5SNXvAJqTQwVWS9qYoDm-7FZLm-IkpZAvIn4sZJlPi=w80-h120-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwergsTZ88G-cgMh6fC4vPZ41Nf54Lp9ZuvmL_j42nx1pcq25YoGCHtUGMldOyjG5Jc8GOHhavgbEnPnAlH4jEis-FH2ece5SNXvAJqTQwVWS9qYoDm-7FZLm-IkpZAvIn4sZJlPi=w80-h120-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 50,
+      "priceTo": 150,
+      "pricePerUnit": "/person",
+      "priceDescription": "$50 - $150 /person",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open · Closes 10 pm",
+        "isOpen": true,
+        "todayHours": {
+          "closes": "10 pm"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now · Closes 10 pm"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 256,
+      "googleRating": 5
+    },
+    "tags": [
+      "tour operator",
+      "tours",
+      "attractions",
+      "things",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "six",
+      "senses",
+      "cayman",
+      "adventures",
+      "tours",
+      "attractions",
+      "things"
+    ],
+    "embeddingText": "Six Senses Cayman Adventures Six Senses Cayman Adventures located in the Cayman Islands. activity Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJVVVVVZl9L48Rtz2V0qX1KfY-e637f9o3a",
+    "category": "activity",
+    "subcategory": "Tourist attraction",
+    "name": "Dolphin Discovery Grand Cayman",
+    "description": "Swimming adventures with dolphins. Park offering swimming encounters with dolphins in a large outdoor pool, including belly rides.",
+    "shortDescription": "Swimming adventures with dolphins. Park offering swimming encounters with dolphins in a large outdoor pool, including belly rides.",
+    "location": {
+      "address": "787 Northwest Road, West Bay KY1-1209, Cayman Islands",
+      "district": "West Bay",
+      "island": "Grand Cayman",
+      "latitude": 19.3808737,
+      "longitude": -81.4168172,
+      "googlePlaceId": "ChIJVVVVVZl9L48Rtz2V0qX1KfY"
+    },
+    "contact": {
+      "phone": "+1 345-325-6325",
+      "email": "",
+      "website": "https://www.dolphindiscovery.com/grand-cayman/",
+      "bookingUrl": "https://www.dolphindiscovery.com/grand-cayman/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipP0M06ZIqQ4zeSzy4BnSrtE60jXfyVoiDZAou9i=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipP0M06ZIqQ4zeSzy4BnSrtE60jXfyVoiDZAou9i=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 50,
+      "priceTo": 150,
+      "pricePerUnit": "/person",
+      "priceDescription": "$50 - $150 /person",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 9 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "9 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "on_site_services": true
+      }
+    },
+    "ratings": {
+      "overall": 4.2,
+      "reviewCount": 1084,
+      "googleRating": 4.2
+    },
+    "tags": [
+      "tourist attraction",
+      "tours",
+      "attractions",
+      "things",
+      "on site services",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "dolphin",
+      "discovery",
+      "grand",
+      "cayman",
+      "tours",
+      "attractions",
+      "things"
+    ],
+    "embeddingText": "Dolphin Discovery Grand Cayman Swimming adventures with dolphins. Park offering swimming encounters with dolphins in a large outdoor pool, including belly rides. activity Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJSQf-DKyHJY8RvD8hMBazhCY-xgm6h08t0",
+    "category": "activity",
+    "subcategory": "Tourist attraction",
+    "name": "Camana Bay",
+    "description": "Shopping & dining development. Bayside retail & entertainment district featuring several blocks of shops, restaurants & promenades.",
+    "shortDescription": "Shopping & dining development. Bayside retail & entertainment district featuring several blocks of shops, restaurants & promenades.",
+    "location": {
+      "address": "10 Market St, KY1-9006, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3220089,
+      "longitude": -81.3781772,
+      "googlePlaceId": "ChIJSQf-DKyHJY8RvD8hMBazhCY"
+    },
+    "contact": {
+      "phone": "+1 345-640-4000",
+      "email": "",
+      "website": "https://www.camanabay.com/",
+      "bookingUrl": "https://www.camanabay.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerCSE3X-eSeDz0RIdwa93yt4el9nT_YlnFo9KP9S47PIpTvyLUw6nS9DWXJHgktI8EpQnmJGACQUTweSkRH1o43B9CB09ukxQuwQz0YRddSmVU0kd2cjx6qJ8NcbuijCo3D5cbm=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerCSE3X-eSeDz0RIdwa93yt4el9nT_YlnFo9KP9S47PIpTvyLUw6nS9DWXJHgktI8EpQnmJGACQUTweSkRH1o43B9CB09ukxQuwQz0YRddSmVU0kd2cjx6qJ8NcbuijCo3D5cbm=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 30,
+      "priceTo": 100,
+      "pricePerUnit": "/person",
+      "priceDescription": "$30 - $100 /person",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open 24 hours",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "24"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "on_site_services": true
+      }
+    },
+    "ratings": {
+      "overall": 4.6,
+      "reviewCount": 3473,
+      "googleRating": 4.6
+    },
+    "tags": [
+      "tourist attraction",
+      "tours",
+      "attractions",
+      "things",
+      "on site services",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "camana",
+      "bay",
+      "tours",
+      "attractions",
+      "things"
+    ],
+    "embeddingText": "Camana Bay Shopping & dining development. Bayside retail & entertainment district featuring several blocks of shops, restaurants & promenades. activity Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJnY6fV56HJY8R58JbnI81dIs-1oxcd0os0",
+    "category": "activity",
+    "subcategory": "Boat tour agency",
+    "name": "Cayman Ocean Adventures Stingraycity Tour",
+    "description": "Cayman Ocean Adventures Stingraycity Tour located in the Cayman Islands.",
+    "shortDescription": "Cayman Ocean Adventures Stingraycity Tour located in the Cayman Islands.",
+    "location": {
+      "address": "Marquise quay, KY1-1207, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3372446,
+      "longitude": -81.3664321,
+      "googlePlaceId": "ChIJnY6fV56HJY8R58JbnI81dIs"
+    },
+    "contact": {
+      "phone": "+1 345-939-4026",
+      "email": "",
+      "website": "http://stingraycitycaymantours.com/",
+      "bookingUrl": "http://stingraycitycaymantours.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipM_PvbSZrH7Gg1VqdTR8pnTEUktTRwK_wRqdgFW=w80-h106-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipM_PvbSZrH7Gg1VqdTR8pnTEUktTRwK_wRqdgFW=w80-h106-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 500,
+      "priceTo": 2000,
+      "pricePerUnit": "/trip",
+      "priceDescription": "$500 - $2000 /trip",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open · Closes 11 pm",
+        "isOpen": true,
+        "todayHours": {
+          "closes": "11 pm"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now · Closes 11 pm"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 46,
+      "googleRating": 5
+    },
+    "tags": [
+      "boat tour agency",
+      "tours",
+      "attractions",
+      "things",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "cayman",
+      "ocean",
+      "adventures",
+      "stingraycity",
+      "tour",
+      "tours",
+      "attractions",
+      "things"
+    ],
+    "embeddingText": "Cayman Ocean Adventures Stingraycity Tour Cayman Ocean Adventures Stingraycity Tour located in the Cayman Islands. activity Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJeR3wKN30JY8Rki9hVbD7pbA-4oto76lml",
+    "category": "activity",
+    "subcategory": "Tourist attraction",
+    "name": "Lovers Wall - Grand Cayman",
+    "description": "Lovers Wall - Grand Cayman located in the Cayman Islands.",
+    "shortDescription": "Lovers Wall - Grand Cayman located in the Cayman Islands.",
+    "location": {
+      "address": "19°17'40.3\"N 81°08'39.2\"W, 133 Elgin Ave, George Town, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2945167,
+      "longitude": -81.14421109999999,
+      "googlePlaceId": "ChIJeR3wKN30JY8Rki9hVbD7pbA"
+    },
+    "contact": {
+      "phone": "",
+      "email": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwer1ApIRURuGZLolJUlWB4IiajofnG_sK5akqsRuBiQH7vO50ECL_ws3k4ZzyskHS9dYfft7JrJrNruadZYZrvwGSs1GpFkuGBG-5R3Zhkh0eyzbcZ8gSx2veD3KapKoZCOkmvXJfA=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwer1ApIRURuGZLolJUlWB4IiajofnG_sK5akqsRuBiQH7vO50ECL_ws3k4ZzyskHS9dYfft7JrJrNruadZYZrvwGSs1GpFkuGBG-5R3Zhkh0eyzbcZ8gSx2veD3KapKoZCOkmvXJfA=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 50,
+      "priceTo": 150,
+      "pricePerUnit": "/person",
+      "priceDescription": "$50 - $150 /person",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open 24 hours",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "24"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.1,
+      "reviewCount": 60,
+      "googleRating": 4.1
+    },
+    "tags": [
+      "tourist attraction",
+      "tours",
+      "attractions",
+      "things",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "lovers",
+      "wall",
+      "grand",
+      "cayman",
+      "tours",
+      "attractions",
+      "things"
+    ],
+    "embeddingText": "Lovers Wall - Grand Cayman Lovers Wall - Grand Cayman located in the Cayman Islands. activity Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJB7J19_p9L48RszT9PCFAT2M-gwkn02n9k",
+    "category": "activity",
+    "subcategory": "Wildlife park",
+    "name": "Cayman Turtle Centre",
+    "description": "Wildlife park with exhibits & adventures. Guests at this Caribbean wildlife park can swim with turtles & view many types of native animals.",
+    "shortDescription": "Wildlife park with exhibits & adventures. Guests at this Caribbean wildlife park can swim with turtles & view many types of native animals.",
+    "location": {
+      "address": "9HJP+47M, 786 Northwest Point Road, West Bay Grand Cayman KY1, West Bay 1303, Cayman Islands",
+      "district": "West Bay",
+      "island": "Grand Cayman",
+      "latitude": 19.3802646,
+      "longitude": -81.4166023,
+      "googlePlaceId": "ChIJB7J19_p9L48RszT9PCFAT2M"
+    },
+    "contact": {
+      "phone": "+1 345-949-3894",
+      "email": "",
+      "website": "https://www.turtle.ky/",
+      "bookingUrl": "https://www.turtle.ky/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqi1j9r0YVKyjbmL_jwDCR7LsuV72eRk8Q2-_xy_dVYBJkYidF0RuoT5R0fAHYMVO-kBFwyMe9BC0QDNiT4OicKk54y6OSlfyceXz-b8jEkrJFkR8XSlKMoWgCfi6PszuRZsp24Yw=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqi1j9r0YVKyjbmL_jwDCR7LsuV72eRk8Q2-_xy_dVYBJkYidF0RuoT5R0fAHYMVO-kBFwyMe9BC0QDNiT4OicKk54y6OSlfyceXz-b8jEkrJFkR8XSlKMoWgCfi6PszuRZsp24Yw=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 20,
+      "priceTo": 60,
+      "pricePerUnit": null,
+      "priceDescription": "$20 - $60",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 8 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "8 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "on_site_services": true
+      }
+    },
+    "ratings": {
+      "overall": 4.5,
+      "reviewCount": 4297,
+      "googleRating": 4.5
+    },
+    "tags": [
+      "wildlife park",
+      "tours",
+      "attractions",
+      "things",
+      "on site services",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "cayman",
+      "turtle",
+      "centre",
+      "tours",
+      "attractions",
+      "things"
+    ],
+    "embeddingText": "Cayman Turtle Centre Wildlife park with exhibits & adventures. Guests at this Caribbean wildlife park can swim with turtles & view many types of native animals. activity Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJL6lYOO19L48R30YHBck01j0-neql6uohs",
+    "category": "activity",
+    "subcategory": "Tourist attraction",
+    "name": "Hell, Grand Cayman",
+    "description": "Hell-branded limestone rock formation. Jagged football field–size area of limestone rock formations nicknamed \"hell\", with gift shops.",
+    "shortDescription": "Hell-branded limestone rock formation. Jagged football field–size area of limestone rock formations nicknamed \"hell\", with gift shops.",
+    "location": {
+      "address": "Hell Rd, West Bay, Cayman Islands",
+      "district": "West Bay",
+      "island": "Grand Cayman",
+      "latitude": 19.378856799999998,
+      "longitude": -81.4067761,
+      "googlePlaceId": "ChIJL6lYOO19L48R30YHBck01j0"
+    },
+    "contact": {
+      "phone": "+1 345-949-3358",
+      "email": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepu6qI0rOhlW9MRGPBlmHSLFuxO-VMgD8YZhSPGkj5BDpMZ6QIeMYPtgcKK1khI-VOQiwCFGWGQVCx2laaz5vlTRuQQMh7X71kYquaP5jvyBu3pv6K1olXTKS8Z8N8ZL3TXguOPJA=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepu6qI0rOhlW9MRGPBlmHSLFuxO-VMgD8YZhSPGkj5BDpMZ6QIeMYPtgcKK1khI-VOQiwCFGWGQVCx2laaz5vlTRuQQMh7X71kYquaP5jvyBu3pv6K1olXTKS8Z8N8ZL3TXguOPJA=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 50,
+      "priceTo": 150,
+      "pricePerUnit": "/person",
+      "priceDescription": "$50 - $150 /person",
+      "currency": "USD",
+      "openingHours": {
+        "raw": null,
+        "isOpen": null,
+        "todayHours": null,
+        "schedule": {},
+        "formattedDisplay": null
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "on_site_services": true
+      }
+    },
+    "ratings": {
+      "overall": 4.3,
+      "reviewCount": 1000,
+      "googleRating": 4.3
+    },
+    "tags": [
+      "tourist attraction",
+      "tours",
+      "attractions",
+      "things",
+      "on site services",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "hell,",
+      "grand",
+      "cayman",
+      "tours",
+      "attractions",
+      "things"
+    ],
+    "embeddingText": "Hell, Grand Cayman Hell-branded limestone rock formation. Jagged football field–size area of limestone rock formations nicknamed \"hell\", with gift shops. activity Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJNfcX-kSGJY8R1N38FW4tL_8-ic4ut5m7v",
+    "category": "activity",
+    "subcategory": "Tourist attraction",
+    "name": "Cayman Spirits Co.",
+    "description": "Distillery tours & spirit tastings. Guided tours of a small-batch distillery with a big copper still & samples of rum & vodka.",
+    "shortDescription": "Distillery tours & spirit tastings. Guided tours of a small-batch distillery with a big copper still & samples of rum & vodka.",
+    "location": {
+      "address": "65 Bronze Road Box, Bronze Rd, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3011436,
+      "longitude": -81.3705652,
+      "googlePlaceId": "ChIJNfcX-kSGJY8R1N38FW4tL_8"
+    },
+    "contact": {
+      "phone": "+1 345-943-4786",
+      "email": "",
+      "website": "http://www.caymanspirits.com/",
+      "bookingUrl": "http://www.caymanspirits.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerqqnbxjFshv3J1TEfAlOZrITrsxCNgjNAcmqyUHf9YJ4dh08UdOTBrVgVi9rBsetE32jdW7f8DxJbq-6RLvONuaQXCQlHSz-2KJxtzxc7BhXpWH4u4wJ1ZvE6k9cwhIgVQR-CC=w146-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerqqnbxjFshv3J1TEfAlOZrITrsxCNgjNAcmqyUHf9YJ4dh08UdOTBrVgVi9rBsetE32jdW7f8DxJbq-6RLvONuaQXCQlHSz-2KJxtzxc7BhXpWH4u4wJ1ZvE6k9cwhIgVQR-CC=w146-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 50,
+      "priceTo": 150,
+      "pricePerUnit": "/person",
+      "priceDescription": "$50 - $150 /person",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 9 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "9 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "on_site_services": true
+      }
+    },
+    "ratings": {
+      "overall": 4.8,
+      "reviewCount": 625,
+      "googleRating": 4.8
+    },
+    "tags": [
+      "tourist attraction",
+      "tours",
+      "attractions",
+      "things",
+      "on site services",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "cayman",
+      "spirits",
+      "co.",
+      "tours",
+      "attractions",
+      "things"
+    ],
+    "embeddingText": "Cayman Spirits Co. Distillery tours & spirit tastings. Guided tours of a small-batch distillery with a big copper still & samples of rum & vodka. activity Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJ6_aid2GHJY8RKe9uxoBBwzU-z16j9zq72",
+    "category": "activity",
+    "subcategory": "Tourist attraction",
+    "name": "Kittiwake Shipwreck & Artificial Reef",
+    "description": "Sunken US Navy ship with rich sea life. Diving & snorkeling amid sponges, groupers & squirrelfish at a former US Navy ship sunk in 2011.",
+    "shortDescription": "Sunken US Navy ship with rich sea life. Diving & snorkeling amid sponges, groupers & squirrelfish at a former US Navy ship sunk in 2011.",
+    "location": {
+      "address": "1320 W Bay Rd, West Bay, Cayman Islands",
+      "district": "West Bay",
+      "island": "Grand Cayman",
+      "latitude": 19.3631202,
+      "longitude": -81.39966849999999,
+      "googlePlaceId": "ChIJ6_aid2GHJY8RKe9uxoBBwzU"
+    },
+    "contact": {
+      "phone": "+1 345-949-8522",
+      "email": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweq0xAS7G3PFj-iXt2aeA_hbtIKEV6oskYmoY5cpbvJWA-mRQbuwEp6Ffv0gL5iKb-0FgtRCKQboCImc_mNRkCunGgBISqlrikH4_Y_oj1_OEk4yCIHycIFq2ax1uLcrfdNo1wZk=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweq0xAS7G3PFj-iXt2aeA_hbtIKEV6oskYmoY5cpbvJWA-mRQbuwEp6Ffv0gL5iKb-0FgtRCKQboCImc_mNRkCunGgBISqlrikH4_Y_oj1_OEk4yCIHycIFq2ax1uLcrfdNo1wZk=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 80,
+      "priceTo": 200,
+      "pricePerUnit": "/dive",
+      "priceDescription": "$80 - $200 /dive",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open 24 hours",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "24"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.8,
+      "reviewCount": 46,
+      "googleRating": 4.8
+    },
+    "tags": [
+      "tourist attraction",
+      "tours",
+      "attractions",
+      "things",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "kittiwake",
+      "shipwreck",
+      "artificial",
+      "reef",
+      "tours",
+      "attractions",
+      "things"
+    ],
+    "embeddingText": "Kittiwake Shipwreck & Artificial Reef Sunken US Navy ship with rich sea life. Diving & snorkeling amid sponges, groupers & squirrelfish at a former US Navy ship sunk in 2011. activity Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJsfeaZliGJY8RholiQB0YZHQ-nr9p4xc1e",
+    "category": "activity",
+    "subcategory": "Helicopter tour agency",
+    "name": "Cayman Islands Helicopters",
+    "description": "Cayman Islands Helicopters located in the Cayman Islands.",
+    "shortDescription": "Cayman Islands Helicopters located in the Cayman Islands.",
+    "location": {
+      "address": "221 N Church St, Grand Cayman KY1-1103, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3028621,
+      "longitude": -81.3828747,
+      "googlePlaceId": "ChIJsfeaZliGJY8RholiQB0YZHQ"
+    },
+    "contact": {
+      "phone": "+1 345-926-6967",
+      "email": "",
+      "website": "http://caymanislandshelicopters.com/",
+      "bookingUrl": "http://caymanislandshelicopters.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNXxgsLuc9NmQ_B00jjYrjeQcGmXona_qC-Xx6g=w144-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipNXxgsLuc9NmQ_B00jjYrjeQcGmXona_qC-Xx6g=w144-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 50,
+      "priceTo": 150,
+      "pricePerUnit": "/person",
+      "priceDescription": "$50 - $150 /person",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 8 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "8 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.9,
+      "reviewCount": 41,
+      "googleRating": 4.9
+    },
+    "tags": [
+      "helicopter tour agency",
+      "tours",
+      "attractions",
+      "things",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "cayman",
+      "islands",
+      "helicopters",
+      "tours",
+      "attractions",
+      "things"
+    ],
+    "embeddingText": "Cayman Islands Helicopters Cayman Islands Helicopters located in the Cayman Islands. activity Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJsxr9LKaHJY8RTeTP2Z0GepY-9dlvb01ck",
+    "category": "activity",
+    "subcategory": "Tour operator",
+    "name": "Stingray City Tours Grand Cayman",
+    "description": "Stingray City Tours Grand Cayman located in the Cayman Islands.",
+    "shortDescription": "Stingray City Tours Grand Cayman located in the Cayman Islands.",
+    "location": {
+      "address": "SMB Rd, Unit 67, POBOX 30931, KY1-1204, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.329404,
+      "longitude": -81.381047,
+      "googlePlaceId": "ChIJsxr9LKaHJY8RTeTP2Z0GepY"
+    },
+    "contact": {
+      "phone": "+1 345-922-0844",
+      "email": "",
+      "website": "https://www.thingstodocayman.net/stingray-city-tours/",
+      "bookingUrl": "https://www.thingstodocayman.net/stingray-city-tours/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerpKLKkv06nsqfBH8kFHe9li0WkjQwoFw5yxEu8vDNqm56V1YYb9AlPg3Hm6rNHXyr1sbpkViRo2x0zoC1MdqXq-KoSwGupNSIh4Iy3dw-o7rnxS-LGOCe2ZWqZstQrQ_sk5JE=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerpKLKkv06nsqfBH8kFHe9li0WkjQwoFw5yxEu8vDNqm56V1YYb9AlPg3Hm6rNHXyr1sbpkViRo2x0zoC1MdqXq-KoSwGupNSIh4Iy3dw-o7rnxS-LGOCe2ZWqZstQrQ_sk5JE=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 50,
+      "priceTo": 150,
+      "pricePerUnit": "/person",
+      "priceDescription": "$50 - $150 /person",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open · Closes 10 pm",
+        "isOpen": true,
+        "todayHours": {
+          "closes": "10 pm"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now · Closes 10 pm"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.7,
+      "reviewCount": 63,
+      "googleRating": 4.7
+    },
+    "tags": [
+      "tour operator",
+      "tours",
+      "attractions",
+      "things",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "stingray",
+      "city",
+      "tours",
+      "grand",
+      "cayman",
+      "attractions",
+      "things"
+    ],
+    "embeddingText": "Stingray City Tours Grand Cayman Stingray City Tours Grand Cayman located in the Cayman Islands. activity Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJDcF6x_yHJY8RWiR4p1_Ilsc-rlzndo86z",
+    "category": "activity",
+    "subcategory": "Tourist attraction",
+    "name": "Brown Sugar Tours",
+    "description": "Brown Sugar Tours located in the Cayman Islands.",
+    "shortDescription": "Brown Sugar Tours located in the Cayman Islands.",
+    "location": {
+      "address": "George Town, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.295519499999997,
+      "longitude": -81.38310299999999,
+      "googlePlaceId": "ChIJDcF6x_yHJY8RWiR4p1_Ilsc"
+    },
+    "contact": {
+      "phone": "+1 345-547-2486",
+      "email": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerSAKeOyf1fqoSl1W1Hwi_e1-hVdSuZaxmMhp7CoryXP3dkmcY_Q1OUAiviSUKVMT-lrERYIMj5ZXQMMgTt3N_8SplGUcwxuriFKQWt1JNwHzstvxr2_uqoVF8-BvQV2Cw35C5TDWqz6zFz=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerSAKeOyf1fqoSl1W1Hwi_e1-hVdSuZaxmMhp7CoryXP3dkmcY_Q1OUAiviSUKVMT-lrERYIMj5ZXQMMgTt3N_8SplGUcwxuriFKQWt1JNwHzstvxr2_uqoVF8-BvQV2Cw35C5TDWqz6zFz=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 50,
+      "priceTo": 150,
+      "pricePerUnit": "/person",
+      "priceDescription": "$50 - $150 /person",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 8 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "8 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 46,
+      "googleRating": 5
+    },
+    "tags": [
+      "tourist attraction",
+      "tours",
+      "attractions",
+      "things",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "brown",
+      "sugar",
+      "tours",
+      "attractions",
+      "things"
+    ],
+    "embeddingText": "Brown Sugar Tours Brown Sugar Tours located in the Cayman Islands. activity Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJYexJ3aGHJY8RMRwXR9gbOhM-xqui248n3",
+    "category": "activity",
+    "subcategory": "Tourist attraction",
+    "name": "Grand Cayman",
+    "description": "Grand Cayman located in the Cayman Islands.",
+    "shortDescription": "Grand Cayman located in the Cayman Islands.",
+    "location": {
+      "address": "7JW8+WG2, George Town, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.297255099999997,
+      "longitude": -81.3837308,
+      "googlePlaceId": "ChIJYexJ3aGHJY8RMRwXR9gbOhM"
+    },
+    "contact": {
+      "phone": "",
+      "email": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqDzdbrh6VHE645MesdbRmKQFxLBUgiOlFp8F0Hx3riKubFF79qUqAPG9Y-LFBso3pqYQUEZlTigGvaQDyLDEuDpxS2RLs-VLK3mBlmMcPIrkTJP3zoO38MvVhnHLoi1dG0mxbE=w80-h106-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqDzdbrh6VHE645MesdbRmKQFxLBUgiOlFp8F0Hx3riKubFF79qUqAPG9Y-LFBso3pqYQUEZlTigGvaQDyLDEuDpxS2RLs-VLK3mBlmMcPIrkTJP3zoO38MvVhnHLoi1dG0mxbE=w80-h106-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 50,
+      "priceTo": 150,
+      "pricePerUnit": "/person",
+      "priceDescription": "$50 - $150 /person",
+      "currency": "USD",
+      "openingHours": {
+        "raw": null,
+        "isOpen": null,
+        "todayHours": null,
+        "schedule": {},
+        "formattedDisplay": null
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.7,
+      "reviewCount": 19,
+      "googleRating": 4.7
+    },
+    "tags": [
+      "tourist attraction",
+      "tours",
+      "attractions",
+      "things",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "grand",
+      "cayman",
+      "tours",
+      "attractions",
+      "things"
+    ],
+    "embeddingText": "Grand Cayman Grand Cayman located in the Cayman Islands. activity Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJ4TMYYb6HJY8RxLgu8shnHoI-ssmg1jf4o",
+    "category": "activity",
+    "subcategory": "Tour operator",
+    "name": "Tours Cayman",
+    "description": "Tours Cayman located in the Cayman Islands.",
+    "shortDescription": "Tours Cayman located in the Cayman Islands.",
+    "location": {
+      "address": "8JPM+WF5 Grand Cayman, KY1-1205, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3373125,
+      "longitude": -81.36631249999999,
+      "googlePlaceId": "ChIJ4TMYYb6HJY8RxLgu8shnHoI"
+    },
+    "contact": {
+      "phone": "+1 345-916-5478",
+      "email": "",
+      "website": "https://www.tourscayman.net/",
+      "bookingUrl": "https://www.tourscayman.net/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqUZIo2xrmuX-JozvMAQmAEc8EjhLWcz5cHQIzf9Z8a5xLE7toXeblRswtE79bB5BpEupQdPfjAcHlNi0uxg6faSPpIDhpcABta-yRruLhu9_2Gqmq6r2FxnwcVCmJW5vz47Zmd=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqUZIo2xrmuX-JozvMAQmAEc8EjhLWcz5cHQIzf9Z8a5xLE7toXeblRswtE79bB5BpEupQdPfjAcHlNi0uxg6faSPpIDhpcABta-yRruLhu9_2Gqmq6r2FxnwcVCmJW5vz47Zmd=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 50,
+      "priceTo": 150,
+      "pricePerUnit": "/person",
+      "priceDescription": "$50 - $150 /person",
+      "currency": "USD",
+      "openingHours": {
+        "raw": null,
+        "isOpen": null,
+        "todayHours": null,
+        "schedule": {},
+        "formattedDisplay": null
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.7,
+      "reviewCount": 37,
+      "googleRating": 4.7
+    },
+    "tags": [
+      "tour operator",
+      "tours",
+      "attractions",
+      "things",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "tours",
+      "cayman",
+      "attractions",
+      "things"
+    ],
+    "embeddingText": "Tours Cayman Tours Cayman located in the Cayman Islands. activity Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJU4aPwEt9L48RKw25Lm53QSY-elya1ws9x",
+    "category": "activity",
+    "subcategory": "Tourist attraction",
+    "name": "ATV Cayman",
+    "description": "ATV Cayman located in the Cayman Islands.",
+    "shortDescription": "ATV Cayman located in the Cayman Islands.",
+    "location": {
+      "address": "West Bay, Conch Point Road Grand Cayman KY1, 1207, Cayman Islands",
+      "district": "West Bay",
+      "island": "Grand Cayman",
+      "latitude": 19.394584,
+      "longitude": -81.3824916,
+      "googlePlaceId": "ChIJU4aPwEt9L48RKw25Lm53QSY"
+    },
+    "contact": {
+      "phone": "+1 345-922-0366",
+      "email": "",
+      "website": "http://atvcayman.com/",
+      "bookingUrl": "http://atvcayman.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweryeyEC8aaLAld_qaRkD3Zj79NjPJFnaInZYVPcrLQlz2KC7eGYA3-ksa5LLy8SjWiPyw2V-2uWuw25tliCKgq0fJRa_rHnsc67-uQnT3OYvTwsW8U11zqPRv_dmDqk8wng8lVe=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweryeyEC8aaLAld_qaRkD3Zj79NjPJFnaInZYVPcrLQlz2KC7eGYA3-ksa5LLy8SjWiPyw2V-2uWuw25tliCKgq0fJRa_rHnsc67-uQnT3OYvTwsW8U11zqPRv_dmDqk8wng8lVe=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 50,
+      "priceTo": 150,
+      "pricePerUnit": "/person",
+      "priceDescription": "$50 - $150 /person",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 9:30 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "9:30 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.8,
+      "reviewCount": 103,
+      "googleRating": 4.8
+    },
+    "tags": [
+      "tourist attraction",
+      "tours",
+      "attractions",
+      "things",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "atv",
+      "cayman",
+      "tours",
+      "attractions",
+      "things"
+    ],
+    "embeddingText": "ATV Cayman ATV Cayman located in the Cayman Islands. activity Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJ95Nver6HJY8RpEvL0We454w-vn779bmeq",
+    "category": "activity",
+    "subcategory": "Boat tour agency",
+    "name": "Red Sail Sports - Safehaven Marina",
+    "description": "Scuba diving & stingray excursions. Sailing, diving & snorkeling trips to see coral reefs, shipwrecks & stingrays, plus SUP & kayaking.",
+    "shortDescription": "Scuba diving & stingray excursions. Sailing, diving & snorkeling trips to see coral reefs, shipwrecks & stingrays, plus SUP & kayaking.",
+    "location": {
+      "address": "Turnberry Dr, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3379157,
+      "longitude": -81.36689,
+      "googlePlaceId": "ChIJ95Nver6HJY8RpEvL0We454w"
+    },
+    "contact": {
+      "phone": "+1 877-506-6368",
+      "email": "",
+      "website": "http://www.redsailcayman.com/",
+      "bookingUrl": "http://www.redsailcayman.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerOvEjGU2iIqEckdvtOGjTSPH-FZGNf3ayvBN8ZtKciUr9XfmuJUntShw80Nu7FNslZgwZrGiREpou0jJGCP3-I0vsRdTp6J8dxEaViKjpCy3f5hkWxJgwq1bETCc_KlGEZ3fwyMA=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerOvEjGU2iIqEckdvtOGjTSPH-FZGNf3ayvBN8ZtKciUr9XfmuJUntShw80Nu7FNslZgwZrGiREpou0jJGCP3-I0vsRdTp6J8dxEaViKjpCy3f5hkWxJgwq1bETCc_KlGEZ3fwyMA=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 80,
+      "priceTo": 200,
+      "pricePerUnit": "/dive",
+      "priceDescription": "$80 - $200 /dive",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 8 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "8 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "on_site_services": true
+      }
+    },
+    "ratings": {
+      "overall": 4.9,
+      "reviewCount": 2744,
+      "googleRating": 4.9
+    },
+    "tags": [
+      "boat tour agency",
+      "tours",
+      "attractions",
+      "things",
+      "on site services",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "red",
+      "sail",
+      "sports",
+      "safehaven",
+      "marina",
+      "tours",
+      "attractions",
+      "things"
+    ],
+    "embeddingText": "Red Sail Sports - Safehaven Marina Scuba diving & stingray excursions. Sailing, diving & snorkeling trips to see coral reefs, shipwrecks & stingrays, plus SUP & kayaking. activity Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJF_4JaNaIJY8Rzpz0A0YUS0w-oldehfdqj",
+    "category": "shopping",
+    "subcategory": "Shopping Centre",
+    "name": "Countryside Shopping Village",
+    "description": "Countryside Shopping Village located in the Cayman Islands.",
+    "shortDescription": "Countryside Shopping Village located in the Cayman Islands.",
+    "location": {
+      "address": "33 Hirst Rd, Savannah, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.2729924,
+      "longitude": -81.2975374,
+      "googlePlaceId": "ChIJF_4JaNaIJY8Rzpz0A0YUS0w"
+    },
+    "contact": {
+      "phone": "",
+      "email": "",
+      "website": "https://www.countryside.ky/",
+      "bookingUrl": "https://www.countryside.ky/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNMAoK8PEpx0_WNa0J1tqCqqzVXPsmMRUo6Tft_=w163-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipNMAoK8PEpx0_WNa0J1tqCqqzVXPsmMRUo6Tft_=w163-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 300,
+      "priceTo": 1500,
+      "pricePerUnit": "/night",
+      "priceDescription": "$300 - $1500 /night",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 9 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "9 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "on_site_services": true
+      }
+    },
+    "ratings": {
+      "overall": 4.4,
+      "reviewCount": 499,
+      "googleRating": 4.4
+    },
+    "tags": [
+      "shopping centre",
+      "shopping",
+      "malls",
+      "boutiques",
+      "on site services",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "countryside",
+      "shopping",
+      "village",
+      "malls",
+      "boutiques"
+    ],
+    "embeddingText": "Countryside Shopping Village Countryside Shopping Village located in the Cayman Islands. shopping Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJf4SdUoSGJY8RMiWYnAmS_CI-egczv0zyt",
+    "category": "shopping",
+    "subcategory": "Shopping Centre",
+    "name": "Bayshore Mall",
+    "description": "Bayshore Mall located in the Cayman Islands.",
+    "shortDescription": "Bayshore Mall located in the Cayman Islands.",
+    "location": {
+      "address": "7JV8+GQF, S Church St, George Town, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2938071,
+      "longitude": -81.3830636,
+      "googlePlaceId": "ChIJf4SdUoSGJY8RMiWYnAmS_CI"
+    },
+    "contact": {
+      "phone": "",
+      "email": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoLG9tYHTI8XFXxpxWrCDBsqGNoYcfEMZoSPEjZDHtNvzR19Wl-gvj4X_cfnjU0FbSfU23TNIzbwDpfEiiv-a1HjOi7ken3c_W-jVwyJTtPY1mXWWkPDTFaEtO1IW5XJTEeKIQDxA=w163-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoLG9tYHTI8XFXxpxWrCDBsqGNoYcfEMZoSPEjZDHtNvzR19Wl-gvj4X_cfnjU0FbSfU23TNIzbwDpfEiiv-a1HjOi7ken3c_W-jVwyJTtPY1mXWWkPDTFaEtO1IW5XJTEeKIQDxA=w163-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": null,
+      "priceTo": null,
+      "pricePerUnit": null,
+      "priceDescription": null,
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 8:30 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "8:30 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "on_site_services": true
+      }
+    },
+    "ratings": {
+      "overall": 4.2,
+      "reviewCount": 79,
+      "googleRating": 4.2
+    },
+    "tags": [
+      "shopping centre",
+      "shopping",
+      "malls",
+      "boutiques",
+      "on site services",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "bayshore",
+      "mall",
+      "shopping",
+      "malls",
+      "boutiques"
+    ],
+    "embeddingText": "Bayshore Mall Bayshore Mall located in the Cayman Islands. shopping Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJqZBxZxuGJY8RgxEVjfDS4X4-6xqa15utr",
+    "category": "shopping",
+    "subcategory": "Shopping Centre",
+    "name": "Grand Harbor Shopping Centre",
+    "description": "Grand Harbor Shopping Centre located in the Cayman Islands.",
+    "shortDescription": "Grand Harbor Shopping Centre located in the Cayman Islands.",
+    "location": {
+      "address": "7MJ3+MF4, Grand Harbour, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.2816494,
+      "longitude": -81.34628459999999,
+      "googlePlaceId": "ChIJqZBxZxuGJY8RgxEVjfDS4X4"
+    },
+    "contact": {
+      "phone": "+1 345-945-3188",
+      "email": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerpWyvaJTru_KmnHd14DUqh7Jp497nvKicEIn2ru4FWM_5IrbzLjb2mZOeYtVgnOgShyeNKuyFyYQ16udpM-TXWXFiIfxnqOIiDCpnRVvNNMNFlaqcmNmSoBrrzwTiUuD4z7AeEfg=w163-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerpWyvaJTru_KmnHd14DUqh7Jp497nvKicEIn2ru4FWM_5IrbzLjb2mZOeYtVgnOgShyeNKuyFyYQ16udpM-TXWXFiIfxnqOIiDCpnRVvNNMNFlaqcmNmSoBrrzwTiUuD4z7AeEfg=w163-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": null,
+      "priceTo": null,
+      "pricePerUnit": null,
+      "priceDescription": null,
+      "currency": "USD",
+      "openingHours": {
+        "raw": null,
+        "isOpen": null,
+        "todayHours": null,
+        "schedule": {},
+        "formattedDisplay": null
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "on_site_services": true
+      }
+    },
+    "ratings": {
+      "overall": 4.5,
+      "reviewCount": 462,
+      "googleRating": 4.5
+    },
+    "tags": [
+      "shopping centre",
+      "shopping",
+      "malls",
+      "boutiques",
+      "on site services",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "grand",
+      "harbor",
+      "shopping",
+      "centre",
+      "malls",
+      "boutiques"
+    ],
+    "embeddingText": "Grand Harbor Shopping Centre Grand Harbor Shopping Centre located in the Cayman Islands. shopping Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJm6-qXv-GJY8RfitgpHNgxWE-n5nikbokr",
+    "category": "shopping",
+    "subcategory": "Shopping Centre",
+    "name": "7 Mile Shops",
+    "description": "7 Mile Shops located in the Cayman Islands.",
+    "shortDescription": "7 Mile Shops located in the Cayman Islands.",
+    "location": {
+      "address": "8J78+367, W Bay Rd, George Town, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.312652399999997,
+      "longitude": -81.3844654,
+      "googlePlaceId": "ChIJm6-qXv-GJY8RfitgpHNgxWE"
+    },
+    "contact": {
+      "phone": "+1 345-640-1241",
+      "email": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoFz9DD5lOfjy4ljJ8og7HaCqupdLb-8Z4kJNkL4OO-eTSYEd0BGNx_EeM7hq5uTv7dGfVy02goYZFkGVymx2prtPx0hmjwgvmhrjabguijlIdV7Vija3M0k6mQpl582sAH80Rm=w137-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoFz9DD5lOfjy4ljJ8og7HaCqupdLb-8Z4kJNkL4OO-eTSYEd0BGNx_EeM7hq5uTv7dGfVy02goYZFkGVymx2prtPx0hmjwgvmhrjabguijlIdV7Vija3M0k6mQpl582sAH80Rm=w137-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": null,
+      "priceTo": null,
+      "pricePerUnit": null,
+      "priceDescription": null,
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open · Closes 10 pm",
+        "isOpen": true,
+        "todayHours": {
+          "closes": "10 pm"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now · Closes 10 pm"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "on_site_services": true
+      }
+    },
+    "ratings": {
+      "overall": 4.4,
+      "reviewCount": 74,
+      "googleRating": 4.4
+    },
+    "tags": [
+      "shopping centre",
+      "shopping",
+      "malls",
+      "boutiques",
+      "on site services",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "mile",
+      "shops",
+      "shopping",
+      "malls",
+      "boutiques"
+    ],
+    "embeddingText": "7 Mile Shops 7 Mile Shops located in the Cayman Islands. shopping Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJqUN2Tp-HJY8R7Lye2mGEi4o-52kymhl7u",
+    "category": "shopping",
+    "subcategory": "Boutique",
+    "name": "Funky Monkey Lifestyle Wear",
+    "description": "Funky Monkey Lifestyle Wear located in the Cayman Islands.",
+    "shortDescription": "Funky Monkey Lifestyle Wear located in the Cayman Islands.",
+    "location": {
+      "address": "West Bay Road, Lime Tree Bay Ave, KY1-1002, Cayman Islands",
+      "district": "West Bay",
+      "island": "Grand Cayman",
+      "latitude": 19.341234699999998,
+      "longitude": -81.3791196,
+      "googlePlaceId": "ChIJqUN2Tp-HJY8R7Lye2mGEi4o"
+    },
+    "contact": {
+      "phone": "+1 345-943-8659",
+      "email": "",
+      "website": "http://www.funkymonkeycayman.com/",
+      "bookingUrl": "http://www.funkymonkeycayman.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweom-pG3wTelkTj4Yf6W_jJkB4D5srGfneWFUJpaykk6dlHXwlhKTd1-mKcpt-1dILbSBoHliiK6BaQdTyYCgnNZAEzQNF-Dror488dDK6PGSotFZYhQPjU0DlYqJIxybe5Ej1krgQ=w139-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweom-pG3wTelkTj4Yf6W_jJkB4D5srGfneWFUJpaykk6dlHXwlhKTd1-mKcpt-1dILbSBoHliiK6BaQdTyYCgnNZAEzQNF-Dror488dDK6PGSotFZYhQPjU0DlYqJIxybe5Ej1krgQ=w139-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": null,
+      "priceTo": null,
+      "pricePerUnit": null,
+      "priceDescription": null,
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 10 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "10 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.4,
+      "reviewCount": 35,
+      "googleRating": 4.4
+    },
+    "tags": [
+      "boutique",
+      "shopping",
+      "malls",
+      "boutiques",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "funky",
+      "monkey",
+      "lifestyle",
+      "wear",
+      "shopping",
+      "malls",
+      "boutiques"
+    ],
+    "embeddingText": "Funky Monkey Lifestyle Wear Funky Monkey Lifestyle Wear located in the Cayman Islands. shopping Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJBdXuUaqHJY8RMtU-srR4BVg-gv5ea4sv5",
+    "category": "shopping",
+    "subcategory": "Shopping Centre",
+    "name": "West Shore Center",
+    "description": "West Shore Center located in the Cayman Islands.",
+    "shortDescription": "West Shore Center located in the Cayman Islands.",
+    "location": {
+      "address": "508 W Bay Rd, George Town, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.3209123,
+      "longitude": -81.381625,
+      "googlePlaceId": "ChIJBdXuUaqHJY8RMtU-srR4BVg"
+    },
+    "contact": {
+      "phone": "+1 345-623-1111",
+      "email": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerYBsVa2beAS5D-R4087lUT2SS5k0GEQq2HTb7GERxdltEZ-ZB5nn4rLtXrJDJZHBi4vi53_klV_nLgGMQ6ZvyF6SIC_GRC9wSxebNF-oGz9sWp10uTgjb8TL_3LsIUn92d-iY=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerYBsVa2beAS5D-R4087lUT2SS5k0GEQq2HTb7GERxdltEZ-ZB5nn4rLtXrJDJZHBi4vi53_klV_nLgGMQ6ZvyF6SIC_GRC9wSxebNF-oGz9sWp10uTgjb8TL_3LsIUn92d-iY=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": null,
+      "priceTo": null,
+      "pricePerUnit": null,
+      "priceDescription": null,
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open · Closes 2 am",
+        "isOpen": true,
+        "todayHours": {
+          "closes": "2 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now · Closes 2 am"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "on_site_services": true
+      }
+    },
+    "ratings": {
+      "overall": 4.2,
+      "reviewCount": 172,
+      "googleRating": 4.2
+    },
+    "tags": [
+      "shopping centre",
+      "shopping",
+      "malls",
+      "boutiques",
+      "on site services",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "west",
+      "shore",
+      "center",
+      "shopping",
+      "malls",
+      "boutiques"
+    ],
+    "embeddingText": "West Shore Center West Shore Center located in the Cayman Islands. shopping Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJWed99LyHJY8RY9v42nnWXao-xlfjlwnmb",
+    "category": "shopping",
+    "subcategory": "Shopping Centre",
+    "name": "The Grove",
+    "description": "The Grove located in the Cayman Islands.",
+    "shortDescription": "The Grove located in the Cayman Islands.",
+    "location": {
+      "address": "3, 1358 W Bay Rd, Grand Cayman KY1-1000, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.345046099999998,
+      "longitude": -81.38100659999999,
+      "googlePlaceId": "ChIJWed99LyHJY8RY9v42nnWXao"
+    },
+    "contact": {
+      "phone": "+1 833-334-7683",
+      "email": "",
+      "website": "https://www.thegrove.ky/?utm_source=google&utm_medium=organic&utm_campaign=google_business_profile",
+      "bookingUrl": "https://www.thegrove.ky/?utm_source=google&utm_medium=organic&utm_campaign=google_business_profile"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhGsKdAbBU_vMe83mKwgUckpH8VT03CZsoeZYMgNlj7jlv75RhPr1z0RG07KtYv4cOJ0lO12indGOsRyhNoaD4Mcx2wRrCw2MiJi5Oyi7RGXjQi5gda3EX4ftfVSfkbTjrLzkCbdAhpA9qkg6QywiHKW3Bn0dCHfKo9Oh1lU8cCZ1gSDyCePmgcv8g=w138-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-proxy/ALd4DhGsKdAbBU_vMe83mKwgUckpH8VT03CZsoeZYMgNlj7jlv75RhPr1z0RG07KtYv4cOJ0lO12indGOsRyhNoaD4Mcx2wRrCw2MiJi5Oyi7RGXjQi5gda3EX4ftfVSfkbTjrLzkCbdAhpA9qkg6QywiHKW3Bn0dCHfKo9Oh1lU8cCZ1gSDyCePmgcv8g=w138-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": null,
+      "priceTo": null,
+      "pricePerUnit": null,
+      "priceDescription": null,
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open 24 hours",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "24"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "on_site_services": true
+      }
+    },
+    "ratings": {
+      "overall": 4.6,
+      "reviewCount": 61,
+      "googleRating": 4.6
+    },
+    "tags": [
+      "shopping centre",
+      "shopping",
+      "malls",
+      "boutiques",
+      "on site services",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "the",
+      "grove",
+      "shopping",
+      "malls",
+      "boutiques"
+    ],
+    "embeddingText": "The Grove The Grove located in the Cayman Islands. shopping Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJKc8VwV-GJY8R-WQHtcQAdy8-obdeljzf8",
+    "category": "shopping",
+    "subcategory": "Gift shop",
+    "name": "Cayman Craft Market",
+    "description": "Cayman Craft Market located in the Cayman Islands.",
+    "shortDescription": "Cayman Craft Market located in the Cayman Islands.",
+    "location": {
+      "address": "N Church St, George Town KY1-1501, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.297642,
+      "longitude": -81.3820732,
+      "googlePlaceId": "ChIJKc8VwV-GJY8R-WQHtcQAdy8"
+    },
+    "contact": {
+      "phone": "+1 345-949-6999",
+      "email": "",
+      "website": "http://www.craftmarket.ky/",
+      "bookingUrl": "http://www.craftmarket.ky/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep_zUn9nrNAS7PQaVG7YhW2HKYCKJ1-WO9vQhWdFJp1ltQ1ezOfKdvc3UIdy_gvJDY67qeh57PQ_WJih7wiUa3jhtUx4Lp7wbSDNC5OFRyLZ-wWnZLJUDBy1G8MwD6D4Yod0W4L=w156-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep_zUn9nrNAS7PQaVG7YhW2HKYCKJ1-WO9vQhWdFJp1ltQ1ezOfKdvc3UIdy_gvJDY67qeh57PQ_WJih7wiUa3jhtUx4Lp7wbSDNC5OFRyLZ-wWnZLJUDBy1G8MwD6D4Yod0W4L=w156-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 20,
+      "priceTo": 60,
+      "pricePerUnit": null,
+      "priceDescription": "$20 - $60",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 8 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "8 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "on_site_services": true,
+        "delivery": false
+      }
+    },
+    "ratings": {
+      "overall": 4.1,
+      "reviewCount": 160,
+      "googleRating": 4.1
+    },
+    "tags": [
+      "gift shop",
+      "shopping",
+      "malls",
+      "boutiques",
+      "on site services",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "cayman",
+      "craft",
+      "market",
+      "shopping",
+      "malls",
+      "boutiques"
+    ],
+    "embeddingText": "Cayman Craft Market Cayman Craft Market located in the Cayman Islands. shopping Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJDT8zEl-GJY8Rla18cQRxYJc-7oeuxj63n",
+    "category": "shopping",
+    "subcategory": "Shopping Centre",
+    "name": "Waterfront Centre",
+    "description": "Waterfront Centre located in the Cayman Islands.",
+    "shortDescription": "Waterfront Centre located in the Cayman Islands.",
+    "location": {
+      "address": "28 N Church St, George Town, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2973967,
+      "longitude": -81.3822734,
+      "googlePlaceId": "ChIJDT8zEl-GJY8Rla18cQRxYJc"
+    },
+    "contact": {
+      "phone": "",
+      "email": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoBG19Avq4d2EcszK7OSoVc5bKxCbPjKvgtK4PFku4XSIDZtgoAaKjYqTM6ZceMOX9QSrWEc9mzpHvlX-YWIPQrZ2IgKhnjsB_uCMGjSjx11KcbBG2Lb8el4oTxLavtqZiJFAV3=w142-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoBG19Avq4d2EcszK7OSoVc5bKxCbPjKvgtK4PFku4XSIDZtgoAaKjYqTM6ZceMOX9QSrWEc9mzpHvlX-YWIPQrZ2IgKhnjsB_uCMGjSjx11KcbBG2Lb8el4oTxLavtqZiJFAV3=w142-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": null,
+      "priceTo": null,
+      "pricePerUnit": null,
+      "priceDescription": null,
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 8 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "8 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "on_site_services": true
+      }
+    },
+    "ratings": {
+      "overall": 4.5,
+      "reviewCount": 54,
+      "googleRating": 4.5
+    },
+    "tags": [
+      "shopping centre",
+      "shopping",
+      "malls",
+      "boutiques",
+      "on site services",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "waterfront",
+      "centre",
+      "shopping",
+      "malls",
+      "boutiques"
+    ],
+    "embeddingText": "Waterfront Centre Waterfront Centre located in the Cayman Islands. shopping Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJh0LX13yHJY8RlW_1Z-8Gv7k-617c8bfng",
+    "category": "shopping",
+    "subcategory": "Shopping Centre",
+    "name": "Galleria Plaza",
+    "description": "Galleria Plaza located in the Cayman Islands.",
+    "shortDescription": "Galleria Plaza located in the Cayman Islands.",
+    "location": {
+      "address": "638 W Bay Rd, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3240187,
+      "longitude": -81.3815472,
+      "googlePlaceId": "ChIJh0LX13yHJY8RlW_1Z-8Gv7k"
+    },
+    "contact": {
+      "phone": "+1 345-929-4191",
+      "email": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqvmuwWo4UtByCVNQ1rv0zd6FnT3klbIXoy-eVVAK5NfcptfCBPg8yXljRCZjyqZwYZAP8fPNMVRpw0q05yUnHoWA4DoSPY74O8H1oYbLM1gq7CZC8AH6cEPE-x5hAlJNqqWWUm=w198-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqvmuwWo4UtByCVNQ1rv0zd6FnT3klbIXoy-eVVAK5NfcptfCBPg8yXljRCZjyqZwYZAP8fPNMVRpw0q05yUnHoWA4DoSPY74O8H1oYbLM1gq7CZC8AH6cEPE-x5hAlJNqqWWUm=w198-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": null,
+      "priceTo": null,
+      "pricePerUnit": null,
+      "priceDescription": null,
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 9 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "9 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "on_site_services": true
+      }
+    },
+    "ratings": {
+      "overall": 4.3,
+      "reviewCount": 36,
+      "googleRating": 4.3
+    },
+    "tags": [
+      "shopping centre",
+      "shopping",
+      "malls",
+      "boutiques",
+      "on site services",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "galleria",
+      "plaza",
+      "shopping",
+      "malls",
+      "boutiques"
+    ],
+    "embeddingText": "Galleria Plaza Galleria Plaza located in the Cayman Islands. shopping Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJ4e78XqaHJY8RkHUKgVHoZMI-rguy0ny51",
+    "category": "shopping",
+    "subcategory": "Duty Free Shop",
+    "name": "Kirk Freeport The Strand",
+    "description": "Kirk Freeport The Strand located in the Cayman Islands.",
+    "shortDescription": "Kirk Freeport The Strand located in the Cayman Islands.",
+    "location": {
+      "address": "George Town, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.3315607,
+      "longitude": -81.3800172,
+      "googlePlaceId": "ChIJ4e78XqaHJY8RkHUKgVHoZMI"
+    },
+    "contact": {
+      "phone": "+1 345-815-7473",
+      "email": "",
+      "website": "http://www.kirkfreeport.net/stores/kirk-freeport-strand/",
+      "bookingUrl": "http://www.kirkfreeport.net/stores/kirk-freeport-strand/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqL8jz-7nEAD8aegN-StDNF064BSfwqr5-lltFNSCmcUIPL4JcQV5RBUayCm9osiU2z4dhCPlSE_BDQiZ7wmv1jcLZ0jngc2jOGcH87hTR-Iur3jAot5C3J1YSvh7t9C9rf0x2Y=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqL8jz-7nEAD8aegN-StDNF064BSfwqr5-lltFNSCmcUIPL4JcQV5RBUayCm9osiU2z4dhCPlSE_BDQiZ7wmv1jcLZ0jngc2jOGcH87hTR-Iur3jAot5C3J1YSvh7t9C9rf0x2Y=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 20,
+      "priceTo": 60,
+      "pricePerUnit": null,
+      "priceDescription": "$20 - $60",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closes soon · 7 pm · Opens 10 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "10 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "delivery": false
+      }
+    },
+    "ratings": {
+      "overall": 4.3,
+      "reviewCount": 69,
+      "googleRating": 4.3
+    },
+    "tags": [
+      "duty free shop",
+      "shopping",
+      "malls",
+      "boutiques",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "kirk",
+      "freeport",
+      "the",
+      "strand",
+      "shopping",
+      "malls",
+      "boutiques"
+    ],
+    "embeddingText": "Kirk Freeport The Strand Kirk Freeport The Strand located in the Cayman Islands. shopping Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJMeYLHYOHJY8R3S_4ezwCXfE-i6y58lg3p",
+    "category": "shopping",
+    "subcategory": "Shopping outlet",
+    "name": "Shop Cayman Islands",
+    "description": "Shop Cayman Islands located in the Cayman Islands.",
+    "shortDescription": "Shop Cayman Islands located in the Cayman Islands.",
+    "location": {
+      "address": "342a Dorcy Drive Grand Cayman KY1, 1204, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.298888899999998,
+      "longitude": -81.3674362,
+      "googlePlaceId": "ChIJMeYLHYOHJY8R3S_4ezwCXfE"
+    },
+    "contact": {
+      "phone": "+1 345-517-0495",
+      "email": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPHtAgUOoyrm1JvjygMUUhY6kblz4Wy5rSWwz84=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipPHtAgUOoyrm1JvjygMUUhY6kblz4Wy5rSWwz84=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": null,
+      "priceTo": null,
+      "pricePerUnit": null,
+      "priceDescription": null,
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open 24 hours",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "24"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 0,
+      "reviewCount": 0,
+      "googleRating": 0
+    },
+    "tags": [
+      "shopping outlet",
+      "shopping",
+      "malls",
+      "boutiques",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "shop",
+      "cayman",
+      "islands",
+      "shopping",
+      "malls",
+      "boutiques"
+    ],
+    "embeddingText": "Shop Cayman Islands Shop Cayman Islands located in the Cayman Islands. shopping Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJi_Rn9qiHJY8RRj2tledXUY0-qho77i9mo",
+    "category": "shopping",
+    "subcategory": "Shopping Centre",
+    "name": "Buckingham Square",
+    "description": "Buckingham Square located in the Cayman Islands.",
+    "shortDescription": "Buckingham Square located in the Cayman Islands.",
+    "location": {
+      "address": "720 W Bay Rd, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.327024899999998,
+      "longitude": -81.3814063,
+      "googlePlaceId": "ChIJi_Rn9qiHJY8RRj2tledXUY0"
+    },
+    "contact": {
+      "phone": "",
+      "email": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqsaI2pUNQEHBLlIyvl2sK8kKTOoC4zATkV8hLDSu3tH_AWUBFKVaJ77PG--GSk2cYkux1_5u4dRf-l9QpAusWUleudjOiDhuWzF8pYDm1FwTP2CDa2lbtEI-uPm1HGE7XaYQU1YA=w163-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqsaI2pUNQEHBLlIyvl2sK8kKTOoC4zATkV8hLDSu3tH_AWUBFKVaJ77PG--GSk2cYkux1_5u4dRf-l9QpAusWUleudjOiDhuWzF8pYDm1FwTP2CDa2lbtEI-uPm1HGE7XaYQU1YA=w163-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": null,
+      "priceTo": null,
+      "pricePerUnit": null,
+      "priceDescription": null,
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 9 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "9 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.3,
+      "reviewCount": 52,
+      "googleRating": 4.3
+    },
+    "tags": [
+      "shopping centre",
+      "shopping",
+      "malls",
+      "boutiques",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "buckingham",
+      "square",
+      "shopping",
+      "malls",
+      "boutiques"
+    ],
+    "embeddingText": "Buckingham Square Buckingham Square located in the Cayman Islands. shopping Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJd2m4C1-GJY8REX2L08JlPlE-r7boax0qj",
+    "category": "shopping",
+    "subcategory": "Souvenir Shop",
+    "name": "Cayman Gifts & Souvenirs",
+    "description": "Cayman Gifts & Souvenirs located in the Cayman Islands.",
+    "shortDescription": "Cayman Gifts & Souvenirs located in the Cayman Islands.",
+    "location": {
+      "address": "Cayman Gifts & Souvenirs 19th Fort street Jack & Jill Building George Town Beside The Parliament House Building Grand Cayman KY1, 1102, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2968019,
+      "longitude": -81.3822576,
+      "googlePlaceId": "ChIJd2m4C1-GJY8REX2L08JlPlE"
+    },
+    "contact": {
+      "phone": "+1 345-943-5000",
+      "email": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPrK2t_nLe_JTup-cctlo97VQ6oEXIZTb_R3pK5=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipPrK2t_nLe_JTup-cctlo97VQ6oEXIZTb_R3pK5=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 20,
+      "priceTo": 60,
+      "pricePerUnit": null,
+      "priceDescription": "$20 - $60",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 8 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "8 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "in_store_shopping": true,
+        "in_store_pick_up": true
+      }
+    },
+    "ratings": {
+      "overall": 4.7,
+      "reviewCount": 87,
+      "googleRating": 4.7
+    },
+    "tags": [
+      "souvenir shop",
+      "shopping",
+      "malls",
+      "boutiques",
+      "in store shopping",
+      "in store pick up",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "cayman",
+      "gifts",
+      "souvenirs",
+      "shopping",
+      "malls",
+      "boutiques"
+    ],
+    "embeddingText": "Cayman Gifts & Souvenirs Cayman Gifts & Souvenirs located in the Cayman Islands. shopping Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJN27Wr-uHJY8RgIstZXDMsLg-ienymxpdb",
+    "category": "shopping",
+    "subcategory": "Shopping Centre",
+    "name": "Caymanian Village",
+    "description": "Caymanian Village located in the Cayman Islands.",
+    "shortDescription": "Caymanian Village located in the Cayman Islands.",
+    "location": {
+      "address": "7JVH+XF7, George Town, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2949009,
+      "longitude": -81.3713436,
+      "googlePlaceId": "ChIJN27Wr-uHJY8RgIstZXDMsLg"
+    },
+    "contact": {
+      "phone": "",
+      "email": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweo-QCfh84BuyYdRBv4CbVeyReq9bevEvW6yf_TA0e7ZrrhjEyQXFKTelZHnGPAsgv7bUB0X9U0YAV3ARnXheCSt3afdwlbRn17VPSsO5oaLQAOGrvA0PqkiRqlLk4tyWF73jXg=w163-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweo-QCfh84BuyYdRBv4CbVeyReq9bevEvW6yf_TA0e7ZrrhjEyQXFKTelZHnGPAsgv7bUB0X9U0YAV3ARnXheCSt3afdwlbRn17VPSsO5oaLQAOGrvA0PqkiRqlLk4tyWF73jXg=w163-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 300,
+      "priceTo": 1500,
+      "pricePerUnit": "/night",
+      "priceDescription": "$300 - $1500 /night",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open 24 hours",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "24"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "on_site_services": true
+      }
+    },
+    "ratings": {
+      "overall": 4,
+      "reviewCount": 15,
+      "googleRating": 4
+    },
+    "tags": [
+      "shopping centre",
+      "shopping",
+      "malls",
+      "boutiques",
+      "on site services",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "caymanian",
+      "village",
+      "shopping",
+      "malls",
+      "boutiques"
+    ],
+    "embeddingText": "Caymanian Village Caymanian Village located in the Cayman Islands. shopping Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJsWcJ2VeGJY8R6eCNOLdT2yo-49ep44g4s",
+    "category": "shopping",
+    "subcategory": "Shopping Centre",
+    "name": "Bay Town Plaza",
+    "description": "Bay Town Plaza located in the Cayman Islands.",
+    "shortDescription": "Bay Town Plaza located in the Cayman Islands.",
+    "location": {
+      "address": "36 W Bay Rd, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3076143,
+      "longitude": -81.3837507,
+      "googlePlaceId": "ChIJsWcJ2VeGJY8R6eCNOLdT2yo"
+    },
+    "contact": {
+      "phone": "",
+      "email": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqPYDYmffjOfYxm1nJZGkCKX9dcNrmFknXNTNOu2x-yK80-XVSU97JPwuhEDtDjp0cARzI2GjFS21UDqVE4aKWD-rulljn7Sk-i8EThaIfvjTUfYbyekIZ0FMVE9Odwgeqs8AG6kw=w163-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqPYDYmffjOfYxm1nJZGkCKX9dcNrmFknXNTNOu2x-yK80-XVSU97JPwuhEDtDjp0cARzI2GjFS21UDqVE4aKWD-rulljn7Sk-i8EThaIfvjTUfYbyekIZ0FMVE9Odwgeqs8AG6kw=w163-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": null,
+      "priceTo": null,
+      "pricePerUnit": null,
+      "priceDescription": null,
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 9 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "9 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "on_site_services": true
+      }
+    },
+    "ratings": {
+      "overall": 4.1,
+      "reviewCount": 68,
+      "googleRating": 4.1
+    },
+    "tags": [
+      "shopping centre",
+      "shopping",
+      "malls",
+      "boutiques",
+      "on site services",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "bay",
+      "town",
+      "plaza",
+      "shopping",
+      "malls",
+      "boutiques"
+    ],
+    "embeddingText": "Bay Town Plaza Bay Town Plaza located in the Cayman Islands. shopping Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJxWjNB6yHJY8RZnKCC1VKIgc-ezopgtfmz",
+    "category": "shopping",
+    "subcategory": "Clothing Shop",
+    "name": "NKY Cayman",
+    "description": "NKY Cayman located in the Cayman Islands.",
+    "shortDescription": "NKY Cayman located in the Cayman Islands.",
+    "location": {
+      "address": "The Paseo, George Town, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.3220209,
+      "longitude": -81.3774858,
+      "googlePlaceId": "ChIJxWjNB6yHJY8RZnKCC1VKIgc"
+    },
+    "contact": {
+      "phone": "+1 345-946-8171",
+      "email": "",
+      "website": "http://www.caymanfashiongroup.com/",
+      "bookingUrl": "http://www.caymanfashiongroup.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoH_NVGJpjDqOD1RLWadCm2Cq9KI7X7thxJDkeyVfHr2UwJhbhliErWkOJDneulLBZ1zcdTzctkEjCTRTihG6muLSjIGEaMmSQa3Ij3GjQkhnfmMCU4eCIhj9f9XHvyluJ9-D9S=w163-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoH_NVGJpjDqOD1RLWadCm2Cq9KI7X7thxJDkeyVfHr2UwJhbhliErWkOJDneulLBZ1zcdTzctkEjCTRTihG6muLSjIGEaMmSQa3Ij3GjQkhnfmMCU4eCIhj9f9XHvyluJ9-D9S=w163-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 20,
+      "priceTo": 60,
+      "pricePerUnit": null,
+      "priceDescription": "$20 - $60",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closes soon · 7 pm · Opens 11 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "11 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "in_store_shopping": true,
+        "in_store_pick_up": true,
+        "delivery": true
+      }
+    },
+    "ratings": {
+      "overall": 4.3,
+      "reviewCount": 47,
+      "googleRating": 4.3
+    },
+    "tags": [
+      "clothing shop",
+      "shopping",
+      "malls",
+      "boutiques",
+      "in store shopping",
+      "in store pick up",
+      "delivery",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "nky",
+      "cayman",
+      "shopping",
+      "malls",
+      "boutiques"
+    ],
+    "embeddingText": "NKY Cayman NKY Cayman located in the Cayman Islands. shopping Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJ____sviGJY8RYEn5OGa3XFo-7ni2ymauk",
+    "category": "shopping",
+    "subcategory": "Shopping Centre",
+    "name": "Queen's Court Plaza",
+    "description": "Queen's Court Plaza located in the Cayman Islands.",
+    "shortDescription": "Queen's Court Plaza located in the Cayman Islands.",
+    "location": {
+      "address": "W Bay Rd, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.311159099999998,
+      "longitude": -81.38479149999999,
+      "googlePlaceId": "ChIJ____sviGJY8RYEn5OGa3XFo"
+    },
+    "contact": {
+      "phone": "",
+      "email": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerKGOmxVlta7YFvxrCU_HTkFn7GJ34y1UPpPHghROsbBLFfj8fgAnYFvaeIJRHzWar7Jz7rvb3Ze0kDs1qZvkcKWIk_ByNic6XkS3BOXhIn5cSowsgRdknFsxF6DRpoN4-Z-L9JXg=w163-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerKGOmxVlta7YFvxrCU_HTkFn7GJ34y1UPpPHghROsbBLFfj8fgAnYFvaeIJRHzWar7Jz7rvb3Ze0kDs1qZvkcKWIk_ByNic6XkS3BOXhIn5cSowsgRdknFsxF6DRpoN4-Z-L9JXg=w163-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": null,
+      "priceTo": null,
+      "pricePerUnit": null,
+      "priceDescription": null,
+      "currency": "USD",
+      "openingHours": {
+        "raw": null,
+        "isOpen": null,
+        "todayHours": null,
+        "schedule": {},
+        "formattedDisplay": null
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "on_site_services": true
+      }
+    },
+    "ratings": {
+      "overall": 4.4,
+      "reviewCount": 21,
+      "googleRating": 4.4
+    },
+    "tags": [
+      "shopping centre",
+      "shopping",
+      "malls",
+      "boutiques",
+      "on site services",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "queen's",
+      "court",
+      "plaza",
+      "shopping",
+      "malls",
+      "boutiques"
+    ],
+    "embeddingText": "Queen's Court Plaza Queen's Court Plaza located in the Cayman Islands. shopping Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJQ12DQdaIJY8RLiK-O8ptEWs-tgct9gpww",
+    "category": "shopping",
+    "subcategory": "Lingerie shop",
+    "name": "Vy's Closet Lingerie Boutique",
+    "description": "Vy's Closet Lingerie Boutique located in the Cayman Islands.",
+    "shortDescription": "Vy's Closet Lingerie Boutique located in the Cayman Islands.",
+    "location": {
+      "address": "20 Goring Avenue Bayshore Mall, George Town Grand Cayman KY1, 1008, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2936578,
+      "longitude": -81.38264819999999,
+      "googlePlaceId": "ChIJQ12DQdaIJY8RLiK-O8ptEWs"
+    },
+    "contact": {
+      "phone": "+1 345-943-2727",
+      "email": "",
+      "website": "http://www.vyscloset.com/",
+      "bookingUrl": "http://www.vyscloset.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOnndV2rtjbJoPHYeamXK_lYxmDJQCyz-I8Ic6j=w184-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipOnndV2rtjbJoPHYeamXK_lYxmDJQCyz-I8Ic6j=w184-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": null,
+      "priceTo": null,
+      "pricePerUnit": null,
+      "priceDescription": null,
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 9 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "9 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "in_store_shopping": true,
+        "kerbside_pickup": true
+      }
+    },
+    "ratings": {
+      "overall": 4.8,
+      "reviewCount": 48,
+      "googleRating": 4.8
+    },
+    "tags": [
+      "lingerie shop",
+      "shopping",
+      "malls",
+      "boutiques",
+      "in store shopping",
+      "kerbside pickup",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "vy's",
+      "closet",
+      "lingerie",
+      "boutique",
+      "shopping",
+      "malls",
+      "boutiques"
+    ],
+    "embeddingText": "Vy's Closet Lingerie Boutique Vy's Closet Lingerie Boutique located in the Cayman Islands. shopping Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJaw4nU6aHJY8RCkxRXWiPG_g-g3nh7l53n",
+    "category": "shopping",
+    "subcategory": "Shopping Centre",
+    "name": "Caribbean Plaza",
+    "description": "Caribbean Plaza located in the Cayman Islands.",
+    "shortDescription": "Caribbean Plaza located in the Cayman Islands.",
+    "location": {
+      "address": "8JJ9+FPM, W Bay Rd, George Town, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.3312135,
+      "longitude": -81.3807018,
+      "googlePlaceId": "ChIJaw4nU6aHJY8RCkxRXWiPG_g"
+    },
+    "contact": {
+      "phone": "",
+      "email": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepk0OmCq_UIKIlZyBmPR28tf8Ag63P1iUnd_f-jmtb3qH1n-E6nbwQLnHmQs1DOS44F1eoBAjYCx7EByB-M4ojpbfoOyG_iQlkGT4rscE0s8fqagWtrewULqSJypDHug8fxlm3e=w204-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepk0OmCq_UIKIlZyBmPR28tf8Ag63P1iUnd_f-jmtb3qH1n-E6nbwQLnHmQs1DOS44F1eoBAjYCx7EByB-M4ojpbfoOyG_iQlkGT4rscE0s8fqagWtrewULqSJypDHug8fxlm3e=w204-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": null,
+      "priceTo": null,
+      "pricePerUnit": null,
+      "priceDescription": null,
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closes soon · 7 pm · Opens 9 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "9 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "on_site_services": true
+      }
+    },
+    "ratings": {
+      "overall": 4.4,
+      "reviewCount": 19,
+      "googleRating": 4.4
+    },
+    "tags": [
+      "shopping centre",
+      "shopping",
+      "malls",
+      "boutiques",
+      "on site services",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "caribbean",
+      "plaza",
+      "shopping",
+      "malls",
+      "boutiques"
+    ],
+    "embeddingText": "Caribbean Plaza Caribbean Plaza located in the Cayman Islands. shopping Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJkeUaGLCKJY8RsvlSbHNE_MQ-qso7859kn",
+    "category": "villa_rental",
+    "subcategory": "Holiday home letting agency",
+    "name": "Grand Cayman Villas & Condos",
+    "description": "Grand Cayman Villas & Condos located in the Cayman Islands.",
+    "shortDescription": "Grand Cayman Villas & Condos located in the Cayman Islands.",
+    "location": {
+      "address": "846 Frank Sound Rd, KY1-1702, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.324259299999998,
+      "longitude": -81.1767934,
+      "googlePlaceId": "ChIJkeUaGLCKJY8RsvlSbHNE_MQ"
+    },
+    "contact": {
+      "phone": "+1 866-358-8455",
+      "email": "",
+      "website": "http://www.grandcaymanvillas.com/",
+      "bookingUrl": "http://www.grandcaymanvillas.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepJOzbTOLicJqXe4IghHwUTw42fypKydTMQ4aLNtN00UuZ8pbXkXWwmAM6WXyWbA8HQtOZ72z2fE5R70D_09lYtx91BsStDZCJKdMKcXVaq0gQQ3tDrIpyaTDwY6AirrHQZEJuB=w80-h106-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepJOzbTOLicJqXe4IghHwUTw42fypKydTMQ4aLNtN00UuZ8pbXkXWwmAM6WXyWbA8HQtOZ72z2fE5R70D_09lYtx91BsStDZCJKdMKcXVaq0gQQ3tDrIpyaTDwY6AirrHQZEJuB=w80-h106-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 300,
+      "priceTo": 1500,
+      "pricePerUnit": "/night",
+      "priceDescription": "$300 - $1500 /night",
+      "currency": "USD",
+      "openingHours": {
+        "raw": null,
+        "isOpen": null,
+        "todayHours": null,
+        "schedule": {},
+        "formattedDisplay": null
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "on_site_services": true,
+        "online_appointments": false
+      }
+    },
+    "ratings": {
+      "overall": 4.8,
+      "reviewCount": 234,
+      "googleRating": 4.8
+    },
+    "tags": [
+      "holiday home letting agency",
+      "villa",
+      "rental",
+      "vacation",
+      "homes",
+      "on site services",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "grand",
+      "cayman",
+      "villas",
+      "condos",
+      "villa",
+      "rental",
+      "vacation",
+      "homes"
+    ],
+    "embeddingText": "Grand Cayman Villas & Condos Grand Cayman Villas & Condos located in the Cayman Islands. villa_rental Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJKU4UqT-GJY8RRpiVXj_Xzks-e1yx9w2np",
+    "category": "villa_rental",
+    "subcategory": "Holiday home letting agency",
+    "name": "Cayman Villas",
+    "description": "Cayman Villas located in the Cayman Islands.",
+    "shortDescription": "Cayman Villas located in the Cayman Islands.",
+    "location": {
+      "address": "45 Beckz Close, George Town KY1-1006, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.301156799999998,
+      "longitude": -81.3579094,
+      "googlePlaceId": "ChIJKU4UqT-GJY8RRpiVXj_Xzks"
+    },
+    "contact": {
+      "phone": "+1 345-945-4144",
+      "email": "",
+      "website": "http://www.caymanvillas.com/",
+      "bookingUrl": "http://www.caymanvillas.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOb8l5Vo30sLgO4KgRi2lp4x9OgH3MULOkXFaf4=w138-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipOb8l5Vo30sLgO4KgRi2lp4x9OgH3MULOkXFaf4=w138-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 300,
+      "priceTo": 1500,
+      "pricePerUnit": "/night",
+      "priceDescription": "$300 - $1500 /night",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 9 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "9 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "on_site_services": true
+      }
+    },
+    "ratings": {
+      "overall": 4.8,
+      "reviewCount": 11,
+      "googleRating": 4.8
+    },
+    "tags": [
+      "holiday home letting agency",
+      "villa",
+      "rental",
+      "vacation",
+      "homes",
+      "on site services",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "cayman",
+      "villas",
+      "villa",
+      "rental",
+      "vacation",
+      "homes"
+    ],
+    "embeddingText": "Cayman Villas Cayman Villas located in the Cayman Islands. villa_rental Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJNW9EE4qJJY8RLgSbS6OPWc4-ccg7z2uva",
+    "category": "villa_rental",
+    "subcategory": "Holiday home letting agency",
+    "name": "Cayman Island Villa - Vacation Rentals - Rum Point - Kaibo",
+    "description": "Cayman Island Villa - Vacation Rentals - Rum Point - Kaibo located in the Cayman Islands.",
+    "shortDescription": "Cayman Island Villa - Vacation Rentals - Rum Point - Kaibo located in the Cayman Islands.",
+    "location": {
+      "address": "585 Water Cay Road Grand Cayman, KY1-1701, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.356382999999997,
+      "longitude": -81.2753271,
+      "googlePlaceId": "ChIJNW9EE4qJJY8RLgSbS6OPWc4"
+    },
+    "contact": {
+      "phone": "+1 800-824-8606",
+      "email": "",
+      "website": "https://www.vrbo.com/993328",
+      "bookingUrl": "https://www.vrbo.com/993328"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqJ4wy6429GGCARbDqcaxU-NYBl0jdIQokNvfFKlRoVcN9x7_jkmBwVjIBQrh8gpKXXPZnC8_x8N4ol7cqYU1ELeTh6dr2wcq5AwYF5rICfJUKZ3Kv3uISI421mFUzwbTAT7Mlx=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqJ4wy6429GGCARbDqcaxU-NYBl0jdIQokNvfFKlRoVcN9x7_jkmBwVjIBQrh8gpKXXPZnC8_x8N4ol7cqYU1ELeTh6dr2wcq5AwYF5rICfJUKZ3Kv3uISI421mFUzwbTAT7Mlx=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 300,
+      "priceTo": 1500,
+      "pricePerUnit": "/night",
+      "priceDescription": "$300 - $1500 /night",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open 24 hours",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "24"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 1,
+      "googleRating": 5
+    },
+    "tags": [
+      "holiday home letting agency",
+      "villa",
+      "rental",
+      "vacation",
+      "homes",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "cayman",
+      "island",
+      "villa",
+      "vacation",
+      "rentals",
+      "rum",
+      "point",
+      "kaibo",
+      "rental",
+      "homes"
+    ],
+    "embeddingText": "Cayman Island Villa - Vacation Rentals - Rum Point - Kaibo Cayman Island Villa - Vacation Rentals - Rum Point - Kaibo located in the Cayman Islands. villa_rental Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJB03t_F-GJY8RaVvnwnVa23E-3dzdqncny",
+    "category": "villa_rental",
+    "subcategory": "Holiday home letting agency",
+    "name": "Luxury Cayman Villas",
+    "description": "Luxury Cayman Villas located in the Cayman Islands.",
+    "shortDescription": "Luxury Cayman Villas located in the Cayman Islands.",
+    "location": {
+      "address": "10, 745 Market St, KY1-9006, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3219776,
+      "longitude": -81.3781115,
+      "googlePlaceId": "ChIJB03t_F-GJY8RaVvnwnVa23E"
+    },
+    "contact": {
+      "phone": "+1 844-462-2962",
+      "email": "",
+      "website": "https://www.luxurycaymanvillas.com/",
+      "bookingUrl": "https://www.luxurycaymanvillas.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOBTDlqJrwGUHaZa8t0vRj_aXv76vmYYBdx-WzQ=w137-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipOBTDlqJrwGUHaZa8t0vRj_aXv76vmYYBdx-WzQ=w137-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 300,
+      "priceTo": 1500,
+      "pricePerUnit": "/night",
+      "priceDescription": "$300 - $1500 /night",
+      "currency": "USD",
+      "openingHours": {
+        "raw": null,
+        "isOpen": null,
+        "todayHours": null,
+        "schedule": {},
+        "formattedDisplay": null
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.5,
+      "reviewCount": 12,
+      "googleRating": 4.5
+    },
+    "tags": [
+      "holiday home letting agency",
+      "villa",
+      "rental",
+      "vacation",
+      "homes",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "luxury",
+      "cayman",
+      "villas",
+      "villa",
+      "rental",
+      "vacation",
+      "homes"
+    ],
+    "embeddingText": "Luxury Cayman Villas Luxury Cayman Villas located in the Cayman Islands. villa_rental Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJM0wdGNeHJY8RgOhnG-Uxhik-4kgkom2gh",
+    "category": "villa_rental",
+    "subcategory": "Hotel",
+    "name": "Casa Luna — Luxury Cayman Villas",
+    "description": "Casa Luna — Luxury Cayman Villas located in the Cayman Islands.",
+    "shortDescription": "Casa Luna — Luxury Cayman Villas located in the Cayman Islands.",
+    "location": {
+      "address": "592 South Church Street, S Sound Rd, Grand Cayman, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.280158099999998,
+      "longitude": -81.392335,
+      "googlePlaceId": "ChIJM0wdGNeHJY8RgOhnG-Uxhik"
+    },
+    "contact": {
+      "phone": "+1 844-462-2962",
+      "email": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweo4Q1ZH5BimyKe1c4hOkcMH0zdyMy41JRsNmRljJqi0O3bhjzpKp5P50bfJvcFSbxp2wXJzMJyf-lzdAp-eE5t2NVXtzD4bHZvm7xu15FZApfp_Idi6BmvRDbaD9EeTlk6foMPbtw=w80-h106-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweo4Q1ZH5BimyKe1c4hOkcMH0zdyMy41JRsNmRljJqi0O3bhjzpKp5P50bfJvcFSbxp2wXJzMJyf-lzdAp-eE5t2NVXtzD4bHZvm7xu15FZApfp_Idi6BmvRDbaD9EeTlk6foMPbtw=w80-h106-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 200,
+      "priceTo": 800,
+      "pricePerUnit": "/night",
+      "priceDescription": "$200 - $800 /night",
+      "currency": "USD",
+      "openingHours": {
+        "raw": null,
+        "isOpen": null,
+        "todayHours": null,
+        "schedule": {},
+        "formattedDisplay": null
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.9,
+      "reviewCount": 19,
+      "googleRating": 4.9
+    },
+    "tags": [
+      "hotel",
+      "villa",
+      "rental",
+      "vacation",
+      "homes",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "casa",
+      "luna",
+      "luxury",
+      "cayman",
+      "villas",
+      "villa",
+      "rental",
+      "vacation",
+      "homes"
+    ],
+    "embeddingText": "Casa Luna — Luxury Cayman Villas Casa Luna — Luxury Cayman Villas located in the Cayman Islands. villa_rental Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJE-74zPiGJY8RLhuXICg8aZI-m41pc12ny",
+    "category": "villa_rental",
+    "subcategory": "Holiday apartment rental",
+    "name": "George Town Villas",
+    "description": "George Town Villas located in the Cayman Islands.",
+    "shortDescription": "George Town Villas located in the Cayman Islands.",
+    "location": {
+      "address": "47 Snooze Ln, George Town, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.310917999999997,
+      "longitude": -81.3853018,
+      "googlePlaceId": "ChIJE-74zPiGJY8RLhuXICg8aZI"
+    },
+    "contact": {
+      "phone": "",
+      "email": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweo66r2NZh7v2UtyhqpwECcLLg9sU7mgJQk0aK9Napqi8FsYq1XTAIyC9lBweTLRc6RNo5Mhf-EHjtW4UKB-4fck49EoSyRw1n7UfZ_w4tOXDMOJaeEkxqk1K5PuXxZWzGTHvGwI1w=w148-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweo66r2NZh7v2UtyhqpwECcLLg9sU7mgJQk0aK9Napqi8FsYq1XTAIyC9lBweTLRc6RNo5Mhf-EHjtW4UKB-4fck49EoSyRw1n7UfZ_w4tOXDMOJaeEkxqk1K5PuXxZWzGTHvGwI1w=w148-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 300,
+      "priceTo": 1500,
+      "pricePerUnit": "/night",
+      "priceDescription": "$300 - $1500 /night",
+      "currency": "USD",
+      "openingHours": {
+        "raw": null,
+        "isOpen": null,
+        "todayHours": null,
+        "schedule": {},
+        "formattedDisplay": null
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.6,
+      "reviewCount": 51,
+      "googleRating": 4.6
+    },
+    "tags": [
+      "holiday apartment rental",
+      "villa",
+      "rental",
+      "vacation",
+      "homes",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "george",
+      "town",
+      "villas",
+      "villa",
+      "rental",
+      "vacation",
+      "homes"
+    ],
+    "embeddingText": "George Town Villas George Town Villas located in the Cayman Islands. villa_rental Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJM96XOwCHJY8RUNVsEuMhfoE-l31vcy1rz",
+    "category": "villa_rental",
+    "subcategory": "Holiday home letting agency",
+    "name": "Starfish Villas Grand Cayman",
+    "description": "Starfish Villas Grand Cayman located in the Cayman Islands.",
+    "shortDescription": "Starfish Villas Grand Cayman located in the Cayman Islands.",
+    "location": {
+      "address": "145 N W Point Rd, West Bay KY1-1200, Cayman Islands",
+      "district": "West Bay",
+      "island": "Grand Cayman",
+      "latitude": 19.3708527,
+      "longitude": -81.40792479999999,
+      "googlePlaceId": "ChIJM96XOwCHJY8RUNVsEuMhfoE"
+    },
+    "contact": {
+      "phone": "+1 345-923-3886",
+      "email": "",
+      "website": "http://www.starfishvillas.ky/",
+      "bookingUrl": "http://www.starfishvillas.ky/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOKITmchCau499MPyaXBxJlT7-SrliAUHezuupq=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipOKITmchCau499MPyaXBxJlT7-SrliAUHezuupq=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 300,
+      "priceTo": 1500,
+      "pricePerUnit": "/night",
+      "priceDescription": "$300 - $1500 /night",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open 24 hours",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "24"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 3,
+      "googleRating": 5
+    },
+    "tags": [
+      "holiday home letting agency",
+      "villa",
+      "rental",
+      "vacation",
+      "homes",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "starfish",
+      "villas",
+      "grand",
+      "cayman",
+      "villa",
+      "rental",
+      "vacation",
+      "homes"
+    ],
+    "embeddingText": "Starfish Villas Grand Cayman Starfish Villas Grand Cayman located in the Cayman Islands. villa_rental Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJZYLWq4l9L48RiTWa4Ims_bE-kouy3r7dw",
+    "category": "villa_rental",
+    "subcategory": "Holiday home letting agency",
+    "name": "Windsong Luxury Villas",
+    "description": "Windsong Luxury Villas located in the Cayman Islands.",
+    "shortDescription": "Windsong Luxury Villas located in the Cayman Islands.",
+    "location": {
+      "address": "171 Boggy Sand Rd, West Bay, Cayman Islands",
+      "district": "West Bay",
+      "island": "Grand Cayman",
+      "latitude": 19.3672799,
+      "longitude": -81.3965194,
+      "googlePlaceId": "ChIJZYLWq4l9L48RiTWa4Ims_bE"
+    },
+    "contact": {
+      "phone": "+1 978-393-1555",
+      "email": "",
+      "website": "http://www.starfishvillas.ky/",
+      "bookingUrl": "http://www.starfishvillas.ky/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepl3nVgMZs38p6eCYBG42cQJWCmnGQrIf697mkk1DETOS3rIsdahbAhTdDekD-INh53F-jygDOtHhqS7o3oKYoiUOiRF3lOexRDqOfxpcoAbYANxscYy3szYCD3k9dbpvCSrEpu7A=w138-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepl3nVgMZs38p6eCYBG42cQJWCmnGQrIf697mkk1DETOS3rIsdahbAhTdDekD-INh53F-jygDOtHhqS7o3oKYoiUOiRF3lOexRDqOfxpcoAbYANxscYy3szYCD3k9dbpvCSrEpu7A=w138-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 300,
+      "priceTo": 1500,
+      "pricePerUnit": "/night",
+      "priceDescription": "$300 - $1500 /night",
+      "currency": "USD",
+      "openingHours": {
+        "raw": null,
+        "isOpen": null,
+        "todayHours": null,
+        "schedule": {},
+        "formattedDisplay": null
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.8,
+      "reviewCount": 13,
+      "googleRating": 4.8
+    },
+    "tags": [
+      "holiday home letting agency",
+      "villa",
+      "rental",
+      "vacation",
+      "homes",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "windsong",
+      "luxury",
+      "villas",
+      "villa",
+      "rental",
+      "vacation",
+      "homes"
+    ],
+    "embeddingText": "Windsong Luxury Villas Windsong Luxury Villas located in the Cayman Islands. villa_rental Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJWR19X5SHJY8Rwvl44Fr-tc8-znciav2ei",
+    "category": "villa_rental",
+    "subcategory": "Holiday home letting agency",
+    "name": "Cayman Luxury Rentals",
+    "description": "Cayman Luxury Rentals located in the Cayman Islands.",
+    "shortDescription": "Cayman Luxury Rentals located in the Cayman Islands.",
+    "location": {
+      "address": "Unit # A5, Trafalgar Place, 1428 W Bay Rd, Grand Cayman KY1-1206, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3475951,
+      "longitude": -81.38159569999999,
+      "googlePlaceId": "ChIJWR19X5SHJY8Rwvl44Fr-tc8"
+    },
+    "contact": {
+      "phone": "+1 345-924-9244",
+      "email": "",
+      "website": "https://www.caymanluxuryrentals.com/",
+      "bookingUrl": "https://www.caymanluxuryrentals.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweomKxzBQA49bsKfca9ZLXYxPLZwCo_Ay9QAWzN9_dwXYWC1dCHJxuJ313ESLVSS3a1BtSF7vgHNtXnkLjL7AN7O13mIBuRefpGqTptWUaEi6Q5tSAhq4c3Kwn0l8X5kaaQF6E857KohWbjk=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweomKxzBQA49bsKfca9ZLXYxPLZwCo_Ay9QAWzN9_dwXYWC1dCHJxuJ313ESLVSS3a1BtSF7vgHNtXnkLjL7AN7O13mIBuRefpGqTptWUaEi6Q5tSAhq4c3Kwn0l8X5kaaQF6E857KohWbjk=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 20,
+      "priceTo": 60,
+      "pricePerUnit": null,
+      "priceDescription": "$20 - $60",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open 24 hours",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "24"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "on_site_services": true
+      }
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 8,
+      "googleRating": 5
+    },
+    "tags": [
+      "holiday home letting agency",
+      "villa",
+      "rental",
+      "vacation",
+      "homes",
+      "on site services",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "cayman",
+      "luxury",
+      "rentals",
+      "villa",
+      "rental",
+      "vacation",
+      "homes"
+    ],
+    "embeddingText": "Cayman Luxury Rentals Cayman Luxury Rentals located in the Cayman Islands. villa_rental Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJB7gmlJ2HJY8RbRVSm0YfE1Q-9bzajp54l",
+    "category": "villa_rental",
+    "subcategory": "Villa",
+    "name": "Seascape Villa",
+    "description": "Seascape Villa located in the Cayman Islands.",
+    "shortDescription": "Seascape Villa located in the Cayman Islands.",
+    "location": {
+      "address": "677 W Bay Rd, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.325603299999997,
+      "longitude": -81.3828607,
+      "googlePlaceId": "ChIJB7gmlJ2HJY8RbRVSm0YfE1Q"
+    },
+    "contact": {
+      "phone": "+1 855-939-7762",
+      "email": "",
+      "website": "https://seascapevilla.com/",
+      "bookingUrl": "https://seascapevilla.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNZt7cN3Hw47tsiTo7-8dhzkipx3Trxn1NXugvi=w137-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipNZt7cN3Hw47tsiTo7-8dhzkipx3Trxn1NXugvi=w137-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 300,
+      "priceTo": 1500,
+      "pricePerUnit": "/night",
+      "priceDescription": "$300 - $1500 /night",
+      "currency": "USD",
+      "openingHours": {
+        "raw": null,
+        "isOpen": null,
+        "todayHours": null,
+        "schedule": {},
+        "formattedDisplay": null
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "on_site_services": true
+      }
+    },
+    "ratings": {
+      "overall": 4.9,
+      "reviewCount": 39,
+      "googleRating": 4.9
+    },
+    "tags": [
+      "villa",
+      "rental",
+      "vacation",
+      "homes",
+      "on site services",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "seascape",
+      "villa",
+      "rental",
+      "vacation",
+      "homes"
+    ],
+    "embeddingText": "Seascape Villa Seascape Villa located in the Cayman Islands. villa_rental Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJXaMqQ0SGJY8RYBlbthuBBPw-ioq2l3y5a",
+    "category": "villa_rental",
+    "subcategory": "Holiday home letting agency",
+    "name": "Island Dream Villas Grand Cayman",
+    "description": "Island Dream Villas Grand Cayman located in the Cayman Islands.",
+    "shortDescription": "Island Dream Villas Grand Cayman located in the Cayman Islands.",
+    "location": {
+      "address": "8J2J+467, Commercial Ave, George Town, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.300275799999998,
+      "longitude": -81.3694381,
+      "googlePlaceId": "ChIJXaMqQ0SGJY8RYBlbthuBBPw"
+    },
+    "contact": {
+      "phone": "+1 345-946-0327",
+      "email": "",
+      "website": "http://www.caymanvacationvillas.net/page5.html",
+      "bookingUrl": "http://www.caymanvacationvillas.net/page5.html"
+    },
+    "media": {
+      "thumbnail": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=&key=placeholder",
+      "images": [
+        "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=&key=placeholder"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 300,
+      "priceTo": 1500,
+      "pricePerUnit": "/night",
+      "priceDescription": "$300 - $1500 /night",
+      "currency": "USD",
+      "openingHours": {
+        "raw": null,
+        "isOpen": null,
+        "todayHours": null,
+        "schedule": {},
+        "formattedDisplay": null
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 0,
+      "reviewCount": 0,
+      "googleRating": 0
+    },
+    "tags": [
+      "holiday home letting agency",
+      "villa",
+      "rental",
+      "vacation",
+      "homes",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "island",
+      "dream",
+      "villas",
+      "grand",
+      "cayman",
+      "villa",
+      "rental",
+      "vacation",
+      "homes"
+    ],
+    "embeddingText": "Island Dream Villas Grand Cayman Island Dream Villas Grand Cayman located in the Cayman Islands. villa_rental Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJda3AFlaGJY8R2um_HLdAlHc-nuyuv54yf",
+    "category": "villa_rental",
+    "subcategory": "Holiday home letting agency",
+    "name": "AddisonLee Cayman Vacation Home",
+    "description": "AddisonLee Cayman Vacation Home located in the Cayman Islands.",
+    "shortDescription": "AddisonLee Cayman Vacation Home located in the Cayman Islands.",
+    "location": {
+      "address": "24 Marbel Dr, George Town, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.3099307,
+      "longitude": -81.3835323,
+      "googlePlaceId": "ChIJda3AFlaGJY8R2um_HLdAlHc"
+    },
+    "contact": {
+      "phone": "+1 345-938-0231",
+      "email": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhEaigEgbjfR0VR1mdnEHknTvum1Ijg10ikslOmnM4h-zrD4SABxdIisOCDdE3MYZbJULBzDRo1-shbeo07yTOQMiQQWEjfJH77O0CkAwnfEtQ1o6N7r4UrAxQigtGe2jb5f54RlT7BZxPqNttexHrVi9weFV0g8aP2al8Xd3JuygG2y-vCeJVgAKw=w121-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-proxy/ALd4DhEaigEgbjfR0VR1mdnEHknTvum1Ijg10ikslOmnM4h-zrD4SABxdIisOCDdE3MYZbJULBzDRo1-shbeo07yTOQMiQQWEjfJH77O0CkAwnfEtQ1o6N7r4UrAxQigtGe2jb5f54RlT7BZxPqNttexHrVi9weFV0g8aP2al8Xd3JuygG2y-vCeJVgAKw=w121-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 20,
+      "priceTo": 60,
+      "pricePerUnit": null,
+      "priceDescription": "$20 - $60",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open · Closes 8 pm",
+        "isOpen": true,
+        "todayHours": {
+          "closes": "8 pm"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now · Closes 8 pm"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 8,
+      "googleRating": 5
+    },
+    "tags": [
+      "holiday home letting agency",
+      "villa",
+      "rental",
+      "vacation",
+      "homes",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "addisonlee",
+      "cayman",
+      "vacation",
+      "home",
+      "villa",
+      "rental",
+      "homes"
+    ],
+    "embeddingText": "AddisonLee Cayman Vacation Home AddisonLee Cayman Vacation Home located in the Cayman Islands. villa_rental Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJJ353f3aGJY8RwbbenLv2E1Q-ry1rr6icb",
+    "category": "villa_rental",
+    "subcategory": "Holiday home",
+    "name": "Villa Mora — Grand Cayman Villas & Condos",
+    "description": "Villa Mora — Grand Cayman Villas & Condos located in the Cayman Islands.",
+    "shortDescription": "Villa Mora — Grand Cayman Villas & Condos located in the Cayman Islands.",
+    "location": {
+      "address": "Grand Cayman KY1, 676 S Sound Rd, George Town 1202, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2719749,
+      "longitude": -81.3674276,
+      "googlePlaceId": "ChIJJ353f3aGJY8RwbbenLv2E1Q"
+    },
+    "contact": {
+      "phone": "+1 866-358-8455",
+      "email": "",
+      "website": "https://www.grandcaymanvillas.net/vrp/unit/villa-mora",
+      "bookingUrl": "https://www.grandcaymanvillas.net/vrp/unit/villa-mora"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNuNW9plSZsNhSOku-3wIbua4WpDVx9mt214jnM=w184-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipNuNW9plSZsNhSOku-3wIbua4WpDVx9mt214jnM=w184-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 300,
+      "priceTo": 1500,
+      "pricePerUnit": "/night",
+      "priceDescription": "$300 - $1500 /night",
+      "currency": "USD",
+      "openingHours": {
+        "raw": null,
+        "isOpen": null,
+        "todayHours": null,
+        "schedule": {},
+        "formattedDisplay": null
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.7,
+      "reviewCount": 14,
+      "googleRating": 4.7
+    },
+    "tags": [
+      "holiday home",
+      "villa",
+      "rental",
+      "vacation",
+      "homes",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "villa",
+      "mora",
+      "grand",
+      "cayman",
+      "villas",
+      "condos",
+      "rental",
+      "vacation",
+      "homes"
+    ],
+    "embeddingText": "Villa Mora — Grand Cayman Villas & Condos Villa Mora — Grand Cayman Villas & Condos located in the Cayman Islands. villa_rental Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJA-fk6HWLJY8RPzb5iT3020A-w9kxmhq8s",
+    "category": "villa_rental",
+    "subcategory": "Holiday home letting agency",
+    "name": "Piece of Mine Villas",
+    "description": "Piece of Mine Villas located in the Cayman Islands.",
+    "shortDescription": "Piece of Mine Villas located in the Cayman Islands.",
+    "location": {
+      "address": "396 Seaview Rd, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3021884,
+      "longitude": -81.17045759999999,
+      "googlePlaceId": "ChIJA-fk6HWLJY8RPzb5iT3020A"
+    },
+    "contact": {
+      "phone": "+1 345-916-0709",
+      "email": "",
+      "website": "https://www.vacationcaymanisland.com/",
+      "bookingUrl": "https://www.vacationcaymanisland.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerfazjcVK0zCIyWIPjhaUgg70n10Y108-R6_SI41o6ajpaepF4nkyB6rHQsN30FYNo2NtflpOr78cQkP9uH0eHfWxL3v8FRF9eAPUyKOooqiWU-N676uX3S4YWU7SCGkhn9R6f5=w197-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerfazjcVK0zCIyWIPjhaUgg70n10Y108-R6_SI41o6ajpaepF4nkyB6rHQsN30FYNo2NtflpOr78cQkP9uH0eHfWxL3v8FRF9eAPUyKOooqiWU-N676uX3S4YWU7SCGkhn9R6f5=w197-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 300,
+      "priceTo": 1500,
+      "pricePerUnit": "/night",
+      "priceDescription": "$300 - $1500 /night",
+      "currency": "USD",
+      "openingHours": {
+        "raw": null,
+        "isOpen": null,
+        "todayHours": null,
+        "schedule": {},
+        "formattedDisplay": null
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 7,
+      "googleRating": 5
+    },
+    "tags": [
+      "holiday home letting agency",
+      "villa",
+      "rental",
+      "vacation",
+      "homes",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "piece",
+      "mine",
+      "villas",
+      "villa",
+      "rental",
+      "vacation",
+      "homes"
+    ],
+    "embeddingText": "Piece of Mine Villas Piece of Mine Villas located in the Cayman Islands. villa_rental Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJ37fClKqHJY8Rxfsghk5ZhEw-ssizs2spa",
+    "category": "transportation",
+    "subcategory": "Car rental company",
+    "name": "Hertz Cayman - Car Rental",
+    "description": "Hertz Cayman - Car Rental located in the Cayman Islands.",
+    "shortDescription": "Hertz Cayman - Car Rental located in the Cayman Islands.",
+    "location": {
+      "address": "250 Roberts Dr, George Town KY1-1004, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2963691,
+      "longitude": -81.3593958,
+      "googlePlaceId": "ChIJ37fClKqHJY8Rxfsghk5ZhEw"
+    },
+    "contact": {
+      "phone": "+1 345-943-4378",
+      "email": "",
+      "website": "http://www.hertzcayman.com/",
+      "bookingUrl": "http://www.hertzcayman.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOwEVcBzjlFKmUbgKOBvM5wpH90jprCwvkM7Xb8=w80-h106-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipOwEVcBzjlFKmUbgKOBvM5wpH90jprCwvkM7Xb8=w80-h106-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": null,
+      "priceTo": null,
+      "pricePerUnit": null,
+      "priceDescription": null,
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open · Closes 9:30 pm",
+        "isOpen": true,
+        "todayHours": {
+          "closes": "9:30 pm"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now · Closes 9:30 pm"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.6,
+      "reviewCount": 336,
+      "googleRating": 4.6
+    },
+    "tags": [
+      "car rental company",
+      "rental",
+      "transportation",
+      "taxi",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "hertz",
+      "cayman",
+      "car",
+      "rental",
+      "transportation",
+      "taxi"
+    ],
+    "embeddingText": "Hertz Cayman - Car Rental Hertz Cayman - Car Rental located in the Cayman Islands. transportation Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJHdEd_D6GJY8RVDeMd7cWlfQ-3u454o0ny",
+    "category": "transportation",
+    "subcategory": "Car rental company",
+    "name": "Budget of Grand Cayman",
+    "description": "Budget of Grand Cayman located in the Cayman Islands.",
+    "shortDescription": "Budget of Grand Cayman located in the Cayman Islands.",
+    "location": {
+      "address": "Grand Cayman, 210 Roberts Dr, George Town KY1-1006, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2949044,
+      "longitude": -81.3609622,
+      "googlePlaceId": "ChIJHdEd_D6GJY8RVDeMd7cWlfQ"
+    },
+    "contact": {
+      "phone": "+1 345-623-5605",
+      "email": "",
+      "website": "https://budgetcayman.com/",
+      "bookingUrl": "https://budgetcayman.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoSCasaUDtht6LYWfchN5vq3rBwgA-9rSB4fSxkTFHvF89vkaegsO4nYklOrcVERk-odJWdtS8w456s2sMLIEGRm9Y9UfQi8c8PbIwQq4YW-ankZhOTJUkx4dN15bKvkXZYIooD=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoSCasaUDtht6LYWfchN5vq3rBwgA-9rSB4fSxkTFHvF89vkaegsO4nYklOrcVERk-odJWdtS8w456s2sMLIEGRm9Y9UfQi8c8PbIwQq4YW-ankZhOTJUkx4dN15bKvkXZYIooD=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": null,
+      "priceTo": null,
+      "pricePerUnit": null,
+      "priceDescription": null,
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open · Closes 9 pm",
+        "isOpen": true,
+        "todayHours": {
+          "closes": "9 pm"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now · Closes 9 pm"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 2197,
+      "googleRating": 5
+    },
+    "tags": [
+      "car rental company",
+      "rental",
+      "transportation",
+      "taxi",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "budget",
+      "grand",
+      "cayman",
+      "car",
+      "rental",
+      "transportation",
+      "taxi"
+    ],
+    "embeddingText": "Budget of Grand Cayman Budget of Grand Cayman located in the Cayman Islands. transportation Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJcXsmwRSGJY8R5hBDqPxP9Yw-gqena46ut",
+    "category": "transportation",
+    "subcategory": "Car rental company",
+    "name": "GoCayman Car Rental",
+    "description": "GoCayman Car Rental located in the Cayman Islands.",
+    "shortDescription": "GoCayman Car Rental located in the Cayman Islands.",
+    "location": {
+      "address": "Grand Cayman Island, 416 Shedden Rd, George Town, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2926783,
+      "longitude": -81.3715369,
+      "googlePlaceId": "ChIJcXsmwRSGJY8R5hBDqPxP9Yw"
+    },
+    "contact": {
+      "phone": "+1 345-943-4402",
+      "email": "",
+      "website": "http://reservations.gocaymancarrental.com/",
+      "bookingUrl": "http://reservations.gocaymancarrental.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqmrvrKnxvE75OiXs_6vjn59VthCrnXXqUZxd4lpaPj4FwAkkFxf7hS1tbEewuD86PHX-zSCmKjybd-J_wcKJ4V7__-Eo7dkvQmrqZa6XAuhmPRiu8RX-DUMhJlbz18CVS54e_8=w163-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqmrvrKnxvE75OiXs_6vjn59VthCrnXXqUZxd4lpaPj4FwAkkFxf7hS1tbEewuD86PHX-zSCmKjybd-J_wcKJ4V7__-Eo7dkvQmrqZa6XAuhmPRiu8RX-DUMhJlbz18CVS54e_8=w163-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": null,
+      "priceTo": null,
+      "pricePerUnit": null,
+      "priceDescription": null,
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 8 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "8 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "on_site_services": true
+      }
+    },
+    "ratings": {
+      "overall": 4.6,
+      "reviewCount": 104,
+      "googleRating": 4.6
+    },
+    "tags": [
+      "car rental company",
+      "rental",
+      "transportation",
+      "taxi",
+      "on site services",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "gocayman",
+      "car",
+      "rental",
+      "transportation",
+      "taxi"
+    ],
+    "embeddingText": "GoCayman Car Rental GoCayman Car Rental located in the Cayman Islands. transportation Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJKSZppT6GJY8RRJdb04wQ2AI-vqzdfu0mh",
+    "category": "transportation",
+    "subcategory": "Car rental company",
+    "name": "Andy's Rent-A-Car",
+    "description": "Andy's Rent-A-Car located in the Cayman Islands.",
+    "shortDescription": "Andy's Rent-A-Car located in the Cayman Islands.",
+    "location": {
+      "address": "325 Roberts Dr, George Town KY1-1401, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2973785,
+      "longitude": -81.3571308,
+      "googlePlaceId": "ChIJKSZppT6GJY8RRJdb04wQ2AI"
+    },
+    "contact": {
+      "phone": "+1 345-949-8111",
+      "email": "",
+      "website": "http://www.andys.ky/",
+      "bookingUrl": "http://www.andys.ky/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoWQ4al_DqkPsxkngKAipwDNjeAD3pX5TOLodKOW88_qCNGO07uHItSfBhA7VJ4Rz3wW3_DAbqETF6xkkPJmpxdRyZYHOBcVWCjoCUGD8FwXeEJBJazsAgKdhJ87KbrTd72KN4s=w80-h106-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoWQ4al_DqkPsxkngKAipwDNjeAD3pX5TOLodKOW88_qCNGO07uHItSfBhA7VJ4Rz3wW3_DAbqETF6xkkPJmpxdRyZYHOBcVWCjoCUGD8FwXeEJBJazsAgKdhJ87KbrTd72KN4s=w80-h106-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": null,
+      "priceTo": null,
+      "pricePerUnit": null,
+      "priceDescription": null,
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open · Closes 10 pm",
+        "isOpen": true,
+        "todayHours": {
+          "closes": "10 pm"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now · Closes 10 pm"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 3.8,
+      "reviewCount": 123,
+      "googleRating": 3.8
+    },
+    "tags": [
+      "car rental company",
+      "rental",
+      "transportation",
+      "taxi",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "andy's",
+      "rent-a-car",
+      "car",
+      "rental",
+      "transportation",
+      "taxi"
+    ],
+    "embeddingText": "Andy's Rent-A-Car Andy's Rent-A-Car located in the Cayman Islands. transportation Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJQxkwIACHJY8R1uD8iPGt5YM-blcb70dlu",
+    "category": "transportation",
+    "subcategory": "Car rental company",
+    "name": "Europcar Grand Cayman",
+    "description": "Europcar Grand Cayman located in the Cayman Islands.",
+    "shortDescription": "Europcar Grand Cayman located in the Cayman Islands.",
+    "location": {
+      "address": "Grand Cayman, 250 Roberts Dr, George Town, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.296046,
+      "longitude": -81.35935789999999,
+      "googlePlaceId": "ChIJQxkwIACHJY8R1uD8iPGt5YM"
+    },
+    "contact": {
+      "phone": "+1 345-938-8350",
+      "email": "",
+      "website": "http://www.europcar.com/",
+      "bookingUrl": "http://www.europcar.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepZmBizoIwe_qE64JLkcl6REzQCUMf1DTIpTF3eucKU9s1PCp-qVqm2h0vnKoIu09XaSf5hMYQLo9YPE6HO1I0NggWsk8o5O4OMlnIvVYGSSSRBKg-cvUXjjNGYueGtc_pOuCE=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepZmBizoIwe_qE64JLkcl6REzQCUMf1DTIpTF3eucKU9s1PCp-qVqm2h0vnKoIu09XaSf5hMYQLo9YPE6HO1I0NggWsk8o5O4OMlnIvVYGSSSRBKg-cvUXjjNGYueGtc_pOuCE=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": null,
+      "priceTo": null,
+      "pricePerUnit": null,
+      "priceDescription": null,
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open · Closes 9 pm",
+        "isOpen": true,
+        "todayHours": {
+          "closes": "9 pm"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now · Closes 9 pm"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.9,
+      "reviewCount": 72,
+      "googleRating": 4.9
+    },
+    "tags": [
+      "car rental company",
+      "rental",
+      "transportation",
+      "taxi",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "europcar",
+      "grand",
+      "cayman",
+      "car",
+      "rental",
+      "transportation",
+      "taxi"
+    ],
+    "embeddingText": "Europcar Grand Cayman Europcar Grand Cayman located in the Cayman Islands. transportation Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJEYmUAn-HJY8Rkql1sgiY8Jo-d3usidu0g",
+    "category": "transportation",
+    "subcategory": "Car rental company",
+    "name": "Apex of Grand Cayman",
+    "description": "Apex of Grand Cayman located in the Cayman Islands.",
+    "shortDescription": "Apex of Grand Cayman located in the Cayman Islands.",
+    "location": {
+      "address": "Airport Rental Plaza, 257 Roberts Drive Grand Cayman, KY1-1006, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.296448899999998,
+      "longitude": -81.35940889999999,
+      "googlePlaceId": "ChIJEYmUAn-HJY8Rkql1sgiY8Jo"
+    },
+    "contact": {
+      "phone": "+1 345-623-4808",
+      "email": "",
+      "website": "https://www.apexcayman.com/",
+      "bookingUrl": "https://www.apexcayman.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepoNttRULQ8aQdUldq4tdVEl3sqhJaKZ6DrPH8-n8inOI5pfJcsGtOC0sm_3bh-uDjHMHH_6RnGq8hQOBgkNAdFKeyoeaNrhsmXF4b-ViUhMVeFDxCotxn2NEWTEI-8gXdCDkTG=w163-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepoNttRULQ8aQdUldq4tdVEl3sqhJaKZ6DrPH8-n8inOI5pfJcsGtOC0sm_3bh-uDjHMHH_6RnGq8hQOBgkNAdFKeyoeaNrhsmXF4b-ViUhMVeFDxCotxn2NEWTEI-8gXdCDkTG=w163-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": null,
+      "priceTo": null,
+      "pricePerUnit": null,
+      "priceDescription": null,
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open · Closes 9 pm",
+        "isOpen": true,
+        "todayHours": {
+          "closes": "9 pm"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now · Closes 9 pm"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.9,
+      "reviewCount": 39,
+      "googleRating": 4.9
+    },
+    "tags": [
+      "car rental company",
+      "rental",
+      "transportation",
+      "taxi",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "apex",
+      "grand",
+      "cayman",
+      "car",
+      "rental",
+      "transportation",
+      "taxi"
+    ],
+    "embeddingText": "Apex of Grand Cayman Apex of Grand Cayman located in the Cayman Islands. transportation Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJl03dDUmHJY8RgKWJPb7EV4E-eqx5xyx7q",
+    "category": "transportation",
+    "subcategory": "Car rental company",
+    "name": "Ace All Staff Rent-A-Car",
+    "description": "Ace All Staff Rent-A-Car located in the Cayman Islands.",
+    "shortDescription": "Ace All Staff Rent-A-Car located in the Cayman Islands.",
+    "location": {
+      "address": "Gould's Plaza, School Road Grand Cayman KY1, 1302, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.298045899999998,
+      "longitude": -81.3782537,
+      "googlePlaceId": "ChIJl03dDUmHJY8RgKWJPb7EV4E"
+    },
+    "contact": {
+      "phone": "+1 345-777-7777",
+      "email": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=&key=placeholder",
+      "images": [
+        "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=&key=placeholder"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": null,
+      "priceTo": null,
+      "pricePerUnit": null,
+      "priceDescription": null,
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 9 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "9 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 1,
+      "reviewCount": 1,
+      "googleRating": 1
+    },
+    "tags": [
+      "car rental company",
+      "rental",
+      "transportation",
+      "taxi",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "ace",
+      "all",
+      "staff",
+      "rent-a-car",
+      "car",
+      "rental",
+      "transportation",
+      "taxi"
+    ],
+    "embeddingText": "Ace All Staff Rent-A-Car Ace All Staff Rent-A-Car located in the Cayman Islands. transportation Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJ0__eM9KHJY8R75p_dJMVDcY-iehbpl7ap",
+    "category": "transportation",
+    "subcategory": "Car rental company",
+    "name": "Firefly Rental Car Grand Cayman",
+    "description": "Firefly Rental Car Grand Cayman located in the Cayman Islands.",
+    "shortDescription": "Firefly Rental Car Grand Cayman located in the Cayman Islands.",
+    "location": {
+      "address": "Suite 10, Grand Cayman, 250 Roberts Dr, George Town KY1-1004, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2959912,
+      "longitude": -81.3588152,
+      "googlePlaceId": "ChIJ0__eM9KHJY8R75p_dJMVDcY"
+    },
+    "contact": {
+      "phone": "+1 345-943-4380",
+      "email": "",
+      "website": "http://www.fireflycayman.com/",
+      "bookingUrl": "http://www.fireflycayman.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPihHB8L3OPEi2hieURoRHtpVQKRhuEJB_jQIm7=w92-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipPihHB8L3OPEi2hieURoRHtpVQKRhuEJB_jQIm7=w92-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": null,
+      "priceTo": null,
+      "pricePerUnit": null,
+      "priceDescription": null,
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open · Closes 9 pm",
+        "isOpen": true,
+        "todayHours": {
+          "closes": "9 pm"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now · Closes 9 pm"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.1,
+      "reviewCount": 21,
+      "googleRating": 4.1
+    },
+    "tags": [
+      "car rental company",
+      "rental",
+      "transportation",
+      "taxi",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "firefly",
+      "rental",
+      "car",
+      "grand",
+      "cayman",
+      "transportation",
+      "taxi"
+    ],
+    "embeddingText": "Firefly Rental Car Grand Cayman Firefly Rental Car Grand Cayman located in the Cayman Islands. transportation Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJpzoU55CHJY8RrPixE0vX7SQ-w671s1wnm",
+    "category": "transportation",
+    "subcategory": "Car rental company",
+    "name": "All Star Car Rentals",
+    "description": "All Star Car Rentals located in the Cayman Islands.",
+    "shortDescription": "All Star Car Rentals located in the Cayman Islands.",
+    "location": {
+      "address": "Unit 2045, 294 N Sound Rd, George Town KY1-1503, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2996124,
+      "longitude": -81.3691247,
+      "googlePlaceId": "ChIJpzoU55CHJY8RrPixE0vX7SQ"
+    },
+    "contact": {
+      "phone": "+1 345-924-3555",
+      "email": "",
+      "website": "https://allstarcarrentalsky.com/",
+      "bookingUrl": "https://allstarcarrentalsky.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep-Xb4EHSZpYiu3Qu_gVGj8aTrQznBRk5z07P4-I2Cu7WfTRLKoV7vFy9rr3h3xfptOIIxAKGnFonmE8lQzzZEeglVmLLwmEjlnvOxd1JQ3T0iUyd4_waY3lhaFV0hOSEioWnQ=w80-h106-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep-Xb4EHSZpYiu3Qu_gVGj8aTrQznBRk5z07P4-I2Cu7WfTRLKoV7vFy9rr3h3xfptOIIxAKGnFonmE8lQzzZEeglVmLLwmEjlnvOxd1JQ3T0iUyd4_waY3lhaFV0hOSEioWnQ=w80-h106-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": null,
+      "priceTo": null,
+      "pricePerUnit": null,
+      "priceDescription": null,
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 8 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "8 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 43,
+      "googleRating": 5
+    },
+    "tags": [
+      "car rental company",
+      "rental",
+      "transportation",
+      "taxi",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "all",
+      "star",
+      "car",
+      "rentals",
+      "rental",
+      "transportation",
+      "taxi"
+    ],
+    "embeddingText": "All Star Car Rentals All Star Car Rentals located in the Cayman Islands. transportation Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJc-YjnxFgKI8RPhyitDYFlL0-5g2b8r48d",
+    "category": "transportation",
+    "subcategory": "Car rental company",
+    "name": "Little Cayman Car Rental",
+    "description": "Little Cayman Car Rental located in the Cayman Islands.",
+    "shortDescription": "Little Cayman Car Rental located in the Cayman Islands.",
+    "location": {
+      "address": "898 Guy Banks Rd, Guy Banks Rd, Blossom Village, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Little Cayman",
+      "latitude": 19.659549,
+      "longitude": -80.0840901,
+      "googlePlaceId": "ChIJc-YjnxFgKI8RPhyitDYFlL0"
+    },
+    "contact": {
+      "phone": "+1 345-948-1000",
+      "email": "",
+      "website": "https://www.littlecaymancarrentals.com/",
+      "bookingUrl": "https://www.littlecaymancarrentals.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweq9nVy-aehsoDsEj2yg9G1gu_Mhilk3GLkdnzuydlEhilK2doMiTJ7abyATiZJvoIU1SxtzpJaQpJaKXPrN5MFYrWnsTsbnim9-4BOceYudJXZnbUqFsT8wKg8mg7W_VLir6N1x=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweq9nVy-aehsoDsEj2yg9G1gu_Mhilk3GLkdnzuydlEhilK2doMiTJ7abyATiZJvoIU1SxtzpJaQpJaKXPrN5MFYrWnsTsbnim9-4BOceYudJXZnbUqFsT8wKg8mg7W_VLir6N1x=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": null,
+      "priceTo": null,
+      "pricePerUnit": null,
+      "priceDescription": null,
+      "currency": "USD",
+      "openingHours": {
+        "raw": null,
+        "isOpen": null,
+        "todayHours": null,
+        "schedule": {},
+        "formattedDisplay": null
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.3,
+      "reviewCount": 6,
+      "googleRating": 4.3
+    },
+    "tags": [
+      "car rental company",
+      "rental",
+      "transportation",
+      "taxi",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "little",
+      "cayman",
+      "car",
+      "rental",
+      "transportation",
+      "taxi"
+    ],
+    "embeddingText": "Little Cayman Car Rental Little Cayman Car Rental located in the Cayman Islands. transportation Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJo6mMeJSHJY8RtbvlRidLqR4-npfwzfe9f",
+    "category": "transportation",
+    "subcategory": "Car rental company",
+    "name": "Supreme car rental cayman",
+    "description": "Supreme car rental cayman located in the Cayman Islands.",
+    "shortDescription": "Supreme car rental cayman located in the Cayman Islands.",
+    "location": {
+      "address": "80 Shedden Rd, George Town KY1-9006, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2940281,
+      "longitude": -81.3801101,
+      "googlePlaceId": "ChIJo6mMeJSHJY8RtbvlRidLqR4"
+    },
+    "contact": {
+      "phone": "+1 345-922-5308",
+      "email": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPkeE9HGcetvCLW8enpAZuUbPkrPICUANVjpVu8=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipPkeE9HGcetvCLW8enpAZuUbPkrPICUANVjpVu8=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": null,
+      "priceTo": null,
+      "pricePerUnit": null,
+      "priceDescription": null,
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 9 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "9 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.5,
+      "reviewCount": 25,
+      "googleRating": 4.5
+    },
+    "tags": [
+      "car rental company",
+      "rental",
+      "transportation",
+      "taxi",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "supreme",
+      "car",
+      "rental",
+      "cayman",
+      "transportation",
+      "taxi"
+    ],
+    "embeddingText": "Supreme car rental cayman Supreme car rental cayman located in the Cayman Islands. transportation Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJ88vH9rCHJY8R3anAvA1WFVY-qpqqnatg9",
+    "category": "transportation",
+    "subcategory": "Car rental company",
+    "name": "Super Slick Car Rental",
+    "description": "Super Slick Car Rental located in the Cayman Islands.",
+    "shortDescription": "Super Slick Car Rental located in the Cayman Islands.",
+    "location": {
+      "address": "Grand Cayman, 110 Sound Way, George Town, Cayman Islands Grand Cayman KY1, KY1-1011, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2972413,
+      "longitude": -81.3724519,
+      "googlePlaceId": "ChIJ88vH9rCHJY8R3anAvA1WFVY"
+    },
+    "contact": {
+      "phone": "+1 345-324-6260",
+      "email": "",
+      "website": "http://www.superslickcarrental.com/",
+      "bookingUrl": "http://www.superslickcarrental.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNBDGSaMSiozPOLy9Gw-xN0t48ERq7J1FWImgNj=w91-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipNBDGSaMSiozPOLy9Gw-xN0t48ERq7J1FWImgNj=w91-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": null,
+      "priceTo": null,
+      "pricePerUnit": null,
+      "priceDescription": null,
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 8 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "8 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.8,
+      "reviewCount": 104,
+      "googleRating": 4.8
+    },
+    "tags": [
+      "car rental company",
+      "rental",
+      "transportation",
+      "taxi",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "super",
+      "slick",
+      "car",
+      "rental",
+      "transportation",
+      "taxi"
+    ],
+    "embeddingText": "Super Slick Car Rental Super Slick Car Rental located in the Cayman Islands. transportation Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJX2ElHmmHJY8RbHHuEdTDxZk-ntwihiycq",
+    "category": "transportation",
+    "subcategory": "Car rental company",
+    "name": "Rodney's Car Rental",
+    "description": "Rodney's Car Rental located in the Cayman Islands.",
+    "shortDescription": "Rodney's Car Rental located in the Cayman Islands.",
+    "location": {
+      "address": "50 Mary St, George Town KY1-1208, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.297010399999998,
+      "longitude": -81.3786693,
+      "googlePlaceId": "ChIJX2ElHmmHJY8RbHHuEdTDxZk"
+    },
+    "contact": {
+      "phone": "+1 345-949-1704",
+      "email": "",
+      "website": "https://rodneyscarrental.com/",
+      "bookingUrl": "https://rodneyscarrental.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPoUiqNk4CTQnxiwcPGWtpEt3HtYTlRLLNP_LtG=w80-h106-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipPoUiqNk4CTQnxiwcPGWtpEt3HtYTlRLLNP_LtG=w80-h106-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": null,
+      "priceTo": null,
+      "pricePerUnit": null,
+      "priceDescription": null,
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 9 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "9 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.3,
+      "reviewCount": 23,
+      "googleRating": 4.3
+    },
+    "tags": [
+      "car rental company",
+      "rental",
+      "transportation",
+      "taxi",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "rodney's",
+      "car",
+      "rental",
+      "transportation",
+      "taxi"
+    ],
+    "embeddingText": "Rodney's Car Rental Rodney's Car Rental located in the Cayman Islands. transportation Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJC-doGRuHJY8Rj0FzCz99QKU-lcil99qut",
+    "category": "transportation",
+    "subcategory": "Car rental company",
+    "name": "Fox Rent A Car Grand Cayman",
+    "description": "Fox Rent A Car Grand Cayman located in the Cayman Islands.",
+    "shortDescription": "Fox Rent A Car Grand Cayman located in the Cayman Islands.",
+    "location": {
+      "address": "250 Roberts Dr, George Town KY1-1100, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2959992,
+      "longitude": -81.358764,
+      "googlePlaceId": "ChIJC-doGRuHJY8Rj0FzCz99QKU"
+    },
+    "contact": {
+      "phone": "+1 345-323-7018",
+      "email": "",
+      "website": "https://www.foxrentacar.com/en/locations/cayman-islands/grand-cayman-airport.html?utm_campaign=localmaps&utm_content=GCMT01&utm_medium=local&utm_source=google",
+      "bookingUrl": "https://www.foxrentacar.com/en/locations/cayman-islands/grand-cayman-airport.html?utm_campaign=localmaps&utm_content=GCMT01&utm_medium=local&utm_source=google"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMbGej5buSlkSj4-hpgzL6iouDb7sLIjYAFrXyB=w163-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipMbGej5buSlkSj4-hpgzL6iouDb7sLIjYAFrXyB=w163-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": null,
+      "priceTo": null,
+      "pricePerUnit": null,
+      "priceDescription": null,
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open · Closes 10 pm",
+        "isOpen": true,
+        "todayHours": {
+          "closes": "10 pm"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now · Closes 10 pm"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 3.6,
+      "reviewCount": 8,
+      "googleRating": 3.6
+    },
+    "tags": [
+      "car rental company",
+      "rental",
+      "transportation",
+      "taxi",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "fox",
+      "rent",
+      "car",
+      "grand",
+      "cayman",
+      "rental",
+      "transportation",
+      "taxi"
+    ],
+    "embeddingText": "Fox Rent A Car Grand Cayman Fox Rent A Car Grand Cayman located in the Cayman Islands. transportation Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJAdEq_D6GJY8Rv-kzFgk7xgg-942dfwxli",
+    "category": "transportation",
+    "subcategory": "Car rental company",
+    "name": "Marshall's Rent-A-Car",
+    "description": "Marshall's Rent-A-Car located in the Cayman Islands.",
+    "shortDescription": "Marshall's Rent-A-Car located in the Cayman Islands.",
+    "location": {
+      "address": "Airport Rental Plaza, 257 Roberts Dr, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.295993799999998,
+      "longitude": -81.35931389999999,
+      "googlePlaceId": "ChIJAdEq_D6GJY8Rv-kzFgk7xgg"
+    },
+    "contact": {
+      "phone": "+1 345-949-0550",
+      "email": "",
+      "website": "https://www.marshalls.ky/",
+      "bookingUrl": "https://www.marshalls.ky/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerl2WB9n79H0Vlvs1J26uH3GrOBC3u2si8FvvR7uqmCNOzBTXhuTYUGyE5EgPlKp0RDYwhsnApcyHho0BCmvhL7VbBWFAO0LDxDPh8jsU5BcQUVtEgcvSFQgzrFn9YVyf-0aW9ZOw=w80-h106-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerl2WB9n79H0Vlvs1J26uH3GrOBC3u2si8FvvR7uqmCNOzBTXhuTYUGyE5EgPlKp0RDYwhsnApcyHho0BCmvhL7VbBWFAO0LDxDPh8jsU5BcQUVtEgcvSFQgzrFn9YVyf-0aW9ZOw=w80-h106-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": null,
+      "priceTo": null,
+      "pricePerUnit": null,
+      "priceDescription": null,
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 8 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "8 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.6,
+      "reviewCount": 124,
+      "googleRating": 4.6
+    },
+    "tags": [
+      "car rental company",
+      "rental",
+      "transportation",
+      "taxi",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "marshall's",
+      "rent-a-car",
+      "car",
+      "rental",
+      "transportation",
+      "taxi"
+    ],
+    "embeddingText": "Marshall's Rent-A-Car Marshall's Rent-A-Car located in the Cayman Islands. transportation Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJEZLA-L-HJY8RaTldYtXGrZ4-f3hm89keq",
+    "category": "transportation",
+    "subcategory": "Transportation service",
+    "name": "JUDY’S TAXI & TOURS",
+    "description": "JUDY’S TAXI & TOURS located in the Cayman Islands.",
+    "shortDescription": "JUDY’S TAXI & TOURS located in the Cayman Islands.",
+    "location": {
+      "address": "8JRC+FVH, West Bay, Cayman Islands",
+      "district": "West Bay",
+      "island": "Grand Cayman",
+      "latitude": 19.3411808,
+      "longitude": -81.3777719,
+      "googlePlaceId": "ChIJEZLA-L-HJY8RaTldYtXGrZ4"
+    },
+    "contact": {
+      "phone": "+1 345-916-5379",
+      "email": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=&key=placeholder",
+      "images": [
+        "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=&key=placeholder"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 50,
+      "priceTo": 150,
+      "pricePerUnit": "/person",
+      "priceDescription": "$50 - $150 /person",
+      "currency": "USD",
+      "openingHours": {
+        "raw": null,
+        "isOpen": null,
+        "todayHours": null,
+        "schedule": {},
+        "formattedDisplay": null
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 3.7,
+      "reviewCount": 9,
+      "googleRating": 3.7
+    },
+    "tags": [
+      "transportation service",
+      "rental",
+      "transportation",
+      "taxi",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "judy’s",
+      "taxi",
+      "tours",
+      "car",
+      "rental",
+      "transportation"
+    ],
+    "embeddingText": "JUDY’S TAXI & TOURS JUDY’S TAXI & TOURS located in the Cayman Islands. transportation Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJCT3nKiqHJY8RqA28cbLUyl8-q8f8yt1pr",
+    "category": "transportation",
+    "subcategory": "Car rental company",
+    "name": "Alamo Rent A Car",
+    "description": "Alamo Rent A Car located in the Cayman Islands.",
+    "shortDescription": "Alamo Rent A Car located in the Cayman Islands.",
+    "location": {
+      "address": "Unit 12, Airport Plaza, Roberts Dr, George Town KY1-1001, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.296004999999997,
+      "longitude": -81.359149,
+      "googlePlaceId": "ChIJCT3nKiqHJY8RqA28cbLUyl8"
+    },
+    "contact": {
+      "phone": "+1 345-945-7368",
+      "email": "",
+      "website": "https://www.alamo.com/en/car-rental-locations/ky/george-town-owen-roberts-intl-airport-k202.html?mcid=iyp:31749102&utm_source=yext&utm_medium=local",
+      "bookingUrl": "https://www.alamo.com/en/car-rental-locations/ky/george-town-owen-roberts-intl-airport-k202.html?mcid=iyp:31749102&utm_source=yext&utm_medium=local"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOzq4HZlJVQcgMxnRL0b5TNvsFS7ogQ-4J6R0cM=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipOzq4HZlJVQcgMxnRL0b5TNvsFS7ogQ-4J6R0cM=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": null,
+      "priceTo": null,
+      "pricePerUnit": null,
+      "priceDescription": null,
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closes soon · 7 pm · Opens 8 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "8 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "on_site_services": true
+      }
+    },
+    "ratings": {
+      "overall": 4.4,
+      "reviewCount": 19,
+      "googleRating": 4.4
+    },
+    "tags": [
+      "car rental company",
+      "rental",
+      "transportation",
+      "taxi",
+      "on site services",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "alamo",
+      "rent",
+      "car",
+      "rental",
+      "transportation",
+      "taxi"
+    ],
+    "embeddingText": "Alamo Rent A Car Alamo Rent A Car located in the Cayman Islands. transportation Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJQf_FJg-HJY8RzlB_EqeltA0-njbf8njj4",
+    "category": "transportation",
+    "subcategory": "Limousine service",
+    "name": "Royal Limo Service",
+    "description": "Royal Limo Service located in the Cayman Islands.",
+    "shortDescription": "Royal Limo Service located in the Cayman Islands.",
+    "location": {
+      "address": "250 Owen Roberts Drive Suite 10 Grand Cayman KY1, 1004, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.296147299999998,
+      "longitude": -81.3596231,
+      "googlePlaceId": "ChIJQf_FJg-HJY8RzlB_EqeltA0"
+    },
+    "contact": {
+      "phone": "+1 345-322-6944",
+      "email": "",
+      "website": "https://royallimocayman.com/",
+      "bookingUrl": "https://royallimocayman.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOktYbXFkeh22lwPEc9kuhgjqKphxicPxq_zbLq=w163-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipOktYbXFkeh22lwPEc9kuhgjqKphxicPxq_zbLq=w163-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 20,
+      "priceTo": 60,
+      "pricePerUnit": null,
+      "priceDescription": "$20 - $60",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 7:30 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "7:30 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 5,
+      "googleRating": 5
+    },
+    "tags": [
+      "limousine service",
+      "rental",
+      "transportation",
+      "taxi",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "royal",
+      "limo",
+      "service",
+      "car",
+      "rental",
+      "transportation",
+      "taxi"
+    ],
+    "embeddingText": "Royal Limo Service Royal Limo Service located in the Cayman Islands. transportation Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJu1rPAj-GJY8RlizQ8AGI6pg-pm7iybs4r",
+    "category": "transportation",
+    "subcategory": "Car rental company",
+    "name": "Avis Rent A Car",
+    "description": "Avis Rent A Car located in the Cayman Islands.",
+    "shortDescription": "Avis Rent A Car located in the Cayman Islands.",
+    "location": {
+      "address": "257 Roberts Dr, George Town, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2959811,
+      "longitude": -81.3591094,
+      "googlePlaceId": "ChIJu1rPAj-GJY8RlizQ8AGI6pg"
+    },
+    "contact": {
+      "phone": "+1 345-949-2468",
+      "email": "",
+      "website": "http://aviscayman.com/",
+      "bookingUrl": "http://aviscayman.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPZwDIw3laxV8O3xRC5RJpx-_CdLudjmyB2ilrI=w138-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipPZwDIw3laxV8O3xRC5RJpx-_CdLudjmyB2ilrI=w138-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": null,
+      "priceTo": null,
+      "pricePerUnit": null,
+      "priceDescription": null,
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 8 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "8 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 3.8,
+      "reviewCount": 48,
+      "googleRating": 3.8
+    },
+    "tags": [
+      "car rental company",
+      "rental",
+      "transportation",
+      "taxi",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "avis",
+      "rent",
+      "car",
+      "rental",
+      "transportation",
+      "taxi"
+    ],
+    "embeddingText": "Avis Rent A Car Avis Rent A Car located in the Cayman Islands. transportation Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJiwfgcpaHJY8R-2vHY1uImtk-6dysgjpnk",
+    "category": "golf",
+    "subcategory": "Golf club",
+    "name": "North Sound Golf Club",
+    "description": "North Sound Golf Club located in the Cayman Islands.",
+    "shortDescription": "North Sound Golf Club located in the Cayman Islands.",
+    "location": {
+      "address": "557 Safehaven Dr, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3404721,
+      "longitude": -81.36475449999999,
+      "googlePlaceId": "ChIJiwfgcpaHJY8R-2vHY1uImtk"
+    },
+    "contact": {
+      "phone": "+1 345-947-4653",
+      "email": "",
+      "website": "http://northsoundclub.com/",
+      "bookingUrl": "http://northsoundclub.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwer2dYqIn1957g_1zzyLPOUvqUxuP_mbxTCUuPDzL9CjGItfFso1OsDSoqWq4kYq_z0iuVImf7GHQZ7mvtUxVYzBcTex4HS4NynCxz_zsGqxXdhM0CL9O8Q0kYjeUMD-DdH32euJ=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwer2dYqIn1957g_1zzyLPOUvqUxuP_mbxTCUuPDzL9CjGItfFso1OsDSoqWq4kYq_z0iuVImf7GHQZ7mvtUxVYzBcTex4HS4NynCxz_zsGqxXdhM0CL9O8Q0kYjeUMD-DdH32euJ=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": null,
+      "priceTo": null,
+      "pricePerUnit": null,
+      "priceDescription": null,
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 7 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "7 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "on_site_services": true
+      }
+    },
+    "ratings": {
+      "overall": 4.6,
+      "reviewCount": 111,
+      "googleRating": 4.6
+    },
+    "tags": [
+      "golf club",
+      "golf",
+      "courses",
+      "clubs",
+      "on site services",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "north",
+      "sound",
+      "golf",
+      "club",
+      "courses",
+      "clubs"
+    ],
+    "embeddingText": "North Sound Golf Club North Sound Golf Club located in the Cayman Islands. golf Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJl0qY6ryHJY8R8LWooHipgQQ-g830lu09m",
+    "category": "golf",
+    "subcategory": "Golf club",
+    "name": "The Ritz-Carlton Golf Club, Grand Cayman",
+    "description": "The Ritz-Carlton Golf Club, Grand Cayman located in the Cayman Islands.",
+    "shortDescription": "The Ritz-Carlton Golf Club, Grand Cayman located in the Cayman Islands.",
+    "location": {
+      "address": "Grand Cayman, The Ritz-Carlton, 1066 W Bay Rd, KY1-1209, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.336175,
+      "longitude": -81.380622,
+      "googlePlaceId": "ChIJl0qY6ryHJY8R8LWooHipgQQ"
+    },
+    "contact": {
+      "phone": "+1 345-815-6500",
+      "email": "",
+      "website": "https://www.ritzcarlton.com/en/hotels/gcmrz-the-ritz-carlton-grand-cayman/experiences/",
+      "bookingUrl": "https://www.ritzcarlton.com/en/hotels/gcmrz-the-ritz-carlton-grand-cayman/experiences/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweo6Nt-VDiF1c7NytFQcD5ycOfuEFPYQQenmEO-cC6iemdvjhLIMojnWp-5_XcGmNpUGU8l9rm_wU7loDe_hUCcig6gn4ybpPIvlKnH2CMz2IX9aV-H1MnbdcCYRjVTUIvXdbuMP=w163-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweo6Nt-VDiF1c7NytFQcD5ycOfuEFPYQQenmEO-cC6iemdvjhLIMojnWp-5_XcGmNpUGU8l9rm_wU7loDe_hUCcig6gn4ybpPIvlKnH2CMz2IX9aV-H1MnbdcCYRjVTUIvXdbuMP=w163-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": null,
+      "priceTo": null,
+      "pricePerUnit": null,
+      "priceDescription": null,
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 7 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "7 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "on_site_services": true
+      }
+    },
+    "ratings": {
+      "overall": 4.7,
+      "reviewCount": 92,
+      "googleRating": 4.7
+    },
+    "tags": [
+      "golf club",
+      "golf",
+      "courses",
+      "clubs",
+      "on site services",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "the",
+      "ritz-carlton",
+      "golf",
+      "club,",
+      "grand",
+      "cayman",
+      "courses",
+      "clubs"
+    ],
+    "embeddingText": "The Ritz-Carlton Golf Club, Grand Cayman The Ritz-Carlton Golf Club, Grand Cayman located in the Cayman Islands. golf Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJEzlaRv-GJY8RIjKhxgYFnNc-pgzeriyz5",
+    "category": "real_estate",
+    "subcategory": "Estate Agent",
+    "name": "Property Cayman",
+    "description": "Property Cayman located in the Cayman Islands.",
+    "shortDescription": "Property Cayman located in the Cayman Islands.",
+    "location": {
+      "address": "Unit 2a, Grand Cayman, Buckingham Square, 720 W Bay Rd, KY1-1106, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3271852,
+      "longitude": -81.381098,
+      "googlePlaceId": "ChIJEzlaRv-GJY8RIjKhxgYFnNc"
+    },
+    "contact": {
+      "phone": "+1 345-749-4663",
+      "email": "",
+      "website": "http://www.propertycayman.com/",
+      "bookingUrl": "http://www.propertycayman.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNcBakKEZs2XxWiTIkwF6NnkAAqVD_H9QITw1mb=w137-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipNcBakKEZs2XxWiTIkwF6NnkAAqVD_H9QITw1mb=w137-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": null,
+      "priceTo": null,
+      "pricePerUnit": null,
+      "priceDescription": null,
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 8:30 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "8:30 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 187,
+      "googleRating": 5
+    },
+    "tags": [
+      "estate agent",
+      "real",
+      "estate",
+      "luxury",
+      "properties",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "property",
+      "cayman",
+      "real",
+      "estate",
+      "luxury",
+      "properties"
+    ],
+    "embeddingText": "Property Cayman Property Cayman located in the Cayman Islands. real_estate Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJAzgHZqaHJY8REJiCy_xP-EQ-td0kvz4ix",
+    "category": "real_estate",
+    "subcategory": "Estate Agent",
+    "name": "Williams2 Real Estate",
+    "description": "Williams2 Real Estate located in the Cayman Islands.",
+    "shortDescription": "Williams2 Real Estate located in the Cayman Islands.",
+    "location": {
+      "address": "Seven Mile Beach, 6 The Strand, KY1, 1205, Cayman Islands",
+      "district": "Seven Mile Beach",
+      "island": "Grand Cayman",
+      "latitude": 19.3311741,
+      "longitude": -81.3797678,
+      "googlePlaceId": "ChIJAzgHZqaHJY8REJiCy_xP-EQ"
+    },
+    "contact": {
+      "phone": "+1 345-623-9999",
+      "email": "",
+      "website": "https://williams2realestate.com/",
+      "bookingUrl": "https://williams2realestate.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNPk12LdplvdfewuVSlWVWOSDzcmgXqwPNWjpjm=w137-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipNPk12LdplvdfewuVSlWVWOSDzcmgXqwPNWjpjm=w137-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": null,
+      "priceTo": null,
+      "pricePerUnit": null,
+      "priceDescription": null,
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 9 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "9 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 157,
+      "googleRating": 5
+    },
+    "tags": [
+      "estate agent",
+      "real",
+      "estate",
+      "luxury",
+      "properties",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "williams2",
+      "real",
+      "estate",
+      "luxury",
+      "properties"
+    ],
+    "embeddingText": "Williams2 Real Estate Williams2 Real Estate located in the Cayman Islands. real_estate Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJ7e00L_eHJY8Rch_1TR_3_0s-ah4z3zlan",
+    "category": "real_estate",
+    "subcategory": "Estate Agent",
+    "name": "The Agency Real Estate Cayman Islands",
+    "description": "The Agency Real Estate Cayman Islands located in the Cayman Islands.",
+    "shortDescription": "The Agency Real Estate Cayman Islands located in the Cayman Islands.",
+    "location": {
+      "address": "Fort 51 Building 51 Fort Street Grand Cayman, KY1-1002, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.296827399999998,
+      "longitude": -81.3813342,
+      "googlePlaceId": "ChIJ7e00L_eHJY8Rch_1TR_3_0s"
+    },
+    "contact": {
+      "phone": "+1 345-623-8844",
+      "email": "",
+      "website": "https://www.theagencyre.com/?utm_source=GoogleBusinessProfile&utm_medium=Website&utm_campaign=MapLabs",
+      "bookingUrl": "https://www.theagencyre.com/?utm_source=GoogleBusinessProfile&utm_medium=Website&utm_campaign=MapLabs"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPB9ZZtQuhMENUY3qrdnaZvfDhTfZS2foizacTk=w163-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipPB9ZZtQuhMENUY3qrdnaZvfDhTfZS2foizacTk=w163-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": null,
+      "priceTo": null,
+      "pricePerUnit": null,
+      "priceDescription": null,
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 8:30 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "8:30 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "online_appointments": true,
+        "on_site_services": true
+      }
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 44,
+      "googleRating": 5
+    },
+    "tags": [
+      "estate agent",
+      "real",
+      "estate",
+      "luxury",
+      "properties",
+      "online appointments",
+      "on site services",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "the",
+      "agency",
+      "real",
+      "estate",
+      "cayman",
+      "islands",
+      "luxury",
+      "properties"
+    ],
+    "embeddingText": "The Agency Real Estate Cayman Islands The Agency Real Estate Cayman Islands located in the Cayman Islands. real_estate Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJ2VuPv6GHJY8RAJ038fL_BuY-uareno5k1",
+    "category": "real_estate",
+    "subcategory": "Estate Agent",
+    "name": "Berkshire Hathaway HomeServices Cayman Islands",
+    "description": "Berkshire Hathaway HomeServices Cayman Islands located in the Cayman Islands.",
+    "shortDescription": "Berkshire Hathaway HomeServices Cayman Islands located in the Cayman Islands.",
+    "location": {
+      "address": "390 W Bay Rd, KY1-1203, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3173002,
+      "longitude": -81.3826532,
+      "googlePlaceId": "ChIJ2VuPv6GHJY8RAJ038fL_BuY"
+    },
+    "contact": {
+      "phone": "+1 345-949-3521",
+      "email": "",
+      "website": "https://www.bhhscaymanislands.com/",
+      "bookingUrl": "https://www.bhhscaymanislands.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOSk6X6jLFYrLqjJqG15VXoUTShH4VpCrAS1zmM=w92-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipOSk6X6jLFYrLqjJqG15VXoUTShH4VpCrAS1zmM=w92-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 20,
+      "priceTo": 60,
+      "pricePerUnit": null,
+      "priceDescription": "$20 - $60",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 9 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "9 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "online_appointments": true,
+        "on_site_services": true
+      }
+    },
+    "ratings": {
+      "overall": 4.9,
+      "reviewCount": 31,
+      "googleRating": 4.9
+    },
+    "tags": [
+      "estate agent",
+      "real",
+      "estate",
+      "luxury",
+      "properties",
+      "online appointments",
+      "on site services",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "berkshire",
+      "hathaway",
+      "homeservices",
+      "cayman",
+      "islands",
+      "real",
+      "estate",
+      "luxury",
+      "properties"
+    ],
+    "embeddingText": "Berkshire Hathaway HomeServices Cayman Islands Berkshire Hathaway HomeServices Cayman Islands located in the Cayman Islands. real_estate Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJQUUz7QmHJY8RvFgYiYwOweM-fovxi1465",
+    "category": "real_estate",
+    "subcategory": "Estate agent",
+    "name": "Nikki Thomas - Cayman Islands Luxury Real Estate",
+    "description": "Nikki Thomas - Cayman Islands Luxury Real Estate located in the Cayman Islands.",
+    "shortDescription": "Nikki Thomas - Cayman Islands Luxury Real Estate located in the Cayman Islands.",
+    "location": {
+      "address": "7 Mile Shops, 215 W Bay Rd, KY1-1201, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3122406,
+      "longitude": -81.3843165,
+      "googlePlaceId": "ChIJQUUz7QmHJY8RvFgYiYwOweM"
+    },
+    "contact": {
+      "phone": "+1 345-916-2436",
+      "email": "",
+      "website": "https://nikkithomas.ky/",
+      "bookingUrl": "https://nikkithomas.ky/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMcVOJONS_ZXc8dphxklBgMRICDGrASbMkIAaL4=w184-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipMcVOJONS_ZXc8dphxklBgMRICDGrASbMkIAaL4=w184-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": null,
+      "priceTo": null,
+      "pricePerUnit": null,
+      "priceDescription": null,
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 9 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "9 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 17,
+      "googleRating": 5
+    },
+    "tags": [
+      "estate agent",
+      "real",
+      "estate",
+      "luxury",
+      "properties",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "nikki",
+      "thomas",
+      "cayman",
+      "islands",
+      "luxury",
+      "real",
+      "estate",
+      "properties"
+    ],
+    "embeddingText": "Nikki Thomas - Cayman Islands Luxury Real Estate Nikki Thomas - Cayman Islands Luxury Real Estate located in the Cayman Islands. real_estate Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJ84V_XZ-HJY8RRfqRDy94cwQ-n11dng4xu",
+    "category": "real_estate",
+    "subcategory": "Estate agent",
+    "name": "Cayman Islands Sotheby's International Realty",
+    "description": "Cayman Islands Sotheby's International Realty located in the Cayman Islands.",
+    "shortDescription": "Cayman Islands Sotheby's International Realty located in the Cayman Islands.",
+    "location": {
+      "address": "5-104, Governor's Square, Seven Mile Beach, Grand Cayman KY1-1203, Cayman Islands, Cayman Islands",
+      "district": "Seven Mile Beach",
+      "island": "Grand Cayman",
+      "latitude": 19.3411661,
+      "longitude": -81.3800172,
+      "googlePlaceId": "ChIJ84V_XZ-HJY8RRfqRDy94cwQ"
+    },
+    "contact": {
+      "phone": "+1 345-623-1234",
+      "email": "",
+      "website": "http://www.sothebysrealty.ky/",
+      "bookingUrl": "http://www.sothebysrealty.ky/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerID2YY_pUSmpwlpM9TmPHm_VtDTTAWzR_qHwXDDaUSChOFkdHOBGHWYq7rwaeFSgin-Th2YXQSYw-nM14OsJDvtxgIT5hNmMyuonAC7K4DdyGJEYPT4ySX6FPn7wOektVfKu17=w163-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerID2YY_pUSmpwlpM9TmPHm_VtDTTAWzR_qHwXDDaUSChOFkdHOBGHWYq7rwaeFSgin-Th2YXQSYw-nM14OsJDvtxgIT5hNmMyuonAC7K4DdyGJEYPT4ySX6FPn7wOektVfKu17=w163-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 20,
+      "priceTo": 60,
+      "pricePerUnit": null,
+      "priceDescription": "$20 - $60",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 9 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "9 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.3,
+      "reviewCount": 12,
+      "googleRating": 4.3
+    },
+    "tags": [
+      "estate agent",
+      "real",
+      "estate",
+      "luxury",
+      "properties",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "cayman",
+      "islands",
+      "sotheby's",
+      "international",
+      "realty",
+      "real",
+      "estate",
+      "luxury",
+      "properties"
+    ],
+    "embeddingText": "Cayman Islands Sotheby's International Realty Cayman Islands Sotheby's International Realty located in the Cayman Islands. real_estate Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJ_5nd2VeGJY8R1J7uEXuZ3_U-jql6k6klg",
+    "category": "real_estate",
+    "subcategory": "Estate Agent",
+    "name": "ERA Cayman Islands",
+    "description": "ERA Cayman Islands located in the Cayman Islands.",
+    "shortDescription": "ERA Cayman Islands located in the Cayman Islands.",
+    "location": {
+      "address": "628 W Bay Rd, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.324503099999998,
+      "longitude": -81.38131369999999,
+      "googlePlaceId": "ChIJ_5nd2VeGJY8R1J7uEXuZ3_U"
+    },
+    "contact": {
+      "phone": "+1 345-945-6000",
+      "email": "",
+      "website": "http://www.eracayman.com/",
+      "bookingUrl": "http://www.eracayman.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipN5dL5NT3BzP2RJzeY06Du1OnxGCuxzdAWhVv72=w163-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipN5dL5NT3BzP2RJzeY06Du1OnxGCuxzdAWhVv72=w163-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 20,
+      "priceTo": 60,
+      "pricePerUnit": null,
+      "priceDescription": "$20 - $60",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 9 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "9 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "online_appointments": true,
+        "on_site_services": true
+      }
+    },
+    "ratings": {
+      "overall": 4.9,
+      "reviewCount": 34,
+      "googleRating": 4.9
+    },
+    "tags": [
+      "estate agent",
+      "real",
+      "estate",
+      "luxury",
+      "properties",
+      "online appointments",
+      "on site services",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "era",
+      "cayman",
+      "islands",
+      "real",
+      "estate",
+      "luxury",
+      "properties"
+    ],
+    "embeddingText": "ERA Cayman Islands ERA Cayman Islands located in the Cayman Islands. real_estate Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJJcs35vWJJY8RhO0k758JnEY-ow1a805ei",
+    "category": "real_estate",
+    "subcategory": "Estate Agent",
+    "name": "Shoreline Properties Cayman Islands",
+    "description": "Shoreline Properties Cayman Islands located in the Cayman Islands.",
+    "shortDescription": "Shoreline Properties Cayman Islands located in the Cayman Islands.",
+    "location": {
+      "address": "Cayman Kai, 585 Water Cay Rd, Rum Point, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.356591599999998,
+      "longitude": -81.2763946,
+      "googlePlaceId": "ChIJJcs35vWJJY8RhO0k758JnEY"
+    },
+    "contact": {
+      "phone": "+1 345-517-1978",
+      "email": "",
+      "website": "https://www.shoreline.ky/",
+      "bookingUrl": "https://www.shoreline.ky/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPa_fQ6zPNLCM3-3qnvpR2Hza-3AWOEr0OLiXw=w163-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipPa_fQ6zPNLCM3-3qnvpR2Hza-3AWOEr0OLiXw=w163-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 20,
+      "priceTo": 60,
+      "pricePerUnit": null,
+      "priceDescription": "$20 - $60",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 9 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "9 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 8,
+      "googleRating": 5
+    },
+    "tags": [
+      "estate agent",
+      "real",
+      "estate",
+      "luxury",
+      "properties",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "shoreline",
+      "properties",
+      "cayman",
+      "islands",
+      "real",
+      "estate",
+      "luxury"
+    ],
+    "embeddingText": "Shoreline Properties Cayman Islands Shoreline Properties Cayman Islands located in the Cayman Islands. real_estate Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJW0wke0mHJY8Rq_D_5pwpTtQ-mb80f425v",
+    "category": "real_estate",
+    "subcategory": "Estate agent",
+    "name": "Engel & Völkers Cayman",
+    "description": "Engel & Völkers Cayman located in the Cayman Islands.",
+    "shortDescription": "Engel & Völkers Cayman located in the Cayman Islands.",
+    "location": {
+      "address": "Tropic Center, 18 Earth Cl, George Town KY1-1201, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.332798099999998,
+      "longitude": -81.3800882,
+      "googlePlaceId": "ChIJW0wke0mHJY8Rq_D_5pwpTtQ"
+    },
+    "contact": {
+      "phone": "+1 345-525-1126",
+      "email": "",
+      "website": "https://caymanislands.evrealestate.com/",
+      "bookingUrl": "https://caymanislands.evrealestate.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOBRLsuOABOSpDDci8S4w-Lv3B_Cin8icNJ-6Wc=w137-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipOBRLsuOABOSpDDci8S4w-Lv3B_Cin8icNJ-6Wc=w137-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 20,
+      "priceTo": 60,
+      "pricePerUnit": null,
+      "priceDescription": "$20 - $60",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 9 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "9 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "online_appointments": true,
+        "on_site_services": true
+      }
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 24,
+      "googleRating": 5
+    },
+    "tags": [
+      "estate agent",
+      "real",
+      "estate",
+      "luxury",
+      "properties",
+      "online appointments",
+      "on site services",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "engel",
+      "völkers",
+      "cayman",
+      "real",
+      "estate",
+      "luxury",
+      "properties"
+    ],
+    "embeddingText": "Engel & Völkers Cayman Engel & Völkers Cayman located in the Cayman Islands. real_estate Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJaeJKZ_-GJY8R0qjhqDTpP70-jn57dscms",
+    "category": "real_estate",
+    "subcategory": "Estate Agent",
+    "name": "Bovell | REMAX Cayman Islands",
+    "description": "Bovell | REMAX Cayman Islands located in the Cayman Islands.",
+    "shortDescription": "Bovell | REMAX Cayman Islands located in the Cayman Islands.",
+    "location": {
+      "address": "7 Mile Shops, 215B W Bay Rd, KY1-1201, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.312293,
+      "longitude": -81.385019,
+      "googlePlaceId": "ChIJaeJKZ_-GJY8R0qjhqDTpP70"
+    },
+    "contact": {
+      "phone": "+1 345-945-4000",
+      "email": "",
+      "website": "https://www.bovell.ky/",
+      "bookingUrl": "https://www.bovell.ky/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNoPxRbsz68YbXwOHfGGLcuGkoOVRbxTWzfBudx=w138-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipNoPxRbsz68YbXwOHfGGLcuGkoOVRbxTWzfBudx=w138-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 20,
+      "priceTo": 60,
+      "pricePerUnit": null,
+      "priceDescription": "$20 - $60",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 8 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "8 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 42,
+      "googleRating": 5
+    },
+    "tags": [
+      "estate agent",
+      "real",
+      "estate",
+      "luxury",
+      "properties",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "bovell",
+      "remax",
+      "cayman",
+      "islands",
+      "real",
+      "estate",
+      "luxury",
+      "properties"
+    ],
+    "embeddingText": "Bovell | REMAX Cayman Islands Bovell | REMAX Cayman Islands located in the Cayman Islands. real_estate Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJ7RVDlNaHJY8RMxDtFxZvww0-t06uozerz",
+    "category": "real_estate",
+    "subcategory": "Estate Agent",
+    "name": "Trident Properties (Cayman Islands) Ltd",
+    "description": "Trident Properties (Cayman Islands) Ltd located in the Cayman Islands.",
+    "shortDescription": "Trident Properties (Cayman Islands) Ltd located in the Cayman Islands.",
+    "location": {
+      "address": "2nd Floor, Strathvale House, 90 N Church St, George Town KY1-1205, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2993618,
+      "longitude": -81.38182809999999,
+      "googlePlaceId": "ChIJ7RVDlNaHJY8RMxDtFxZvww0"
+    },
+    "contact": {
+      "phone": "+1 345-916-7020",
+      "email": "",
+      "website": "http://www.tridentproperties.ky/",
+      "bookingUrl": "http://www.tridentproperties.ky/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPhPuD4FJM2gJIOLUuH-OnNGIc1gzj7ReMJar7d=w137-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipPhPuD4FJM2gJIOLUuH-OnNGIc1gzj7ReMJar7d=w137-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 20,
+      "priceTo": 60,
+      "pricePerUnit": null,
+      "priceDescription": "$20 - $60",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closes soon · 7 pm · Opens 9 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "9 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "on_site_services": true
+      }
+    },
+    "ratings": {
+      "overall": 4.8,
+      "reviewCount": 4,
+      "googleRating": 4.8
+    },
+    "tags": [
+      "estate agent",
+      "real",
+      "estate",
+      "luxury",
+      "properties",
+      "on site services",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "trident",
+      "properties",
+      "(cayman",
+      "islands)",
+      "ltd",
+      "real",
+      "estate",
+      "luxury"
+    ],
+    "embeddingText": "Trident Properties (Cayman Islands) Ltd Trident Properties (Cayman Islands) Ltd located in the Cayman Islands. real_estate Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJ8Zi2eV2GJY8Rce3v-RyHbtE-8em4fspzk",
+    "category": "real_estate",
+    "subcategory": "Estate Agent",
+    "name": "International Realty Group Ltd.",
+    "description": "International Realty Group Ltd. located in the Cayman Islands.",
+    "shortDescription": "International Realty Group Ltd. located in the Cayman Islands.",
+    "location": {
+      "address": "Buckingham Square, 720 W Bay Rd, George Town KY1-1105, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.3268317,
+      "longitude": -81.3813807,
+      "googlePlaceId": "ChIJ8Zi2eV2GJY8Rce3v-RyHbtE"
+    },
+    "contact": {
+      "phone": "+1 345-623-1111",
+      "email": "",
+      "website": "https://www.irgcayman.com/?utm_source=gmblisting&utm_medium=organic",
+      "bookingUrl": "https://www.irgcayman.com/?utm_source=gmblisting&utm_medium=organic"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMRKYRL_TZpr1q5xGL7CuFA7_OAWxuT_1pJlL3j=w138-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipMRKYRL_TZpr1q5xGL7CuFA7_OAWxuT_1pJlL3j=w138-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 20,
+      "priceTo": 60,
+      "pricePerUnit": null,
+      "priceDescription": "$20 - $60",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 8:30 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "8:30 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 4,
+      "googleRating": 5
+    },
+    "tags": [
+      "estate agent",
+      "real",
+      "estate",
+      "luxury",
+      "properties",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "international",
+      "realty",
+      "group",
+      "ltd.",
+      "real",
+      "estate",
+      "luxury",
+      "properties"
+    ],
+    "embeddingText": "International Realty Group Ltd. International Realty Group Ltd. located in the Cayman Islands. real_estate Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJgW8UL2-HJY8RjH_C6SZ9_hE-qnfx7i6n7",
+    "category": "real_estate",
+    "subcategory": "Estate Agent",
+    "name": "Ten Sails Property Group",
+    "description": "Ten Sails Property Group located in the Cayman Islands.",
+    "shortDescription": "Ten Sails Property Group located in the Cayman Islands.",
+    "location": {
+      "address": "45 Beckz Close, George Town KY1-1007, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.3012689,
+      "longitude": -81.35764739999999,
+      "googlePlaceId": "ChIJgW8UL2-HJY8RjH_C6SZ9_hE"
+    },
+    "contact": {
+      "phone": "+1 345-526-1000",
+      "email": "",
+      "website": "https://www.tensails.ky/",
+      "bookingUrl": "https://www.tensails.ky/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipP9ddRRl6tr5IHfZJnLy8YdG932WykIP4r81n7G=w163-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipP9ddRRl6tr5IHfZJnLy8YdG932WykIP4r81n7G=w163-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": null,
+      "priceTo": null,
+      "pricePerUnit": null,
+      "priceDescription": null,
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 8:30 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "8:30 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.5,
+      "reviewCount": 8,
+      "googleRating": 4.5
+    },
+    "tags": [
+      "estate agent",
+      "real",
+      "estate",
+      "luxury",
+      "properties",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "ten",
+      "sails",
+      "property",
+      "group",
+      "real",
+      "estate",
+      "luxury",
+      "properties"
+    ],
+    "embeddingText": "Ten Sails Property Group Ten Sails Property Group located in the Cayman Islands. real_estate Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJy6vt_PqHJY8RczMHjY5QK6A-32phmegeq",
+    "category": "real_estate",
+    "subcategory": "Estate agent",
+    "name": "Marco Mastrogiovanni - Cayman Islands Real Estate",
+    "description": "Marco Mastrogiovanni - Cayman Islands Real Estate located in the Cayman Islands.",
+    "shortDescription": "Marco Mastrogiovanni - Cayman Islands Real Estate located in the Cayman Islands.",
+    "location": {
+      "address": "Buckingham Square, W Bay Rd, KY1-1105, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3276056,
+      "longitude": -81.3812658,
+      "googlePlaceId": "ChIJy6vt_PqHJY8RczMHjY5QK6A"
+    },
+    "contact": {
+      "phone": "+1 345-917-5550",
+      "email": "",
+      "website": "http://www.irg.ky/",
+      "bookingUrl": "http://www.irg.ky/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPbR4WROZuNJ5PHSaCDI3tvx5inKrfd_uuA-eIY=w137-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipPbR4WROZuNJ5PHSaCDI3tvx5inKrfd_uuA-eIY=w137-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": null,
+      "priceTo": null,
+      "pricePerUnit": null,
+      "priceDescription": null,
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closes soon · 7 pm · Opens 8 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "8 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 49,
+      "googleRating": 5
+    },
+    "tags": [
+      "estate agent",
+      "real",
+      "estate",
+      "luxury",
+      "properties",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "marco",
+      "mastrogiovanni",
+      "cayman",
+      "islands",
+      "real",
+      "estate",
+      "luxury",
+      "properties"
+    ],
+    "embeddingText": "Marco Mastrogiovanni - Cayman Islands Real Estate Marco Mastrogiovanni - Cayman Islands Real Estate located in the Cayman Islands. real_estate Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJaWGaqJSHJY8ReZchmqwtzWc-9lpt4mr05",
+    "category": "real_estate",
+    "subcategory": "Estate Agent",
+    "name": "Corcoran Cayman Islands",
+    "description": "Corcoran Cayman Islands located in the Cayman Islands.",
+    "shortDescription": "Corcoran Cayman Islands located in the Cayman Islands.",
+    "location": {
+      "address": "Suite 04, The Grove, W Bay Rd, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3451025,
+      "longitude": -81.3810046,
+      "googlePlaceId": "ChIJaWGaqJSHJY8ReZchmqwtzWc"
+    },
+    "contact": {
+      "phone": "+1 345-640-8880",
+      "email": "",
+      "website": "https://corcorancayman.com/",
+      "bookingUrl": "https://corcorancayman.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOjmV9ZDSpiAwBqEPnHGNciBi0Kv6E6jhsR4Tk=w137-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipOjmV9ZDSpiAwBqEPnHGNciBi0Kv6E6jhsR4Tk=w137-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 20,
+      "priceTo": 60,
+      "pricePerUnit": null,
+      "priceDescription": "$20 - $60",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 10 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "10 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "on_site_services": true
+      }
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 7,
+      "googleRating": 5
+    },
+    "tags": [
+      "estate agent",
+      "real",
+      "estate",
+      "luxury",
+      "properties",
+      "on site services",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "corcoran",
+      "cayman",
+      "islands",
+      "real",
+      "estate",
+      "luxury",
+      "properties"
+    ],
+    "embeddingText": "Corcoran Cayman Islands Corcoran Cayman Islands located in the Cayman Islands. real_estate Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJpcEBL6aHJY8RhR84MXUdwoA-nx7wv6a4h",
+    "category": "real_estate",
+    "subcategory": "Estate Agent",
+    "name": "CENTURY 21 Cayman",
+    "description": "CENTURY 21 Cayman located in the Cayman Islands.",
+    "shortDescription": "CENTURY 21 Cayman located in the Cayman Islands.",
+    "location": {
+      "address": "Grand Pavilion Centre, Box 30596, Seven Mile Beach, KY1-1203, Cayman Islands",
+      "district": "Seven Mile Beach",
+      "island": "Grand Cayman",
+      "latitude": 19.3293742,
+      "longitude": -81.3807029,
+      "googlePlaceId": "ChIJpcEBL6aHJY8RhR84MXUdwoA"
+    },
+    "contact": {
+      "phone": "+1 345-949-2100",
+      "email": "",
+      "website": "http://century21cayman.com/",
+      "bookingUrl": "http://century21cayman.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwer9b336Umz6A1l1rh-GkZ8yqUAG5B8dheCFUkIwoFTIlJ5VeBzqG-aV5FB3gSBRQobUJqvGXwCM03DwMZqOGB-CozReo08bXCa-rcVyS1qFb0xdWQ5IDI_FNcxhTiJdzVz9JMnM=w138-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwer9b336Umz6A1l1rh-GkZ8yqUAG5B8dheCFUkIwoFTIlJ5VeBzqG-aV5FB3gSBRQobUJqvGXwCM03DwMZqOGB-CozReo08bXCa-rcVyS1qFb0xdWQ5IDI_FNcxhTiJdzVz9JMnM=w138-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 20,
+      "priceTo": 60,
+      "pricePerUnit": null,
+      "priceDescription": "$20 - $60",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 9 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "9 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.8,
+      "reviewCount": 69,
+      "googleRating": 4.8
+    },
+    "tags": [
+      "estate agent",
+      "real",
+      "estate",
+      "luxury",
+      "properties",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "century",
+      "cayman",
+      "real",
+      "estate",
+      "luxury",
+      "properties"
+    ],
+    "embeddingText": "CENTURY 21 Cayman CENTURY 21 Cayman located in the Cayman Islands. real_estate Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJQSeTmPiGJY8R9zVcymnmri0-w3jianz3h",
+    "category": "real_estate",
+    "subcategory": "Estate agent",
+    "name": "Ashmore Alexander Real Estate Cayman Islands",
+    "description": "Ashmore Alexander Real Estate Cayman Islands located in the Cayman Islands.",
+    "shortDescription": "Ashmore Alexander Real Estate Cayman Islands located in the Cayman Islands.",
+    "location": {
+      "address": "Windward III, Seven Mile Beach, KY1-1207, Cayman Islands",
+      "district": "Seven Mile Beach",
+      "island": "Grand Cayman",
+      "latitude": 19.340173999999998,
+      "longitude": -81.3781692,
+      "googlePlaceId": "ChIJQSeTmPiGJY8R9zVcymnmri0"
+    },
+    "contact": {
+      "phone": "+1 345-324-3333",
+      "email": "",
+      "website": "http://www.ashmorealexander.com/",
+      "bookingUrl": "http://www.ashmorealexander.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep3IzEbNw9w76oo992bCzcXAq4cbStTizKolWY0r9Re_5Wv6GEkKCR4NBd0nmKRFaxy0OluLsII9h13pbfrokrzfl3E01PiB_brcdSCIBLnWhUcr3ZyQdLhQ5QwvbQELo04tYwLsA=w138-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep3IzEbNw9w76oo992bCzcXAq4cbStTizKolWY0r9Re_5Wv6GEkKCR4NBd0nmKRFaxy0OluLsII9h13pbfrokrzfl3E01PiB_brcdSCIBLnWhUcr3ZyQdLhQ5QwvbQELo04tYwLsA=w138-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": null,
+      "priceTo": null,
+      "pricePerUnit": null,
+      "priceDescription": null,
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open · Closes 8 pm",
+        "isOpen": true,
+        "todayHours": {
+          "closes": "8 pm"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now · Closes 8 pm"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 5,
+      "googleRating": 5
+    },
+    "tags": [
+      "estate agent",
+      "real",
+      "estate",
+      "luxury",
+      "properties",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "ashmore",
+      "alexander",
+      "real",
+      "estate",
+      "cayman",
+      "islands",
+      "luxury",
+      "properties"
+    ],
+    "embeddingText": "Ashmore Alexander Real Estate Cayman Islands Ashmore Alexander Real Estate Cayman Islands located in the Cayman Islands. real_estate Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:01.670Z",
+    "updatedAt": "2026-01-28T23:35:01.670Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJLSIAwWqHJY8RnKbZi-L0DbA-xmlexa3it",
+    "category": "private_jet",
+    "subcategory": "Aeroplane",
+    "name": "Cayman Private Aviation",
+    "description": "Cayman Private Aviation located in the Cayman Islands.",
+    "shortDescription": "Cayman Private Aviation located in the Cayman Islands.",
+    "location": {
+      "address": "100 Roberts Dr, George Town, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.294024,
+      "longitude": -81.3624987,
+      "googlePlaceId": "ChIJLSIAwWqHJY8RnKbZi-L0DbA"
+    },
+    "contact": {
+      "phone": "+1 345-938-9747",
+      "email": "",
+      "website": "http://www.caymanprivateaviation.com/",
+      "bookingUrl": "http://www.caymanprivateaviation.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMT7S2oaFRSXkfNjES4wAxUA4PUtnYdspC0sPp-=w92-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipMT7S2oaFRSXkfNjES4wAxUA4PUtnYdspC0sPp-=w92-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 5000,
+      "priceTo": 50000,
+      "pricePerUnit": "/hour",
+      "priceDescription": "$5000 - $50000",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 8 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "8 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 1,
+      "googleRating": 5
+    },
+    "tags": [
+      "aeroplane",
+      "private",
+      "charter",
+      "cayman",
+      "islands",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "cayman",
+      "private",
+      "aviation",
+      "jet",
+      "charter",
+      "islands"
+    ],
+    "embeddingText": "Cayman Private Aviation Cayman Private Aviation located in the Cayman Islands. private_jet Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": true,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:23.273Z",
+    "updatedAt": "2026-01-28T23:35:23.273Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJrUGbeJWHJY8Rb7S_XRH3sxs-v2ptmj0ne",
+    "category": "private_jet",
+    "subcategory": "Travel Agent",
+    "name": "Jet Charter Cayman Islands",
+    "description": "Jet Charter Cayman Islands located in the Cayman Islands.",
+    "shortDescription": "Jet Charter Cayman Islands located in the Cayman Islands.",
+    "location": {
+      "address": "Safehaven Dr, George Town, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.3388673,
+      "longitude": -81.37265,
+      "googlePlaceId": "ChIJrUGbeJWHJY8Rb7S_XRH3sxs"
+    },
+    "contact": {
+      "phone": "+1 345-947-4653",
+      "email": "",
+      "website": "http://www.jetchartercaymanislands.com/private-flights-to/",
+      "bookingUrl": "http://www.jetchartercaymanislands.com/private-flights-to/"
+    },
+    "media": {
+      "thumbnail": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=&key=placeholder",
+      "images": [
+        "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=&key=placeholder"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 500,
+      "priceTo": 2000,
+      "pricePerUnit": "/trip",
+      "priceDescription": "$500 - $2000 /trip",
+      "currency": "USD",
+      "openingHours": {
+        "raw": null,
+        "isOpen": null,
+        "todayHours": null,
+        "schedule": {},
+        "formattedDisplay": null
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 0,
+      "reviewCount": 0,
+      "googleRating": 0
+    },
+    "tags": [
+      "travel agent",
+      "private",
+      "charter",
+      "cayman",
+      "islands",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "jet",
+      "charter",
+      "cayman",
+      "islands",
+      "private"
+    ],
+    "embeddingText": "Jet Charter Cayman Islands Jet Charter Cayman Islands located in the Cayman Islands. private_jet Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": true,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:23.273Z",
+    "updatedAt": "2026-01-28T23:35:23.273Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-organic-1769643301765-xq7ydd2v3",
+    "category": "private_jet",
+    "subcategory": "",
+    "name": "Search Result",
+    "description": "Search Result - Premium service in the Cayman Islands",
+    "shortDescription": "",
+    "location": {
+      "address": "",
+      "district": "Cayman Islands",
+      "island": "Grand Cayman",
+      "latitude": 19.3133,
+      "longitude": -81.2546,
+      "googlePlaceId": ""
+    },
+    "contact": {
+      "phone": "",
+      "email": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "",
+      "images": [],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": null,
+      "priceTo": null,
+      "pricePerUnit": null,
+      "priceDescription": null,
+      "currency": "USD",
+      "openingHours": null,
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 0,
+      "reviewCount": 0,
+      "googleRating": 0
+    },
+    "tags": [
+      "general_info",
+      "private",
+      "charter",
+      "cayman",
+      "islands",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "private",
+      "jet",
+      "charter",
+      "cayman",
+      "islands"
+    ],
+    "embeddingText": "Search Result  private_jet Cayman Islands Caribbean",
+    "isActive": false,
+    "isPremium": true,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:23.273Z",
+    "updatedAt": "2026-01-28T23:35:23.273Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJu-gtDUCGJY8RU2NhQkd8g6s-8lbj8oxcw",
+    "category": "private_jet",
+    "subcategory": "Fixed-base operator",
+    "name": "Atlantic Aviation GCM",
+    "description": "Atlantic Aviation GCM located in the Cayman Islands.",
+    "shortDescription": "Atlantic Aviation GCM located in the Cayman Islands.",
+    "location": {
+      "address": "100 Roberts Dr, George Town, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2939912,
+      "longitude": -81.3624786,
+      "googlePlaceId": "ChIJu-gtDUCGJY8RU2NhQkd8g6s"
+    },
+    "contact": {
+      "phone": "+1 345-949-5252",
+      "email": "",
+      "website": "https://www.atlanticaviation.com/locations/GCM",
+      "bookingUrl": "https://www.atlanticaviation.com/locations/GCM"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerWg1X89emBT1oKfLiGbElA4PaZLqBo_Wj9sQTsqVKr00Qd3ggQbEkUUsgw0KKds1oqeiEDXDItxUs6j-IahyQ0VJ-Gfh_BereQXXdk63gxKzbavkosRcU1BUHmiA_mrkgS1QxaQw=w163-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerWg1X89emBT1oKfLiGbElA4PaZLqBo_Wj9sQTsqVKr00Qd3ggQbEkUUsgw0KKds1oqeiEDXDItxUs6j-IahyQ0VJ-Gfh_BereQXXdk63gxKzbavkosRcU1BUHmiA_mrkgS1QxaQw=w163-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 20,
+      "priceTo": 60,
+      "pricePerUnit": null,
+      "priceDescription": "$20 - $60",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closes soon · 7 pm · Opens 7 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "7 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.6,
+      "reviewCount": 34,
+      "googleRating": 4.6
+    },
+    "tags": [
+      "fixed-base operator",
+      "aircraft",
+      "charter",
+      "grand",
+      "cayman",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "atlantic",
+      "aviation",
+      "gcm",
+      "aircraft",
+      "charter",
+      "grand",
+      "cayman"
+    ],
+    "embeddingText": "Atlantic Aviation GCM Atlantic Aviation GCM located in the Cayman Islands. private_jet Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": true,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:23.273Z",
+    "updatedAt": "2026-01-28T23:35:23.273Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJS5U3w1dBKI8RviM7M4-uDLY-4gv23x6o2",
+    "category": "private_jet",
+    "subcategory": "Helicopter charter",
+    "name": "helicopter drop zone",
+    "description": "helicopter drop zone located in the Cayman Islands.",
+    "shortDescription": "helicopter drop zone located in the Cayman Islands.",
+    "location": {
+      "address": "2, Cayman Brac, Cayman Islands",
+      "district": "Cayman Brac",
+      "island": "Cayman Brac",
+      "latitude": 19.723532799999997,
+      "longitude": -79.8016569,
+      "googlePlaceId": "ChIJS5U3w1dBKI8RviM7M4-uDLY"
+    },
+    "contact": {
+      "phone": "",
+      "email": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=&key=placeholder",
+      "images": [
+        "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=&key=placeholder"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 500,
+      "priceTo": 2000,
+      "pricePerUnit": "/trip",
+      "priceDescription": "$500 - $2000 /trip",
+      "currency": "USD",
+      "openingHours": {
+        "raw": null,
+        "isOpen": null,
+        "todayHours": null,
+        "schedule": {},
+        "formattedDisplay": null
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 0,
+      "reviewCount": 0,
+      "googleRating": 0
+    },
+    "tags": [
+      "helicopter charter",
+      "helicopter",
+      "charter",
+      "cayman",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "helicopter",
+      "drop",
+      "zone",
+      "charter",
+      "cayman"
+    ],
+    "embeddingText": "helicopter drop zone helicopter drop zone located in the Cayman Islands. private_jet Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": true,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:23.273Z",
+    "updatedAt": "2026-01-28T23:35:23.273Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJIeJ2Eb4hOIwRpIHVLrw1sik-azdslvqwq",
+    "category": "vip_escort",
+    "subcategory": "Transportation escort service",
+    "name": "Prestige Taxi & Tours",
+    "description": "Prestige Taxi & Tours located in the Cayman Islands.",
+    "shortDescription": "Prestige Taxi & Tours located in the Cayman Islands.",
+    "location": {
+      "address": "St George's, Grenada",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 12.0282781,
+      "longitude": -61.7492072,
+      "googlePlaceId": "ChIJIeJ2Eb4hOIwRpIHVLrw1sik"
+    },
+    "contact": {
+      "phone": "+1 473-418-4717",
+      "email": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipO7f0UKYgaLahESdfxtycMZTlb0d7eIQIqKrwFe=w194-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipO7f0UKYgaLahESdfxtycMZTlb0d7eIQIqKrwFe=w194-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 50,
+      "priceTo": 150,
+      "pricePerUnit": "/person",
+      "priceDescription": "$50 - $150 /person",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open · Closes 11 pm",
+        "isOpen": true,
+        "todayHours": {
+          "closes": "11 pm"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now · Closes 11 pm"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "online_appointments": true,
+        "on_site_services": true
+      }
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 5,
+      "googleRating": 5
+    },
+    "tags": [
+      "transportation escort service",
+      "escort",
+      "service",
+      "cayman",
+      "islands",
+      "online appointments",
+      "on site services",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "prestige",
+      "taxi",
+      "tours",
+      "vip",
+      "escort",
+      "service",
+      "cayman",
+      "islands"
+    ],
+    "embeddingText": "Prestige Taxi & Tours Prestige Taxi & Tours located in the Cayman Islands. vip_escort Cayman Islands Caribbean",
+    "isActive": false,
+    "isPremium": true,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:23.273Z",
+    "updatedAt": "2026-01-28T23:35:23.273Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJ8Q48yCNbaqcR-fKFi-gdDo8-3ufvcyrr8",
+    "category": "vip_escort",
+    "subcategory": "Transportation escort service",
+    "name": "Island intrigue",
+    "description": "Island intrigue located in the Cayman Islands.",
+    "shortDescription": "Island intrigue located in the Cayman Islands.",
+    "location": {
+      "address": "",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 18.239851599999998,
+      "longitude": -77.34040259999999,
+      "googlePlaceId": "ChIJ8Q48yCNbaqcR-fKFi-gdDo8"
+    },
+    "contact": {
+      "phone": "+1 646-545-9574",
+      "email": "",
+      "website": "https://www.islandintrigue.com/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=12229275729902247003",
+      "bookingUrl": "https://www.islandintrigue.com/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=12229275729902247003"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipP0OTHQsE7FO8mCijUbHVTBVLfILBWrstawFiKf=w80-h106-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipP0OTHQsE7FO8mCijUbHVTBVLfILBWrstawFiKf=w80-h106-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": null,
+      "priceTo": null,
+      "pricePerUnit": null,
+      "priceDescription": null,
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 9 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "9 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 0,
+      "reviewCount": 0,
+      "googleRating": 0
+    },
+    "tags": [
+      "transportation escort service",
+      "escort",
+      "service",
+      "cayman",
+      "islands",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "island",
+      "intrigue",
+      "vip",
+      "escort",
+      "service",
+      "cayman",
+      "islands"
+    ],
+    "embeddingText": "Island intrigue Island intrigue located in the Cayman Islands. vip_escort Cayman Islands Caribbean",
+    "isActive": false,
+    "isPremium": true,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:23.273Z",
+    "updatedAt": "2026-01-28T23:35:23.273Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJfQblqk99L48Rv0m5WOUOphw-hyzt82ewg",
+    "category": "vip_escort",
+    "subcategory": "Travel Agent",
+    "name": "Cayman Luxury Travel",
+    "description": "Cayman Luxury Travel located in the Cayman Islands.",
+    "shortDescription": "Cayman Luxury Travel located in the Cayman Islands.",
+    "location": {
+      "address": "West Bay Gardens, 61 Hillandale Cl, West Bay KY1-1401, Cayman Islands",
+      "district": "West Bay",
+      "island": "Grand Cayman",
+      "latitude": 19.379521399999998,
+      "longitude": -81.4132726,
+      "googlePlaceId": "ChIJfQblqk99L48Rv0m5WOUOphw"
+    },
+    "contact": {
+      "phone": "+1 345-923-0338",
+      "email": "",
+      "website": "https://caymanluxurytravel.com/",
+      "bookingUrl": "https://caymanluxurytravel.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqT21qvUQdWecLxAZLaAJc0aLh6yCDIj5k0ZQs6SFnQzYPs1GXnx3C6cn8fMyU475PIfbZkyW-yWpnGtgLm9SbOlHgkVhnpnLOrM9BVpFojcj0TnqmNBRgD9iWff5GTURZOnkaVybQzXBF-=w80-h142-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqT21qvUQdWecLxAZLaAJc0aLh6yCDIj5k0ZQs6SFnQzYPs1GXnx3C6cn8fMyU475PIfbZkyW-yWpnGtgLm9SbOlHgkVhnpnLOrM9BVpFojcj0TnqmNBRgD9iWff5GTURZOnkaVybQzXBF-=w80-h142-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 20,
+      "priceTo": 60,
+      "pricePerUnit": null,
+      "priceDescription": "$20 - $60",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open 24 hours",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "24"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 3,
+      "googleRating": 5
+    },
+    "tags": [
+      "travel agent",
+      "luxury",
+      "companion",
+      "service",
+      "grand",
+      "cayman",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "cayman",
+      "luxury",
+      "travel",
+      "companion",
+      "service",
+      "grand"
+    ],
+    "embeddingText": "Cayman Luxury Travel Cayman Luxury Travel located in the Cayman Islands. vip_escort Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": true,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:23.273Z",
+    "updatedAt": "2026-01-28T23:35:23.273Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJVyfAekmHJY8Rfiijyzb1gnM-9aanmfffm",
+    "category": "vip_escort",
+    "subcategory": "Tutor",
+    "name": "High Achievement Academy",
+    "description": "High Achievement Academy located in the Cayman Islands.",
+    "shortDescription": "High Achievement Academy located in the Cayman Islands.",
+    "location": {
+      "address": "Windjammer Plaza, Walkers Rd, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.2810827,
+      "longitude": -81.386881,
+      "googlePlaceId": "ChIJVyfAekmHJY8Rfiijyzb1gnM"
+    },
+    "contact": {
+      "phone": "+1 345-746-5555",
+      "email": "",
+      "website": "http://www.haacayman.com/",
+      "bookingUrl": "http://www.haacayman.com/"
+    },
+    "media": {
+      "thumbnail": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=&key=placeholder",
+      "images": [
+        "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=&key=placeholder"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 20,
+      "priceTo": 60,
+      "pricePerUnit": null,
+      "priceDescription": "$20 - $60",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 8:30 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "8:30 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 1,
+      "googleRating": 5
+    },
+    "tags": [
+      "tutor",
+      "high",
+      "class",
+      "companion",
+      "cayman",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "high",
+      "achievement",
+      "academy",
+      "class",
+      "companion",
+      "cayman"
+    ],
+    "embeddingText": "High Achievement Academy High Achievement Academy located in the Cayman Islands. vip_escort Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": true,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:23.273Z",
+    "updatedAt": "2026-01-28T23:35:23.273Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJK_BQPV-GJY8RvnLHZX191hg-8nognaqgt",
+    "category": "financial_services",
+    "subcategory": "Financial institution",
+    "name": "FFP Cayman",
+    "description": "FFP Cayman located in the Cayman Islands.",
+    "shortDescription": "FFP Cayman located in the Cayman Islands.",
+    "location": {
+      "address": "2nd Floor, Harbour Centre, 159 Mary St, Grand Cayman KY1-9006, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.2980523,
+      "longitude": -81.3819594,
+      "googlePlaceId": "ChIJK_BQPV-GJY8RvnLHZX191hg"
+    },
+    "contact": {
+      "phone": "+1 345-947-5854",
+      "email": "",
+      "website": "http://www.ffp.ky/",
+      "bookingUrl": "http://www.ffp.ky/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoqDRCny1H047EVAv2MTILxqZNk-tPasDRqcGTLoKBrgWIW1KJRdmm_SLu5K7Gd1mRqhT5lm2Q7vtJKhOWUnMEJse-1eqI4F-rAHJniLqjzXTJ3ZgrqYPRQryyDnMZq-YMworEFsA=w138-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoqDRCny1H047EVAv2MTILxqZNk-tPasDRqcGTLoKBrgWIW1KJRdmm_SLu5K7Gd1mRqhT5lm2Q7vtJKhOWUnMEJse-1eqI4F-rAHJniLqjzXTJ3ZgrqYPRQryyDnMZq-YMworEFsA=w138-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 20,
+      "priceTo": 60,
+      "pricePerUnit": null,
+      "priceDescription": "$20 - $60",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 8 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "8 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 0,
+      "reviewCount": 0,
+      "googleRating": 0
+    },
+    "tags": [
+      "financial institution",
+      "investment",
+      "fund",
+      "formation",
+      "cayman",
+      "islands",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "ffp",
+      "cayman",
+      "investment",
+      "fund",
+      "formation",
+      "islands"
+    ],
+    "embeddingText": "FFP Cayman FFP Cayman located in the Cayman Islands. financial_services Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": true,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:23.274Z",
+    "updatedAt": "2026-01-28T23:35:23.274Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJp8_XREGHJY8RvRdLlACDidE-0rzzxvddp",
+    "category": "financial_services",
+    "subcategory": "Business banking service",
+    "name": "FundBank Ltd.",
+    "description": "FundBank Ltd. located in the Cayman Islands.",
+    "shortDescription": "FundBank Ltd. located in the Cayman Islands.",
+    "location": {
+      "address": "2nd Floor, The White House, 20 Genesis Cl, George Town KY1-1102, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2963156,
+      "longitude": -81.3797665,
+      "googlePlaceId": "ChIJp8_XREGHJY8RvRdLlACDidE"
+    },
+    "contact": {
+      "phone": "+1 345-745-9999",
+      "email": "",
+      "website": "https://www.fundbank.com/?utm_source=google&utm_medium=gbp",
+      "bookingUrl": "https://www.fundbank.com/?utm_source=google&utm_medium=gbp"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPgBYFzlM5ycXi2w6uApziFyFQ_oOQ_P3Litgmv=w209-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipPgBYFzlM5ycXi2w6uApziFyFQ_oOQ_P3Litgmv=w209-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 5000,
+      "priceTo": 100000,
+      "pricePerUnit": "/setup",
+      "priceDescription": "$5000 - $100000",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 8 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "8 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 0,
+      "reviewCount": 0,
+      "googleRating": 0
+    },
+    "tags": [
+      "business banking service",
+      "investment",
+      "fund",
+      "formation",
+      "cayman",
+      "islands",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "fundbank",
+      "ltd.",
+      "investment",
+      "fund",
+      "formation",
+      "cayman",
+      "islands"
+    ],
+    "embeddingText": "FundBank Ltd. FundBank Ltd. located in the Cayman Islands. financial_services Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": true,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:23.274Z",
+    "updatedAt": "2026-01-28T23:35:23.274Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJkZlnLV-GJY8RW224r7fyoQA-2xokwxfkg",
+    "category": "financial_services",
+    "subcategory": "Financial institution",
+    "name": "MUFG Fund Services (Cayman) Ltd",
+    "description": "MUFG Fund Services (Cayman) Ltd located in the Cayman Islands.",
+    "shortDescription": "MUFG Fund Services (Cayman) Ltd located in the Cayman Islands.",
+    "location": {
+      "address": "MUFG House, 227 Elgin Ave, George Town, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2920648,
+      "longitude": -81.3752476,
+      "googlePlaceId": "ChIJkZlnLV-GJY8RW224r7fyoQA"
+    },
+    "contact": {
+      "phone": "",
+      "email": "",
+      "website": "http://www.mufg-investorservices.com/office-locations/cayman-islands/",
+      "bookingUrl": "http://www.mufg-investorservices.com/office-locations/cayman-islands/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweo6M74zCs9fQM7Py4XcPE2z60UaC9rdmYY4uR-M0i4me_fKOqMvBir346AYz6Sh3VgvyPfnc79rhkul0Gdo0752F4EA2PV326Sbkp_vVMX7RbVvOjYgFv7yZebM9iQRPL-LKOxMzQ=w142-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweo6M74zCs9fQM7Py4XcPE2z60UaC9rdmYY4uR-M0i4me_fKOqMvBir346AYz6Sh3VgvyPfnc79rhkul0Gdo0752F4EA2PV326Sbkp_vVMX7RbVvOjYgFv7yZebM9iQRPL-LKOxMzQ=w142-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 20,
+      "priceTo": 60,
+      "pricePerUnit": null,
+      "priceDescription": "$20 - $60",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 8:30 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "8:30 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 0,
+      "reviewCount": 0,
+      "googleRating": 0
+    },
+    "tags": [
+      "financial institution",
+      "investment",
+      "fund",
+      "formation",
+      "cayman",
+      "islands",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "mufg",
+      "fund",
+      "services",
+      "(cayman)",
+      "ltd",
+      "investment",
+      "formation",
+      "cayman",
+      "islands"
+    ],
+    "embeddingText": "MUFG Fund Services (Cayman) Ltd MUFG Fund Services (Cayman) Ltd located in the Cayman Islands. financial_services Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": true,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:23.274Z",
+    "updatedAt": "2026-01-28T23:35:23.274Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJ4x8Ac2eGJY8RUAPFxzmZXh4-h2c9havcc",
+    "category": "financial_services",
+    "subcategory": "Corporate office",
+    "name": "Cayman Islands Fund Administrators Association",
+    "description": "Cayman Islands Fund Administrators Association located in the Cayman Islands.",
+    "shortDescription": "Cayman Islands Fund Administrators Association located in the Cayman Islands.",
+    "location": {
+      "address": "Elgin Ave, George Town, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2924038,
+      "longitude": -81.3777801,
+      "googlePlaceId": "ChIJ4x8Ac2eGJY8RUAPFxzmZXh4"
+    },
+    "contact": {
+      "phone": "+1 345-914-3225",
+      "email": "",
+      "website": "https://www.cifaa.org.ky/members/",
+      "bookingUrl": "https://www.cifaa.org.ky/members/"
+    },
+    "media": {
+      "thumbnail": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=&key=placeholder",
+      "images": [
+        "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=&key=placeholder"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 20,
+      "priceTo": 60,
+      "pricePerUnit": null,
+      "priceDescription": "$20 - $60",
+      "currency": "USD",
+      "openingHours": {
+        "raw": null,
+        "isOpen": null,
+        "todayHours": null,
+        "schedule": {},
+        "formattedDisplay": null
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 0,
+      "reviewCount": 0,
+      "googleRating": 0
+    },
+    "tags": [
+      "corporate office",
+      "investment",
+      "fund",
+      "formation",
+      "cayman",
+      "islands",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "cayman",
+      "islands",
+      "fund",
+      "administrators",
+      "association",
+      "investment",
+      "formation"
+    ],
+    "embeddingText": "Cayman Islands Fund Administrators Association Cayman Islands Fund Administrators Association located in the Cayman Islands. financial_services Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": true,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:23.274Z",
+    "updatedAt": "2026-01-28T23:35:23.274Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJt7ir5o2JJY8R2fNWuh_4YvQ-v57fhu09q",
+    "category": "financial_services",
+    "subcategory": "Financial institution",
+    "name": "Bell Rock Group",
+    "description": "Bell Rock Group located in the Cayman Islands.",
+    "shortDescription": "Bell Rock Group located in the Cayman Islands.",
+    "location": {
+      "address": "10 Market Street, 758 Camana Bay, KY1-9006, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.329459999999997,
+      "longitude": -81.261849,
+      "googlePlaceId": "ChIJt7ir5o2JJY8R2fNWuh_4YvQ"
+    },
+    "contact": {
+      "phone": "+1 345-949-4850",
+      "email": "",
+      "website": "http://bellrockgroup.com/",
+      "bookingUrl": "http://bellrockgroup.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMljR0jnyn7oKu9jzK1DoLwSiQykIgOScf3c30t=w163-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipMljR0jnyn7oKu9jzK1DoLwSiQykIgOScf3c30t=w163-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 20,
+      "priceTo": 60,
+      "pricePerUnit": null,
+      "priceDescription": "$20 - $60",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open 24 hours",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "24"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 4,
+      "googleRating": 5
+    },
+    "tags": [
+      "financial institution",
+      "hedge",
+      "fund",
+      "setup",
+      "cayman",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "bell",
+      "rock",
+      "group",
+      "hedge",
+      "fund",
+      "setup",
+      "cayman"
+    ],
+    "embeddingText": "Bell Rock Group Bell Rock Group located in the Cayman Islands. financial_services Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": true,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:23.274Z",
+    "updatedAt": "2026-01-28T23:35:23.274Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJaSiFEWaHJY8RJlmld_f4lzE-s1y3yzwsp",
+    "category": "financial_services",
+    "subcategory": "Investment service",
+    "name": "LOM Financial Cayman",
+    "description": "LOM Financial Cayman located in the Cayman Islands.",
+    "shortDescription": "LOM Financial Cayman located in the Cayman Islands.",
+    "location": {
+      "address": "Ground Floor, Camana Bay, 18 Forum Ln, KY1-1104, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3211256,
+      "longitude": -81.3785304,
+      "googlePlaceId": "ChIJaSiFEWaHJY8RJlmld_f4lzE"
+    },
+    "contact": {
+      "phone": "+1 345-233-0100",
+      "email": "",
+      "website": "http://www.lom.com/?utm_source=gmb&utm_medium=organic&utm_campaign=profile&utm_content=link",
+      "bookingUrl": "http://www.lom.com/?utm_source=gmb&utm_medium=organic&utm_campaign=profile&utm_content=link"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipN-nlQ8vXFLJqZFyxPDk7gPPx_NreRuTmCTVcTI=w80-h106-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipN-nlQ8vXFLJqZFyxPDk7gPPx_NreRuTmCTVcTI=w80-h106-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 20,
+      "priceTo": 60,
+      "pricePerUnit": null,
+      "priceDescription": "$20 - $60",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 9 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "9 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 2,
+      "googleRating": 5
+    },
+    "tags": [
+      "investment service",
+      "hedge",
+      "fund",
+      "setup",
+      "cayman",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "lom",
+      "financial",
+      "cayman",
+      "hedge",
+      "fund",
+      "setup"
+    ],
+    "embeddingText": "LOM Financial Cayman LOM Financial Cayman located in the Cayman Islands. financial_services Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": true,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:23.274Z",
+    "updatedAt": "2026-01-28T23:35:23.274Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJga4aa6yHJY8R-3-UNrd6FgA-srolgdycu",
+    "category": "financial_services",
+    "subcategory": "Investment service",
+    "name": "Patria Investments",
+    "description": "Patria Investments located in the Cayman Islands.",
+    "shortDescription": "Patria Investments located in the Cayman Islands.",
+    "location": {
+      "address": "60 Nexus Wy, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.319722499999997,
+      "longitude": -81.3773155,
+      "googlePlaceId": "ChIJga4aa6yHJY8R-3-UNrd6FgA"
+    },
+    "contact": {
+      "phone": "+1 345-640-4900",
+      "email": "",
+      "website": "https://www.patria.com/the-firm",
+      "bookingUrl": "https://www.patria.com/the-firm"
+    },
+    "media": {
+      "thumbnail": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=&key=placeholder",
+      "images": [
+        "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=&key=placeholder"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 20,
+      "priceTo": 60,
+      "pricePerUnit": null,
+      "priceDescription": "$20 - $60",
+      "currency": "USD",
+      "openingHours": {
+        "raw": null,
+        "isOpen": null,
+        "todayHours": null,
+        "schedule": {},
+        "formattedDisplay": null
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 2,
+      "googleRating": 5
+    },
+    "tags": [
+      "investment service",
+      "hedge",
+      "fund",
+      "setup",
+      "cayman",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "patria",
+      "investments",
+      "hedge",
+      "fund",
+      "setup",
+      "cayman"
+    ],
+    "embeddingText": "Patria Investments Patria Investments located in the Cayman Islands. financial_services Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": true,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:23.274Z",
+    "updatedAt": "2026-01-28T23:35:23.274Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJhxOoQ8CHJY8RJzy-CAnJBkA-asa47tf84",
+    "category": "financial_services",
+    "subcategory": "Financial institution",
+    "name": "Overseas Asset Management",
+    "description": "Overseas Asset Management located in the Cayman Islands.",
+    "shortDescription": "Overseas Asset Management located in the Cayman Islands.",
+    "location": {
+      "address": "Grand Cayman, The Pavilion, Cricket Square, KY1-1107, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.2924453,
+      "longitude": -81.37700219999999,
+      "googlePlaceId": "ChIJhxOoQ8CHJY8RJzy-CAnJBkA"
+    },
+    "contact": {
+      "phone": "+1 345-949-8787",
+      "email": "",
+      "website": "https://oam.com.ky/",
+      "bookingUrl": "https://oam.com.ky/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPLLaVzChrr41gh7uxUkQiS_RrbbBvIETqE93DB=w92-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipPLLaVzChrr41gh7uxUkQiS_RrbbBvIETqE93DB=w92-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 5000,
+      "priceTo": 100000,
+      "pricePerUnit": "/setup",
+      "priceDescription": "$5000 - $100000",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 8:30 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "8:30 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 0,
+      "reviewCount": 0,
+      "googleRating": 0
+    },
+    "tags": [
+      "financial institution",
+      "hedge",
+      "fund",
+      "setup",
+      "cayman",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "overseas",
+      "asset",
+      "management",
+      "hedge",
+      "fund",
+      "setup",
+      "cayman"
+    ],
+    "embeddingText": "Overseas Asset Management Overseas Asset Management located in the Cayman Islands. financial_services Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": true,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:23.274Z",
+    "updatedAt": "2026-01-28T23:35:23.274Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJddGax52HJY8Rl_0N-hoabK0-x74ytw9d5",
+    "category": "financial_services",
+    "subcategory": "Financial institution",
+    "name": "The Catalyst Group",
+    "description": "The Catalyst Group located in the Cayman Islands.",
+    "shortDescription": "The Catalyst Group located in the Cayman Islands.",
+    "location": {
+      "address": "1207, Grand Cayman KY1, Cayman Islands, 142 Seafarers Wy, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.2963387,
+      "longitude": -81.3829167,
+      "googlePlaceId": "ChIJddGax52HJY8Rl_0N-hoabK0"
+    },
+    "contact": {
+      "phone": "",
+      "email": "",
+      "website": "https://thecatalystgroup.com/",
+      "bookingUrl": "https://thecatalystgroup.com/"
+    },
+    "media": {
+      "thumbnail": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=&key=placeholder",
+      "images": [
+        "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=&key=placeholder"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 20,
+      "priceTo": 60,
+      "pricePerUnit": null,
+      "priceDescription": "$20 - $60",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 8 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "8 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.5,
+      "reviewCount": 6,
+      "googleRating": 4.5
+    },
+    "tags": [
+      "financial institution",
+      "private",
+      "equity",
+      "fund",
+      "cayman",
+      "islands",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "the",
+      "catalyst",
+      "group",
+      "private",
+      "equity",
+      "fund",
+      "cayman",
+      "islands"
+    ],
+    "embeddingText": "The Catalyst Group The Catalyst Group located in the Cayman Islands. financial_services Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": true,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:23.274Z",
+    "updatedAt": "2026-01-28T23:35:23.274Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJ0w3GX16GJY8RTUEzh-oEb7c-e3h07ht2t",
+    "category": "legal_services",
+    "subcategory": "Law firm",
+    "name": "Cayman Law",
+    "description": "Cayman Law located in the Cayman Islands.",
+    "shortDescription": "Cayman Law located in the Cayman Islands.",
+    "location": {
+      "address": "Strathvale House, 2nd Floor, Strathvale House, 90 North Church Street, PO Box 1103, 90 N Church St, George Town, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2993277,
+      "longitude": -81.38188319999999,
+      "googlePlaceId": "ChIJ0w3GX16GJY8RTUEzh-oEb7c"
+    },
+    "contact": {
+      "phone": "+1 345-949-8572",
+      "email": "",
+      "website": "http://caymanlaw.com/",
+      "bookingUrl": "http://caymanlaw.com/"
+    },
+    "media": {
+      "thumbnail": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=&key=placeholder",
+      "images": [
+        "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=&key=placeholder"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 300,
+      "priceTo": 1500,
+      "pricePerUnit": "/hour",
+      "priceDescription": "$300 - $1500",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open · Closes 12 am",
+        "isOpen": true,
+        "todayHours": {
+          "closes": "12 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now · Closes 12 am"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 6,
+      "googleRating": 5
+    },
+    "tags": [
+      "law firm",
+      "firm",
+      "cayman",
+      "islands",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "cayman",
+      "law",
+      "firm",
+      "islands"
+    ],
+    "embeddingText": "Cayman Law Cayman Law located in the Cayman Islands. legal_services Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:23.274Z",
+    "updatedAt": "2026-01-28T23:35:23.274Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJC8mvIl-GJY8R3IRwqPvGAzY-zsyixsbye",
+    "category": "legal_services",
+    "subcategory": "Law firm",
+    "name": "Stenning's Chambers",
+    "description": "Stenning's Chambers located in the Cayman Islands.",
+    "shortDescription": "Stenning's Chambers located in the Cayman Islands.",
+    "location": {
+      "address": "The Highlands, 201 Hillard Drive West Bay Grand Cayman KY1, 1103, Cayman Islands",
+      "district": "West Bay",
+      "island": "Grand Cayman",
+      "latitude": 19.3698662,
+      "longitude": -81.38909489999999,
+      "googlePlaceId": "ChIJC8mvIl-GJY8R3IRwqPvGAzY"
+    },
+    "contact": {
+      "phone": "+1 345-945-0220",
+      "email": "",
+      "website": "https://www.stenningschambers.com/",
+      "bookingUrl": "https://www.stenningschambers.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOwLh1yKFBIlmebei_Q8NCfxOv8hOHainvUPSzQ=w92-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipOwLh1yKFBIlmebei_Q8NCfxOv8hOHainvUPSzQ=w92-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 300,
+      "priceTo": 1500,
+      "pricePerUnit": "/hour",
+      "priceDescription": "$300 - $1500",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open 24 hours",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "24"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.8,
+      "reviewCount": 10,
+      "googleRating": 4.8
+    },
+    "tags": [
+      "law firm",
+      "firm",
+      "cayman",
+      "islands",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "stenning's",
+      "chambers",
+      "law",
+      "firm",
+      "cayman",
+      "islands"
+    ],
+    "embeddingText": "Stenning's Chambers Stenning's Chambers located in the Cayman Islands. legal_services Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:23.274Z",
+    "updatedAt": "2026-01-28T23:35:23.274Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJZeSi66aHJY8RIE3sV1yl-hI-41njnex7e",
+    "category": "legal_services",
+    "subcategory": "Law firm",
+    "name": "Symons & Symons, Attorneys-at-Law - Law firm in the Cayman Islands",
+    "description": "Symons & Symons, Attorneys-at-Law - Law firm in the Cayman Islands located in the Cayman Islands.",
+    "shortDescription": "Symons & Symons, Attorneys-at-Law - Law firm in the Cayman Islands located in the Cayman Islands.",
+    "location": {
+      "address": "Unit 422, 4th Floor, Oceanside Suites, 13 Genesis Cl, George Town KY1-1204, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2965242,
+      "longitude": -81.3802819,
+      "googlePlaceId": "ChIJZeSi66aHJY8RIE3sV1yl-hI"
+    },
+    "contact": {
+      "phone": "+1 345-745-7529",
+      "email": "",
+      "website": "http://www.symonsandsymons.com/",
+      "bookingUrl": "http://www.symonsandsymons.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipM9at_Wudd9GKV1O-87N93LOHG51qQnEa00z8st=w92-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipM9at_Wudd9GKV1O-87N93LOHG51qQnEa00z8st=w92-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 300,
+      "priceTo": 1500,
+      "pricePerUnit": "/hour",
+      "priceDescription": "$300 - $1500",
+      "currency": "USD",
+      "openingHours": {
+        "raw": null,
+        "isOpen": null,
+        "todayHours": null,
+        "schedule": {},
+        "formattedDisplay": null
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "online_appointments": true,
+        "on_site_services": true
+      }
+    },
+    "ratings": {
+      "overall": 4.8,
+      "reviewCount": 6,
+      "googleRating": 4.8
+    },
+    "tags": [
+      "law firm",
+      "firm",
+      "cayman",
+      "islands",
+      "online appointments",
+      "on site services",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "symons",
+      "symons,",
+      "attorneys-at-law",
+      "law",
+      "firm",
+      "the",
+      "cayman",
+      "islands"
+    ],
+    "embeddingText": "Symons & Symons, Attorneys-at-Law - Law firm in the Cayman Islands Symons & Symons, Attorneys-at-Law - Law firm in the Cayman Islands located in the Cayman Islands. legal_services Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:23.274Z",
+    "updatedAt": "2026-01-28T23:35:23.274Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJO_jJGl6GJY8RDuG5DaT5oX4-1rsl1aqef",
+    "category": "legal_services",
+    "subcategory": "Law firm",
+    "name": "Broadhurst LLC, Attorneys-at-Law",
+    "description": "Broadhurst LLC, Attorneys-at-Law located in the Cayman Islands.",
+    "shortDescription": "Broadhurst LLC, Attorneys-at-Law located in the Cayman Islands.",
+    "location": {
+      "address": "54 Edward St, George Town, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.295994,
+      "longitude": -81.3812483,
+      "googlePlaceId": "ChIJO_jJGl6GJY8RDuG5DaT5oX4"
+    },
+    "contact": {
+      "phone": "+1 345-949-7237",
+      "email": "",
+      "website": "http://www.broadhurstllc.com/",
+      "bookingUrl": "http://www.broadhurstllc.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipO54-1Bq33FO02RcYF47Xq94qQA4izWLECum-sW=w223-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipO54-1Bq33FO02RcYF47Xq94qQA4izWLECum-sW=w223-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 300,
+      "priceTo": 1500,
+      "pricePerUnit": "/hour",
+      "priceDescription": "$300 - $1500",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 9 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "9 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.8,
+      "reviewCount": 18,
+      "googleRating": 4.8
+    },
+    "tags": [
+      "law firm",
+      "firm",
+      "cayman",
+      "islands",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "broadhurst",
+      "llc,",
+      "attorneys-at-law",
+      "law",
+      "firm",
+      "cayman",
+      "islands"
+    ],
+    "embeddingText": "Broadhurst LLC, Attorneys-at-Law Broadhurst LLC, Attorneys-at-Law located in the Cayman Islands. legal_services Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:23.274Z",
+    "updatedAt": "2026-01-28T23:35:23.274Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJnQWMUMiHJY8RFG2ljrUjJ8A-v2r9a1jwq",
+    "category": "legal_services",
+    "subcategory": "Law firm",
+    "name": "Loeb Smith Attorneys",
+    "description": "Loeb Smith Attorneys located in the Cayman Islands.",
+    "shortDescription": "Loeb Smith Attorneys located in the Cayman Islands.",
+    "location": {
+      "address": "5th Floor Zephyr House 122 Mary Street George Town Grand Cayman KY1, 1206, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.297690799999998,
+      "longitude": -81.3800657,
+      "googlePlaceId": "ChIJnQWMUMiHJY8RFG2ljrUjJ8A"
+    },
+    "contact": {
+      "phone": "+1 345-749-7591",
+      "email": "",
+      "website": "https://www.loebsmith.com/",
+      "bookingUrl": "https://www.loebsmith.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipM7CGs8G-nSdZOhQiyPRiUw_VFz85_3XT2kjmkG=w163-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipM7CGs8G-nSdZOhQiyPRiUw_VFz85_3XT2kjmkG=w163-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 300,
+      "priceTo": 1500,
+      "pricePerUnit": "/hour",
+      "priceDescription": "$300 - $1500",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 8:30 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "8:30 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.7,
+      "reviewCount": 7,
+      "googleRating": 4.7
+    },
+    "tags": [
+      "law firm",
+      "firm",
+      "cayman",
+      "islands",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "loeb",
+      "smith",
+      "attorneys",
+      "law",
+      "firm",
+      "cayman",
+      "islands"
+    ],
+    "embeddingText": "Loeb Smith Attorneys Loeb Smith Attorneys located in the Cayman Islands. legal_services Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:23.274Z",
+    "updatedAt": "2026-01-28T23:35:23.274Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJQzEFayyHJY8RZciYQa6BNT8-4royzh8ju",
+    "category": "legal_services",
+    "subcategory": "Lawyer",
+    "name": "Hampson and Company",
+    "description": "Hampson and Company located in the Cayman Islands.",
+    "shortDescription": "Hampson and Company located in the Cayman Islands.",
+    "location": {
+      "address": "Apollo House East, 4th Floor 87 Mary Street George Town Grand Cayman KY1, 1107, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2967607,
+      "longitude": -81.379712,
+      "googlePlaceId": "ChIJQzEFayyHJY8RZciYQa6BNT8"
+    },
+    "contact": {
+      "phone": "+1 345-623-7788",
+      "email": "",
+      "website": "https://hampsonandco.com/",
+      "bookingUrl": "https://hampsonandco.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPRVfiVmWWskcz1iY5pge2U7ZsB12ZFtjz1C4pw=w244-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipPRVfiVmWWskcz1iY5pge2U7ZsB12ZFtjz1C4pw=w244-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 20,
+      "priceTo": 60,
+      "pricePerUnit": null,
+      "priceDescription": "$20 - $60",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 8:30 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "8:30 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.6,
+      "reviewCount": 7,
+      "googleRating": 4.6
+    },
+    "tags": [
+      "lawyer",
+      "corporate",
+      "attorney",
+      "grand",
+      "cayman",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "hampson",
+      "and",
+      "company",
+      "corporate",
+      "attorney",
+      "grand",
+      "cayman"
+    ],
+    "embeddingText": "Hampson and Company Hampson and Company located in the Cayman Islands. legal_services Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:23.274Z",
+    "updatedAt": "2026-01-28T23:35:23.274Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJ96ExZqaHJY8RyjbsCUSZ8yc-rk8gsf0s3",
+    "category": "legal_services",
+    "subcategory": "Law firm",
+    "name": "Nelsons Legal",
+    "description": "Nelsons Legal located in the Cayman Islands.",
+    "shortDescription": "Nelsons Legal located in the Cayman Islands.",
+    "location": {
+      "address": "The Grand Pavilion Commercial Centre, 802 W Bay Rd, Grand Cayman KY1-1201, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3289301,
+      "longitude": -81.3805826,
+      "googlePlaceId": "ChIJ96ExZqaHJY8RyjbsCUSZ8yc"
+    },
+    "contact": {
+      "phone": "+1 345-949-9710",
+      "email": "",
+      "website": "http://nelsonslegal.com/?utm_source=GMBlisting&utm_medium=organic&utm_campaign=gmb",
+      "bookingUrl": "http://nelsonslegal.com/?utm_source=GMBlisting&utm_medium=organic&utm_campaign=gmb"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMe6J7suxZgQ_PMuwdP5QAWjB14RVzV0GU7TFt8=w138-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipMe6J7suxZgQ_PMuwdP5QAWjB14RVzV0GU7TFt8=w138-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 300,
+      "priceTo": 1500,
+      "pricePerUnit": "/hour",
+      "priceDescription": "$300 - $1500",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 8:30 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "8:30 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "online_appointments": true,
+        "on_site_services": true
+      }
+    },
+    "ratings": {
+      "overall": 4.1,
+      "reviewCount": 13,
+      "googleRating": 4.1
+    },
+    "tags": [
+      "law firm",
+      "corporate",
+      "attorney",
+      "grand",
+      "cayman",
+      "online appointments",
+      "on site services",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "nelsons",
+      "legal",
+      "corporate",
+      "attorney",
+      "grand",
+      "cayman"
+    ],
+    "embeddingText": "Nelsons Legal Nelsons Legal located in the Cayman Islands. legal_services Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:23.274Z",
+    "updatedAt": "2026-01-28T23:35:23.274Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJOSypDYqJJY8RGpY4nGqnzS4-13cbabuo6",
+    "category": "legal_services",
+    "subcategory": "Law firm",
+    "name": "Campbells",
+    "description": "Campbells located in the Cayman Islands.",
+    "shortDescription": "Campbells located in the Cayman Islands.",
+    "location": {
+      "address": "Floor 4, Willow House, Cricket Square George Town Grand Cayman KY1, 9010, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.295302,
+      "longitude": -81.37559859999999,
+      "googlePlaceId": "ChIJOSypDYqJJY8RGpY4nGqnzS4"
+    },
+    "contact": {
+      "phone": "+1 345-949-2648",
+      "email": "",
+      "website": "https://campbellslegal.com/",
+      "bookingUrl": "https://campbellslegal.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOxwWLrxlCo4WNGvMYVD0GnCdLHRh6iml8VoabW=w92-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipOxwWLrxlCo4WNGvMYVD0GnCdLHRh6iml8VoabW=w92-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 300,
+      "priceTo": 1500,
+      "pricePerUnit": "/hour",
+      "priceDescription": "$300 - $1500",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 8:30 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "8:30 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.7,
+      "reviewCount": 7,
+      "googleRating": 4.7
+    },
+    "tags": [
+      "law firm",
+      "corporate",
+      "attorney",
+      "grand",
+      "cayman",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "campbells",
+      "corporate",
+      "attorney",
+      "grand",
+      "cayman"
+    ],
+    "embeddingText": "Campbells Campbells located in the Cayman Islands. legal_services Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:23.274Z",
+    "updatedAt": "2026-01-28T23:35:23.274Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJiVINCUhKDCoRiZj8GsmXe9k-s70j193l6",
+    "category": "legal_services",
+    "subcategory": "Notary public",
+    "name": "HALO Legal Solutions- Cayman Islands",
+    "description": "HALO Legal Solutions- Cayman Islands located in the Cayman Islands.",
+    "shortDescription": "HALO Legal Solutions- Cayman Islands located in the Cayman Islands.",
+    "location": {
+      "address": "",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.5077499,
+      "longitude": -80.57424999999999,
+      "googlePlaceId": "ChIJiVINCUhKDCoRiZj8GsmXe9k"
+    },
+    "contact": {
+      "phone": "+1 345-939-0079",
+      "email": "",
+      "website": "http://www.hlscayman.com/",
+      "bookingUrl": "http://www.hlscayman.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOubwXNI1Nhm_jB9fBm1cxXhob74zdsWblpyzeP=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipOubwXNI1Nhm_jB9fBm1cxXhob74zdsWblpyzeP=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 15,
+      "priceTo": 50,
+      "pricePerUnit": null,
+      "priceDescription": "$15 - $50",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 9 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "9 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "online_appointments": true
+      }
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 83,
+      "googleRating": 5
+    },
+    "tags": [
+      "notary public",
+      "offshore",
+      "legal",
+      "services",
+      "cayman",
+      "online appointments",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "halo",
+      "legal",
+      "solutions-",
+      "cayman",
+      "islands",
+      "offshore",
+      "services"
+    ],
+    "embeddingText": "HALO Legal Solutions- Cayman Islands HALO Legal Solutions- Cayman Islands located in the Cayman Islands. legal_services Cayman Islands Caribbean",
+    "isActive": false,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:23.274Z",
+    "updatedAt": "2026-01-28T23:35:23.274Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJX-axSFuGJY8RS5b2Eef4lW8-95b7rm1w0",
+    "category": "concierge",
+    "subcategory": "Estate Agent",
+    "name": "My Personal Concierge Services LTD",
+    "description": "My Personal Concierge Services LTD located in the Cayman Islands.",
+    "shortDescription": "My Personal Concierge Services LTD located in the Cayman Islands.",
+    "location": {
+      "address": "95 Godfrey Nixon Wy, George Town, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.3001513,
+      "longitude": -81.3735794,
+      "googlePlaceId": "ChIJX-axSFuGJY8RS5b2Eef4lW8"
+    },
+    "contact": {
+      "phone": "+1 345-928-7723",
+      "email": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=&key=placeholder",
+      "images": [
+        "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=&key=placeholder"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 200,
+      "priceTo": 2000,
+      "pricePerUnit": "/day",
+      "priceDescription": "$200 - $2000",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 9 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "9 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 1,
+      "googleRating": 5
+    },
+    "tags": [
+      "estate agent",
+      "luxury",
+      "concierge",
+      "cayman",
+      "islands",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "personal",
+      "concierge",
+      "services",
+      "ltd",
+      "luxury",
+      "cayman",
+      "islands"
+    ],
+    "embeddingText": "My Personal Concierge Services LTD My Personal Concierge Services LTD located in the Cayman Islands. concierge Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:23.274Z",
+    "updatedAt": "2026-01-28T23:35:23.274Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJL_OooGeLKI8RYZUxs_kOXkM-4uzcbp3id",
+    "category": "concierge",
+    "subcategory": "Travel Agent",
+    "name": "Little Cayman Bookings & Concierge",
+    "description": "Little Cayman Bookings & Concierge located in the Cayman Islands.",
+    "shortDescription": "Little Cayman Bookings & Concierge located in the Cayman Islands.",
+    "location": {
+      "address": "Lighthouse Road, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Little Cayman",
+      "latitude": 19.6606493,
+      "longitude": -80.1077305,
+      "googlePlaceId": "ChIJL_OooGeLKI8RYZUxs_kOXkM"
+    },
+    "contact": {
+      "phone": "+1 345-939-0303",
+      "email": "",
+      "website": "https://littlecaymanbookings.com/",
+      "bookingUrl": "https://littlecaymanbookings.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipO6mRDpD5pIRtxt1nozjalhzxVAcGe09Wi-iGkS=w137-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipO6mRDpD5pIRtxt1nozjalhzxVAcGe09Wi-iGkS=w137-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 200,
+      "priceTo": 2000,
+      "pricePerUnit": "/day",
+      "priceDescription": "$200 - $2000",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open 24 hours",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "24"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 2,
+      "googleRating": 5
+    },
+    "tags": [
+      "travel agent",
+      "luxury",
+      "concierge",
+      "cayman",
+      "islands",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "little",
+      "cayman",
+      "bookings",
+      "concierge",
+      "luxury",
+      "islands"
+    ],
+    "embeddingText": "Little Cayman Bookings & Concierge Little Cayman Bookings & Concierge located in the Cayman Islands. concierge Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:23.274Z",
+    "updatedAt": "2026-01-28T23:35:23.274Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJieWQ4KOHJY8RUArQOSP-b9A-elcv4sl1d",
+    "category": "concierge",
+    "subcategory": "Transportation service",
+    "name": "Pinnacle Concierge",
+    "description": "Pinnacle Concierge located in the Cayman Islands.",
+    "shortDescription": "Pinnacle Concierge located in the Cayman Islands.",
+    "location": {
+      "address": "19 Tropical Gardens Rd, Grand Cayman KY1-1601, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.2875917,
+      "longitude": -81.35082779999999,
+      "googlePlaceId": "ChIJieWQ4KOHJY8RUArQOSP-b9A"
+    },
+    "contact": {
+      "phone": "+1 345-928-2768",
+      "email": "",
+      "website": "http://www.pinnacleconcierge.net/",
+      "bookingUrl": "http://www.pinnacleconcierge.net/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOMHO3Z9MWYv8xDyp8W__z67CDFkE52bIkZlkEs=w131-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipOMHO3Z9MWYv8xDyp8W__z67CDFkE52bIkZlkEs=w131-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 200,
+      "priceTo": 800,
+      "pricePerUnit": "/night",
+      "priceDescription": "$200 - $800 /night",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open 24 hours",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "24"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 2,
+      "googleRating": 5
+    },
+    "tags": [
+      "transportation service",
+      "luxury",
+      "concierge",
+      "cayman",
+      "islands",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "pinnacle",
+      "concierge",
+      "luxury",
+      "cayman",
+      "islands"
+    ],
+    "embeddingText": "Pinnacle Concierge Pinnacle Concierge located in the Cayman Islands. concierge Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:23.274Z",
+    "updatedAt": "2026-01-28T23:35:23.274Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJba5aPC6HJY8R8YDGwQ46O_U-9rmcjzw4g",
+    "category": "concierge",
+    "subcategory": "Event Planning Service",
+    "name": "VIP Vibes Cayman",
+    "description": "VIP Vibes Cayman located in the Cayman Islands.",
+    "shortDescription": "VIP Vibes Cayman located in the Cayman Islands.",
+    "location": {
+      "address": "Unit 208, Elizabethan Square, Amerigo House, 80 Shedden Rd, Grand Cayman KY1-1110, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.2942102,
+      "longitude": -81.38006899999999,
+      "googlePlaceId": "ChIJba5aPC6HJY8R8YDGwQ46O_U"
+    },
+    "contact": {
+      "phone": "+1 345-547-1844",
+      "email": "",
+      "website": "http://www.vipvibescayman.com/",
+      "bookingUrl": "http://www.vipvibescayman.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNUICDxZq4zHk6RR0TN2ucKRI3Oe70JgxI3eEBD=w92-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipNUICDxZq4zHk6RR0TN2ucKRI3Oe70JgxI3eEBD=w92-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 200,
+      "priceTo": 2000,
+      "pricePerUnit": "/day",
+      "priceDescription": "$200 - $2000",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 8:30 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "8:30 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "on_site_services": true
+      }
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 6,
+      "googleRating": 5
+    },
+    "tags": [
+      "event planning service",
+      "concierge",
+      "service",
+      "grand",
+      "cayman",
+      "on site services",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "vip",
+      "vibes",
+      "cayman",
+      "concierge",
+      "service",
+      "grand"
+    ],
+    "embeddingText": "VIP Vibes Cayman VIP Vibes Cayman located in the Cayman Islands. concierge Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:23.274Z",
+    "updatedAt": "2026-01-28T23:35:23.274Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJ9xcXa5yJJY8Ru8BCvYFPgv8-s9ymiqxs4",
+    "category": "concierge",
+    "subcategory": "Customs broker",
+    "name": "pickaservice",
+    "description": "pickaservice located in the Cayman Islands.",
+    "shortDescription": "pickaservice located in the Cayman Islands.",
+    "location": {
+      "address": "25 Candlewood Drive Bodden Town Box 1718 Grand Cayman KY1, 1109, Cayman Islands",
+      "district": "Bodden Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2863403,
+      "longitude": -81.30575549999999,
+      "googlePlaceId": "ChIJ9xcXa5yJJY8Ru8BCvYFPgv8"
+    },
+    "contact": {
+      "phone": "+1 345-517-7425",
+      "email": "",
+      "website": "https://www.pickaservice.ky/",
+      "bookingUrl": "https://www.pickaservice.ky/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipP7U1xNi0lejkb1GggC74J0ugiSwf9uzbeiDfjP=w92-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipP7U1xNi0lejkb1GggC74J0ugiSwf9uzbeiDfjP=w92-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 20,
+      "priceTo": 60,
+      "pricePerUnit": null,
+      "priceDescription": "$20 - $60",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 9 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "9 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 3,
+      "googleRating": 5
+    },
+    "tags": [
+      "customs broker",
+      "concierge",
+      "service",
+      "grand",
+      "cayman",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "pickaservice",
+      "vip",
+      "concierge",
+      "service",
+      "grand",
+      "cayman"
+    ],
+    "embeddingText": "pickaservice pickaservice located in the Cayman Islands. concierge Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:23.274Z",
+    "updatedAt": "2026-01-28T23:35:23.274Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJmylMw_aHJY8RWvirwvbKocM-l5mulm2j0",
+    "category": "concierge",
+    "subcategory": "Consultant",
+    "name": "Robinson Immigration And Concierge service",
+    "description": "Robinson Immigration And Concierge service located in the Cayman Islands.",
+    "shortDescription": "Robinson Immigration And Concierge service located in the Cayman Islands.",
+    "location": {
+      "address": "Unit 110 Elizabethan Square 80 Shedden Road Grand Cayman KY1, 1008, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.294075499999998,
+      "longitude": -81.3798832,
+      "googlePlaceId": "ChIJmylMw_aHJY8RWvirwvbKocM"
+    },
+    "contact": {
+      "phone": "+1 345-329-1224",
+      "email": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=&key=placeholder",
+      "images": [
+        "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=&key=placeholder"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 200,
+      "priceTo": 2000,
+      "pricePerUnit": "/day",
+      "priceDescription": "$200 - $2000",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 10 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "10 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 1,
+      "googleRating": 5
+    },
+    "tags": [
+      "consultant",
+      "concierge",
+      "service",
+      "grand",
+      "cayman",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "robinson",
+      "immigration",
+      "and",
+      "concierge",
+      "service",
+      "vip",
+      "grand",
+      "cayman"
+    ],
+    "embeddingText": "Robinson Immigration And Concierge service Robinson Immigration And Concierge service located in the Cayman Islands. concierge Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:23.274Z",
+    "updatedAt": "2026-01-28T23:35:23.274Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJVY69ihOHJY8R3iK8AJIcdEE-0y4mhcvqc",
+    "category": "concierge",
+    "subcategory": "Jewellery Store",
+    "name": "Lifestyle Cayman",
+    "description": "Lifestyle Cayman located in the Cayman Islands.",
+    "shortDescription": "Lifestyle Cayman located in the Cayman Islands.",
+    "location": {
+      "address": "42 Edward St, George Town, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2955553,
+      "longitude": -81.3813748,
+      "googlePlaceId": "ChIJVY69ihOHJY8R3iK8AJIcdEE"
+    },
+    "contact": {
+      "phone": "+1 345-321-6090",
+      "email": "",
+      "website": "https://www.facebook.com/profile.php?id=100093084173227&mibextid=LQQJ4d",
+      "bookingUrl": "https://www.facebook.com/profile.php?id=100093084173227&mibextid=LQQJ4d"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNGAJX1Moyg0go-9uDi7OIDV7Ynw5ZkErMFV0lA=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipNGAJX1Moyg0go-9uDi7OIDV7Ynw5ZkErMFV0lA=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": null,
+      "priceTo": null,
+      "pricePerUnit": null,
+      "priceDescription": null,
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 8 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "8 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "on_site_services": true
+      }
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 8,
+      "googleRating": 5
+    },
+    "tags": [
+      "jewellery store",
+      "lifestyle",
+      "management",
+      "cayman",
+      "on site services",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "lifestyle",
+      "cayman",
+      "management"
+    ],
+    "embeddingText": "Lifestyle Cayman Lifestyle Cayman located in the Cayman Islands. concierge Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:23.274Z",
+    "updatedAt": "2026-01-28T23:35:23.274Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJnSPNez-HJY8ROLAwF1WbuUE-1vxquohgq",
+    "category": "superyacht",
+    "subcategory": "Boat tour agency",
+    "name": "Blue Sky Sailing (Cayman) Ltd",
+    "description": "Blue Sky Sailing (Cayman) Ltd located in the Cayman Islands.",
+    "shortDescription": "Blue Sky Sailing (Cayman) Ltd located in the Cayman Islands.",
+    "location": {
+      "address": "Yacht Drive Cayman Islands Yacht Club Dock D15 Grand Cayman KY1, 1103, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.357236699999998,
+      "longitude": -81.3764762,
+      "googlePlaceId": "ChIJnSPNez-HJY8ROLAwF1WbuUE"
+    },
+    "contact": {
+      "phone": "+1 345-326-1516",
+      "email": "",
+      "website": "http://blueskysailingcayman.com/",
+      "bookingUrl": "http://blueskysailingcayman.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPA1gcY7j_cSPAFDQiuaQrao-Lsq-fliZfvUfnj=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipPA1gcY7j_cSPAFDQiuaQrao-Lsq-fliZfvUfnj=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 500,
+      "priceTo": 2000,
+      "pricePerUnit": "/trip",
+      "priceDescription": "$500 - $2000 /trip",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closes soon · 7 pm · Opens 7 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "7 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "online_appointments": true,
+        "on_site_services": true
+      }
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 27,
+      "googleRating": 5
+    },
+    "tags": [
+      "boat tour agency",
+      "yacht",
+      "crew",
+      "services",
+      "cayman",
+      "online appointments",
+      "on site services",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "blue",
+      "sky",
+      "sailing",
+      "(cayman)",
+      "ltd",
+      "yacht",
+      "crew",
+      "services",
+      "cayman"
+    ],
+    "embeddingText": "Blue Sky Sailing (Cayman) Ltd Blue Sky Sailing (Cayman) Ltd located in the Cayman Islands. superyacht Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": true,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:23.274Z",
+    "updatedAt": "2026-01-28T23:35:23.274Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJ03tlaISHJY8RRIj3Qp4iRlA-eeq0n9z7d",
+    "category": "superyacht",
+    "subcategory": "Marina",
+    "name": "Cayman Islands Yacht Club",
+    "description": "Cayman Islands Yacht Club located in the Cayman Islands.",
+    "shortDescription": "Cayman Islands Yacht Club located in the Cayman Islands.",
+    "location": {
+      "address": "164 Yacht Dr, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.357054299999998,
+      "longitude": -81.378236,
+      "googlePlaceId": "ChIJ03tlaISHJY8RRIj3Qp4iRlA"
+    },
+    "contact": {
+      "phone": "+1 345-326-4985",
+      "email": "",
+      "website": "https://www.ciyachtclub.ky/",
+      "bookingUrl": "https://www.ciyachtclub.ky/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepVSw0khyP37jyspHf_195NFxFQZemB4w7vGPtcqpF6TE78hyt2NPGIZrLkT1B0QMJPCX4gvrdbyIJfUIhB2TzYkojXjv9mFTbF7yLiOLHem_sYNzr2O5AwGS0bXChy1xp-zwuN=w163-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepVSw0khyP37jyspHf_195NFxFQZemB4w7vGPtcqpF6TE78hyt2NPGIZrLkT1B0QMJPCX4gvrdbyIJfUIhB2TzYkojXjv9mFTbF7yLiOLHem_sYNzr2O5AwGS0bXChy1xp-zwuN=w163-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": null,
+      "priceTo": null,
+      "pricePerUnit": null,
+      "priceDescription": null,
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open 24 hours",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "24"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "on_site_services": true
+      }
+    },
+    "ratings": {
+      "overall": 4.7,
+      "reviewCount": 210,
+      "googleRating": 4.7
+    },
+    "tags": [
+      "marina",
+      "yacht",
+      "crew",
+      "services",
+      "cayman",
+      "on site services",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "cayman",
+      "islands",
+      "yacht",
+      "club",
+      "crew",
+      "services"
+    ],
+    "embeddingText": "Cayman Islands Yacht Club Cayman Islands Yacht Club located in the Cayman Islands. superyacht Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": true,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:23.274Z",
+    "updatedAt": "2026-01-28T23:35:23.274Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJTYjLtIOHJY8R1SyNLSKNG94-7bsa21xrb",
+    "category": "superyacht",
+    "subcategory": "Boat maintenance",
+    "name": "Pro Yacht",
+    "description": "Pro Yacht located in the Cayman Islands.",
+    "shortDescription": "Pro Yacht located in the Cayman Islands.",
+    "location": {
+      "address": "Yacht Dr, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.356628,
+      "longitude": -81.3811698,
+      "googlePlaceId": "ChIJTYjLtIOHJY8R1SyNLSKNG94"
+    },
+    "contact": {
+      "phone": "+1 345-945-4676",
+      "email": "",
+      "website": "http://www.proyacht.ky/",
+      "bookingUrl": "http://www.proyacht.ky/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep30eA5HLaFnb2jmBXyx0UaykfAJXjHZFS0OUjtm7iBUkSq7DktxQDqteZLePQyBQq0TWYdn8KkJ8zaPaX049lvmERMhna41I9qQ2i4yFX62fFpRF8pv3j-3xX-ygaBHTNOwaI=w80-h112-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep30eA5HLaFnb2jmBXyx0UaykfAJXjHZFS0OUjtm7iBUkSq7DktxQDqteZLePQyBQq0TWYdn8KkJ8zaPaX049lvmERMhna41I9qQ2i4yFX62fFpRF8pv3j-3xX-ygaBHTNOwaI=w80-h112-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 500,
+      "priceTo": 2000,
+      "pricePerUnit": "/trip",
+      "priceDescription": "$500 - $2000 /trip",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 8 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "8 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.4,
+      "reviewCount": 7,
+      "googleRating": 4.4
+    },
+    "tags": [
+      "boat maintenance",
+      "yacht",
+      "crew",
+      "services",
+      "cayman",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "pro",
+      "yacht",
+      "crew",
+      "services",
+      "cayman"
+    ],
+    "embeddingText": "Pro Yacht Pro Yacht located in the Cayman Islands. superyacht Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": true,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:23.274Z",
+    "updatedAt": "2026-01-28T23:35:23.274Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJXy6KqJaHJY8R7dtg57s-mJg-lkpc1nhn9",
+    "category": "luxury_car_rental",
+    "subcategory": "Car rental company",
+    "name": "Flava Car Rental/ Flava luxury chauffeur service Grand Cayman",
+    "description": "Flava Car Rental/ Flava luxury chauffeur service Grand Cayman located in the Cayman Islands.",
+    "shortDescription": "Flava Car Rental/ Flava luxury chauffeur service Grand Cayman located in the Cayman Islands.",
+    "location": {
+      "address": "31 Canal Ln, George Town, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2868738,
+      "longitude": -81.3549683,
+      "googlePlaceId": "ChIJXy6KqJaHJY8R7dtg57s-mJg"
+    },
+    "contact": {
+      "phone": "+1 345-325-7343",
+      "email": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPFyZUXuxO1OnVQqe0Lf1xo7vNL7B5jKeVuCqn0=w80-h106-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipPFyZUXuxO1OnVQqe0Lf1xo7vNL7B5jKeVuCqn0=w80-h106-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": null,
+      "priceTo": null,
+      "pricePerUnit": null,
+      "priceDescription": null,
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 8 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "8 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 1,
+      "googleRating": 5
+    },
+    "tags": [
+      "car rental company",
+      "luxury",
+      "rental",
+      "cayman",
+      "islands",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "flava",
+      "car",
+      "rental/",
+      "luxury",
+      "chauffeur",
+      "service",
+      "grand",
+      "cayman",
+      "rental",
+      "islands"
+    ],
+    "embeddingText": "Flava Car Rental/ Flava luxury chauffeur service Grand Cayman Flava Car Rental/ Flava luxury chauffeur service Grand Cayman located in the Cayman Islands. luxury_car_rental Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:23.274Z",
+    "updatedAt": "2026-01-28T23:35:23.274Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJn-tuhvNCKI8R1Hq8nbePfq4-kobd3mtb3",
+    "category": "luxury_car_rental",
+    "subcategory": "Car rental company",
+    "name": "CB RENT-A- CAR LTD",
+    "description": "CB RENT-A- CAR LTD located in the Cayman Islands.",
+    "shortDescription": "CB RENT-A- CAR LTD located in the Cayman Islands.",
+    "location": {
+      "address": "West End Side Road Kirk Cornell Airport Cayman Brac KY2, 2001, Cayman Islands",
+      "district": "Cayman Brac",
+      "island": "Cayman Brac",
+      "latitude": 19.6904276,
+      "longitude": -79.8804505,
+      "googlePlaceId": "ChIJn-tuhvNCKI8R1Hq8nbePfq4"
+    },
+    "contact": {
+      "phone": "+1 345-948-2424",
+      "email": "",
+      "website": "https://www.cbrent-a-car.com/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=2865234670860527375",
+      "bookingUrl": "https://www.cbrent-a-car.com/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=2865234670860527375"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoSW_0bKtxo3f6p963e9Sqk5b-Hww_tslEB63_kxZPhW7LqrJ9K-Pbi8x5yPMVi0l6CvmNGldR24kg_gBxoDgiemcXpMaXbdeQL3i7cTFHFaIsXvMfOLbSP311DHMiN1CsydDi4IA=w80-h106-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoSW_0bKtxo3f6p963e9Sqk5b-Hww_tslEB63_kxZPhW7LqrJ9K-Pbi8x5yPMVi0l6CvmNGldR24kg_gBxoDgiemcXpMaXbdeQL3i7cTFHFaIsXvMfOLbSP311DHMiN1CsydDi4IA=w80-h106-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": null,
+      "priceTo": null,
+      "pricePerUnit": null,
+      "priceDescription": null,
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 8 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "8 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "on_site_services": true
+      }
+    },
+    "ratings": {
+      "overall": 4.4,
+      "reviewCount": 22,
+      "googleRating": 4.4
+    },
+    "tags": [
+      "car rental company",
+      "bentley",
+      "rental",
+      "cayman",
+      "islands",
+      "on site services",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "rent-a-",
+      "car",
+      "ltd",
+      "bentley",
+      "rental",
+      "cayman",
+      "islands"
+    ],
+    "embeddingText": "CB RENT-A- CAR LTD CB RENT-A- CAR LTD located in the Cayman Islands. luxury_car_rental Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:23.274Z",
+    "updatedAt": "2026-01-28T23:35:23.274Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJiy8c_mCGJY8Rpq0TyPwluG8-w1oujk7q2",
+    "category": "security_services",
+    "subcategory": "Security guard service",
+    "name": "Sterling Security Solutions",
+    "description": "Sterling Security Solutions located in the Cayman Islands.",
+    "shortDescription": "Sterling Security Solutions located in the Cayman Islands.",
+    "location": {
+      "address": "7JRC+Q2C, Hospital Rd, George Town, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2918461,
+      "longitude": -81.37993,
+      "googlePlaceId": "ChIJiy8c_mCGJY8Rpq0TyPwluG8"
+    },
+    "contact": {
+      "phone": "+1 345-946-4646",
+      "email": "",
+      "website": "http://www.sterlingsecuritysolutions.com/contact-us",
+      "bookingUrl": "http://www.sterlingsecuritysolutions.com/contact-us"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweq0By9j3IMjL2nBkqHIEX1SNuJjCmhbJ-9Ojx7zxT83Xk7qS6oz8rYL8zQPDVK4MtWNJCtkwOXrJ96o1OOC8RUlgJlcGqqbyzs14wfZsAVUQWiN1x2_sKFhhww4IMflb9eTTi78hw=w182-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweq0By9j3IMjL2nBkqHIEX1SNuJjCmhbJ-9Ojx7zxT83Xk7qS6oz8rYL8zQPDVK4MtWNJCtkwOXrJ96o1OOC8RUlgJlcGqqbyzs14wfZsAVUQWiN1x2_sKFhhww4IMflb9eTTi78hw=w182-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 20,
+      "priceTo": 60,
+      "pricePerUnit": null,
+      "priceDescription": "$20 - $60",
+      "currency": "USD",
+      "openingHours": {
+        "raw": null,
+        "isOpen": null,
+        "todayHours": null,
+        "schedule": {},
+        "formattedDisplay": null
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.8,
+      "reviewCount": 13,
+      "googleRating": 4.8
+    },
+    "tags": [
+      "security guard service",
+      "private",
+      "security",
+      "cayman",
+      "islands",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "sterling",
+      "security",
+      "solutions",
+      "private",
+      "cayman",
+      "islands"
+    ],
+    "embeddingText": "Sterling Security Solutions Sterling Security Solutions located in the Cayman Islands. security_services Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:23.274Z",
+    "updatedAt": "2026-01-28T23:35:23.274Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJnav9y1yHJY8R6MCC-RoFqQs-9u1k5xgv5",
+    "category": "security_services",
+    "subcategory": "Security guard service",
+    "name": "Ironshore Security Ltd",
+    "description": "Ironshore Security Ltd located in the Cayman Islands.",
+    "shortDescription": "Ironshore Security Ltd located in the Cayman Islands.",
+    "location": {
+      "address": "Unit A309, Elizabethan Square, Amerigo House, Shedden Rd, George Town KY1-1106, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.294376099999997,
+      "longitude": -81.3807774,
+      "googlePlaceId": "ChIJnav9y1yHJY8R6MCC-RoFqQs"
+    },
+    "contact": {
+      "phone": "+1 345-928-0188",
+      "email": "",
+      "website": "https://www.ironshoresecurity.com/",
+      "bookingUrl": "https://www.ironshoresecurity.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNHl0w5CkxLaSAbzSnDF7yHTzn0I-lGRqhZL7py=w80-h119-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipNHl0w5CkxLaSAbzSnDF7yHTzn0I-lGRqhZL7py=w80-h119-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 20,
+      "priceTo": 60,
+      "pricePerUnit": null,
+      "priceDescription": "$20 - $60",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 8:30 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "8:30 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 12,
+      "googleRating": 5
+    },
+    "tags": [
+      "security guard service",
+      "private",
+      "security",
+      "cayman",
+      "islands",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "ironshore",
+      "security",
+      "ltd",
+      "private",
+      "cayman",
+      "islands"
+    ],
+    "embeddingText": "Ironshore Security Ltd Ironshore Security Ltd located in the Cayman Islands. security_services Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:23.274Z",
+    "updatedAt": "2026-01-28T23:35:23.274Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJB8YljoyHJY8RWbdDBLpT6Pc-53h63fb9z",
+    "category": "security_services",
+    "subcategory": "Security guard service",
+    "name": "National Security Services",
+    "description": "National Security Services located in the Cayman Islands.",
+    "shortDescription": "National Security Services located in the Cayman Islands.",
+    "location": {
+      "address": "Suite 215, Cannon Place, 294 N Sound Rd, George Town KY1-1008, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.298982199999998,
+      "longitude": -81.36879429999999,
+      "googlePlaceId": "ChIJB8YljoyHJY8RWbdDBLpT6Pc"
+    },
+    "contact": {
+      "phone": "+1 345-945-6251",
+      "email": "",
+      "website": "https://nationalsecurityky.com/",
+      "bookingUrl": "https://nationalsecurityky.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepxqLW23A6-mxolwZ_Ai-6WdAFDG5EtEZxNGXhn7bc7ZIpv08-qvLy9_tjbjSjKvpPQYiS_P8FfA3OZrYFhrdwjWI1AOyErKvG5cR4IE_-wRVmHmFr8i5ddFPzEziluN92MaWveAw=w137-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepxqLW23A6-mxolwZ_Ai-6WdAFDG5EtEZxNGXhn7bc7ZIpv08-qvLy9_tjbjSjKvpPQYiS_P8FfA3OZrYFhrdwjWI1AOyErKvG5cR4IE_-wRVmHmFr8i5ddFPzEziluN92MaWveAw=w137-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 500,
+      "priceTo": 3000,
+      "pricePerUnit": "/day",
+      "priceDescription": "$500 - $3000",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open 24 hours",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "24"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.3,
+      "reviewCount": 18,
+      "googleRating": 4.3
+    },
+    "tags": [
+      "security guard service",
+      "private",
+      "security",
+      "cayman",
+      "islands",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "national",
+      "security",
+      "services",
+      "private",
+      "cayman",
+      "islands"
+    ],
+    "embeddingText": "National Security Services National Security Services located in the Cayman Islands. security_services Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:23.274Z",
+    "updatedAt": "2026-01-28T23:35:23.274Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJ3_ywbWiGJY8Rcav8ugCSEiY-ctkfxl280",
+    "category": "security_services",
+    "subcategory": "Security system supplier",
+    "name": "The Security Centre Limited",
+    "description": "The Security Centre Limited located in the Cayman Islands.",
+    "shortDescription": "The Security Centre Limited located in the Cayman Islands.",
+    "location": {
+      "address": "Cayman Technology Centre, 115 Printer Way Grand Cayman, KY1-1001, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.291044199999998,
+      "longitude": -81.3724136,
+      "googlePlaceId": "ChIJ3_ywbWiGJY8Rcav8ugCSEiY"
+    },
+    "contact": {
+      "phone": "+1 345-949-0004",
+      "email": "",
+      "website": "https://security.ky/",
+      "bookingUrl": "https://security.ky/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNXFWkYXoZUxIZDtrfk9c8Fsnc_WQejUfAwTapo=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipNXFWkYXoZUxIZDtrfk9c8Fsnc_WQejUfAwTapo=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 20,
+      "priceTo": 60,
+      "pricePerUnit": null,
+      "priceDescription": "$20 - $60",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open 24 hours",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "24"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.6,
+      "reviewCount": 49,
+      "googleRating": 4.6
+    },
+    "tags": [
+      "security system supplier",
+      "private",
+      "security",
+      "cayman",
+      "islands",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "the",
+      "security",
+      "centre",
+      "limited",
+      "private",
+      "cayman",
+      "islands"
+    ],
+    "embeddingText": "The Security Centre Limited The Security Centre Limited located in the Cayman Islands. security_services Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:23.274Z",
+    "updatedAt": "2026-01-28T23:35:23.274Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJUT32AESGJY8RP0BmswVJLPE-i85cicqin",
+    "category": "security_services",
+    "subcategory": "Security guard service",
+    "name": "Marksman Electronics & Security Services Co, Ltd Cayman Island",
+    "description": "Marksman Electronics & Security Services Co, Ltd Cayman Island located in the Cayman Islands.",
+    "shortDescription": "Marksman Electronics & Security Services Co, Ltd Cayman Island located in the Cayman Islands.",
+    "location": {
+      "address": "316 Dorcy Drive George Town, Alexander Place Unit # 1 Industrial Park, KY1-1204, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.298247099999998,
+      "longitude": -81.3668533,
+      "googlePlaceId": "ChIJUT32AESGJY8RP0BmswVJLPE"
+    },
+    "contact": {
+      "phone": "+1 345-946-2757",
+      "email": "",
+      "website": "https://www.marksmansecuritycayman.com/",
+      "bookingUrl": "https://www.marksmansecuritycayman.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPrq7JurRYSxmGV26uAEkY4H1JSDRVRcPKbXx4U=w300-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipPrq7JurRYSxmGV26uAEkY4H1JSDRVRcPKbXx4U=w300-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 500,
+      "priceTo": 3000,
+      "pricePerUnit": "/day",
+      "priceDescription": "$500 - $3000",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open 24 hours",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "24"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 2,
+      "googleRating": 5
+    },
+    "tags": [
+      "security guard service",
+      "private",
+      "security",
+      "cayman",
+      "islands",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "marksman",
+      "electronics",
+      "security",
+      "services",
+      "co,",
+      "ltd",
+      "cayman",
+      "island",
+      "private",
+      "islands"
+    ],
+    "embeddingText": "Marksman Electronics & Security Services Co, Ltd Cayman Island Marksman Electronics & Security Services Co, Ltd Cayman Island located in the Cayman Islands. security_services Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:23.274Z",
+    "updatedAt": "2026-01-28T23:35:23.274Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJ6cw69qOHJY8Rl8ZXtdzi9QY-4d3p8ibt5",
+    "category": "security_services",
+    "subcategory": "Security service",
+    "name": "Global Security Services Ltd.",
+    "description": "Global Security Services Ltd. located in the Cayman Islands.",
+    "shortDescription": "Global Security Services Ltd. located in the Cayman Islands.",
+    "location": {
+      "address": "1st Floor, Artemis House, 67 Fort St, George Town KY1-1102, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.297166999999998,
+      "longitude": -81.38117679999999,
+      "googlePlaceId": "ChIJ6cw69qOHJY8Rl8ZXtdzi9QY"
+    },
+    "contact": {
+      "phone": "+1 345-949-4775",
+      "email": "",
+      "website": "https://www.globalsecurity.ky/",
+      "bookingUrl": "https://www.globalsecurity.ky/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPc7AWnOefODc61bQ5TtImSz0_fj40sWKY6xUQf=w199-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipPc7AWnOefODc61bQ5TtImSz0_fj40sWKY6xUQf=w199-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 500,
+      "priceTo": 3000,
+      "pricePerUnit": "/day",
+      "priceDescription": "$500 - $3000",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 8 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "8 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4,
+      "reviewCount": 4,
+      "googleRating": 4
+    },
+    "tags": [
+      "security service",
+      "executive",
+      "protection",
+      "cayman",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "global",
+      "security",
+      "services",
+      "ltd.",
+      "executive",
+      "protection",
+      "cayman"
+    ],
+    "embeddingText": "Global Security Services Ltd. Global Security Services Ltd. located in the Cayman Islands. security_services Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:23.274Z",
+    "updatedAt": "2026-01-28T23:35:23.274Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJuRTQnhqHJY8RZNid6kWuioU-t0ovk7966",
+    "category": "security_services",
+    "subcategory": "Security guard service",
+    "name": "Advantage Security Services, Ltd.",
+    "description": "Advantage Security Services, Ltd. located in the Cayman Islands.",
+    "shortDescription": "Advantage Security Services, Ltd. located in the Cayman Islands.",
+    "location": {
+      "address": "50 Mary St, George Town KY1-1206, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2977265,
+      "longitude": -81.38014729999999,
+      "googlePlaceId": "ChIJuRTQnhqHJY8RZNid6kWuioU"
+    },
+    "contact": {
+      "phone": "+1 345-923-5717",
+      "email": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=&key=placeholder",
+      "images": [
+        "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=&key=placeholder"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 500,
+      "priceTo": 3000,
+      "pricePerUnit": "/day",
+      "priceDescription": "$500 - $3000",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 9 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "9 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4,
+      "reviewCount": 1,
+      "googleRating": 4
+    },
+    "tags": [
+      "security guard service",
+      "security",
+      "caribbean",
+      "cayman islands"
+    ],
+    "keywords": [
+      "advantage",
+      "security",
+      "services,",
+      "ltd.",
+      "vip",
+      "caribbean"
+    ],
+    "embeddingText": "Advantage Security Services, Ltd. Advantage Security Services, Ltd. located in the Cayman Islands. security_services Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:23.274Z",
+    "updatedAt": "2026-01-28T23:35:23.274Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJDy65lLOHJY8RHKXMGyVDKgw-gw08ike0k",
+    "category": "security_services",
+    "subcategory": "Security service",
+    "name": "Island Electronics Security & Monitoring Ltd.",
+    "description": "Island Electronics Security & Monitoring Ltd. located in the Cayman Islands.",
+    "shortDescription": "Island Electronics Security & Monitoring Ltd. located in the Cayman Islands.",
+    "location": {
+      "address": "Grand Cayman KY1, 90B Godfrey Nixon Wy, George Town KY1-1103, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2998491,
+      "longitude": -81.37366589999999,
+      "googlePlaceId": "ChIJDy65lLOHJY8RHKXMGyVDKgw"
+    },
+    "contact": {
+      "phone": "+1 345-949-8255",
+      "email": "",
+      "website": "http://www.ielgroup.com/",
+      "bookingUrl": "http://www.ielgroup.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipM3XJIRtykB-IZhK9cAPyIz8ZJCEtAgft2ZRcLQ=w92-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipM3XJIRtykB-IZhK9cAPyIz8ZJCEtAgft2ZRcLQ=w92-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 500,
+      "priceTo": 3000,
+      "pricePerUnit": "/day",
+      "priceDescription": "$500 - $3000",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 8 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "8 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 4,
+      "googleRating": 5
+    },
+    "tags": [
+      "security service",
+      "security",
+      "caribbean",
+      "cayman islands"
+    ],
+    "keywords": [
+      "island",
+      "electronics",
+      "security",
+      "monitoring",
+      "ltd.",
+      "vip",
+      "caribbean"
+    ],
+    "embeddingText": "Island Electronics Security & Monitoring Ltd. Island Electronics Security & Monitoring Ltd. located in the Cayman Islands. security_services Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:23.274Z",
+    "updatedAt": "2026-01-28T23:35:23.274Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJQ-UbFriHJY8Ry4F9RErPG0Y-cwdmho1l6",
+    "category": "medical_vip",
+    "subcategory": "Clinic",
+    "name": "Health City Cayman Islands Camana Bay Clinic",
+    "description": "Health City Cayman Islands Camana Bay Clinic located in the Cayman Islands.",
+    "shortDescription": "Health City Cayman Islands Camana Bay Clinic located in the Cayman Islands.",
+    "location": {
+      "address": "9 Forum Ln, Camana Bay KY1-9006, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3213626,
+      "longitude": -81.3782555,
+      "googlePlaceId": "ChIJQ-UbFriHJY8Ry4F9RErPG0Y"
+    },
+    "contact": {
+      "phone": "+1 345-640-4040",
+      "email": "",
+      "website": "https://healthcitycaymanislands.com/?utm_source=GBP&utm_medium=CamanabayClinic&utm_campaign=CamanabayClinic_GBP",
+      "bookingUrl": "https://healthcitycaymanislands.com/?utm_source=GBP&utm_medium=CamanabayClinic&utm_campaign=CamanabayClinic_GBP"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNqcMQ20-Kf13LmlES6LtgigH422BF-8QGuvn0m=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipNqcMQ20-Kf13LmlES6LtgigH422BF-8QGuvn0m=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 20,
+      "priceTo": 60,
+      "pricePerUnit": null,
+      "priceDescription": "$20 - $60",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closes soon · 7 pm · Opens 7 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "7 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.9,
+      "reviewCount": 327,
+      "googleRating": 4.9
+    },
+    "tags": [
+      "clinic",
+      "private",
+      "cayman",
+      "islands",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "health",
+      "city",
+      "cayman",
+      "islands",
+      "camana",
+      "bay",
+      "clinic",
+      "private"
+    ],
+    "embeddingText": "Health City Cayman Islands Camana Bay Clinic Health City Cayman Islands Camana Bay Clinic located in the Cayman Islands. medical_vip Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:23.274Z",
+    "updatedAt": "2026-01-28T23:35:23.274Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJr7n0c9z0JY8RVxzqefQ3U90-n7dm76hpf",
+    "category": "medical_vip",
+    "subcategory": "Hospital",
+    "name": "Health City Cayman Islands",
+    "description": "Health City Cayman Islands located in the Cayman Islands.",
+    "shortDescription": "Health City Cayman Islands located in the Cayman Islands.",
+    "location": {
+      "address": "High Rock, 1283 Sea View Rd, KY1-1005, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.2980906,
+      "longitude": -81.14662899999999,
+      "googlePlaceId": "ChIJr7n0c9z0JY8RVxzqefQ3U90"
+    },
+    "contact": {
+      "phone": "+1 345-640-4040",
+      "email": "",
+      "website": "https://healthcitycaymanislands.com/?utm_source=GBP&utm_medium=Eastendhospital&utm_campaign=EastEndHospital_GBP",
+      "bookingUrl": "https://healthcitycaymanislands.com/?utm_source=GBP&utm_medium=Eastendhospital&utm_campaign=EastEndHospital_GBP"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOWsuXWHe4k6qrHES5N5YtgOtYU-5t38e_NrhJh=w140-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipOWsuXWHe4k6qrHES5N5YtgOtYU-5t38e_NrhJh=w140-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 20,
+      "priceTo": 60,
+      "pricePerUnit": null,
+      "priceDescription": "$20 - $60",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open 24 hours",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "24"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.8,
+      "reviewCount": 464,
+      "googleRating": 4.8
+    },
+    "tags": [
+      "hospital",
+      "private",
+      "clinic",
+      "cayman",
+      "islands",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "health",
+      "city",
+      "cayman",
+      "islands",
+      "private",
+      "clinic"
+    ],
+    "embeddingText": "Health City Cayman Islands Health City Cayman Islands located in the Cayman Islands. medical_vip Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:23.274Z",
+    "updatedAt": "2026-01-28T23:35:23.274Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJAQglMKaHJY8RHUSdl5BuDgc-z7z1mx1fp",
+    "category": "medical_vip",
+    "subcategory": "Medical centre",
+    "name": "Total Health Clinic",
+    "description": "Total Health Clinic located in the Cayman Islands.",
+    "shortDescription": "Total Health Clinic located in the Cayman Islands.",
+    "location": {
+      "address": "Total Health The Grand Pavilion Commercial Centre, 802, West Bay Road Grand Cayman KY1, 1209, Cayman Islands",
+      "district": "West Bay",
+      "island": "Grand Cayman",
+      "latitude": 19.3295931,
+      "longitude": -81.3807909,
+      "googlePlaceId": "ChIJAQglMKaHJY8RHUSdl5BuDgc"
+    },
+    "contact": {
+      "phone": "+1 345-333-2222",
+      "email": "",
+      "website": "https://www.totalhealth.ky/",
+      "bookingUrl": "https://www.totalhealth.ky/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipN0b4IfC-2K-2xEsqFw-Tz2dCT7JRXtLMkRYhRS=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipN0b4IfC-2K-2xEsqFw-Tz2dCT7JRXtLMkRYhRS=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 20,
+      "priceTo": 60,
+      "pricePerUnit": null,
+      "priceDescription": "$20 - $60",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open · Closes 8 pm",
+        "isOpen": true,
+        "todayHours": {
+          "closes": "8 pm"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now · Closes 8 pm"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.7,
+      "reviewCount": 157,
+      "googleRating": 4.7
+    },
+    "tags": [
+      "medical centre",
+      "private",
+      "clinic",
+      "cayman",
+      "islands",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "total",
+      "health",
+      "clinic",
+      "private",
+      "cayman",
+      "islands"
+    ],
+    "embeddingText": "Total Health Clinic Total Health Clinic located in the Cayman Islands. medical_vip Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:23.274Z",
+    "updatedAt": "2026-01-28T23:35:23.274Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJuW3TSVuGJY8ROH9DvzLDFLg-3syc8qs1k",
+    "category": "medical_vip",
+    "subcategory": "Medical centre",
+    "name": "Doctors Express Urgent Care",
+    "description": "Doctors Express Urgent Care located in the Cayman Islands.",
+    "shortDescription": "Doctors Express Urgent Care located in the Cayman Islands.",
+    "location": {
+      "address": "81 Godfrey Nixon Way George Town Grand Cayman KY KY1, 1107, 81 Godfrey Nixon Wy, George Town, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.300550299999998,
+      "longitude": -81.3734764,
+      "googlePlaceId": "ChIJuW3TSVuGJY8ROH9DvzLDFLg"
+    },
+    "contact": {
+      "phone": "+1 345-745-6000",
+      "email": "",
+      "website": "https://www.doctorsexpress.ky/",
+      "bookingUrl": "https://www.doctorsexpress.ky/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOTfkLn7bxVbLNwJqrgk6-WG4qjGx2xiycsRhqV=w163-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipOTfkLn7bxVbLNwJqrgk6-WG4qjGx2xiycsRhqV=w163-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 20,
+      "priceTo": 60,
+      "pricePerUnit": null,
+      "priceDescription": "$20 - $60",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open · Closes 9 pm",
+        "isOpen": true,
+        "todayHours": {
+          "closes": "9 pm"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now · Closes 9 pm"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "on_site_services": true
+      }
+    },
+    "ratings": {
+      "overall": 4.9,
+      "reviewCount": 869,
+      "googleRating": 4.9
+    },
+    "tags": [
+      "medical centre",
+      "private",
+      "clinic",
+      "cayman",
+      "islands",
+      "on site services",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "doctors",
+      "express",
+      "urgent",
+      "care",
+      "private",
+      "clinic",
+      "cayman",
+      "islands"
+    ],
+    "embeddingText": "Doctors Express Urgent Care Doctors Express Urgent Care located in the Cayman Islands. medical_vip Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:23.274Z",
+    "updatedAt": "2026-01-28T23:35:23.274Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJFyG6E3GHJY8Remy2cwc29uU-hbtm6h1y1",
+    "category": "medical_vip",
+    "subcategory": "MRI Centre",
+    "name": "Cayman Medical Ltd",
+    "description": "Cayman Medical Ltd located in the Cayman Islands.",
+    "shortDescription": "Cayman Medical Ltd located in the Cayman Islands.",
+    "location": {
+      "address": "Crown Square, 71 Eastern Ave, George Town KY1-1209, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.297614799999998,
+      "longitude": -81.37548799999999,
+      "googlePlaceId": "ChIJFyG6E3GHJY8Remy2cwc29uU"
+    },
+    "contact": {
+      "phone": "+1 345-623-1000",
+      "email": "",
+      "website": "https://www.medical.ky/",
+      "bookingUrl": "https://www.medical.ky/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNL_WyhH2J7gIQdcjVyu6kBiZxJgpeQ01ILOndm=w262-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipNL_WyhH2J7gIQdcjVyu6kBiZxJgpeQ01ILOndm=w262-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 20,
+      "priceTo": 60,
+      "pricePerUnit": null,
+      "priceDescription": "$20 - $60",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closes soon · 7 pm · Opens 7 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "7 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {
+        "on_site_services": true
+      }
+    },
+    "ratings": {
+      "overall": 5,
+      "reviewCount": 53,
+      "googleRating": 5
+    },
+    "tags": [
+      "mri centre",
+      "private",
+      "clinic",
+      "cayman",
+      "islands",
+      "on site services",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "cayman",
+      "medical",
+      "ltd",
+      "private",
+      "clinic",
+      "islands"
+    ],
+    "embeddingText": "Cayman Medical Ltd Cayman Medical Ltd located in the Cayman Islands. medical_vip Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:23.274Z",
+    "updatedAt": "2026-01-28T23:35:23.274Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJT13xaPaHJY8RT0Tv4qK1d2E-jmitws2vz",
+    "category": "medical_vip",
+    "subcategory": "Clinic",
+    "name": "International Medical Group, Grand Cayman",
+    "description": "International Medical Group, Grand Cayman located in the Cayman Islands.",
+    "shortDescription": "International Medical Group, Grand Cayman located in the Cayman Islands.",
+    "location": {
+      "address": "30073, P.O. Box, 30 Pasadora Place, Smith Rd, George Town KY1-1201, Cayman Islands",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2889067,
+      "longitude": -81.3780543,
+      "googlePlaceId": "ChIJT13xaPaHJY8RT0Tv4qK1d2E"
+    },
+    "contact": {
+      "phone": "+1 345-945-2881",
+      "email": "",
+      "website": "http://www.intmedicalgroup.com/",
+      "bookingUrl": "http://www.intmedicalgroup.com/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweo9KRkdYOfe5BavjorMwgfeb6ItZbOsKYKt617gzH0dJ0bvawtMnUyWBVSCIxXmLkesrbg1rP9b1-R52QwQzWmv08V0gvjZKCeD9-yU3tMTQn3XI8eyJtC-ReuKJksNrq2dZ35ZtGT-oz0y=w122-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweo9KRkdYOfe5BavjorMwgfeb6ItZbOsKYKt617gzH0dJ0bvawtMnUyWBVSCIxXmLkesrbg1rP9b1-R52QwQzWmv08V0gvjZKCeD9-yU3tMTQn3XI8eyJtC-ReuKJksNrq2dZ35ZtGT-oz0y=w122-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 20,
+      "priceTo": 60,
+      "pricePerUnit": null,
+      "priceDescription": "$20 - $60",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 8 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "8 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.4,
+      "reviewCount": 12,
+      "googleRating": 4.4
+    },
+    "tags": [
+      "clinic",
+      "concierge",
+      "medicine",
+      "grand",
+      "cayman",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "international",
+      "medical",
+      "group,",
+      "grand",
+      "cayman",
+      "concierge",
+      "medicine"
+    ],
+    "embeddingText": "International Medical Group, Grand Cayman International Medical Group, Grand Cayman located in the Cayman Islands. medical_vip Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:23.274Z",
+    "updatedAt": "2026-01-28T23:35:23.274Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJK_xlUf-GJY8RhSECQFEV1Gg-qy4rh5c2c",
+    "category": "medical_vip",
+    "subcategory": "Doctor",
+    "name": "Seven Mile Medical Clinic",
+    "description": "Seven Mile Medical Clinic located in the Cayman Islands.",
+    "shortDescription": "Seven Mile Medical Clinic located in the Cayman Islands.",
+    "location": {
+      "address": "Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.311687499999998,
+      "longitude": -81.38443749999999,
+      "googlePlaceId": "ChIJK_xlUf-GJY8RhSECQFEV1Gg"
+    },
+    "contact": {
+      "phone": "+1 345-949-5600",
+      "email": "",
+      "website": "http://www.sevenmileclinic.ky/",
+      "bookingUrl": "http://www.sevenmileclinic.ky/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweq8scaPZWOLKv5Yd6cuRvpYjdI3nG4bxEG0HXFPMIUoZlf1oSy_8lJM_xToosw3f2dUqo_aFIDqCPLfRz2P9l1-j6TY4ktFfkIn_CbE5Y55Bm-WCQ7QgHVg5xkVPNkztoDDEpIT=w146-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweq8scaPZWOLKv5Yd6cuRvpYjdI3nG4bxEG0HXFPMIUoZlf1oSy_8lJM_xToosw3f2dUqo_aFIDqCPLfRz2P9l1-j6TY4ktFfkIn_CbE5Y55Bm-WCQ7QgHVg5xkVPNkztoDDEpIT=w146-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 20,
+      "priceTo": 60,
+      "pricePerUnit": null,
+      "priceDescription": "$20 - $60",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 7:30 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "7:30 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.8,
+      "reviewCount": 24,
+      "googleRating": 4.8
+    },
+    "tags": [
+      "doctor",
+      "concierge",
+      "medicine",
+      "grand",
+      "cayman",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "seven",
+      "mile",
+      "medical",
+      "clinic",
+      "concierge",
+      "medicine",
+      "grand",
+      "cayman"
+    ],
+    "embeddingText": "Seven Mile Medical Clinic Seven Mile Medical Clinic located in the Cayman Islands. medical_vip Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:23.274Z",
+    "updatedAt": "2026-01-28T23:35:23.274Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJ0VV3UJb1JY8R6olDxNuhiRs-t4po6yst5",
+    "category": "medical_vip",
+    "subcategory": "Medical centre",
+    "name": "Geriatric Medicine | Health City Cayman Islands",
+    "description": "Geriatric Medicine | Health City Cayman Islands located in the Cayman Islands.",
+    "shortDescription": "Geriatric Medicine | Health City Cayman Islands located in the Cayman Islands.",
+    "location": {
+      "address": "High Rock, 1283 Sea View Rd, KY1-1005, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.2985595,
+      "longitude": -81.14692509999999,
+      "googlePlaceId": "ChIJ0VV3UJb1JY8R6olDxNuhiRs"
+    },
+    "contact": {
+      "phone": "+1 345-640-4040",
+      "email": "",
+      "website": "https://healthcitycaymanislands.com/medical-services/geriatric-medicine/",
+      "bookingUrl": "https://healthcitycaymanislands.com/medical-services/geriatric-medicine/"
+    },
+    "media": {
+      "thumbnail": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=&key=placeholder",
+      "images": [
+        "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=&key=placeholder"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 20,
+      "priceTo": 60,
+      "pricePerUnit": null,
+      "priceDescription": "$20 - $60",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Open 24 hours",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "24"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 0,
+      "reviewCount": 0,
+      "googleRating": 0
+    },
+    "tags": [
+      "medical centre",
+      "concierge",
+      "medicine",
+      "grand",
+      "cayman",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "geriatric",
+      "medicine",
+      "health",
+      "city",
+      "cayman",
+      "islands",
+      "concierge",
+      "grand"
+    ],
+    "embeddingText": "Geriatric Medicine | Health City Cayman Islands Geriatric Medicine | Health City Cayman Islands located in the Cayman Islands. medical_vip Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:23.274Z",
+    "updatedAt": "2026-01-28T23:35:23.274Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "serp-ChIJZcKkUb-HJY8R8yd0oRV6LA8-aovdjltck",
+    "category": "medical_vip",
+    "subcategory": "Medical spa",
+    "name": "LOOKS (The Art of Beauty)",
+    "description": "LOOKS (The Art of Beauty) located in the Cayman Islands.",
+    "shortDescription": "LOOKS (The Art of Beauty) located in the Cayman Islands.",
+    "location": {
+      "address": "Governors square, 23 Lime Tree Bay Ave, KY1-1108, Cayman Islands",
+      "district": "Grand Cayman",
+      "island": "Grand Cayman",
+      "latitude": 19.3411966,
+      "longitude": -81.3798965,
+      "googlePlaceId": "ChIJZcKkUb-HJY8R8yd0oRV6LA8"
+    },
+    "contact": {
+      "phone": "+1 345-525-6657",
+      "email": "",
+      "website": "http://www.looks.ky/",
+      "bookingUrl": "http://www.looks.ky/"
+    },
+    "media": {
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep9ZVKETrVzNQQxBNflgt_KPuR8vStvMKf79ZSS96nMsD_ypllv146gLqqI9-lpk1b4dv762ubDESKhlkGk3HkdpnrrzFBveHsXqSjyF_1q11Kat5IkB79eS7IsHNwXFud5ca7C=w89-h92-k-no",
+      "images": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep9ZVKETrVzNQQxBNflgt_KPuR8vStvMKf79ZSS96nMsD_ypllv146gLqqI9-lpk1b4dv762ubDESKhlkGk3HkdpnrrzFBveHsXqSjyF_1q11Kat5IkB79eS7IsHNwXFud5ca7C=w89-h92-k-no"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 100,
+      "priceTo": 300,
+      "pricePerUnit": null,
+      "priceDescription": "$100 - $300",
+      "currency": "USD",
+      "openingHours": {
+        "raw": "Closed · Opens 10 am Thu",
+        "isOpen": true,
+        "todayHours": {
+          "opens": "10 am"
+        },
+        "schedule": {},
+        "formattedDisplay": "Open now"
+      },
+      "reservationRequired": false,
+      "serviceOptions": {}
+    },
+    "ratings": {
+      "overall": 4.9,
+      "reviewCount": 32,
+      "googleRating": 4.9
+    },
+    "tags": [
+      "medical spa",
+      "cosmetic",
+      "surgery",
+      "cayman",
+      "cayman islands",
+      "caribbean"
+    ],
+    "keywords": [
+      "looks",
+      "(the",
+      "art",
+      "beauty)",
+      "cosmetic",
+      "surgery",
+      "cayman"
+    ],
+    "embeddingText": "LOOKS (The Art of Beauty) LOOKS (The Art of Beauty) located in the Cayman Islands. medical_vip Cayman Islands Caribbean",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": false,
+    "createdAt": "2026-01-28T23:35:23.274Z",
+    "updatedAt": "2026-01-28T23:35:23.274Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "flight-gcm-gcm-mkynxz7v",
+    "category": "flight",
+    "subcategory": "inbound",
+    "name": "Flight: Miami → Cayman Islands",
+    "description": "Cayman Airways - 1h 35m flight. 0 stop(s).",
+    "shortDescription": "Cayman Airways from $267",
+    "location": {
+      "address": "Miami International Airport",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2928,
+      "longitude": -81.3577,
+      "googlePlaceId": ""
+    },
+    "contact": {
+      "phone": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://www.gstatic.com/flights/airline_logos/70px/KX.png",
+      "images": [
+        "https://www.gstatic.com/flights/airline_logos/70px/KX.png"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 267,
+      "priceTo": null,
+      "pricePerUnit": "/person",
+      "priceDescription": "$267",
+      "currency": "USD"
+    },
+    "ratings": {
+      "overall": 0,
+      "reviewCount": 0
+    },
+    "tags": [
+      "flight",
+      "airline",
+      "cayman airways",
+      "cayman islands"
+    ],
+    "keywords": [
+      "flight",
+      "travel",
+      "airline",
+      "MIA",
+      "GCM"
+    ],
+    "flightDetails": {
+      "airline": "Cayman Airways",
+      "flightNumber": "KX 105",
+      "aircraft": "Boeing 737MAX 8 Passenger",
+      "duration": 95,
+      "durationFormatted": "1h 35m",
+      "stops": 0,
+      "travelClass": "Economy",
+      "origin": {
+        "airport": "MIA",
+        "name": "Miami International Airport",
+        "time": "2026-02-04 14:30"
+      },
+      "destination": {
+        "airport": "GCM",
+        "name": "Owen Roberts International Airport",
+        "time": "2026-02-04 16:05"
+      },
+      "legs": [
+        {
+          "airline": "Cayman Airways",
+          "flightNumber": "KX 105",
+          "departure": {
+            "airport": "MIA",
+            "name": "Miami International Airport",
+            "time": "2026-02-04 14:30"
+          },
+          "arrival": {
+            "airport": "GCM",
+            "name": "Owen Roberts International Airport",
+            "time": "2026-02-04 16:05"
+          },
+          "duration": 95,
+          "aircraft": "Boeing 737MAX 8 Passenger",
+          "travelClass": "Economy"
+        }
+      ],
+      "isBestFlight": true
+    },
+    "embeddingText": "Flight Cayman Airways Miami → Cayman Islands Cayman Islands travel aviation",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:23.275Z",
+    "updatedAt": "2026-01-28T23:35:23.275Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "flight-gcm-gcm-mkynxz7v",
+    "category": "flight",
+    "subcategory": "inbound",
+    "name": "Flight: New York → Cayman Islands",
+    "description": "American - 12h 50m flight. 1 stop(s).",
+    "shortDescription": "American from $332",
+    "location": {
+      "address": "John F. Kennedy International Airport",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2928,
+      "longitude": -81.3577,
+      "googlePlaceId": ""
+    },
+    "contact": {
+      "phone": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "images": [
+        "https://www.gstatic.com/flights/airline_logos/70px/AA.png"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 332,
+      "priceTo": null,
+      "pricePerUnit": "/person",
+      "priceDescription": "$332",
+      "currency": "USD"
+    },
+    "ratings": {
+      "overall": 0,
+      "reviewCount": 0
+    },
+    "tags": [
+      "flight",
+      "airline",
+      "american",
+      "cayman islands"
+    ],
+    "keywords": [
+      "flight",
+      "travel",
+      "airline",
+      "JFK",
+      "GCM"
+    ],
+    "flightDetails": {
+      "airline": "American",
+      "flightNumber": "AA 2017",
+      "aircraft": "Airbus A321",
+      "duration": 770,
+      "durationFormatted": "12h 50m",
+      "stops": 1,
+      "travelClass": "Economy",
+      "origin": {
+        "airport": "JFK",
+        "name": "John F. Kennedy International Airport",
+        "time": "2026-02-04 07:30"
+      },
+      "destination": {
+        "airport": "GCM",
+        "name": "Owen Roberts International Airport",
+        "time": "2026-02-04 20:20"
+      },
+      "legs": [
+        {
+          "airline": "American",
+          "flightNumber": "AA 2017",
+          "departure": {
+            "airport": "JFK",
+            "name": "John F. Kennedy International Airport",
+            "time": "2026-02-04 07:30"
+          },
+          "arrival": {
+            "airport": "MIA",
+            "name": "Miami International Airport",
+            "time": "2026-02-04 10:53"
+          },
+          "duration": 203,
+          "aircraft": "Airbus A321",
+          "travelClass": "Economy"
+        },
+        {
+          "airline": "American",
+          "flightNumber": "AA 303",
+          "departure": {
+            "airport": "MIA",
+            "name": "Miami International Airport",
+            "time": "2026-02-04 18:35"
+          },
+          "arrival": {
+            "airport": "GCM",
+            "name": "Owen Roberts International Airport",
+            "time": "2026-02-04 20:20"
+          },
+          "duration": 105,
+          "aircraft": "Airbus A319",
+          "travelClass": "Economy"
+        }
+      ],
+      "isBestFlight": true
+    },
+    "embeddingText": "Flight American New York → Cayman Islands Cayman Islands travel aviation",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:23.275Z",
+    "updatedAt": "2026-01-28T23:35:23.275Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "flight-gcm-gcm-mkynxz7v",
+    "category": "flight",
+    "subcategory": "inbound",
+    "name": "Flight: Los Angeles → Cayman Islands",
+    "description": "American - 9h 25m flight. 1 stop(s).",
+    "shortDescription": "American from $524",
+    "location": {
+      "address": "Los Angeles International Airport",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2928,
+      "longitude": -81.3577,
+      "googlePlaceId": ""
+    },
+    "contact": {
+      "phone": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "images": [
+        "https://www.gstatic.com/flights/airline_logos/70px/AA.png"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$$",
+      "priceFrom": 524,
+      "priceTo": null,
+      "pricePerUnit": "/person",
+      "priceDescription": "$524",
+      "currency": "USD"
+    },
+    "ratings": {
+      "overall": 0,
+      "reviewCount": 0
+    },
+    "tags": [
+      "flight",
+      "airline",
+      "american",
+      "cayman islands"
+    ],
+    "keywords": [
+      "flight",
+      "travel",
+      "airline",
+      "LAX",
+      "GCM"
+    ],
+    "flightDetails": {
+      "airline": "American",
+      "flightNumber": "AA 2512",
+      "aircraft": "Boeing 737MAX 8 Passenger",
+      "duration": 565,
+      "durationFormatted": "9h 25m",
+      "stops": 1,
+      "travelClass": "Economy",
+      "origin": {
+        "airport": "LAX",
+        "name": "Los Angeles International Airport",
+        "time": "2026-02-04 07:55"
+      },
+      "destination": {
+        "airport": "GCM",
+        "name": "Owen Roberts International Airport",
+        "time": "2026-02-04 20:20"
+      },
+      "legs": [
+        {
+          "airline": "American",
+          "flightNumber": "AA 2512",
+          "departure": {
+            "airport": "LAX",
+            "name": "Los Angeles International Airport",
+            "time": "2026-02-04 07:55"
+          },
+          "arrival": {
+            "airport": "MIA",
+            "name": "Miami International Airport",
+            "time": "2026-02-04 15:45"
+          },
+          "duration": 290,
+          "aircraft": "Boeing 737MAX 8 Passenger",
+          "travelClass": "Economy"
+        },
+        {
+          "airline": "American",
+          "flightNumber": "AA 303",
+          "departure": {
+            "airport": "MIA",
+            "name": "Miami International Airport",
+            "time": "2026-02-04 18:35"
+          },
+          "arrival": {
+            "airport": "GCM",
+            "name": "Owen Roberts International Airport",
+            "time": "2026-02-04 20:20"
+          },
+          "duration": 105,
+          "aircraft": "Airbus A319",
+          "travelClass": "Economy"
+        }
+      ],
+      "isBestFlight": true
+    },
+    "embeddingText": "Flight American Los Angeles → Cayman Islands Cayman Islands travel aviation",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:23.275Z",
+    "updatedAt": "2026-01-28T23:35:23.275Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "flight-gcm-gcm-mkynxz7v",
+    "category": "flight",
+    "subcategory": "inbound",
+    "name": "Flight: London → Cayman Islands",
+    "description": "American - 14h 5m flight. 1 stop(s).",
+    "shortDescription": "American from $1107",
+    "location": {
+      "address": "Heathrow Airport",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2928,
+      "longitude": -81.3577,
+      "googlePlaceId": ""
+    },
+    "contact": {
+      "phone": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "images": [
+        "https://www.gstatic.com/flights/airline_logos/70px/AA.png"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$$$",
+      "priceFrom": 1107,
+      "priceTo": null,
+      "pricePerUnit": "/person",
+      "priceDescription": "$1107",
+      "currency": "USD"
+    },
+    "ratings": {
+      "overall": 0,
+      "reviewCount": 0
+    },
+    "tags": [
+      "flight",
+      "airline",
+      "american",
+      "cayman islands"
+    ],
+    "keywords": [
+      "flight",
+      "travel",
+      "airline",
+      "LHR",
+      "GCM"
+    ],
+    "flightDetails": {
+      "airline": "American",
+      "flightNumber": "AA 57",
+      "aircraft": "Boeing 777",
+      "duration": 845,
+      "durationFormatted": "14h 5m",
+      "stops": 1,
+      "travelClass": "Economy",
+      "origin": {
+        "airport": "LHR",
+        "name": "Heathrow Airport",
+        "time": "2026-02-04 11:15"
+      },
+      "destination": {
+        "airport": "GCM",
+        "name": "Owen Roberts International Airport",
+        "time": "2026-02-04 20:20"
+      },
+      "legs": [
+        {
+          "airline": "American",
+          "flightNumber": "AA 57",
+          "departure": {
+            "airport": "LHR",
+            "name": "Heathrow Airport",
+            "time": "2026-02-04 11:15"
+          },
+          "arrival": {
+            "airport": "MIA",
+            "name": "Miami International Airport",
+            "time": "2026-02-04 16:25"
+          },
+          "duration": 610,
+          "aircraft": "Boeing 777",
+          "travelClass": "Economy"
+        },
+        {
+          "airline": "American",
+          "flightNumber": "AA 303",
+          "departure": {
+            "airport": "MIA",
+            "name": "Miami International Airport",
+            "time": "2026-02-04 18:35"
+          },
+          "arrival": {
+            "airport": "GCM",
+            "name": "Owen Roberts International Airport",
+            "time": "2026-02-04 20:20"
+          },
+          "duration": 105,
+          "aircraft": "Airbus A319",
+          "travelClass": "Economy"
+        }
+      ],
+      "isBestFlight": true
+    },
+    "embeddingText": "Flight American London → Cayman Islands Cayman Islands travel aviation",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:23.275Z",
+    "updatedAt": "2026-01-28T23:35:23.275Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "flight-gcm-gcm-mkynxz7v",
+    "category": "flight",
+    "subcategory": "inbound",
+    "name": "Flight: Toronto → Cayman Islands",
+    "description": "American - 14h 20m flight. 1 stop(s).",
+    "shortDescription": "American from $320",
+    "location": {
+      "address": "Toronto Pearson International Airport",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2928,
+      "longitude": -81.3577,
+      "googlePlaceId": ""
+    },
+    "contact": {
+      "phone": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "images": [
+        "https://www.gstatic.com/flights/airline_logos/70px/AA.png"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 320,
+      "priceTo": null,
+      "pricePerUnit": "/person",
+      "priceDescription": "$320",
+      "currency": "USD"
+    },
+    "ratings": {
+      "overall": 0,
+      "reviewCount": 0
+    },
+    "tags": [
+      "flight",
+      "airline",
+      "american",
+      "cayman islands"
+    ],
+    "keywords": [
+      "flight",
+      "travel",
+      "airline",
+      "YYZ",
+      "GCM"
+    ],
+    "flightDetails": {
+      "airline": "American",
+      "flightNumber": "AA 2589",
+      "aircraft": "Boeing 737",
+      "duration": 860,
+      "durationFormatted": "14h 20m",
+      "stops": 1,
+      "travelClass": "Economy",
+      "origin": {
+        "airport": "YYZ",
+        "name": "Toronto Pearson International Airport",
+        "time": "2026-02-04 06:00"
+      },
+      "destination": {
+        "airport": "GCM",
+        "name": "Owen Roberts International Airport",
+        "time": "2026-02-04 20:20"
+      },
+      "legs": [
+        {
+          "airline": "American",
+          "flightNumber": "AA 2589",
+          "departure": {
+            "airport": "YYZ",
+            "name": "Toronto Pearson International Airport",
+            "time": "2026-02-04 06:00"
+          },
+          "arrival": {
+            "airport": "MIA",
+            "name": "Miami International Airport",
+            "time": "2026-02-04 09:53"
+          },
+          "duration": 233,
+          "aircraft": "Boeing 737",
+          "travelClass": "Economy"
+        },
+        {
+          "airline": "American",
+          "flightNumber": "AA 303",
+          "departure": {
+            "airport": "MIA",
+            "name": "Miami International Airport",
+            "time": "2026-02-04 18:35"
+          },
+          "arrival": {
+            "airport": "GCM",
+            "name": "Owen Roberts International Airport",
+            "time": "2026-02-04 20:20"
+          },
+          "duration": 105,
+          "aircraft": "Airbus A319",
+          "travelClass": "Economy"
+        }
+      ],
+      "isBestFlight": true
+    },
+    "embeddingText": "Flight American Toronto → Cayman Islands Cayman Islands travel aviation",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:23.275Z",
+    "updatedAt": "2026-01-28T23:35:23.275Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "flight-gcm-gcm-mkynxz7w",
+    "category": "flight",
+    "subcategory": "inbound",
+    "name": "Flight: Atlanta → Cayman Islands",
+    "description": "Southwest - 4h 40m flight. 1 stop(s).",
+    "shortDescription": "Southwest from $647",
+    "location": {
+      "address": "Hartsfield-Jackson Atlanta International Airport",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2928,
+      "longitude": -81.3577,
+      "googlePlaceId": ""
+    },
+    "contact": {
+      "phone": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://www.gstatic.com/flights/airline_logos/70px/WN.png",
+      "images": [
+        "https://www.gstatic.com/flights/airline_logos/70px/WN.png"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$$",
+      "priceFrom": 647,
+      "priceTo": null,
+      "pricePerUnit": "/person",
+      "priceDescription": "$647",
+      "currency": "USD"
+    },
+    "ratings": {
+      "overall": 0,
+      "reviewCount": 0
+    },
+    "tags": [
+      "flight",
+      "airline",
+      "southwest",
+      "cayman islands"
+    ],
+    "keywords": [
+      "flight",
+      "travel",
+      "airline",
+      "ATL",
+      "GCM"
+    ],
+    "flightDetails": {
+      "airline": "Southwest",
+      "flightNumber": "WN 2851",
+      "aircraft": "Boeing 737-700 (Scimitar Winglets) Pax",
+      "duration": 280,
+      "durationFormatted": "4h 40m",
+      "stops": 1,
+      "travelClass": "Economy",
+      "origin": {
+        "airport": "ATL",
+        "name": "Hartsfield-Jackson Atlanta International Airport",
+        "time": "2026-02-04 08:15"
+      },
+      "destination": {
+        "airport": "GCM",
+        "name": "Owen Roberts International Airport",
+        "time": "2026-02-04 12:55"
+      },
+      "legs": [
+        {
+          "airline": "Southwest",
+          "flightNumber": "WN 2851",
+          "departure": {
+            "airport": "ATL",
+            "name": "Hartsfield-Jackson Atlanta International Airport",
+            "time": "2026-02-04 08:15"
+          },
+          "arrival": {
+            "airport": "MCO",
+            "name": "Orlando International Airport",
+            "time": "2026-02-04 09:50"
+          },
+          "duration": 95,
+          "aircraft": "Boeing 737-700 (Scimitar Winglets) Pax",
+          "travelClass": "Economy"
+        },
+        {
+          "airline": "Southwest",
+          "flightNumber": "WN 912",
+          "departure": {
+            "airport": "MCO",
+            "name": "Orlando International Airport",
+            "time": "2026-02-04 11:00"
+          },
+          "arrival": {
+            "airport": "GCM",
+            "name": "Owen Roberts International Airport",
+            "time": "2026-02-04 12:55"
+          },
+          "duration": 115,
+          "aircraft": "Boeing 737-700 (Scimitar Winglets) Pax",
+          "travelClass": "Economy"
+        }
+      ],
+      "isBestFlight": true
+    },
+    "embeddingText": "Flight Southwest Atlanta → Cayman Islands Cayman Islands travel aviation",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:23.276Z",
+    "updatedAt": "2026-01-28T23:35:23.276Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "flight-gcm-gcm-mkynxz7w",
+    "category": "flight",
+    "subcategory": "inbound",
+    "name": "Flight: Dallas → Cayman Islands",
+    "description": "American - 6h 17m flight. 1 stop(s).",
+    "shortDescription": "American from $573",
+    "location": {
+      "address": "Dallas Fort Worth International Airport",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2928,
+      "longitude": -81.3577,
+      "googlePlaceId": ""
+    },
+    "contact": {
+      "phone": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "images": [
+        "https://www.gstatic.com/flights/airline_logos/70px/AA.png"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$$",
+      "priceFrom": 573,
+      "priceTo": null,
+      "pricePerUnit": "/person",
+      "priceDescription": "$573",
+      "currency": "USD"
+    },
+    "ratings": {
+      "overall": 0,
+      "reviewCount": 0
+    },
+    "tags": [
+      "flight",
+      "airline",
+      "american",
+      "cayman islands"
+    ],
+    "keywords": [
+      "flight",
+      "travel",
+      "airline",
+      "DFW",
+      "GCM"
+    ],
+    "flightDetails": {
+      "airline": "American",
+      "flightNumber": "AA 871",
+      "aircraft": "Airbus A321",
+      "duration": 377,
+      "durationFormatted": "6h 17m",
+      "stops": 1,
+      "travelClass": "Economy",
+      "origin": {
+        "airport": "DFW",
+        "name": "Dallas Fort Worth International Airport",
+        "time": "2026-02-04 13:03"
+      },
+      "destination": {
+        "airport": "GCM",
+        "name": "Owen Roberts International Airport",
+        "time": "2026-02-04 20:20"
+      },
+      "legs": [
+        {
+          "airline": "American",
+          "flightNumber": "AA 871",
+          "departure": {
+            "airport": "DFW",
+            "name": "Dallas Fort Worth International Airport",
+            "time": "2026-02-04 13:03"
+          },
+          "arrival": {
+            "airport": "MIA",
+            "name": "Miami International Airport",
+            "time": "2026-02-04 16:57"
+          },
+          "duration": 174,
+          "aircraft": "Airbus A321",
+          "travelClass": "Economy"
+        },
+        {
+          "airline": "American",
+          "flightNumber": "AA 303",
+          "departure": {
+            "airport": "MIA",
+            "name": "Miami International Airport",
+            "time": "2026-02-04 18:35"
+          },
+          "arrival": {
+            "airport": "GCM",
+            "name": "Owen Roberts International Airport",
+            "time": "2026-02-04 20:20"
+          },
+          "duration": 105,
+          "aircraft": "Airbus A319",
+          "travelClass": "Economy"
+        }
+      ],
+      "isBestFlight": true
+    },
+    "embeddingText": "Flight American Dallas → Cayman Islands Cayman Islands travel aviation",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:23.276Z",
+    "updatedAt": "2026-01-28T23:35:23.276Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "flight-gcm-gcm-mkynxz7w",
+    "category": "flight",
+    "subcategory": "inbound",
+    "name": "Flight: Chicago → Cayman Islands",
+    "description": "American - 4h 4m flight. 0 stop(s).",
+    "shortDescription": "American from $495",
+    "location": {
+      "address": "Chicago O'Hare International Airport",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2928,
+      "longitude": -81.3577,
+      "googlePlaceId": ""
+    },
+    "contact": {
+      "phone": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "images": [
+        "https://www.gstatic.com/flights/airline_logos/70px/AA.png"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 495,
+      "priceTo": null,
+      "pricePerUnit": "/person",
+      "priceDescription": "$495",
+      "currency": "USD"
+    },
+    "ratings": {
+      "overall": 0,
+      "reviewCount": 0
+    },
+    "tags": [
+      "flight",
+      "airline",
+      "american",
+      "cayman islands"
+    ],
+    "keywords": [
+      "flight",
+      "travel",
+      "airline",
+      "ORD",
+      "GCM"
+    ],
+    "flightDetails": {
+      "airline": "American",
+      "flightNumber": "AA 998",
+      "aircraft": "Airbus A319",
+      "duration": 244,
+      "durationFormatted": "4h 4m",
+      "stops": 0,
+      "travelClass": "Economy",
+      "origin": {
+        "airport": "ORD",
+        "name": "Chicago O'Hare International Airport",
+        "time": "2026-02-04 09:31"
+      },
+      "destination": {
+        "airport": "GCM",
+        "name": "Owen Roberts International Airport",
+        "time": "2026-02-04 14:35"
+      },
+      "legs": [
+        {
+          "airline": "American",
+          "flightNumber": "AA 998",
+          "departure": {
+            "airport": "ORD",
+            "name": "Chicago O'Hare International Airport",
+            "time": "2026-02-04 09:31"
+          },
+          "arrival": {
+            "airport": "GCM",
+            "name": "Owen Roberts International Airport",
+            "time": "2026-02-04 14:35"
+          },
+          "duration": 244,
+          "aircraft": "Airbus A319",
+          "travelClass": "Economy"
+        }
+      ],
+      "isBestFlight": true
+    },
+    "embeddingText": "Flight American Chicago → Cayman Islands Cayman Islands travel aviation",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:23.276Z",
+    "updatedAt": "2026-01-28T23:35:23.276Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "flight-gcm-gcm-mkynxz7w",
+    "category": "flight",
+    "subcategory": "outbound",
+    "name": "Flight: Cayman Islands → Miami",
+    "description": "Cayman Airways - 1h 35m flight. 0 stop(s).",
+    "shortDescription": "Cayman Airways from $263",
+    "location": {
+      "address": "Owen Roberts International Airport",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2928,
+      "longitude": -81.3577,
+      "googlePlaceId": ""
+    },
+    "contact": {
+      "phone": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://www.gstatic.com/flights/airline_logos/70px/KX.png",
+      "images": [
+        "https://www.gstatic.com/flights/airline_logos/70px/KX.png"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 263,
+      "priceTo": null,
+      "pricePerUnit": "/person",
+      "priceDescription": "$263",
+      "currency": "USD"
+    },
+    "ratings": {
+      "overall": 0,
+      "reviewCount": 0
+    },
+    "tags": [
+      "flight",
+      "airline",
+      "cayman airways",
+      "cayman islands"
+    ],
+    "keywords": [
+      "flight",
+      "travel",
+      "airline",
+      "GCM",
+      "MIA"
+    ],
+    "flightDetails": {
+      "airline": "Cayman Airways",
+      "flightNumber": "KX 104",
+      "aircraft": "Boeing 737MAX 8 Passenger",
+      "duration": 95,
+      "durationFormatted": "1h 35m",
+      "stops": 0,
+      "travelClass": "Economy",
+      "origin": {
+        "airport": "GCM",
+        "name": "Owen Roberts International Airport",
+        "time": "2026-02-04 11:30"
+      },
+      "destination": {
+        "airport": "MIA",
+        "name": "Miami International Airport",
+        "time": "2026-02-04 13:05"
+      },
+      "legs": [
+        {
+          "airline": "Cayman Airways",
+          "flightNumber": "KX 104",
+          "departure": {
+            "airport": "GCM",
+            "name": "Owen Roberts International Airport",
+            "time": "2026-02-04 11:30"
+          },
+          "arrival": {
+            "airport": "MIA",
+            "name": "Miami International Airport",
+            "time": "2026-02-04 13:05"
+          },
+          "duration": 95,
+          "aircraft": "Boeing 737MAX 8 Passenger",
+          "travelClass": "Economy"
+        }
+      ],
+      "isBestFlight": true
+    },
+    "embeddingText": "Flight Cayman Airways Cayman Islands → Miami Cayman Islands travel aviation",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:23.276Z",
+    "updatedAt": "2026-01-28T23:35:23.276Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "flight-gcm-gcm-mkynxz7w",
+    "category": "flight",
+    "subcategory": "outbound",
+    "name": "Flight: Cayman Islands → New York",
+    "description": "American - 6h 31m flight. 1 stop(s).",
+    "shortDescription": "American from $379",
+    "location": {
+      "address": "Owen Roberts International Airport",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2928,
+      "longitude": -81.3577,
+      "googlePlaceId": ""
+    },
+    "contact": {
+      "phone": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "images": [
+        "https://www.gstatic.com/flights/airline_logos/70px/AA.png"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 379,
+      "priceTo": null,
+      "pricePerUnit": "/person",
+      "priceDescription": "$379",
+      "currency": "USD"
+    },
+    "ratings": {
+      "overall": 0,
+      "reviewCount": 0
+    },
+    "tags": [
+      "flight",
+      "airline",
+      "american",
+      "cayman islands"
+    ],
+    "keywords": [
+      "flight",
+      "travel",
+      "airline",
+      "GCM",
+      "JFK"
+    ],
+    "flightDetails": {
+      "airline": "American",
+      "flightNumber": "AA 1815",
+      "aircraft": "Airbus A319",
+      "duration": 391,
+      "durationFormatted": "6h 31m",
+      "stops": 1,
+      "travelClass": "Economy",
+      "origin": {
+        "airport": "GCM",
+        "name": "Owen Roberts International Airport",
+        "time": "2026-02-04 08:50"
+      },
+      "destination": {
+        "airport": "JFK",
+        "name": "John F. Kennedy International Airport",
+        "time": "2026-02-04 15:21"
+      },
+      "legs": [
+        {
+          "airline": "American",
+          "flightNumber": "AA 1815",
+          "departure": {
+            "airport": "GCM",
+            "name": "Owen Roberts International Airport",
+            "time": "2026-02-04 08:50"
+          },
+          "arrival": {
+            "airport": "MIA",
+            "name": "Miami International Airport",
+            "time": "2026-02-04 10:31"
+          },
+          "duration": 101,
+          "aircraft": "Airbus A319",
+          "travelClass": "Economy"
+        },
+        {
+          "airline": "American",
+          "flightNumber": "AA 1717",
+          "departure": {
+            "airport": "MIA",
+            "name": "Miami International Airport",
+            "time": "2026-02-04 12:20"
+          },
+          "arrival": {
+            "airport": "JFK",
+            "name": "John F. Kennedy International Airport",
+            "time": "2026-02-04 15:21"
+          },
+          "duration": 181,
+          "aircraft": "Boeing 737MAX 8 Passenger",
+          "travelClass": "Economy"
+        }
+      ],
+      "isBestFlight": true
+    },
+    "embeddingText": "Flight American Cayman Islands → New York Cayman Islands travel aviation",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:23.276Z",
+    "updatedAt": "2026-01-28T23:35:23.276Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "flight-gcm-gcm-mkynxz7w",
+    "category": "flight",
+    "subcategory": "outbound",
+    "name": "Flight: Cayman Islands → Los Angeles",
+    "description": "Delta - 9h 40m flight. 1 stop(s).",
+    "shortDescription": "Delta from $505",
+    "location": {
+      "address": "Owen Roberts International Airport",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2928,
+      "longitude": -81.3577,
+      "googlePlaceId": ""
+    },
+    "contact": {
+      "phone": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+      "images": [
+        "https://www.gstatic.com/flights/airline_logos/70px/DL.png"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$$",
+      "priceFrom": 505,
+      "priceTo": null,
+      "pricePerUnit": "/person",
+      "priceDescription": "$505",
+      "currency": "USD"
+    },
+    "ratings": {
+      "overall": 0,
+      "reviewCount": 0
+    },
+    "tags": [
+      "flight",
+      "airline",
+      "delta",
+      "cayman islands"
+    ],
+    "keywords": [
+      "flight",
+      "travel",
+      "airline",
+      "GCM",
+      "LAX"
+    ],
+    "flightDetails": {
+      "airline": "Delta",
+      "flightNumber": "DL 1870",
+      "aircraft": "Boeing 737",
+      "duration": 580,
+      "durationFormatted": "9h 40m",
+      "stops": 1,
+      "travelClass": "Economy",
+      "origin": {
+        "airport": "GCM",
+        "name": "Owen Roberts International Airport",
+        "time": "2026-02-04 14:05"
+      },
+      "destination": {
+        "airport": "LAX",
+        "name": "Los Angeles International Airport",
+        "time": "2026-02-04 20:45"
+      },
+      "legs": [
+        {
+          "airline": "Delta",
+          "flightNumber": "DL 1870",
+          "departure": {
+            "airport": "GCM",
+            "name": "Owen Roberts International Airport",
+            "time": "2026-02-04 14:05"
+          },
+          "arrival": {
+            "airport": "ATL",
+            "name": "Hartsfield-Jackson Atlanta International Airport",
+            "time": "2026-02-04 16:53"
+          },
+          "duration": 168,
+          "aircraft": "Boeing 737",
+          "travelClass": "Economy"
+        },
+        {
+          "airline": "Delta",
+          "flightNumber": "DL 500",
+          "departure": {
+            "airport": "ATL",
+            "name": "Hartsfield-Jackson Atlanta International Airport",
+            "time": "2026-02-04 18:35"
+          },
+          "arrival": {
+            "airport": "LAX",
+            "name": "Los Angeles International Airport",
+            "time": "2026-02-04 20:45"
+          },
+          "duration": 310,
+          "aircraft": "Airbus A321",
+          "travelClass": "Economy"
+        }
+      ],
+      "isBestFlight": true
+    },
+    "embeddingText": "Flight Delta Cayman Islands → Los Angeles Cayman Islands travel aviation",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:23.276Z",
+    "updatedAt": "2026-01-28T23:35:23.276Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "flight-gcm-gcm-mkynxz7w",
+    "category": "flight",
+    "subcategory": "outbound",
+    "name": "Flight: Cayman Islands → London",
+    "description": "Cayman Airways - 14h 30m flight. 1 stop(s).",
+    "shortDescription": "Cayman Airways from $1179",
+    "location": {
+      "address": "Owen Roberts International Airport",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2928,
+      "longitude": -81.3577,
+      "googlePlaceId": ""
+    },
+    "contact": {
+      "phone": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://www.gstatic.com/flights/airline_logos/70px/KX.png",
+      "images": [
+        "https://www.gstatic.com/flights/airline_logos/70px/KX.png"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$$$",
+      "priceFrom": 1179,
+      "priceTo": null,
+      "pricePerUnit": "/person",
+      "priceDescription": "$1179",
+      "currency": "USD"
+    },
+    "ratings": {
+      "overall": 0,
+      "reviewCount": 0
+    },
+    "tags": [
+      "flight",
+      "airline",
+      "cayman airways",
+      "cayman islands"
+    ],
+    "keywords": [
+      "flight",
+      "travel",
+      "airline",
+      "GCM",
+      "LHR"
+    ],
+    "flightDetails": {
+      "airline": "Cayman Airways",
+      "flightNumber": "KX 104",
+      "aircraft": "Boeing 737MAX 8 Passenger",
+      "duration": 870,
+      "durationFormatted": "14h 30m",
+      "stops": 1,
+      "travelClass": "Economy",
+      "origin": {
+        "airport": "GCM",
+        "name": "Owen Roberts International Airport",
+        "time": "2026-02-04 11:30"
+      },
+      "destination": {
+        "airport": "LHR",
+        "name": "Heathrow Airport",
+        "time": "2026-02-05 07:00"
+      },
+      "legs": [
+        {
+          "airline": "Cayman Airways",
+          "flightNumber": "KX 104",
+          "departure": {
+            "airport": "GCM",
+            "name": "Owen Roberts International Airport",
+            "time": "2026-02-04 11:30"
+          },
+          "arrival": {
+            "airport": "MIA",
+            "name": "Miami International Airport",
+            "time": "2026-02-04 13:05"
+          },
+          "duration": 95,
+          "aircraft": "Boeing 737MAX 8 Passenger",
+          "travelClass": "Economy"
+        },
+        {
+          "airline": "Virgin Atlantic",
+          "flightNumber": "VS 6",
+          "departure": {
+            "airport": "MIA",
+            "name": "Miami International Airport",
+            "time": "2026-02-04 17:10"
+          },
+          "arrival": {
+            "airport": "LHR",
+            "name": "Heathrow Airport",
+            "time": "2026-02-05 07:00"
+          },
+          "duration": 530,
+          "aircraft": "Airbus A330-900neo",
+          "travelClass": "Economy"
+        }
+      ],
+      "isBestFlight": true
+    },
+    "embeddingText": "Flight Cayman Airways Cayman Islands → London Cayman Islands travel aviation",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:23.276Z",
+    "updatedAt": "2026-01-28T23:35:23.276Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "flight-gcm-gcm-mkynxz7w",
+    "category": "flight",
+    "subcategory": "outbound",
+    "name": "Flight: Cayman Islands → Toronto",
+    "description": "American - 12h 54m flight. 2 stop(s).",
+    "shortDescription": "American from $367",
+    "location": {
+      "address": "Owen Roberts International Airport",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2928,
+      "longitude": -81.3577,
+      "googlePlaceId": ""
+    },
+    "contact": {
+      "phone": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "images": [
+        "https://www.gstatic.com/flights/airline_logos/70px/AA.png"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$",
+      "priceFrom": 367,
+      "priceTo": null,
+      "pricePerUnit": "/person",
+      "priceDescription": "$367",
+      "currency": "USD"
+    },
+    "ratings": {
+      "overall": 0,
+      "reviewCount": 0
+    },
+    "tags": [
+      "flight",
+      "airline",
+      "american",
+      "cayman islands"
+    ],
+    "keywords": [
+      "flight",
+      "travel",
+      "airline",
+      "GCM",
+      "YYZ"
+    ],
+    "flightDetails": {
+      "airline": "American",
+      "flightNumber": "AA 1815",
+      "aircraft": "Airbus A319",
+      "duration": 774,
+      "durationFormatted": "12h 54m",
+      "stops": 2,
+      "travelClass": "Economy",
+      "origin": {
+        "airport": "GCM",
+        "name": "Owen Roberts International Airport",
+        "time": "2026-02-04 08:50"
+      },
+      "destination": {
+        "airport": "YYZ",
+        "name": "Toronto Pearson International Airport",
+        "time": "2026-02-04 21:44"
+      },
+      "legs": [
+        {
+          "airline": "American",
+          "flightNumber": "AA 1815",
+          "departure": {
+            "airport": "GCM",
+            "name": "Owen Roberts International Airport",
+            "time": "2026-02-04 08:50"
+          },
+          "arrival": {
+            "airport": "MIA",
+            "name": "Miami International Airport",
+            "time": "2026-02-04 10:31"
+          },
+          "duration": 101,
+          "aircraft": "Airbus A319",
+          "travelClass": "Economy"
+        },
+        {
+          "airline": "American",
+          "flightNumber": "AA 3330",
+          "departure": {
+            "airport": "MIA",
+            "name": "Miami International Airport",
+            "time": "2026-02-04 15:33"
+          },
+          "arrival": {
+            "airport": "LGA",
+            "name": "LaGuardia Airport",
+            "time": "2026-02-04 18:29"
+          },
+          "duration": 176,
+          "aircraft": "Airbus A321",
+          "travelClass": "Economy"
+        },
+        {
+          "airline": "American",
+          "flightNumber": "AA 4369",
+          "departure": {
+            "airport": "LGA",
+            "name": "LaGuardia Airport",
+            "time": "2026-02-04 19:52"
+          },
+          "arrival": {
+            "airport": "YYZ",
+            "name": "Toronto Pearson International Airport",
+            "time": "2026-02-04 21:44"
+          },
+          "duration": 112,
+          "aircraft": "Embraer 170",
+          "travelClass": "Economy"
+        }
+      ],
+      "isBestFlight": true
+    },
+    "embeddingText": "Flight American Cayman Islands → Toronto Cayman Islands travel aviation",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:23.276Z",
+    "updatedAt": "2026-01-28T23:35:23.276Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "flight-gcm-gcm-mkynxz7w",
+    "category": "flight",
+    "subcategory": "outbound",
+    "name": "Flight: Cayman Islands → Atlanta",
+    "description": "Southwest - 7h 10m flight. 1 stop(s).",
+    "shortDescription": "Southwest from $647",
+    "location": {
+      "address": "Owen Roberts International Airport",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2928,
+      "longitude": -81.3577,
+      "googlePlaceId": ""
+    },
+    "contact": {
+      "phone": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://www.gstatic.com/flights/airline_logos/70px/WN.png",
+      "images": [
+        "https://www.gstatic.com/flights/airline_logos/70px/WN.png"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$$",
+      "priceFrom": 647,
+      "priceTo": null,
+      "pricePerUnit": "/person",
+      "priceDescription": "$647",
+      "currency": "USD"
+    },
+    "ratings": {
+      "overall": 0,
+      "reviewCount": 0
+    },
+    "tags": [
+      "flight",
+      "airline",
+      "southwest",
+      "cayman islands"
+    ],
+    "keywords": [
+      "flight",
+      "travel",
+      "airline",
+      "GCM",
+      "ATL"
+    ],
+    "flightDetails": {
+      "airline": "Southwest",
+      "flightNumber": "WN 913",
+      "aircraft": "Boeing 737-700 (Scimitar Winglets) Pax",
+      "duration": 430,
+      "durationFormatted": "7h 10m",
+      "stops": 1,
+      "travelClass": "Economy",
+      "origin": {
+        "airport": "GCM",
+        "name": "Owen Roberts International Airport",
+        "time": "2026-02-04 13:50"
+      },
+      "destination": {
+        "airport": "ATL",
+        "name": "Hartsfield-Jackson Atlanta International Airport",
+        "time": "2026-02-04 21:00"
+      },
+      "legs": [
+        {
+          "airline": "Southwest",
+          "flightNumber": "WN 913",
+          "departure": {
+            "airport": "GCM",
+            "name": "Owen Roberts International Airport",
+            "time": "2026-02-04 13:50"
+          },
+          "arrival": {
+            "airport": "MCO",
+            "name": "Orlando International Airport",
+            "time": "2026-02-04 15:45"
+          },
+          "duration": 115,
+          "aircraft": "Boeing 737-700 (Scimitar Winglets) Pax",
+          "travelClass": "Economy"
+        },
+        {
+          "airline": "Southwest",
+          "flightNumber": "WN 4726",
+          "departure": {
+            "airport": "MCO",
+            "name": "Orlando International Airport",
+            "time": "2026-02-04 19:25"
+          },
+          "arrival": {
+            "airport": "ATL",
+            "name": "Hartsfield-Jackson Atlanta International Airport",
+            "time": "2026-02-04 21:00"
+          },
+          "duration": 95,
+          "aircraft": "Boeing 737MAX 8 Passenger",
+          "travelClass": "Economy"
+        }
+      ],
+      "isBestFlight": true
+    },
+    "embeddingText": "Flight Southwest Cayman Islands → Atlanta Cayman Islands travel aviation",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:23.276Z",
+    "updatedAt": "2026-01-28T23:35:23.276Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "flight-gcm-gcm-mkynxz7w",
+    "category": "flight",
+    "subcategory": "outbound",
+    "name": "Flight: Cayman Islands → Dallas",
+    "description": "American - 8h 18m flight. 1 stop(s).",
+    "shortDescription": "American from $564",
+    "location": {
+      "address": "Owen Roberts International Airport",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2928,
+      "longitude": -81.3577,
+      "googlePlaceId": ""
+    },
+    "contact": {
+      "phone": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "images": [
+        "https://www.gstatic.com/flights/airline_logos/70px/AA.png"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$$",
+      "priceFrom": 564,
+      "priceTo": null,
+      "pricePerUnit": "/person",
+      "priceDescription": "$564",
+      "currency": "USD"
+    },
+    "ratings": {
+      "overall": 0,
+      "reviewCount": 0
+    },
+    "tags": [
+      "flight",
+      "airline",
+      "american",
+      "cayman islands"
+    ],
+    "keywords": [
+      "flight",
+      "travel",
+      "airline",
+      "GCM",
+      "DFW"
+    ],
+    "flightDetails": {
+      "airline": "American",
+      "flightNumber": "AA 1815",
+      "aircraft": "Airbus A319",
+      "duration": 498,
+      "durationFormatted": "8h 18m",
+      "stops": 1,
+      "travelClass": "Economy",
+      "origin": {
+        "airport": "GCM",
+        "name": "Owen Roberts International Airport",
+        "time": "2026-02-04 08:50"
+      },
+      "destination": {
+        "airport": "DFW",
+        "name": "Dallas Fort Worth International Airport",
+        "time": "2026-02-04 16:08"
+      },
+      "legs": [
+        {
+          "airline": "American",
+          "flightNumber": "AA 1815",
+          "departure": {
+            "airport": "GCM",
+            "name": "Owen Roberts International Airport",
+            "time": "2026-02-04 08:50"
+          },
+          "arrival": {
+            "airport": "MIA",
+            "name": "Miami International Airport",
+            "time": "2026-02-04 10:31"
+          },
+          "duration": 101,
+          "aircraft": "Airbus A319",
+          "travelClass": "Economy"
+        },
+        {
+          "airline": "American",
+          "flightNumber": "AA 2955",
+          "departure": {
+            "airport": "MIA",
+            "name": "Miami International Airport",
+            "time": "2026-02-04 13:40"
+          },
+          "arrival": {
+            "airport": "DFW",
+            "name": "Dallas Fort Worth International Airport",
+            "time": "2026-02-04 16:08"
+          },
+          "duration": 208,
+          "aircraft": "Boeing 737",
+          "travelClass": "Economy"
+        }
+      ],
+      "isBestFlight": true
+    },
+    "embeddingText": "Flight American Cayman Islands → Dallas Cayman Islands travel aviation",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:23.276Z",
+    "updatedAt": "2026-01-28T23:35:23.276Z",
+    "createdBy": "serpapi-population-script"
+  },
+  {
+    "id": "flight-gcm-gcm-mkynxz7w",
+    "category": "flight",
+    "subcategory": "outbound",
+    "name": "Flight: Cayman Islands → Chicago",
+    "description": "Southwest - 9h 0m flight. 1 stop(s).",
+    "shortDescription": "Southwest from $579",
+    "location": {
+      "address": "Owen Roberts International Airport",
+      "district": "George Town",
+      "island": "Grand Cayman",
+      "latitude": 19.2928,
+      "longitude": -81.3577,
+      "googlePlaceId": ""
+    },
+    "contact": {
+      "phone": "",
+      "website": "",
+      "bookingUrl": ""
+    },
+    "media": {
+      "thumbnail": "https://www.gstatic.com/flights/airline_logos/70px/WN.png",
+      "images": [
+        "https://www.gstatic.com/flights/airline_logos/70px/WN.png"
+      ],
+      "videos": []
+    },
+    "business": {
+      "priceRange": "$$$",
+      "priceFrom": 579,
+      "priceTo": null,
+      "pricePerUnit": "/person",
+      "priceDescription": "$579",
+      "currency": "USD"
+    },
+    "ratings": {
+      "overall": 0,
+      "reviewCount": 0
+    },
+    "tags": [
+      "flight",
+      "airline",
+      "southwest",
+      "cayman islands"
+    ],
+    "keywords": [
+      "flight",
+      "travel",
+      "airline",
+      "GCM",
+      "ORD"
+    ],
+    "flightDetails": {
+      "airline": "Southwest",
+      "flightNumber": "WN 913",
+      "aircraft": "Boeing 737-700 (Scimitar Winglets) Pax",
+      "duration": 540,
+      "durationFormatted": "9h 0m",
+      "stops": 1,
+      "travelClass": "Economy",
+      "origin": {
+        "airport": "GCM",
+        "name": "Owen Roberts International Airport",
+        "time": "2026-02-04 13:50"
+      },
+      "destination": {
+        "airport": "ORD",
+        "name": "Chicago O'Hare International Airport",
+        "time": "2026-02-04 21:50"
+      },
+      "legs": [
+        {
+          "airline": "Southwest",
+          "flightNumber": "WN 913",
+          "departure": {
+            "airport": "GCM",
+            "name": "Owen Roberts International Airport",
+            "time": "2026-02-04 13:50"
+          },
+          "arrival": {
+            "airport": "MCO",
+            "name": "Orlando International Airport",
+            "time": "2026-02-04 15:45"
+          },
+          "duration": 115,
+          "aircraft": "Boeing 737-700 (Scimitar Winglets) Pax",
+          "travelClass": "Economy"
+        },
+        {
+          "airline": "Southwest",
+          "flightNumber": "WN 897",
+          "departure": {
+            "airport": "MCO",
+            "name": "Orlando International Airport",
+            "time": "2026-02-04 19:40"
+          },
+          "arrival": {
+            "airport": "ORD",
+            "name": "Chicago O'Hare International Airport",
+            "time": "2026-02-04 21:50"
+          },
+          "duration": 190,
+          "aircraft": "Boeing 737",
+          "travelClass": "Economy"
+        }
+      ],
+      "isBestFlight": true
+    },
+    "embeddingText": "Flight Southwest Cayman Islands → Chicago Cayman Islands travel aviation",
+    "isActive": true,
+    "isPremium": false,
+    "isFeatured": true,
+    "createdAt": "2026-01-28T23:35:23.276Z",
+    "updatedAt": "2026-01-28T23:35:23.276Z",
+    "createdBy": "serpapi-population-script"
+  }
+];

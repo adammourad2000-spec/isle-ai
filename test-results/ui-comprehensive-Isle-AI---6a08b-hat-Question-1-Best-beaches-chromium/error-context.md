@@ -1,0 +1,275 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - generic [ref=e6]:
+    - generic [ref=e8] [cursor=pointer]:
+      - img [ref=e10]
+      - heading "ISLEAI" [level=1] [ref=e13]
+    - navigation [ref=e14]:
+      - button "Dashboard" [ref=e15] [cursor=pointer]:
+        - img [ref=e17]
+        - generic [ref=e19]: Dashboard
+      - button "AI Guide" [ref=e20] [cursor=pointer]:
+        - img [ref=e22]
+        - generic [ref=e25]: AI Guide
+      - button "My Learning" [ref=e26] [cursor=pointer]:
+        - img [ref=e28]
+        - generic [ref=e30]: My Learning
+      - button "Achievements" [ref=e31] [cursor=pointer]:
+        - img [ref=e33]
+        - generic [ref=e39]: Achievements
+    - generic [ref=e40]:
+      - generic [ref=e41]:
+        - generic [ref=e43]: M
+        - generic [ref=e44]:
+          - paragraph [ref=e45]: Marco Silva
+          - paragraph [ref=e46]: Guest
+      - button "Sign Out" [ref=e47] [cursor=pointer]:
+        - img [ref=e48]
+        - generic [ref=e51]: Sign Out
+  - main [ref=e52]:
+    - generic [ref=e53]:
+      - generic [ref=e55]:
+        - generic [ref=e56]:
+          - img [ref=e58]
+          - generic [ref=e61]:
+            - heading "Isle AI Guide" [level=1] [ref=e62]
+            - paragraph [ref=e63]: Your personal Cayman Islands concierge
+        - generic [ref=e65]: Online
+      - generic [ref=e68]:
+        - generic [ref=e69]:
+          - img [ref=e72]
+          - generic [ref=e75]:
+            - button "AI Chat" [ref=e76] [cursor=pointer]:
+              - img [ref=e77]
+            - button "Trips" [ref=e80] [cursor=pointer]:
+              - img [ref=e81]
+            - button "Collections" [ref=e84] [cursor=pointer]:
+              - img [ref=e85]
+            - button "Notifications" [ref=e87] [cursor=pointer]:
+              - img [ref=e88]
+            - button "Inspiration" [ref=e91] [cursor=pointer]:
+              - img [ref=e92]
+          - generic [ref=e95]:
+            - button "Profile" [ref=e96] [cursor=pointer]:
+              - img [ref=e97]
+            - button "Info" [ref=e100] [cursor=pointer]:
+              - img [ref=e101]
+        - generic [ref=e103]:
+          - button [ref=e105] [cursor=pointer]:
+            - img [ref=e106]
+          - generic [ref=e109]:
+            - button "Cayman Islands" [ref=e110] [cursor=pointer]:
+              - img [ref=e111]
+              - generic [ref=e114]: Cayman Islands
+            - button "When" [ref=e115] [cursor=pointer]:
+              - img [ref=e116]
+              - generic [ref=e118]: When
+            - button "2" [ref=e119] [cursor=pointer]:
+              - img [ref=e120]
+              - generic [ref=e125]: "2"
+            - button "Budget" [ref=e126] [cursor=pointer]:
+              - img [ref=e127]
+              - generic [ref=e129]: Budget
+            - button "Create a trip" [ref=e130] [cursor=pointer]:
+              - img [ref=e131]
+              - generic [ref=e134]: Create a trip
+          - generic [ref=e135]:
+            - generic [ref=e136]:
+              - generic [ref=e138]:
+                - heading "Hello from the Cayman Islands!" [level=1] [ref=e139]
+                - paragraph [ref=e140]:
+                  - img [ref=e142]
+                  - generic [ref=e145]: Crystal waters, world-class diving, and Caribbean luxury await. Tell me what you want to see and do, and let's plan your perfect island escape.
+                - generic [ref=e146]:
+                  - button "Find me the best beaches for snorkeling" [ref=e147] [cursor=pointer]
+                  - button "I'm looking for a luxury villa with ocean views" [ref=e148] [cursor=pointer]
+                  - button "What are the best restaurants in George Town?" [ref=e149] [cursor=pointer]
+                  - button "Plan a romantic getaway for 2" [ref=e150] [cursor=pointer]
+                - button "Help me get started?" [ref=e151] [cursor=pointer]:
+                  - generic [ref=e152]: Help me get started?
+                  - img [ref=e153]
+              - generic [ref=e156]:
+                - generic [ref=e157]:
+                  - button [ref=e158] [cursor=pointer]:
+                    - img [ref=e159]
+                  - textbox "Find your island vibe" [ref=e160]: What are the best beaches in Cayman Islands?
+                  - button [ref=e161] [cursor=pointer]:
+                    - img [ref=e162]
+                  - button [ref=e165] [cursor=pointer]:
+                    - img [ref=e166]
+                - generic [ref=e169]:
+                  - img [ref=e170]
+                  - generic [ref=e172]: Isle AI can make mistakes. Please verify important details directly with providers.
+            - generic [ref=e173]:
+              - button [ref=e175] [cursor=pointer]:
+                - img [ref=e176]
+              - generic [ref=e178]:
+                - generic [ref=e180]:
+                  - img [ref=e181]
+                  - textbox "Search places..." [ref=e184]
+                - generic [ref=e186]:
+                  - button "Info 6" [ref=e187] [cursor=pointer]:
+                    - img [ref=e188]
+                    - generic [ref=e191]: Info
+                    - generic [ref=e192]: "6"
+                  - button "Place 1" [ref=e193] [cursor=pointer]:
+                    - img [ref=e194]
+                    - generic [ref=e197]: Place
+                    - generic [ref=e198]: "1"
+                  - button "Beaches 29" [ref=e199] [cursor=pointer]:
+                    - img [ref=e200]
+                    - generic [ref=e204]: Beaches
+                    - generic [ref=e205]: "29"
+                  - button "Attractions 1" [ref=e206] [cursor=pointer]:
+                    - img [ref=e207]
+                    - generic [ref=e210]: Attractions
+                    - generic [ref=e211]: "1"
+                  - button "Activities 51" [ref=e212] [cursor=pointer]:
+                    - img [ref=e213]
+                    - generic [ref=e216]: Activities
+                    - generic [ref=e217]: "51"
+                  - button "Place 1" [ref=e218] [cursor=pointer]:
+                    - img [ref=e219]
+                    - generic [ref=e222]: Place
+                    - generic [ref=e223]: "1"
+                  - button "Diving 37" [ref=e224] [cursor=pointer]:
+                    - img [ref=e225]
+                    - generic [ref=e229]: Diving
+                    - generic [ref=e230]: "37"
+                  - button "Hotels 26" [ref=e231] [cursor=pointer]:
+                    - img [ref=e232]
+                    - generic [ref=e236]: Hotels
+                    - generic [ref=e237]: "26"
+                  - button "Restaurants 56" [ref=e238] [cursor=pointer]:
+                    - img [ref=e239]
+                    - generic [ref=e244]: Restaurants
+                    - generic [ref=e245]: "56"
+                  - button "Spa 5" [ref=e246] [cursor=pointer]:
+                    - img [ref=e247]
+                    - generic [ref=e251]: Spa
+                    - generic [ref=e252]: "5"
+                  - button "Bars 34" [ref=e253] [cursor=pointer]:
+                    - img [ref=e254]
+                    - generic [ref=e259]: Bars
+                    - generic [ref=e260]: "34"
+                  - button "Boats 20" [ref=e261] [cursor=pointer]:
+                    - img [ref=e262]
+                    - generic [ref=e266]: Boats
+                    - generic [ref=e267]: "20"
+                  - button "Villas 18" [ref=e268] [cursor=pointer]:
+                    - img [ref=e269]
+                    - generic [ref=e274]: Villas
+                    - generic [ref=e275]: "18"
+                  - button "Services 25" [ref=e276] [cursor=pointer]:
+                    - img [ref=e277]
+                    - generic [ref=e279]: Services
+                    - generic [ref=e280]: "25"
+                  - button "Shopping 33" [ref=e281] [cursor=pointer]:
+                    - img [ref=e282]
+                    - generic [ref=e286]: Shopping
+                    - generic [ref=e287]: "33"
+                  - button "Transport 43" [ref=e288] [cursor=pointer]:
+                    - img [ref=e289]
+                    - generic [ref=e291]: Transport
+                    - generic [ref=e292]: "43"
+                  - button "Place 7" [ref=e293] [cursor=pointer]:
+                    - img [ref=e294]
+                    - generic [ref=e297]: Place
+                    - generic [ref=e298]: "7"
+                  - button "Spa & Wellness 20" [ref=e299] [cursor=pointer]:
+                    - img [ref=e300]
+                    - generic [ref=e304]: Spa & Wellness
+                    - generic [ref=e305]: "20"
+                  - button "Water Sports 20" [ref=e306] [cursor=pointer]:
+                    - img [ref=e307]
+                    - generic [ref=e311]: Water Sports
+                    - generic [ref=e312]: "20"
+                  - button "Golf 1" [ref=e313] [cursor=pointer]:
+                    - img [ref=e314]
+                    - generic [ref=e317]: Golf
+                    - generic [ref=e318]: "1"
+                  - button "Real Estate 17" [ref=e319] [cursor=pointer]:
+                    - img [ref=e320]
+                    - generic [ref=e324]: Real Estate
+                    - generic [ref=e325]: "17"
+                  - button "Jets 5" [ref=e326] [cursor=pointer]:
+                    - img [ref=e327]
+                    - generic [ref=e329]: Jets
+                    - generic [ref=e330]: "5"
+                  - button "Place 2" [ref=e331] [cursor=pointer]:
+                    - img [ref=e332]
+                    - generic [ref=e335]: Place
+                    - generic [ref=e336]: "2"
+                  - button "Place 9" [ref=e337] [cursor=pointer]:
+                    - img [ref=e338]
+                    - generic [ref=e341]: Place
+                    - generic [ref=e342]: "9"
+                  - button "Place 9" [ref=e343] [cursor=pointer]:
+                    - img [ref=e344]
+                    - generic [ref=e347]: Place
+                    - generic [ref=e348]: "9"
+                  - button "Concierge 7" [ref=e349] [cursor=pointer]:
+                    - img [ref=e350]
+                    - generic [ref=e352]: Concierge
+                    - generic [ref=e353]: "7"
+                  - button "Place 3" [ref=e354] [cursor=pointer]:
+                    - img [ref=e355]
+                    - generic [ref=e358]: Place
+                    - generic [ref=e359]: "3"
+                  - button "Place 2" [ref=e360] [cursor=pointer]:
+                    - img [ref=e361]
+                    - generic [ref=e364]: Place
+                    - generic [ref=e365]: "2"
+                  - button "Place 8" [ref=e366] [cursor=pointer]:
+                    - img [ref=e367]
+                    - generic [ref=e370]: Place
+                    - generic [ref=e371]: "8"
+                  - button "Place 8" [ref=e372] [cursor=pointer]:
+                    - img [ref=e373]
+                    - generic [ref=e376]: Place
+                    - generic [ref=e377]: "8"
+                  - button "Place 16" [ref=e378] [cursor=pointer]:
+                    - img [ref=e379]
+                    - generic [ref=e382]: Place
+                    - generic [ref=e383]: "16"
+                - generic [ref=e384]:
+                  - generic [ref=e385]:
+                    - button "Zoom In" [ref=e386] [cursor=pointer]:
+                      - img [ref=e387]
+                    - button "Zoom Out" [ref=e391] [cursor=pointer]:
+                      - img [ref=e392]
+                  - button "My Location" [ref=e395] [cursor=pointer]:
+                    - img [ref=e396]
+                  - button "Fit All Markers" [ref=e398] [cursor=pointer]:
+                    - img [ref=e399]
+                  - button "Map Layers" [ref=e405] [cursor=pointer]:
+                    - img [ref=e406]
+                - generic [ref=e411]: 520 places
+                - generic [ref=e412]:
+                  - generic:
+                    - generic:
+                      - button "3" [ref=e413] [cursor=pointer]:
+                        - generic [ref=e414]:
+                          - img [ref=e416]
+                          - generic [ref=e422]: "3"
+                      - button "23" [ref=e423] [cursor=pointer]:
+                        - generic [ref=e424]:
+                          - img [ref=e426]
+                          - generic [ref=e432]: "23"
+                      - button "494" [ref=e433] [cursor=pointer]:
+                        - generic [ref=e434]:
+                          - img [ref=e436]
+                          - generic [ref=e442]: "494"
+                  - generic [ref=e443]:
+                    - link "Leaflet" [ref=e444] [cursor=pointer]:
+                      - /url: https://leafletjs.com
+                      - img [ref=e445]
+                      - text: Leaflet
+                    - text: "| © Esri, Maxar, Earthstar Geographics"
+  - button "Isle AI Concierge" [ref=e449] [cursor=pointer]:
+    - generic [ref=e450]:
+      - img [ref=e453]
+      - generic: Isle AI Concierge
+```

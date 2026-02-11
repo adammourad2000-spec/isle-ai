@@ -1,0 +1,471 @@
+{
+  "lastIndex": 100,
+  "totalProcessed": 105,
+  "totalEnriched": 46,
+  "totalFailed": 59,
+  "scrapedData": [
+    {
+      "placeId": "osm-node/819001334",
+      "name": "CaribSands Beach Resort",
+      "website": "https://www.sothebysrealty.ky/properties/carib-sands-cayman-brac-beautiful-beachfront-living/",
+      "rating": 4,
+      "address": "M4PG+JQ, West End, Îles Caïmans",
+      "photos": [],
+      "scrapedAt": "2026-02-05T04:05:40.221Z"
+    },
+    {
+      "placeId": "osm-node/4103896817",
+      "name": "George Town Villas",
+      "rating": 4,
+      "address": "47 Snooze Ln, George Town, Îles Caïmans",
+      "photos": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepi2JnDz83S-YMINFFV-onhvydXM0BwPDfapeKqpJAiXv-NeBo5fyNxDIQgcJY4msiRqeKtiwv_HnB8FXBSqOGoXLot1aWrrnmT1MM4RxDonELZTio9aTSV2IYWibUOX68TsDfsIATmzuiT=w800-h600-p-k-no-pi-0.807602-ya242.68777-ro-4.818094-fo100"
+      ],
+      "scrapedAt": "2026-02-05T04:05:47.717Z"
+    },
+    {
+      "placeId": "osm-node/4103904892",
+      "name": "Cayman Breakers",
+      "phone": "+1 345-927-8826",
+      "rating": 4,
+      "address": "1902 South Side Road East, Cayman Brac KY2-2101, Îles Caïmans",
+      "photos": [],
+      "scrapedAt": "2026-02-05T04:05:54.650Z"
+    },
+    {
+      "placeId": "osm-node/4103906163",
+      "name": "Holiday Inn Resort",
+      "photos": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerWR70oh5XyEeNfXuIZgY3PXM3sbsL6AoEhSYf52P6TvfYC8tb8VytlCXwitVXZZIyfiLej2C1Erh-5T8yOfPB7A6mYF3JhqeJfZZoKvesgOZg82Mk24NuCiujGZ2iZUMJQXD6Y=w800-h600-p-k-no-pi0.18356256-ya287.18988-ro2.1769826-fo100"
+      ],
+      "scrapedAt": "2026-02-05T04:06:01.499Z"
+    },
+    {
+      "placeId": "osm-node/819001334",
+      "name": "CaribSands Beach Resort",
+      "website": "https://www.sothebysrealty.ky/properties/carib-sands-cayman-brac-beautiful-beachfront-living/",
+      "rating": 4,
+      "address": "M4PG+JQ, West End, Îles Caïmans",
+      "photos": [],
+      "scrapedAt": "2026-02-05T04:06:31.150Z"
+    },
+    {
+      "placeId": "osm-node/4103896817",
+      "name": "George Town Villas",
+      "rating": 4,
+      "address": "47 Snooze Ln, George Town, Îles Caïmans",
+      "photos": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepi2JnDz83S-YMINFFV-onhvydXM0BwPDfapeKqpJAiXv-NeBo5fyNxDIQgcJY4msiRqeKtiwv_HnB8FXBSqOGoXLot1aWrrnmT1MM4RxDonELZTio9aTSV2IYWibUOX68TsDfsIATmzuiT=w800-h600-p-k-no-pi-0.807602-ya242.68777-ro-4.818094-fo100"
+      ],
+      "scrapedAt": "2026-02-05T04:06:38.722Z"
+    },
+    {
+      "placeId": "osm-node/4103904892",
+      "name": "Cayman Breakers",
+      "phone": "+1 345-927-8826",
+      "rating": 4,
+      "address": "1902 South Side Road East, Cayman Brac KY2-2101, Îles Caïmans",
+      "photos": [],
+      "scrapedAt": "2026-02-05T04:06:46.162Z"
+    },
+    {
+      "placeId": "osm-node/4103906163",
+      "name": "Holiday Inn Resort",
+      "photos": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerWR70oh5XyEeNfXuIZgY3PXM3sbsL6AoEhSYf52P6TvfYC8tb8VytlCXwitVXZZIyfiLej2C1Erh-5T8yOfPB7A6mYF3JhqeJfZZoKvesgOZg82Mk24NuCiujGZ2iZUMJQXD6Y=w800-h600-p-k-no-pi0.18356256-ya287.18988-ro2.1769826-fo100"
+      ],
+      "scrapedAt": "2026-02-05T04:06:53.209Z"
+    },
+    {
+      "placeId": "osm-way/26268919",
+      "name": "Pirates Point Resort - Little Cayman",
+      "phone": "+1 345-948-1010",
+      "rating": 4,
+      "address": "328b Guy Banks Road Little Cayman KY KY3-2501, Guy Banks Rd, Blossom Village, Îles Caïmans",
+      "photos": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweog23rY2ntqjkUM3sJ5xmGBl0cHItMMe89OcRN8lu0DlcKSHLk0LzSG7CJhZfbxnVe5kvpwAZffZbcq1FOpcEno0y-13BK50xcOjxtTusQHROtxXgkEJEUffpJBAKKTh7LNyHzH=w800-h600-p-k-no-pi0-ya166.30899-ro0-fo100"
+      ],
+      "scrapedAt": "2026-02-05T04:07:21.978Z"
+    },
+    {
+      "placeId": "osm-way/62225827",
+      "name": "Heritage Club",
+      "website": "http://heritageclubcayman.com/",
+      "rating": 5,
+      "address": "1907 W Bay Rd, Îles Caïmans",
+      "photos": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepVhsizWHVXEoadjRmnq_mWFg7B2XZjQz2Ahds6YpLqTExgR0znb8XM2B9nog93xqGiu4z05icPwIlecUI55xQ79sZrM_5OptuDJbJ8CwU2IasHpo0YpW1GhVYtDtJq2kXCt3coRBhxsTC5=w800-h600-p-k-no-pi0.79732496-ya202.60118-ro-0.70751345-fo100"
+      ],
+      "scrapedAt": "2026-02-05T04:07:43.466Z"
+    },
+    {
+      "placeId": "osm-way/62225836",
+      "name": "Bonnie's Arch",
+      "rating": 4,
+      "address": "9HCM+Q27, N W Point Rd, West Bay, Îles Caïmans",
+      "photos": [
+        "https://lh3.googleusercontent.com/geougc-cs/ABOP9pti0e9mFUQl0zesM7HZzlr_dAy8KrBYpcKiJeVoIeVIutllKU4nz7cdSwAMRUSLVny9cSLX3dwaXT9yPGzH2itw6BpnhSlj32ir4P3tUUSdXzq-Uy0f_mXuBMGZ7XVhSR7Rj4hj=w800-h600-p"
+      ],
+      "scrapedAt": "2026-02-05T04:07:50.691Z"
+    },
+    {
+      "placeId": "osm-way/62225843",
+      "name": "Grand Cayman Beach Suites",
+      "website": "https://br.bluepillow.com/search/67a4d3bc064d51dcdc94db75?dest=bpex&cat=House&lat=19.33386&lng=-81.38169&language=pt",
+      "address": "Îles Caïmans",
+      "photos": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoHiriUpLqSWEPxcUFPfo72GcypoqjO3K17xaHcnxx76JtguSVqeam79a9G6jlYxzmrKkcvUkKCPEeQPacLWROBpGTVqoOPtzWdJ4m5rw18bVneKqLNFcjweJQ9BtNaak5mmmg=w800-h600-p-k-no-pi0-ya161.80577-ro0-fo100"
+      ],
+      "scrapedAt": "2026-02-05T04:07:57.951Z"
+    },
+    {
+      "placeId": "osm-way/62225844",
+      "name": "The Avalon Condominiums",
+      "phone": "+1 305-395-4503",
+      "website": "https://www.avaloncayman.com/",
+      "rating": 4,
+      "address": "1371 West Bay Road Grand Cayman, 1083 W Bay Rd, West Bay KY1-1205, Îles Caïmans",
+      "photos": [],
+      "scrapedAt": "2026-02-05T04:08:03.730Z"
+    },
+    {
+      "placeId": "osm-way/62225848",
+      "name": "Waters Edge",
+      "phone": "+1 345-943-3343",
+      "rating": 4,
+      "address": "965 W Bay Rd, West Bay, Îles Caïmans",
+      "photos": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqkruUUatS3TB6LSPtB9FmCAQ_WzWnhsS9BR9qRhKoy2ccfAMHV_R9hWLAJDBQ3kssSw_dNUubqpu2Qt2THPQK88KztUbOF_vl3nUvsV2i86gaZuJhEFLTZPpEMmCMkX7YjDmOO=w800-h600-p-k-no-pi0-ya181.25061-ro0-fo100"
+      ],
+      "scrapedAt": "2026-02-05T04:08:18.357Z"
+    },
+    {
+      "placeId": "osm-way/62225870",
+      "name": "The Pinnacle",
+      "phone": "+1 345-949-1531",
+      "rating": 4,
+      "address": "1259 W Bay Rd, Îles Caïmans",
+      "photos": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoHhJ4WQ-cUSAhFW6buWLjQJOsTO_coqSmKzxzsgVVU7Rljds3nwuXgATke0H2l0Zb2cQMQ-k-z3ZYWipNDkk8I5747bhN7ZLe1YhbZ4lg79daA9dyo-tIxtbUBYDdj3b35YH1qa15uaMs=w800-h600-p-k-no-pi-2.521389-ya227.0588-ro-4.2235074-fo100"
+      ],
+      "scrapedAt": "2026-02-05T04:08:32.610Z"
+    },
+    {
+      "placeId": "osm-way/62225875",
+      "name": "Sundowner",
+      "phone": "+1 345-917-9666",
+      "rating": 4,
+      "address": "1759 W Bay Rd, Cayman Islands, Îles Caïmans",
+      "photos": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepUtq0eS9P5wZPM0osn-hN-Gy3P4xoc5tX_a-CTMJa0FzcD4R13ak_FdD1WjHFm-BfHbnoKuuefsZVSVK_EoXmcyofQ1jPL7naURP6w3l3TpyDBhSbQecdFz_wTYrVW0EHJWuCZ2g=w800-h600-p-k-no-pi0-ya64.55543-ro0-fo100"
+      ],
+      "scrapedAt": "2026-02-05T04:08:39.653Z"
+    },
+    {
+      "placeId": "osm-way/171462767",
+      "name": "Morritts Tortuga Club",
+      "phone": "+1 345-947-7449",
+      "website": "https://morritts.com/",
+      "rating": 4,
+      "address": "1 Queens Hwy, Îles Caïmans",
+      "photos": [
+        "https://lh3.googleusercontent.com/geougc-cs/ABOP9ps8_cRR_3KQMZajmcEkN4AWFRcCi114dwaQW7CAEal7tFDfg5aDtJgXPP2iXW-PeImh-xHY5-sx5_VZRiEPWE0aKUEgPEQVySoLRywMZq8iU7x1CJR1bAAqjDQHyiKJcPBx5Ac=w800-h600-p",
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqlQHxUetDm6YdinQBVQ30VXjTRSl_2FTmDXCO2lyhJzu-xkIInVqUKCm1YpuDplSCmJfv4jnEC5ciUVl4Xdte1doMGglV-BsWN49d52UIn0r-p4vW_FQxc21kW48Shhu2nYVGjejTztqQy=w800-h600-p-k-no-pi0-ya152.75208-ro0-fo100"
+      ],
+      "scrapedAt": "2026-02-05T04:09:08.805Z"
+    },
+    {
+      "placeId": "osm-way/368977922",
+      "name": "Rocky Shore Villas",
+      "phone": "+1 345-926-1950",
+      "rating": 4,
+      "address": "30 Grass Piece Lane West End West Bay Grand Cayman, Îles Caïmans",
+      "photos": [],
+      "scrapedAt": "2026-02-05T04:09:30.117Z"
+    },
+    {
+      "placeId": "osm-way/374781040",
+      "name": "The Commonwealth",
+      "phone": "+1 345-949-8390",
+      "rating": 4,
+      "address": "Grand Cayman KY1, 1929 W Bay Rd, 1201, Îles Caïmans",
+      "photos": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerUYmt_c9JiiGijRyN9W8LCW02FChJpKvdPg0V1Z7RNowflFB1iRUeRRPQzJ5faaitso-UDjZiuvvhzC9WSFzBw7fjidjB8r4w1B57t3QsPBdTQyGyiJvBUrRMU6q6ifFy-eic=w800-h600-p-k-no-pi-0.84992033-ya188.20238-ro-0.56587076-fo100"
+      ],
+      "scrapedAt": "2026-02-05T04:10:25.934Z"
+    },
+    {
+      "placeId": "osm-way/651241559",
+      "name": "Pirates Point Resort - Little Cayman",
+      "phone": "+1 345-948-1010",
+      "rating": 4,
+      "address": "328b Guy Banks Road Little Cayman KY KY3-2501, Guy Banks Rd, Blossom Village, Îles Caïmans",
+      "photos": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweog23rY2ntqjkUM3sJ5xmGBl0cHItMMe89OcRN8lu0DlcKSHLk0LzSG7CJhZfbxnVe5kvpwAZffZbcq1FOpcEno0y-13BK50xcOjxtTusQHROtxXgkEJEUffpJBAKKTh7LNyHzH=w800-h600-p-k-no-pi0-ya166.30899-ro0-fo100"
+      ],
+      "scrapedAt": "2026-02-05T04:10:33.761Z"
+    },
+    {
+      "placeId": "osm-way/651241560",
+      "name": "Pirates Point Resort - Little Cayman",
+      "phone": "+1 345-948-1010",
+      "rating": 4,
+      "address": "328b Guy Banks Road Little Cayman KY KY3-2501, Guy Banks Rd, Blossom Village, Îles Caïmans",
+      "photos": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweog23rY2ntqjkUM3sJ5xmGBl0cHItMMe89OcRN8lu0DlcKSHLk0LzSG7CJhZfbxnVe5kvpwAZffZbcq1FOpcEno0y-13BK50xcOjxtTusQHROtxXgkEJEUffpJBAKKTh7LNyHzH=w800-h600-p-k-no-pi0-ya166.30899-ro0-fo100"
+      ],
+      "scrapedAt": "2026-02-05T04:10:41.080Z"
+    },
+    {
+      "placeId": "osm-way/651241561",
+      "name": "Pirates Point Resort - Little Cayman",
+      "phone": "+1 345-948-1010",
+      "rating": 4,
+      "address": "328b Guy Banks Road Little Cayman KY KY3-2501, Guy Banks Rd, Blossom Village, Îles Caïmans",
+      "photos": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweog23rY2ntqjkUM3sJ5xmGBl0cHItMMe89OcRN8lu0DlcKSHLk0LzSG7CJhZfbxnVe5kvpwAZffZbcq1FOpcEno0y-13BK50xcOjxtTusQHROtxXgkEJEUffpJBAKKTh7LNyHzH=w800-h600-p-k-no-pi0-ya166.30899-ro0-fo100"
+      ],
+      "scrapedAt": "2026-02-05T04:10:48.876Z"
+    },
+    {
+      "placeId": "osm-way/651241567",
+      "name": "Pirates Point Resort - Little Cayman",
+      "phone": "+1 345-948-1010",
+      "rating": 4,
+      "address": "328b Guy Banks Road Little Cayman KY KY3-2501, Guy Banks Rd, Blossom Village, Îles Caïmans",
+      "photos": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweog23rY2ntqjkUM3sJ5xmGBl0cHItMMe89OcRN8lu0DlcKSHLk0LzSG7CJhZfbxnVe5kvpwAZffZbcq1FOpcEno0y-13BK50xcOjxtTusQHROtxXgkEJEUffpJBAKKTh7LNyHzH=w800-h600-p-k-no-pi0-ya166.30899-ro0-fo100"
+      ],
+      "scrapedAt": "2026-02-05T04:10:56.169Z"
+    },
+    {
+      "placeId": "osm-node/4108847990",
+      "name": "Rock Hole Rd",
+      "photos": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerJwHEHsA202EcxBQaZW3AK9I26TdTN4ys0qGWCniUKvcmcnuNebO5VzUiGoZVFNvbkWPNmvw5bfNpxRI6H7JetmV1y6gL4mLeF82-PgCn5dNH0k6nP7f3enTRg0dc_pvrerAUVOAvCZ1Wf=w800-h600-p-k-no-pi-5.6585093-ya280.86044-ro-2.8666444-fo100"
+      ],
+      "scrapedAt": "2026-02-05T04:11:46.450Z"
+    },
+    {
+      "placeId": "osm-node/4170884053",
+      "name": "Rock Hole Rd",
+      "photos": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerJwHEHsA202EcxBQaZW3AK9I26TdTN4ys0qGWCniUKvcmcnuNebO5VzUiGoZVFNvbkWPNmvw5bfNpxRI6H7JetmV1y6gL4mLeF82-PgCn5dNH0k6nP7f3enTRg0dc_pvrerAUVOAvCZ1Wf=w800-h600-p-k-no-pi-5.6585093-ya280.86044-ro-2.8666444-fo100"
+      ],
+      "scrapedAt": "2026-02-05T04:12:02.651Z"
+    },
+    {
+      "placeId": "osm-node/5117697401",
+      "name": "Seafarer Condos",
+      "rating": 4,
+      "address": "South Side Rd W, Îles Caïmans",
+      "photos": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepUKc_64ak4QJGHNGlgDocmCcgZW5KfEB11QixzClHMBjMPUUR9-bfj_iRXjUec4VQSvdy6px0-KMgsRl5qkOedDRXI2kIHeZXwG-0haF2VsMIIEvzHa2IovGnQ3MMKxk-9JxsPbg=w800-h600-p-k-no-pi-1.194358-ya162.7258-ro-1.0208548-fo100"
+      ],
+      "scrapedAt": "2026-02-05T04:12:17.910Z"
+    },
+    {
+      "placeId": "osm-node/7499692285",
+      "name": "Cayman Doctors",
+      "phone": "+1 345-943-6363",
+      "website": "http://www.cayman-doctors.com/",
+      "rating": 4,
+      "address": "unit 9, West Shore Center, 508 W Bay Rd, George Town KY1-1208, Îles Caïmans",
+      "photos": [
+        "https://lh3.googleusercontent.com/geougc/AF1QipM_vZaqxFbjp3BOL_gu-qOptYDHIT4Tca6xZwIg=h400-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepusrCbAG73Jabs_OwsmkMYeCrI0faseQND3t8AhKIUK8fydCzQsOvGxbv22C02aoL4oYQ83t0Kagj-hy2gkqthzLaBImp5jq0DSG5NmYmKsE_DfulOY_5byZ6cb0TMtwd1VMxk=w800-h600-p-k-no-pi0.4568869-ya253.62592-ro-0.68448585-fo100"
+      ],
+      "scrapedAt": "2026-02-05T04:12:41.062Z"
+    },
+    {
+      "placeId": "osm-node/7499845486",
+      "name": "Southern Skies",
+      "address": "77 S Sound Rd, George Town, Îles Caïmans",
+      "photos": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepzCRLlUiiYTagWXjMT0AD9jdqAb_UnivP_c2KKJ6pIt9nDwxfkzVMslsmVN7_2dAasiHyN3S0MuR_U9aiZqessk4DDPfy8jU16eJk4hXOXbtQTcqCzMvtQPgh0EAP9G8rwSu-VP_UjxAhZ=w800-h600-p-k-no-pi-0.20809783-ya319.35904-ro-0.6048302-fo100"
+      ],
+      "scrapedAt": "2026-02-05T04:12:55.712Z"
+    },
+    {
+      "placeId": "osm-node/7499857485",
+      "name": "Water St",
+      "photos": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweph5XBa9x0ViDx8JUTxjS3tuK1xhPbNft6K_rronbdU8IqvYLyCNmKYN0J6seeOhFm8iG8j3bKIJKvrd85ixgSnGQu5eUnF2UX6l4qVxna53urPWTpPS0h2Nizl8SFEkNNCBzY=w800-h600-p-k-no-pi1.8872968-ya78.294495-ro-0.89795023-fo100"
+      ],
+      "scrapedAt": "2026-02-05T04:13:03.096Z"
+    },
+    {
+      "placeId": "osm-node/7499858185",
+      "name": "Bedrock Cir",
+      "photos": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweq1D7mugxzNNwcOcoo6uVc9EwV9T9mASPvvUCY665a92BpS0PIoFotfT2Oms_XTf-CmtkoR_SuneVKNeTbeBo1z8yH2_C9Es7R1ng-NqFM70Cp9R_DsdgTqDolSQIim8rtQuMoMxIkIhCKB=w800-h600-p-k-no-pi3.4986157-ya147.27484-ro-3.4272974-fo100"
+      ],
+      "scrapedAt": "2026-02-05T04:13:10.681Z"
+    },
+    {
+      "placeId": "osm-node/7499878585",
+      "name": "Ocean Club",
+      "website": "http://www.oceanclubcayman.com/",
+      "rating": 4,
+      "address": "Ocean Club, 658 Shamrock Rd, Spotts, Îles Caïmans",
+      "photos": [],
+      "scrapedAt": "2026-02-05T04:13:18.634Z"
+    },
+    {
+      "placeId": "osm-node/7505057785",
+      "name": "Mangrove Pointe Townhomes",
+      "rating": 4,
+      "address": "242 Linford Pierson Hwy, George Town, Îles Caïmans",
+      "photos": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerDrjIiL4KP2TcPeRhPcR0v9YVFle4_KtVbGNdbEW1eMacB71eYr52ZW1hVF4TPRZKGWS2NzT1sQApvkblaqaun6fSh86ec-WOUObvrPW6rF4wLtpneX1pUb7uUE9sHw-qNVlc=w800-h600-p-k-no-pi-1.2828113-ya287.22906-ro0.0054570884-fo100"
+      ],
+      "scrapedAt": "2026-02-05T04:14:27.337Z"
+    },
+    {
+      "placeId": "osm-node/10032097221",
+      "name": "Turnberry Villas, East",
+      "rating": 4,
+      "address": "Crystal Harbour, Îles Caïmans",
+      "photos": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweru3frf3opzT7fXddxutAkDn_0a4p_VJk9w9Fhg7X1P5-AIGg0YI3VcA74lylmI6U9b_pcVe0ZIgpgZ8RU_l3069OMCRo2YO0MGChWy3wt3XVIUVLd901N97tRs2u6lyGkmhkbEUn8Ty5A=w800-h600-p-k-no-pi-1.4190964-ya105.10865-ro2.5009582-fo100"
+      ],
+      "scrapedAt": "2026-02-05T04:14:56.847Z"
+    },
+    {
+      "placeId": "osm-node/11220912224",
+      "name": "Frangipani Villas",
+      "address": "7MJR+WX9, East-West Arterial Rd, Savannah, Îles Caïmans",
+      "photos": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerWmTiLrlLl1R1ivOJ1gV65Qw58KB0Rb6cpW7sSBbtrfZmaE6SbdZjUOUpGYy5Mgqo7_6kU5VcoqFFt_dgjxjmke4c4mdtg2O3_6AviSqwS688wAq37_CbUjmQ-271sR-UdW30q3irsSIvF=w800-h600-p-k-no-pi0.004025116-ya222.24089-ro-5.0529976-fo100"
+      ],
+      "scrapedAt": "2026-02-05T04:15:03.874Z"
+    },
+    {
+      "placeId": "osm-way/26269255",
+      "name": "Humble and Polite, Little Cayman",
+      "rating": 4,
+      "address": "76 Guy Banks Rd, Îles Caïmans",
+      "photos": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqpb9Hhm0me8ssTYYXXuP77lrghj2LeiJDKSw_bsgH2JByh8dVBvGehtU459XfCVpHdxAlVvUorWIcJiN-05KmPZrq7sG-enJyyUCCiaHV6WmI_dPQCvwVl3rvaNxO4PtJigSo=w800-h600-p-k-no-pi0.44764495-ya107.72017-ro-1.0422103-fo100"
+      ],
+      "scrapedAt": "2026-02-05T04:15:18.425Z"
+    },
+    {
+      "placeId": "osm-way/274608876",
+      "name": "Grand Cayman",
+      "rating": 4,
+      "address": "Îles Caïmans",
+      "photos": [
+        "https://lh3.googleusercontent.com/geougc-cs/ABOP9pu5Dl22xFO3P1bhZsJv75MGhJPQi32B54G1mrrbr2YKQcYHaEYulHetbKc74DGZan0CGO6ueUdTT46y9hpgj0waZSDc5FGh_J3Rymu_l6A91n3TLGF-izhD5g3dJ6PDWIdBJrLv=w800-h600-p",
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweocSRp7gE7Sv5GM1FftcbFxkxeUF6RP9CK8C06diqX35Be4AFrAbgU-4Obx9N1xYHJDBnjCc3bJStplGObA_2IJOPCiNNQe57miKdhNWbxNpeW9L4ekGaZ6oxaKFpf0Sp34fKaC9A=w800-h600-p-k-no-pi0-ya315.8072-ro0-fo100"
+      ],
+      "scrapedAt": "2026-02-05T04:15:41.705Z"
+    },
+    {
+      "placeId": "osm-way/274608878",
+      "name": "Grand Cayman",
+      "rating": 4,
+      "address": "Îles Caïmans",
+      "photos": [
+        "https://lh3.googleusercontent.com/geougc-cs/ABOP9pu5Dl22xFO3P1bhZsJv75MGhJPQi32B54G1mrrbr2YKQcYHaEYulHetbKc74DGZan0CGO6ueUdTT46y9hpgj0waZSDc5FGh_J3Rymu_l6A91n3TLGF-izhD5g3dJ6PDWIdBJrLv=w800-h600-p",
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweocSRp7gE7Sv5GM1FftcbFxkxeUF6RP9CK8C06diqX35Be4AFrAbgU-4Obx9N1xYHJDBnjCc3bJStplGObA_2IJOPCiNNQe57miKdhNWbxNpeW9L4ekGaZ6oxaKFpf0Sp34fKaC9A=w800-h600-p-k-no-pi0-ya315.8072-ro0-fo100"
+      ],
+      "scrapedAt": "2026-02-05T04:15:49.625Z"
+    },
+    {
+      "placeId": "osm-way/274608886",
+      "name": "Grand Cayman",
+      "rating": 4,
+      "address": "Îles Caïmans",
+      "photos": [
+        "https://lh3.googleusercontent.com/geougc-cs/ABOP9pu5Dl22xFO3P1bhZsJv75MGhJPQi32B54G1mrrbr2YKQcYHaEYulHetbKc74DGZan0CGO6ueUdTT46y9hpgj0waZSDc5FGh_J3Rymu_l6A91n3TLGF-izhD5g3dJ6PDWIdBJrLv=w800-h600-p",
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweocSRp7gE7Sv5GM1FftcbFxkxeUF6RP9CK8C06diqX35Be4AFrAbgU-4Obx9N1xYHJDBnjCc3bJStplGObA_2IJOPCiNNQe57miKdhNWbxNpeW9L4ekGaZ6oxaKFpf0Sp34fKaC9A=w800-h600-p-k-no-pi0-ya315.8072-ro0-fo100"
+      ],
+      "scrapedAt": "2026-02-05T04:16:10.559Z"
+    },
+    {
+      "placeId": "osm-way/274608887",
+      "name": "Grand Cayman",
+      "rating": 4,
+      "address": "Îles Caïmans",
+      "photos": [
+        "https://lh3.googleusercontent.com/geougc-cs/ABOP9pu5Dl22xFO3P1bhZsJv75MGhJPQi32B54G1mrrbr2YKQcYHaEYulHetbKc74DGZan0CGO6ueUdTT46y9hpgj0waZSDc5FGh_J3Rymu_l6A91n3TLGF-izhD5g3dJ6PDWIdBJrLv=w800-h600-p",
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweocSRp7gE7Sv5GM1FftcbFxkxeUF6RP9CK8C06diqX35Be4AFrAbgU-4Obx9N1xYHJDBnjCc3bJStplGObA_2IJOPCiNNQe57miKdhNWbxNpeW9L4ekGaZ6oxaKFpf0Sp34fKaC9A=w800-h600-p-k-no-pi0-ya315.8072-ro0-fo100"
+      ],
+      "scrapedAt": "2026-02-05T04:16:17.933Z"
+    },
+    {
+      "placeId": "osm-way/274608889",
+      "name": "Grand Cayman",
+      "rating": 4,
+      "address": "Îles Caïmans",
+      "photos": [
+        "https://lh3.googleusercontent.com/geougc-cs/ABOP9pu5Dl22xFO3P1bhZsJv75MGhJPQi32B54G1mrrbr2YKQcYHaEYulHetbKc74DGZan0CGO6ueUdTT46y9hpgj0waZSDc5FGh_J3Rymu_l6A91n3TLGF-izhD5g3dJ6PDWIdBJrLv=w800-h600-p",
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweocSRp7gE7Sv5GM1FftcbFxkxeUF6RP9CK8C06diqX35Be4AFrAbgU-4Obx9N1xYHJDBnjCc3bJStplGObA_2IJOPCiNNQe57miKdhNWbxNpeW9L4ekGaZ6oxaKFpf0Sp34fKaC9A=w800-h600-p-k-no-pi0-ya315.8072-ro0-fo100"
+      ],
+      "scrapedAt": "2026-02-05T04:16:24.908Z"
+    },
+    {
+      "placeId": "osm-way/274608893",
+      "name": "Grand Cayman",
+      "rating": 4,
+      "address": "Îles Caïmans",
+      "photos": [
+        "https://lh3.googleusercontent.com/geougc-cs/ABOP9pu5Dl22xFO3P1bhZsJv75MGhJPQi32B54G1mrrbr2YKQcYHaEYulHetbKc74DGZan0CGO6ueUdTT46y9hpgj0waZSDc5FGh_J3Rymu_l6A91n3TLGF-izhD5g3dJ6PDWIdBJrLv=w800-h600-p",
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweocSRp7gE7Sv5GM1FftcbFxkxeUF6RP9CK8C06diqX35Be4AFrAbgU-4Obx9N1xYHJDBnjCc3bJStplGObA_2IJOPCiNNQe57miKdhNWbxNpeW9L4ekGaZ6oxaKFpf0Sp34fKaC9A=w800-h600-p-k-no-pi0-ya315.8072-ro0-fo100"
+      ],
+      "scrapedAt": "2026-02-05T04:16:39.442Z"
+    },
+    {
+      "placeId": "osm-way/274608897",
+      "name": "Grand Cayman",
+      "rating": 4,
+      "address": "Îles Caïmans",
+      "photos": [
+        "https://lh3.googleusercontent.com/geougc-cs/ABOP9pu5Dl22xFO3P1bhZsJv75MGhJPQi32B54G1mrrbr2YKQcYHaEYulHetbKc74DGZan0CGO6ueUdTT46y9hpgj0waZSDc5FGh_J3Rymu_l6A91n3TLGF-izhD5g3dJ6PDWIdBJrLv=w800-h600-p",
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweocSRp7gE7Sv5GM1FftcbFxkxeUF6RP9CK8C06diqX35Be4AFrAbgU-4Obx9N1xYHJDBnjCc3bJStplGObA_2IJOPCiNNQe57miKdhNWbxNpeW9L4ekGaZ6oxaKFpf0Sp34fKaC9A=w800-h600-p-k-no-pi0-ya315.8072-ro0-fo100"
+      ],
+      "scrapedAt": "2026-02-05T04:17:06.627Z"
+    },
+    {
+      "placeId": "osm-way/370952618",
+      "name": "The Poincianas",
+      "rating": 5,
+      "address": "7JF7+F8F, George Town, Îles Caïmans",
+      "photos": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqa35Dw1Z7l9NAsUu6gDv4DgQaDmh2ZXKGfuL9tajesHsX58Wkb4sw1PqZ-FiNoOSGrveiRiincsNjO_Th_SnzVFMFqkaH5b2zg5MuSNxU5PaSuqNtfTG53ungc7nsEW2620ClniT_kqOOT=w800-h600-p-k-no-pi0.4210642-ya219.63054-ro-4.720326-fo100"
+      ],
+      "scrapedAt": "2026-02-05T04:17:50.172Z"
+    },
+    {
+      "placeId": "osm-way/371284153",
+      "name": "Melmac Ave",
+      "photos": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepIo8mt-xrdeSuzVVHPaT-AWCElg10KwjqtDM8jE9VIsgy3d2UQAB9KZobcUaamROUL5umEjJvdjLYNGCphxR3Ey5mgkQN3OK_pQ9skUMzgd5UC-FqdV1zEXx_1VOlWLrq2t8Q=w800-h600-p-k-no-pi1.1944845-ya299.02203-ro1.8901315-fo100"
+      ],
+      "scrapedAt": "2026-02-05T04:17:57.190Z"
+    },
+    {
+      "placeId": "osm-way/373685611",
+      "name": "Oceana",
+      "phone": "+1 345-746-2665",
+      "rating": 5,
+      "address": "GRAND CAYMAN KY1, 172 S Church St, George Town 1002, Îles Caïmans",
+      "photos": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqh2FCQozCplIHQr2wQVm_vSRrvMTmpFff8o_EFIWBEpFeyEDmGNLt62kS3r1ON3QxpB1HMqrh3Bexp6Sah_K5v2RAq5urIl4Qnt7s0bSatVjDEKUQ3LkarNdwHJmOZp5HhsQJOtMuLJEiy=w800-h600-p-k-no-pi1.4812882-ya302.879-ro3.4765987-fo100"
+      ],
+      "scrapedAt": "2026-02-05T04:18:25.176Z"
+    },
+    {
+      "placeId": "osm-way/373685618",
+      "name": "The SeaView",
+      "rating": 4,
+      "address": "7JQ6+FGR, George Town, Îles Caïmans",
+      "photos": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepsgd58sIKcFs1lGOBQ4y1o0BkW3zcbaSMQ_RBxDQVGVuBnz7e6tlf1LAHntfBvHWQIMGDY8W3rAlc8hsRF8thDuEXsn51JRsemqOjyiZGqnYY8__fQGNueoIQ5-mwD0rx3XmcJ1D9-JX4=w800-h600-p-k-no-pi-1.7241018-ya317.49435-ro0.74415374-fo100"
+      ],
+      "scrapedAt": "2026-02-05T04:18:39.745Z"
+    }
+  ],
+  "lastUpdated": "2026-02-05T04:18:55.097Z"
+}

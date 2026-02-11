@@ -1,0 +1,989 @@
+{
+  "airports": {
+    "cayman": [
+      {
+        "code": "GCM",
+        "name": "Owen Roberts International Airport",
+        "city": "George Town",
+        "country": "Cayman Islands",
+        "lat": 19.2928,
+        "lng": -81.3577,
+        "timezone": "America/Cayman"
+      },
+      {
+        "code": "CYB",
+        "name": "Charles Kirkconnell International Airport",
+        "city": "Cayman Brac",
+        "country": "Cayman Islands",
+        "lat": 19.687,
+        "lng": -79.8828,
+        "timezone": "America/Cayman"
+      },
+      {
+        "code": "LYB",
+        "name": "Edward Bodden Airfield",
+        "city": "Little Cayman",
+        "country": "Cayman Islands",
+        "lat": 19.6603,
+        "lng": -80.0888,
+        "timezone": "America/Cayman"
+      }
+    ],
+    "origins": [
+      {
+        "code": "MIA",
+        "name": "Miami International Airport",
+        "city": "Miami",
+        "country": "United States",
+        "lat": 25.7959,
+        "lng": -80.287,
+        "timezone": "America/New_York"
+      },
+      {
+        "code": "JFK",
+        "name": "John F. Kennedy International Airport",
+        "city": "New York",
+        "country": "United States",
+        "lat": 40.6413,
+        "lng": -73.7781,
+        "timezone": "America/New_York"
+      },
+      {
+        "code": "EWR",
+        "name": "Newark Liberty International Airport",
+        "city": "Newark",
+        "country": "United States",
+        "lat": 40.6895,
+        "lng": -74.1745,
+        "timezone": "America/New_York"
+      },
+      {
+        "code": "ATL",
+        "name": "Hartsfield-Jackson Atlanta International Airport",
+        "city": "Atlanta",
+        "country": "United States",
+        "lat": 33.6407,
+        "lng": -84.4277,
+        "timezone": "America/New_York"
+      },
+      {
+        "code": "DFW",
+        "name": "Dallas/Fort Worth International Airport",
+        "city": "Dallas",
+        "country": "United States",
+        "lat": 32.8998,
+        "lng": -97.0403,
+        "timezone": "America/Chicago"
+      },
+      {
+        "code": "LAX",
+        "name": "Los Angeles International Airport",
+        "city": "Los Angeles",
+        "country": "United States",
+        "lat": 33.9425,
+        "lng": -118.4081,
+        "timezone": "America/Los_Angeles"
+      },
+      {
+        "code": "ORD",
+        "name": "O'Hare International Airport",
+        "city": "Chicago",
+        "country": "United States",
+        "lat": 41.9742,
+        "lng": -87.9073,
+        "timezone": "America/Chicago"
+      },
+      {
+        "code": "DEN",
+        "name": "Denver International Airport",
+        "city": "Denver",
+        "country": "United States",
+        "lat": 39.8561,
+        "lng": -104.6737,
+        "timezone": "America/Denver"
+      },
+      {
+        "code": "IAH",
+        "name": "George Bush Intercontinental Airport",
+        "city": "Houston",
+        "country": "United States",
+        "lat": 29.9902,
+        "lng": -95.3368,
+        "timezone": "America/Chicago"
+      },
+      {
+        "code": "CLT",
+        "name": "Charlotte Douglas International Airport",
+        "city": "Charlotte",
+        "country": "United States",
+        "lat": 35.214,
+        "lng": -80.9431,
+        "timezone": "America/New_York"
+      },
+      {
+        "code": "TPA",
+        "name": "Tampa International Airport",
+        "city": "Tampa",
+        "country": "United States",
+        "lat": 27.9755,
+        "lng": -82.5332,
+        "timezone": "America/New_York"
+      },
+      {
+        "code": "FLL",
+        "name": "Fort Lauderdale-Hollywood International Airport",
+        "city": "Fort Lauderdale",
+        "country": "United States",
+        "lat": 26.0742,
+        "lng": -80.1506,
+        "timezone": "America/New_York"
+      },
+      {
+        "code": "MSP",
+        "name": "Minneapolis-Saint Paul International Airport",
+        "city": "Minneapolis",
+        "country": "United States",
+        "lat": 44.8848,
+        "lng": -93.2223,
+        "timezone": "America/Chicago"
+      },
+      {
+        "code": "YYZ",
+        "name": "Toronto Pearson International Airport",
+        "city": "Toronto",
+        "country": "Canada",
+        "lat": 43.6777,
+        "lng": -79.6248,
+        "timezone": "America/Toronto"
+      },
+      {
+        "code": "YYC",
+        "name": "Calgary International Airport",
+        "city": "Calgary",
+        "country": "Canada",
+        "lat": 51.1215,
+        "lng": -114.0076,
+        "timezone": "America/Edmonton"
+      },
+      {
+        "code": "YVR",
+        "name": "Vancouver International Airport",
+        "city": "Vancouver",
+        "country": "Canada",
+        "lat": 49.1967,
+        "lng": -123.1815,
+        "timezone": "America/Vancouver"
+      },
+      {
+        "code": "LHR",
+        "name": "London Heathrow Airport",
+        "city": "London",
+        "country": "United Kingdom",
+        "lat": 51.47,
+        "lng": -0.4543,
+        "timezone": "Europe/London"
+      },
+      {
+        "code": "KIN",
+        "name": "Norman Manley International Airport",
+        "city": "Kingston",
+        "country": "Jamaica",
+        "lat": 17.9357,
+        "lng": -76.7875,
+        "timezone": "America/Jamaica"
+      },
+      {
+        "code": "HAV",
+        "name": "Jose Marti International Airport",
+        "city": "Havana",
+        "country": "Cuba",
+        "lat": 22.9892,
+        "lng": -82.4091,
+        "timezone": "America/Havana"
+      },
+      {
+        "code": "NAS",
+        "name": "Lynden Pindling International Airport",
+        "city": "Nassau",
+        "country": "Bahamas",
+        "lat": 25.039,
+        "lng": -77.4662,
+        "timezone": "America/Nassau"
+      },
+      {
+        "code": "PTY",
+        "name": "Tocumen International Airport",
+        "city": "Panama City",
+        "country": "Panama",
+        "lat": 9.0714,
+        "lng": -79.3835,
+        "timezone": "America/Panama"
+      },
+      {
+        "code": "SAL",
+        "name": "Monsenor Oscar Arnulfo Romero International Airport",
+        "city": "San Salvador",
+        "country": "El Salvador",
+        "lat": 13.4409,
+        "lng": -89.0557,
+        "timezone": "America/El_Salvador"
+      }
+    ]
+  },
+  "airlines": [
+    {
+      "code": "KX",
+      "name": "Cayman Airways",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Cayman_Airways_Logo.svg/200px-Cayman_Airways_Logo.svg.png",
+      "country": "Cayman Islands"
+    },
+    {
+      "code": "AA",
+      "name": "American Airlines",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/American_Airlines_logo_2013.svg/200px-American_Airlines_logo_2013.svg.png",
+      "country": "United States"
+    },
+    {
+      "code": "DL",
+      "name": "Delta Air Lines",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Delta_logo.svg/200px-Delta_logo.svg.png",
+      "country": "United States"
+    },
+    {
+      "code": "UA",
+      "name": "United Airlines",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/United_Airlines_Logo.svg/200px-United_Airlines_Logo.svg.png",
+      "country": "United States"
+    },
+    {
+      "code": "B6",
+      "name": "JetBlue Airways",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/JetBlue_Airways_Logo.svg/200px-JetBlue_Airways_Logo.svg.png",
+      "country": "United States"
+    },
+    {
+      "code": "WS",
+      "name": "WestJet",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/WestJet_Logo.svg/200px-WestJet_Logo.svg.png",
+      "country": "Canada"
+    },
+    {
+      "code": "AC",
+      "name": "Air Canada",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Air_Canada_Logo.svg/200px-Air_Canada_Logo.svg.png",
+      "country": "Canada"
+    },
+    {
+      "code": "BA",
+      "name": "British Airways",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/British_Airways_Logo.svg/200px-British_Airways_Logo.svg.png",
+      "country": "United Kingdom"
+    },
+    {
+      "code": "SW",
+      "name": "Southwest Airlines",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Southwest_Airlines_logo_2014.svg/200px-Southwest_Airlines_logo_2014.svg.png",
+      "country": "United States"
+    }
+  ],
+  "routes": [
+    {
+      "id": "route-mia-gcm-kx",
+      "origin": {
+        "code": "MIA",
+        "name": "Miami International Airport",
+        "city": "Miami",
+        "country": "United States",
+        "lat": 25.7959,
+        "lng": -80.287,
+        "timezone": "America/New_York"
+      },
+      "destination": {
+        "code": "GCM",
+        "name": "Owen Roberts International Airport",
+        "city": "George Town",
+        "country": "Cayman Islands",
+        "lat": 19.2928,
+        "lng": -81.3577,
+        "timezone": "America/Cayman"
+      },
+      "airline": {
+        "code": "KX",
+        "name": "Cayman Airways",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Cayman_Airways_Logo.svg/200px-Cayman_Airways_Logo.svg.png",
+        "country": "Cayman Islands"
+      },
+      "frequency": "Daily",
+      "departureTime": "08:00",
+      "arrivalTime": "09:20",
+      "duration": "1h 20m",
+      "aircraft": "Boeing 737-8",
+      "lastUpdated": "2026-02-03T18:37:01.550Z",
+      "isActive": true
+    },
+    {
+      "id": "route-mia-gcm-aa",
+      "origin": {
+        "code": "MIA",
+        "name": "Miami International Airport",
+        "city": "Miami",
+        "country": "United States",
+        "lat": 25.7959,
+        "lng": -80.287,
+        "timezone": "America/New_York"
+      },
+      "destination": {
+        "code": "GCM",
+        "name": "Owen Roberts International Airport",
+        "city": "George Town",
+        "country": "Cayman Islands",
+        "lat": 19.2928,
+        "lng": -81.3577,
+        "timezone": "America/Cayman"
+      },
+      "airline": {
+        "code": "AA",
+        "name": "American Airlines",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/American_Airlines_logo_2013.svg/200px-American_Airlines_logo_2013.svg.png",
+        "country": "United States"
+      },
+      "frequency": "Daily",
+      "departureTime": "10:30",
+      "arrivalTime": "11:50",
+      "duration": "1h 20m",
+      "aircraft": "Boeing 737",
+      "lastUpdated": "2026-02-03T18:37:01.577Z",
+      "isActive": true
+    },
+    {
+      "id": "route-jfk-gcm-kx",
+      "origin": {
+        "code": "JFK",
+        "name": "John F. Kennedy International Airport",
+        "city": "New York",
+        "country": "United States",
+        "lat": 40.6413,
+        "lng": -73.7781,
+        "timezone": "America/New_York"
+      },
+      "destination": {
+        "code": "GCM",
+        "name": "Owen Roberts International Airport",
+        "city": "George Town",
+        "country": "Cayman Islands",
+        "lat": 19.2928,
+        "lng": -81.3577,
+        "timezone": "America/Cayman"
+      },
+      "airline": {
+        "code": "KX",
+        "name": "Cayman Airways",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Cayman_Airways_Logo.svg/200px-Cayman_Airways_Logo.svg.png",
+        "country": "Cayman Islands"
+      },
+      "frequency": "Mon, Wed, Fri, Sat, Sun",
+      "departureTime": "08:30",
+      "arrivalTime": "12:15",
+      "duration": "3h 45m",
+      "aircraft": "Boeing 737-8",
+      "lastUpdated": "2026-02-03T18:37:01.577Z",
+      "isActive": true
+    },
+    {
+      "id": "route-jfk-gcm-b6",
+      "origin": {
+        "code": "JFK",
+        "name": "John F. Kennedy International Airport",
+        "city": "New York",
+        "country": "United States",
+        "lat": 40.6413,
+        "lng": -73.7781,
+        "timezone": "America/New_York"
+      },
+      "destination": {
+        "code": "GCM",
+        "name": "Owen Roberts International Airport",
+        "city": "George Town",
+        "country": "Cayman Islands",
+        "lat": 19.2928,
+        "lng": -81.3577,
+        "timezone": "America/Cayman"
+      },
+      "airline": {
+        "code": "B6",
+        "name": "JetBlue Airways",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/JetBlue_Airways_Logo.svg/200px-JetBlue_Airways_Logo.svg.png",
+        "country": "United States"
+      },
+      "frequency": "Daily",
+      "departureTime": "11:00",
+      "arrivalTime": "14:45",
+      "duration": "3h 45m",
+      "aircraft": "Airbus A320",
+      "lastUpdated": "2026-02-03T18:37:01.577Z",
+      "isActive": true
+    },
+    {
+      "id": "route-atl-gcm-dl",
+      "origin": {
+        "code": "ATL",
+        "name": "Hartsfield-Jackson Atlanta International Airport",
+        "city": "Atlanta",
+        "country": "United States",
+        "lat": 33.6407,
+        "lng": -84.4277,
+        "timezone": "America/New_York"
+      },
+      "destination": {
+        "code": "GCM",
+        "name": "Owen Roberts International Airport",
+        "city": "George Town",
+        "country": "Cayman Islands",
+        "lat": 19.2928,
+        "lng": -81.3577,
+        "timezone": "America/Cayman"
+      },
+      "airline": {
+        "code": "DL",
+        "name": "Delta Air Lines",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Delta_logo.svg/200px-Delta_logo.svg.png",
+        "country": "United States"
+      },
+      "frequency": "Daily",
+      "departureTime": "09:15",
+      "arrivalTime": "12:00",
+      "duration": "2h 45m",
+      "aircraft": "Boeing 737-800",
+      "lastUpdated": "2026-02-03T18:37:01.577Z",
+      "isActive": true
+    },
+    {
+      "id": "route-dfw-gcm-aa",
+      "origin": {
+        "code": "DFW",
+        "name": "Dallas/Fort Worth International Airport",
+        "city": "Dallas",
+        "country": "United States",
+        "lat": 32.8998,
+        "lng": -97.0403,
+        "timezone": "America/Chicago"
+      },
+      "destination": {
+        "code": "GCM",
+        "name": "Owen Roberts International Airport",
+        "city": "George Town",
+        "country": "Cayman Islands",
+        "lat": 19.2928,
+        "lng": -81.3577,
+        "timezone": "America/Cayman"
+      },
+      "airline": {
+        "code": "AA",
+        "name": "American Airlines",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/American_Airlines_logo_2013.svg/200px-American_Airlines_logo_2013.svg.png",
+        "country": "United States"
+      },
+      "frequency": "Sat, Sun",
+      "departureTime": "10:00",
+      "arrivalTime": "14:30",
+      "duration": "3h 30m",
+      "aircraft": "Boeing 737",
+      "seasonal": true,
+      "seasonStart": "2024-12-01",
+      "seasonEnd": "2025-04-30",
+      "lastUpdated": "2026-02-03T18:37:01.577Z",
+      "isActive": true
+    },
+    {
+      "id": "route-ord-gcm-ua",
+      "origin": {
+        "code": "ORD",
+        "name": "O'Hare International Airport",
+        "city": "Chicago",
+        "country": "United States",
+        "lat": 41.9742,
+        "lng": -87.9073,
+        "timezone": "America/Chicago"
+      },
+      "destination": {
+        "code": "GCM",
+        "name": "Owen Roberts International Airport",
+        "city": "George Town",
+        "country": "Cayman Islands",
+        "lat": 19.2928,
+        "lng": -81.3577,
+        "timezone": "America/Cayman"
+      },
+      "airline": {
+        "code": "UA",
+        "name": "United Airlines",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/United_Airlines_Logo.svg/200px-United_Airlines_Logo.svg.png",
+        "country": "United States"
+      },
+      "frequency": "Sat",
+      "departureTime": "08:45",
+      "arrivalTime": "13:30",
+      "duration": "3h 45m",
+      "aircraft": "Boeing 737-900",
+      "seasonal": true,
+      "seasonStart": "2024-12-01",
+      "seasonEnd": "2025-04-30",
+      "lastUpdated": "2026-02-03T18:37:01.577Z",
+      "isActive": true
+    },
+    {
+      "id": "route-clt-gcm-aa",
+      "origin": {
+        "code": "CLT",
+        "name": "Charlotte Douglas International Airport",
+        "city": "Charlotte",
+        "country": "United States",
+        "lat": 35.214,
+        "lng": -80.9431,
+        "timezone": "America/New_York"
+      },
+      "destination": {
+        "code": "GCM",
+        "name": "Owen Roberts International Airport",
+        "city": "George Town",
+        "country": "Cayman Islands",
+        "lat": 19.2928,
+        "lng": -81.3577,
+        "timezone": "America/Cayman"
+      },
+      "airline": {
+        "code": "AA",
+        "name": "American Airlines",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/American_Airlines_logo_2013.svg/200px-American_Airlines_logo_2013.svg.png",
+        "country": "United States"
+      },
+      "frequency": "Sat",
+      "departureTime": "08:30",
+      "arrivalTime": "12:00",
+      "duration": "2h 30m",
+      "aircraft": "Airbus A320",
+      "seasonal": true,
+      "seasonStart": "2024-12-01",
+      "seasonEnd": "2025-04-30",
+      "lastUpdated": "2026-02-03T18:37:01.577Z",
+      "isActive": true
+    },
+    {
+      "id": "route-den-gcm-ua",
+      "origin": {
+        "code": "DEN",
+        "name": "Denver International Airport",
+        "city": "Denver",
+        "country": "United States",
+        "lat": 39.8561,
+        "lng": -104.6737,
+        "timezone": "America/Denver"
+      },
+      "destination": {
+        "code": "GCM",
+        "name": "Owen Roberts International Airport",
+        "city": "George Town",
+        "country": "Cayman Islands",
+        "lat": 19.2928,
+        "lng": -81.3577,
+        "timezone": "America/Cayman"
+      },
+      "airline": {
+        "code": "UA",
+        "name": "United Airlines",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/United_Airlines_Logo.svg/200px-United_Airlines_Logo.svg.png",
+        "country": "United States"
+      },
+      "frequency": "Sat",
+      "departureTime": "07:00",
+      "arrivalTime": "14:30",
+      "duration": "5h 30m",
+      "aircraft": "Boeing 737",
+      "seasonal": true,
+      "seasonStart": "2024-12-01",
+      "seasonEnd": "2025-04-30",
+      "lastUpdated": "2026-02-03T18:37:01.577Z",
+      "isActive": true
+    },
+    {
+      "id": "route-lax-gcm-kx",
+      "origin": {
+        "code": "LAX",
+        "name": "Los Angeles International Airport",
+        "city": "Los Angeles",
+        "country": "United States",
+        "lat": 33.9425,
+        "lng": -118.4081,
+        "timezone": "America/Los_Angeles"
+      },
+      "destination": {
+        "code": "GCM",
+        "name": "Owen Roberts International Airport",
+        "city": "George Town",
+        "country": "Cayman Islands",
+        "lat": 19.2928,
+        "lng": -81.3577,
+        "timezone": "America/Cayman"
+      },
+      "airline": {
+        "code": "KX",
+        "name": "Cayman Airways",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Cayman_Airways_Logo.svg/200px-Cayman_Airways_Logo.svg.png",
+        "country": "Cayman Islands"
+      },
+      "frequency": "Sat",
+      "departureTime": "23:30",
+      "arrivalTime": "09:00",
+      "duration": "6h 30m",
+      "aircraft": "Boeing 737-8",
+      "seasonal": true,
+      "seasonStart": "2024-12-01",
+      "seasonEnd": "2025-04-30",
+      "lastUpdated": "2026-02-03T18:37:01.577Z",
+      "isActive": true
+    },
+    {
+      "id": "route-yyz-gcm-ws",
+      "origin": {
+        "code": "YYZ",
+        "name": "Toronto Pearson International Airport",
+        "city": "Toronto",
+        "country": "Canada",
+        "lat": 43.6777,
+        "lng": -79.6248,
+        "timezone": "America/Toronto"
+      },
+      "destination": {
+        "code": "GCM",
+        "name": "Owen Roberts International Airport",
+        "city": "George Town",
+        "country": "Cayman Islands",
+        "lat": 19.2928,
+        "lng": -81.3577,
+        "timezone": "America/Cayman"
+      },
+      "airline": {
+        "code": "WS",
+        "name": "WestJet",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/WestJet_Logo.svg/200px-WestJet_Logo.svg.png",
+        "country": "Canada"
+      },
+      "frequency": "Mon, Thu, Sat",
+      "departureTime": "08:00",
+      "arrivalTime": "12:30",
+      "duration": "4h 30m",
+      "aircraft": "Boeing 737 MAX 8",
+      "lastUpdated": "2026-02-03T18:37:01.577Z",
+      "isActive": true
+    },
+    {
+      "id": "route-yyz-gcm-ac",
+      "origin": {
+        "code": "YYZ",
+        "name": "Toronto Pearson International Airport",
+        "city": "Toronto",
+        "country": "Canada",
+        "lat": 43.6777,
+        "lng": -79.6248,
+        "timezone": "America/Toronto"
+      },
+      "destination": {
+        "code": "GCM",
+        "name": "Owen Roberts International Airport",
+        "city": "George Town",
+        "country": "Cayman Islands",
+        "lat": 19.2928,
+        "lng": -81.3577,
+        "timezone": "America/Cayman"
+      },
+      "airline": {
+        "code": "AC",
+        "name": "Air Canada",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Air_Canada_Logo.svg/200px-Air_Canada_Logo.svg.png",
+        "country": "Canada"
+      },
+      "frequency": "Wed, Sat, Sun",
+      "departureTime": "09:30",
+      "arrivalTime": "14:00",
+      "duration": "4h 30m",
+      "aircraft": "Airbus A320",
+      "lastUpdated": "2026-02-03T18:37:01.577Z",
+      "isActive": true
+    },
+    {
+      "id": "route-lhr-gcm-ba",
+      "origin": {
+        "code": "LHR",
+        "name": "London Heathrow Airport",
+        "city": "London",
+        "country": "United Kingdom",
+        "lat": 51.47,
+        "lng": -0.4543,
+        "timezone": "Europe/London"
+      },
+      "destination": {
+        "code": "GCM",
+        "name": "Owen Roberts International Airport",
+        "city": "George Town",
+        "country": "Cayman Islands",
+        "lat": 19.2928,
+        "lng": -81.3577,
+        "timezone": "America/Cayman"
+      },
+      "airline": {
+        "code": "BA",
+        "name": "British Airways",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/British_Airways_Logo.svg/200px-British_Airways_Logo.svg.png",
+        "country": "United Kingdom"
+      },
+      "frequency": "Thu, Sun",
+      "departureTime": "10:00",
+      "arrivalTime": "15:00",
+      "duration": "11h 00m",
+      "aircraft": "Boeing 777-200",
+      "lastUpdated": "2026-02-03T18:37:01.577Z",
+      "isActive": true
+    },
+    {
+      "id": "route-tpa-gcm-sw",
+      "origin": {
+        "code": "TPA",
+        "name": "Tampa International Airport",
+        "city": "Tampa",
+        "country": "United States",
+        "lat": 27.9755,
+        "lng": -82.5332,
+        "timezone": "America/New_York"
+      },
+      "destination": {
+        "code": "GCM",
+        "name": "Owen Roberts International Airport",
+        "city": "George Town",
+        "country": "Cayman Islands",
+        "lat": 19.2928,
+        "lng": -81.3577,
+        "timezone": "America/Cayman"
+      },
+      "airline": {
+        "code": "SW",
+        "name": "Southwest Airlines",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Southwest_Airlines_logo_2014.svg/200px-Southwest_Airlines_logo_2014.svg.png",
+        "country": "United States"
+      },
+      "frequency": "Sat",
+      "departureTime": "09:30",
+      "arrivalTime": "11:30",
+      "duration": "2h 00m",
+      "aircraft": "Boeing 737-800",
+      "seasonal": true,
+      "seasonStart": "2024-12-01",
+      "seasonEnd": "2025-04-30",
+      "lastUpdated": "2026-02-03T18:37:01.578Z",
+      "isActive": true
+    },
+    {
+      "id": "route-fll-gcm-b6",
+      "origin": {
+        "code": "FLL",
+        "name": "Fort Lauderdale-Hollywood International Airport",
+        "city": "Fort Lauderdale",
+        "country": "United States",
+        "lat": 26.0742,
+        "lng": -80.1506,
+        "timezone": "America/New_York"
+      },
+      "destination": {
+        "code": "GCM",
+        "name": "Owen Roberts International Airport",
+        "city": "George Town",
+        "country": "Cayman Islands",
+        "lat": 19.2928,
+        "lng": -81.3577,
+        "timezone": "America/Cayman"
+      },
+      "airline": {
+        "code": "B6",
+        "name": "JetBlue Airways",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/JetBlue_Airways_Logo.svg/200px-JetBlue_Airways_Logo.svg.png",
+        "country": "United States"
+      },
+      "frequency": "Sat, Sun",
+      "departureTime": "11:00",
+      "arrivalTime": "12:30",
+      "duration": "1h 30m",
+      "aircraft": "Airbus A320",
+      "lastUpdated": "2026-02-03T18:37:01.578Z",
+      "isActive": true
+    },
+    {
+      "id": "route-gcm-cyb-kx",
+      "origin": {
+        "code": "GCM",
+        "name": "Owen Roberts International Airport",
+        "city": "George Town",
+        "country": "Cayman Islands",
+        "lat": 19.2928,
+        "lng": -81.3577,
+        "timezone": "America/Cayman"
+      },
+      "destination": {
+        "code": "CYB",
+        "name": "Charles Kirkconnell International Airport",
+        "city": "Cayman Brac",
+        "country": "Cayman Islands",
+        "lat": 19.687,
+        "lng": -79.8828,
+        "timezone": "America/Cayman"
+      },
+      "airline": {
+        "code": "KX",
+        "name": "Cayman Airways",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Cayman_Airways_Logo.svg/200px-Cayman_Airways_Logo.svg.png",
+        "country": "Cayman Islands"
+      },
+      "frequency": "Daily",
+      "departureTime": "07:00",
+      "arrivalTime": "07:45",
+      "duration": "45m",
+      "aircraft": "Twin Otter",
+      "lastUpdated": "2026-02-03T18:37:01.578Z",
+      "isActive": true
+    },
+    {
+      "id": "route-gcm-lyb-kx",
+      "origin": {
+        "code": "GCM",
+        "name": "Owen Roberts International Airport",
+        "city": "George Town",
+        "country": "Cayman Islands",
+        "lat": 19.2928,
+        "lng": -81.3577,
+        "timezone": "America/Cayman"
+      },
+      "destination": {
+        "code": "LYB",
+        "name": "Edward Bodden Airfield",
+        "city": "Little Cayman",
+        "country": "Cayman Islands",
+        "lat": 19.6603,
+        "lng": -80.0888,
+        "timezone": "America/Cayman"
+      },
+      "airline": {
+        "code": "KX",
+        "name": "Cayman Airways",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Cayman_Airways_Logo.svg/200px-Cayman_Airways_Logo.svg.png",
+        "country": "Cayman Islands"
+      },
+      "frequency": "Daily",
+      "departureTime": "07:00",
+      "arrivalTime": "07:35",
+      "duration": "35m",
+      "aircraft": "Twin Otter",
+      "lastUpdated": "2026-02-03T18:37:01.578Z",
+      "isActive": true
+    },
+    {
+      "id": "route-cyb-lyb-kx",
+      "origin": {
+        "code": "CYB",
+        "name": "Charles Kirkconnell International Airport",
+        "city": "Cayman Brac",
+        "country": "Cayman Islands",
+        "lat": 19.687,
+        "lng": -79.8828,
+        "timezone": "America/Cayman"
+      },
+      "destination": {
+        "code": "LYB",
+        "name": "Edward Bodden Airfield",
+        "city": "Little Cayman",
+        "country": "Cayman Islands",
+        "lat": 19.6603,
+        "lng": -80.0888,
+        "timezone": "America/Cayman"
+      },
+      "airline": {
+        "code": "KX",
+        "name": "Cayman Airways",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Cayman_Airways_Logo.svg/200px-Cayman_Airways_Logo.svg.png",
+        "country": "Cayman Islands"
+      },
+      "frequency": "Mon, Wed, Fri",
+      "departureTime": "08:00",
+      "arrivalTime": "08:20",
+      "duration": "20m",
+      "aircraft": "Twin Otter",
+      "lastUpdated": "2026-02-03T18:37:01.578Z",
+      "isActive": true
+    },
+    {
+      "id": "route-kin-gcm-kx",
+      "origin": {
+        "code": "KIN",
+        "name": "Norman Manley International Airport",
+        "city": "Kingston",
+        "country": "Jamaica",
+        "lat": 17.9357,
+        "lng": -76.7875,
+        "timezone": "America/Jamaica"
+      },
+      "destination": {
+        "code": "GCM",
+        "name": "Owen Roberts International Airport",
+        "city": "George Town",
+        "country": "Cayman Islands",
+        "lat": 19.2928,
+        "lng": -81.3577,
+        "timezone": "America/Cayman"
+      },
+      "airline": {
+        "code": "KX",
+        "name": "Cayman Airways",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Cayman_Airways_Logo.svg/200px-Cayman_Airways_Logo.svg.png",
+        "country": "Cayman Islands"
+      },
+      "frequency": "Tue, Fri, Sun",
+      "departureTime": "14:00",
+      "arrivalTime": "15:00",
+      "duration": "1h 00m",
+      "aircraft": "Boeing 737-8",
+      "lastUpdated": "2026-02-03T18:37:01.578Z",
+      "isActive": true
+    },
+    {
+      "id": "route-nas-gcm-kx",
+      "origin": {
+        "code": "NAS",
+        "name": "Lynden Pindling International Airport",
+        "city": "Nassau",
+        "country": "Bahamas",
+        "lat": 25.039,
+        "lng": -77.4662,
+        "timezone": "America/Nassau"
+      },
+      "destination": {
+        "code": "GCM",
+        "name": "Owen Roberts International Airport",
+        "city": "George Town",
+        "country": "Cayman Islands",
+        "lat": 19.2928,
+        "lng": -81.3577,
+        "timezone": "America/Cayman"
+      },
+      "airline": {
+        "code": "KX",
+        "name": "Cayman Airways",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Cayman_Airways_Logo.svg/200px-Cayman_Airways_Logo.svg.png",
+        "country": "Cayman Islands"
+      },
+      "frequency": "Wed, Sat",
+      "departureTime": "10:00",
+      "arrivalTime": "11:30",
+      "duration": "1h 30m",
+      "aircraft": "Boeing 737-8",
+      "lastUpdated": "2026-02-03T18:37:01.578Z",
+      "isActive": true
+    }
+  ]
+}

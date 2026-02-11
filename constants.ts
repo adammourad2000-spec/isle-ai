@@ -389,8 +389,12 @@ export const VISITOR_NATIONALITIES = [
 ];
 
 // ============ LEGACY COMPATIBILITY EXPORTS ============
-// These maintain backwards compatibility with existing code
-// TODO: Migrate fully to new Destination/Activity model
+// These maintain backwards compatibility with existing code that uses the Course model.
+// The legacy Course model is automatically generated from the new Destination/Activity model.
+// This ensures seamless compatibility while using the modern data structure internally.
+//
+// MIGRATION NOTE: When refactoring services/dataService.ts, replace MOCK_COURSES
+// references with MOCK_DESTINATIONS to fully adopt the new model.
 
 // Legacy Course type mapped from Destination
 export const MOCK_COURSES = MOCK_DESTINATIONS.map(dest => ({

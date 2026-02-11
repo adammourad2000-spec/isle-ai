@@ -1,0 +1,23 @@
+{
+  "totalPlaces": 958,
+  "processed": 958,
+  "enriched": 585,
+  "skipped": 0,
+  "failed": 373,
+  "alreadyEnriched": 0,
+  "coordinatesUpdated": 1,
+  "phonesAdded": 1,
+  "websitesAdded": 1,
+  "hoursAdded": 0,
+  "photosAdded": 2,
+  "ratingsUpdated": 529,
+  "descriptionsImproved": 54,
+  "searchApiCalls": 958,
+  "detailsApiCalls": 585,
+  "photoApiCalls": 4466,
+  "totalApiCalls": 6009,
+  "estimatedCost": 71.863,
+  "startTime": 1770424536868,
+  "avgTimePerPlace": 538.2014613778706,
+  "endTime": 1770425052730
+}

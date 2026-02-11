@@ -24,6 +24,10 @@ server/.env.*
 server/uploads/*
 !server/uploads/.gitkeep
 
+# Archive and backup files
+archive/
+*.backup
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

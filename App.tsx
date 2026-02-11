@@ -47,12 +47,13 @@ import {
   MessageSquare,
   Sparkles,
   Bot,
-  Layers
+  Layers,
+  Star
 } from 'lucide-react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell, PieChart, Pie } from 'recharts';
 import { LiquidBackground } from './components/LiquidBackground';
 import { GlassCard, PrimaryButton, SecondaryButton, ProgressBar, Badge, FileDropZone, IconButton, ToastProvider, useToast, LiquidVideoFrame } from './components/UIComponents';
-import { AnimatePresence, Reorder, motion, LayoutGroup } from 'framer-motion';
+import { AnimatePresence, Reorder, motion, LayoutGroup, useScroll, useTransform, useSpring, useMotionValue, useInView } from 'framer-motion';
 import { PageTransition } from './components/PageTransition';
 import ChatbotPanel from './components/ChatbotPanel';
 import { KnowledgeAdmin } from './components/admin';
@@ -63,7 +64,7 @@ import { MINISTRIES } from './constants';
 import { Course, User, UserRole, Lesson, AnalyticData, LearningPath, ContentType } from './types';
 
 // --- Types for Views ---
-type View = 'LANDING' | 'AUTH' | 'DASHBOARD' | 'COURSE_PLAYER' | 'ADMIN';
+type View = 'LANDING' | 'AUTH' | 'DASHBOARD' | 'COURSE_PLAYER' | 'ADMIN' | 'AI_GUIDE';
 type AdminSection = 'OVERVIEW' | 'USERS' | 'COURSES' | 'ANALYTICS';
 
 // VideoFrame moved to components/UIComponents.tsx
@@ -308,6 +309,123 @@ const ModuleProgressIndicator: React.FC<ModuleProgressIndicatorProps> = ({ cours
   );
 };
 
+// ============================================
+// CONSTANTS - Defined outside App to prevent re-creation on every render
+// ============================================
+
+// Ultra high-quality 4K Cayman Islands & Caribbean images from Unsplash
+const LANDING_IMAGES = {
+  hero: 'https://images.unsplash.com/photo-1580541631950-7282082b53ce?auto=format&fit=crop&w=3840&q=90',
+  beach: 'https://images.unsplash.com/photo-1520454974749-611b7248ffdb?auto=format&fit=crop&w=3840&q=90',
+  underwater: 'https://images.unsplash.com/photo-1682687220742-aba13b6e50ba?auto=format&fit=crop&w=3840&q=90',
+  yacht: 'https://images.unsplash.com/photo-1605281317010-fe5ffe798166?auto=format&fit=crop&w=3840&q=90',
+  resort: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=3840&q=90',
+  villa: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=3840&q=90',
+  dining: 'https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=3840&q=90',
+  sunset: 'https://images.unsplash.com/photo-1507400492013-162706c8c05e?auto=format&fit=crop&w=3840&q=90',
+  tropical: 'https://images.unsplash.com/photo-1589394815804-964ed0be2eb5?auto=format&fit=crop&w=3840&q=90',
+  stingray: 'https://images.unsplash.com/photo-1591025207163-942350e47db2?auto=format&fit=crop&w=3840&q=90',
+  aerial: 'https://images.unsplash.com/photo-1559827291-72ee739d0d9a?auto=format&fit=crop&w=3840&q=90',
+  pool: 'https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=3840&q=90',
+};
+
+// Testimonial data
+const TESTIMONIALS_DATA = [
+  { name: "Victoria St. Laurent", title: "Private Wealth Advisor, Geneva", quote: "Isle AI transformed our family vacation into an unforgettable journey. The AI concierge knew exactly what we wanted before we did.", avatar: "VS", image: LANDING_IMAGES.yacht },
+  { name: "James Whitmore III", title: "CEO, Whitmore Holdings", quote: "The level of personalization is extraordinary. From private yacht charters to exclusive dining reservations, every detail was perfect.", avatar: "JW", image: LANDING_IMAGES.dining },
+  { name: "Elizabeth Chen", title: "Art Collector, Singapore", quote: "Finally, a travel companion that understands luxury. The recommendations were impeccable, and the seamless experience was beyond expectations.", avatar: "EC", image: LANDING_IMAGES.villa },
+];
+
+// Premium animation variants
+const FADE_UP_VARIANTS = {
+  hidden: { opacity: 0, y: 60 },
+  visible: (delay: number = 0) => ({
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 1,
+      delay,
+      ease: [0.25, 0.4, 0.25, 1]
+    }
+  })
+};
+
+const SCALE_IN_VARIANTS = {
+  hidden: { opacity: 0, scale: 0.9 },
+  visible: (delay: number = 0) => ({
+    opacity: 1,
+    scale: 1,
+    transition: {
+      duration: 0.8,
+      delay,
+      ease: [0.25, 0.4, 0.25, 1]
+    }
+  })
+};
+
+// Premium Button Component - Defined outside App to prevent re-creation
+const PremiumButton = ({ children, onClick, variant = 'primary', className = '' }: {
+  children: React.ReactNode;
+  onClick?: () => void;
+  variant?: 'primary' | 'secondary' | 'ghost';
+  className?: string;
+}) => {
+  const buttonRef = useRef<HTMLButtonElement>(null);
+  const x = useMotionValue(0);
+  const y = useMotionValue(0);
+
+  const handleMouseMove = (e: React.MouseEvent) => {
+    if (!buttonRef.current) return;
+    const rect = buttonRef.current.getBoundingClientRect();
+    const centerX = rect.left + rect.width / 2;
+    const centerY = rect.top + rect.height / 2;
+    x.set((e.clientX - centerX) * 0.15);
+    y.set((e.clientY - centerY) * 0.15);
+  };
+
+  const handleMouseLeave = () => {
+    x.set(0);
+    y.set(0);
+  };
+
+  const springConfig = { stiffness: 150, damping: 15, mass: 0.1 };
+  const springX = useSpring(x, springConfig);
+  const springY = useSpring(y, springConfig);
+
+  const baseClasses = variant === 'primary'
+    ? 'bg-gradient-to-r from-cyan-400 via-cyan-500 to-teal-500 text-white shadow-[0_0_40px_rgba(34,211,238,0.3)]'
+    : variant === 'secondary'
+    ? 'bg-white/5 backdrop-blur-sm border border-white/20 text-white'
+    : 'bg-transparent border-2 border-white/30 text-white';
+
+  return (
+    <motion.button
+      ref={buttonRef}
+      onClick={onClick}
+      onMouseMove={handleMouseMove}
+      onMouseLeave={handleMouseLeave}
+      style={{ x: springX, y: springY }}
+      whileHover={{ scale: 1.02 }}
+      whileTap={{ scale: 0.98 }}
+      className={`relative px-8 py-4 rounded-full font-helvetica-bold text-lg overflow-hidden group ${baseClasses} ${className}`}
+    >
+      {variant === 'primary' && (
+        <motion.div
+          className="absolute inset-0 bg-gradient-to-r from-cyan-300 via-teal-400 to-cyan-300"
+          initial={{ x: '-100%' }}
+          whileHover={{ x: '100%' }}
+          transition={{ duration: 0.6, ease: 'easeInOut' }}
+        />
+      )}
+      <span className="relative z-10 flex items-center gap-3">
+        {children}
+      </span>
+    </motion.button>
+  );
+};
+
+// ============================================
+
 const App: React.FC = () => {
   const [currentView, setCurrentView] = useState<View>('LANDING');
   const [user, setUser] = useState<User | null>(null);
@@ -335,6 +453,9 @@ const App: React.FC = () => {
 
   // Knowledge Admin state (for admin users)
   const [isKnowledgeAdminOpen, setIsKnowledgeAdminOpen] = useState(false);
+
+  // Track if initial data has been loaded (declared early so it can be used in restoreSession)
+  const [dataLoaded, setDataLoaded] = useState(false);
 
   // Restore session on page load/refresh
   useEffect(() => {
@@ -408,9 +529,6 @@ const App: React.FC = () => {
       }
     }
   }, [currentView, activeCourse, activeLesson, user]);
-
-  // Track if initial data has been loaded
-  const [dataLoaded, setDataLoaded] = useState(false);
 
   // Load initial data once when entering dashboard or admin views
   useEffect(() => {
@@ -625,20 +743,24 @@ const App: React.FC = () => {
 
   const Sidebar = () => (
     <div className={`fixed inset-y-0 left-0 z-50 w-64 transform ${mobileMenuOpen ? 'translate-x-0' : '-translate-x-full'} md:translate-x-0 transition-transform duration-300 ease-in-out ${draggedCourseId ? 'opacity-20 blur-sm pointer-events-none' : 'opacity-100'} transition-opacity`}>
-      {/* Subtle glow accent on edge */}
-      <div className="absolute inset-y-0 right-0 w-px bg-gradient-to-b from-transparent via-yellow-400/10 to-transparent" />
+      {/* Subtle glow accent on edge - Caribbean cyan */}
+      <div className="absolute inset-y-0 right-0 w-px bg-gradient-to-b from-transparent via-cyan-400/20 to-transparent" />
 
       <div className="h-full flex flex-col bg-[#0a0a0b] border-r border-white/[0.06]">
         {/* Logo section with premium treatment */}
-        <div className="p-8 relative">
-
-          <h1
-            className="text-2xl font-helvetica-bold tracking-wider cursor-pointer group"
+        <div className="p-6 relative">
+          <div
+            className="flex items-center gap-3 cursor-pointer group"
             onClick={() => setCurrentView('LANDING')}
           >
-            <span className="text-[#D4AF37] group-hover:brightness-110 transition-all">AMINI</span>
-            <span className="font-helvetica-light text-white/70 group-hover:text-white transition-colors ml-1">ACADEMY</span>
-          </h1>
+            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-cyan-500 to-teal-500 flex items-center justify-center shadow-lg shadow-cyan-500/20 group-hover:shadow-cyan-500/40 transition-shadow">
+              <Sparkles size={20} className="text-white" />
+            </div>
+            <h1 className="text-xl font-helvetica-bold tracking-wider">
+              <span className="text-white group-hover:text-cyan-300 transition-colors">ISLE</span>
+              <span className="text-cyan-400">AI</span>
+            </h1>
+          </div>
         </div>
 
         <nav className="flex-1 px-4 space-y-1.5 py-2">
@@ -646,6 +768,7 @@ const App: React.FC = () => {
           {user?.role !== UserRole.ADMIN && (
             <>
               <SidebarItem icon={<Layout size={20} />} label="Dashboard" active={currentView === 'DASHBOARD'} onClick={() => setCurrentView('DASHBOARD')} />
+              <SidebarItem icon={<Bot size={20} />} label="AI Guide" active={currentView === 'AI_GUIDE'} onClick={() => setCurrentView('AI_GUIDE')} />
               <SidebarItem icon={<BookOpen size={20} />} label="My Learning" active={false} />
               <SidebarItem icon={<Trophy size={20} />} label="Achievements" active={false} />
             </>
@@ -684,7 +807,14 @@ const App: React.FC = () => {
                 onClick={() => { if (currentView !== 'ADMIN') setCurrentView('ADMIN'); setAdminSection('ANALYTICS'); }}
               />
 
+              <div className="my-3 border-t border-white/[0.06]" />
 
+              <SidebarItem
+                icon={<Bot size={20} />}
+                label="AI Guide"
+                active={currentView === 'AI_GUIDE'}
+                onClick={() => setCurrentView('AI_GUIDE')}
+              />
 
               <SidebarItem
                 icon={<Layout size={20} />}
@@ -700,13 +830,13 @@ const App: React.FC = () => {
         <div className="p-6 relative">
           <div className="flex items-center gap-3 mb-4">
             <div className="relative">
-              <div className="w-11 h-11 rounded-xl border border-[#D4AF37]/40 bg-[#D4AF37]/5 flex items-center justify-center font-helvetica-bold text-[#D4AF37] shadow-[0_0_15px_rgba(212,175,55,0.1)]">
+              <div className="w-11 h-11 rounded-xl bg-gradient-to-br from-cyan-500/20 to-teal-500/20 border border-cyan-500/30 flex items-center justify-center font-helvetica-bold text-cyan-400 shadow-[0_0_15px_rgba(6,182,212,0.15)]">
                 {user?.name?.charAt(0) || 'U'}
               </div>
             </div>
             <div>
-              <p className="text-xs font-helvetica-bold text-white">{user?.name || 'User'}</p>
-              <p className="text-[10px] text-zinc-500 truncate w-32">{user?.ministry || 'Ministry'}</p>
+              <p className="text-sm font-helvetica-bold text-white">{user?.name || 'User'}</p>
+              <p className="text-xs text-zinc-500 truncate w-32">{user?.ministry || 'Guest'}</p>
             </div>
           </div>
           <button
@@ -757,19 +887,19 @@ const App: React.FC = () => {
       <button
         onClick={handleClick}
         className={`
-        relative w-full flex items-center gap-3 px-4 py-2 rounded-xl transition-all duration-300 overflow-hidden
+        relative w-full flex items-center gap-3 px-4 py-2.5 rounded-xl transition-all duration-300 overflow-hidden
         ${active
-            ? 'text-[#D4AF37] border border-[#D4AF37]/40 bg-[#D4AF37]/5'
+            ? 'text-cyan-400 border border-cyan-500/30 bg-cyan-500/10'
             : 'text-zinc-500 hover:text-white hover:bg-white/[0.03]'
           }
         ${isRadiating ? 'scale-95 brightness-125' : 'scale-100'}
         active:scale-[0.96] active:duration-75
       `}
       >
-        {/* Radiant Pulse Ring */}
+        {/* Radiant Pulse Ring - Caribbean cyan */}
         {isRadiating && (
           <div
-            className="absolute pointer-events-none rounded-full border-2 border-[#D4AF37] animate-radiant z-20"
+            className="absolute pointer-events-none rounded-full border-2 border-cyan-400 animate-radiant z-20"
             style={{
               left: clickPos.x,
               top: clickPos.y,
@@ -781,9 +911,9 @@ const App: React.FC = () => {
           />
         )}
 
-        {/* Internal Background Flood */}
+        {/* Internal Background Flood - Caribbean teal */}
         {isRadiating && (
-          <div className="absolute inset-0 bg-[#D4AF37]/20 animate-gold-flood z-0" />
+          <div className="absolute inset-0 bg-cyan-500/20 animate-gold-flood z-0" />
         )}
 
         <span className="relative z-10 scale-90">{icon}</span>
@@ -795,49 +925,848 @@ const App: React.FC = () => {
 
   // --- Views ---
 
-  const LandingView = () => (
-    <div className="min-h-screen flex flex-col relative z-10">
-      <header className="px-6 py-6 flex justify-between items-center max-w-7xl mx-auto w-full">
-        <div className="text-2xl font-helvetica-bold tracking-wider">BAJAN-X<span className="text-[#D4AF37]">UNI</span></div>
-        <PrimaryButton onClick={() => setCurrentView('AUTH')}>Log In / Sign Up</PrimaryButton>
-      </header>
+  const LandingView = () => {
+    const containerRef = useRef<HTMLDivElement>(null);
+    const heroRef = useRef<HTMLDivElement>(null);
+    const { scrollYProgress } = useScroll();
+    const { scrollYProgress: heroScrollProgress } = useScroll({
+      target: heroRef,
+      offset: ["start start", "end start"]
+    });
 
-      <main className="flex-1 flex flex-col justify-center items-center text-center px-4 mt-12 md:mt-0">
-        <Badge type="success">Government Initiative</Badge>
-        <h1 className="text-5xl md:text-7xl font-helvetica-bold mt-6 mb-6 leading-tight">
-          Master the Tools of <br />
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-white to-zinc-400 animate-pulse">
-            Digital Governance
-          </span>
-        </h1>
-        <p className="text-xl text-zinc-400 max-w-2xl mb-10 leading-relaxed">
-          The central hub for public servants to learn <span className="text-white font-medium">Bridge</span>, <span className="text-white font-medium">ChatBB</span>, and <span className="text-white font-medium">Bajan-X</span>.
-        </p>
-        <div className="flex gap-4">
-          <PrimaryButton onClick={() => setCurrentView('AUTH')}>Start Learning Path</PrimaryButton>
-          <SecondaryButton>Browse Catalog</SecondaryButton>
+    // Smooth parallax transforms
+    const heroY = useTransform(heroScrollProgress, [0, 1], [0, 200]);
+    const heroOpacity = useTransform(heroScrollProgress, [0, 0.8], [1, 0]);
+    const heroScale = useTransform(heroScrollProgress, [0, 1], [1, 1.1]);
+
+    // Testimonial state - NOW INSIDE LandingView so it only runs when this view is mounted
+    const [activeTestimonial, setActiveTestimonial] = useState(0);
+
+    // Auto-rotate testimonials - ONLY runs when LandingView is mounted
+    useEffect(() => {
+      const interval = setInterval(() => {
+        setActiveTestimonial(prev => (prev + 1) % TESTIMONIALS_DATA.length);
+      }, 6000);
+      return () => clearInterval(interval);
+    }, []);
+
+    // Header background opacity based on scroll
+    const headerBg = useTransform(scrollYProgress, [0, 0.1], [0, 0.9]);
+    const headerBgColor = useTransform(headerBg, (v) => {
+      return `rgba(0,0,0,${v})`;
+    });
+
+    return (
+    <div ref={containerRef} className="relative z-10 bg-black grain-overlay">
+      {/* Navigation Header - Premium Glass effect */}
+      <motion.header
+        className="fixed top-0 left-0 right-0 z-50 border-b border-white/[0.06]"
+        style={{ backgroundColor: headerBgColor }}
+      >
+        <div className="absolute inset-0 backdrop-blur-2xl" />
+        <div className="relative px-6 lg:px-12 py-5 flex justify-between items-center max-w-[1800px] mx-auto w-full">
+          <motion.div
+            className="flex items-center gap-3 cursor-pointer"
+            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+            whileHover={{ scale: 1.02 }}
+            whileTap={{ scale: 0.98 }}
+          >
+            <motion.div
+              className="w-12 h-12 rounded-2xl bg-gradient-to-br from-cyan-400 to-teal-500 flex items-center justify-center shadow-lg shadow-cyan-500/30"
+              whileHover={{ rotate: 180 }}
+              transition={{ duration: 0.6 }}
+            >
+              <Sparkles size={24} className="text-white" />
+            </motion.div>
+            <span className="text-2xl font-helvetica-bold tracking-tight text-white">Isle<span className="text-cyan-400">AI</span></span>
+          </motion.div>
+          <nav className="hidden lg:flex items-center gap-12">
+            {['Discover', 'Experiences', 'Stay', 'AI Concierge'].map((item) => (
+              <a
+                key={item}
+                href={`#${item.toLowerCase().replace(' ', '-')}`}
+                className="link-premium text-sm text-white/70 hover:text-white transition-all duration-300 font-medium"
+              >
+                {item}
+              </a>
+            ))}
+          </nav>
+          <PremiumButton onClick={() => setCurrentView('AUTH')} variant="secondary" className="!py-3 !px-6 !text-sm">
+            Start Planning
+          </PremiumButton>
         </div>
+      </motion.header>
 
-        {/* Floating cards visual */}
-        <div className="mt-20 grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl w-full px-4">
-          {[
-            { title: "Foundations", desc: "Core digital literacy & security", time: "2h" },
-            { title: "Bridge Platform", desc: "Connecting gov datasets", time: "4h" },
-            { title: "ChatBB Support", desc: "AI customer service tools", time: "1h" },
-          ].map((card, idx) => (
-            <GlassCard key={idx} className="bg-white/5 backdrop-blur-sm border-white/5">
-              <div className="h-10 w-10 rounded-full bg-yellow-400/20 flex items-center justify-center mb-4 text-[#D4AF37]">
-                <BookOpen size={20} />
+      {/* HERO SECTION - Full Screen with Parallax */}
+      <section ref={heroRef} className="relative h-screen flex items-center justify-center overflow-hidden">
+        {/* Background Image with Parallax Effect */}
+        <motion.div className="absolute inset-0" style={{ y: heroY, scale: heroScale }}>
+          <img
+            src={LANDING_IMAGES.hero}
+            alt="Crystal clear Caribbean waters"
+            className="w-full h-full object-cover"
+          />
+        </motion.div>
+        <motion.div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/20 to-black" style={{ opacity: heroOpacity }} />
+        <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-transparent to-transparent" />
+
+        {/* Animated gradient orbs */}
+        <div className="absolute top-1/4 left-1/4 w-[600px] h-[600px] bg-cyan-500/10 rounded-full blur-[150px] animate-float" />
+        <div className="absolute bottom-1/4 right-1/4 w-[500px] h-[500px] bg-teal-500/10 rounded-full blur-[150px] animate-float" style={{ animationDelay: '-3s' }} />
+
+        {/* Hero Content */}
+        <motion.div
+          className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 w-full"
+          style={{ opacity: heroOpacity }}
+        >
+          <div className="max-w-3xl">
+            <motion.div
+              variants={FADE_UP_VARIANTS}
+              initial="hidden"
+              animate="visible"
+              custom={0.2}
+              className="inline-flex items-center gap-3 px-5 py-2.5 rounded-full glass-premium mb-10"
+            >
+              <span className="w-2.5 h-2.5 rounded-full bg-cyan-400 animate-pulse" />
+              <span className="text-sm text-white/90 font-medium tracking-wide">It's More Than a Vacation — It's vaCay</span>
+            </motion.div>
+
+            <motion.h1
+              variants={FADE_UP_VARIANTS}
+              initial="hidden"
+              animate="visible"
+              custom={0.4}
+              className="text-5xl md:text-7xl lg:text-[6rem] font-helvetica-bold leading-[1.02] mb-8 text-white"
+            >
+              Discover Your
+              <br />
+              <span className="text-shimmer">
+                Caribbean Paradise
+              </span>
+            </motion.h1>
+
+            <motion.p
+              variants={FADE_UP_VARIANTS}
+              initial="hidden"
+              animate="visible"
+              custom={0.6}
+              className="text-xl md:text-2xl text-white/60 max-w-2xl mb-12 leading-relaxed font-light"
+            >
+              Unparalleled natural beauty meets the warmth and vibrancy of the Caribbean.
+              Your vaCay is one flight away.
+            </motion.p>
+
+            <motion.div
+              variants={FADE_UP_VARIANTS}
+              initial="hidden"
+              animate="visible"
+              custom={0.8}
+              className="flex flex-col sm:flex-row gap-5"
+            >
+              <PremiumButton onClick={() => setCurrentView('AUTH')}>
+                Create Free Account
+                <motion.span
+                  animate={{ x: [0, 5, 0] }}
+                  transition={{ duration: 1.5, repeat: Infinity, ease: 'easeInOut' }}
+                >
+                  <ChevronRight size={22} />
+                </motion.span>
+              </PremiumButton>
+              <PremiumButton onClick={() => document.getElementById('discover')?.scrollIntoView({ behavior: 'smooth' })} variant="ghost">
+                Explore Islands
+              </PremiumButton>
+            </motion.div>
+          </div>
+        </motion.div>
+
+        {/* Scroll Indicator - Premium */}
+        <motion.div
+          className="absolute bottom-12 left-1/2 -translate-x-1/2 flex flex-col items-center gap-3"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 1.5, duration: 0.8 }}
+        >
+          <span className="text-white/40 text-xs uppercase tracking-[0.3em] mb-2">Scroll</span>
+          <motion.div
+            className="w-7 h-12 rounded-full border border-white/20 flex items-start justify-center p-2.5 backdrop-blur-sm"
+          >
+            <motion.div
+              className="w-1.5 h-3 bg-gradient-to-b from-cyan-400 to-teal-400 rounded-full"
+              animate={{ y: [0, 12, 0], opacity: [1, 0.3, 1] }}
+              transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}
+            />
+          </motion.div>
+        </motion.div>
+      </section>
+
+      {/* DISCOVER SECTION - Island Introduction */}
+      <section id="discover" className="py-40 px-6 lg:px-12 bg-zinc-950 relative">
+        <div className="section-divider absolute top-0 left-0 right-0" />
+        <div className="max-w-7xl mx-auto">
+          <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-100px" }}
+            transition={{ duration: 1, ease: [0.25, 0.4, 0.25, 1] }}
+            className="text-center mb-24"
+          >
+            <motion.span
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.2 }}
+              className="text-cyan-400 text-sm font-medium tracking-[0.25em] uppercase mb-6 block"
+            >
+              Three Unique Islands
+            </motion.span>
+            <h2 className="text-5xl md:text-7xl font-helvetica-bold text-white mb-8">
+              The Cayman Islands
+            </h2>
+            <p className="text-xl text-zinc-400 max-w-3xl mx-auto leading-relaxed">
+              Grand Cayman — Cosmopolitan heart with art, culture, and world-class beaches.
+              Cayman Brac — Adventurous with its breathtaking bluff. Little Cayman — Tranquil remote wonderland.
+            </p>
+          </motion.div>
+
+          {/* Feature Grid with Premium Cards */}
+          <div className="grid lg:grid-cols-2 gap-10">
+            {/* Large Feature Card */}
+            <motion.div
+              initial={{ opacity: 0, y: 60 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-50px" }}
+              transition={{ duration: 1, ease: [0.25, 0.4, 0.25, 1] }}
+              className="luxury-card relative h-[650px] rounded-[2rem] overflow-hidden group cursor-pointer"
+              onClick={() => setCurrentView('AUTH')}
+            >
+              <div className="absolute inset-0 overflow-hidden">
+                <img src={LANDING_IMAGES.beach} alt="Seven Mile Beach" className="w-full h-full object-cover img-zoom" />
               </div>
-              <h3 className="text-lg font-helvetica-bold mb-2">{card.title}</h3>
-              <p className="text-zinc-400 text-sm mb-4">{card.desc}</p>
-              <div className="text-xs text-zinc-500 font-mono">{card.time} estimate</div>
-            </GlassCard>
-          ))}
+              <div className="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-transparent opacity-80" />
+              <motion.div
+                className="absolute bottom-0 left-0 right-0 p-10"
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: 0.3, duration: 0.8 }}
+              >
+                <span className="text-cyan-400 text-sm font-medium tracking-[0.2em] uppercase">Grand Cayman</span>
+                <h3 className="text-4xl font-helvetica-bold text-white mt-3 mb-4">Seven Mile Beach</h3>
+                <p className="text-white/70 text-lg mb-6 max-w-md">Top 25 Best Beaches globally (TripAdvisor 2024). Crystal-clear Caribbean waters meet pristine coral sand.</p>
+                <motion.div
+                  className="inline-flex items-center gap-2 text-cyan-400 font-medium"
+                  whileHover={{ x: 10 }}
+                  transition={{ duration: 0.3 }}
+                >
+                  <span>Explore with AI Guide</span>
+                  <ChevronRight size={20} />
+                </motion.div>
+              </motion.div>
+            </motion.div>
+
+            {/* Right Column - Two Cards */}
+            <div className="flex flex-col gap-10">
+              <motion.div
+                initial={{ opacity: 0, y: 60 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-50px" }}
+                transition={{ duration: 1, delay: 0.15, ease: [0.25, 0.4, 0.25, 1] }}
+                className="luxury-card relative h-[305px] rounded-[2rem] overflow-hidden group cursor-pointer"
+                onClick={() => setCurrentView('AUTH')}
+              >
+                <div className="absolute inset-0 overflow-hidden">
+                  <img src={LANDING_IMAGES.underwater} alt="Diving" className="w-full h-full object-cover img-zoom" />
+                </div>
+                <div className="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-transparent opacity-80" />
+                <div className="absolute bottom-0 left-0 right-0 p-8">
+                  <span className="text-cyan-400 text-sm font-medium tracking-[0.2em] uppercase">365 Dive Sites</span>
+                  <h3 className="text-2xl font-helvetica-bold text-white mt-2 mb-2">World-Class Diving</h3>
+                  <p className="text-white/60 text-sm">Breathtaking coral reefs and historic wrecks. Proudly showing off our underwater world since 1957.</p>
+                </div>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, y: 60 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-50px" }}
+                transition={{ duration: 1, delay: 0.3, ease: [0.25, 0.4, 0.25, 1] }}
+                className="luxury-card relative h-[305px] rounded-[2rem] overflow-hidden group cursor-pointer"
+                onClick={() => setCurrentView('AUTH')}
+              >
+                <div className="absolute inset-0 overflow-hidden">
+                  <img src={LANDING_IMAGES.sunset} alt="Sunset" className="w-full h-full object-cover img-zoom" />
+                </div>
+                <div className="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-transparent opacity-80" />
+                <div className="absolute bottom-0 left-0 right-0 p-8">
+                  <span className="text-cyan-400 text-sm font-medium tracking-[0.2em] uppercase">Romance</span>
+                  <h3 className="text-2xl font-helvetica-bold text-white mt-2 mb-2">Unforgettable Sunsets</h3>
+                  <p className="text-white/60 text-sm">Watch the Caribbean sun paint the sky in golden hues every evening.</p>
+                </div>
+              </motion.div>
+            </div>
+          </div>
         </div>
-      </main>
+      </section>
+
+      {/* EXPERIENCES SECTION - Premium Cards */}
+      <section id="experiences" className="py-40 px-6 lg:px-12 bg-black relative overflow-hidden">
+        {/* Background gradient orb */}
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[1000px] h-[1000px] bg-cyan-500/[0.03] rounded-full blur-[200px]" />
+
+        <div className="max-w-7xl mx-auto relative z-10">
+          <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-100px" }}
+            transition={{ duration: 1, ease: [0.25, 0.4, 0.25, 1] }}
+            className="flex flex-col md:flex-row md:items-end md:justify-between mb-20 gap-8"
+          >
+            <div>
+              <span className="text-cyan-400 text-sm font-medium tracking-[0.25em] uppercase mb-6 block">Curated For You</span>
+              <h2 className="text-5xl md:text-6xl font-helvetica-bold text-white">
+                Unforgettable Experiences
+              </h2>
+            </div>
+            <p className="text-zinc-400 max-w-md text-lg leading-relaxed">
+              The culinary capital of the Caribbean. Walk along the world's most breathtaking beaches. Your perfect vaCay awaits.
+            </p>
+          </motion.div>
+
+          {/* Experience Cards with Stagger */}
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {[
+              { title: "Pristine Beaches", desc: "Some of the world's most breathtaking beaches await", image: LANDING_IMAGES.tropical, icon: "🏝️" },
+              { title: "Yacht Charters", desc: "Explore three unique islands in Caribbean luxury", image: LANDING_IMAGES.yacht, icon: "🛥️" },
+              { title: "Culinary Excellence", desc: "Diverse flavors where tradition meets innovation", image: LANDING_IMAGES.dining, icon: "🍽️" },
+              { title: "Stingray City", desc: "The world's most famous animal encounter", image: LANDING_IMAGES.stingray, icon: "🤿" },
+            ].map((exp, idx) => (
+              <motion.div
+                key={idx}
+                initial={{ opacity: 0, y: 60 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-50px" }}
+                transition={{
+                  duration: 0.8,
+                  delay: idx * 0.12,
+                  ease: [0.25, 0.4, 0.25, 1]
+                }}
+                onClick={() => setCurrentView('AUTH')}
+                className="luxury-card group relative h-[450px] rounded-[2rem] overflow-hidden cursor-pointer bg-zinc-900/50 border border-white/[0.05]"
+              >
+                <div className="absolute inset-0 overflow-hidden">
+                  <img src={exp.image} alt={exp.title} className="w-full h-full object-cover img-zoom" />
+                </div>
+                <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent opacity-90" />
+
+                {/* Hover glow effect */}
+                <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700 bg-gradient-to-t from-cyan-500/20 via-transparent to-transparent" />
+
+                <div className="absolute inset-0 p-8 flex flex-col justify-end">
+                  <motion.span
+                    className="text-5xl mb-4"
+                    whileHover={{ scale: 1.2, rotate: 10 }}
+                    transition={{ duration: 0.3 }}
+                  >
+                    {exp.icon}
+                  </motion.span>
+                  <h3 className="text-2xl font-helvetica-bold text-white mb-3">{exp.title}</h3>
+                  <p className="text-white/60 mb-5">{exp.desc}</p>
+                  <motion.div
+                    className="flex items-center gap-2 text-cyan-400 font-medium"
+                    initial={{ opacity: 0, x: -10 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    whileHover={{ x: 10 }}
+                    transition={{ duration: 0.3 }}
+                  >
+                    Book with AI <ChevronRight size={18} />
+                  </motion.div>
+                </div>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* AI CONCIERGE SECTION - The Key Selling Point */}
+      <section id="ai-concierge" className="py-40 px-6 lg:px-12 bg-gradient-to-b from-zinc-950 via-black to-zinc-950 relative overflow-hidden">
+        {/* Background Decoration */}
+        <div className="absolute top-0 right-0 w-[800px] h-[800px] bg-cyan-500/[0.04] rounded-full blur-[200px] animate-float" />
+        <div className="absolute bottom-0 left-0 w-[600px] h-[600px] bg-teal-500/[0.04] rounded-full blur-[200px] animate-float" style={{ animationDelay: '-3s' }} />
+
+        <div className="max-w-7xl mx-auto relative z-10">
+          <div className="grid lg:grid-cols-2 gap-20 items-center">
+            {/* Left - Content */}
+            <motion.div
+              initial={{ opacity: 0, x: -60 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true, margin: "-100px" }}
+              transition={{ duration: 1, ease: [0.25, 0.4, 0.25, 1] }}
+            >
+              <span className="text-cyan-400 text-sm font-medium tracking-[0.25em] uppercase mb-6 block">Your Personal Guide</span>
+              <h2 className="text-5xl md:text-6xl font-helvetica-bold text-white mb-8 leading-[1.1]">
+                Meet Your AI
+                <br />
+                <span className="text-shimmer">Travel Concierge</span>
+              </h2>
+              <p className="text-xl text-zinc-400 mb-12 leading-relaxed">
+                Your personal guide to 365 dive sites, award-winning beaches, world-class dining,
+                and experiences across all three islands. Safety, hospitality, and relaxation — perfected.
+              </p>
+
+              <div className="space-y-8 mb-12">
+                {[
+                  { title: "365 Dive Sites", desc: "Explore world-class diving from Bloody Bay Wall to the USS Kittiwake wreck." },
+                  { title: "Three Unique Islands", desc: "Grand Cayman's cosmopolitan vibe, Cayman Brac's adventure, Little Cayman's tranquility." },
+                  { title: "Award-Winning Beaches", desc: "Seven Mile Beach, Starfish Point, and hidden coves across all three islands." },
+                  { title: "Culinary Capital", desc: "From beachside fish fry to Michelin-quality fine dining experiences." },
+                ].map((feature, idx) => (
+                  <motion.div
+                    key={idx}
+                    initial={{ opacity: 0, x: -30 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ delay: idx * 0.1, duration: 0.6, ease: [0.25, 0.4, 0.25, 1] }}
+                    className="flex gap-5 group"
+                  >
+                    <motion.div
+                      className="w-12 h-12 rounded-xl bg-cyan-500/10 border border-cyan-500/20 flex items-center justify-center flex-shrink-0"
+                      whileHover={{ scale: 1.1, backgroundColor: 'rgba(34, 211, 238, 0.2)' }}
+                      transition={{ duration: 0.3 }}
+                    >
+                      <CheckCircle size={22} className="text-cyan-400" />
+                    </motion.div>
+                    <div>
+                      <h4 className="text-white font-helvetica-bold mb-1.5 text-lg group-hover:text-cyan-400 transition-colors">{feature.title}</h4>
+                      <p className="text-zinc-500 leading-relaxed">{feature.desc}</p>
+                    </div>
+                  </motion.div>
+                ))}
+              </div>
+
+              <PremiumButton onClick={() => setCurrentView('AUTH')}>
+                Try Isle AI Free
+                <motion.span
+                  animate={{ x: [0, 5, 0] }}
+                  transition={{ duration: 1.5, repeat: Infinity, ease: 'easeInOut' }}
+                >
+                  <ChevronRight size={22} />
+                </motion.span>
+              </PremiumButton>
+            </motion.div>
+
+            {/* Right - Chat Preview */}
+            <motion.div
+              initial={{ opacity: 0, x: 60 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true, margin: "-100px" }}
+              transition={{ duration: 1, delay: 0.3, ease: [0.25, 0.4, 0.25, 1] }}
+              className="relative"
+            >
+              {/* Glow effect behind card */}
+              <motion.div
+                className="absolute -inset-6 bg-gradient-to-r from-cyan-500/20 via-teal-500/10 to-cyan-500/20 rounded-[3rem] blur-3xl"
+                animate={{ opacity: [0.3, 0.5, 0.3] }}
+                transition={{ duration: 4, repeat: Infinity, ease: 'easeInOut' }}
+              />
+
+              <div className="relative glass-premium rounded-[2.5rem] p-8 shadow-2xl">
+                {/* Chat Header */}
+                <div className="flex items-center justify-between mb-8 pb-6 border-b border-white/[0.06]">
+                  <div className="flex items-center gap-4">
+                    <motion.div
+                      className="w-14 h-14 rounded-2xl bg-gradient-to-br from-cyan-400 to-teal-500 flex items-center justify-center shadow-lg shadow-cyan-500/30"
+                      animate={{ rotate: [0, 5, -5, 0] }}
+                      transition={{ duration: 4, repeat: Infinity, ease: 'easeInOut' }}
+                    >
+                      <Sparkles size={26} className="text-white" />
+                    </motion.div>
+                    <div>
+                      <div className="text-white font-helvetica-bold text-lg">Isle AI</div>
+                      <div className="text-sm text-emerald-400 flex items-center gap-2">
+                        <motion.span
+                          className="w-2.5 h-2.5 rounded-full bg-emerald-400"
+                          animate={{ scale: [1, 1.2, 1] }}
+                          transition={{ duration: 2, repeat: Infinity }}
+                        />
+                        Ready to help
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Chat Messages with stagger animation */}
+                <div className="space-y-5 mb-8">
+                  <motion.div
+                    className="flex gap-3 justify-end"
+                    initial={{ opacity: 0, x: 20 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ delay: 0.5 }}
+                  >
+                    <div className="bg-gradient-to-r from-cyan-500 to-teal-500 rounded-2xl rounded-tr-md px-5 py-3.5 max-w-[80%] shadow-lg shadow-cyan-500/20">
+                      <p className="text-white">I want a romantic dinner on the beach tonight for two</p>
+                    </div>
+                  </motion.div>
+
+                  <motion.div
+                    className="flex gap-4"
+                    initial={{ opacity: 0, x: -20 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ delay: 0.7 }}
+                  >
+                    <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-cyan-400 to-teal-500 flex items-center justify-center flex-shrink-0">
+                      <Sparkles size={16} className="text-white" />
+                    </div>
+                    <div className="bg-zinc-800/60 rounded-2xl rounded-tl-md px-5 py-4 max-w-[85%] border border-white/[0.05]">
+                      <p className="text-white mb-4">I have found the perfect experience for you:</p>
+                      <div className="bg-black/40 rounded-xl overflow-hidden border border-white/[0.05]">
+                        <img src={LANDING_IMAGES.dining} alt="Beach dining" className="w-full h-36 object-cover" />
+                        <div className="p-4">
+                          <div className="flex items-center gap-2 mb-2">
+                            <Star size={16} className="text-amber-400 fill-amber-400" />
+                            <span className="text-amber-400 font-medium">4.9</span>
+                            <span className="text-zinc-500">• Seven Mile Beach</span>
+                          </div>
+                          <h4 className="text-white font-helvetica-bold mb-1">Sunset Table for Two</h4>
+                          <p className="text-zinc-400 text-sm">Private beachfront dining with personal chef</p>
+                        </div>
+                      </div>
+                    </div>
+                  </motion.div>
+                </div>
+
+                {/* Input Field */}
+                <div className="relative">
+                  <input
+                    type="text"
+                    placeholder="Ask me anything about Cayman Islands..."
+                    className="w-full px-6 py-4 bg-black/40 border border-white/[0.08] rounded-2xl text-white placeholder-zinc-500 focus:outline-none focus:border-cyan-500/30 transition-colors"
+                    disabled
+                  />
+                  <motion.button
+                    className="absolute right-3 top-1/2 -translate-y-1/2 w-11 h-11 rounded-xl bg-gradient-to-r from-cyan-400 to-teal-500 flex items-center justify-center shadow-lg shadow-cyan-500/20"
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                  >
+                    <ChevronRight size={20} className="text-white" />
+                  </motion.button>
+                </div>
+
+                {/* Login overlay hint */}
+                <motion.div
+                  className="absolute inset-0 bg-black/50 backdrop-blur-sm rounded-[2.5rem] flex items-center justify-center opacity-0 hover:opacity-100 transition-all duration-500 cursor-pointer"
+                  onClick={() => setCurrentView('AUTH')}
+                  whileHover={{ backgroundColor: 'rgba(0,0,0,0.6)' }}
+                >
+                  <motion.div
+                    className="text-center"
+                    initial={{ scale: 0.9, opacity: 0 }}
+                    whileHover={{ scale: 1, opacity: 1 }}
+                    transition={{ duration: 0.3 }}
+                  >
+                    <motion.div
+                      className="w-20 h-20 rounded-2xl bg-white/10 backdrop-blur-md border border-white/20 flex items-center justify-center mx-auto mb-5"
+                      whileHover={{ rotate: 10, scale: 1.1 }}
+                    >
+                      <Lock size={32} className="text-white" />
+                    </motion.div>
+                    <p className="text-white font-helvetica-bold text-xl mb-2">Create Free Account</p>
+                    <p className="text-white/60">to start chatting with Isle AI</p>
+                  </motion.div>
+                </motion.div>
+              </div>
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
+      {/* STAY SECTION - Accommodations */}
+      <section id="stay" className="py-40 px-6 lg:px-12 bg-black relative">
+        <div className="section-divider absolute top-0 left-0 right-0" />
+        <div className="max-w-7xl mx-auto">
+          <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-100px" }}
+            transition={{ duration: 1, ease: [0.25, 0.4, 0.25, 1] }}
+            className="text-center mb-20"
+          >
+            <span className="text-cyan-400 text-sm font-medium tracking-[0.25em] uppercase mb-6 block">Where to Stay</span>
+            <h2 className="text-5xl md:text-6xl font-helvetica-bold text-white mb-8">
+              Your Perfect Escape
+            </h2>
+            <p className="text-xl text-zinc-400 max-w-2xl mx-auto leading-relaxed">
+              From beachfront resorts to private villas, island hotels to exclusive retreats across all three islands.
+            </p>
+          </motion.div>
+
+          <div className="grid md:grid-cols-3 gap-10">
+            {[
+              { name: "The Ritz-Carlton", type: "Grand Cayman", rating: "5.0", price: "From $1,200", image: LANDING_IMAGES.resort, features: ["Private Beach", "Spa", "Golf Course"] },
+              { name: "Kimpton Seafire", type: "Seven Mile Beach", rating: "4.9", price: "From $800", image: LANDING_IMAGES.pool, features: ["Infinity Pool", "Fine Dining", "Water Sports"] },
+              { name: "Private Villas", type: "Exclusive Rentals", rating: "5.0", price: "From $2,500", image: LANDING_IMAGES.villa, features: ["Full Privacy", "Personal Chef", "Ocean Views"] },
+            ].map((hotel, idx) => (
+              <motion.div
+                key={idx}
+                initial={{ opacity: 0, y: 60 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-50px" }}
+                transition={{
+                  duration: 0.8,
+                  delay: idx * 0.15,
+                  ease: [0.25, 0.4, 0.25, 1]
+                }}
+                onClick={() => setCurrentView('AUTH')}
+                className="luxury-card group bg-zinc-900/40 rounded-[2rem] overflow-hidden border border-white/[0.05] cursor-pointer"
+              >
+                <div className="relative h-72 overflow-hidden">
+                  <img src={hotel.image} alt={hotel.name} className="w-full h-full object-cover img-zoom" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                  <motion.div
+                    className="absolute top-5 right-5 px-4 py-2 bg-black/60 backdrop-blur-xl rounded-full border border-white/10"
+                    whileHover={{ scale: 1.05 }}
+                  >
+                    <div className="flex items-center gap-2">
+                      <Star size={16} className="text-amber-400 fill-amber-400" />
+                      <span className="text-white font-medium">{hotel.rating}</span>
+                    </div>
+                  </motion.div>
+                </div>
+                <div className="p-8">
+                  <p className="text-cyan-400 text-sm font-medium tracking-wider mb-2">{hotel.type}</p>
+                  <h3 className="text-2xl font-helvetica-bold text-white mb-4 group-hover:text-cyan-400 transition-colors">{hotel.name}</h3>
+                  <div className="flex flex-wrap gap-2 mb-6">
+                    {hotel.features.map((f, i) => (
+                      <span key={i} className="px-4 py-1.5 bg-white/[0.05] rounded-full text-sm text-zinc-400 border border-white/[0.05]">{f}</span>
+                    ))}
+                  </div>
+                  <div className="flex items-center justify-between pt-4 border-t border-white/[0.05]">
+                    <span className="text-white font-helvetica-bold text-lg">{hotel.price}<span className="text-zinc-500 font-normal text-sm">/night</span></span>
+                    <motion.span
+                      className="text-cyan-400 font-medium flex items-center gap-2"
+                      whileHover={{ x: 5 }}
+                    >
+                      View Details <ChevronRight size={16} />
+                    </motion.span>
+                  </div>
+                </div>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* TESTIMONIALS SECTION */}
+      <section className="py-40 px-6 lg:px-12 bg-zinc-950 relative overflow-hidden">
+        <AnimatePresence mode="wait">
+          <motion.div
+            key={activeTestimonial}
+            className="absolute inset-0 opacity-20"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 0.2 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 1 }}
+          >
+            <img src={TESTIMONIALS_DATA[activeTestimonial].image} alt="" className="w-full h-full object-cover" />
+            <div className="absolute inset-0 bg-zinc-950/80" />
+          </motion.div>
+        </AnimatePresence>
+
+        <div className="max-w-5xl mx-auto relative z-10">
+          <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-100px" }}
+            transition={{ duration: 1, ease: [0.25, 0.4, 0.25, 1] }}
+            className="text-center mb-20"
+          >
+            <span className="text-cyan-400 text-sm font-medium tracking-[0.25em] uppercase mb-6 block">Guest Experiences</span>
+            <h2 className="text-5xl md:text-6xl font-helvetica-bold text-white">
+              Safety, Hospitality & Relaxation
+            </h2>
+          </motion.div>
+
+          <div className="relative">
+            <AnimatePresence mode="wait">
+              <motion.div
+                key={activeTestimonial}
+                initial={{ opacity: 0, y: 40, scale: 0.98 }}
+                animate={{ opacity: 1, y: 0, scale: 1 }}
+                exit={{ opacity: 0, y: -40, scale: 0.98 }}
+                transition={{ duration: 0.8, ease: [0.25, 0.4, 0.25, 1] }}
+                className="glass-premium rounded-[2.5rem] p-12 md:p-16"
+              >
+                <motion.div
+                  className="text-8xl text-cyan-500/10 mb-8 font-serif leading-none"
+                  initial={{ opacity: 0, scale: 0.8 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  transition={{ delay: 0.2 }}
+                >
+                  "
+                </motion.div>
+                <p className="text-2xl md:text-4xl text-white leading-relaxed mb-12 font-light">
+                  {TESTIMONIALS_DATA[activeTestimonial].quote}
+                </p>
+                <div className="flex items-center gap-6">
+                  <motion.div
+                    className="w-18 h-18 rounded-2xl bg-gradient-to-br from-cyan-400 to-teal-500 flex items-center justify-center text-white font-helvetica-bold text-2xl shadow-xl shadow-cyan-500/30"
+                    whileHover={{ scale: 1.05, rotate: 5 }}
+                    style={{ width: '72px', height: '72px' }}
+                  >
+                    {TESTIMONIALS_DATA[activeTestimonial].avatar}
+                  </motion.div>
+                  <div>
+                    <div className="text-white font-helvetica-bold text-xl">{TESTIMONIALS_DATA[activeTestimonial].name}</div>
+                    <div className="text-zinc-400 text-lg">{TESTIMONIALS_DATA[activeTestimonial].title}</div>
+                  </div>
+                </div>
+              </motion.div>
+            </AnimatePresence>
+
+            {/* Navigation Dots - Premium */}
+            <div className="flex justify-center gap-4 mt-14">
+              {TESTIMONIALS_DATA.map((_, idx) => (
+                <motion.button
+                  key={idx}
+                  onClick={() => setActiveTestimonial(idx)}
+                  className={`rounded-full transition-all duration-500 ${
+                    idx === activeTestimonial
+                      ? 'w-12 h-3 bg-gradient-to-r from-cyan-400 to-teal-400'
+                      : 'w-3 h-3 bg-zinc-700 hover:bg-zinc-500'
+                  }`}
+                  whileHover={{ scale: 1.2 }}
+                  whileTap={{ scale: 0.9 }}
+                />
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FINAL CTA SECTION */}
+      <section className="py-48 px-6 lg:px-12 bg-black relative overflow-hidden">
+        <div className="absolute inset-0">
+          <motion.img
+            src={LANDING_IMAGES.aerial}
+            alt=""
+            className="w-full h-full object-cover opacity-40"
+            initial={{ scale: 1.1 }}
+            whileInView={{ scale: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 1.5, ease: [0.25, 0.4, 0.25, 1] }}
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-black via-black/70 to-black/50" />
+        </div>
+
+        {/* Animated gradient orbs */}
+        <div className="absolute top-1/2 left-1/4 w-[500px] h-[500px] bg-cyan-500/10 rounded-full blur-[200px] animate-float" />
+        <div className="absolute bottom-1/4 right-1/4 w-[400px] h-[400px] bg-teal-500/10 rounded-full blur-[200px] animate-float" style={{ animationDelay: '-3s' }} />
+
+        <div className="max-w-4xl mx-auto text-center relative z-10">
+          <motion.div
+            initial={{ opacity: 0, y: 60 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-100px" }}
+            transition={{ duration: 1, ease: [0.25, 0.4, 0.25, 1] }}
+          >
+            <h2 className="text-5xl md:text-7xl font-helvetica-bold text-white mb-8 leading-[1.1]">
+              Your Perfect vaCay
+              <br />
+              <span className="text-shimmer">Is One Flight Away</span>
+            </h2>
+            <p className="text-xl md:text-2xl text-zinc-400 mb-14 max-w-2xl mx-auto leading-relaxed">
+              Sunny skies, warm temps, and turquoise waters await. Discover the Cayman Islands
+              with your personal AI concierge.
+            </p>
+            <PremiumButton onClick={() => setCurrentView('AUTH')} className="!text-xl !px-14 !py-5">
+              Create Free Account
+              <motion.span
+                animate={{ x: [0, 5, 0] }}
+                transition={{ duration: 1.5, repeat: Infinity, ease: 'easeInOut' }}
+              >
+                <ChevronRight size={26} />
+              </motion.span>
+            </PremiumButton>
+            <motion.p
+              className="text-zinc-500 mt-8"
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.5 }}
+            >
+              No credit card required • Free forever
+            </motion.p>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* FOOTER - Premium */}
+      <footer className="py-24 px-6 lg:px-12 bg-zinc-950 border-t border-white/[0.06]">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid md:grid-cols-5 gap-12 mb-16">
+            <div className="md:col-span-2">
+              <div className="flex items-center gap-3 mb-6">
+                <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-cyan-400 to-teal-500 flex items-center justify-center shadow-lg shadow-cyan-500/20">
+                  <Sparkles size={24} className="text-white" />
+                </div>
+                <span className="text-2xl font-helvetica-bold text-white">Isle<span className="text-cyan-400">AI</span></span>
+              </div>
+              <p className="text-zinc-400 leading-relaxed mb-6 max-w-sm">
+                Your AI-powered gateway to the Cayman Islands. Discover paradise with personalized recommendations and seamless planning.
+              </p>
+              <div className="flex gap-4">
+                <a href="#" className="w-10 h-10 rounded-xl bg-white/5 hover:bg-white/10 flex items-center justify-center transition-colors">
+                  <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg>
+                </a>
+                <a href="#" className="w-10 h-10 rounded-xl bg-white/5 hover:bg-white/10 flex items-center justify-center transition-colors">
+                  <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                </a>
+              </div>
+            </div>
+            <div>
+              <h4 className="text-white font-helvetica-bold mb-5">Explore</h4>
+              <ul className="space-y-3 text-zinc-400">
+                <li><a href="#" className="hover:text-cyan-400 transition-colors">Beaches</a></li>
+                <li><a href="#" className="hover:text-cyan-400 transition-colors">Diving</a></li>
+                <li><a href="#" className="hover:text-cyan-400 transition-colors">Dining</a></li>
+                <li><a href="#" className="hover:text-cyan-400 transition-colors">Activities</a></li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="text-white font-helvetica-bold mb-5">Stay</h4>
+              <ul className="space-y-3 text-zinc-400">
+                <li><a href="#" className="hover:text-cyan-400 transition-colors">Resorts</a></li>
+                <li><a href="#" className="hover:text-cyan-400 transition-colors">Villas</a></li>
+                <li><a href="#" className="hover:text-cyan-400 transition-colors">Hotels</a></li>
+                <li><a href="#" className="hover:text-cyan-400 transition-colors">Apartments</a></li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="text-white font-helvetica-bold mb-5">Company</h4>
+              <ul className="space-y-3 text-zinc-400">
+                <li><a href="#" className="hover:text-cyan-400 transition-colors">About Us</a></li>
+                <li><a href="#" className="hover:text-cyan-400 transition-colors">Contact</a></li>
+                <li><a href="#" className="hover:text-cyan-400 transition-colors">Privacy</a></li>
+                <li><a href="#" className="hover:text-cyan-400 transition-colors">Terms</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="pt-8 border-t border-white/[0.06] flex flex-col md:flex-row justify-between items-center gap-4">
+            <p className="text-sm text-zinc-500">
+              &copy; 2025 Isle AI. Official Tourism Partner of the Cayman Islands.
+            </p>
+            <div className="flex items-center gap-4 text-zinc-500 text-sm">
+              <span>Crafted with care in Grand Cayman</span>
+              <span className="text-cyan-400">🇰🇾</span>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
   );
+  };
 
   const AuthView = () => {
     const [authMode, setAuthMode] = useState<'login' | 'register'>('login');
@@ -860,29 +1789,18 @@ const App: React.FC = () => {
 
       try {
         if (authMode === 'login') {
-          // Login
-          const response = await authAPI.login({
-            email: formData.email,
-            password: formData.password
-          });
+          // Use dataService which handles mock mode
+          const loggedInUser = await dataService.login(formData.email, formData.password);
 
-          if (response.token) {
-            setAuthToken(response.token);
-            const newUser: User = {
-              id: response.user.id,
-              name: response.user.name,
-              email: response.user.email,
-              ministry: response.user.ministry,
-              role: response.user.role as UserRole,
-              enrolledCourses: [],
-              completedPaths: []
-            };
-            setUser(newUser);
-            setCurrentView(response.user.role === 'ADMIN' ? 'ADMIN' : 'DASHBOARD');
+          if (loggedInUser) {
+            setUser(loggedInUser);
+            setCurrentView(loggedInUser.role === 'ADMIN' ? 'ADMIN' : 'DASHBOARD');
+          } else {
+            throw new Error('Invalid credentials');
           }
         } else {
-          // Register
-          const response = await authAPI.register({
+          // Use dataService which handles mock mode
+          const registeredUser = await dataService.register({
             email: formData.email,
             password: formData.password,
             name: formData.name,
@@ -890,7 +1808,11 @@ const App: React.FC = () => {
             role: formData.role === UserRole.SUPERUSER ? 'SUPERUSER' : 'LEARNER'
           });
 
-          if (response.status === 'PENDING_APPROVAL') {
+          if (registeredUser) {
+            // In mock mode, directly log them in
+            setUser(registeredUser);
+            setCurrentView('DASHBOARD');
+          } else {
             setPendingApproval(true);
           }
         }
@@ -908,192 +1830,313 @@ const App: React.FC = () => {
     // Pending Approval Screen
     if (pendingApproval) {
       return (
-        <div className="min-h-screen flex items-center justify-center relative z-10 p-4">
-          <GlassCard className="max-w-md w-full p-8 md:p-10 text-center">
-            <div className="w-20 h-20 rounded-full bg-yellow-400/20 flex items-center justify-center mx-auto mb-6">
-              <Clock size={40} className="text-[#D4AF37]" />
-            </div>
-            <h2 className="text-2xl font-helvetica-bold mb-4">Registration Submitted</h2>
-            <p className="text-zinc-400 mb-6">
-              Your account is pending approval from an administrator.
-              You will be able to log in once your account has been approved.
-            </p>
-            <div className="bg-zinc-900/50 rounded-xl p-4 mb-6 text-left">
-              <p className="text-sm text-zinc-500 mb-1">Email</p>
-              <p className="text-white">{formData.email}</p>
-            </div>
-            <SecondaryButton onClick={() => {
-              setPendingApproval(false);
-              setAuthMode('login');
-              setFormData({ ...formData, password: '' });
-            }} className="w-full">
-              Back to Login
-            </SecondaryButton>
-          </GlassCard>
+        <div className="min-h-screen relative overflow-hidden bg-black">
+          {/* Background */}
+          <div className="absolute inset-0">
+            <img src={LANDING_IMAGES.sunset} alt="" className="w-full h-full object-cover opacity-40" />
+            <div className="absolute inset-0 bg-gradient-to-br from-black via-black/90 to-cyan-950/50" />
+          </div>
+
+          <div className="relative z-10 min-h-screen flex items-center justify-center p-6">
+            <motion.div
+              initial={{ opacity: 0, scale: 0.95 }}
+              animate={{ opacity: 1, scale: 1 }}
+              className="max-w-md w-full"
+            >
+              <div className="bg-zinc-900/60 backdrop-blur-2xl rounded-3xl p-10 border border-white/10 text-center shadow-2xl">
+                <div className="w-20 h-20 rounded-3xl bg-gradient-to-br from-cyan-400/20 to-teal-500/20 border border-cyan-500/30 flex items-center justify-center mx-auto mb-6">
+                  <Clock size={36} className="text-cyan-400" />
+                </div>
+                <h2 className="text-2xl font-helvetica-bold text-white mb-3">Registration Submitted</h2>
+                <p className="text-zinc-400 mb-8 leading-relaxed">
+                  Your account is pending approval from an administrator.
+                  You will receive an email once your account has been approved.
+                </p>
+                <div className="bg-black/30 rounded-2xl p-4 mb-8 text-left border border-white/5">
+                  <p className="text-xs text-zinc-500 mb-1 uppercase tracking-wider">Email</p>
+                  <p className="text-white font-medium">{formData.email}</p>
+                </div>
+                <button
+                  onClick={() => {
+                    setPendingApproval(false);
+                    setAuthMode('login');
+                    setFormData({ ...formData, password: '' });
+                  }}
+                  className="w-full py-4 rounded-2xl border border-white/20 text-white font-medium hover:bg-white/5 transition-all"
+                >
+                  Back to Sign In
+                </button>
+              </div>
+            </motion.div>
+          </div>
         </div>
       );
     }
 
     return (
-      <div className="min-h-screen flex items-center justify-center relative z-10 p-4">
-        <GlassCard className="max-w-md w-full p-8 md:p-10 relative overflow-hidden transition-all duration-500 border-t border-white/20">
-          <div className="flex justify-between items-center mb-6">
-            <button onClick={() => setCurrentView('LANDING')} className="text-zinc-500 hover:text-white flex items-center gap-2 text-sm transition-colors">
-              <ArrowLeft size={16} /> Back
-            </button>
-          </div>
+      <div className="min-h-screen relative overflow-hidden bg-black">
+        {/* Background Image */}
+        <div className="absolute inset-0">
+          <img
+            src={authMode === 'login' ? LANDING_IMAGES.tropical : LANDING_IMAGES.aerial}
+            alt=""
+            className="w-full h-full object-cover opacity-50 transition-opacity duration-700"
+          />
+          <div className="absolute inset-0 bg-gradient-to-br from-black via-black/80 to-cyan-950/30" />
+        </div>
 
-          {/* Login/Register Tabs */}
-          <div className="flex mb-8 bg-zinc-900/50 rounded-xl p-1">
-            <button
-              onClick={() => { setAuthMode('login'); setError(''); }}
-              className={`flex-1 py-2 px-4 rounded-lg text-sm font-medium transition-all ${authMode === 'login'
-                ? 'bg-yellow-400 text-black'
-                : 'text-zinc-400 hover:text-white'
-                }`}
+        {/* Decorative Blurs */}
+        <div className="absolute top-1/4 -left-32 w-96 h-96 bg-cyan-500/20 rounded-full blur-[150px]" />
+        <div className="absolute bottom-1/4 -right-32 w-96 h-96 bg-teal-500/20 rounded-full blur-[150px]" />
+
+        {/* Content */}
+        <div className="relative z-10 min-h-screen flex">
+          {/* Left Side - Branding (Desktop) */}
+          <div className="hidden lg:flex flex-1 items-center justify-center p-12">
+            <motion.div
+              initial={{ opacity: 0, x: -30 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.8 }}
+              className="max-w-lg"
             >
-              Sign In
-            </button>
-            <button
-              onClick={() => { setAuthMode('register'); setError(''); }}
-              className={`flex-1 py-2 px-4 rounded-lg text-sm font-medium transition-all ${authMode === 'register'
-                ? 'bg-yellow-400 text-black'
-                : 'text-zinc-400 hover:text-white'
-                }`}
-            >
-              Register
-            </button>
-          </div>
-
-          <h2 className="text-3xl font-helvetica-bold mb-2 text-center">
-            {authMode === 'login' ? 'Welcome Back' : 'Join Amini Academy'}
-          </h2>
-          <p className="text-zinc-400 text-center mb-8">
-            {authMode === 'login' ? 'Sign in to continue your learning' : 'Exclusive for Public Servants'}
-          </p>
-
-          <form onSubmit={handleSubmit} className="space-y-5">
-            {/* Name - only for register */}
-            {authMode === 'register' && (
-              <div className="animate-fade-in">
-                <label className="block text-sm font-medium text-zinc-400 mb-1">Full Name</label>
-                <input
-                  required
-                  type="text"
-                  className="w-full bg-zinc-900/50 border border-white/10 rounded-xl p-3 text-white focus:ring-2 focus:ring-yellow-400 outline-none transition-all placeholder-zinc-600"
-                  placeholder="Jane Doe"
-                  value={formData.name}
-                  onChange={e => setFormData({ ...formData, name: e.target.value })}
-                />
-              </div>
-            )}
-
-            {/* Email */}
-            <div>
-              <label className="block text-sm font-medium text-zinc-400 mb-1">Email</label>
-              <input
-                required
-                type="email"
-                className="w-full bg-zinc-900/50 border border-white/10 rounded-xl p-3 text-white focus:ring-2 focus:ring-yellow-400 outline-none transition-all placeholder-zinc-600"
-                placeholder="jane.doe@gov.bb"
-                value={formData.email}
-                onChange={e => {
-                  setFormData({ ...formData, email: e.target.value });
-                  setError('');
-                }}
-              />
-            </div>
-
-            {/* Password */}
-            <div>
-              <label className="block text-sm font-medium text-zinc-400 mb-1">Password</label>
-              <div className="relative">
-                <input
-                  required
-                  type={showPassword ? 'text' : 'password'}
-                  className="w-full bg-zinc-900/50 border border-white/10 rounded-xl p-3 pr-12 text-white focus:ring-2 focus:ring-yellow-400 outline-none transition-all placeholder-zinc-600"
-                  placeholder={authMode === 'register' ? 'Min 8 chars, uppercase, number' : 'Your password'}
-                  value={formData.password}
-                  onChange={e => setFormData({ ...formData, password: e.target.value })}
-                  minLength={authMode === 'register' ? 8 : undefined}
-                />
-                <button
-                  type="button"
-                  onClick={() => setShowPassword(!showPassword)}
-                  className="absolute right-3 top-1/2 -translate-y-1/2 text-zinc-500 hover:text-white transition-colors"
-                >
-                  {showPassword ? <EyeOff size={18} /> : <Eye size={18} />}
-                </button>
-              </div>
-              {authMode === 'register' && (
-                <p className="text-xs text-zinc-500 mt-1">Must contain uppercase, lowercase, and number</p>
-              )}
-            </div>
-
-            {/* Ministry & Role - only for register */}
-            {authMode === 'register' && (
-              <>
-                <div className="animate-fade-in">
-                  <label className="block text-sm font-medium text-zinc-400 mb-1">Ministry</label>
-                  <select
-                    className="w-full bg-zinc-900/50 border border-white/10 rounded-xl p-3 text-white focus:ring-2 focus:ring-yellow-400 outline-none"
-                    value={formData.ministry}
-                    onChange={e => setFormData({ ...formData, ministry: e.target.value })}
-                  >
-                    {MINISTRIES.map(m => <option key={m} value={m} className="bg-zinc-900 text-white">{m}</option>)}
-                  </select>
+              <div className="flex items-center gap-3 mb-8 cursor-pointer" onClick={() => setCurrentView('LANDING')}>
+                <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-cyan-400 to-teal-500 flex items-center justify-center shadow-lg shadow-cyan-500/30">
+                  <Sparkles size={28} className="text-white" />
                 </div>
-
-                <div className="animate-fade-in">
-                  <label className="block text-sm font-medium text-zinc-400 mb-2">Select Role</label>
-                  <div className="grid grid-cols-2 gap-3">
-                    <button
-                      type="button"
-                      onClick={() => setFormData({ ...formData, role: UserRole.LEARNER })}
-                      className={`p-3 rounded-xl border text-sm transition-all duration-300 ${formData.role === UserRole.LEARNER ? 'bg-yellow-400/20 border-yellow-400 text-[#D4AF37] shadow-[0_0_15px_rgba(250,204,21,0.2)]' : 'border-white/10 hover:bg-white/5 text-zinc-400'}`}
-                    >
-                      Learner
-                    </button>
-                    <button
-                      type="button"
-                      onClick={() => setFormData({ ...formData, role: UserRole.SUPERUSER })}
-                      className={`p-3 rounded-xl border text-sm transition-all duration-300 ${formData.role === UserRole.SUPERUSER ? 'bg-white/20 border-white text-white shadow-[0_0_15px_rgba(255,255,255,0.2)]' : 'border-white/10 hover:bg-white/5 text-zinc-400'}`}
-                    >
-                      Superuser
-                    </button>
-                  </div>
-                </div>
-              </>
-            )}
-
-            {/* Error Message */}
-            {error && (
-              <div className="flex items-center gap-2 text-red-400 text-sm bg-red-400/10 p-3 rounded-xl">
-                <AlertCircle size={16} />
-                {error}
+                <span className="text-3xl font-helvetica-bold text-white">Isle<span className="text-cyan-400">AI</span></span>
               </div>
-            )}
-
-            {/* Submit Button */}
-            <PrimaryButton className="w-full mt-4" disabled={isSubmitting}>
-              {isSubmitting ? (
-                <span className="flex items-center justify-center gap-2">
-                  <Loader2 size={18} className="animate-spin" />
-                  {authMode === 'login' ? 'Signing in...' : 'Registering...'}
+              <h1 className="text-5xl font-helvetica-bold text-white leading-tight mb-6">
+                Your Personal
+                <br />
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-teal-400">
+                  Paradise Awaits
                 </span>
-              ) : (
-                authMode === 'login' ? 'Sign In' : 'Create Account'
-              )}
-            </PrimaryButton>
-
-            {/* Info for register */}
-            {authMode === 'register' && (
-              <p className="text-xs text-zinc-500 text-center mt-4">
-                Your account will require admin approval before you can sign in.
+              </h1>
+              <p className="text-xl text-zinc-400 leading-relaxed mb-10">
+                Create your free account to access your AI travel concierge
+                and start planning your perfect Cayman Islands getaway.
               </p>
-            )}
-          </form>
-        </GlassCard>
+              <div className="flex items-center gap-6">
+                <div className="flex -space-x-3">
+                  {['VS', 'JW', 'EC', 'MR'].map((initials, i) => (
+                    <div key={i} className="w-10 h-10 rounded-full bg-gradient-to-br from-cyan-500 to-teal-500 border-2 border-black flex items-center justify-center text-xs text-white font-bold">
+                      {initials}
+                    </div>
+                  ))}
+                </div>
+                <div className="text-zinc-400 text-sm">
+                  <span className="text-white font-medium">2,500+</span> travelers trust Isle AI
+                </div>
+              </div>
+            </motion.div>
+          </div>
+
+          {/* Right Side - Auth Form */}
+          <div className="flex-1 flex items-center justify-center p-6 lg:p-12">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6 }}
+              className="w-full max-w-md"
+            >
+              {/* Mobile Logo */}
+              <div className="lg:hidden flex items-center gap-3 mb-8 justify-center cursor-pointer" onClick={() => setCurrentView('LANDING')}>
+                <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-cyan-400 to-teal-500 flex items-center justify-center shadow-lg shadow-cyan-500/30">
+                  <Sparkles size={24} className="text-white" />
+                </div>
+                <span className="text-2xl font-helvetica-bold text-white">Isle<span className="text-cyan-400">AI</span></span>
+              </div>
+
+              <div className="bg-zinc-900/60 backdrop-blur-2xl rounded-3xl p-8 lg:p-10 border border-white/10 shadow-2xl">
+                {/* Back Button */}
+                <button
+                  onClick={() => setCurrentView('LANDING')}
+                  className="flex items-center gap-2 text-zinc-500 hover:text-white transition-colors mb-6 text-sm"
+                >
+                  <ArrowLeft size={16} />
+                  Back to Home
+                </button>
+
+                {/* Tabs */}
+                <div className="flex mb-8 bg-black/30 rounded-2xl p-1.5">
+                  <button
+                    onClick={() => { setAuthMode('login'); setError(''); }}
+                    className={`flex-1 py-3 px-4 rounded-xl text-sm font-medium transition-all ${
+                      authMode === 'login'
+                        ? 'bg-gradient-to-r from-cyan-500 to-teal-500 text-white shadow-lg'
+                        : 'text-zinc-400 hover:text-white'
+                    }`}
+                  >
+                    Sign In
+                  </button>
+                  <button
+                    onClick={() => { setAuthMode('register'); setError(''); }}
+                    className={`flex-1 py-3 px-4 rounded-xl text-sm font-medium transition-all ${
+                      authMode === 'register'
+                        ? 'bg-gradient-to-r from-cyan-500 to-teal-500 text-white shadow-lg'
+                        : 'text-zinc-400 hover:text-white'
+                    }`}
+                  >
+                    Create Account
+                  </button>
+                </div>
+
+                {/* Header */}
+                <div className="text-center mb-8">
+                  <h2 className="text-2xl font-helvetica-bold text-white mb-2">
+                    {authMode === 'login' ? 'Welcome Back' : 'Start Your Journey'}
+                  </h2>
+                  <p className="text-zinc-400">
+                    {authMode === 'login' ? 'Access your AI travel concierge' : 'Create your free account'}
+                  </p>
+                </div>
+
+                <form onSubmit={handleSubmit} className="space-y-5">
+                  {/* Name - Register only */}
+                  {authMode === 'register' && (
+                    <div>
+                      <label className="block text-sm font-medium text-zinc-400 mb-2">Full Name</label>
+                      <input
+                        required
+                        type="text"
+                        className="w-full bg-black/30 border border-white/10 rounded-xl px-4 py-3.5 text-white focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500 outline-none transition-all placeholder-zinc-600"
+                        placeholder="Enter your full name"
+                        value={formData.name}
+                        onChange={e => setFormData({ ...formData, name: e.target.value })}
+                      />
+                    </div>
+                  )}
+
+                  {/* Email */}
+                  <div>
+                    <label className="block text-sm font-medium text-zinc-400 mb-2">Email Address</label>
+                    <input
+                      required
+                      type="email"
+                      className="w-full bg-black/30 border border-white/10 rounded-xl px-4 py-3.5 text-white focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500 outline-none transition-all placeholder-zinc-600"
+                      placeholder="you@example.com"
+                      value={formData.email}
+                      onChange={e => {
+                        setFormData({ ...formData, email: e.target.value });
+                        setError('');
+                      }}
+                    />
+                  </div>
+
+                  {/* Password */}
+                  <div>
+                    <label className="block text-sm font-medium text-zinc-400 mb-2">Password</label>
+                    <div className="relative">
+                      <input
+                        required
+                        type={showPassword ? 'text' : 'password'}
+                        className="w-full bg-black/30 border border-white/10 rounded-xl px-4 py-3.5 pr-12 text-white focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500 outline-none transition-all placeholder-zinc-600"
+                        placeholder={authMode === 'register' ? 'Create a strong password' : 'Enter your password'}
+                        value={formData.password}
+                        onChange={e => setFormData({ ...formData, password: e.target.value })}
+                        minLength={authMode === 'register' ? 8 : undefined}
+                      />
+                      <button
+                        type="button"
+                        onClick={() => setShowPassword(!showPassword)}
+                        className="absolute right-4 top-1/2 -translate-y-1/2 text-zinc-500 hover:text-white transition-colors"
+                      >
+                        {showPassword ? <EyeOff size={18} /> : <Eye size={18} />}
+                      </button>
+                    </div>
+                    {authMode === 'register' && (
+                      <p className="text-xs text-zinc-500 mt-2">Min 8 characters with uppercase, lowercase, and number</p>
+                    )}
+                  </div>
+
+                  {/* Ministry & Role - Register only */}
+                  {authMode === 'register' && (
+                    <>
+                      <div>
+                        <label className="block text-sm font-medium text-zinc-400 mb-2">Organization</label>
+                        <select
+                          className="w-full bg-black/30 border border-white/10 rounded-xl px-4 py-3.5 text-white focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500 outline-none appearance-none cursor-pointer"
+                          value={formData.ministry}
+                          onChange={e => setFormData({ ...formData, ministry: e.target.value })}
+                        >
+                          {MINISTRIES.map(m => <option key={m} value={m} className="bg-zinc-900 text-white">{m}</option>)}
+                        </select>
+                      </div>
+
+                      <div>
+                        <label className="block text-sm font-medium text-zinc-400 mb-2">Account Type</label>
+                        <div className="grid grid-cols-2 gap-3">
+                          <button
+                            type="button"
+                            onClick={() => setFormData({ ...formData, role: UserRole.LEARNER })}
+                            className={`p-4 rounded-xl border text-sm transition-all ${
+                              formData.role === UserRole.LEARNER
+                                ? 'bg-cyan-500/10 border-cyan-500 text-cyan-400'
+                                : 'border-white/10 hover:bg-white/5 text-zinc-400'
+                            }`}
+                          >
+                            <span className="font-medium">Traveler</span>
+                          </button>
+                          <button
+                            type="button"
+                            onClick={() => setFormData({ ...formData, role: UserRole.SUPERUSER })}
+                            className={`p-4 rounded-xl border text-sm transition-all ${
+                              formData.role === UserRole.SUPERUSER
+                                ? 'bg-white/10 border-white/40 text-white'
+                                : 'border-white/10 hover:bg-white/5 text-zinc-400'
+                            }`}
+                          >
+                            <span className="font-medium">Business</span>
+                          </button>
+                        </div>
+                      </div>
+                    </>
+                  )}
+
+                  {/* Error */}
+                  {error && (
+                    <div className="flex items-center gap-3 text-red-400 text-sm bg-red-500/10 border border-red-500/20 p-4 rounded-xl">
+                      <AlertCircle size={18} />
+                      {error}
+                    </div>
+                  )}
+
+                  {/* Submit */}
+                  <button
+                    type="submit"
+                    disabled={isSubmitting}
+                    className="w-full py-4 rounded-xl bg-gradient-to-r from-cyan-500 to-teal-500 text-white font-helvetica-bold text-base shadow-lg shadow-cyan-500/25 hover:shadow-cyan-500/40 transition-all disabled:opacity-50 disabled:cursor-not-allowed"
+                  >
+                    {isSubmitting ? (
+                      <span className="flex items-center justify-center gap-2">
+                        <Loader2 size={20} className="animate-spin" />
+                        {authMode === 'login' ? 'Signing in...' : 'Creating account...'}
+                      </span>
+                    ) : (
+                      authMode === 'login' ? 'Sign In' : 'Create Free Account'
+                    )}
+                  </button>
+
+                  {/* Register note */}
+                  {authMode === 'register' && (
+                    <p className="text-xs text-zinc-500 text-center">
+                      By creating an account, you agree to our Terms of Service and Privacy Policy.
+                    </p>
+                  )}
+                </form>
+              </div>
+
+              {/* Bottom text */}
+              <p className="text-center text-zinc-500 text-sm mt-6">
+                {authMode === 'login' ? (
+                  <>Do not have an account? <button onClick={() => setAuthMode('register')} className="text-cyan-400 hover:underline">Create one free</button></>
+                ) : (
+                  <>Already have an account? <button onClick={() => setAuthMode('login')} className="text-cyan-400 hover:underline">Sign in</button></>
+                )}
+              </p>
+            </motion.div>
+          </div>
+        </div>
       </div>
     );
   };
@@ -1124,42 +2167,11 @@ const App: React.FC = () => {
       return enrolledIntermediate.length > 0 && enrolledIntermediate.every(isCourseCompleted);
     };
 
-    const isLevelUnlocked = (level: string) => {
-      if (level === 'Beginner') return true;
-      if (level === 'Intermediate') return allEnrolledBeginnerCompleted();
-      if (level === 'Advanced') return allEnrolledBeginnerCompleted() && allEnrolledIntermediateCompleted();
-      return true;
-    };
-
-    const isCourseUnlocked = (course: Course) => isLevelUnlocked(course.level);
-
-    const getLockedMessage = (level: string) => {
-      if (level === 'Intermediate') {
-        const enrolledBeginner = getEnrolledBeginnerCourses();
-        if (enrolledBeginner.length === 0) {
-          return `Enroll in and complete at least one Beginner course to unlock`;
-        }
-        const completedCount = enrolledBeginner.filter(isCourseCompleted).length;
-        return `Complete all enrolled Beginner courses (${completedCount}/${enrolledBeginner.length} completed)`;
-      }
-      if (level === 'Advanced') {
-        if (!allEnrolledBeginnerCompleted()) {
-          const enrolledBeginner = getEnrolledBeginnerCourses();
-          if (enrolledBeginner.length === 0) {
-            return `Enroll in and complete Beginner courses first`;
-          }
-          const completedCount = enrolledBeginner.filter(isCourseCompleted).length;
-          return `Complete all enrolled Beginner courses (${completedCount}/${enrolledBeginner.length} completed)`;
-        }
-        const enrolledIntermediate = getEnrolledIntermediateCourses();
-        if (enrolledIntermediate.length === 0) {
-          return `Enroll in and complete at least one Intermediate course to unlock`;
-        }
-        const completedCount = enrolledIntermediate.filter(isCourseCompleted).length;
-        return `Complete all enrolled Intermediate courses (${completedCount}/${enrolledIntermediate.length} completed)`;
-      }
-      return '';
-    };
+    // All destinations are now unlocked - no lock/unlock restrictions for users
+    // Admin ordering logic is preserved in the admin panel
+    const isLevelUnlocked = (_level: string) => true;
+    const isCourseUnlocked = (_course: Course) => true;
+    const getLockedMessage = (_level: string) => '';
 
     // Calculate total progress (use API stats if available)
     const totalProgress = userDashboardStats
@@ -1177,7 +2189,7 @@ const App: React.FC = () => {
       <div className="md:ml-64 h-screen overflow-y-auto relative z-10 liquid-scroll">
         {/* Mobile Header */}
         <div className="md:hidden p-4 flex justify-between items-center bg-[#0c0c0e] border-b border-white/[0.04] sticky top-0 z-40">
-          <span className="font-helvetica-bold">Amini Academy</span>
+          <span className="font-helvetica-bold text-[#D4AF37]">Isle Cayman</span>
           <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
             {mobileMenuOpen ? <X /> : <Menu />}
           </button>
@@ -1187,43 +2199,43 @@ const App: React.FC = () => {
           {/* Header Section - Enhanced Liquid Glass */}
           <div className="flex flex-col md:flex-row justify-between items-end gap-6 animate-fade-in">
             <div>
-              <h2 className="text-4xl font-helvetica-bold mb-2">Welcome, {user?.name?.split(' ')[0]}</h2>
+              <h2 className="text-4xl font-helvetica-bold mb-2">Welcome back, {user?.name?.split(' ')[0]}</h2>
               <div className="flex gap-2">
-                {user?.role === UserRole.SUPERUSER && <Badge type="warning">Ministry Champion</Badge>}
-                <span className="text-zinc-400">Ready to upskill?</span>
+                {user?.role === UserRole.SUPERUSER && <Badge type="warning">VIP Explorer</Badge>}
+                <span className="text-zinc-400">Your Caribbean adventure awaits</span>
               </div>
             </div>
 
             {/* Stats Cards - Liquid Glass Design */}
             <div className="flex gap-3">
-              {/* Lessons Completed */}
+              {/* Experiences Discovered */}
               <div className="relative group">
-                <div className="absolute -inset-0.5 bg-gradient-to-r from-yellow-400/20 to-yellow-500/10 rounded-2xl blur-sm opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                <div className="absolute -inset-0.5 bg-gradient-to-r from-cyan-400/20 to-cyan-500/10 rounded-2xl blur-sm opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                 <div className="relative bg-gradient-to-br from-white/[0.08] to-white/[0.02] backdrop-blur-xl border border-white/10 rounded-2xl p-4 text-center min-w-[80px]">
-                  <div className="text-3xl font-helvetica-bold text-[#D4AF37]">{lessonsCompleted}</div>
-                  <div className="text-[10px] text-zinc-500 uppercase tracking-widest">Lessons</div>
+                  <div className="text-3xl font-helvetica-bold text-cyan-400">{lessonsCompleted}</div>
+                  <div className="text-[10px] text-zinc-500 uppercase tracking-widest">Discovered</div>
                 </div>
               </div>
 
               <div className="w-px bg-white/10 h-16 hidden md:block self-center"></div>
 
-              {/* Courses Progress */}
+              {/* Destinations Explored */}
               <div className="relative group">
                 <div className="absolute -inset-0.5 bg-gradient-to-r from-white/20 to-white/5 rounded-2xl blur-sm opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                 <div className="relative bg-gradient-to-br from-white/[0.08] to-white/[0.02] backdrop-blur-xl border border-white/10 rounded-2xl p-4 text-center min-w-[80px]">
                   <div className="text-3xl font-helvetica-bold text-white">{completedCourses}<span className="text-lg text-zinc-500">/{enrolledCount || courses.length}</span></div>
-                  <div className="text-[10px] text-zinc-500 uppercase tracking-widest">Courses</div>
+                  <div className="text-[10px] text-zinc-500 uppercase tracking-widest">Explored</div>
                 </div>
               </div>
 
               <div className="w-px bg-white/10 h-16 hidden md:block self-center"></div>
 
-              {/* Quiz Average */}
+              {/* Fun Facts Learned */}
               <div className="relative group">
-                <div className="absolute -inset-0.5 bg-gradient-to-r from-green-400/20 to-green-500/10 rounded-2xl blur-sm opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                <div className="absolute -inset-0.5 bg-gradient-to-r from-emerald-400/20 to-emerald-500/10 rounded-2xl blur-sm opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                 <div className="relative bg-gradient-to-br from-white/[0.08] to-white/[0.02] backdrop-blur-xl border border-white/10 rounded-2xl p-4 text-center min-w-[80px]">
-                  <div className="text-3xl font-helvetica-bold text-green-400">{avgQuizScore}%</div>
-                  <div className="text-[10px] text-zinc-500 uppercase tracking-widest">Quiz Avg</div>
+                  <div className="text-3xl font-helvetica-bold text-emerald-400">{avgQuizScore}%</div>
+                  <div className="text-[10px] text-zinc-500 uppercase tracking-widest">Fun Score</div>
                 </div>
               </div>
 
@@ -1231,7 +2243,7 @@ const App: React.FC = () => {
 
               {/* Overall Progress Circle */}
               <div className="relative group">
-                <div className="absolute -inset-0.5 bg-gradient-to-r from-yellow-400/20 to-green-400/10 rounded-2xl blur-sm opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                <div className="absolute -inset-0.5 bg-gradient-to-r from-[#D4AF37]/20 to-cyan-400/10 rounded-2xl blur-sm opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                 <div className="relative bg-gradient-to-br from-white/[0.08] to-white/[0.02] backdrop-blur-xl border border-white/10 rounded-2xl p-3 flex items-center justify-center">
                   <div className="relative w-14 h-14">
                     <svg className="w-full h-full -rotate-90" viewBox="0 0 36 36">
@@ -1248,12 +2260,12 @@ const App: React.FC = () => {
                         strokeWidth="3"
                         strokeDasharray={`${totalProgress}, 100`}
                         strokeLinecap="round"
-                        className="drop-shadow-[0_0_8px_rgba(250,204,21,0.5)] transition-all duration-1000"
+                        className="drop-shadow-[0_0_8px_rgba(34,211,238,0.5)] transition-all duration-1000"
                       />
                       <defs>
                         <linearGradient id="dashboardGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-                          <stop offset="0%" stopColor="#FACC15" />
-                          <stop offset="100%" stopColor="#22c55e" />
+                          <stop offset="0%" stopColor="#22d3ee" />
+                          <stop offset="100%" stopColor="#D4AF37" />
                         </linearGradient>
                       </defs>
                     </svg>
@@ -1266,25 +2278,25 @@ const App: React.FC = () => {
             </div>
           </div>
 
-          {/* Progress Banner - Liquid Glass */}
+          {/* Island Discovery Progress - Liquid Glass */}
           <div className="relative group">
-            <div className="absolute -inset-0.5 bg-gradient-to-r from-yellow-500/20 via-yellow-400/10 to-green-500/20 rounded-[24px] blur-lg opacity-60" />
+            <div className="absolute -inset-0.5 bg-gradient-to-r from-cyan-500/20 via-[#D4AF37]/10 to-emerald-500/20 rounded-[24px] blur-lg opacity-60" />
             <div className="relative rounded-3xl overflow-hidden backdrop-blur-2xl bg-gradient-to-r from-white/[0.06] via-white/[0.03] to-white/[0.06] border border-white/10 p-6">
               <div className="flex items-center justify-between mb-4">
                 <div>
-                  <h3 className="text-lg font-helvetica-bold text-white">Bajan-X Program Overall Progress</h3>
-                  <p className="text-sm text-zinc-400">Complete all {courses.length} modules to earn your certification</p>
+                  <h3 className="text-lg font-helvetica-bold text-white">Your Cayman Islands Journey</h3>
+                  <p className="text-sm text-zinc-400">Discover all {courses.length} experiences across the islands</p>
                 </div>
                 <div className="flex items-center gap-2">
-                  <span className="text-2xl font-helvetica-bold text-[#D4AF37]">{totalProgress}%</span>
-                  <span className="text-zinc-500">complete</span>
+                  <span className="text-2xl font-helvetica-bold text-cyan-400">{totalProgress}%</span>
+                  <span className="text-zinc-500">explored</span>
                 </div>
               </div>
 
               {/* Progress Bar */}
               <div className="relative h-3 bg-white/5 rounded-full overflow-hidden">
                 <div
-                  className="absolute inset-y-0 left-0 bg-[#D4AF37] rounded-full shadow-[0_0_15px_rgba(250,204,21,0.5)] transition-all duration-1000"
+                  className="absolute inset-y-0 left-0 bg-gradient-to-r from-cyan-400 to-[#D4AF37] rounded-full shadow-[0_0_15px_rgba(34,211,238,0.5)] transition-all duration-1000"
                   style={{ width: `${totalProgress}%` }}
                 />
                 {/* Milestone markers */}
@@ -1297,97 +2309,87 @@ const App: React.FC = () => {
                 ))}
               </div>
 
-              {/* Module indicators - Dynamic with elegant scroll */}
+              {/* Destination indicators - Dynamic with elegant scroll */}
               <ModuleProgressIndicator courses={courses} totalProgress={totalProgress} />
             </div>
           </div>
 
-          {/* Superuser Exclusive Widget */}
+          {/* VIP Traveler Widget */}
           {user?.role === UserRole.SUPERUSER && (
-            <GlassCard className="bg-gradient-to-br from-zinc-800/30 to-black border-yellow-500/30">
+            <GlassCard className="bg-gradient-to-br from-zinc-800/30 to-black border-cyan-500/30">
               <div className="flex justify-between items-start mb-4">
                 <div>
-                  <h3 className="text-lg font-helvetica-bold text-white flex items-center gap-2"><Users size={18} className="text-[#D4AF37]" /> Ministry Insights</h3>
-                  <p className="text-sm text-zinc-400">Track your team's progress in {user.ministry}</p>
+                  <h3 className="text-lg font-helvetica-bold text-white flex items-center gap-2"><Star size={18} className="text-[#D4AF37]" /> VIP Traveler Status</h3>
+                  <p className="text-sm text-zinc-400">Exclusive access to premium experiences</p>
                 </div>
-                <PrimaryButton className="py-1 px-4 text-xs h-8">Invite Colleagues</PrimaryButton>
+                <PrimaryButton className="py-1 px-4 text-xs h-8">Invite Friends</PrimaryButton>
               </div>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                 <div className="bg-zinc-900/50 p-3 rounded-xl border border-white/5">
-                  <div className="text-xs text-zinc-500">Active Learners</div>
+                  <div className="text-xs text-zinc-500">Places Visited</div>
                   <div className="text-xl font-helvetica-bold">24</div>
                 </div>
                 <div className="bg-zinc-900/50 p-3 rounded-xl border border-white/5">
-                  <div className="text-xs text-zinc-500">Certified</div>
+                  <div className="text-xs text-zinc-500">Adventures</div>
                   <div className="text-xl font-helvetica-bold text-[#D4AF37]">8</div>
                 </div>
                 <div className="bg-zinc-900/50 p-3 rounded-xl border border-white/5">
-                  <div className="text-xs text-zinc-500">Completion Rate</div>
-                  <div className="text-xl font-helvetica-bold text-white">33%</div>
+                  <div className="text-xs text-zinc-500">Island Score</div>
+                  <div className="text-xl font-helvetica-bold text-cyan-400">33%</div>
                 </div>
               </div>
             </GlassCard>
           )}
 
-          {/* Learning Paths & Courses - Grouped by Level */}
+          {/* Island Experiences - Grouped by Category */}
           <div className="space-y-12">
             {(['Beginner', 'Intermediate', 'Advanced'] as const).map((level) => {
               const levelCourses = courses.filter(c => c.level === level);
               if (levelCourses.length === 0) return null;
 
-              const isPathUnlocked = isLevelUnlocked(level);
-              const levelTitle = level === 'Beginner' ? 'Beginner Track (Week 1-2)'
-                : level === 'Intermediate' ? 'Intermediate Track (Week 3)'
-                  : 'Advanced Track (Week 4)';
-              const levelDescription = level === 'Beginner' ? 'Foundation modules for all learners.'
-                : level === 'Intermediate' ? 'Security and platform integration.'
-                  : 'Data workflows and certification.';
+              // Tourism-focused titles and descriptions
+              const levelTitle = level === 'Beginner' ? 'Must-See Attractions'
+                : level === 'Intermediate' ? 'Hidden Gems & Adventures'
+                  : 'VIP Experiences';
+              const levelDescription = level === 'Beginner' ? 'Essential destinations every visitor should explore.'
+                : level === 'Intermediate' ? 'Unique spots and thrilling activities for adventurers.'
+                  : 'Exclusive luxury experiences and insider access.';
+              const levelIcon = level === 'Beginner' ? '🏝️' : level === 'Intermediate' ? '🤿' : '✨';
 
               return (
                 <div key={level} className="animate-fade-in">
-                  <div className="flex items-center gap-3 mb-4">
-                    <div className={`p-2 rounded-lg ${isPathUnlocked ? 'bg-yellow-400/20 text-[#D4AF37]' : 'bg-zinc-800/50 text-zinc-600'}`}>
-                      {isPathUnlocked ? <BookOpen size={20} /> : <Lock size={20} />}
+                  <div className="flex items-center gap-3 mb-6">
+                    <div className="p-3 rounded-2xl bg-gradient-to-br from-cyan-400/20 to-[#D4AF37]/10 text-2xl">
+                      {levelIcon}
                     </div>
                     <div className="flex-1">
                       <div className="flex items-center gap-3">
-                        <h3 className={`text-2xl font-helvetica-bold ${!isPathUnlocked && 'text-zinc-600'}`}>{levelTitle}</h3>
-                        <span className={`text-xs px-2 py-0.5 rounded-full ${level === 'Beginner' ? 'bg-green-500/20 text-green-400 border border-green-500/30' :
-                          level === 'Intermediate' ? 'bg-yellow-500/20 text-[#D4AF37] border border-yellow-500/30' :
-                            'bg-purple-500/20 border-purple-400/30 text-purple-400'
-                          }`}>{levelCourses.length} course{levelCourses.length !== 1 ? 's' : ''}</span>
-                        {!isPathUnlocked && (
-                          <span className="text-xs px-3 py-1 rounded-full bg-zinc-800 text-zinc-500 border border-zinc-700">
-                            LOCKED
-                          </span>
-                        )}
+                        <h3 className="text-2xl font-helvetica-bold text-white">{levelTitle}</h3>
+                        <span className={`text-xs px-3 py-1 rounded-full ${level === 'Beginner' ? 'bg-cyan-500/20 text-cyan-400 border border-cyan-500/30' :
+                          level === 'Intermediate' ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/30' :
+                            'bg-[#D4AF37]/20 border-[#D4AF37]/30 text-[#D4AF37]'
+                          }`}>{levelCourses.length} experience{levelCourses.length !== 1 ? 's' : ''}</span>
                       </div>
-                      <p className={`text-sm ${isPathUnlocked ? 'text-zinc-400' : 'text-zinc-600'}`}>
-                        {isPathUnlocked ? levelDescription : getLockedMessage(level)}
-                      </p>
+                      <p className="text-sm text-zinc-400 mt-1">{levelDescription}</p>
                     </div>
                   </div>
 
                   <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
                     {levelCourses.map((course, courseIndex) => {
-                      const courseUnlocked = isCourseUnlocked(course);
                       const lessonCount = course.lessons?.length || 0;
                       const completedLessons = course.lessons?.filter(l => l.isCompleted).length || 0;
 
                       return (
                         <div
                           key={course.id}
-                          className={`group relative rounded-3xl overflow-hidden transition-all duration-500 ${courseUnlocked
-                            ? 'cursor-pointer hover:-translate-y-2 hover:shadow-[0_20px_60px_-15px_rgba(250,204,21,0.3)]'
-                            : 'opacity-60 cursor-not-allowed'
-                            }`}
-                          onClick={() => courseUnlocked && handleStartCourse(course)}
+                          className="group relative rounded-3xl overflow-hidden transition-all duration-500 cursor-pointer hover:-translate-y-2 hover:shadow-[0_20px_60px_-15px_rgba(34,211,238,0.3)]"
+                          onClick={() => handleStartCourse(course)}
                         >
                           {/* Card Background with Glassmorphism */}
-                          <div className="absolute inset-0 bg-gradient-to-br from-zinc-900/90 via-zinc-900/80 to-black/90 backdrop-blur-xl border border-white/10 rounded-3xl group-hover:border-[#D4AF37]/50 transition-colors duration-500" />
+                          <div className="absolute inset-0 bg-gradient-to-br from-zinc-900/90 via-zinc-900/80 to-black/90 backdrop-blur-xl border border-white/10 rounded-3xl group-hover:border-cyan-400/50 transition-colors duration-500" />
 
                           {/* Ambient Glow Effect */}
-                          <div className="absolute -inset-px bg-gradient-to-br from-yellow-400/0 via-transparent to-yellow-400/0 rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-700 blur-xl" />
+                          <div className="absolute -inset-px bg-gradient-to-br from-cyan-400/0 via-transparent to-[#D4AF37]/0 rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-700 blur-xl" />
 
                           <div className="relative">
                             {/* Image Container with Aspect Ratio */}
@@ -1396,49 +2398,41 @@ const App: React.FC = () => {
                               <img
                                 src={course.thumbnail}
                                 alt={course.title}
-                                className={`absolute inset-0 w-full h-full object-cover transition-all duration-700 ${courseUnlocked
-                                  ? 'group-hover:scale-110 saturate-75 group-hover:saturate-100'
-                                  : 'grayscale saturate-0'
-                                  }`}
+                                className="absolute inset-0 w-full h-full object-cover transition-all duration-700 group-hover:scale-110 saturate-90 group-hover:saturate-100"
                               />
 
                               {/* Gradient Overlays */}
-                              <div className={`absolute inset-0 bg-gradient-to-t from-zinc-900 via-zinc-900/50 to-transparent transition-opacity duration-500 ${courseUnlocked ? 'opacity-80 group-hover:opacity-60' : 'opacity-90'
-                                }`} />
-                              <div className="absolute inset-0 bg-gradient-to-br from-black/20 via-transparent to-yellow-400/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                              <div className="absolute inset-0 bg-gradient-to-t from-zinc-900 via-zinc-900/50 to-transparent opacity-80 group-hover:opacity-60 transition-opacity duration-500" />
+                              <div className="absolute inset-0 bg-gradient-to-br from-black/20 via-transparent to-cyan-400/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
 
-                              {/* Course Order Badge */}
-                              {courseUnlocked && (
-                                <div className="absolute top-3 left-3">
-                                  <div className="flex items-center justify-center w-8 h-8 rounded-full bg-black/60 backdrop-blur-md border border-white/10 text-white text-sm font-helvetica-bold">
-                                    {courseIndex + 1}
-                                  </div>
-                                </div>
-                              )}
-
-                              {/* Level Badge */}
-                              <div className="absolute top-3 right-3">
-                                <div className={`px-3 py-1.5 rounded-full text-xs font-helvetica-bold backdrop-blur-md border ${course.level === 'Beginner'
-                                  ? 'bg-emerald-500/20 border-emerald-400/30 text-emerald-400'
-                                  : course.level === 'Intermediate'
-                                    ? 'bg-yellow-500/20 border-[#D4AF37]/50 text-[#D4AF37]'
-                                    : 'bg-purple-500/20 border-purple-400/30 text-purple-400'
-                                  }`}>
-                                  {course.level}
+                              {/* Experience Number Badge */}
+                              <div className="absolute top-3 left-3">
+                                <div className="flex items-center justify-center w-10 h-10 rounded-xl bg-black/60 backdrop-blur-md border border-white/10 text-white text-sm font-helvetica-bold group-hover:bg-cyan-500/20 group-hover:border-cyan-400/30 transition-all duration-300">
+                                  {courseIndex + 1}
                                 </div>
                               </div>
 
-                              {/* Lock Overlay */}
-                              {!courseUnlocked && (
-                                <div className="absolute inset-0 flex items-center justify-center bg-black/40 backdrop-blur-[2px]">
-                                  <div className="w-16 h-16 rounded-full bg-zinc-900/90 border-2 border-zinc-700 flex items-center justify-center shadow-2xl">
-                                    <Lock size={24} className="text-zinc-500" />
-                                  </div>
+                              {/* Category Badge */}
+                              <div className="absolute top-3 right-3">
+                                <div className={`px-3 py-1.5 rounded-full text-xs font-helvetica-bold backdrop-blur-md border ${course.level === 'Beginner'
+                                  ? 'bg-cyan-500/20 border-cyan-400/30 text-cyan-400'
+                                  : course.level === 'Intermediate'
+                                    ? 'bg-emerald-500/20 border-emerald-400/30 text-emerald-400'
+                                    : 'bg-[#D4AF37]/20 border-[#D4AF37]/30 text-[#D4AF37]'
+                                  }`}>
+                                  {course.level === 'Beginner' ? 'Must See' : course.level === 'Intermediate' ? 'Adventure' : 'VIP'}
                                 </div>
-                              )}
+                              </div>
+
+                              {/* Play Button Overlay on Hover */}
+                              <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                <div className="w-16 h-16 rounded-full bg-white/20 backdrop-blur-md border border-white/30 flex items-center justify-center shadow-2xl group-hover:scale-110 transition-transform duration-300">
+                                  <PlayCircle size={32} className="text-white ml-1" />
+                                </div>
+                              </div>
 
                               {/* Progress Ring - Bottom Right */}
-                              {course.progress > 0 && courseUnlocked && (
+                              {course.progress > 0 && (
                                 <div className="absolute bottom-3 right-3">
                                   <div className="relative w-12 h-12">
                                     <svg className="w-12 h-12 -rotate-90" viewBox="0 0 36 36">
@@ -1451,15 +2445,15 @@ const App: React.FC = () => {
                                       <circle
                                         cx="18" cy="18" r="15.5"
                                         fill="none"
-                                        stroke="url(#progressGradient)"
+                                        stroke="url(#progressGradientCard)"
                                         strokeWidth="3"
                                         strokeLinecap="round"
                                         strokeDasharray={`${course.progress * 0.97} 100`}
                                       />
                                       <defs>
-                                        <linearGradient id="progressGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-                                          <stop offset="0%" stopColor="#facc15" />
-                                          <stop offset="100%" stopColor="#fef08a" />
+                                        <linearGradient id="progressGradientCard" x1="0%" y1="0%" x2="100%" y2="0%">
+                                          <stop offset="0%" stopColor="#22d3ee" />
+                                          <stop offset="100%" stopColor="#D4AF37" />
                                         </linearGradient>
                                       </defs>
                                     </svg>
@@ -1474,16 +2468,12 @@ const App: React.FC = () => {
                             {/* Content Section */}
                             <div className="relative p-5">
                               {/* Title */}
-                              <h4 className={`text-lg font-helvetica-bold mb-2 leading-tight transition-colors duration-300 ${courseUnlocked
-                                ? 'text-white group-hover:text-[#D4AF37]'
-                                : 'text-zinc-500'
-                                }`}>
+                              <h4 className="text-lg font-helvetica-bold mb-2 leading-tight transition-colors duration-300 text-white group-hover:text-cyan-400">
                                 {course.title}
                               </h4>
 
                               {/* Description */}
-                              <p className={`text-sm leading-relaxed mb-4 ${courseUnlocked ? 'text-zinc-400' : 'text-zinc-600'
-                                } ${expandedDescriptions.has(course.id) ? '' : 'line-clamp-2'}`}>
+                              <p className={`text-sm leading-relaxed mb-4 text-zinc-400 ${expandedDescriptions.has(course.id) ? '' : 'line-clamp-2'}`}>
                                 {course.description}
                               </p>
                               {course.description && course.description.length > 80 && (
@@ -1500,25 +2490,21 @@ const App: React.FC = () => {
                                       return newSet;
                                     });
                                   }}
-                                  className={`text-xs font-medium mb-3 ${courseUnlocked
-                                    ? 'text-[#D4AF37]/80 hover:text-[#D4AF37]'
-                                    : 'text-zinc-600'
-                                    } transition-colors`}
+                                  className="text-xs font-medium mb-3 text-cyan-400/80 hover:text-cyan-400 transition-colors"
                                 >
                                   {expandedDescriptions.has(course.id) ? '← Show less' : 'Read more →'}
                                 </button>
                               )}
 
                               {/* Stats Row */}
-                              <div className={`flex items-center gap-4 text-xs ${courseUnlocked ? 'text-zinc-500' : 'text-zinc-700'
-                                }`}>
+                              <div className="flex items-center gap-4 text-xs text-zinc-500">
                                 <span className="flex items-center gap-1.5">
-                                  <Clock size={14} className={courseUnlocked ? 'text-zinc-400' : ''} />
+                                  <Clock size={14} className="text-zinc-400" />
                                   {course.totalDuration}
                                 </span>
                                 <span className="flex items-center gap-1.5">
-                                  <BookOpen size={14} className={courseUnlocked ? 'text-zinc-400' : ''} />
-                                  {lessonCount} lessons
+                                  <PlayCircle size={14} className="text-zinc-400" />
+                                  {lessonCount} videos
                                 </span>
                                 {course.progress > 0 && courseUnlocked && (
                                   <span className="flex items-center gap-1.5 text-[#D4AF37]">
@@ -1529,35 +2515,27 @@ const App: React.FC = () => {
                               </div>
 
                               {/* Action Footer */}
-                              <div className={`mt-4 pt-4 border-t border-white/5 flex justify-between items-center`}>
-                                {courseUnlocked ? (
-                                  <>
-                                    <div className="flex items-center gap-2">
-                                      {course.progress > 0 ? (
-                                        <div className="w-24 h-1.5 bg-zinc-800 rounded-full overflow-hidden">
-                                          <div
-                                            className="h-full bg-gradient-to-r from-yellow-400 to-yellow-300 rounded-full transition-all duration-500"
-                                            style={{ width: `${course.progress}%` }}
-                                          />
-                                        </div>
-                                      ) : (
-                                        <span className="text-xs text-zinc-500">Ready to start</span>
-                                      )}
+                              {/* Action Footer */}
+                              <div className="mt-4 pt-4 border-t border-white/5 flex justify-between items-center">
+                                <div className="flex items-center gap-2">
+                                  {course.progress > 0 ? (
+                                    <div className="w-24 h-1.5 bg-zinc-800 rounded-full overflow-hidden">
+                                      <div
+                                        className="h-full bg-gradient-to-r from-cyan-400 to-[#D4AF37] rounded-full transition-all duration-500"
+                                        style={{ width: `${course.progress}%` }}
+                                      />
                                     </div>
-                                    <span className={`flex items-center gap-1 text-sm font-helvetica-bold transition-all duration-300 ${course.progress > 0
-                                      ? 'text-[#D4AF37] group-hover:text-yellow-300'
-                                      : 'text-white group-hover:text-[#D4AF37]'
-                                      } group-hover:translate-x-1`}>
-                                      {course.progress > 0 ? 'Continue' : 'Start Course'}
-                                      <ChevronRight size={16} className="transition-transform group-hover:translate-x-0.5" />
-                                    </span>
-                                  </>
-                                ) : (
-                                  <span className="flex items-center gap-2 text-sm text-zinc-600">
-                                    <Lock size={14} />
-                                    Complete previous level to unlock
-                                  </span>
-                                )}
+                                  ) : (
+                                    <span className="text-xs text-zinc-500">Ready to explore</span>
+                                  )}
+                                </div>
+                                <span className={`flex items-center gap-1 text-sm font-helvetica-bold transition-all duration-300 ${course.progress > 0
+                                  ? 'text-cyan-400 group-hover:text-cyan-300'
+                                  : 'text-white group-hover:text-cyan-400'
+                                  } group-hover:translate-x-1`}>
+                                  {course.progress > 0 ? 'Continue Watching' : 'Start Experience'}
+                                  <ChevronRight size={16} className="transition-transform group-hover:translate-x-0.5" />
+                                </span>
                               </div>
                             </div>
                           </div>
@@ -1756,8 +2734,13 @@ const App: React.FC = () => {
         console.error('No file URL available for download');
         return;
       }
+      const baseUrl = (import.meta.env.VITE_API_URL || 'http://localhost:3001/api').replace('/api', '');
+      const fullUrl = activeLesson.fileUrl.startsWith('http')
+        ? activeLesson.fileUrl
+        : `${baseUrl}${activeLesson.fileUrl}`;
+
       const link = document.createElement('a');
-      link.href = activeLesson.fileUrl;
+      link.href = fullUrl;
       link.download = activeLesson.fileName || 'resource';
       link.target = '_blank';
       document.body.appendChild(link);
@@ -1772,38 +2755,24 @@ const App: React.FC = () => {
     const progressPercent = totalCount > 0 ? Math.round((completedCount / totalCount) * 100) : 0;
 
     // Hyper Glass Card for curriculum items
-    const CurriculumItem = ({ lesson, idx, isActive, isLocked, isCompleted, onClick }: any) => (
+    // Curriculum Item - Now without locks, more fun and engaging
+    const CurriculumItem = ({ lesson, idx, isActive, isCompleted, onClick }: any) => (
       <button
         onClick={onClick}
-        disabled={isLocked}
         className={`
           group/item w-full relative overflow-hidden rounded-2xl p-4 text-left transition-all duration-500
           ${isActive
-            ? 'bg-gradient-to-r from-yellow-400/20 via-yellow-500/10 to-transparent border border-yellow-400/40 shadow-[0_0_30px_rgba(250,204,21,0.15),inset_0_1px_0_rgba(255,255,255,0.1)]'
-            : isLocked
-              ? 'bg-white/[0.02] border border-white/5 opacity-50 cursor-not-allowed'
-              : 'bg-white/[0.03] border border-white/10 hover:bg-white/[0.06] hover:border-white/20 hover:shadow-[0_4px_20px_rgba(0,0,0,0.3)]'
+            ? 'bg-gradient-to-r from-cyan-400/20 via-cyan-500/10 to-transparent border border-cyan-400/40 shadow-[0_0_30px_rgba(34,211,238,0.15),inset_0_1px_0_rgba(255,255,255,0.1)]'
+            : 'bg-white/[0.03] border border-white/10 hover:bg-white/[0.06] hover:border-cyan-400/30 hover:shadow-[0_4px_20px_rgba(0,0,0,0.3)]'
           }
         `}
       >
         {/* Active indicator glow */}
         {isActive && (
           <>
-            <div className="absolute left-0 top-0 bottom-0 w-1 bg-[#D4AF37] shadow-[0_0_10px_rgba(250,204,21,0.5)]" />
-            <div className="absolute inset-0 bg-[#D4AF37]/5" />
+            <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-cyan-400 to-[#D4AF37] shadow-[0_0_10px_rgba(34,211,238,0.5)]" />
+            <div className="absolute inset-0 bg-cyan-400/5" />
           </>
-        )}
-
-        {/* Lock overlay */}
-        {isLocked && (
-          <div className="absolute inset-0 bg-black/40 backdrop-blur-[1px] flex items-center justify-center z-10">
-            <div className="flex flex-col items-center gap-1">
-              <div className="w-8 h-8 rounded-full bg-zinc-800/80 border border-zinc-700 flex items-center justify-center">
-                <Lock size={14} className="text-zinc-500" />
-              </div>
-              <span className="text-[10px] text-zinc-500 font-medium">Complete previous</span>
-            </div>
-          </div>
         )}
 
         <div className="flex items-start gap-4 relative z-[1]">
@@ -1811,55 +2780,55 @@ const App: React.FC = () => {
           <div className={`
             relative flex-shrink-0 w-10 h-10 rounded-xl flex items-center justify-center transition-all duration-300
             ${isCompleted
-              ? 'bg-[#D4AF37] shadow-[0_0_20px_rgba(250,204,21,0.4)]'
+              ? 'bg-gradient-to-br from-cyan-400 to-[#D4AF37] shadow-[0_0_20px_rgba(34,211,238,0.4)]'
               : isActive
-                ? 'bg-yellow-400/20 border-2 border-yellow-400/50'
-                : 'bg-white/5 border border-white/10'
+                ? 'bg-cyan-400/20 border-2 border-cyan-400/50'
+                : 'bg-white/5 border border-white/10 group-hover/item:border-cyan-400/30'
             }
           `}>
             {isCompleted ? (
               <CheckCircle size={18} className="text-black" />
             ) : (
-              <span className={`text-sm font-helvetica-bold ${isActive ? 'text-[#D4AF37]' : 'text-zinc-500'}`}>
+              <span className={`text-sm font-helvetica-bold ${isActive ? 'text-cyan-400' : 'text-zinc-500 group-hover/item:text-cyan-400'}`}>
                 {String(idx + 1).padStart(2, '0')}
               </span>
             )}
 
             {/* Pulse ring for active */}
             {isActive && !isCompleted && (
-              <div className="absolute inset-0 rounded-xl border-2 border-yellow-400/50 animate-ping opacity-30" />
+              <div className="absolute inset-0 rounded-xl border-2 border-cyan-400/50 animate-ping opacity-30" />
             )}
           </div>
 
           {/* Content */}
           <div className="flex-1 min-w-0">
             <div className="flex items-center gap-2 mb-1">
-              {lesson.type === 'video' && <Video size={12} className={isActive ? 'text-[#D4AF37]' : 'text-zinc-500'} />}
-              {lesson.type === 'quiz' && <HelpCircle size={12} className={isActive ? 'text-[#D4AF37]' : 'text-zinc-500'} />}
-              {(lesson.type === 'pdf' || lesson.type === 'presentation') && <FileText size={12} className={isActive ? 'text-[#D4AF37]' : 'text-zinc-500'} />}
-              <span className={`text-[10px] uppercase tracking-wider font-medium ${isActive ? 'text-[#D4AF37]/80' : 'text-zinc-600'}`}>
-                {lesson.type}
+              {lesson.type === 'video' && <PlayCircle size={12} className={isActive ? 'text-cyan-400' : 'text-zinc-500 group-hover/item:text-cyan-400'} />}
+              {lesson.type === 'quiz' && <Sparkles size={12} className={isActive ? 'text-cyan-400' : 'text-zinc-500 group-hover/item:text-cyan-400'} />}
+              {(lesson.type === 'pdf' || lesson.type === 'presentation') && <FileText size={12} className={isActive ? 'text-cyan-400' : 'text-zinc-500 group-hover/item:text-cyan-400'} />}
+              <span className={`text-[10px] uppercase tracking-wider font-medium ${isActive ? 'text-cyan-400/80' : 'text-zinc-600'}`}>
+                {lesson.type === 'video' ? 'Watch' : lesson.type === 'quiz' ? 'Fun Quiz' : lesson.type}
               </span>
             </div>
 
             <h4 className={`font-helvetica-bold text-sm leading-tight mb-1 transition-colors ${isActive ? 'text-white' : isCompleted ? 'text-zinc-300' : 'text-zinc-400'
-              } ${!isLocked && 'group-hover/item:text-white'}`}>
+              } group-hover/item:text-white`}>
               {lesson.title}
             </h4>
 
             <div className="flex items-center gap-3 text-[11px]">
               <span className="text-zinc-500">{lesson.durationMin} min</span>
               {isCompleted && (
-                <span className="text-[#D4AF37]/80 flex items-center gap-1">
-                  <CheckCircle size={10} /> Done
+                <span className="text-emerald-400/80 flex items-center gap-1">
+                  <CheckCircle size={10} /> Watched
                 </span>
               )}
             </div>
           </div>
 
-          {/* Arrow indicator */}
-          {!isLocked && !isCompleted && (
-            <ChevronRight size={16} className={`flex-shrink-0 transition-all duration-300 ${isActive ? 'text-[#D4AF37] translate-x-0 opacity-100' : 'text-zinc-600 -translate-x-2 opacity-0 group-hover/item:translate-x-0 group-hover/item:opacity-100'
+          {/* Arrow indicator - always visible on hover */}
+          {!isCompleted && (
+            <ChevronRight size={16} className={`flex-shrink-0 transition-all duration-300 ${isActive ? 'text-cyan-400 translate-x-0 opacity-100' : 'text-zinc-600 -translate-x-2 opacity-0 group-hover/item:translate-x-0 group-hover/item:opacity-100'
               }`} />
           )}
         </div>
@@ -1963,38 +2932,34 @@ const App: React.FC = () => {
                   {!playerSidebarCollapsed && (
                     <div className="relative h-1.5 bg-white/5 rounded-full overflow-hidden">
                       <div
-                        className="absolute inset-y-0 left-0 bg-[#D4AF37] rounded-full shadow-[0_0_10px_rgba(250,204,21,0.5)] transition-all duration-700"
+                        className="absolute inset-y-0 left-0 bg-gradient-to-r from-cyan-400 to-[#D4AF37] rounded-full shadow-[0_0_10px_rgba(34,211,238,0.5)] transition-all duration-700"
                         style={{ width: `${progressPercent}%` }}
                       />
                     </div>
                   )}
                 </div>
 
-                {/* Lessons list */}
+                {/* Video/Content list - No locks, free exploration */}
                 <div className="flex-1 overflow-y-auto p-4 space-y-2 scrollbar-thin scrollbar-thumb-white/10 scrollbar-track-transparent liquid-scroll">
                   {activeCourse?.lessons.map((lesson, idx) => {
-                    const isLocked = idx > 0 && !activeCourse.lessons[idx - 1].isCompleted;
                     const isActive = activeLesson?.id === lesson.id;
 
                     if (playerSidebarCollapsed) {
                       return (
                         <button
                           key={lesson.id}
-                          onClick={() => !isLocked && setActiveLesson(lesson)}
-                          disabled={isLocked}
+                          onClick={() => setActiveLesson(lesson)}
                           className={`
                             w-12 h-12 rounded-xl flex items-center justify-center mx-auto transition-all
                             ${isActive
-                              ? 'bg-yellow-400/20 border border-yellow-400/40 text-[#D4AF37]'
-                              : isLocked
-                                ? 'bg-white/5 border border-white/5 opacity-40'
-                                : lesson.isCompleted
-                                  ? 'bg-yellow-400/10 text-[#D4AF37]'
-                                  : 'bg-white/5 border border-white/10 text-zinc-500 hover:bg-white/10'
+                              ? 'bg-cyan-400/20 border border-cyan-400/40 text-cyan-400'
+                              : lesson.isCompleted
+                                ? 'bg-gradient-to-br from-cyan-400/10 to-[#D4AF37]/10 text-emerald-400'
+                                : 'bg-white/5 border border-white/10 text-zinc-500 hover:bg-cyan-400/10 hover:border-cyan-400/30 hover:text-cyan-400'
                             }
                           `}
                         >
-                          {lesson.isCompleted ? <CheckCircle size={16} /> : isLocked ? <Lock size={14} /> : idx + 1}
+                          {lesson.isCompleted ? <CheckCircle size={16} /> : idx + 1}
                         </button>
                       );
                     }
@@ -2005,9 +2970,8 @@ const App: React.FC = () => {
                         lesson={lesson}
                         idx={idx}
                         isActive={isActive}
-                        isLocked={isLocked}
                         isCompleted={lesson.isCompleted}
-                        onClick={() => !isLocked && setActiveLesson(lesson)}
+                        onClick={() => setActiveLesson(lesson)}
                       />
                     );
                   })}
@@ -2025,13 +2989,15 @@ const App: React.FC = () => {
                     w-full space-y-10 transition-all duration-200
                   `} style={{ transitionTimingFunction: 'cubic-bezier(0.16, 1, 0.3, 1)' }}>
 
-                  {/* Lesson Header */}
+                  {/* Content Header - Fun and Engaging */}
                   <div className="text-center mb-4">
-                    <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 mb-4">
-                      {activeLesson.type === 'video' && <Video size={14} className="text-[#D4AF37]" />}
-                      {activeLesson.type === 'quiz' && <HelpCircle size={14} className="text-[#D4AF37]" />}
-                      {(activeLesson.type === 'pdf' || activeLesson.type === 'presentation') && <FileText size={14} className="text-[#D4AF37]" />}
-                      <span className="text-xs uppercase tracking-wider text-zinc-400">{activeLesson.type} Lesson</span>
+                    <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-cyan-400/10 to-[#D4AF37]/10 border border-cyan-400/20 mb-4">
+                      {activeLesson.type === 'video' && <PlayCircle size={14} className="text-cyan-400" />}
+                      {activeLesson.type === 'quiz' && <Sparkles size={14} className="text-[#D4AF37]" />}
+                      {(activeLesson.type === 'pdf' || activeLesson.type === 'presentation') && <FileText size={14} className="text-cyan-400" />}
+                      <span className="text-xs uppercase tracking-wider text-zinc-400">
+                        {activeLesson.type === 'video' ? 'Watch & Discover' : activeLesson.type === 'quiz' ? 'Fun Facts Quiz' : 'Learn More'}
+                      </span>
                       <span className="text-zinc-600">•</span>
                       <span className="text-xs text-zinc-500">{activeLesson.durationMin} min</span>
                     </div>
@@ -2072,67 +3038,129 @@ const App: React.FC = () => {
                     </div>
                   )}
 
-                  {/* 2. Document View - Clean Card Design */}
+                  {/* 2. Document View - Notion-style Embedded Viewer */}
                   {(activeLesson.type === 'pdf' || activeLesson.type === 'presentation') && (
                     <LiquidVideoFrame>
                       {activeLesson.fileUrl ? (
-                        <div className="min-h-[400px] flex flex-col items-center justify-center p-10 relative">
-                          {/* Background effects */}
-                          <div className="absolute inset-0 opacity-40">
-                            <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_30%,rgba(250,204,21,0.15),transparent_50%)]" />
-                            <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_70%,rgba(255,255,255,0.05),transparent_50%)]" />
-                          </div>
-
-                          <div className="relative z-10 w-full max-w-md">
-                            {/* Document Icon */}
-                            <div className="w-24 h-24 rounded-3xl bg-gradient-to-br from-yellow-400/20 to-yellow-500/10 border border-[#D4AF37]/40 flex items-center justify-center mx-auto mb-8 shadow-[0_0_60px_rgba(250,204,21,0.15)]">
+                        <div className="w-full flex flex-col">
+                          {/* Document Header Bar */}
+                          <div className="flex items-center justify-between px-4 py-3 border-b border-white/10 bg-black/20">
+                            <div className="flex items-center gap-3">
                               {activeLesson.type === 'presentation' ? (
-                                <FileSpreadsheet size={48} className="text-[#D4AF37] drop-shadow-[0_0_20px_rgba(250,204,21,0.5)]" />
+                                <FileSpreadsheet size={18} className="text-[#D4AF37]" />
                               ) : (
-                                <FileText size={48} className="text-[#D4AF37] drop-shadow-[0_0_20px_rgba(250,204,21,0.5)]" />
+                                <FileText size={18} className="text-[#D4AF37]" />
                               )}
-                            </div>
-
-                            {/* Document Info */}
-                            <div className="text-center mb-8">
-                              <h3 className="text-2xl font-helvetica-bold text-white mb-2">
+                              <span className="text-white/90 text-sm font-medium truncate max-w-[200px] sm:max-w-[400px]">
                                 {activeLesson.fileName || 'Document'}
-                              </h3>
-                              <p className="text-zinc-400">
+                              </span>
+                              <span className="text-zinc-500 text-xs hidden sm:inline">
                                 {activeLesson.type === 'presentation'
-                                  ? `PowerPoint Presentation • ${activeLesson.pageCount || '—'} slides`
-                                  : `PDF Document • ${activeLesson.pageCount || '—'} pages`
+                                  ? `${activeLesson.pageCount || '—'} slides`
+                                  : `${activeLesson.pageCount || '—'} pages`
                                 }
-                              </p>
-                              {activeLesson.durationMin && (
-                                <p className="text-zinc-500 text-sm mt-1">
-                                  Estimated reading time: {activeLesson.durationMin} min
-                                </p>
-                              )}
+                              </span>
                             </div>
-
-                            {/* Action Buttons */}
-                            <div className="flex flex-col sm:flex-row gap-3 justify-center">
+                            <div className="flex items-center gap-2">
                               <button
-                                onClick={() => window.open(activeLesson.fileUrl, '_blank')}
-                                className="flex-1 px-6 py-4 rounded-2xl bg-[#D4AF37] hover:bg-yellow-500 text-black font-helvetica-bold transition-all flex items-center justify-center gap-3 shadow-[0_0_30px_rgba(250,204,21,0.3)] hover:shadow-[0_0_40px_rgba(250,204,21,0.4)]"
+                                onClick={() => {
+                                  const baseUrl = (import.meta.env.VITE_API_URL || 'http://localhost:3001/api').replace('/api', '');
+                                  const fullUrl = activeLesson.fileUrl?.startsWith('http')
+                                    ? activeLesson.fileUrl
+                                    : `${baseUrl}${activeLesson.fileUrl}`;
+                                  window.open(fullUrl, '_blank');
+                                }}
+                                className="p-2 rounded-lg hover:bg-white/10 text-zinc-400 hover:text-white transition-colors"
+                                title="Open in new tab"
                               >
-                                <ExternalLink size={20} />
-                                Open Document
+                                <ExternalLink size={16} />
                               </button>
                               <button
                                 onClick={downloadResource}
-                                className="flex-1 px-6 py-4 rounded-2xl bg-white/10 hover:bg-white/20 border border-white/20 text-white font-helvetica-bold transition-all flex items-center justify-center gap-3"
+                                className="p-2 rounded-lg hover:bg-white/10 text-zinc-400 hover:text-white transition-colors"
+                                title="Download"
                               >
-                                <Download size={20} />
-                                Download
+                                <Download size={16} />
                               </button>
                             </div>
+                          </div>
 
-                            {/* Completion hint */}
-                            <p className="text-center text-zinc-600 text-sm mt-6">
-                              Open or download the document to continue
-                            </p>
+                          {/* Embedded Document Viewer */}
+                          <div className="w-full" style={{ height: 'calc(100vh - 300px)', minHeight: '600px' }}>
+                            {(() => {
+                              const baseUrl = (import.meta.env.VITE_API_URL || 'http://localhost:3001/api').replace('/api', '');
+                              const fullUrl = activeLesson.fileUrl?.startsWith('http')
+                                ? activeLesson.fileUrl
+                                : `${baseUrl}${activeLesson.fileUrl}`;
+
+                              if (activeLesson.type === 'pdf') {
+                                return (
+                                  <iframe
+                                    src={`${fullUrl}#toolbar=1&navpanes=1&scrollbar=1&view=FitH`}
+                                    className="w-full h-full border-0 bg-zinc-900"
+                                    title={activeLesson.fileName || 'PDF Document'}
+                                    style={{ colorScheme: 'dark' }}
+                                  />
+                                );
+                              } else {
+                                // For PPT/PPTX - check if URL is publicly accessible
+                                const isLocalUrl = fullUrl.includes('localhost') || fullUrl.includes('127.0.0.1') || fullUrl.includes('192.168.');
+                                const encodedUrl = encodeURIComponent(fullUrl);
+                                const officeViewerUrl = `https://view.officeapps.live.com/op/embed.aspx?src=${encodedUrl}`;
+
+                                // For local files, show a styled preview interface
+                                if (isLocalUrl) {
+                                  return (
+                                    <div className="w-full h-full flex flex-col items-center justify-center bg-gradient-to-br from-zinc-900 via-zinc-900 to-zinc-800 p-8">
+                                      {/* Presentation Icon */}
+                                      <div className="w-32 h-32 rounded-3xl bg-gradient-to-br from-orange-500/20 to-orange-600/10 border border-orange-500/30 flex items-center justify-center mb-6 shadow-[0_0_60px_rgba(249,115,22,0.15)]">
+                                        <FileSpreadsheet size={64} className="text-orange-400" />
+                                      </div>
+
+                                      {/* File Info */}
+                                      <h3 className="text-xl font-bold text-white mb-2 text-center">
+                                        {activeLesson.fileName || 'Presentation'}
+                                      </h3>
+                                      <p className="text-zinc-400 text-sm mb-6">
+                                        PowerPoint Presentation • {activeLesson.pageCount || '—'} slides
+                                      </p>
+
+                                      {/* Action Buttons */}
+                                      <div className="flex gap-3">
+                                        <button
+                                          onClick={() => window.open(fullUrl, '_blank')}
+                                          className="px-6 py-3 rounded-xl bg-orange-500 hover:bg-orange-400 text-white font-semibold transition-all flex items-center gap-2 shadow-lg shadow-orange-500/25"
+                                        >
+                                          <ExternalLink size={18} />
+                                          Open Presentation
+                                        </button>
+                                        <button
+                                          onClick={downloadResource}
+                                          className="px-6 py-3 rounded-xl bg-white/10 hover:bg-white/20 border border-white/20 text-white font-semibold transition-all flex items-center gap-2"
+                                        >
+                                          <Download size={18} />
+                                          Download
+                                        </button>
+                                      </div>
+
+                                      <p className="text-zinc-600 text-xs mt-6 text-center max-w-md">
+                                        PowerPoint files open in your default presentation software for the best viewing experience.
+                                      </p>
+                                    </div>
+                                  );
+                                }
+
+                                // For public URLs, use Office Online viewer
+                                return (
+                                  <iframe
+                                    src={officeViewerUrl}
+                                    className="w-full h-full border-0 bg-zinc-900"
+                                    title={activeLesson.fileName || 'Presentation'}
+                                    allowFullScreen
+                                  />
+                                );
+                              }
+                            })()}
                           </div>
                         </div>
                       ) : (
@@ -2244,9 +3272,9 @@ const App: React.FC = () => {
                           const passed = scorePercent >= PASSING_SCORE;
                           return (
                             <div className="text-center space-y-8 animate-fade-in">
-                              <div className={`w-32 h-32 rounded-3xl mx-auto flex items-center justify-center shadow-[0_0_60px_${passed ? 'rgba(34,197,94,0.3)' : 'rgba(239,68,68,0.3)'}] ${passed
-                                ? 'bg-gradient-to-br from-green-400/30 to-green-500/10 border border-green-400/40'
-                                : 'bg-gradient-to-br from-red-400/30 to-red-500/10 border border-red-400/40'
+                              <div className={`w-32 h-32 rounded-3xl mx-auto flex items-center justify-center ${passed
+                                ? 'bg-gradient-to-br from-green-400/30 to-green-500/10 border border-green-400/40 shadow-[0_0_60px_rgba(34,197,94,0.3)]'
+                                : 'bg-gradient-to-br from-red-400/30 to-red-500/10 border border-red-400/40 shadow-[0_0_60px_rgba(239,68,68,0.3)]'
                                 }`}>
                                 {passed ? (
                                   <Trophy size={64} className="text-green-400 drop-shadow-[0_0_25px_rgba(34,197,94,0.6)]" />
@@ -2403,6 +3431,42 @@ const App: React.FC = () => {
               </button>
             </div>
           </div>
+        </div>
+      </div>
+    );
+  };
+
+  // AI Guide View - Full-screen chatbot integrated with sidebar
+  const AIGuideView = () => {
+    return (
+      <div className="min-h-screen md:ml-64 bg-gradient-to-br from-zinc-900 via-zinc-800 to-zinc-900">
+        {/* Header */}
+        <div className="sticky top-0 z-20 bg-zinc-900/80 backdrop-blur-xl border-b border-white/[0.06]">
+          <div className="px-6 py-4 flex items-center justify-between">
+            <div className="flex items-center gap-4">
+              <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-cyan-500 to-teal-500 flex items-center justify-center shadow-lg shadow-cyan-500/20">
+                <Bot size={24} className="text-white" />
+              </div>
+              <div>
+                <h1 className="text-xl font-helvetica-bold text-white">Isle AI Guide</h1>
+                <p className="text-sm text-zinc-400">Your personal Cayman Islands concierge</p>
+              </div>
+            </div>
+            <div className="flex items-center gap-2">
+              <span className="px-3 py-1.5 rounded-full bg-emerald-500/20 text-emerald-400 text-xs font-medium flex items-center gap-1.5">
+                <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+                Online
+              </span>
+            </div>
+          </div>
+        </div>
+
+        {/* Chatbot Panel - Embedded Full Screen */}
+        <div className="h-[calc(100vh-73px)]">
+          <ChatbotPanel
+            isOpen={true}
+            onClose={() => setCurrentView('DASHBOARD')}
+          />
         </div>
       </div>
     );
@@ -3376,10 +4440,30 @@ const App: React.FC = () => {
                           <div className="px-5 py-4 border-b border-white/[0.06] bg-white/[0.02]">
                             <div className="flex items-center gap-2">
                               <Eye size={16} className="text-[#D4AF37]" />
-                              <h3 className="text-sm font-helvetica-bold text-white">Uploaded File</h3>
+                              <h3 className="text-sm font-helvetica-bold text-white">Document Preview</h3>
                             </div>
                           </div>
-                          <div className="p-5">
+                          <div className="p-5 space-y-4">
+                            {/* Inline Preview for PDFs */}
+                            {activeLesson.type === 'pdf' && (
+                              <div className="rounded-xl overflow-hidden border border-white/10" style={{ height: '400px' }}>
+                                {(() => {
+                                  const baseUrl = (import.meta.env.VITE_API_URL || 'http://localhost:3001/api').replace('/api', '');
+                                  const fullUrl = activeLesson.fileUrl?.startsWith('http')
+                                    ? activeLesson.fileUrl
+                                    : `${baseUrl}${activeLesson.fileUrl}`;
+                                  return (
+                                    <iframe
+                                      src={`${fullUrl}#toolbar=1&navpanes=0&scrollbar=1&view=FitH`}
+                                      className="w-full h-full border-0 bg-zinc-900"
+                                      title={activeLesson.fileName || 'PDF Preview'}
+                                    />
+                                  );
+                                })()}
+                              </div>
+                            )}
+
+                            {/* File Info Card */}
                             <div className="flex items-center gap-4 p-4 rounded-xl bg-zinc-900/50 border border-white/[0.06]">
                               <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-blue-500/20 to-blue-600/10 border border-blue-500/30 flex items-center justify-center flex-shrink-0">
                                 {activeLesson.type === 'presentation' ? (
@@ -3396,7 +4480,13 @@ const App: React.FC = () => {
                                 </p>
                               </div>
                               <button
-                                onClick={() => window.open(activeLesson.fileUrl, '_blank')}
+                                onClick={() => {
+                                  const baseUrl = (import.meta.env.VITE_API_URL || 'http://localhost:3001/api').replace('/api', '');
+                                  const fullUrl = activeLesson.fileUrl?.startsWith('http')
+                                    ? activeLesson.fileUrl
+                                    : `${baseUrl}${activeLesson.fileUrl}`;
+                                  window.open(fullUrl, '_blank');
+                                }}
                                 className="px-4 py-2.5 rounded-xl bg-[#D4AF37]/10 hover:bg-[#D4AF37]/20 border border-[#D4AF37]/30 text-[#D4AF37] text-sm font-helvetica-bold transition-all flex items-center gap-2"
                               >
                                 <ExternalLink size={16} />
@@ -4432,78 +5522,61 @@ const App: React.FC = () => {
 
   return (
     <ToastProvider>
-      <div className="font-helvetica text-slate-50 selection:bg-yellow-400/30 h-screen overflow-hidden animate-page-entrance">
+      <div className={`font-helvetica text-slate-50 selection:bg-yellow-400/30 ${currentView === 'LANDING' || currentView === 'AUTH' ? 'min-h-screen' : 'h-screen overflow-hidden'} bg-gradient-to-br from-zinc-900 via-zinc-800 to-zinc-900`}>
         <LiquidBackground />
 
         {/* Sidebar for authenticated views except player */}
-        {(currentView === 'DASHBOARD' || currentView === 'ADMIN') && <Sidebar />}
+        {(currentView === 'DASHBOARD' || currentView === 'ADMIN' || currentView === 'AI_GUIDE') && <Sidebar />}
 
         {/* Main Content Router */}
-        <main className="h-screen overflow-hidden relative">
-          <AnimatePresence mode="wait">
-            {currentView === 'LANDING' && (
-              <PageTransition key="landing">
-                <LandingView />
-              </PageTransition>
-            )}
-            {currentView === 'AUTH' && (
-              <PageTransition key="auth">
-                <AuthView />
-              </PageTransition>
-            )}
-            {currentView === 'DASHBOARD' && (
-              <PageTransition key="dashboard">
-                <DashboardView />
-              </PageTransition>
-            )}
-            {currentView === 'COURSE_PLAYER' && (
-              <PageTransition key="player">
-                <PlayerView />
-              </PageTransition>
-            )}
-            {currentView === 'ADMIN' && (
-              <PageTransition key="admin">
-                <AdminView />
-              </PageTransition>
-            )}
-          </AnimatePresence>
+        <main className={`${currentView === 'LANDING' || currentView === 'AUTH' ? 'min-h-screen' : 'h-screen overflow-hidden'} relative`}>
+          {currentView === 'LANDING' && <LandingView />}
+          {currentView === 'AUTH' && <AuthView />}
+          {currentView === 'DASHBOARD' && <DashboardView />}
+          {currentView === 'COURSE_PLAYER' && <PlayerView />}
+          {currentView === 'ADMIN' && <AdminView />}
+          {currentView === 'AI_GUIDE' && <AIGuideView />}
         </main>
 
-        {/* Isle AI Chatbot Floating Button */}
-        <motion.button
-          initial={{ scale: 0, opacity: 0 }}
-          animate={{ scale: 1, opacity: 1 }}
-          transition={{ delay: 1, type: 'spring', stiffness: 200 }}
-          onClick={() => setIsChatbotOpen(true)}
-          className="fixed bottom-6 right-6 z-40 group"
-        >
-          <div className="relative">
-            {/* Glow effect */}
-            <div className="absolute inset-0 bg-gradient-to-r from-cyan-500 to-teal-500 rounded-full blur-lg opacity-50 group-hover:opacity-75 transition-opacity" />
-            {/* Button */}
-            <div className="relative w-14 h-14 rounded-full bg-gradient-to-r from-cyan-500 to-teal-500 flex items-center justify-center shadow-2xl hover:scale-110 transition-transform cursor-pointer">
-              <Sparkles className="text-white" size={24} />
+        {/* Isle AI Chatbot Floating Button - Hidden on landing and auth pages */}
+        {currentView !== 'LANDING' && currentView !== 'AUTH' && (
+          <motion.button
+            initial={{ scale: 0, opacity: 0 }}
+            animate={{ scale: 1, opacity: 1 }}
+            transition={{ delay: 1, type: 'spring', stiffness: 200 }}
+            onClick={() => setIsChatbotOpen(true)}
+            className="fixed bottom-6 right-6 z-40 group"
+          >
+            <div className="relative">
+              {/* Glow effect */}
+              <div className="absolute inset-0 bg-gradient-to-r from-cyan-500 to-teal-500 rounded-full blur-lg opacity-50 group-hover:opacity-75 transition-opacity" />
+              {/* Button */}
+              <div className="relative w-14 h-14 rounded-full bg-gradient-to-r from-cyan-500 to-teal-500 flex items-center justify-center shadow-2xl hover:scale-110 transition-transform cursor-pointer">
+                <Sparkles className="text-white" size={24} />
+              </div>
+              {/* Tooltip */}
+              <div className="absolute bottom-full right-0 mb-2 px-3 py-1.5 bg-zinc-800 rounded-lg text-sm text-white whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none shadow-xl">
+                Isle AI Concierge
+                <div className="absolute top-full right-4 w-2 h-2 bg-zinc-800 rotate-45 -mt-1" />
+              </div>
             </div>
-            {/* Tooltip */}
-            <div className="absolute bottom-full right-0 mb-2 px-3 py-1.5 bg-zinc-800 rounded-lg text-sm text-white whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none shadow-xl">
-              Isle AI Concierge
-              <div className="absolute top-full right-4 w-2 h-2 bg-zinc-800 rotate-45 -mt-1" />
-            </div>
-          </div>
-        </motion.button>
+          </motion.button>
+        )}
 
-        {/* Chatbot Panel */}
-        <AnimatePresence>
-          {isChatbotOpen && (
-            <ChatbotPanel
-              isOpen={isChatbotOpen}
-              onClose={() => setIsChatbotOpen(false)}
-            />
-          )}
-        </AnimatePresence>
+        {/* Chatbot Panel - Hidden on landing and auth pages */}
+        {currentView !== 'LANDING' && currentView !== 'AUTH' && (
+          <AnimatePresence>
+            {isChatbotOpen && (
+              <ChatbotPanel
+                isOpen={isChatbotOpen}
+                onClose={() => setIsChatbotOpen(false)}
+              />
+            )}
+          </AnimatePresence>
+        )}
 
         {/* Knowledge Admin Button (Admin only) */}
-        {currentUser?.role === 'ADMIN' && !isChatbotOpen && !isKnowledgeAdminOpen && (
+        {user?.role === 'ADMIN' && !isChatbotOpen && !isKnowledgeAdminOpen && (
           <motion.button
             initial={{ scale: 0, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}

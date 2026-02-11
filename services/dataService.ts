@@ -56,15 +56,13 @@ export const dataService = {
   login: async (email: string, password: string): Promise<User | null> => {
     if (USE_MOCK) {
       await delay(500);
-      // Mock login - accept any .gov email
-      if (email.includes('.gov') || email.includes('gov.')) {
-        return {
-          ...MOCK_USER,
-          email,
-          name: email.split('@')[0].replace('.', ' '),
-        };
-      }
-      throw new Error('Invalid credentials');
+      // Mock login - accept any email for demo
+      localStorage.setItem('isle_mock_auth', 'true');
+      return {
+        ...MOCK_USER,
+        email,
+        name: email.split('@')[0].replace(/[._]/g, ' '),
+      };
     }
 
     try {
@@ -117,6 +115,7 @@ export const dataService = {
 
   logout: () => {
     setAuthToken(null);
+    localStorage.removeItem('isle_mock_auth');
   },
 
   getUser: async (): Promise<User> => {
@@ -142,7 +141,8 @@ export const dataService = {
   },
 
   isAuthenticated: () => {
-    return USE_MOCK ? true : !!getAuthToken();
+    // Mock mode: check localStorage flag; Real mode: check JWT token
+    return USE_MOCK ? !!localStorage.getItem('isle_mock_auth') : !!getAuthToken();
   },
 
   // ============================================

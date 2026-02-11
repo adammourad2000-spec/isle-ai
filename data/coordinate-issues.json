@@ -1,0 +1,787 @@
+{
+  "noCoordinates": [],
+  "zeroCoordinates": [],
+  "outsideCayman": [],
+  "lowPrecision": [
+    {
+      "id": "google-ChIJUa2tJQCLJY8RBYKFlxbAO0s",
+      "name": "Crystal Caves Old Man Cay Grand Cayman",
+      "lat": 19.3369,
+      "lng": -81.176,
+      "latDecimals": 4,
+      "lngDecimals": 3
+    }
+  ],
+  "islandMismatch": [],
+  "duplicateCoords": [
+    {
+      "coord": "19.29383,-81.38378",
+      "count": 3,
+      "places": [
+        {
+          "id": "serp-ChIJE_Kga1iGJY8RPU-DON8ZQRM-548yx42yk",
+          "name": "Wall to Wall Diving"
+        },
+        {
+          "id": "serp-ChIJj481C52HJY8RX7-KG4wpN-E-e025mhzv7",
+          "name": "Off The Wall Divers"
+        },
+        {
+          "id": "serp-ChIJtfKAaViGJY8RU5OGduskWO0-9cjtux0vw",
+          "name": "Atlantis Dive Center"
+        }
+      ]
+    },
+    {
+      "coord": "19.33618,-81.38062",
+      "count": 5,
+      "places": [
+        {
+          "id": "osm-node/4108152426",
+          "name": "Seven"
+        },
+        {
+          "id": "osm-node/4108177404",
+          "name": "Taikun"
+        },
+        {
+          "id": "serp-ChIJl0qY6ryHJY8R8LWooHipgQQ-g830lu09m",
+          "name": "The Ritz-Carlton Golf Club, Grand Cayman"
+        },
+        {
+          "id": "google-ChIJW1EtmVCHJY8R5G0TP0ohbSI",
+          "name": "The Ritz-Carlton Spa, Grand Cayman"
+        },
+        {
+          "id": "google-ChIJXbXCCeSHJY8RWgmgzmadDDY",
+          "name": "Cupboard"
+        }
+      ]
+    },
+    {
+      "coord": "19.35705,-81.37824",
+      "count": 3,
+      "places": [
+        {
+          "id": "serp-ChIJ03tlaISHJY8RRIj3Qp4iRlA-eeq0n9z7d",
+          "name": "Cayman Islands Yacht Club"
+        },
+        {
+          "id": "serp-ChIJqdRN84KHJY8RLWISfURem-k-7lq9t7yum",
+          "name": "Island Breeze Charters Cayman"
+        },
+        {
+          "id": "serp-ChIJm5LmGO2HJY8RAHbUqiBByFg-fsfs4c4gd",
+          "name": "Easy Does It Charters"
+        }
+      ]
+    },
+    {
+      "coord": "19.37671,-81.38142",
+      "count": 2,
+      "places": [
+        {
+          "id": "serp-ChIJUan6nnd9L48RXwXiEDIXuQo-9dk8pi7vn",
+          "name": "Calypso Grill Cayman Islands"
+        },
+        {
+          "id": "osm-node/764608037",
+          "name": "Calypso Grill"
+        }
+      ]
+    },
+    {
+      "coord": "19.35629,-81.37643",
+      "count": 2,
+      "places": [
+        {
+          "id": "serp-ChIJVzcxOISHJY8RuY6t3f_QiwA-7g3iryevu",
+          "name": "Morgan's Seafood Restaurant"
+        },
+        {
+          "id": "osm-node/775748060",
+          "name": "Morgans Harbour Marina"
+        }
+      ]
+    },
+    {
+      "coord": "19.32207,-81.37772",
+      "count": 2,
+      "places": [
+        {
+          "id": "serp-ChIJH50XR6yHJY8RfruPl3EQgqY-8hlab12kp",
+          "name": "Crazy Crab - Private Boat Charters"
+        },
+        {
+          "id": "serp-ChIJyZRaTDeHJY8RkSQSAf-1tNU-yuoxe37i8",
+          "name": "Ananda Wellness"
+        }
+      ]
+    },
+    {
+      "coord": "19.38087,-81.41682",
+      "count": 2,
+      "places": [
+        {
+          "id": "serp-ChIJVVVVVZl9L48Rtz2V0qX1KfY-e637f9o3a",
+          "name": "Dolphin Discovery Grand Cayman"
+        },
+        {
+          "id": "osm-way/369704446",
+          "name": "Dolphin Cove"
+        }
+      ]
+    },
+    {
+      "coord": "19.38026,-81.41660",
+      "count": 2,
+      "places": [
+        {
+          "id": "serp-ChIJB7J19_p9L48RszT9PCFAT2M-gwkn02n9k",
+          "name": "Cayman Turtle Centre"
+        },
+        {
+          "id": "osm-way/62225858",
+          "name": "Boatswains Beach"
+        }
+      ]
+    },
+    {
+      "coord": "19.33280,-81.38009",
+      "count": 4,
+      "places": [
+        {
+          "id": "serp-ChIJW0wke0mHJY8Rq_D_5pwpTtQ-mb80f425v",
+          "name": "Engel & Völkers Cayman"
+        },
+        {
+          "id": "google-ChIJF9v6UF6GJY8RLSUJ9SZk-ag",
+          "name": "Travel Pros"
+        },
+        {
+          "id": "google-ChIJJ5jZ7qaHJY8Rv3PMu9nFoj0",
+          "name": "Island Naturals Cafe"
+        },
+        {
+          "id": "google-ChIJpZrr66aHJY8ResNnjS2Ax4M",
+          "name": "Alhambra Bank & Trust"
+        }
+      ]
+    },
+    {
+      "coord": "19.28891,-81.37805",
+      "count": 2,
+      "places": [
+        {
+          "id": "serp-ChIJT13xaPaHJY8RT0Tv4qK1d2E-jmitws2vz",
+          "name": "International Medical Group, Grand Cayman"
+        },
+        {
+          "id": "google-ChIJGyU6lmaGJY8RYMm1n6f5YXQ",
+          "name": "Pasadora Place"
+        }
+      ]
+    },
+    {
+      "coord": "19.29351,-81.37656",
+      "count": 2,
+      "places": [
+        {
+          "id": "serp-ChIJrQmHRWeGJY8ROQp1Y6DlIP0-fkxnla55x",
+          "name": "The Brasserie"
+        },
+        {
+          "id": "google-ChIJjdkAuieHJY8RCP_9oXx1I54",
+          "name": "ENERGY Pilates"
+        }
+      ]
+    },
+    {
+      "coord": "19.32560,-81.38123",
+      "count": 3,
+      "places": [
+        {
+          "id": "serp-ChIJj16JILeHJY8RlGE0Durue4I-4s3od7rd5",
+          "name": "The Backroom"
+        },
+        {
+          "id": "google-ChIJL5KBCfuHJY8RqBW5QUf5q_0",
+          "name": "That Bird in Paradise"
+        },
+        {
+          "id": "google-ChIJy8sasfGHJY8RYHqaN2cRPnk",
+          "name": "The Conscious Closet"
+        }
+      ]
+    },
+    {
+      "coord": "19.29600,-81.35915",
+      "count": 3,
+      "places": [
+        {
+          "id": "serp-ChIJCT3nKiqHJY8RqA28cbLUyl8-q8f8yt1pr",
+          "name": "Alamo Rent A Car"
+        },
+        {
+          "id": "google-ChIJm7VBe36HJY8RsVtHYgvvnfQ",
+          "name": "National Car Rental"
+        },
+        {
+          "id": "google-ChIJT7wbPRuHJY8RaNqAuThFhB4",
+          "name": "Enterprise Rent-A-Car"
+        }
+      ]
+    },
+    {
+      "coord": "19.32719,-81.38110",
+      "count": 2,
+      "places": [
+        {
+          "id": "serp-ChIJEzlaRv-GJY8RIjKhxgYFnNc-pgzeriyz5",
+          "name": "Property Cayman"
+        },
+        {
+          "id": "google-ChIJha4OWKiHJY8RZtmUPSo4pIk",
+          "name": "George Carvalho"
+        }
+      ]
+    },
+    {
+      "coord": "19.32893,-81.38058",
+      "count": 8,
+      "places": [
+        {
+          "id": "serp-ChIJ96ExZqaHJY8RyjbsCUSZ8yc-rk8gsf0s3",
+          "name": "Nelsons Legal"
+        },
+        {
+          "id": "google-ChIJHYHqqaCHJY8Rqd806iXH5Fk",
+          "name": "Integra Healthcare Ltd"
+        },
+        {
+          "id": "google-ChIJcSZYX-GHJY8RrQJjghNXIp8",
+          "name": "Dr Davide Altamura - Dermatologist & Dermatosurgeon"
+        },
+        {
+          "id": "google-ChIJ7TNkaHOHJY8RW9bkG5dFLuI",
+          "name": "Aurora Life"
+        },
+        {
+          "id": "google-ChIJ00NWujCHJY8Rm6JpFp1vncs",
+          "name": "Dr Rajnish Kumar- Diabetes Specialist Cayman Islands"
+        }
+      ]
+    },
+    {
+      "coord": "19.70928,-79.80625",
+      "count": 3,
+      "places": [
+        {
+          "id": "osm-node/5117834889",
+          "name": "Le Soleil d'Or - 1"
+        },
+        {
+          "id": "osm-node/5117836049",
+          "name": "Le Soleil d'Or - 2"
+        },
+        {
+          "id": "serp-ChIJHaNN7jpCKI8R8MDFypNB0-U-25aji7lh7",
+          "name": "Le Soleil d'Or"
+        }
+      ]
+    },
+    {
+      "coord": "19.35166,-81.38320",
+      "count": 2,
+      "places": [
+        {
+          "id": "osm-way/62225876",
+          "name": "Kimpton Seafire Resort and Spa"
+        },
+        {
+          "id": "serp-ChIJafu7Rp2HJY8R0tCKW_lnbbI-dr12zcpjz",
+          "name": "Kimpton Seafire Resort + Spa"
+        }
+      ]
+    },
+    {
+      "coord": "19.33596,-81.37934",
+      "count": 2,
+      "places": [
+        {
+          "id": "osm-way/62225881",
+          "name": "The Ritz-Carlton"
+        },
+        {
+          "id": "serp-ChIJk2RGIaGHJY8RESPsMyA4tYk-wha1b0cae",
+          "name": "The Ritz-Carlton, Grand Cayman"
+        }
+      ]
+    },
+    {
+      "coord": "19.31746,-81.38354",
+      "count": 2,
+      "places": [
+        {
+          "id": "osm-way/80290301",
+          "name": "Grand Cayman Marriott Beach Resort"
+        },
+        {
+          "id": "serp-ChIJhx0SqaqHJY8RaBgXRgAQwzA-0h11ha5f6",
+          "name": "Grand Cayman Marriott Resort"
+        }
+      ]
+    },
+    {
+      "coord": "19.32532,-81.38123",
+      "count": 3,
+      "places": [
+        {
+          "id": "osm-node/3758666509",
+          "name": "Blue Cilantro"
+        },
+        {
+          "id": "google-ChIJN9uKBUuHJY8R0pauZSy1uJ8",
+          "name": "Elevation Health & Physiotherapy (EHP) Cayman"
+        },
+        {
+          "id": "google-ChIJi_xaaQmHJY8RJIobem_5dnA",
+          "name": "Marc Kayem MD"
+        }
+      ]
+    },
+    {
+      "coord": "19.26652,-81.29104",
+      "count": 2,
+      "places": [
+        {
+          "id": "osm-node/697199521",
+          "name": "Pedro St. James"
+        },
+        {
+          "id": "critical-pedro-castle",
+          "name": "Pedro St. James National Historic Site"
+        }
+      ]
+    },
+    {
+      "coord": "19.29399,-81.38302",
+      "count": 2,
+      "places": [
+        {
+          "id": "osm-node/3773919727",
+          "name": "Diamond Marquise"
+        },
+        {
+          "id": "osm-node/3774323567",
+          "name": "Diamond Marquese"
+        }
+      ]
+    },
+    {
+      "coord": "19.32776,-81.38209",
+      "count": 2,
+      "places": [
+        {
+          "id": "serp-ChIJB4xY5leGJY8RVMHdIoZ-wjM-5hybtuskb",
+          "name": "Palm Heights"
+        },
+        {
+          "id": "google-ChIJyTVSKAiHJY8Rg2gQwH2cxX0",
+          "name": "Garden club"
+        }
+      ]
+    },
+    {
+      "coord": "19.32198,-81.37811",
+      "count": 2,
+      "places": [
+        {
+          "id": "serp-ChIJB03t_F-GJY8RaVvnwnVa23E-3dzdqncny",
+          "name": "Luxury Cayman Villas"
+        },
+        {
+          "id": "google-ChIJBdzLCKyHJY8RG22x9GmLtGA",
+          "name": "Gift Baskets for Tallinn"
+        }
+      ]
+    },
+    {
+      "coord": "19.33123,-81.38058",
+      "count": 2,
+      "places": [
+        {
+          "id": "osm-way/525200498",
+          "name": "Tahu"
+        },
+        {
+          "id": "google-ChIJF54qKqqHJY8RWXBlbbwjJ1Q",
+          "name": "Centre For Women, Family & Child Health"
+        }
+      ]
+    },
+    {
+      "coord": "19.28226,-81.34921",
+      "count": 2,
+      "places": [
+        {
+          "id": "osm-way/361825308",
+          "name": "Department of Motor Vehicles"
+        },
+        {
+          "id": "osm-way/81123667",
+          "name": "Department of Vehicle and Driver's Licensing"
+        }
+      ]
+    },
+    {
+      "coord": "19.29367,-81.38333",
+      "count": 3,
+      "places": [
+        {
+          "id": "google-ChIJtSxrwV-GJY8REyK8ds1JnOc",
+          "name": "Cartier Grand Cayman"
+        },
+        {
+          "id": "serp-ChIJExixktWHJY8RaF-b3-ah5u0-ffco0eqn5",
+          "name": "The Well Cayman - Medical, Clinical, Functional"
+        },
+        {
+          "id": "osm-node/4904215590",
+          "name": "Cayman Creperie"
+        }
+      ]
+    },
+    {
+      "coord": "19.34680,-81.09103",
+      "count": 3,
+      "places": [
+        {
+          "id": "google-ChIJRWaahfb1JY8R-dTifDlsfNA",
+          "name": "Subway"
+        },
+        {
+          "id": "google-ChIJH5ePV3j1JY8RuaWikqysRKM",
+          "name": "Beach Bar"
+        },
+        {
+          "id": "google-ChIJeZBMxfb1JY8RiGH1uc60IOg",
+          "name": "Castaways Cayman Beach Resort"
+        }
+      ]
+    },
+    {
+      "coord": "19.36312,-81.39967",
+      "count": 2,
+      "places": [
+        {
+          "id": "osm-node/8817882426",
+          "name": "USS Kittiwake Shipwreck"
+        },
+        {
+          "id": "serp-ChIJ6_aid2GHJY8RKe9uxoBBwzU-z16j9zq72",
+          "name": "Kittiwake Shipwreck & Artificial Reef"
+        }
+      ]
+    },
+    {
+      "coord": "19.27269,-81.31390",
+      "count": 2,
+      "places": [
+        {
+          "id": "osm-way/1134527123",
+          "name": "Spotts Beach"
+        },
+        {
+          "id": "serp-ChIJbRTjYMmIJY8RwJ-5bWXGxFA-wik7islfp",
+          "name": "Spotts Public Beach"
+        }
+      ]
+    },
+    {
+      "coord": "19.29421,-81.38007",
+      "count": 2,
+      "places": [
+        {
+          "id": "serp-ChIJba5aPC6HJY8R8YDGwQ46O_U-9rmcjzw4g",
+          "name": "VIP Vibes Cayman"
+        },
+        {
+          "id": "osm-way/373717147",
+          "name": "Royal Cayman Islands Police Service"
+        }
+      ]
+    },
+    {
+      "coord": "19.33848,-81.38127",
+      "count": 2,
+      "places": [
+        {
+          "id": "osm-node/4108390206",
+          "name": "Ferdinand’s at The Westin Grand Cayman"
+        },
+        {
+          "id": "osm-node/4108383592",
+          "name": "Beach House at The Westin Grand Cayman"
+        }
+      ]
+    },
+    {
+      "coord": "19.29680,-81.38226",
+      "count": 2,
+      "places": [
+        {
+          "id": "serp-ChIJd2m4C1-GJY8REX2L08JlPlE-r7boax0qj",
+          "name": "Cayman Gifts & Souvenirs"
+        },
+        {
+          "id": "google-ChIJrVjGAV-GJY8RdsCYcNQlx-E",
+          "name": "EFFY Jewelry"
+        }
+      ]
+    },
+    {
+      "coord": "19.32054,-81.38157",
+      "count": 2,
+      "places": [
+        {
+          "id": "serp-ChIJCwtbUKqHJY8R2PVC-N55M_4-7mh6ace4s",
+          "name": "Chelsea's Bar"
+        },
+        {
+          "id": "google-ChIJgbtRamWHJY8RdVx-bIf_ot8",
+          "name": "Cayman Yoga Club"
+        }
+      ]
+    },
+    {
+      "coord": "19.27299,-81.29754",
+      "count": 2,
+      "places": [
+        {
+          "id": "serp-ChIJF_4JaNaIJY8Rzpz0A0YUS0w-oldehfdqj",
+          "name": "Countryside Shopping Village"
+        },
+        {
+          "id": "google-ChIJXzKzfNaIJY8R9SF9AZlm8GA",
+          "name": "PRO FITNESS (GYM OPEN 24/7)"
+        }
+      ]
+    },
+    {
+      "coord": "19.34502,-81.38113",
+      "count": 2,
+      "places": [
+        {
+          "id": "serp-ChIJpyP-CJGHJY8RzDF-WRJz8IY-kmxqcrbsq",
+          "name": "Mario’s"
+        },
+        {
+          "id": "google-ChIJ_XFeAO-HJY8R4sX5I24nVgg",
+          "name": "Island Naturals The Grove"
+        }
+      ]
+    },
+    {
+      "coord": "19.28883,-81.37841",
+      "count": 2,
+      "places": [
+        {
+          "id": "osm-node/5967117913",
+          "name": "Full of Beans"
+        },
+        {
+          "id": "google-ChIJQ8_3WlqHJY8R6ndlEL_ftR0",
+          "name": "COFFEE POINT"
+        }
+      ]
+    },
+    {
+      "coord": "19.37917,-81.40647",
+      "count": 2,
+      "places": [
+        {
+          "id": "osm-way/369190560",
+          "name": "Hell Post Office"
+        },
+        {
+          "id": "osm-node/5396260622",
+          "name": "Hell’s Souvenirs"
+        }
+      ]
+    },
+    {
+      "coord": "19.33267,-81.08513",
+      "count": 2,
+      "places": [
+        {
+          "id": "serp-ChIJ-XhV5-X1JY8RcvsyzpcKg9k-qemwyxf9c",
+          "name": "Colliers Public Beach"
+        },
+        {
+          "id": "osm-way/373441713",
+          "name": "Colliers Beach"
+        }
+      ]
+    },
+    {
+      "coord": "19.27663,-81.39097",
+      "count": 4,
+      "places": [
+        {
+          "id": "osm-node/4406200416",
+          "name": "Smith Barcadere"
+        },
+        {
+          "id": "osm-way/1135229187",
+          "name": "Smiths Cove"
+        },
+        {
+          "id": "serp-ChIJv_qAc4SGJY8RiBnPj-cgdnA-soj2zt0wi",
+          "name": "Smith's Barcadere"
+        },
+        {
+          "id": "osm-node/10281454009",
+          "name": "Smith Cove Snorkel Area"
+        }
+      ]
+    },
+    {
+      "coord": "19.37003,-81.40335",
+      "count": 2,
+      "places": [
+        {
+          "id": "osm-node/6954160312",
+          "name": "West Bay Public Beach"
+        },
+        {
+          "id": "serp-ChIJQV4zdIt9L48RzbGALRtZyBw-mtjvaarbm",
+          "name": "West Bay Beach"
+        }
+      ]
+    },
+    {
+      "coord": "19.27298,-81.29693",
+      "count": 2,
+      "places": [
+        {
+          "id": "google-ChIJrwkgA_2JJY8RmJRCxdTM5bM",
+          "name": "Cimboco"
+        },
+        {
+          "id": "google-ChIJAVHgqSiJJY8RUCCNn54uS5s",
+          "name": "Country Corner"
+        }
+      ]
+    },
+    {
+      "coord": "19.37886,-81.40678",
+      "count": 2,
+      "places": [
+        {
+          "id": "osm-node/1550931122",
+          "name": "Hell"
+        },
+        {
+          "id": "serp-ChIJL6lYOO19L48R30YHBck01j0-neql6uohs",
+          "name": "Hell, Grand Cayman"
+        }
+      ]
+    },
+    {
+      "coord": "19.34537,-81.08883",
+      "count": 2,
+      "places": [
+        {
+          "id": "serp-ChIJ01qy2vb1JY8RhKzN5sKNh2U-wxuzbo5dy",
+          "name": "THE LONDONER AT MORRITT'S TORTUGA CLUB"
+        },
+        {
+          "id": "google-ChIJ19zsVLT1JY8R3S9sCS5yHrg",
+          "name": "Morritt's Plaza"
+        }
+      ]
+    },
+    {
+      "coord": "19.28636,-81.34046",
+      "count": 2,
+      "places": [
+        {
+          "id": "osm-way/1025320763",
+          "name": "Church of God Holiness"
+        },
+        {
+          "id": "osm-way/1025333901",
+          "name": "Church of God (Holiness)"
+        }
+      ]
+    },
+    {
+      "coord": "19.29408,-81.37988",
+      "count": 2,
+      "places": [
+        {
+          "id": "google-ChIJp0VdO16GJY8R9h7mgPo70xk",
+          "name": "Elizabethan Square"
+        },
+        {
+          "id": "serp-ChIJmylMw_aHJY8RWvirwvbKocM-l5mulm2j0",
+          "name": "Robinson Immigration And Concierge service"
+        }
+      ]
+    },
+    {
+      "coord": "19.32217,-81.24087",
+      "count": 8,
+      "places": [
+        {
+          "id": "serp-ChIJYexJ3aGHJY8RMRwXR9gbOhM-xqui248n3",
+          "name": "Grand Cayman"
+        },
+        {
+          "id": "google-ChIJGX0uqUyLJY8Rjim2FFS4OZs",
+          "name": "Kandie's Corner"
+        },
+        {
+          "id": "google-ChIJ1ZIuSIuLJY8RlXgDO_ucVPs",
+          "name": "Brady's Car Rental"
+        },
+        {
+          "id": "google-ChIJk4AWWSKLJY8R8FsitTVV0oo",
+          "name": "Lets Travel"
+        },
+        {
+          "id": "google-ChIJgWCymc6LJY8RTTWvQP5wvKk",
+          "name": "Little Cayman Museum"
+        }
+      ]
+    },
+    {
+      "coord": "19.32162,-81.37893",
+      "count": 7,
+      "places": [
+        {
+          "id": "google-ChIJm8_q0MWHJY8RDSrPEoPrVCw",
+          "name": "Dr Vineetha Binoy | Best Oncologist | Cancer care | Health City Camana Bay Clinic"
+        },
+        {
+          "id": "google-ChIJMQ9mVjKHJY8R767BjED0XfQ",
+          "name": "Dr Manoj Kumar Rangapa | Surgical Gastroenterologist | Health City Camana Bay Clinic"
+        },
+        {
+          "id": "google-ChIJb7UEzhGHJY8Rm_fuddhvvqc",
+          "name": "Dr Cyril Alex | Consultant Gastroenterologist | Health City Camana Bay Clinic"
+        },
+        {
+          "id": "google-ChIJnQcFCt6HJY8RLlkD0TT0EL4",
+          "name": "Dr Sandeep Mahendra | General Physician | Health City Camana Bay Clinic"
+        },
+        {
+          "id": "google-ChIJfehfB_mHJY8RtTG48NLnS1k",
+          "name": "Dr Jaganmurugan Ramamurthy | Surgical Oncologist | Health City Camana Bay Clinic"
+        }
+      ]
+    }
+  ],
+  "suspiciousDefaults": []
+}

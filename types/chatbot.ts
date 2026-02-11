@@ -6,36 +6,72 @@
 // ============ KNOWLEDGE BASE (RAG) ============
 
 export type KnowledgeCategory =
+  // Accommodation
   | 'hotel'
+  | 'villa_rental'
+  // Dining & Nightlife
   | 'restaurant'
-  | 'beach'
-  | 'attraction'
-  | 'activity'
-  | 'transport'
+  | 'bar'
   | 'nightlife'
-  | 'shopping'
-  | 'spa_wellness'
+  // Beaches & Water
+  | 'beach'
   | 'diving_snorkeling'
   | 'water_sports'
+  | 'boat_charter'
+  | 'superyacht'
+  // Activities & Attractions
+  | 'attraction'
+  | 'activity'
   | 'golf'
+  | 'shopping'
+  // Wellness
+  | 'spa_wellness'
+  | 'spa'
+  | 'medical_vip'
+  // Transportation
+  | 'transport'
+  | 'transportation'
+  | 'chauffeur'
+  | 'private_jet'
+  | 'flight'
+  | 'luxury_car_rental'
+  // VIP & Premium Services
+  | 'concierge'
+  | 'vip_escort'
+  | 'security_services'
+  | 'service'
+  // Financial & Legal
+  | 'financial_services'
+  | 'legal_services'
   | 'real_estate'
   | 'investment'
-  | 'villa_rental'
-  | 'boat_charter'
-  | 'private_jet'
-  | 'chauffeur'
-  | 'concierge'
+  // Information
   | 'history'
   | 'culture'
   | 'wildlife'
   | 'weather'
   | 'visa_travel'
   | 'emergency'
-  | 'general_info';
+  | 'general_info'
+  // Events & Festivals
+  | 'event'
+  | 'festival';
 
 export type PriceRange = '$' | '$$' | '$$$' | '$$$$' | '$$$$$';
 
 export type ServiceTier = 'standard' | 'premium' | 'luxury' | 'ultra_luxury';
+
+// Opening hours info from SerpAPI
+export interface OpeningHoursInfo {
+  raw?: string | null;
+  isOpen?: boolean | null;
+  todayHours?: {
+    opens?: string;
+    closes?: string;
+  } | null;
+  schedule?: Record<string, { open: string; close: string }>;
+  formattedDisplay?: string | null;
+}
 
 // Core knowledge node - the building block of RAG
 export interface KnowledgeNode {
@@ -48,13 +84,19 @@ export interface KnowledgeNode {
   description: string;
   shortDescription: string;
 
-  // Location
+  // Location - supports both direct lat/lng and nested coordinates format
   location: {
-    address: string;
-    district: string;
-    island: string; // Grand Cayman, Cayman Brac, Little Cayman
-    latitude: number;
-    longitude: number;
+    address?: string;
+    district?: string;
+    area?: string;
+    island?: string; // Grand Cayman, Cayman Brac, Little Cayman
+    latitude?: number;
+    longitude?: number;
+    // Alternative nested coordinates format
+    coordinates?: {
+      lat: number;
+      lng: number;
+    };
     googlePlaceId?: string;
   };
 
@@ -80,10 +122,12 @@ export interface KnowledgeNode {
   // Business info
   business: {
     priceRange: PriceRange;
-    priceFrom?: number;
-    priceTo?: number;
+    priceFrom?: number | null;
+    priceTo?: number | null;
+    pricePerUnit?: string | null;
+    priceDescription?: string | null;
     currency: string;
-    openingHours?: {
+    openingHours?: OpeningHoursInfo | {
       [key: string]: { open: string; close: string } | 'closed';
     };
     reservationRequired?: boolean;
@@ -103,6 +147,7 @@ export interface KnowledgeNode {
   // Tags for semantic search
   tags: string[];
   keywords: string[];
+  highlights?: string[]; // Key highlights/features of the place
 
   // For RAG embedding
   embedding?: number[];
@@ -250,17 +295,18 @@ export interface PlaceCard {
   nodeId: string;
   name: string;
   category: KnowledgeCategory;
-  thumbnail: string;
-  rating: number;
-  reviewCount: number;
-  priceRange: PriceRange;
-  shortDescription: string;
-  location: {
-    latitude: number;
-    longitude: number;
-    district: string;
+  thumbnail?: string;
+  rating?: number;
+  reviewCount?: number;
+  priceRange?: PriceRange;
+  shortDescription?: string;
+  location?: {
+    latitude?: number;
+    longitude?: number;
+    district?: string;
   };
   bookingUrl?: string;
+  website?: string;
   isFeatured?: boolean;
 }
 
@@ -270,9 +316,20 @@ export interface MapMarker {
   latitude: number;
   longitude: number;
   title: string;
+  subtitle?: string;
   category: KnowledgeCategory;
   isActive?: boolean;
   clusterId?: string;
+  // Additional fields for enhanced map display
+  thumbnail?: string;
+  rating?: number;
+  reviewCount?: number;
+  priceRange?: PriceRange;
+  address?: string;
+  phone?: string;
+  website?: string;
+  openingHours?: string;
+  bookingUrl?: string;
 }
 
 export interface ChatAction {

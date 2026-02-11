@@ -1,0 +1,1221 @@
+{
+  "destination": "Cayman Islands",
+  "last_updated": "2024",
+  "data_sources": [
+    "https://www.visitcaymanislands.com",
+    "https://www.tripadvisor.com",
+    "https://www.viator.com",
+    "https://redsailcayman.com",
+    "https://captainmarvins.com",
+    "https://www.explorecayman.com",
+    "https://www.thingstodocayman.net"
+  ],
+  "activities": [
+    {
+      "id": "stingray_city_tour",
+      "activity_name": "Stingray City Tour",
+      "type": "boat_tour",
+      "subcategory": ["snorkeling", "wildlife_encounter"],
+      "description": "Swim with and feed wild Southern Stingrays at a secluded sandbar in the North Sound of Grand Cayman. Stingray City is home to approximately 90 Southern Stingrays and is the number one tourist attraction in the Cayman Islands. Visitors can pet and interact with these docile creatures in waist-deep water.",
+      "providers": [
+        {
+          "name": "Captain Marvin's Watersports",
+          "website": "https://captainmarvins.com",
+          "description": "Operating since 1951, one of the oldest tour operators"
+        },
+        {
+          "name": "Red Sail Sports",
+          "website": "https://redsailcayman.com",
+          "description": "Tours include snorkeling over shallow coral reef and visits to Starfish Point, departing on catamaran with licensed cash bar"
+        },
+        {
+          "name": "White Sand Water Sports",
+          "website": "https://www.whitesandwatersports.com",
+          "description": "Small groups of maximum 17 people, runs trips during off-times when sandbar is less crowded"
+        },
+        {
+          "name": "Rowan Watersports",
+          "website": "https://www.rowanwatersports.com",
+          "description": "Caymanian family-owned business, small group focus"
+        },
+        {
+          "name": "Stingray City Cayman Islands",
+          "website": "https://www.stingraycitycaymanislands.com"
+        }
+      ],
+      "duration": "3-4 hours",
+      "price_range": {
+        "currency": "USD",
+        "min": 50,
+        "max": 150,
+        "notes": "Varies by operator and whether tour includes multiple stops"
+      },
+      "location": {
+        "area": "North Sound",
+        "departure_points": ["Seven Mile Beach", "George Town Cruise Port"],
+        "travel_time": "30 minutes by boat from Seven Mile Beach"
+      },
+      "whats_included": [
+        "Boat transportation to sandbar",
+        "Snorkeling equipment",
+        "Professional guide",
+        "Often includes stops at Coral Gardens and Starfish Point",
+        "Some operators include shuttle service from cruise port"
+      ],
+      "tips": [
+        "Try to go when cruise ships are not in port for less crowded experience",
+        "Sunrise trips (7am departure) offer best experience with fewer crowds",
+        "Stingrays are ready for their first meal early morning"
+      ],
+      "suitable_for": ["families", "all_ages", "non_swimmers"],
+      "difficulty": "easy"
+    },
+    {
+      "id": "atlantis_submarine",
+      "activity_name": "Atlantis Submarine Expedition",
+      "type": "submarine_tour",
+      "subcategory": ["underwater_sightseeing"],
+      "description": "Explore Grand Cayman's National Marine Park aboard a 48-passenger submarine called Atlantis XI. Journey underwater in a real submarine specifically designed for underwater sightseeing excursions. During the 45-minute ride, reach depths of 100 feet (30 meters) while exploring coral canyons and marine life including sea sponges, snapper, grouper, sea turtles, and tropical fish.",
+      "providers": [
+        {
+          "name": "Atlantis Submarines",
+          "website": "https://www.atlantissubmarines.com",
+          "phone": "Contact via website"
+        }
+      ],
+      "duration": "45 minutes underwater (total experience longer)",
+      "price_range": {
+        "currency": "USD",
+        "min": 44,
+        "max": 114,
+        "notes": "$44 for semi-submarine option, $114+ for full submarine expedition"
+      },
+      "location": {
+        "area": "George Town",
+        "departure_points": ["Atlantis Adventure Center"],
+        "address": "Waterfront in Georgetown, across from Hard Rock Cafe",
+        "distance_from_cruise_port": "5-minute walk"
+      },
+      "tour_options": [
+        {
+          "name": "Atlantis Submarine Expedition",
+          "price": 114,
+          "description": "Real submarine reaching 100 feet depth"
+        },
+        {
+          "name": "Seaworld Observatory Semi-Submarine",
+          "price": 44,
+          "duration": "1 hour",
+          "description": "View shipwrecks Cali and Balboa, Cheeseburger Reef, watch diver feed fish without getting wet"
+        },
+        {
+          "name": "Night Dive",
+          "schedule": "Mondays and Wednesdays",
+          "description": "Dramatic nighttime views of nocturnal creatures"
+        }
+      ],
+      "whats_included": [
+        "Professional narration",
+        "Air-conditioned submarine",
+        "Panoramic viewing windows"
+      ],
+      "restrictions": {
+        "minimum_age": 4,
+        "minimum_height": "3 feet"
+      },
+      "suitable_for": ["families", "non_swimmers", "those_who_cant_dive"],
+      "difficulty": "easy"
+    },
+    {
+      "id": "uss_kittiwake_diving",
+      "activity_name": "USS Kittiwake Wreck Diving/Snorkeling",
+      "type": "diving",
+      "subcategory": ["wreck_diving", "snorkeling"],
+      "description": "Dive or snorkel the ex-US Navy submarine rescue vessel USS Kittiwake, a 251-foot long, five-deck ship intentionally sunk in 2011 to create Grand Cayman's most accessible artificial reef. The wreck sits at maximum depth of 65 feet with highest point only 15 feet below surface. Attracts abundant marine life including schools of tropical fish, sea turtles, eagle rays, barracuda, groupers, and jacks.",
+      "providers": [
+        {
+          "name": "Red Sail Sports",
+          "website": "https://redsailcayman.com"
+        },
+        {
+          "name": "Deep Blue Divers",
+          "website": "https://www.deepbluediverscayman.com",
+          "description": "Exclusive licensed dive operation for Kittiwake"
+        },
+        {
+          "name": "Divetech",
+          "website": "https://www.divetech.com"
+        },
+        {
+          "name": "Cayman Turtle Divers",
+          "website": "https://www.caymanturtledivers.com",
+          "description": "Offers dives 7 days a week"
+        },
+        {
+          "name": "Sunset Divers",
+          "website": "https://sunsethouse.com"
+        }
+      ],
+      "duration": "Up to 60 minutes dive time",
+      "price_range": {
+        "currency": "USD",
+        "min": 75,
+        "max": 150,
+        "notes": "Marine Park fee included in dive operator charges"
+      },
+      "location": {
+        "area": "Off Seven Mile Beach",
+        "depth": {
+          "maximum": "65 feet (20m)",
+          "minimum": "15 feet"
+        }
+      },
+      "whats_included": [
+        "Boat transportation (required - swimming from shore prohibited)",
+        "Dive guide",
+        "Tank and weights for divers",
+        "Marine Park fee"
+      ],
+      "restrictions": {
+        "access": "Must use CITA licensed dive/snorkel operator",
+        "rules": [
+          "No touching or removing anything within Marine Park",
+          "No gloves permitted",
+          "No fishing"
+        ]
+      },
+      "certification_required": false,
+      "notes": "Open to all dive experience levels. Snorkelers can see stack at 30ft depth.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "devils_grotto_eden_rock",
+      "activity_name": "Devil's Grotto & Eden Rock Diving",
+      "type": "diving",
+      "subcategory": ["shore_diving", "snorkeling", "cave_diving"],
+      "description": "Two of the most popular shore diving spots on Grand Cayman, featuring large reef formations with caverns and tunnels rising from 40-foot sand bottom to within feet of surface. Summer months feature large schools of Silversides with Tarpon swimming through. Accessible to beginner and intermediate divers and snorkelers.",
+      "providers": [
+        {
+          "name": "Eden Rock Diving Center",
+          "website": "https://edenrockdivingcenter.com",
+          "description": "Teaching diving since 1983, gateway to both sites",
+          "address": "South Church Street, George Town"
+        }
+      ],
+      "duration": "1-2 hours",
+      "price_range": {
+        "currency": "USD",
+        "min": 72,
+        "max": 150,
+        "notes": "$72 for 1-tank dive rental, $90 for 2-tank rental, $125-150 for guided 2-tank dive"
+      },
+      "location": {
+        "area": "George Town",
+        "address": "South Church Street",
+        "distance_from_cruise_port": "10-minute walk"
+      },
+      "marine_life": [
+        "Tropical fish",
+        "Tarpon",
+        "Barracuda",
+        "Reef sharks",
+        "Sea turtles",
+        "Nurse sharks",
+        "Silversides (summer)"
+      ],
+      "whats_included": [
+        "Shore access",
+        "Equipment rental available",
+        "Guided tours available"
+      ],
+      "tips": [
+        "Time of day matters for best lighting - light beams from above",
+        "Follow sand channel out - left for Eden Rock, right for Devil's Grotto",
+        "Tunnels at about 40 feet end in 20 feet of water on shallow side"
+      ],
+      "difficulty": "easy_to_moderate"
+    },
+    {
+      "id": "bioluminescent_bay_tour",
+      "activity_name": "Bioluminescent Bay Tour",
+      "type": "kayak_tour",
+      "subcategory": ["night_tour", "eco_tour", "snorkeling"],
+      "description": "Experience the magical glow of bioluminescent plankton (Dinoflagellates) in a man-made bay. Grand Cayman is one of only a few locations worldwide where you can witness this phenomenon. The glow is activated by movement, creating bright blue paint strokes following kayaks. Tours available by kayak or electric boat.",
+      "providers": [
+        {
+          "name": "Cayman Kayaks",
+          "website": "https://caymankayaks.com",
+          "description": "Original tour operator, family-run business. Won GOLD in Best of Cayman Islands Awards for Best Tourist Attraction and Best Watersports Company. Only electric custom bio boat tours in Cayman.",
+          "departure_point": "Rum Point, 46 Sand Point Drive, Northside"
+        },
+        {
+          "name": "George's Watersports",
+          "website": "https://www.thingstodocayman.net",
+          "description": "Boat tour with snorkeling option (10x better visibility in water with mask)",
+          "departure_point": "Cayman Islands Yacht Club, near Seven Mile Beach"
+        },
+        {
+          "name": "Sweet Spot Watersports",
+          "website": "https://sweetspotwatersports.com",
+          "description": "Cayman's first boat tour to Bio Bay. 3 stops: Starfish Point sunset, upside-down jellyfish, Bio Bay"
+        }
+      ],
+      "duration": "1.5-2.5 hours",
+      "price_range": {
+        "currency": "USD",
+        "min": 110,
+        "max": 135,
+        "notes": "$135 adults, $110 kids under 12 at George's Watersports"
+      },
+      "location": {
+        "area": "Bio Bay/North Side",
+        "boat_ride": "20 minutes from west side departure points"
+      },
+      "whats_included": [
+        "Kayak or boat transportation",
+        "Guide",
+        "Life jackets",
+        "Snorkel gear (some operators)",
+        "Kid-sized equipment available"
+      ],
+      "schedule": {
+        "timing": "Night tours only",
+        "moon_cycle": "Tours based around moon cycle - only on darkest nights of month"
+      },
+      "restrictions": {
+        "minimum_age": 3
+      },
+      "tips": [
+        "Avoid hair products, lotions, bug repellents that can harm organisms",
+        "If staying near Rum Point, use Cayman Kayaks",
+        "If staying near Seven Mile Beach, George's Watersports is closer"
+      ],
+      "suitable_for": ["families", "all_ages"],
+      "difficulty": "easy"
+    },
+    {
+      "id": "helicopter_tours",
+      "activity_name": "Helicopter Tours",
+      "type": "aerial_tour",
+      "subcategory": ["sightseeing"],
+      "description": "Aerial tours of the Cayman Islands' beautiful scenery from breathtaking heights. See Seven Mile Beach, Stingray City, coral reefs, and the entire island from above. Cayman Islands Helicopters operates a custom Eurocopter AS350 B2 featuring underwater life paint scheme designed by ocean conservationist Guy Harvey.",
+      "providers": [
+        {
+          "name": "Cayman Islands Helicopters",
+          "website": "https://www.caymanislandshelicopters.com",
+          "description": "Only helicopter operator on the island",
+          "hours": "Monday-Saturday 8am-sunset, closed Sundays and major holidays"
+        },
+        {
+          "name": "Shaggy's Diving (Helicopter Diving)",
+          "website": "https://www.shaggysdiving.com/helicopter-diving-tour/",
+          "description": "Private helicopter diving tours to Sister Islands"
+        }
+      ],
+      "tour_options": [
+        {
+          "name": "Seven Mile Beach Tour",
+          "duration": "8-12 minutes",
+          "price": 140,
+          "price_unit": "per person"
+        },
+        {
+          "name": "Stingray City Tour",
+          "duration": "15-20 minutes",
+          "price": 175,
+          "price_unit": "per person",
+          "description": "Most popular excursion, includes Kittiwake and Seven Mile Beach"
+        },
+        {
+          "name": "Island Tour",
+          "duration": "40 minutes",
+          "price": 390,
+          "price_unit": "per person",
+          "description": "Full coast tour around Grand Cayman"
+        },
+        {
+          "name": "Sunset Flight & Dinner",
+          "duration": "15-20 minutes flight",
+          "price": 1100,
+          "price_unit": "up to 6 persons",
+          "description": "Helicopter to Ritz Carlton or Camana Bay for dinner"
+        },
+        {
+          "name": "Fly, Dive and Dine",
+          "price": 1450,
+          "price_unit": "up to 6 persons",
+          "description": "All-day excursion including flight to Cayman Brac and Little Cayman for diving"
+        },
+        {
+          "name": "Private Helicopter Diving Tour",
+          "price": 6999,
+          "price_unit": "up to 5 people",
+          "provider": "Shaggy's Diving",
+          "description": "50-minute flight to Sister Islands, includes all equipment, DPVs, guided dives"
+        }
+      ],
+      "price_range": {
+        "currency": "USD",
+        "min": 140,
+        "max": 6999
+      },
+      "whats_included": [
+        "Free shuttle from George Town or Seven Mile Beach hotels",
+        "Professional pilot narration"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "cayman_turtle_centre",
+      "activity_name": "Cayman Turtle Centre",
+      "type": "wildlife_attraction",
+      "subcategory": ["conservation", "family_friendly", "swimming"],
+      "description": "Fun, family-friendly entertainment where you can get up close and personal with sea turtles. Swim with young turtles in the Turtle Lagoon, visit the hatchery and education centre, enjoy Breakers Lagoon freshwater pool with waterfall, and experience the Turtle Twister Waterslide. Also features Smiley's Croc Cove, Cayman Butterfly House, and historic Cayman Street.",
+      "providers": [
+        {
+          "name": "Cayman Turtle Centre",
+          "website": "https://www.turtle.ky",
+          "email": "info@turtle.ky"
+        }
+      ],
+      "duration": "2-4 hours",
+      "price_range": {
+        "currency": "USD",
+        "tourist_adult": 50,
+        "resident_adult": 18,
+        "resident_child": 12,
+        "notes": "Island Wildlife Encounter pass. Resident rates require local picture ID."
+      },
+      "location": {
+        "area": "West Bay",
+        "transportation": "Courtesy shuttle from Seven Mile Beach hotels, parking available"
+      },
+      "attractions_included": [
+        "Turtle viewing ponds",
+        "Turtle Lagoon snorkeling",
+        "Aviary",
+        "Crocodile enclosure (Smiley's Croc Cove)",
+        "Cayman Butterfly House",
+        "Hatchery and Education Centre",
+        "Breakers Lagoon (freshwater pool)",
+        "Turtle Twister Waterslide",
+        "Cayman Street historic exhibit",
+        "Schooner's Bar & Grill",
+        "Splash Gift Shop"
+      ],
+      "whats_included": [
+        "All attractions access",
+        "Shuttle service from hotels"
+      ],
+      "special_events": [
+        {
+          "name": "Breakfast with Santa",
+          "price": 40,
+          "timing": "Holiday season"
+        }
+      ],
+      "annual_pass": {
+        "benefits": [
+          "Free daily admission",
+          "10% off online store",
+          "10% off gift shop",
+          "10% off restaurant"
+        ]
+      },
+      "suitable_for": ["families", "children", "all_ages"],
+      "difficulty": "easy"
+    },
+    {
+      "id": "crystal_caves",
+      "activity_name": "Cayman Crystal Caves",
+      "type": "land_tour",
+      "subcategory": ["nature", "geology", "guided_tour"],
+      "description": "Explore stunning underground crystal formations on guided tours through three caves. Learn about their formation and history while walking and climbing among literal hidden gems. The caves feature tropical forest wildlife above ground as well. Ranked as a top attraction worldwide.",
+      "providers": [
+        {
+          "name": "Cayman Crystal Caves",
+          "website": "https://www.caymancrystalcaves.com"
+        }
+      ],
+      "duration": "90 minutes",
+      "price_range": {
+        "currency": "USD",
+        "adult": 45,
+        "child_4_12": 35,
+        "under_1": "free"
+      },
+      "location": {
+        "area": "North Side, near Old Man Bay",
+        "distance_from_seven_mile_beach": "50 minutes drive",
+        "distance_from_cruise_port": "40 minutes drive"
+      },
+      "schedule": {
+        "tours": "On the hour from 9am to 4pm daily",
+        "booking": "Must be booked in advance"
+      },
+      "special_experiences": [
+        {
+          "name": "BBQ Nights",
+          "venue": "Tree House Restaurant",
+          "schedule": "Every Wednesday 6pm-9pm",
+          "price": 59.76,
+          "notes": "Including gratuity"
+        },
+        {
+          "name": "Bat Flyout Tour",
+          "schedule": "5:30pm-8:30pm"
+        }
+      ],
+      "whats_included": [
+        "Professional guided tour",
+        "Exploration of 3 caves",
+        "Educational commentary",
+        "Shuttle services available as add-on"
+      ],
+      "suitable_for": ["families", "nature_lovers"],
+      "difficulty": "moderate"
+    },
+    {
+      "id": "cayman_spirits_distillery",
+      "activity_name": "Cayman Spirits Co. Distillery Tour",
+      "type": "cultural_tour",
+      "subcategory": ["food_and_drink", "tasting"],
+      "description": "Guided walkthrough of a functioning distillery with informative talk about rum-making process from fermentation, distillation, aging and bottling. Includes full tasting of spirits produced on site including Seven Fathoms Rum (national rum of Cayman Islands and official rum of Cayman Airways), Gun Bay Vodka, and Governor's Reserve varieties. Ranked #1 Traveler attraction in Cayman Islands.",
+      "providers": [
+        {
+          "name": "Cayman Spirits Co.",
+          "website": "https://caymanspirits.com",
+          "address": "68 Bronze Road, George Town, Grand Cayman"
+        }
+      ],
+      "duration": "30-40 minutes",
+      "price_range": {
+        "currency": "USD",
+        "tourist": 15,
+        "resident": 10
+      },
+      "location": {
+        "area": "George Town",
+        "address": "68 Bronze Road"
+      },
+      "whats_included": [
+        "Guided distillery tour",
+        "Full tasting of approximately 15 different rums",
+        "Seasonal Distiller's Special spirit tasting"
+      ],
+      "products_featured": [
+        "Seven Fathoms Rum",
+        "Gun Bay Vodka",
+        "Governor's Reserve Rum (coconut, banana, spiced, dark)",
+        "Seasonal releases"
+      ],
+      "booking": {
+        "reservations": "Recommended as tours fill quickly",
+        "walk_ins": "Accepted but may not be available"
+      },
+      "private_events": "Available for parties, corporate functions, dinners, custom tastings",
+      "age_restriction": "21+ for tastings",
+      "difficulty": "easy"
+    },
+    {
+      "id": "jet_ski_rentals",
+      "activity_name": "Jet Ski Rentals & Tours",
+      "type": "water_sports",
+      "subcategory": ["jet_ski"],
+      "description": "Zip across the dazzling azure Caribbean waters surrounded by stunning Seven Mile Beach scenery. Options include rentals and guided tours to popular stops like Stingray City, Starfish Point, and Rum Point.",
+      "providers": [
+        {
+          "name": "Red Sail Sports",
+          "website": "https://redsailcayman.com",
+          "description": "Over 35 years operating, Sea-doo Waverunners available at all Grand Cayman locations"
+        },
+        {
+          "name": "Airwaves Watersports",
+          "website": "https://www.airwavescaymanwatersports.com"
+        },
+        {
+          "name": "Sea Breeze Charters & Jet Ski Tours",
+          "website": "https://www.seabreezecayman.ky",
+          "description": "Premier charter service"
+        },
+        {
+          "name": "Cayman Jet Ski",
+          "website": "https://caymanjetski.com"
+        },
+        {
+          "name": "Cayman Watersports",
+          "website": "https://cayman-watersports.com",
+          "description": "Private charters with complimentary jet ski"
+        }
+      ],
+      "duration": "30 minutes to full day",
+      "price_range": {
+        "currency": "USD",
+        "min": 80,
+        "max": 300,
+        "notes": "30-minute rental typically $80-100"
+      },
+      "location": {
+        "area": "Seven Mile Beach and various locations"
+      },
+      "restrictions": {
+        "minimum_age_solo": 16,
+        "minimum_age_passenger": 5,
+        "adult_required_for_minors": "Children 5-15 must be accompanied by adult 18+"
+      },
+      "difficulty": "moderate"
+    },
+    {
+      "id": "parasailing",
+      "activity_name": "Parasailing",
+      "type": "water_sports",
+      "subcategory": ["aerial"],
+      "description": "Soar above Seven Mile Beach and the Caribbean Sea for breathtaking aerial views. Experience the thrill of parasailing with stunning panoramic views of the coastline.",
+      "providers": [
+        {
+          "name": "Parasailing Professionals",
+          "location": "Seven Mile Beach"
+        },
+        {
+          "name": "Airwaves Watersports",
+          "website": "https://www.airwavescaymanwatersports.com"
+        },
+        {
+          "name": "Wyndham Reef Resort",
+          "website": "https://wyndhamcayman.com"
+        }
+      ],
+      "duration": "10-15 minutes flight time",
+      "price_range": {
+        "currency": "USD",
+        "min": 80,
+        "max": 150
+      },
+      "location": {
+        "area": "Seven Mile Beach"
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "kayak_paddleboard",
+      "activity_name": "Kayak & Paddleboard Rentals",
+      "type": "water_sports",
+      "subcategory": ["kayak", "paddleboard"],
+      "description": "Explore Grand Cayman's crystal-clear waters at your own pace on kayaks or stand-up paddleboards. Options include single and double kayaks, standard paddleboards, see-through paddleboards for underwater viewing, and mega group boards.",
+      "providers": [
+        {
+          "name": "Paradise Paddle Cayman",
+          "website": "https://www.paradisepaddlecayman.com",
+          "features": [
+            "Free delivery and pickup on Seven Mile Beach",
+            "Lowest price guarantee",
+            "See-through paddleboards (220 lb limit)",
+            "18ft Mega Group Board (4 paddlers)"
+          ]
+        },
+        {
+          "name": "Adventura Cayman",
+          "website": "https://adventuracayman.com",
+          "features": [
+            "Free delivery West Bay to South Sound",
+            "Sea scooters available",
+            "Free cancellation 5+ days ahead"
+          ]
+        },
+        {
+          "name": "Red Sail Sports",
+          "website": "https://redsailcayman.com",
+          "features": ["Single and double kayaks", "1-hour rentals"]
+        },
+        {
+          "name": "Tortuga Divers",
+          "website": "https://tortugadivers.com",
+          "location": "Morritt's Resort"
+        },
+        {
+          "name": "Grand Cayman Villas & Condos",
+          "website": "https://www.grandcaymanvillas.com",
+          "features": ["No delivery fees", "Extended rentals as low as $7/day"]
+        }
+      ],
+      "duration": "1 hour to multi-day",
+      "price_range": {
+        "currency": "USD",
+        "min": 7,
+        "max": 60,
+        "notes": "Hourly rentals $25-40, extended rentals as low as $7/day"
+      },
+      "whats_included": [
+        "Kayak or paddleboard",
+        "Paddles",
+        "Life vests",
+        "Basic instruction if needed"
+      ],
+      "suitable_for": ["all_ages", "families"],
+      "difficulty": "easy"
+    },
+    {
+      "id": "fishing_charters",
+      "activity_name": "Deep Sea Fishing Charters",
+      "type": "fishing",
+      "subcategory": ["deep_sea", "reef_fishing", "sport_fishing"],
+      "description": "World-class fishing just minutes from shore. The Cayman Trench drops to over 20,000 feet, creating ideal conditions for Marlin, Yellowfin Tuna, Mahi Mahi, Wahoo, and more. The drop-off is less than 10 minutes from dock, unlike other destinations requiring 1-2 hours to reach fishing grounds. Crew helps clean and fillet your catch.",
+      "providers": [
+        {
+          "name": "Just Fish Charters",
+          "website": "https://justfish.com.ky",
+          "pricing": {
+            "4_hour": 850,
+            "6_hour": 1075,
+            "8_hour": 1375,
+            "stingray_city_combo": 750
+          }
+        },
+        {
+          "name": "Captain Marvin's Watersports",
+          "website": "https://captainmarvins.com",
+          "boats": [
+            {"name": "Howdy", "full_day": 2000},
+            {"name": "Sea Time", "half_day": 1100},
+            {"name": "Magic Hook", "full_day": 1650, "half_day": 900},
+            {"name": "Oh Boy", "full_day": 2200, "half_day": 1300}
+          ],
+          "extra_riders": "$50/person"
+        },
+        {
+          "name": "Get Bent Charters",
+          "website": "https://www.getbentcharters.com"
+        },
+        {
+          "name": "Crystal Charters",
+          "website": "https://crystalcharters.com"
+        },
+        {
+          "name": "Cayman Offshore Adventures",
+          "website": "https://www.caymanoffshoreadventures.com"
+        },
+        {
+          "name": "SeaBlu Charters",
+          "price_from": 800
+        },
+        {
+          "name": "Reel Vibes Charters",
+          "price_from": 575
+        }
+      ],
+      "duration": "4-8 hours",
+      "price_range": {
+        "currency": "USD",
+        "average_4_hour": 748,
+        "average_8_hour": 1500,
+        "min": 225,
+        "max": 2200
+      },
+      "target_species": {
+        "half_day": ["Barracuda", "Bonito", "Snapper"],
+        "full_day": ["Marlin", "Yellowfin Tuna", "Mahi Mahi", "Wahoo"]
+      },
+      "whats_included": [
+        "Boat and captain",
+        "Fishing equipment",
+        "Bait and tackle",
+        "Crew assistance",
+        "Fish cleaning and filleting"
+      ],
+      "difficulty": "easy_to_moderate"
+    },
+    {
+      "id": "rum_point_excursion",
+      "activity_name": "Rum Point Beach Excursion",
+      "type": "beach_excursion",
+      "subcategory": ["beach", "relaxation"],
+      "description": "Visit the birthplace of mudslide cocktails on Grand Cayman's northern tip. Tranquil beach escape with calm shallow turquoise waters, white sandy beach, hammocks, shady trees, and island atmosphere. Ideal spot for swimming, snorkeling, and relaxation away from the busier Seven Mile Beach.",
+      "providers": [
+        {
+          "name": "Red Sail Sports",
+          "website": "https://redsailcayman.com",
+          "tours": ["Rays and Reef excursions", "Sunset Cruises"]
+        },
+        {
+          "name": "Rum Point Club",
+          "website": "https://rumpointclub.com"
+        },
+        {
+          "name": "Cayman Ferries",
+          "website": "Contact for schedule",
+          "route": "Camana Bay to Kaibo Beach",
+          "price": 24,
+          "currency": "CI",
+          "duration": "30 minutes"
+        }
+      ],
+      "duration": "Half day to full day",
+      "price_range": {
+        "currency": "USD",
+        "ferry": 15,
+        "notes": "Beach access is free; costs for food, drinks, rentals extra"
+      },
+      "location": {
+        "area": "North Side",
+        "distance_from_george_town": "45-minute drive",
+        "ferry_from_camana_bay": "30 minutes"
+      },
+      "amenities": [
+        "Changing rooms",
+        "Showers",
+        "Hammocks and huts",
+        "Picnic tables",
+        "Day beds and cabanas",
+        "Restaurant and bar",
+        "Snorkeling equipment rental",
+        "Kayak rentals",
+        "Volleyball nets",
+        "Beach games (cornhole, giant Jenga, Connect 4)"
+      ],
+      "nearby_attractions": [
+        {
+          "name": "Starfish Point",
+          "distance": "5-minute drive"
+        },
+        {
+          "name": "Stingray City",
+          "distance": "15-minute boat ride"
+        },
+        {
+          "name": "Kaibo Restaurant",
+          "distance": "Walking distance"
+        }
+      ],
+      "suitable_for": ["families", "relaxation_seekers", "all_ages"],
+      "difficulty": "easy"
+    },
+    {
+      "id": "starfish_point",
+      "activity_name": "Starfish Point Visit",
+      "type": "beach_excursion",
+      "subcategory": ["wildlife", "beach", "snorkeling"],
+      "description": "Hidden gem on Grand Cayman's northern tip where you can see colorful Red Cushion sea stars in shallow water without snorkeling gear. One of the few places to observe these Caribbean starfish right in the shallows.",
+      "providers": [
+        {
+          "name": "Self-guided visit",
+          "notes": "Free parking at end of Water Cay Road, 2-3 minute walk to beach"
+        },
+        {
+          "name": "George's Watersports",
+          "description": "4-stop stingray eco tour includes Starfish Point"
+        },
+        {
+          "name": "Red Sail Sports",
+          "description": "North Sound Eco-Safari from Camana Bay"
+        },
+        {
+          "name": "Rowan Watersports",
+          "website": "https://www.rowanwatersports.com",
+          "description": "3.5-hour small-group boat safari including Starfish Point"
+        }
+      ],
+      "duration": "1 hour typical visit",
+      "price_range": {
+        "notes": "Free entry to beach. Tours $50-100 depending on inclusions."
+      },
+      "location": {
+        "area": "North Side, near Rum Point and Kaibo",
+        "distance_from_seven_mile_beach": "2-hour drive or 20-minute boat ride",
+        "parking": "Free"
+      },
+      "rules": [
+        "Keep sea stars underwater at all times",
+        "Fines up to $2,000 for violations",
+        "Marine police often stationed at location"
+      ],
+      "tips": [
+        "Mid-morning to early afternoon best for visibility",
+        "Weekdays less crowded",
+        "Avoid cruise ship days",
+        "Wear water shoes or reef-safe sandals",
+        "Use reef-safe sunscreen",
+        "Kaibo restaurant 10-minute walk away for lunch"
+      ],
+      "suitable_for": ["families", "all_ages"],
+      "difficulty": "easy"
+    },
+    {
+      "id": "horseback_riding",
+      "activity_name": "Beach Horseback Riding",
+      "type": "land_tour",
+      "subcategory": ["horseback", "beach"],
+      "description": "Peaceful horseback ride along secluded Barker's Beach with experienced trail guides. Options include beach-only rides and beach with sea swim rides where you ride bareback into the warm Caribbean waters.",
+      "providers": [
+        {
+          "name": "Spirit of the West",
+          "website": "https://caymanbeachrides.com",
+          "price": 89,
+          "duration": "2 hours",
+          "minimum_age_beach": 8,
+          "minimum_age_swim": 14,
+          "max_weight": 225
+        },
+        {
+          "name": "Pampered Ponies",
+          "website": "https://ponies.ky",
+          "description": "Founded 1996, free transfers from George Town and Seven Mile Beach",
+          "location": "Conch Point Road, West Bay",
+          "ride_times": ["Morning", "Afternoon", "Sunset", "Moonlight"]
+        },
+        {
+          "name": "Cayman Horse Riding (Nicki's)",
+          "website": "https://caymanhorseriding.com",
+          "description": "Small locally owned stable, intimate rides with photo stops and history"
+        }
+      ],
+      "duration": "90 minutes to 2 hours",
+      "price_range": {
+        "currency": "USD",
+        "min": 89,
+        "max": 150
+      },
+      "location": {
+        "area": "Barker's Beach, West Bay",
+        "taxi_from_cruise_port": "$40-80 each way (25-30 minutes)"
+      },
+      "restrictions": {
+        "minimum_age_beach_ride": 8,
+        "minimum_age_swim_ride": 14,
+        "maximum_weight": "220-250 lbs depending on horse",
+        "not_recommended": ["Pregnant women", "Back problems", "Heart problems"]
+      },
+      "tips": [
+        "Book in advance, especially December-April",
+        "Barkers Beach has no restrooms or restaurants",
+        "Wear lightweight quick-drying clothes",
+        "Water shoes or sneakers recommended",
+        "Apply reef-safe sunscreen and insect repellent"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "glass_bottom_boat",
+      "activity_name": "Glass Bottom Boat Tours",
+      "type": "boat_tour",
+      "subcategory": ["sightseeing", "family_friendly"],
+      "description": "View Grand Cayman's underwater world without getting wet. See fish, coral, turtles, and shipwrecks while staying dry and comfortable. Perfect for those unable or uncomfortable with diving or snorkeling.",
+      "providers": [
+        {
+          "name": "Salt Watersports",
+          "website": "https://www.saltwatersportscayman.com",
+          "boat": "Oculus Glass Bottom Boat"
+        },
+        {
+          "name": "Shore Excursions Group",
+          "website": "https://www.shoreexcursionsgroup.com"
+        },
+        {
+          "name": "Viator/Cruise Line Shore Excursions"
+        }
+      ],
+      "tour_options": [
+        {
+          "name": "Stingray City Glass Bottom",
+          "duration": "1.5 hours",
+          "price": 55,
+          "description": "Watch reef fish through glass, slip into shallow water to interact with stingrays"
+        },
+        {
+          "name": "Oculus Shipwrecks Tour",
+          "description": "View Cali and Balboa shipwrecks",
+          "max_passengers": 25
+        }
+      ],
+      "duration": "1-2 hours",
+      "price_range": {
+        "currency": "USD",
+        "min": 55,
+        "max": 100
+      },
+      "location": {
+        "departure": "Balboa Beach Boat Dock (2-minute walk from Royal Watler cruise pier)"
+      },
+      "restrictions": {
+        "minimum_age": 3,
+        "minimum_weight": "30 lbs",
+        "maximum_weight": "295 lbs",
+        "mobility": "Must step on/off boat without assistance"
+      },
+      "suitable_for": ["families", "non_swimmers", "all_ages", "mobility_limited"],
+      "difficulty": "easy"
+    },
+    {
+      "id": "scuba_diving_general",
+      "activity_name": "Scuba Diving",
+      "type": "diving",
+      "subcategory": ["reef_diving", "wall_diving", "wreck_diving"],
+      "description": "World-class diving with 365+ diverse dive sites on Grand Cayman alone. Famous for steep drop-offs, coral pinnacles, caves, and historic wrecks in clear, calm waters. Regular encounters with sea turtles, reef sharks, eagle rays, groupers, and vibrant tropical fish.",
+      "notable_sites": [
+        {
+          "name": "Bloody Bay Wall",
+          "location": "Little Cayman",
+          "depth": "2000 meters to sea floor",
+          "notes": "One of deepest sea-walls in world, Jacques Cousteau top dive site"
+        },
+        {
+          "name": "USS Kittiwake",
+          "location": "Off Seven Mile Beach",
+          "depth": "15-65 feet"
+        },
+        {
+          "name": "Eden Rock & Devil's Grotto",
+          "location": "George Town",
+          "depth": "10-40 feet",
+          "type": "Shore dive"
+        },
+        {
+          "name": "Stingray City Deep",
+          "depth": "12 feet",
+          "description": "Hand-feed wild stingrays"
+        },
+        {
+          "name": "Tarpon Alley",
+          "location": "North Wall",
+          "depth": "15-25 meters",
+          "notes": "Possible hammerhead shark sightings"
+        },
+        {
+          "name": "Cheeseburger Reef",
+          "location": "George Town",
+          "depth": "10-20 feet",
+          "type": "Shore dive"
+        },
+        {
+          "name": "Macabuca",
+          "location": "West Bay",
+          "type": "Shore dive with restaurant and bar"
+        },
+        {
+          "name": "Wilderness Wall",
+          "location": "Cayman Brac south side",
+          "type": "Deep wall"
+        }
+      ],
+      "providers": [
+        {
+          "name": "Ocean Frontiers",
+          "website": "https://www.oceanfrontiers.com",
+          "area": "East End"
+        },
+        {
+          "name": "Cayman Turtle Divers",
+          "website": "https://www.caymanturtledivers.com"
+        },
+        {
+          "name": "Shaggy's Diving",
+          "website": "https://www.shaggysdiving.com"
+        },
+        {
+          "name": "Ambassador Divers",
+          "website": "https://www.ambassadordivers.com"
+        },
+        {
+          "name": "Divetech",
+          "website": "https://www.divetech.com"
+        },
+        {
+          "name": "Eden Rock Diving Center",
+          "website": "https://edenrockdivingcenter.com"
+        }
+      ],
+      "price_range": {
+        "currency": "USD",
+        "guided_2_tank": "125-150",
+        "rental_2_tank": 90,
+        "rental_1_tank": 72
+      },
+      "recommended_areas": {
+        "beginners": "Seven Mile Beach area, Eden Rock",
+        "advanced": "North Wall, Bloody Bay Wall (Little Cayman)",
+        "wreck": "USS Kittiwake"
+      },
+      "difficulty": "varies_by_site"
+    },
+    {
+      "id": "snorkeling_general",
+      "activity_name": "Snorkeling Tours & Sites",
+      "type": "snorkeling",
+      "subcategory": ["reef_snorkeling", "beach_snorkeling"],
+      "description": "Crystal-clear Caribbean waters with excellent visibility for snorkeling. Multiple accessible sites from shore and by boat.",
+      "popular_sites": [
+        {
+          "name": "Coral Gardens",
+          "access": "Boat",
+          "description": "Vibrant coral reef, often combined with Stingray City tours"
+        },
+        {
+          "name": "USS Kittiwake",
+          "access": "Boat",
+          "depth": "Stack at 30ft from surface"
+        },
+        {
+          "name": "Eden Rock",
+          "access": "Shore",
+          "location": "George Town"
+        },
+        {
+          "name": "Smith Cove",
+          "access": "Shore",
+          "description": "Beautiful beach with good snorkeling"
+        },
+        {
+          "name": "Cemetery Beach",
+          "access": "Shore",
+          "location": "Seven Mile Beach area"
+        },
+        {
+          "name": "Rum Point",
+          "access": "Shore",
+          "description": "Calm waters, good for beginners"
+        }
+      ],
+      "providers": [
+        "Most diving operators also offer snorkeling",
+        "Red Sail Sports",
+        "Captain Marvin's",
+        "Rowan Watersports"
+      ],
+      "price_range": {
+        "currency": "USD",
+        "guided_tour": "40-80",
+        "equipment_rental": "15-25"
+      },
+      "suitable_for": ["families", "beginners", "all_ages"],
+      "difficulty": "easy"
+    },
+    {
+      "id": "pedro_st_james",
+      "activity_name": "Pedro St James Castle",
+      "type": "cultural_attraction",
+      "subcategory": ["history", "museum"],
+      "description": "Possibly the most famous historic building on Grand Cayman, built in the 1700s by a wealthy Englishman. Now serves as a living museum where visitors can experience life as it was hundreds of years ago. Often called the birthplace of democracy in the Cayman Islands.",
+      "location": {
+        "area": "Savannah",
+        "address": "Pedro Castle Road"
+      },
+      "price_range": {
+        "currency": "USD",
+        "notes": "Contact for current admission prices"
+      },
+      "suitable_for": ["history_buffs", "families"],
+      "difficulty": "easy"
+    },
+    {
+      "id": "blue_iguana_conservation",
+      "activity_name": "Blue Iguana Conservation Centre",
+      "type": "wildlife_attraction",
+      "subcategory": ["conservation", "nature"],
+      "description": "Located within Queen Elizabeth II Botanic Park, see the rare, endangered blue iguanas endemic to Grand Cayman. These incredible creatures were once nearly extinct but are now thriving thanks to dedicated conservation efforts.",
+      "location": {
+        "area": "Queen Elizabeth II Botanic Park",
+        "region": "East Side"
+      },
+      "suitable_for": ["nature_lovers", "families"],
+      "difficulty": "easy"
+    },
+    {
+      "id": "mastic_trail",
+      "activity_name": "Mastic Trail",
+      "type": "hiking",
+      "subcategory": ["nature", "eco_tour"],
+      "description": "Weaves through a protected mangrove forest on the island's east side, offering a taste of Cayman in its most natural state. One of the few remaining examples of old-growth dry forest in the Caribbean.",
+      "location": {
+        "area": "East Side"
+      },
+      "duration": "2-3 hours",
+      "suitable_for": ["nature_lovers", "hikers"],
+      "difficulty": "moderate"
+    },
+    {
+      "id": "george_town_walking",
+      "activity_name": "George Town Walking Tour",
+      "type": "cultural_tour",
+      "subcategory": ["sightseeing", "shopping"],
+      "description": "Explore the capital with jewel-colored wooden buildings lining the waterfront, housing duty-free stores and cool cafes. Visit the Cayman National Museum for local history. Extremely photogenic area perfect for walking.",
+      "attractions": [
+        "Cayman National Museum",
+        "Duty-free shopping",
+        "Waterfront cafes",
+        "Historic architecture"
+      ],
+      "location": {
+        "area": "George Town"
+      },
+      "price_range": {
+        "notes": "Free to walk around; museum admission separate"
+      },
+      "suitable_for": ["all_ages", "shoppers", "history_buffs"],
+      "difficulty": "easy"
+    },
+    {
+      "id": "seven_mile_beach",
+      "activity_name": "Seven Mile Beach",
+      "type": "beach",
+      "subcategory": ["swimming", "sunbathing", "water_sports"],
+      "description": "Consistently rated one of the Caribbean's best beaches. Crescent-shaped shore with soft coral sand. Home to many of Grand Cayman's best resorts, casual beach bars, restaurants, playground, restrooms and showers.",
+      "location": {
+        "area": "West Bay to George Town"
+      },
+      "amenities": [
+        "Resorts and hotels",
+        "Beach bars and restaurants",
+        "Playground",
+        "Restrooms and showers",
+        "Water sports rentals"
+      ],
+      "price_range": {
+        "notes": "Free public beach access"
+      },
+      "suitable_for": ["everyone"],
+      "difficulty": "easy"
+    },
+    {
+      "id": "smith_cove",
+      "activity_name": "Smith Cove Beach",
+      "type": "beach",
+      "subcategory": ["swimming", "snorkeling", "photography"],
+      "description": "One of Grand Cayman's most beautiful beaches with excellent snorkeling opportunities. More intimate than Seven Mile Beach with rocky formations and clear waters.",
+      "location": {
+        "area": "South of George Town"
+      },
+      "price_range": {
+        "notes": "Free public beach"
+      },
+      "suitable_for": ["snorkelers", "photographers", "families"],
+      "difficulty": "easy"
+    }
+  ],
+  "practical_information": {
+    "best_time_to_visit": {
+      "peak_season": "October to April",
+      "weather": "Warm year-round with average highs in the 80s°F",
+      "notes": "Beautiful any time of year"
+    },
+    "transportation": {
+      "cruise_port": "George Town cruise terminal",
+      "shuttle_services": "Many operators offer free shuttle from cruise port and Seven Mile Beach hotels",
+      "car_rental": "Available; drive on left side of road",
+      "ferry": "Cayman Ferries operates routes from Camana Bay",
+      "taxi": "Available throughout island"
+    },
+    "safety": {
+      "notes": "Cayman Islands known for being extremely safe, popular family destination"
+    },
+    "currency": {
+      "local": "Cayman Islands Dollar (CI$)",
+      "accepted": "US Dollars widely accepted",
+      "exchange_rate": "1 CI$ = approximately 1.25 USD"
+    },
+    "booking_tips": [
+      "Book popular tours in advance, especially during peak season",
+      "Cruise ship days can make attractions crowded",
+      "Early morning tours often less crowded",
+      "Check moon cycle for bioluminescence tours"
+    ]
+  }
+}

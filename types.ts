@@ -1,7 +1,9 @@
 export enum UserRole {
   EXPLORER = 'EXPLORER',      // Regular tourist
   VIP = 'VIP',                // Premium user with concierge access
-  ADMIN = 'ADMIN'             // Platform administrator
+  ADMIN = 'ADMIN',            // Platform administrator
+  LEARNER = 'LEARNER',        // Course learner
+  SUPERUSER = 'SUPERUSER'     // Super administrator
 }
 
 export enum DestinationStatus {

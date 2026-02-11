@@ -37,25 +37,25 @@ const ToastItem: React.FC<{ toast: Toast; onDismiss: (id: string) => void }> = (
 
   const styles = {
     success: {
-      bg: 'from-green-500/25 to-green-500/10',
-      border: 'border-green-500/40',
-      glow: 'shadow-[0_0_30px_rgba(34,197,94,0.15)]',
-      icon: <CheckCircle size={20} className="text-green-400 drop-shadow-[0_0_8px_rgba(34,197,94,0.5)]" />,
-      titleColor: 'text-green-400'
+      background: 'rgba(48, 209, 88, 0.12)',
+      border: 'rgba(48, 209, 88, 0.25)',
+      glow: '0 0 32px rgba(48, 209, 88, 0.15)',
+      iconColor: '#30D158',
+      icon: <CheckCircle size={20} />,
     },
     error: {
-      bg: 'from-red-500/25 to-red-500/10',
-      border: 'border-red-500/40',
-      glow: 'shadow-[0_0_30px_rgba(239,68,68,0.15)]',
-      icon: <AlertCircle size={20} className="text-red-400 drop-shadow-[0_0_8px_rgba(239,68,68,0.5)]" />,
-      titleColor: 'text-red-400'
+      background: 'rgba(255, 69, 58, 0.12)',
+      border: 'rgba(255, 69, 58, 0.25)',
+      glow: '0 0 32px rgba(255, 69, 58, 0.15)',
+      iconColor: '#FF453A',
+      icon: <AlertCircle size={20} />,
     },
     warning: {
-      bg: 'from-yellow-500/25 to-yellow-500/10',
-      border: 'border-yellow-500/40',
-      glow: 'shadow-[0_0_30px_rgba(250,204,21,0.15)]',
-      icon: <AlertTriangle size={20} className="text-yellow-400 drop-shadow-[0_0_8px_rgba(250,204,21,0.5)]" />,
-      titleColor: 'text-yellow-400'
+      background: 'rgba(255, 159, 10, 0.12)',
+      border: 'rgba(255, 159, 10, 0.25)',
+      glow: '0 0 32px rgba(255, 159, 10, 0.15)',
+      iconColor: '#FF9F0A',
+      icon: <AlertTriangle size={20} />,
     }
   };
 
@@ -63,25 +63,46 @@ const ToastItem: React.FC<{ toast: Toast; onDismiss: (id: string) => void }> = (
 
   return (
     <div
-      className={`
-        relative overflow-hidden
-        ${style.bg}
-        ${style.border} border backdrop-blur-2xl rounded-2xl p-4
-        ${style.glow} animate-slide-in-right
-        flex items-start gap-3 min-w-[340px] max-w-[440px] shadow-2xl
-      `}
+      className="relative overflow-hidden flex items-start gap-3 min-w-[340px] max-w-[440px] p-4 rounded-2xl animate-ios-spring"
+      style={{
+        background: style.background,
+        backdropFilter: 'blur(40px) saturate(180%)',
+        WebkitBackdropFilter: 'blur(40px) saturate(180%)',
+        border: `1px solid ${style.border}`,
+        boxShadow: `
+          inset 0 0 0 0.5px rgba(255, 255, 255, 0.1),
+          inset 0 1px 0 0 rgba(255, 255, 255, 0.08),
+          ${style.glow},
+          0 24px 48px -12px rgba(0, 0, 0, 0.4)
+        `,
+      }}
     >
-      {/* Subtle shine effect */}
-      <div className="absolute inset-0 bg-gradient-to-br from-white/10 via-transparent to-transparent pointer-events-none" />
+      {/* iOS-style top highlight */}
+      <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-white/15 to-transparent pointer-events-none" />
 
-      <div className="flex-shrink-0 mt-0.5 relative z-10">{style.icon}</div>
+      <div className="flex-shrink-0 mt-0.5 relative z-10" style={{ color: style.iconColor }}>
+        {style.icon}
+      </div>
       <div className="flex-1 min-w-0 relative z-10">
-        <p className={`font-bold text-sm ${style.titleColor}`}>{toast.title}</p>
-        <p className="text-sm text-zinc-300/90 mt-0.5 leading-relaxed">{toast.message}</p>
+        <p className="font-sf-semibold text-sm" style={{ color: style.iconColor }}>{toast.title}</p>
+        <p className="text-sm text-white/70 mt-0.5 leading-relaxed">{toast.message}</p>
       </div>
       <button
         onClick={() => onDismiss(toast.id)}
-        className="flex-shrink-0 text-zinc-500 hover:text-white transition-colors p-1 rounded-lg hover:bg-white/10 relative z-10"
+        className="flex-shrink-0 p-1.5 rounded-xl relative z-10 active:scale-95"
+        style={{
+          color: 'rgba(255, 255, 255, 0.5)',
+          background: 'rgba(255, 255, 255, 0.06)',
+          transition: 'all 0.2s cubic-bezier(0.28, 0.11, 0.32, 1)',
+        }}
+        onMouseEnter={(e) => {
+          e.currentTarget.style.color = 'rgba(255, 255, 255, 0.9)';
+          e.currentTarget.style.background = 'rgba(255, 255, 255, 0.1)';
+        }}
+        onMouseLeave={(e) => {
+          e.currentTarget.style.color = 'rgba(255, 255, 255, 0.5)';
+          e.currentTarget.style.background = 'rgba(255, 255, 255, 0.06)';
+        }}
       >
         <X size={16} />
       </button>
@@ -114,137 +135,364 @@ export const ToastProvider: React.FC<{ children: React.ReactNode }> = ({ childre
   );
 };
 
-export const GlassCard: React.FC<{ children: React.ReactNode; className?: string; onClick?: () => void; disabled?: boolean }> = ({ children, className = '', onClick, disabled }) => (
-  <div
-    onClick={!disabled ? onClick : undefined}
-    className={`
-      glass-panel relative rounded-3xl p-6 transition-all duration-500 overflow-hidden
-      ${disabled ? 'opacity-50 cursor-not-allowed grayscale' : ''}
-      ${onClick && !disabled ? 'cursor-pointer hover-lift border-gradient-gold hover:shadow-[0_20px_50px_rgba(0,0,0,0.6),0_0_40px_rgba(250,204,21,0.08)]' : ''}
-      ${className}
-    `}
-  >
-    {/* Top highlight for glass effect */}
-    <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-white/10 to-transparent" />
+export const GlassCard: React.FC<{ children: React.ReactNode; className?: string; onClick?: () => void; disabled?: boolean; variant?: 'default' | 'elevated' | 'thin' }> = ({ children, className = '', onClick, disabled, variant = 'default' }) => {
+  const variants = {
+    default: 'glass-panel',
+    elevated: 'glass-elevated',
+    thin: 'glass-thin'
+  };
 
-    {/* Subtle inner glow at top */}
-    <div className="absolute inset-x-0 top-0 h-24 bg-gradient-to-b from-white/[0.03] to-transparent pointer-events-none" />
+  return (
+    <div
+      onClick={!disabled ? onClick : undefined}
+      className={`
+        ${variants[variant]} relative rounded-[28px] p-6 overflow-hidden
+        transition-all duration-300
+        ${disabled ? 'opacity-50 cursor-not-allowed grayscale' : ''}
+        ${onClick && !disabled ? 'cursor-pointer card-lift' : ''}
+        ${className}
+      `}
+      style={{
+        transitionTimingFunction: 'cubic-bezier(0.28, 0.11, 0.32, 1)'
+      }}
+    >
+      {/* iOS-style top highlight */}
+      <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-white/15 to-transparent" />
 
-    <div className="relative z-10">{children}</div>
-  </div>
-);
+      {/* Vibrancy inner glow */}
+      <div className="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-white/[0.04] via-white/[0.01] to-transparent pointer-events-none" />
 
-export const PrimaryButton: React.FC<{ children: React.ReactNode; onClick?: () => void; className?: string; disabled?: boolean }> = ({ children, onClick, className = '', disabled }) => (
-  <button
-    onClick={onClick}
-    disabled={disabled}
-    className={`
-      relative group overflow-hidden rounded-full px-8 py-3 font-helvetica-bold text-[#D4AF37] transition-all duration-300
-      border border-[#D4AF37] bg-[#050505]
-      ${disabled
-        ? 'opacity-50 cursor-not-allowed grayscale'
-        : 'hover:bg-[#D4AF37] hover:text-black hover:shadow-[0_0_25px_rgba(212,175,55,0.4)] active:scale-[0.97]'
-      }
-      ${className}
-    `}
-  >
-    <span className="relative z-10 flex items-center gap-2 justify-center">{children}</span>
-  </button>
-);
+      {/* Subtle edge highlights */}
+      <div className="absolute left-0 top-4 bottom-4 w-px bg-gradient-to-b from-transparent via-white/[0.08] to-transparent pointer-events-none" />
+      <div className="absolute right-0 top-4 bottom-4 w-px bg-gradient-to-b from-transparent via-white/[0.05] to-transparent pointer-events-none" />
 
-export const SecondaryButton: React.FC<{ children: React.ReactNode; onClick?: () => void; className?: string }> = ({ children, onClick, className = '' }) => (
-  <button
-    onClick={onClick}
-    className={`
-      relative group overflow-hidden rounded-full px-8 py-3 font-helvetica text-zinc-400
-      border border-white/10 bg-transparent
-      hover:text-white hover:border-white/30
-      hover:shadow-[0_0_30px_rgba(255,255,255,0.05)]
-      transition-all duration-300 active:scale-[0.97] ${className}
-    `}
-  >
-    <span className="relative z-10 flex items-center gap-2 justify-center">{children}</span>
-  </button>
-);
+      <div className="relative z-10">{children}</div>
+    </div>
+  );
+};
 
-export const IconButton: React.FC<{ icon: React.ReactNode; onClick?: () => void; className?: string; title?: string }> = ({ icon, onClick, className = '', title }) => (
+// Primary Button - iOS Blue Gradient with liquid glass feel
+export const PrimaryButton: React.FC<{ children: React.ReactNode; onClick?: () => void; className?: string; disabled?: boolean; size?: 'sm' | 'md' | 'lg' }> = ({ children, onClick, className = '', disabled, size = 'md' }) => {
+  const sizes = {
+    sm: 'px-5 py-2 text-sm rounded-xl',
+    md: 'px-7 py-3 text-base rounded-2xl',
+    lg: 'px-9 py-4 text-lg rounded-2xl'
+  };
+
+  return (
+    <button
+      onClick={onClick}
+      disabled={disabled}
+      className={`
+        relative group overflow-hidden font-sf-semibold text-white
+        ${sizes[size]}
+        ${disabled ? 'opacity-50 cursor-not-allowed' : 'active:scale-[0.97]'}
+        ${className}
+      `}
+      style={{
+        background: disabled
+          ? 'linear-gradient(180deg, rgba(100, 210, 255, 0.3) 0%, rgba(10, 132, 255, 0.3) 100%)'
+          : 'linear-gradient(180deg, #64D2FF 0%, #0A84FF 100%)',
+        boxShadow: disabled
+          ? 'none'
+          : `
+              inset 0 0 0 0.5px rgba(255, 255, 255, 0.2),
+              inset 0 1px 0 0 rgba(255, 255, 255, 0.15),
+              0 4px 16px -2px rgba(100, 210, 255, 0.4),
+              0 8px 24px -4px rgba(0, 0, 0, 0.25)
+            `,
+        transition: 'all 0.25s cubic-bezier(0.28, 0.11, 0.32, 1)'
+      }}
+      onMouseEnter={(e) => {
+        if (!disabled) {
+          e.currentTarget.style.transform = 'translateY(-1px) scale(1.02)';
+          e.currentTarget.style.boxShadow = `
+            inset 0 0 0 0.5px rgba(255, 255, 255, 0.25),
+            inset 0 1px 0 0 rgba(255, 255, 255, 0.2),
+            0 8px 24px -2px rgba(100, 210, 255, 0.5),
+            0 16px 32px -4px rgba(0, 0, 0, 0.3)
+          `;
+        }
+      }}
+      onMouseLeave={(e) => {
+        if (!disabled) {
+          e.currentTarget.style.transform = '';
+          e.currentTarget.style.boxShadow = `
+            inset 0 0 0 0.5px rgba(255, 255, 255, 0.2),
+            inset 0 1px 0 0 rgba(255, 255, 255, 0.15),
+            0 4px 16px -2px rgba(100, 210, 255, 0.4),
+            0 8px 24px -4px rgba(0, 0, 0, 0.25)
+          `;
+        }
+      }}
+    >
+      {/* Shimmer sweep on hover */}
+      <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/15 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-500" style={{ transitionTimingFunction: 'cubic-bezier(0.28, 0.11, 0.32, 1)' }} />
+      <span className="relative z-10 flex items-center gap-2 justify-center">{children}</span>
+    </button>
+  );
+};
+
+// Secondary Button - iOS Glass style
+export const SecondaryButton: React.FC<{ children: React.ReactNode; onClick?: () => void; className?: string; size?: 'sm' | 'md' | 'lg' }> = ({ children, onClick, className = '', size = 'md' }) => {
+  const sizes = {
+    sm: 'px-5 py-2 text-sm rounded-xl',
+    md: 'px-7 py-3 text-base rounded-2xl',
+    lg: 'px-9 py-4 text-lg rounded-2xl'
+  };
+
+  return (
+    <button
+      onClick={onClick}
+      className={`
+        relative group overflow-hidden font-sf-medium
+        ${sizes[size]}
+        active:scale-[0.97]
+        ${className}
+      `}
+      style={{
+        background: 'rgba(255, 255, 255, 0.08)',
+        backdropFilter: 'blur(20px)',
+        WebkitBackdropFilter: 'blur(20px)',
+        border: '1px solid rgba(255, 255, 255, 0.12)',
+        color: 'rgba(255, 255, 255, 0.9)',
+        boxShadow: `
+          inset 0 0 0 0.5px rgba(255, 255, 255, 0.1),
+          inset 0 1px 0 0 rgba(255, 255, 255, 0.08)
+        `,
+        transition: 'all 0.25s cubic-bezier(0.28, 0.11, 0.32, 1)'
+      }}
+      onMouseEnter={(e) => {
+        e.currentTarget.style.background = 'rgba(255, 255, 255, 0.12)';
+        e.currentTarget.style.borderColor = 'rgba(255, 255, 255, 0.18)';
+        e.currentTarget.style.transform = 'translateY(-1px)';
+      }}
+      onMouseLeave={(e) => {
+        e.currentTarget.style.background = 'rgba(255, 255, 255, 0.08)';
+        e.currentTarget.style.borderColor = 'rgba(255, 255, 255, 0.12)';
+        e.currentTarget.style.transform = '';
+      }}
+    >
+      <span className="relative z-10 flex items-center gap-2 justify-center">{children}</span>
+    </button>
+  );
+};
+
+// Icon Button - iOS Glass style
+export const IconButton: React.FC<{ icon: React.ReactNode; onClick?: () => void; className?: string; title?: string; variant?: 'default' | 'filled' }> = ({ icon, onClick, className = '', title, variant = 'default' }) => (
   <button
     onClick={onClick}
     title={title}
     className={`
-      relative group p-3 rounded-xl
-      border border-white/10 bg-white/[0.03] backdrop-blur-sm text-zinc-400
-      hover:text-black hover:bg-[#D4AF37] hover:border-[#D4AF37]
-      hover:shadow-[0_0_20px_rgba(212,175,55,0.3)]
-      transition-all duration-300 active:scale-95 flex items-center justify-center
+      relative group p-3 rounded-2xl
+      flex items-center justify-center
+      active:scale-95
       ${className}
     `}
+    style={{
+      background: variant === 'filled'
+        ? 'linear-gradient(180deg, rgba(100, 210, 255, 0.2) 0%, rgba(10, 132, 255, 0.15) 100%)'
+        : 'rgba(255, 255, 255, 0.06)',
+      backdropFilter: 'blur(20px)',
+      WebkitBackdropFilter: 'blur(20px)',
+      border: '1px solid rgba(255, 255, 255, 0.1)',
+      color: 'rgba(255, 255, 255, 0.7)',
+      boxShadow: 'inset 0 0 0 0.5px rgba(255, 255, 255, 0.08)',
+      transition: 'all 0.25s cubic-bezier(0.28, 0.11, 0.32, 1)'
+    }}
+    onMouseEnter={(e) => {
+      e.currentTarget.style.background = variant === 'filled'
+        ? 'linear-gradient(180deg, rgba(100, 210, 255, 0.3) 0%, rgba(10, 132, 255, 0.25) 100%)'
+        : 'rgba(255, 255, 255, 0.1)';
+      e.currentTarget.style.borderColor = 'rgba(100, 210, 255, 0.25)';
+      e.currentTarget.style.color = 'rgba(255, 255, 255, 1)';
+      e.currentTarget.style.boxShadow = 'inset 0 0 0 0.5px rgba(100, 210, 255, 0.2), 0 0 20px rgba(100, 210, 255, 0.15)';
+    }}
+    onMouseLeave={(e) => {
+      e.currentTarget.style.background = variant === 'filled'
+        ? 'linear-gradient(180deg, rgba(100, 210, 255, 0.2) 0%, rgba(10, 132, 255, 0.15) 100%)'
+        : 'rgba(255, 255, 255, 0.06)';
+      e.currentTarget.style.borderColor = 'rgba(255, 255, 255, 0.1)';
+      e.currentTarget.style.color = 'rgba(255, 255, 255, 0.7)';
+      e.currentTarget.style.boxShadow = 'inset 0 0 0 0.5px rgba(255, 255, 255, 0.08)';
+    }}
   >
     <span className="relative z-10">{icon}</span>
   </button>
 );
 
-export const ProgressBar: React.FC<{ progress: number; className?: string }> = ({ progress, className = '' }) => (
-  <div className={`relative h-1.5 w-full bg-zinc-900 border border-white/5 rounded-full overflow-hidden ${className}`}>
-    <div
-      className="h-full bg-[#D4AF37] shadow-[0_0_15px_rgba(212,175,55,0.5)] transition-all duration-700 ease-out relative"
-      style={{ width: `${progress}%` }}
-    >
-      <div className="absolute inset-0 bg-white/10 animate-pulse" />
-    </div>
-  </div>
-);
+// Progress Bar - iOS style with glow
+export const ProgressBar: React.FC<{ progress: number; className?: string; variant?: 'default' | 'cyan' | 'mint' }> = ({ progress, className = '', variant = 'default' }) => {
+  const gradients = {
+    default: 'linear-gradient(90deg, #64D2FF 0%, #0A84FF 100%)',
+    cyan: 'linear-gradient(90deg, #64D2FF 0%, #66D4CF 100%)',
+    mint: 'linear-gradient(90deg, #66D4CF 0%, #30D158 100%)'
+  };
 
-export const Badge: React.FC<{ children: React.ReactNode; type?: 'default' | 'success' | 'warning' | 'purple' | 'locked' }> = ({ children, type = 'default' }) => {
-  const styles = {
-    default: 'bg-zinc-900 text-zinc-400 border-white/10',
-    success: 'bg-[#D4AF37]/10 text-[#D4AF37] border-[#D4AF37]/30 shadow-[0_0_15px_rgba(212,175,55,0.05)]',
-    warning: 'bg-white/5 text-white border-white/10',
-    purple: 'bg-zinc-800 text-zinc-300 border-white/5',
-    locked: 'bg-black/40 text-zinc-600 border-white/5',
+  const glows = {
+    default: 'rgba(100, 210, 255, 0.4)',
+    cyan: 'rgba(100, 210, 255, 0.4)',
+    mint: 'rgba(102, 212, 207, 0.4)'
   };
 
   return (
-    <span className={`relative px-3 py-1 rounded-full text-[10px] font-helvetica-bold uppercase tracking-wider border backdrop-blur-md flex items-center gap-1.5 ${styles[type]}`}>
+    <div
+      className={`relative h-1 w-full rounded-full overflow-hidden ${className}`}
+      style={{
+        background: 'rgba(255, 255, 255, 0.08)',
+        boxShadow: 'inset 0 0.5px 1px rgba(0, 0, 0, 0.2)'
+      }}
+    >
+      <div
+        className="h-full rounded-full relative"
+        style={{
+          width: `${progress}%`,
+          background: gradients[variant],
+          boxShadow: `0 0 12px ${glows[variant]}`,
+          transition: 'width 0.5s cubic-bezier(0.28, 0.11, 0.32, 1)'
+        }}
+      >
+        {/* Subtle shine */}
+        <div className="absolute inset-0 bg-gradient-to-b from-white/20 to-transparent rounded-full" />
+      </div>
+    </div>
+  );
+};
+
+// Badge - iOS Pill style
+export const Badge: React.FC<{ children: React.ReactNode; type?: 'default' | 'success' | 'warning' | 'purple' | 'locked' | 'cyan' | 'mint' }> = ({ children, type = 'default' }) => {
+  const styles = {
+    default: {
+      background: 'rgba(255, 255, 255, 0.08)',
+      border: 'rgba(255, 255, 255, 0.1)',
+      color: 'rgba(255, 255, 255, 0.6)'
+    },
+    success: {
+      background: 'rgba(48, 209, 88, 0.12)',
+      border: 'rgba(48, 209, 88, 0.25)',
+      color: '#30D158'
+    },
+    warning: {
+      background: 'rgba(255, 159, 10, 0.12)',
+      border: 'rgba(255, 159, 10, 0.25)',
+      color: '#FF9F0A'
+    },
+    purple: {
+      background: 'rgba(191, 90, 242, 0.12)',
+      border: 'rgba(191, 90, 242, 0.25)',
+      color: '#BF5AF2'
+    },
+    cyan: {
+      background: 'rgba(100, 210, 255, 0.12)',
+      border: 'rgba(100, 210, 255, 0.25)',
+      color: '#64D2FF'
+    },
+    mint: {
+      background: 'rgba(102, 212, 207, 0.12)',
+      border: 'rgba(102, 212, 207, 0.25)',
+      color: '#66D4CF'
+    },
+    locked: {
+      background: 'rgba(0, 0, 0, 0.3)',
+      border: 'rgba(255, 255, 255, 0.05)',
+      color: 'rgba(255, 255, 255, 0.35)'
+    }
+  };
+
+  const style = styles[type];
+
+  return (
+    <span
+      className="relative px-3 py-1.5 rounded-full text-[11px] font-sf-medium uppercase tracking-wide flex items-center gap-1.5"
+      style={{
+        background: style.background,
+        border: `1px solid ${style.border}`,
+        color: style.color,
+        backdropFilter: 'blur(10px)',
+        WebkitBackdropFilter: 'blur(10px)'
+      }}
+    >
       <span className="relative z-10 flex items-center gap-1.5">
-        {type === 'locked' && <Lock size={10} />}
         {children}
       </span>
     </span>
   );
 };
 
-// Liquid Video Frame Component - Premium content container
+// Liquid Video Frame Component - iOS visionOS-inspired content container
 export const LiquidVideoFrame: React.FC<{ children: React.ReactNode; className?: string }> = ({ children, className = '' }) => (
   <div className={`relative group ${className}`}>
-    {/* Outer glow ring - subtle ambient light */}
-    <div className="absolute -inset-1 rounded-[28px] bg-gradient-to-br from-yellow-400/20 via-yellow-500/5 to-white/10 blur-xl opacity-40 group-hover:opacity-70 transition-all duration-700" />
+    {/* Ambient glow - iOS style subtle radiance */}
+    <div
+      className="absolute -inset-2 rounded-[32px] opacity-0 group-hover:opacity-100 pointer-events-none"
+      style={{
+        background: 'radial-gradient(ellipse 80% 60% at 50% 0%, rgba(100, 210, 255, 0.15) 0%, transparent 60%)',
+        filter: 'blur(20px)',
+        transition: 'opacity 0.5s cubic-bezier(0.28, 0.11, 0.32, 1)'
+      }}
+    />
 
-    {/* Main solid container using glass-solid class */}
-    <div className="glass-solid relative rounded-3xl overflow-hidden shadow-2xl border-gradient-gold">
-      {/* Top shine highlight */}
-      <div className="absolute inset-x-0 top-0 h-24 bg-gradient-to-b from-white/[0.06] to-transparent pointer-events-none" />
+    {/* Main container - visionOS glass */}
+    <div
+      className="relative rounded-[28px] overflow-hidden"
+      style={{
+        background: 'linear-gradient(180deg, rgba(255, 255, 255, 0.06) 0%, rgba(255, 255, 255, 0.02) 100%)',
+        backdropFilter: 'blur(40px) saturate(180%)',
+        WebkitBackdropFilter: 'blur(40px) saturate(180%)',
+        border: '1px solid rgba(255, 255, 255, 0.1)',
+        boxShadow: `
+          inset 0 0 0 0.5px rgba(255, 255, 255, 0.12),
+          inset 0 1px 0 0 rgba(255, 255, 255, 0.1),
+          0 24px 48px -12px rgba(0, 0, 0, 0.5),
+          0 12px 24px -8px rgba(0, 0, 0, 0.3)
+        `,
+        transition: 'all 0.4s cubic-bezier(0.28, 0.11, 0.32, 1)'
+      }}
+      onMouseEnter={(e) => {
+        e.currentTarget.style.borderColor = 'rgba(100, 210, 255, 0.2)';
+        e.currentTarget.style.boxShadow = `
+          inset 0 0 0 0.5px rgba(100, 210, 255, 0.15),
+          inset 0 1px 0 0 rgba(255, 255, 255, 0.12),
+          0 32px 64px -16px rgba(0, 0, 0, 0.5),
+          0 0 48px -8px rgba(100, 210, 255, 0.1)
+        `;
+      }}
+      onMouseLeave={(e) => {
+        e.currentTarget.style.borderColor = 'rgba(255, 255, 255, 0.1)';
+        e.currentTarget.style.boxShadow = `
+          inset 0 0 0 0.5px rgba(255, 255, 255, 0.12),
+          inset 0 1px 0 0 rgba(255, 255, 255, 0.1),
+          0 24px 48px -12px rgba(0, 0, 0, 0.5),
+          0 12px 24px -8px rgba(0, 0, 0, 0.3)
+        `;
+      }}
+    >
+      {/* Top highlight - iOS specular */}
+      <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-white/20 to-transparent pointer-events-none" />
 
-      {/* Edge highlight - left */}
-      <div className="absolute left-0 top-0 bottom-0 w-px bg-gradient-to-b from-white/10 via-white/[0.03] to-transparent pointer-events-none" />
+      {/* Vibrancy glow */}
+      <div className="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-white/[0.05] via-white/[0.02] to-transparent pointer-events-none" />
 
-      {/* Animated shine on hover */}
-      <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none">
-        <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/[0.04] to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000 ease-out" />
+      {/* Animated shimmer on hover */}
+      <div
+        className="absolute inset-0 opacity-0 group-hover:opacity-100 pointer-events-none"
+        style={{ transition: 'opacity 0.4s cubic-bezier(0.28, 0.11, 0.32, 1)' }}
+      >
+        <div
+          className="absolute inset-0 -translate-x-full group-hover:translate-x-full"
+          style={{
+            background: 'linear-gradient(90deg, transparent 0%, rgba(100, 210, 255, 0.06) 50%, transparent 100%)',
+            transition: 'transform 0.8s cubic-bezier(0.28, 0.11, 0.32, 1)'
+          }}
+        />
       </div>
 
       {/* Content */}
-      <div className="relative z-10">
-        {children}
-      </div>
+      <div className="relative z-10">{children}</div>
 
-      {/* Bottom shadow */}
-      <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-black/40 to-transparent pointer-events-none" />
+      {/* Bottom vignette */}
+      <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-black/30 via-black/10 to-transparent pointer-events-none" />
     </div>
-
-    {/* Subtle floating accents */}
-    <div className="absolute -top-1 -right-1 w-2 h-2 bg-yellow-400/40 rounded-full blur-sm animate-float" style={{ animationDelay: '0s' }} />
-    <div className="absolute -bottom-0.5 -left-0.5 w-1.5 h-1.5 bg-white/30 rounded-full blur-sm animate-float" style={{ animationDelay: '1.5s' }} />
   </div>
 );
 

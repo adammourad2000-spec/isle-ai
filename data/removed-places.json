@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "osm-node/4103887171",
+    "name": "Sunset Cove",
+    "category": "hotel"
+  },
+  {
+    "id": "osm-node/2269076877",
+    "name": "Abacus",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-node/3772812142",
+    "name": "Peppers",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-node/4108168119",
+    "name": "Andiamo",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-node/4108237889",
+    "name": "The Brasserie, Cricket Square",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-way/62184806",
+    "name": "Mango Tree",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-way/373531429",
+    "name": "Italian Kitchen",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-way/374031629",
+    "name": "Casanova By the Sea Ristorante",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-node/639174106",
+    "name": "Cafe Del Sol",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-node/5225626263",
+    "name": "Gelato & Co.",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-node/1118465899",
+    "name": "Craft",
+    "category": "bar"
+  },
+  {
+    "id": "osm-node/10863858390",
+    "name": "GT Outpost",
+    "category": "bar"
+  },
+  {
+    "id": "osm-node/12212818455",
+    "name": "Cask",
+    "category": "bar"
+  },
+  {
+    "id": "osm-node/5929630043",
+    "name": "Foster's Pharmacy",
+    "category": "medical"
+  },
+  {
+    "id": "osm-way/62184797",
+    "name": "Foster's Food Fair Airport Center",
+    "category": "shopping"
+  },
+  {
+    "id": "osm-way/65746192",
+    "name": "Market Place",
+    "category": "shopping"
+  },
+  {
+    "id": "osm-node/4249365095",
+    "name": "DNS Diving",
+    "category": "wellness"
+  },
+  {
+    "id": "serp-ChIJQVVVZQZiL48RvngBgIZ5rgY-xd899bq8s",
+    "name": "Perfectly Pampered Cayman - Mobile Massage and Spa Grand Cayman",
+    "category": "spa_wellness"
+  },
+  {
+    "id": "serp-ChIJgbeZWKYtzEwRiGRFqLscDok-dr3hk83vb",
+    "name": "Mellisauna’s Oasis Spa Cayman- Mobile Massage -Grand Cayman",
+    "category": "spa_wellness"
+  },
+  {
+    "id": "osm-node/775748058",
+    "name": "Margaritaville Beach Resort",
+    "category": "hotel"
+  },
+  {
+    "id": "osm-node/4103887709",
+    "name": "Ocean Paradise, Vacation Rental",
+    "category": "hotel"
+  },
+  {
+    "id": "osm-node/4456190074",
+    "name": "The Cristopher Columbus",
+    "category": "hotel"
+  },
+  {
+    "id": "osm-way/62225837",
+    "name": "The Caribbean Club",
+    "category": "hotel"
+  },
+  {
+    "id": "osm-way/62225855",
+    "name": "Hyatt Regency Grand Cayman Beach Suites",
+    "category": "hotel"
+  },
+  {
+    "id": "osm-way/62225888",
+    "name": "The Islands Club",
+    "category": "hotel"
+  },
+  {
+    "id": "osm-way/171462753",
+    "name": "Morritt's Grand Resort",
+    "category": "hotel"
+  },
+  {
+    "id": "osm-way/369711093",
+    "name": "Sea Breeze, Luxury Condo Rental",
+    "category": "hotel"
+  },
+  {
+    "id": "osm-way/373719330",
+    "name": "Island Houses of Cayman Kai",
+    "category": "hotel"
+  },
+  {
+    "id": "osm-way/374782462",
+    "name": "The Renaissance",
+    "category": "hotel"
+  },
+  {
+    "id": "osm-way/375236902",
+    "name": "South Bay Beach Club",
+    "category": "hotel"
+  },
+  {
+    "id": "osm-way/1310778661",
+    "name": "Indigo Pool & Bar",
+    "category": "hotel"
+  },
+  {
+    "id": "osm-node/5105636798",
+    "name": "Almond Beach Villas",
+    "category": "villa_rental"
+  },
+  {
+    "id": "osm-node/5117698005",
+    "name": "Southern Star Condos",
+    "category": "villa_rental"
+  },
+  {
+    "id": "osm-node/6449817081",
+    "name": "Southern Comfort",
+    "category": "villa_rental"
+  },
+  {
+    "id": "osm-node/7499692285",
+    "name": "Doctor Kingbird & Christina Lex",
+    "category": "villa_rental"
+  },
+  {
+    "id": "osm-way/349629287",
+    "name": "Compass Point",
+    "category": "villa_rental"
+  },
+  {
+    "id": "osm-way/369216664",
+    "name": "Shangri La Bed and Breakfast",
+    "category": "villa_rental"
+  },
+  {
+    "id": "osm-way/370670647",
+    "name": "Majac Apartments",
+    "category": "villa_rental"
+  },
+  {
+    "id": "osm-way/370952615",
+    "name": "Foster Village",
+    "category": "villa_rental"
+  },
+  {
+    "id": "osm-way/372532243",
+    "name": "7 Mile Beach Resort & Club",
+    "category": "villa_rental"
+  },
+  {
+    "id": "osm-way/373851800",
+    "name": "Crescent Point",
+    "category": "villa_rental"
+  },
+  {
+    "id": "osm-way/375105264",
+    "name": "Lakeside Villas",
+    "category": "villa_rental"
+  },
+  {
+    "id": "osm-way/399498751",
+    "name": "Seabreezes",
+    "category": "villa_rental"
+  },
+  {
+    "id": "osm-way/399499976",
+    "name": "Dolphin Condos",
+    "category": "villa_rental"
+  },
+  {
+    "id": "osm-node/1118465869",
+    "name": "Eats",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-node/1118465887",
+    "name": "Southern Spice",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-node/1550989400",
+    "name": "Seymour's Jerk Centre",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-node/2269076875",
+    "name": "The Brooklyn Pizza + Pasta",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-node/3356108697",
+    "name": "XQ's",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-node/3768261259",
+    "name": "Jessie's Juice Bar",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-node/3772786218",
+    "name": "PD's Sports Bar & Grill",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-node/3774215831",
+    "name": "Pizza! at Breezes",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-node/3774336660",
+    "name": "Le Vele",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-node/4312155144",
+    "name": "Hemingway's",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-node/5225582167",
+    "name": "Pani",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-node/5314083083",
+    "name": "Petit Paris",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-node/5406148024",
+    "name": "Banana Resturant Nightclub",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-node/5423702621",
+    "name": "Bacaro",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-node/6340499585",
+    "name": "Pirates Eatery",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-node/6446923061",
+    "name": "Asian House",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-node/6447007388",
+    "name": "Paradise Desires & Creations",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-node/10032097222",
+    "name": "Fresh Kitchen",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-node/12001825375",
+    "name": "Panne & Pasta",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-node/12212801687",
+    "name": "Lucky Rabbit",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-node/12545657901",
+    "name": "Rumpointment Restaurant",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-way/80290094",
+    "name": "Royal Palms Beach Bar & Reef Grill",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-way/369782046",
+    "name": "Casa 43",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-way/372518392",
+    "name": "Pizza Hut",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-way/372529878",
+    "name": "Coconut Joe's",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-way/373112970",
+    "name": "Nadine's Hot Spot",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-way/373438587",
+    "name": "Tukka",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-way/374109617",
+    "name": "The White House Grand Cayman",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-way/374195107",
+    "name": "Margaritaville",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-way/374960980",
+    "name": "Sunshine Bar and Grill",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-way/550203464",
+    "name": "Union Bar and Grill",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-way/951196459",
+    "name": "Schooner’s Bar and Grill",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-node/4402715372",
+    "name": "Domino's",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-node/5118316114",
+    "name": "Sunset Beach & Oceanview Bar & Snacks",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-way/372518391",
+    "name": "Frying Scottman Fish and Chips",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-node/5117857443",
+    "name": "Le Soleil d'Or - Beach",
+    "category": "beach"
+  },
+  {
+    "id": "osm-way/1351632251",
+    "name": "Southern Cross Fish & Dive Resort",
+    "category": "beach"
+  },
+  {
+    "id": "osm-node/6340812185",
+    "name": "Don Fosters Diving",
+    "category": "attraction"
+  },
+  {
+    "id": "osm-node/10032096922",
+    "name": "Captain Marvin's",
+    "category": "attraction"
+  },
+  {
+    "id": "osm-node/778613443",
+    "name": "National Museum",
+    "category": "attraction"
+  },
+  {
+    "id": "osm-node/9454247575",
+    "name": "Captain Charlie Kirkconnell’s Historic House",
+    "category": "attraction"
+  },
+  {
+    "id": "osm-way/374334507",
+    "name": "Botanical Visitors Centre",
+    "category": "attraction"
+  },
+  {
+    "id": "osm-relation/6209955",
+    "name": "The Blue Tip Golf Course",
+    "category": "golf"
+  },
+  {
+    "id": "osm-way/1025369940",
+    "name": "West End Point Outlook",
+    "category": "activity"
+  },
+  {
+    "id": "osm-node/566218708",
+    "name": "Health Services Authority",
+    "category": "medical"
+  },
+  {
+    "id": "osm-node/3764555875",
+    "name": "West Bay Medical Clinic",
+    "category": "medical"
+  },
+  {
+    "id": "osm-node/3772778841",
+    "name": "7-Mile Medical Clinic and Care Pharmacy",
+    "category": "medical"
+  },
+  {
+    "id": "osm-node/4828059522",
+    "name": "Doctor Albert Thacker",
+    "category": "medical"
+  },
+  {
+    "id": "osm-node/3758630864",
+    "name": "Smile Dental Clinic",
+    "category": "medical"
+  },
+  {
+    "id": "osm-node/5312819296",
+    "name": "Cayman Dental & Cayman Orthodontics",
+    "category": "medical"
+  },
+  {
+    "id": "osm-way/371845084",
+    "name": "Merren Dental Clinic",
+    "category": "medical"
+  },
+  {
+    "id": "osm-node/6446105116",
+    "name": "CB Rent-a-Car",
+    "category": "transport"
+  },
+  {
+    "id": "osm-way/372654678",
+    "name": "Apex Car Rental",
+    "category": "transport"
+  },
+  {
+    "id": "osm-way/372654681",
+    "name": "Coconut Car Rentals",
+    "category": "transport"
+  },
+  {
+    "id": "osm-way/372654689",
+    "name": "Thrify Car Rental",
+    "category": "transport"
+  },
+  {
+    "id": "osm-way/696539340",
+    "name": "Motor Ventures",
+    "category": "transport"
+  },
+  {
+    "id": "osm-way/62216475",
+    "name": "Foster's Food Fair Republix Plaza",
+    "category": "transport"
+  },
+  {
+    "id": "osm-way/217612672",
+    "name": "Forum Lane Parking Garage",
+    "category": "transport"
+  },
+  {
+    "id": "osm-way/310290750",
+    "name": "Cost U Less",
+    "category": "shopping"
+  },
+  {
+    "id": "osm-node/3763440422",
+    "name": "Hill's Grocery N More",
+    "category": "shopping"
+  },
+  {
+    "id": "osm-way/369216282",
+    "name": "Tiger's Market Express",
+    "category": "shopping"
+  },
+  {
+    "id": "osm-node/4904215583",
+    "name": "Kirk Jewelers",
+    "category": "shopping"
+  },
+  {
+    "id": "osm-way/373688278",
+    "name": "Blue Iguana Souvenir Outlet",
+    "category": "shopping"
+  },
+  {
+    "id": "osm-way/371889403",
+    "name": "George Town Central Police Station",
+    "category": "services"
+  },
+  {
+    "id": "osm-node/5116068123",
+    "name": "Water Authority",
+    "category": "services"
+  },
+  {
+    "id": "osm-node/5117688817",
+    "name": "Department of Tourism",
+    "category": "services"
+  },
+  {
+    "id": "osm-way/171506984",
+    "name": "Port Security",
+    "category": "services"
+  },
+  {
+    "id": "osm-way/171507104",
+    "name": "Kearney Gomez Doppler Weather Radar Facility",
+    "category": "services"
+  },
+  {
+    "id": "osm-way/372218852",
+    "name": "Department of Community Rehabilitation",
+    "category": "services"
+  },
+  {
+    "id": "osm-way/372218855",
+    "name": "Beacon House",
+    "category": "services"
+  },
+  {
+    "id": "osm-way/608135790",
+    "name": "Little Cayman District Office",
+    "category": "services"
+  },
+  {
+    "id": "osm-way/903849306",
+    "name": "Port Authority & Customs",
+    "category": "services"
+  },
+  {
+    "id": "osm-node/5106208695",
+    "name": "St. Mary's Catholic Church",
+    "category": "religious"
+  },
+  {
+    "id": "osm-way/370952623",
+    "name": "St. Ignatius Catholic Church",
+    "category": "religious"
+  },
+  {
+    "id": "osm-way/372247874",
+    "name": "Elmslie United Church",
+    "category": "religious"
+  },
+  {
+    "id": "osm-way/1025320607",
+    "name": "Ebeneezer Baptist Church",
+    "category": "religious"
+  },
+  {
+    "id": "osm-way/62064786",
+    "name": "Cayman Islands Further Education",
+    "category": "education"
+  },
+  {
+    "id": "osm-way/370952629",
+    "name": "Cayman Preperatory and High School",
+    "category": "education"
+  },
+  {
+    "id": "osm-node/776452247",
+    "name": "Dolphin Point",
+    "category": "hotel"
+  },
+  {
+    "id": "osm-node/5118275020",
+    "name": "Pia Hall",
+    "category": "hotel"
+  },
+  {
+    "id": "osm-way/62225813",
+    "name": "Casa Caribe",
+    "category": "hotel"
+  },
+  {
+    "id": "osm-way/62225814",
+    "name": "Plantana",
+    "category": "hotel"
+  },
+  {
+    "id": "osm-way/62225820",
+    "name": "White Sands",
+    "category": "hotel"
+  },
+  {
+    "id": "osm-way/62225844",
+    "name": "The Avalon",
+    "category": "hotel"
+  },
+  {
+    "id": "osm-way/62225849",
+    "name": "London House",
+    "category": "hotel"
+  },
+  {
+    "id": "osm-way/373685610",
+    "name": "Sunset House",
+    "category": "hotel"
+  },
+  {
+    "id": "osm-way/1310778659",
+    "name": "Indigo",
+    "category": "hotel"
+  },
+  {
+    "id": "osm-node/7509160085",
+    "name": "#3",
+    "category": "villa_rental"
+  },
+  {
+    "id": "osm-way/274608884",
+    "name": "H",
+    "category": "villa_rental"
+  },
+  {
+    "id": "osm-node/1122551785",
+    "name": "Solana",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-node/2269076874",
+    "name": "KARoo",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-node/5225582168",
+    "name": "Mizu",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-node/5225626264",
+    "name": "The Waterfront",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-node/5762490634",
+    "name": "Agua",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-node/10840229496",
+    "name": "Carib Kitchen",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-way/369216286",
+    "name": "Alfresco",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-way/372314314",
+    "name": "Lone Star",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-way/373664930",
+    "name": "Sandbar",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-node/1122551790",
+    "name": "Icoa Fine Foods",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-node/1046802198",
+    "name": "Salty's",
+    "category": "bar"
+  },
+  {
+    "id": "osm-node/1046802205",
+    "name": "Fidel Murphys",
+    "category": "bar"
+  },
+  {
+    "id": "osm-node/1118465885",
+    "name": "Aqua Beach",
+    "category": "bar"
+  },
+  {
+    "id": "osm-node/1118465886",
+    "name": "Nectar Bar",
+    "category": "bar"
+  },
+  {
+    "id": "osm-node/3774336682",
+    "name": "Caybrew",
+    "category": "bar"
+  },
+  {
+    "id": "osm-node/5124855884",
+    "name": "The Lodge",
+    "category": "bar"
+  },
+  {
+    "id": "osm-node/5225582150",
+    "name": "Legendz",
+    "category": "bar"
+  },
+  {
+    "id": "osm-node/6446092467",
+    "name": "Run Away Bar",
+    "category": "bar"
+  },
+  {
+    "id": "osm-node/6446923059",
+    "name": "Barracudas Bar",
+    "category": "bar"
+  },
+  {
+    "id": "osm-node/6450683434",
+    "name": "Macabuca",
+    "category": "bar"
+  },
+  {
+    "id": "osm-way/372597775",
+    "name": "Scotty's",
+    "category": "bar"
+  },
+  {
+    "id": "osm-way/373660947",
+    "name": "Cabana",
+    "category": "bar"
+  },
+  {
+    "id": "osm-way/1025288079",
+    "name": "Tipsy Turtle",
+    "category": "bar"
+  },
+  {
+    "id": "osm-node/9454247557",
+    "name": "The Splits",
+    "category": "attraction"
+  },
+  {
+    "id": "osm-way/372664544",
+    "name": "Fiddlers Park",
+    "category": "activity"
+  },
+  {
+    "id": "osm-way/371843178",
+    "name": "Lab Inc",
+    "category": "medical"
+  },
+  {
+    "id": "osm-way/371815672",
+    "name": "Quality",
+    "category": "medical"
+  },
+  {
+    "id": "osm-node/3754372294",
+    "name": "Intertrust",
+    "category": "financial"
+  },
+  {
+    "id": "osm-way/372597768",
+    "name": "Knoll",
+    "category": "financial"
+  },
+  {
+    "id": "osm-way/374044254",
+    "name": "RBC",
+    "category": "financial"
+  },
+  {
+    "id": "osm-node/3758666537",
+    "name": "Hertz",
+    "category": "transport"
+  },
+  {
+    "id": "osm-way/62184770",
+    "name": "Budget",
+    "category": "transport"
+  },
+  {
+    "id": "osm-way/62184788",
+    "name": "Avis",
+    "category": "transport"
+  },
+  {
+    "id": "osm-way/372529877",
+    "name": "Andy's",
+    "category": "transport"
+  },
+  {
+    "id": "osm-way/372654679",
+    "name": "Alamo",
+    "category": "transport"
+  },
+  {
+    "id": "osm-way/372654688",
+    "name": "SIXT",
+    "category": "transport"
+  },
+  {
+    "id": "osm-way/68794366",
+    "name": "Esso",
+    "category": "transport"
+  },
+  {
+    "id": "osm-way/371282789",
+    "name": "Home Gas",
+    "category": "transport"
+  },
+  {
+    "id": "osm-node/6354602061",
+    "name": "Peanuts",
+    "category": "shopping"
+  },
+  {
+    "id": "osm-way/372518387",
+    "name": "AA Rubis",
+    "category": "shopping"
+  },
+  {
+    "id": "osm-way/217613994",
+    "name": "Dolphin Mall",
+    "category": "shopping"
+  },
+  {
+    "id": "osm-node/4904215584",
+    "name": "Cartier",
+    "category": "shopping"
+  },
+  {
+    "id": "osm-node/801360082",
+    "name": "Police Station",
+    "category": "services"
+  },
+  {
+    "id": "osm-node/5296606353",
+    "name": "BodyBarn",
+    "category": "wellness"
+  },
+  {
+    "id": "osm-node/3768261262",
+    "name": "CrossFit",
+    "category": "wellness"
+  },
+  {
+    "id": "osm-node/3772786217",
+    "name": "Get Fitr",
+    "category": "wellness"
+  },
+  {
+    "id": "osm-way/363334835",
+    "name": "World Gym",
+    "category": "wellness"
+  },
+  {
+    "id": "osm-way/373716118",
+    "name": "United Church",
+    "category": "religious"
+  },
+  {
+    "id": "osm-node/5117682396",
+    "name": "UCCI-College",
+    "category": "education"
+  },
+  {
+    "id": "osm-node/3758684910",
+    "name": "Canton",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-way/372589417",
+    "name": "Energy Lounge & Restaurant",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-way/1189755860",
+    "name": "Pinoy Lechon JJR",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-node/3764555871",
+    "name": "West Bay Pharmacy & Gifts",
+    "category": "medical"
+  },
+  {
+    "id": "osm-way/371889400",
+    "name": "Cayman Islands Government Administration Building",
+    "category": "services"
+  },
+  {
+    "id": "osm-way/373714260",
+    "name": "Hotel Northern Lights Condos",
+    "category": "hotel"
+  },
+  {
+    "id": "osm-node/4103904892",
+    "name": "The Cayman Breakers Condominiums, Vacation Rental",
+    "category": "hotel"
+  },
+  {
+    "id": "osm-node/5117909300",
+    "name": "Brac Haven Villas",
+    "category": "hotel"
+  },
+  {
+    "id": "osm-way/26268919",
+    "name": "Prates Point Resort",
+    "category": "hotel"
+  },
+  {
+    "id": "osm-way/62225848",
+    "name": "The Water Edge",
+    "category": "hotel"
+  },
+  {
+    "id": "osm-node/5314019656",
+    "name": "Uncle Sam's Quality Jerk",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-node/6446915525",
+    "name": "Star Island",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-node/12212801686",
+    "name": "Harbour Grille",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-way/171507187",
+    "name": "Eastern Star Bar & Grill",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-way/357231779",
+    "name": "Over the Edge Cafe",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-way/371284157",
+    "name": "Top Taste",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-way/371840195",
+    "name": "Season to the Rose",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-way/373688276",
+    "name": "Paradise Restaurant",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-way/374313515",
+    "name": "Pankin's Jerk Centre",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-way/372544044",
+    "name": "Daily Grind Cafe",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-node/6448696951",
+    "name": "Popo Jeb's Pizza",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-node/10032114917",
+    "name": "Quiznos",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-way/371896034",
+    "name": "McDonald's",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-node/6446095496",
+    "name": "Pat's Kitchen and Bar",
+    "category": "bar"
+  },
+  {
+    "id": "osm-node/5105567590",
+    "name": "Peter's Overlook",
+    "category": "attraction"
+  },
+  {
+    "id": "osm-node/5117880399",
+    "name": "Agriculture Show Ground",
+    "category": "attraction"
+  },
+  {
+    "id": "osm-way/372664542",
+    "name": "Lilith McLaughlin Memorial Health Center",
+    "category": "medical"
+  },
+  {
+    "id": "osm-node/801346736",
+    "name": "Cayman Island Dental Clinic",
+    "category": "medical"
+  },
+  {
+    "id": "osm-way/372654684",
+    "name": "Dollar Rent A Car",
+    "category": "transport"
+  },
+  {
+    "id": "osm-way/62216396",
+    "name": "Foster's Food Fair",
+    "category": "shopping"
+  },
+  {
+    "id": "osm-way/372544047",
+    "name": "Caribbean Jewellers",
+    "category": "shopping"
+  },
+  {
+    "id": "osm-node/3772783666",
+    "name": "Post Smart",
+    "category": "services"
+  },
+  {
+    "id": "osm-way/369206375",
+    "name": "West Bay Post Office",
+    "category": "services"
+  },
+  {
+    "id": "osm-way/372544051",
+    "name": "Cayman Islands Post Office (Historic Building)",
+    "category": "services"
+  },
+  {
+    "id": "osm-way/370672078",
+    "name": "Royal Cayman Islands Police Traffic Department",
+    "category": "services"
+  },
+  {
+    "id": "osm-node/5105662584",
+    "name": "Brac Department of Agriculture",
+    "category": "services"
+  },
+  {
+    "id": "osm-node/5118342043",
+    "name": "Public Works",
+    "category": "services"
+  },
+  {
+    "id": "osm-way/83121467",
+    "name": "Cayman Islands Legislative Assembly",
+    "category": "services"
+  },
+  {
+    "id": "osm-node/5105577994",
+    "name": "Church of God Full Gospel",
+    "category": "religious"
+  },
+  {
+    "id": "osm-way/1025320502",
+    "name": "Creek & Spot Bay Junior School",
+    "category": "education"
+  },
+  {
+    "id": "osm-way/373718111",
+    "name": "Novel",
+    "category": "hotel"
+  },
+  {
+    "id": "osm-way/274608895",
+    "name": "B",
+    "category": "villa_rental"
+  },
+  {
+    "id": "osm-node/3761655824",
+    "name": "Catch",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-way/372544049",
+    "name": "Apples",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-node/3774179060",
+    "name": "Café del Sol",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-node/1122551789",
+    "name": "Sol",
+    "category": "bar"
+  },
+  {
+    "id": "osm-way/171506996",
+    "name": "Pirates Cove Bar",
+    "category": "bar"
+  },
+  {
+    "id": "osm-node/6446867774",
+    "name": "Brac's Clinic",
+    "category": "medical"
+  },
+  {
+    "id": "osm-way/372597767",
+    "name": "IRG",
+    "category": "financial"
+  },
+  {
+    "id": "osm-way/372654686",
+    "name": "National",
+    "category": "transport"
+  },
+  {
+    "id": "osm-way/372654687",
+    "name": "Payless",
+    "category": "transport"
+  },
+  {
+    "id": "osm-node/776301557",
+    "name": "Texaco",
+    "category": "transport"
+  },
+  {
+    "id": "osm-node/6354579234",
+    "name": "Rubis",
+    "category": "transport"
+  },
+  {
+    "id": "osm-way/62085172",
+    "name": "Delworth's Esso",
+    "category": "transport"
+  },
+  {
+    "id": "osm-node/3763466375",
+    "name": "Liberty's",
+    "category": "shopping"
+  },
+  {
+    "id": "osm-way/141688701",
+    "name": "Devil's Hangout",
+    "category": "shopping"
+  },
+  {
+    "id": "osm-way/374443847",
+    "name": "Bancroft Villas",
+    "category": "villa_rental"
+  },
+  {
+    "id": "osm-way/608135793",
+    "name": "Blossom Village Cottage",
+    "category": "villa_rental"
+  },
+  {
+    "id": "osm-node/9917366684",
+    "name": "Anchor and Den",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-way/369024923",
+    "name": "Tortuga Rum Company",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-way/62186626",
+    "name": "Spanish Bay Reef",
+    "category": "boat_charter"
+  },
+  {
+    "id": "osm-way/741281737",
+    "name": "Refuel Gas Station",
+    "category": "transport"
+  },
+  {
+    "id": "osm-way/442604176",
+    "name": "Cayman Rugby Club",
+    "category": "wellness"
+  },
+  {
+    "id": "osm-way/371896035",
+    "name": "Fidelity Bank",
+    "category": "financial"
+  },
+  {
+    "id": "osm-way/1310780190",
+    "name": "Refuel",
+    "category": "transport"
+  },
+  {
+    "id": "osm-node/5237175488",
+    "name": "Boggy Sands Café",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-node/1118465878",
+    "name": "Paperman's Coffee House",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-node/1721077119",
+    "name": "Barefoot Man",
+    "category": "bar"
+  },
+  {
+    "id": "osm-way/372654683",
+    "name": "Discount Car Rental",
+    "category": "transport"
+  },
+  {
+    "id": "osm-way/373531424",
+    "name": "Souvenirs",
+    "category": "shopping"
+  },
+  {
+    "id": "critical-hospital-hsc",
+    "name": "Health Services Authority Hospital",
+    "category": "medical"
+  },
+  {
+    "id": "critical-emergency-911",
+    "name": "Emergency Services (911)",
+    "category": "emergency"
+  },
+  {
+    "id": "osm-node/5122126793",
+    "name": "The Club at Little Cayman",
+    "category": "hotel"
+  },
+  {
+    "id": "osm-way/62225843",
+    "name": "Grand Cayman Beach Suites",
+    "category": "hotel"
+  },
+  {
+    "id": "osm-way/171507109",
+    "name": "East End Dive Lodge",
+    "category": "hotel"
+  },
+  {
+    "id": "osm-relation/1206062",
+    "name": "Laguna Del Mar",
+    "category": "hotel"
+  },
+  {
+    "id": "osm-node/778675399",
+    "name": "Brac Caribbean Beach Village",
+    "category": "villa_rental"
+  },
+  {
+    "id": "osm-node/4108847990",
+    "name": "Rockhole",
+    "category": "villa_rental"
+  },
+  {
+    "id": "osm-node/4108847991",
+    "name": "Corner",
+    "category": "villa_rental"
+  },
+  {
+    "id": "osm-node/7499654985",
+    "name": "Palm Garden",
+    "category": "villa_rental"
+  },
+  {
+    "id": "osm-node/7504995685",
+    "name": "Hilton Estates Phase 1",
+    "category": "villa_rental"
+  },
+  {
+    "id": "osm-node/7505013385",
+    "name": "POINT DEXTER",
+    "category": "villa_rental"
+  },
+  {
+    "id": "osm-node/7505023385",
+    "name": "Norfolk",
+    "category": "villa_rental"
+  },
+  {
+    "id": "osm-node/7505057785",
+    "name": "Mangrove Pointe",
+    "category": "villa_rental"
+  },
+  {
+    "id": "osm-node/7509136085",
+    "name": "#1 368",
+    "category": "villa_rental"
+  },
+  {
+    "id": "osm-node/7509146485",
+    "name": "#2 SKY 64",
+    "category": "villa_rental"
+  },
+  {
+    "id": "osm-way/370952618",
+    "name": "Poincianas",
+    "category": "villa_rental"
+  },
+  {
+    "id": "osm-way/371284153",
+    "name": "Melmac Court",
+    "category": "villa_rental"
+  },
+  {
+    "id": "osm-node/1461773180",
+    "name": "Calico Jacks Bar & Grill",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-node/3763440404",
+    "name": "Famous Restaurant",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-node/3772810352",
+    "name": "Burger Shack",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-node/5423702622",
+    "name": "Duke's Bar and Grill",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-way/372589408",
+    "name": "The Thai Restaurant",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-node/12856185053",
+    "name": "Starbucks",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-node/6446923062",
+    "name": "Barry's Golden Jerk",
+    "category": "restaurant"
+  },
+  {
+    "id": "osm-node/6441670009",
+    "name": "5 o'clock Somewhere",
+    "category": "bar"
+  },
+  {
+    "id": "osm-node/3771359534",
+    "name": "Bulrush Walk",
+    "category": "attraction"
+  },
+  {
+    "id": "osm-node/5117907385",
+    "name": "Brac National Trust Parrot Reserve",
+    "category": "attraction"
+  },
+  {
+    "id": "osm-node/5117960111",
+    "name": "Booby Birds",
+    "category": "attraction"
+  },
+  {
+    "id": "osm-node/5275546432",
+    "name": "Corral Gardens Snorkeling Spot",
+    "category": "attraction"
+  },
+  {
+    "id": "osm-node/6380961499",
+    "name": "Spots Beach - Quiet beach, good for Snorkeling",
+    "category": "attraction"
+  },
+  {
+    "id": "osm-node/9453960454",
+    "name": "Little Cayman Brac Outlook",
+    "category": "attraction"
+  },
+  {
+    "id": "osm-node/10032096923",
+    "name": "Red Sail Sports - Stingray Landing",
+    "category": "activity"
+  },
+  {
+    "id": "osm-node/10162309217",
+    "name": "Snorkelling",
+    "category": "attraction"
+  },
+  {
+    "id": "osm-node/9454247588",
+    "name": "Eldemire Historic House",
+    "category": "attraction"
+  },
+  {
+    "id": "osm-way/372530751",
+    "name": "The National Gallery",
+    "category": "attraction"
+  },
+  {
+    "id": "osm-node/778675290",
+    "name": "Capt. K. Tibbets",
+    "category": "diving_snorkeling"
+  },
+  {
+    "id": "osm-node/5801869438",
+    "name": "Cali Ship Wreck",
+    "category": "diving_snorkeling"
+  },
+  {
+    "id": "osm-way/22475931",
+    "name": "Former Britannia Golf Course",
+    "category": "golf"
+  },
+  {
+    "id": "osm-way/55479004",
+    "name": "Water Cay Park",
+    "category": "activity"
+  },
+  {
+    "id": "osm-way/488091028",
+    "name": "Cayman Brac Community Park",
+    "category": "activity"
+  },
+  {
+    "id": "osm-way/1025333879",
+    "name": "Spot Bay Community Park",
+    "category": "activity"
+  },
+  {
+    "id": "osm-way/1025370057",
+    "name": "Christopher Columbus Park",
+    "category": "activity"
+  },
+  {
+    "id": "osm-node/9451493566",
+    "name": "Health Clinic",
+    "category": "medical"
+  },
+  {
+    "id": "osm-way/371815677",
+    "name": "Medical Clinic",
+    "category": "medical"
+  },
+  {
+    "id": "osm-way/373166348",
+    "name": "Sunrise Cottage",
+    "category": "medical"
+  },
+  {
+    "id": "osm-node/3761057586",
+    "name": "Cayman Dental Services",
+    "category": "medical"
+  },
+  {
+    "id": "osm-node/4939266023",
+    "name": "First Caribbean International Bank",
+    "category": "financial"
+  },
+  {
+    "id": "osm-node/5225622129",
+    "name": "First Caribbean",
+    "category": "financial"
+  },
+  {
+    "id": "osm-node/775752506",
+    "name": "Morgan's Harbour Private Dock",
+    "category": "transport"
+  },
+  {
+    "id": "osm-node/12499250530",
+    "name": "Village Square Self Serve",
+    "category": "transport"
+  },
+  {
+    "id": "osm-way/62184783",
+    "name": "Long Term Airport Parking",
+    "category": "transport"
+  },
+  {
+    "id": "osm-way/62184800",
+    "name": "Short Term Airport Parking",
+    "category": "transport"
+  },
+  {
+    "id": "osm-way/171507166",
+    "name": "Pickadilly Parking Garage",
+    "category": "transport"
+  },
+  {
+    "id": "osm-way/217612604",
+    "name": "Solaris Parking Garage",
+    "category": "transport"
+  },
+  {
+    "id": "osm-way/374334504",
+    "name": "Botanical Parking",
+    "category": "transport"
+  },
+  {
+    "id": "osm-way/171462747",
+    "name": "Foster's Express IGA",
+    "category": "shopping"
+  },
+  {
+    "id": "osm-node/10032114819",
+    "name": "Mini Mart",
+    "category": "shopping"
+  },
+  {
+    "id": "osm-way/368981208",
+    "name": "Joe and Ima's Wayside Store",
+    "category": "shopping"
+  },
+  {
+    "id": "osm-way/369029939",
+    "name": "Caribbean Bakery & Grocery",
+    "category": "shopping"
+  },
+  {
+    "id": "osm-way/370672072",
+    "name": "Food Mart",
+    "category": "shopping"
+  },
+  {
+    "id": "osm-way/371843182",
+    "name": "Mini-Mart",
+    "category": "shopping"
+  },
+  {
+    "id": "osm-way/373853640",
+    "name": "Tigermarket",
+    "category": "shopping"
+  },
+  {
+    "id": "osm-way/374041386",
+    "name": "Rubis Food Mart",
+    "category": "shopping"
+  },
+  {
+    "id": "osm-node/3773731580",
+    "name": "Cayman Duty Free",
+    "category": "shopping"
+  },
+  {
+    "id": "osm-node/3773919726",
+    "name": "Diamonds International",
+    "category": "shopping"
+  },
+  {
+    "id": "osm-node/12557249501",
+    "name": "GGeorge Town Police Station",
+    "category": "services"
+  },
+  {
+    "id": "osm-node/3763440403",
+    "name": "West Side Beauty & Barber Salon",
+    "category": "wellness"
+  },
+  {
+    "id": "osm-node/5109681367",
+    "name": "Get Nailed & More",
+    "category": "wellness"
+  },
+  {
+    "id": "osm-way/370672068",
+    "name": "Dee's Beauty Salon",
+    "category": "wellness"
+  },
+  {
+    "id": "osm-way/371815678",
+    "name": "DEJON Beauty Salon",
+    "category": "wellness"
+  },
+  {
+    "id": "osm-way/372220605",
+    "name": "St Albans Anglican",
+    "category": "religious"
+  },
+  {
+    "id": "osm-way/373111041",
+    "name": "Church of Christ",
+    "category": "religious"
+  },
+  {
+    "id": "osm-way/1025320597",
+    "name": "Seventh Day Adventist Church",
+    "category": "religious"
+  },
+  {
+    "id": "osm-way/1025320725",
+    "name": "Fellowship Baptist",
+    "category": "religious"
+  },
+  {
+    "id": "osm-node/5335583424",
+    "name": "Sheiry House",
+    "category": "hotel"
+  },
+  {
+    "id": "osm-way/373718838",
+    "name": "Teraflora",
+    "category": "hotel"
+  },
+  {
+    "id": "osm-way/274608876",
+    "name": "E",
+    "category": "villa_rental"
+  },
+  {
+    "id": "osm-way/274608878",
+    "name": "F",
+    "category": "villa_rental"
+  },
+  {
+    "id": "osm-way/274608880",
+    "name": "G",
+    "category": "villa_rental"
+  },
+  {
+    "id": "osm-way/274608886",
+    "name": "I",
+    "category": "villa_rental"
+  },
+  {
+    "id": "osm-way/274608887",
+    "name": "J",
+    "category": "villa_rental"
+  },
+  {
+    "id": "osm-way/274608889",
+    "name": "K",
+    "category": "villa_rental"
+  },
+  {
+    "id": "osm-way/274608891",
+    "name": "L",
+    "category": "villa_rental"
+  },
+  {
+    "id": "osm-way/274608893",
+    "name": "M",
+    "category": "villa_rental"
+  },
+  {
+    "id": "osm-way/274608894",
+    "name": "A",
+    "category": "villa_rental"
+  },
+  {
+    "id": "osm-way/274608896",
+    "name": "C",
+    "category": "villa_rental"
+  },
+  {
+    "id": "osm-way/274608897",
+    "name": "D",
+    "category": "villa_rental"
+  },
+  {
+    "id": "osm-way/688053097",
+    "name": "Pool Bar",
+    "category": "bar"
+  },
+  {
+    "id": "osm-node/801368250",
+    "name": "Blow Holes",
+    "category": "attraction"
+  },
+  {
+    "id": "osm-node/5595002783",
+    "name": "Blow Hole",
+    "category": "attraction"
+  },
+  {
+    "id": "osm-node/2310227531",
+    "name": "Kissimmee",
+    "category": "diving_snorkeling"
+  },
+  {
+    "id": "osm-node/2310275954",
+    "name": "Cemetery Reef",
+    "category": "diving_snorkeling"
+  },
+  {
+    "id": "osm-node/776042247",
+    "name": "Salt Creek",
+    "category": "boat_charter"
+  },
+  {
+    "id": "osm-node/2269090911",
+    "name": "McRuss",
+    "category": "shopping"
+  },
+  {
+    "id": "osm-node/3763466373",
+    "name": "Beauty Supplies",
+    "category": "wellness"
+  },
+  {
+    "id": "osm-node/5109681368",
+    "name": "BALⱯNCE",
+    "category": "wellness"
+  },
+  {
+    "id": "osm-way/371815680",
+    "name": "Church of God",
+    "category": "religious"
+  },
+  {
+    "id": "osm-way/1351037302",
+    "name": "Blossom Island Park",
+    "category": "activity"
+  },
+  {
+    "id": "osm-way/371843183",
+    "name": "C. A. Borrolo M.D.",
+    "category": "medical"
+  },
+  {
+    "id": "osm-node/3772810353",
+    "name": "Seven Mile Beach Dental Clinic",
+    "category": "medical"
+  },
+  {
+    "id": "osm-way/374031622",
+    "name": "Cayman Auto Rentals",
+    "category": "transport"
+  },
+  {
+    "id": "osm-way/374372405",
+    "name": "Universal Fitness",
+    "category": "wellness"
+  },
+  {
+    "id": "osm-node/5116069838",
+    "name": "Crossroads United Church",
+    "category": "religious"
+  },
+  {
+    "id": "osm-way/349629309",
+    "name": "East End United Church Hall",
+    "category": "religious"
+  },
+  {
+    "id": "osm-node/3761094692",
+    "name": "Barclays",
+    "category": "financial"
+  },
+  {
+    "id": "flight-gcm-gcm-mkynxz7v",
+    "name": "Flight: Toronto → Cayman Islands",
+    "category": "transport"
+  },
+  {
+    "id": "flight-gcm-gcm-mkynxz7w",
+    "name": "Flight: Cayman Islands → Chicago",
+    "category": "transport"
+  }
+]

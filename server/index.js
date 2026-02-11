@@ -58,12 +58,21 @@ async function loadApp() {
     const { generalLimiter } = await import('./middleware/rateLimiter.js');
     app.use('/api/', generalLimiter);
 
-    // CORS
-    const allowedOrigins = (process.env.FRONTEND_URL || 'http://localhost:5173').split(',');
+    // CORS - Allow all localhost ports for development
+    const allowedOrigins = [
+      'http://localhost:3000',
+      'http://localhost:3001',
+      'http://localhost:3002',
+      'http://localhost:5173',
+      'http://localhost:5174',
+      ...(process.env.FRONTEND_URL ? process.env.FRONTEND_URL.split(',') : [])
+    ];
     app.use(cors({
       origin: (origin, callback) => {
+        // Allow requests with no origin (like mobile apps, curl, etc)
         if (!origin) return callback(null, true);
-        if (allowedOrigins.includes(origin)) {
+        // Allow all localhost origins in development
+        if (origin.startsWith('http://localhost:') || allowedOrigins.includes(origin)) {
           callback(null, true);
         } else {
           callback(new Error('Not allowed by CORS'));
@@ -118,6 +127,8 @@ async function loadApp() {
     const pathRoutes = (await import('./routes/paths.js')).default;
     const adminRoutes = (await import('./routes/admin.js')).default;
     const uploadRoutes = (await import('./routes/upload.js')).default;
+    const serpApiRoutes = (await import('./routes/serpapi.js')).default;
+    const analyticsRoutes = (await import('./routes/analytics.js')).default;
 
     app.use('/api/auth', authRoutes);
     app.use('/api/courses', courseRoutes);
@@ -125,6 +136,8 @@ async function loadApp() {
     app.use('/api/paths', pathRoutes);
     app.use('/api/admin', adminRoutes);
     app.use('/api/upload', uploadRoutes);
+    app.use('/api/serpapi', serpApiRoutes);
+    app.use('/api/analytics', analyticsRoutes);
 
     console.log('Server ready');
   } catch (error) {

@@ -1,0 +1,43 @@
+{
+  "totalNodes": 3,
+  "processedNodes": 3,
+  "successfulNodes": 2,
+  "failedNodes": 1,
+  "results": [
+    {
+      "nodeId": "serp-ChIJk2RGIaGHJY8RESPsMyA4tYk-wha1b0cae",
+      "nodeName": "The Ritz-Carlton, Grand Cayman",
+      "category": "hotel",
+      "oldThumbnail": "https://lh3.googleusercontent.com/p/AF1QipMC6VCkRe2tWZCqGHd-YNF_RD56kkGaCin45jQu=w138-h92-k-no",
+      "newThumbnail": "https://cache.marriott.com/is/image/marriotts7prod/gcmrz-silver-palm1-26598-17030:Wide-Hor?wid=1336&amp;fit=constrain",
+      "newImages": [
+        "https://cache.marriott.com/is/image/marriotts7prod/gcmrz-silver-palm1-26598-17030:Wide-Hor?wid=1336&amp;fit=constrain",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Sailboats%2C_Seven_Mile_Beach%2C_Grand_Cayman.jpg/1280px-Sailboats%2C_Seven_Mile_Beach%2C_Grand_Cayman.jpg"
+      ],
+      "source": "website_og+wikimedia"
+    },
+    {
+      "nodeId": "serp-ChIJafu7Rp2HJY8R0tCKW_lnbbI-dr12zcpjz",
+      "nodeName": "Kimpton Seafire Resort + Spa",
+      "category": "hotel",
+      "oldThumbnail": "https://lh3.googleusercontent.com/p/AF1QipMjMk2_w1h9L9tgCm1f48_ruTpVwmxp152VHzhd=w163-h92-k-no",
+      "newThumbnail": "https://lh3.googleusercontent.com/p/AF1QipMjMk2_w1h9L9tgCm1f48_ruTpVwmxp152VHzhd=w163-h92-k-no",
+      "newImages": [
+        "https://lh3.googleusercontent.com/p/AF1QipMjMk2_w1h9L9tgCm1f48_ruTpVwmxp152VHzhd=w163-h92-k-no"
+      ],
+      "source": "existing"
+    },
+    {
+      "nodeId": "serp-ChIJC4qpyaGHJY8RxldH2eizxew-krqeed8ak",
+      "nodeName": "The Westin Grand Cayman Seven Mile Beach Resort & Spa",
+      "category": "hotel",
+      "oldThumbnail": "https://lh3.googleusercontent.com/p/AF1QipN7qokQXq8HNAYDpv3xDF8Z0PgfJyBy0InE-Sk-=w138-h92-k-no",
+      "newThumbnail": null,
+      "newImages": [],
+      "source": "none",
+      "error": "No images found from any source"
+    }
+  ],
+  "startedAt": "2026-02-03T17:00:11.948Z",
+  "lastUpdatedAt": "2026-02-03T17:00:29.965Z"
+}

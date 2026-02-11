@@ -1,0 +1,973 @@
+id,name,category,latitude,longitude,address,district,island
+osm-node/4103887171,"Sunset Cove",hotel,19.675822,-80.05148,"34, Wonder Lane, Kingston Bight, Little Cayman",Little Cayman,Little Cayman
+osm-way/330602940,"Grandview Condos",hotel,19.312977,-81.385739,"95, Snooze Lane, Seven Mile Beach, George Town",George Town,Grand Cayman
+osm-node/7760123992,"Grand Cayman Villas & Condos",villa_rental,19.324316,-81.176654,"846, Frank Sound Road, Grand Cayman, KY1-1702",North Side,Grand Cayman
+osm-node/633024492,"Cimboco",restaurant,19.329847,-81.171222,"Lawrence Blvd, Whitehall Estate, West Bay",George Town,Grand Cayman
+osm-node/1118465872,"Seven Mile Greens",restaurant,19.341547,-81.379899,"West Bay Road",Seven Mile Beach,Grand Cayman
+osm-node/2269076877,"Abacus",restaurant,19.329847,-81.171222,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-node/3772812142,"Peppers",restaurant,19.288717,-81.373184,"426, West Bay Road, West Bay",George Town,Grand Cayman
+osm-node/4108152426,"Seven",restaurant,19.3428,-81.3917,"West Bay Road, Seven Mile Beach",Seven Mile Beach,Grand Cayman
+osm-node/4108168119,"Andiamo",restaurant,19.340165,-81.390744,"West Bay Road, Seven Mile Beach",Seven Mile Beach,Grand Cayman
+osm-node/4108177404,"Taikun",restaurant,19.329847,-81.171222,"West Bay Road, Seven Mile Beach",Seven Mile Beach,Grand Cayman
+osm-node/4108193107,"Blue by Eric Ripert",restaurant,19.335,-81.38,"West Bay Road, Seven Mile Beach",Seven Mile Beach,Grand Cayman
+osm-node/4108237889,"The Brasserie, Cricket Square",restaurant,19.292617,-81.377387,"171, Elgin Avenue, Cricket Square, George Town",George Town,Grand Cayman
+osm-node/5082785468,"Gino's Pizzeria",restaurant,19.331001,-81.380544,"1102, West Bay Road, Seven Mile Beach",Seven Mile Beach,Grand Cayman
+osm-node/5225582155,"Wok-n-Roll",restaurant,19.338511,-81.388069,"Seven Mile Beach, Grand Cayman, Cayman Islands",Seven Mile Beach,Grand Cayman
+osm-node/12110306000,"Luca",restaurant,19.340962,-81.389808,"871, West Bay Road, George Town",Seven Mile Beach,Grand Cayman
+osm-way/26268669,"Hungry Iguana Restaurant & Bar",restaurant,19.667053,-80.059992,"Little Cayman, Little Cayman, Cayman Islands",Little Cayman,Little Cayman
+osm-way/62184806,"Mango Tree",restaurant,19.288235,-81.376074,"518, Shedden Road, George Town",George Town,Grand Cayman
+serp-ChIJu8MFbKd9L48RZrzyp3DvcWQ-tum6xb6qe,"Ristorante Pappagallo",restaurant,19.365,-81.402,"444 Conch Point Rd, West Bay, Cayman Islands",West Bay,Grand Cayman
+osm-way/373531429,"Italian Kitchen",restaurant,19.303478,-81.098234,"Austin Conolly Road",East End,Grand Cayman
+osm-way/373649827,"Lobster Pot",restaurant,19.295,-81.385,"245, North Church Street, George Town",George Town,Grand Cayman
+osm-way/374031629,"Casanova By the Sea Ristorante",restaurant,19.287697,-81.373949,"65, North Church Street, George Town",George Town,Grand Cayman
+osm-way/541622635,"Heritage Kitchen",restaurant,19.372647,-81.412408,"West Bay, Grand Cayman, Cayman Islands",West Bay,Grand Cayman
+osm-way/688041269,"Blue Iguana Grill",restaurant,19.344807,-81.36281,"Grand Cayman, Grand Cayman, Cayman Islands",Grand Cayman,Grand Cayman
+osm-node/639174106,"Cafe Del Sol",restaurant,19.288351,-81.372595,"Lawrence Blvd., Whitehall Estate, West Bay",George Town,Grand Cayman
+osm-node/5225626263,"Gelato & Co.",restaurant,19.286221,-81.373384,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-node/1122593419,"Pizza Boat",restaurant,19.285061,-81.373622,"179, West Bay Road, Seven Mile Beach, George Town",George Town,Grand Cayman
+osm-node/3764555873,"Subway",restaurant,19.373841,-81.409219,"Town Hall Road, West Bay",West Bay,Grand Cayman
+osm-node/5124855881,"KFC",restaurant,19.341415,-81.390924,"Seven Mile Beach, Grand Cayman, Cayman Islands",Seven Mile Beach,Grand Cayman
+osm-node/5767247241,"Seven Mile Burger",restaurant,19.339379,-81.388337,"Seven Mile Beach, Grand Cayman, Cayman Islands",Seven Mile Beach,Grand Cayman
+osm-node/1118465899,"Craft",bar,19.288224,-81.374378,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-node/4108177403,"Silver Palm",bar,19.340164,-81.391064,"West Bay Road, Seven Mile Beach",Seven Mile Beach,Grand Cayman
+osm-node/10863858390,"GT Outpost",bar,19.288769,-81.373753,"93 N Church St, George Town, George Town",George Town,Grand Cayman
+osm-node/12212818455,"Cask",bar,19.285387,-81.373242,"18, Forum Lane, Camana Bay, KY1-9006",George Town,Grand Cayman
+osm-node/4231130890,"Cayman Crystal Caves",attraction,19.35,-81.18,"North Side, Grand Cayman, Cayman Islands",North Side,Grand Cayman
+serp-ChIJ03tlaISHJY8RRIj3Qp4iRlA-eeq0n9z7d,"Cayman Islands Yacht Club",boat_charter,19.357086,-81.377525,"164 Yacht Dr, Cayman Islands",Grand Cayman,Grand Cayman
+osm-node/778613431,"Queen Elizabeth II Botanic Park",activity,19.3208,-81.1692,"Frank Sound Road, George Town, KY1-1105",North Side,Grand Cayman
+serp-ChIJr7n0c9z0JY8RVxzqefQ3U90-n7dm76hpf,"Health City Cayman Islands",medical,19.298788,-81.146622,"High Rock, 1283 Sea View Rd, KY1-1005, Cayman Islands",Grand Cayman,Grand Cayman
+osm-node/5929630043,"Foster's Pharmacy",medical,19.2844,-81.375978,"63, Dorcy Drive, George Town",George Town,Grand Cayman
+osm-node/5124899346,"The Strand Dental Clinic",medical,19.337973,-81.388328,"Seven Mile Beach, Grand Cayman, Cayman Islands",Seven Mile Beach,Grand Cayman
+osm-node/3774191416,"Butterfield Bank",financial,19.287781,-81.376035,"12, Albert Panton Street, George Town",George Town,Grand Cayman
+osm-way/372221560,"GoCayman Car Rental",transport,19.28626,-81.376579,"416, Shedden Road, Grand Cayman, KY1-1005",George Town,Grand Cayman
+serp-ChIJAdEq_D6GJY8Rv-kzFgk7xgg-942dfwxli,"Marshall's Rent-A-Car",transport,19.295947,-81.359208,"Airport Rental Plaza, 257 Roberts Dr, Cayman Islands",Grand Cayman,Grand Cayman
+osm-way/62184797,"Foster's Food Fair Airport Center",shopping,19.287236,-81.373899,"63, Dorcy Drive, George Town",George Town,Grand Cayman
+osm-way/65746192,"Market Place",shopping,19.709628,-79.820444,"West Side Road, Cayman Brac",Cayman Brac,Cayman Brac
+osm-way/689291769,"Kirkconnell's Market",shopping,19.71107,-79.819198,"Dennis Foster Road, Stake Bay",Cayman Brac,Cayman Brac
+osm-node/6340463199,"Cayman Cigar co.",shopping,19.283351,-81.252275,"Bodden Town Road",Bodden Town,Grand Cayman
+osm-node/3763466374,"Department of Vehicle and Drivers' Licensing",services,19.376437,-81.411256,"Reverend Blackman Drive, West Bay",West Bay,Grand Cayman
+osm-node/5124899343,"Spa Esprit",wellness,19.340078,-81.392427,"Seven Mile Beach, Grand Cayman, Cayman Islands",Seven Mile Beach,Grand Cayman
+osm-node/4249365095,"DNS Diving",wellness,19.286479,-81.37389,"700, Shamrock Road",George Town,Grand Cayman
+serp-ChIJgaprjKaHJY8RxtxRkJTBoLc-vdr1n2veq,"The Falls Steakhouse (formerly Copper Falls Steakhouse)",restaurant,19.32378,-81.23795,"43 Canal Point Drive Grand Cayman KY1, 1301, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJTVLeUPGHJY8RsFbQq_TgYQ0-dpmb8pj8i,"Ms. Piper's Kitchen + Garden",restaurant,19.289524,-81.36455,"22 Piper Way, Grand Cayman KY1-1201, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJUan6nnd9L48RXwXiEDIXuQo-9dk8pi7vn,"Calypso Grill Cayman Islands",restaurant,19.377446,-81.408806,"10 Morgan's Ln, West Bay KY1-1202, Cayman Islands",West Bay,Grand Cayman
+serp-ChIJva5ycwCHJY8Rnc1RPoBnAUk-yr5z9pe51,"Bonny Moon Beach Club",restaurant,19.376762,-81.410703,"53 Seabath Lane, SMB, West Bay KY1-1201, Cayman Islands",West Bay,Grand Cayman
+serp-ChIJVzcxOISHJY8RuY6t3f_QiwA-7g3iryevu,"Morgan's Seafood Restaurant",restaurant,19.37088,-81.270803,"Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJQcNU25WHJY8RUySbDil8h-E-sz7yoxbp7,"The Kitchen Steakhouse",restaurant,19.317969,-81.239761,"Cayman Islands, KY1-9006, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJsYIJwqmHJY8R-mf6hAwXxd4-sd5yehin5,"Living The Dream Divers",diving_snorkeling,19.338657,-81.380051,"Living the Dream Dive Shop 245 North Church Street Grand Cayman KY1, 1206, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJ95I5r8v1JY8RDCnSnBEaNRQ-pvc0gc65e,"Ocean Frontiers Dive Shop",diving_snorkeling,19.306657,-81.094199,"344C Austin Conolly Dr, Grand Cayman KY1-1801, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJI6Ex6aaHJY8RdKvZ-NkFSb4-jpmm811vp,"Pirate Divers Grand Cayman",diving_snorkeling,19.329847,-81.171222,"Seven Mile Public Beach, W Bay Rd, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJB4xY5leGJY8RRegXCJJcOKY-j4ijk93kr,"Cayman Turtle Divers",diving_snorkeling,19.375084,-81.407751,"1428A West Bay Road, Trafalgar Place #C2, KY1-1207, Cayman Islands",West Bay,Grand Cayman
+serp-ChIJkYpQ3YqGJY8RYou8g-J3xS0-4bmzisio7,"Eden Rock Diving Center Ltd",diving_snorkeling,19.2875,-81.3865,"124 S Church St, George Town KY1-1110, Cayman Islands",George Town,Grand Cayman
+serp-ChIJie0xvYuGJY8R0SQAMOL-Ev8-95gc522ng,"Don Foster's Dive Cayman",diving_snorkeling,19.286468,-81.372847,"218 S Church St, George Town KY1-1206, Cayman Islands",George Town,Grand Cayman
+serp-ChIJV_206L99L48R39e8Nk-kuZw-n534cc380,"Divetech Grand Cayman",diving_snorkeling,19.373499,-81.4106,"Sea Fan Dr, West Bay KY1-1401, Cayman Islands",West Bay,Grand Cayman
+serp-ChIJZ0W1FFiGJY8RKyPQ03JtjBo-esbdt7x7c,"Deep Blue Divers Cayman",diving_snorkeling,19.285632,-81.376297,"37 S Church St, George Town, Cayman Islands",George Town,Grand Cayman
+serp-ChIJKeesgoKHJY8R6mf_R8_q2BY-xc5k8lcyz,"DNS Cayman Islands scuba dive, Grand Cayman.",diving_snorkeling,19.329847,-81.171222,"66 Snooze Ln, KY1-1203, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJe72WaIt9L48RVvJIBS7-euI-yfjdil84j,"INDIGO DIVERS Grand Cayman",diving_snorkeling,19.373067,-81.409241,"25 N W Point Rd, West Bay, Cayman Islands",West Bay,Grand Cayman
+serp-ChIJOb5a0wRhKI8RAt0rSPzWJ60-5qcb0crkk,"Little Cayman Divers",diving_snorkeling,19.664161,-80.058445,"Guy Banks Road Little Cayman KY3, 2501, Cayman Islands",Little Cayman,Little Cayman
+serp-ChIJxRowQvd9L48RXJ7AknS6HzI-qatbgvue0,"Shaggy's Diving & Condos",diving_snorkeling,19.275942,-81.258942,"Coconut Bay 25 Dunlop Drive PO 643 Grand Cayman KY1, 1303, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJhVIkORiHJY8R5dbY0iHJZQg-fogmwmva7,"Anytime Wellness Ltd.",spa_wellness,19.288843,-81.375456,"The Harbour Centre, 42 N Church St, George Town, Cayman Islands",George Town,Grand Cayman
+serp-ChIJ58_vBCWHJY8Rb6KQ9pLNz6Q-qy5f7cmwr,"ELIM WELLNESS CENTRE",spa_wellness,19.319117,-81.240919,"PARK PLACE, 16 Earth Cl, KY1-1206, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJVVVlUaqHJY8RV8GQZJQ1q0s-kbdixr24y,"Cayman Massage & Wellness",spa_wellness,19.321865,-81.378508,"West Shore Wellness, West Shore Center, 508 W Bay Rd, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJzzOBE2-HJY8RM_9Tzukihpk-mznzrz521,"BodyWorks Holistic Wellness Centre",spa_wellness,19.317152,-81.237138,"179, A KY1, 1104, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJ9QiXhamHJY8R-Wi3CL9VXg0-qt6cjb2ff,"The Da Vinci Wellness Centre",spa_wellness,19.375331,-81.408208,"16-C2 Earth Cl Park Place Plaza, West Bay Road, Seven Mile Beach Grand Cayman KY1, 1205, Cayman Islands",West Bay,Grand Cayman
+serp-ChIJQVVVZQZiL48RvngBgIZ5rgY-xd899bq8s,"Perfectly Pampered Cayman - Mobile Massage and Spa Grand Cayman",spa_wellness,19.316923,-81.238204,"",Grand Cayman,Grand Cayman
+serp-ChIJExixktWHJY8RaF-b3-ah5u0-ffco0eqn5,"The Well Cayman - Medical, Clinical, Functional",spa_wellness,19.283038,-81.373685,"2nd Floor, 15 S Church St, George Town KY1-1110, Cayman Islands",George Town,Grand Cayman
+serp-ChIJg6TkXg2HJY8RCXhT6ECfrVM-ahd5r740p,"Beauty Shape European Fitness and Wellness Center",spa_wellness,19.323207,-81.236435,"Grand Cayman, Unit 13, The Strand, 46 Canal Point Dr, KY1-1112, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJgbeZWKYtzEwRiGRFqLscDok-dr3hk83vb,"Mellisauna’s Oasis Spa Cayman- Mobile Massage -Grand Cayman",spa_wellness,19.319976,-81.236135,"",Grand Cayman,Grand Cayman
+serp-ChIJiSaZDtWHJY8RyttoYXIjkYQ-ix1ag4jgu,"Grand Tiki - Bar & Grill",bar,19.285604,-81.37307,"93 S Church St, George Town, Cayman Islands",George Town,Grand Cayman
+serp-ChIJGysgWuqHJY8RrvaazEPRc6M-2k6f3lgwl,"Sandbar Daiquiri Bar & Grill Grand Cayman",bar,19.339158,-81.380955,"1, Box 11310 KY, 23, 1008 N Church St, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJ8elUPSuHJY8RNoD3oe1052k-3tyhcku81,"All Stars Sports Bar & Grill",bar,19.324152,-81.381385,"W Bay Rd, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJefOeAbyJJY8RFNIk_512Zfw-8gnqnkl47,"Caymanvibes water sports",water_sports,19.35708,-81.376373,"Kaibo Newlands barcadere, Rum Point, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJ16HHw_b1JY8R50Af6lFhW4o-48h5njcyv,"White Sand Water Sports",water_sports,19.31983,-81.383605,"585 Water Cay Rd, Rum Point, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJgdFqbeiHJY8R8R6qTgh-uQs-7hazrlm91,"Island Splash Watersports",water_sports,19.324373,-81.17663,"Yacht Dr, Cayman Islands Yacht Club, Dock B Grand Cayman, KY1-1207, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJAQCkfl-GJY8RGVmvkz9geNI-ebmysk74n,"Rowan Watersports LTD",water_sports,19.319433,-81.23721,"Turnberry Drive, West Best, Safehaven Marina Dock 18, Seafarers Way, Royal Watler Cruise Terminal, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJaTTiMq2HJY8R4MoyWLZQufU-rv85a5w03,"Captain Marvins Watersports Waterfront centre",water_sports,19.288462,-81.375062,"28 Seafarers Wy, George Town KY1-1302, Cayman Islands",George Town,Grand Cayman
+serp-ChIJqUXsZKWHJY8RqqzSYUtz2uo-51r35ydci,"Family Time Watersports.",water_sports,19.35708,-81.376373,"Dock D, Cayman Islands Yacht Club Yacht Drive Grand Cayman, KY1-9006, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJleCXe_r1JY8R5X1Gxkud6ec-5yuh7jrex,"Silver Thatch Watersports",water_sports,19.324373,-81.17663,"Kaibo marina, Grand Cayman KY1-1700, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJUfcUhBJiL48RA8YaEgU7vaY-uejqw9soh,"Red Sail Sports- Rum Point",water_sports,19.3728,-81.2714,"Cayman Kai, 46 Sand Point Rd, Rum Point KY1-1206, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJAUK59EqHJY8RvWO482OUi5I-2hlrjw23i,"Grand Time Water Sports Cayman Islands",water_sports,19.375787,-81.409856,"Dock B29, 164 Yacht Dr, Cayman Islands Cayman Islands Yacht Club, West Bay, Cayman Islands",West Bay,Grand Cayman
+serp-ChIJZ3iGk2aHJY8RVWyQCZ2aCWE-18xoqvrj0,"Captain Marvins Watersports",water_sports,19.33849,-81.380074,"Grand Cayman, Cayman Falls Shopping 1114B units 11, 12 W Bay Rd, KY1-1302, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJWbuAAnSHJY8R26Npmd47n-E-g2y1cepw3,"Caymanian Experience Jetski Rental",water_sports,19.342063,-81.39134,"Seven Mile Beach, Cayman Islands",Seven Mile Beach,Grand Cayman
+serp-ChIJg4Puo8yHJY8RQf2QWfej2yA-vjmj3bw6h,"Frank's Water Sports",water_sports,19.310847,-81.18386,"Safehaven Marina Grand Cayman KY1, 1108, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJaxEV74CHJY8R-Zp3fNEldSU-hi9led4n6,"Cayman Yacht Charters",boat_charter,19.357086,-81.377525,"Dock B - Slip 50 Cayman Islands Yacht Club Yacht Drive Grand Cayman KY1, 1208, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJH50XR6yHJY8RfruPl3EQgqY-8hlab12kp,"Crazy Crab - Private Boat Charters",boat_charter,19.322628,-81.236075,"Camana Bay Harbour, 10 Market St, KY1-1401, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJzXrpQayHJY8RUpdcTFLu4zI-hmsqbe4j4,"Cayman Luxury Charters",boat_charter,19.306269,-81.094461,"62 Forum Ln, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJqdRN84KHJY8RLWISfURem-k-7lq9t7yum,"Island Breeze Charters Cayman",boat_charter,19.329847,-81.171222,"Yacht Club, 164 Yacht Dr, KY1-1303, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJyXalv_OHJY8Ror74di9f26c-hls2gf5th,"Cayman Private Charters",boat_charter,19.376413,-81.381327,"Yacht Dr, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJfzcOqS2HJY8RAwhOJUquO_w-bzv6p0owm,"Cobalt Custom Charters",boat_charter,19.320846,-81.239321,"Out front of Karoo Camana Bay, KY1-9006, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJsStF8YGHJY8R5mlNKHqd4IA-st2h3vebf,"Sea Cayman Boat Charters",boat_charter,19.298788,-81.146622,"Yacht Club, Cayman Islands, Dock B, Slip 39, Yacht Dr, KY1-9006, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJKZrMuvOHJY8Ro4m1LWpfCPk-sje8uq93v,"Y-Knot Charters - Cayman Islands",boat_charter,19.284911,-81.249376,"164 Yacht Drive Dock C, Cayman Islands Yacht Club, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJSaiacIGHJY8RvAruO9l0ECM-lf34npequ,"Grand Cayman Private Boat Charters and Tours - All Aboard Charters",boat_charter,19.320211,-81.243817,"164 Yacht Drive Grand Cayman KY1, 1104, KY1-1104, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJxSYPbF-GJY8RhT2_ByGgAg4-6rk09rjf4,"Reelistik Charters - Cayman Islands Fishing, Snorkeling and Private Charters",boat_charter,19.285034,-81.374499,"Whitehall Bay, N Church St, George Town, Cayman Islands",George Town,Grand Cayman
+serp-ChIJm9iX2U6GJY8RKeSFwwHicjo-lghcea5vw,"Cayman Islands Boat Rentals",boat_charter,19.28575,-81.374903,"62 Lincoln Dr, George Town KY1-1009, Cayman Islands",George Town,Grand Cayman
+serp-ChIJz_N_rh6HJY8RpOjHtrTCxFU-xznpcwu2p,"Cayman Kind Watersports - Private Boat Charters",boat_charter,19.316789,-81.241202,"Camana Bay Harbour, 10 Market St, KY1-1401, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJT2NGKsWHJY8RRjPTQuxJcdQ-v8soaur3c,"Black Pearl Private Charters",boat_charter,19.282934,-81.345542,"Yacht club drive, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJgfJhlbaHJY8R8xPfd5kCYIE-cgqd0n46b,"boating.ky (VIP Watersports Ltd)",boat_charter,19.322114,-81.236082,"Pier B, Slip 22 Cayman Islands Yacht Club BOX 326 Grand Cayman KY1, 9006, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJl-OYHa6HJY8RzBZP9Z43-mM-8qa0xmhul,"Nick's Private Charters",boat_charter,19.351827,-81.213695,"Yacht Drive Cayman Islands Yacht Club dock A5 Grand Cayman, KY1-1103, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJm5LmGO2HJY8RAHbUqiBByFg-fsfs4c4gd,"Easy Does It Charters",boat_charter,19.298731,-81.135953,"Grand Cayman, 164 Yacht Dr, KY1-1302, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJKS_HFYSHJY8RlWQxnVjf_yo-s57v0m4gn,"Six Senses Cayman Adventures",activity,19.329847,-81.171222,"Yacht Dr, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJVVVVVZl9L48Rtz2V0qX1KfY-e637f9o3a,"Dolphin Discovery Grand Cayman",activity,19.374669,-81.409585,"787 Northwest Road, West Bay KY1-1209, Cayman Islands",West Bay,Grand Cayman
+serp-ChIJSQf-DKyHJY8RvD8hMBazhCY-xgm6h08t0,"Camana Bay",activity,19.322,-81.38,"10 Market St, KY1-9006, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJnY6fV56HJY8R58JbnI81dIs-1oxcd0os0,"Cayman Ocean Adventures Stingraycity Tour",activity,19.348473,-81.367596,"Marquise quay, KY1-1207, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJB7J19_p9L48RszT9PCFAT2M-gwkn02n9k,"Cayman Turtle Centre",activity,19.3636,-81.4017,"9HJP+47M, 786 Northwest Point Road, West Bay Grand Cayman KY1, West Bay 1303, Cayman Islands",West Bay,Grand Cayman
+serp-ChIJNfcX-kSGJY8R1N38FW4tL_8-ic4ut5m7v,"Cayman Spirits Co.",activity,19.301511,-81.371274,"65 Bronze Road Box, Bronze Rd, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJsfeaZliGJY8RholiQB0YZHQ-nr9p4xc1e,"Cayman Islands Helicopters",activity,19.329847,-81.171222,"221 N Church St, Grand Cayman KY1-1103, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJsxr9LKaHJY8RTeTP2Z0GepY-9dlvb01ck,"Stingray City Tours Grand Cayman",activity,19.3757,-81.3048,"SMB Rd, Unit 67, POBOX 30931, KY1-1204, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJ95Nver6HJY8RpEvL0We454w-vn779bmeq,"Red Sail Sports - Safehaven Marina",activity,19.337845,-81.366666,"Turnberry Dr, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJqUN2Tp-HJY8R7Lye2mGEi4o-52kymhl7u,"Funky Monkey Lifestyle Wear",shopping,19.372519,-81.408382,"West Bay Road, Lime Tree Bay Ave, KY1-1002, Cayman Islands",West Bay,Grand Cayman
+serp-ChIJ4e78XqaHJY8RkHUKgVHoZMI-rguy0ny51,"Kirk Freeport The Strand",shopping,19.284127,-81.375953,"George Town, Cayman Islands",George Town,Grand Cayman
+serp-ChIJQ12DQdaIJY8RLiK-O8ptEWs-tgct9gpww,"Vy's Closet Lingerie Boutique",shopping,19.288288,-81.374355,"20 Goring Avenue Bayshore Mall, George Town Grand Cayman KY1, 1008, Cayman Islands",George Town,Grand Cayman
+serp-ChIJNW9EE4qJJY8RLgSbS6OPWc4-ccg7z2uva,"Cayman Island Villa - Vacation Rentals - Rum Point - Kaibo",villa_rental,19.3728,-81.2714,"585 Water Cay Road Grand Cayman, KY1-1701, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJM96XOwCHJY8RUNVsEuMhfoE-l31vcy1rz,"Starfish Villas Grand Cayman",villa_rental,19.376809,-81.41019,"145 N W Point Rd, West Bay KY1-1200, Cayman Islands",West Bay,Grand Cayman
+serp-ChIJWR19X5SHJY8Rwvl44Fr-tc8-znciav2ei,"Cayman Luxury Rentals",villa_rental,19.355136,-81.247763,"Unit # A5, Trafalgar Place, 1428 W Bay Rd, Grand Cayman KY1-1206, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJ37fClKqHJY8Rxfsghk5ZhEw-ssizs2spa,"Hertz Cayman - Car Rental",transport,19.287283,-81.376565,"250 Roberts Dr, George Town KY1-1004, Cayman Islands",George Town,Grand Cayman
+serp-ChIJHdEd_D6GJY8RVDeMd7cWlfQ-3u454o0ny,"Budget of Grand Cayman",transport,19.28542,-81.375478,"Grand Cayman, 210 Roberts Dr, George Town KY1-1006, Cayman Islands",George Town,Grand Cayman
+serp-ChIJQxkwIACHJY8R1uD8iPGt5YM-blcb70dlu,"Europcar Grand Cayman",transport,19.285338,-81.375945,"Grand Cayman, 250 Roberts Dr, George Town, Cayman Islands",George Town,Grand Cayman
+serp-ChIJEYmUAn-HJY8Rkql1sgiY8Jo-d3usidu0g,"Apex of Grand Cayman",transport,19.329847,-81.171222,"Airport Rental Plaza, 257 Roberts Drive Grand Cayman, KY1-1006, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJ0__eM9KHJY8R75p_dJMVDcY-iehbpl7ap,"Firefly Rental Car Grand Cayman",transport,19.288558,-81.374653,"Suite 10, Grand Cayman, 250 Roberts Dr, George Town KY1-1004, Cayman Islands",George Town,Grand Cayman
+serp-ChIJpzoU55CHJY8RrPixE0vX7SQ-w671s1wnm,"All Star Car Rentals",transport,19.285337,-81.373857,"Unit 2045, 294 N Sound Rd, George Town KY1-1503, Cayman Islands",George Town,Grand Cayman
+serp-ChIJ88vH9rCHJY8R3anAvA1WFVY-qpqqnatg9,"Super Slick Car Rental",transport,19.286224,-81.375412,"Grand Cayman, 110 Sound Way, George Town, Cayman Islands Grand Cayman KY1, KY1-1011, Cayman Islands",George Town,Grand Cayman
+serp-ChIJC-doGRuHJY8Rj0FzCz99QKU-lcil99qut,"Fox Rent A Car Grand Cayman",transport,19.287651,-81.373081,"250 Roberts Dr, George Town KY1-1100, Cayman Islands",George Town,Grand Cayman
+serp-ChIJiwfgcpaHJY8R-2vHY1uImtk-6dysgjpnk,"North Sound Golf Club",golf,19.335,-81.375,"557 Safehaven Dr, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJl0qY6ryHJY8R8LWooHipgQQ-g830lu09m,"The Ritz-Carlton Golf Club, Grand Cayman",golf,19.335,-81.38,"Grand Cayman, The Ritz-Carlton, 1066 W Bay Rd, KY1-1209, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJAzgHZqaHJY8REJiCy_xP-EQ-td0kvz4ix,"Williams2 Real Estate",services,19.341094,-81.389347,"Seven Mile Beach, 6 The Strand, KY1, 1205, Cayman Islands",Seven Mile Beach,Grand Cayman
+serp-ChIJ7e00L_eHJY8Rch_1TR_3_0s-ah4z3zlan,"The Agency Real Estate Cayman Islands",services,19.288566,-81.302432,"Fort 51 Building 51 Fort Street Grand Cayman, KY1-1002, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJ2VuPv6GHJY8RAJ038fL_BuY-uareno5k1,"Berkshire Hathaway HomeServices Cayman Islands",services,19.32279,-81.236237,"390 W Bay Rd, KY1-1203, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJQUUz7QmHJY8RvFgYiYwOweM-fovxi1465,"Nikki Thomas - Cayman Islands Luxury Real Estate",services,19.288569,-81.367187,"7 Mile Shops, 215 W Bay Rd, KY1-1201, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJ84V_XZ-HJY8RRfqRDy94cwQ-n11dng4xu,"Cayman Islands Sotheby's International Realty",services,19.33954,-81.392452,"5-104, Governor's Square, Seven Mile Beach, Grand Cayman KY1-1203, Cayman Islands, Cayman Islands",Seven Mile Beach,Grand Cayman
+serp-ChIJJcs35vWJJY8RhO0k758JnEY-ow1a805ei,"Shoreline Properties Cayman Islands",services,19.329847,-81.171222,"Cayman Kai, 585 Water Cay Rd, Rum Point, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJW0wke0mHJY8Rq_D_5pwpTtQ-mb80f425v,"Engel & Völkers Cayman",services,19.287794,-81.375078,"Tropic Center, 18 Earth Cl, George Town KY1-1201, Cayman Islands",George Town,Grand Cayman
+serp-ChIJaeJKZ_-GJY8R0qjhqDTpP70-jn57dscms,"Bovell | REMAX Cayman Islands",services,19.329847,-81.171222,"7 Mile Shops, 215B W Bay Rd, KY1-1201, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJ7RVDlNaHJY8RMxDtFxZvww0-t06uozerz,"Trident Properties (Cayman Islands) Ltd",services,19.284563,-81.372285,"2nd Floor, Strathvale House, 90 N Church St, George Town KY1-1205, Cayman Islands",George Town,Grand Cayman
+serp-ChIJ8Zi2eV2GJY8Rce3v-RyHbtE-8em4fspzk,"International Realty Group Ltd.",services,19.286317,-81.376324,"Buckingham Square, 720 W Bay Rd, George Town KY1-1105, Cayman Islands",George Town,Grand Cayman
+serp-ChIJgW8UL2-HJY8RjH_C6SZ9_hE-qnfx7i6n7,"Ten Sails Property Group",services,19.288992,-81.376352,"45 Beckz Close, George Town KY1-1007, Cayman Islands",George Town,Grand Cayman
+serp-ChIJy6vt_PqHJY8RczMHjY5QK6A-32phmegeq,"Marco Mastrogiovanni - Cayman Islands Real Estate",services,19.288569,-81.367187,"Buckingham Square, W Bay Rd, KY1-1105, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJaWGaqJSHJY8ReZchmqwtzWc-9lpt4mr05,"Corcoran Cayman Islands",services,19.329847,-81.171222,"Suite 04, The Grove, W Bay Rd, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJQSeTmPiGJY8R9zVcymnmri0-w3jianz3h,"Ashmore Alexander Real Estate Cayman Islands",services,19.339648,-81.391897,"Windward III, Seven Mile Beach, KY1-1207, Cayman Islands",Seven Mile Beach,Grand Cayman
+serp-ChIJLSIAwWqHJY8RnKbZi-L0DbA-xmlexa3it,"Cayman Private Aviation",transport,19.284145,-81.37683,"100 Roberts Dr, George Town, Cayman Islands",George Town,Grand Cayman
+serp-ChIJu-gtDUCGJY8RU2NhQkd8g6s-8lbj8oxcw,"Atlantic Aviation GCM",transport,19.283097,-81.375961,"100 Roberts Dr, George Town, Cayman Islands",George Town,Grand Cayman
+serp-ChIJfQblqk99L48Rv0m5WOUOphw-hyzt82ewg,"Cayman Luxury Travel",services,19.375537,-81.410848,"West Bay Gardens, 61 Hillandale Cl, West Bay KY1-1401, Cayman Islands",West Bay,Grand Cayman
+serp-ChIJVyfAekmHJY8Rfiijyzb1gnM-9aanmfffm,"High Achievement Academy",services,19.280997,-81.386774,"Windjammer Plaza, Walkers Rd, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJaSiFEWaHJY8RJlmld_f4lzE-s1y3yzwsp,"LOM Financial Cayman",financial,19.277704,-81.267783,"Ground Floor, Camana Bay, 18 Forum Ln, KY1-1104, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJO_jJGl6GJY8RDuG5DaT5oX4-1rsl1aqef,"Broadhurst LLC, Attorneys-at-Law",services,19.287624,-81.37301,"54 Edward St, George Town, Cayman Islands",George Town,Grand Cayman
+serp-ChIJnQWMUMiHJY8RFG2ljrUjJ8A-v2r9a1jwq,"Loeb Smith Attorneys",services,19.287609,-81.374536,"5th Floor Zephyr House 122 Mary Street George Town Grand Cayman KY1, 1206, Cayman Islands",George Town,Grand Cayman
+serp-ChIJL_OooGeLKI8RYZUxs_kOXkM-4uzcbp3id,"Little Cayman Bookings & Concierge",services,19.665,-80.06,"Lighthouse Road, Cayman Islands",Grand Cayman,Little Cayman
+serp-ChIJnSPNez-HJY8ROLAwF1WbuUE-1vxquohgq,"Blue Sky Sailing (Cayman) Ltd",boat_charter,19.282934,-81.345542,"Yacht Drive Cayman Islands Yacht Club Dock D15 Grand Cayman KY1, 1103, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJnav9y1yHJY8R6MCC-RoFqQs-9u1k5xgv5,"Ironshore Security Ltd",services,19.283747,-81.375138,"Unit A309, Elizabethan Square, Amerigo House, Shedden Rd, George Town KY1-1106, Cayman Islands",George Town,Grand Cayman
+serp-ChIJB8YljoyHJY8RWbdDBLpT6Pc-53h63fb9z,"National Security Services",services,19.288378,-81.372077,"Suite 215, Cannon Place, 294 N Sound Rd, George Town KY1-1008, Cayman Islands",George Town,Grand Cayman
+serp-ChIJ3_ywbWiGJY8Rcav8ugCSEiY-ctkfxl280,"The Security Centre Limited",services,19.331143,-81.37976,"Cayman Technology Centre, 115 Printer Way Grand Cayman, KY1-1001, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJUT32AESGJY8RP0BmswVJLPE-i85cicqin,"Marksman Electronics & Security Services Co, Ltd Cayman Island",services,19.283655,-81.375667,"316 Dorcy Drive George Town, Alexander Place Unit # 1 Industrial Park, KY1-1204, Cayman Islands",George Town,Grand Cayman
+serp-ChIJ6cw69qOHJY8Rl8ZXtdzi9QY-4d3p8ibt5,"Global Security Services Ltd.",services,19.28909,-81.375067,"1st Floor, Artemis House, 67 Fort St, George Town KY1-1102, Cayman Islands",George Town,Grand Cayman
+serp-ChIJDy65lLOHJY8RHKXMGyVDKgw-gw08ike0k,"Island Electronics Security & Monitoring Ltd.",services,19.287972,-81.374506,"Grand Cayman KY1, 90B Godfrey Nixon Wy, George Town KY1-1103, Cayman Islands",George Town,Grand Cayman
+serp-ChIJQ-UbFriHJY8Ry4F9RErPG0Y-cwdmho1l6,"Health City Cayman Islands Camana Bay Clinic",medical,19.322,-81.38,"9 Forum Ln, Camana Bay KY1-9006, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJuW3TSVuGJY8ROH9DvzLDFLg-3syc8qs1k,"Doctors Express Urgent Care",medical,19.289071,-81.373371,"81 Godfrey Nixon Way George Town Grand Cayman KY KY1, 1107, 81 Godfrey Nixon Wy, George Town, Cayman Islands",George Town,Grand Cayman
+serp-ChIJT13xaPaHJY8RT0Tv4qK1d2E-jmitws2vz,"International Medical Group, Grand Cayman",medical,19.286052,-81.376309,"30073, P.O. Box, 30 Pasadora Place, Smith Rd, George Town KY1-1201, Cayman Islands",George Town,Grand Cayman
+serp-ChIJK_xlUf-GJY8RhSECQFEV1Gg-qy4rh5c2c,"Seven Mile Medical Clinic",medical,19.340925,-81.38163,"Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJZcKkUb-HJY8R8yd0oRV6LA8-aovdjltck,"LOOKS (The Art of Beauty)",medical,19.323686,-81.243663,"Governors square, 23 Lime Tree Bay Ave, KY1-1108, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJXeDhnqyHJY8RW0b5V5z08Uo-d70edril2,"Next Door",bar,19.321493,-81.377301,"47 Forum Ln, Camana Bay KY1-1207, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJG8mRN4SHJY8RvCIX5Ggz1is-47s9oel4k,"Bàcaro",restaurant,19.372747,-81.411999,"9J4F+GC West Bay, Cayman Islands Grand Cayman KY1, 9006, Cayman Islands",West Bay,Grand Cayman
+serp-ChIJaRysdamHJY8R3YjPRV_8Pcc-7l4qd403z,"Agua Restaurant",restaurant,19.327,-81.3808,"47 Forum Ln, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJxTvIHWuHJY8R2TdxCGO4FQU-nqqqmxfx0,"UNION GRILL",restaurant,19.321561,-81.377325,"The Crescent Camana Bay Grand Cayman KY1, 9006, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJrQmHRWeGJY8ROQp1Y6DlIP0-fkxnla55x,"The Brasserie",restaurant,19.288586,-81.373805,"Cricket Square, 171 Elgin Ave, George Town KY1-1004, Cayman Islands",George Town,Grand Cayman
+serp-ChIJL3v-_Ud9L48R64h9Rxjvwus-zomlqo44z,"NOVA",restaurant,19.298,-81.384,"18-A Sea Fan Dr, Grand Cayman KY1-1401, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJATftIjyHJY8RPsOhBy4OLNk-3vy0oum2b,"Aria Restaurant",restaurant,19.297301,-81.37736,"Garden Retreat, 52a Edgewater Way, Grand Harbour, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJw9kCtHl9L48RoC5PgnD4hdQ-fk4uc4bt1,"Dolphin Cove Cayman",attraction,19.376704,-81.409397,"9A Garvin Rd, West Bay, Cayman Islands",West Bay,Grand Cayman
+serp-ChIJB4xY5leGJY8RxlMZsM0zKmg-jcn2p9fis,"Cayman Diving",diving_snorkeling,19.31303,-81.3845,"N Church St Grand Cayman, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJBxdKJff1JY8RKrjgxvdySBQ-7j7f0ug7y,"Tortuga Divers",diving_snorkeling,19.344814,-81.089321,"2289 Queens Hwy, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJE_Kga1iGJY8RPU-DON8ZQRM-548yx42yk,"Wall to Wall Diving",diving_snorkeling,19.281729,-81.290064,"Box 31412, 37 Seafarers Wy, Grand Cayman KY1-1206, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJpfRzS3KHJY8R1zOdqPd10x8-z18pf70vu,"Sunset Divers",diving_snorkeling,19.284338,-81.375429,"390 A South Church St Grand Cayman, KY1-1106, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJi_Ixi6qHJY8R4qw532GFhuo-pzz00o5n1,"Spacation - Day Spa",spa_wellness,19.373518,-81.410553,"455 West Bay Road Grand Cayman, KY1-1202, Cayman Islands",West Bay,Grand Cayman
+serp-ChIJLcN2n_uHJY8RlIu6F2xrLv0-7bg64q1rl,"Zen Garden Spa",spa_wellness,19.317162,-81.240782,"2nd Floor, 5Snug Harbour Drive, Carrington Place, W Bay Rd, KY1-1200, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJF22Fd1WHJY8RVoL_hqFu_Xg-ysydz5x5p,"Priya's Spa",spa_wellness,19.288102,-81.374353,"Barnett Building, 24 Huldah Ave, George Town KY1-1103, Cayman Islands",George Town,Grand Cayman
+serp-ChIJmyO_0DeHJY8R0tE7vt7rt2M-oue5jcjeq,"thaimassage-cayman",spa_wellness,19.288298,-81.374107,"Unit#26, 57Central warehouse, Bodden Rd, George Town, Cayman Islands",George Town,Grand Cayman
+serp-ChIJcSVVjCyHJY8RtHeKVGAmqxE-xj2luohoj,"Now & Zen Spa",spa_wellness,19.286406,-81.296556,"Unit 12, Cayman Falls, 1114 W Bay Rd, Grand Cayman KY1-1502, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJc1Y52GeGJY8RWYGyMKBGpcw-1fgyjlqou,"No. 11 Spa",spa_wellness,19.27979,-81.269477,"Cayman Technology Centre, 115 Printers Way, Box 10108, KY1-1001, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJrYMisnuHJY8R-hmZUpghVOY-qwyz1lgij,"CRYO 345",spa_wellness,19.28553,-81.376659,"72 N Church St, George Town, Cayman Islands",George Town,Grand Cayman
+serp-ChIJ3ypgOlaHJY8RhKRcOo4M1d4-tejz17l21,"Door No. 4",bar,19.377288,-81.409214,"802 W Bay Rd, West Bay, Cayman Islands",West Bay,Grand Cayman
+serp-ChIJZYJEJe59L48RWFvXWcKsooI-pgialz6o6,"Le Petit Bar Cayman",bar,19.377485,-81.408203,"2357 W Bay Rd, West Bay, Cayman Islands",West Bay,Grand Cayman
+serp-ChIJj16JILeHJY8RlGE0Durue4I-4s3od7rd5,"The Backroom",bar,19.285894,-81.372331,"672 West Bay Road | Regency Court, George Town, Cayman Islands",George Town,Grand Cayman
+serp-ChIJmUgLNtZjL48RvRt3xRGrmUE-glgck3dp2,"Rum Point Club",bar,19.3728,-81.2714,"Cayman Kai, 46 Sand Point Rd, Rum Point, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJ8eunYdKHJY8RrLctbFd1ZyU-jzz42krrb,"Cask Whisky",bar,19.26712,-81.2886,"18 Forum Ln, KY1-9006, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJvd3aKTKHJY8R6_f4l9yIh78-zmpv1yw70,"Coconut Watersports",water_sports,19.282618,-81.325436,"7 mile beach, 993 W Bay Rd, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJnSKFiXqJJY8RHLuku2YJOVk-kq6lbbo4y,"Fat Fish Adventures",water_sports,19.321946,-81.242848,"Newlands Barcadere, Leeward Dr, North Sound Estates KY1-1010, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJdT3dJYl9L48RYdvJuzF-dgQ-bpd5vtkei,"Crystal Charters",boat_charter,19.345192,-81.17756,"10 Market Street, Camana Bay KY1-9006, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJsRTEawaHJY8RJR9BqnSo0cI-dlh6qmyj3,"Island Charter",boat_charter,19.285704,-81.376806,"42 beckz close, George Town, Cayman Islands",George Town,Grand Cayman
+serp-ChIJU4aPwEt9L48RKw25Lm53QSY-elya1ws9x,"ATV Cayman",activity,19.37514,-81.412258,"West Bay, Conch Point Road Grand Cayman KY1, 1207, Cayman Islands",West Bay,Grand Cayman
+serp-ChIJWed99LyHJY8RY9v42nnWXao-xlfjlwnmb,"The Grove",shopping,19.353556,-81.219921,"3, 1358 W Bay Rd, Grand Cayman KY1-1000, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJKc8VwV-GJY8R-WQHtcQAdy8-obdeljzf8,"Cayman Craft Market",shopping,19.286752,-81.37427,"N Church St, George Town KY1-1501, Cayman Islands",George Town,Grand Cayman
+serp-ChIJxWjNB6yHJY8RZnKCC1VKIgc-ezopgtfmz,"NKY Cayman",shopping,19.287349,-81.375851,"The Paseo, George Town, Cayman Islands",George Town,Grand Cayman
+serp-ChIJKU4UqT-GJY8RRpiVXj_Xzks-e1yx9w2np,"Cayman Villas",villa_rental,19.288673,-81.372634,"45 Beckz Close, George Town KY1-1006, Cayman Islands",George Town,Grand Cayman
+serp-ChIJX2ElHmmHJY8RbHHuEdTDxZk-ntwihiycq,"Rodney's Car Rental",transport,19.287644,-81.374403,"50 Mary St, George Town KY1-1208, Cayman Islands",George Town,Grand Cayman
+serp-ChIJCT3nKiqHJY8RqA28cbLUyl8-q8f8yt1pr,"Alamo Rent A Car",transport,19.284696,-81.374911,"Unit 12, Airport Plaza, Roberts Dr, George Town KY1-1001, Cayman Islands",George Town,Grand Cayman
+serp-ChIJQf_FJg-HJY8RzlB_EqeltA0-njbf8njj4,"Royal Limo Service",transport,19.350513,-81.212256,"250 Owen Roberts Drive Suite 10 Grand Cayman KY1, 1004, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJu1rPAj-GJY8RlizQ8AGI6pg-pm7iybs4r,"Avis Rent A Car",transport,19.288938,-81.375005,"257 Roberts Dr, George Town, Cayman Islands",George Town,Grand Cayman
+serp-ChIJEzlaRv-GJY8RIjKhxgYFnNc-pgzeriyz5,"Property Cayman",services,19.303289,-81.382624,"Unit 2a, Grand Cayman, Buckingham Square, 720 W Bay Rd, KY1-1106, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJ_5nd2VeGJY8R1J7uEXuZ3_U-jql6k6klg,"ERA Cayman Islands",services,19.329847,-81.171222,"628 W Bay Rd, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJpcEBL6aHJY8RhR84MXUdwoA-nx7wv6a4h,"CENTURY 21 Cayman",services,19.34159,-81.389771,"Grand Pavilion Centre, Box 30596, Seven Mile Beach, KY1-1203, Cayman Islands",Seven Mile Beach,Grand Cayman
+serp-ChIJt7ir5o2JJY8R2fNWuh_4YvQ-v57fhu09q,"Bell Rock Group",financial,19.290154,-81.379315,"10 Market Street, 758 Camana Bay, KY1-9006, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJ0w3GX16GJY8RTUEzh-oEb7c-e3h07ht2t,"Cayman Law",services,19.286987,-81.37641,"Strathvale House, 2nd Floor, Strathvale House, 90 North Church Street, PO Box 1103, 90 N Church St, George Town, Cayman Islands",George Town,Grand Cayman
+serp-ChIJC8mvIl-GJY8R3IRwqPvGAzY-zsyixsbye,"Stenning's Chambers",services,19.376935,-81.412346,"The Highlands, 201 Hillard Drive West Bay Grand Cayman KY1, 1103, Cayman Islands",West Bay,Grand Cayman
+serp-ChIJQzEFayyHJY8RZciYQa6BNT8-4royzh8ju,"Hampson and Company",services,19.284586,-81.372167,"Apollo House East, 4th Floor 87 Mary Street George Town Grand Cayman KY1, 1107, Cayman Islands",George Town,Grand Cayman
+serp-ChIJ96ExZqaHJY8RyjbsCUSZ8yc-rk8gsf0s3,"Nelsons Legal",services,19.28695,-81.350369,"The Grand Pavilion Commercial Centre, 802 W Bay Rd, Grand Cayman KY1-1201, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJOSypDYqJJY8RGpY4nGqnzS4-13cbabuo6,"Campbells",services,19.287627,-81.374822,"Floor 4, Willow House, Cricket Square George Town Grand Cayman KY1, 9010, Cayman Islands",George Town,Grand Cayman
+serp-ChIJieWQ4KOHJY8RUArQOSP-b9A-elcv4sl1d,"Pinnacle Concierge",services,19.293585,-81.372591,"19 Tropical Gardens Rd, Grand Cayman KY1-1601, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJba5aPC6HJY8R8YDGwQ46O_U-9rmcjzw4g,"VIP Vibes Cayman",services,19.353718,-81.246615,"Unit 208, Elizabethan Square, Amerigo House, 80 Shedden Rd, Grand Cayman KY1-1110, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJ9xcXa5yJJY8Ru8BCvYFPgv8-s9ymiqxs4,"pickaservice",services,19.286646,-81.248993,"25 Candlewood Drive Bodden Town Box 1718 Grand Cayman KY1, 1109, Cayman Islands",Bodden Town,Grand Cayman
+serp-ChIJVY69ihOHJY8R3iK8AJIcdEE-0y4mhcvqc,"Lifestyle Cayman",services,19.284708,-81.376489,"42 Edward St, George Town, Cayman Islands",George Town,Grand Cayman
+serp-ChIJTYjLtIOHJY8R1SyNLSKNG94-7bsa21xrb,"Pro Yacht",boat_charter,19.356773,-81.381134,"Yacht Dr, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJn-tuhvNCKI8R1Hq8nbePfq4-kobd3mtb3,"CB RENT-A- CAR LTD",transport,19.711028,-79.819862,"West End Side Road Kirk Cornell Airport Cayman Brac KY2, 2001, Cayman Islands",Cayman Brac,Cayman Brac
+serp-ChIJAQglMKaHJY8RHUSdl5BuDgc-z7z1mx1fp,"Total Health Clinic",medical,19.377162,-81.410194,"Total Health The Grand Pavilion Commercial Centre, 802, West Bay Road Grand Cayman KY1, 1209, Cayman Islands",West Bay,Grand Cayman
+serp-ChIJFyG6E3GHJY8Remy2cwc29uU-hbtm6h1y1,"Cayman Medical Ltd",medical,19.288069,-81.372235,"Crown Square, 71 Eastern Ave, George Town KY1-1209, Cayman Islands",George Town,Grand Cayman
+osm-node/775748058,"Margaritaville Beach Resort",hotel,19.284799,-81.374172,"269, West Bay Road, Seven Mile Beach, George Town",George Town,Grand Cayman
+osm-node/777053418,"Turtle Nest Inn",hotel,19.2835,-81.251625,"Church Street, South Cayman Palms",Bodden Town,Grand Cayman
+osm-node/801080337,"Cayman Brac Beach Resort",hotel,19.712298,-79.81981,"South Side Road, West End, KY-3",Cayman Brac,Cayman Brac
+osm-node/4103864250,"La Cazetta Guest House & Cottages",hotel,19.375947,-81.411488,"2, Avoca Lane, Mt Pleasant, West Bay",West Bay,Grand Cayman
+osm-node/4103887709,"Ocean Paradise, Vacation Rental",hotel,19.362854,-81.262971,"1234, Rum Point Road, North Side, Grand Cayman",Rum Point,Grand Cayman
+osm-node/4103906163,"Holiday Inn Resort Grand Cayman",hotel,19.34,-81.393,"278, Crighton Drive, Grand Cayman, KY1-1206",Grand Cayman,Grand Cayman
+osm-node/4123781894,"Wyndham Reef Resort",hotel,19.305,-81.094,"East End, Grand Cayman, Cayman Islands",East End,Grand Cayman
+osm-node/4328914289,"Little Cayman Beach Resort",hotel,19.6608,-80.0915,"Guy Banks Road",Little Cayman,Little Cayman
+osm-node/4456190074,"The Cristopher Columbus",hotel,19.3422,-81.389171,"West Bay Road, West Bay",Seven Mile Beach,Grand Cayman
+osm-node/5117834889,"Le Soleil d'Or - 1",hotel,19.710341,-79.818898,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-node/5117836049,"Le Soleil d'Or - 2",hotel,19.708126,-79.818112,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-node/5122121714,"Paradise Villas",hotel,19.666151,-80.059924,"Little Cayman, Little Cayman, Cayman Islands",Little Cayman,Little Cayman
+osm-node/5122127624,"Conch Club Condos",hotel,19.662969,-80.057649,"Little Cayman, Little Cayman, Cayman Islands",Little Cayman,Little Cayman
+osm-node/5308199421,"Regal Beach Club",hotel,19.288624,-81.376793,"431, West Bay Road, West Bay, Seven Mile Beach, KY-1-1202",George Town,Grand Cayman
+osm-node/6450720530,"The Grand Caymanian Resort",hotel,19.344471,-81.36269,"276, Crighton Drive, Grand Cayman, KY1-1206",Grand Cayman,Grand Cayman
+osm-node/10657265459,"The Westin Grand Cayman Seven Mile Beach Resort & Spa",hotel,19.3428,-81.3917,"Seven Mile Beach, P.O. BOX 30620, Grand Cayman",Seven Mile Beach,Grand Cayman
+osm-way/62225826,"Villas Of The Galleon",hotel,19.338631,-81.391504,"1088, West Bay Road, West Bay, Seven Mile Beach",Seven Mile Beach,Grand Cayman
+osm-way/62225833,"The Discovery Point Club",hotel,19.341298,-81.392373,"West Bay Road, West Bay",Seven Mile Beach,Grand Cayman
+osm-way/62225837,"The Caribbean Club",hotel,19.341537,-81.390682,"West Bay Road, West Bay, Seven Mile Beach",Seven Mile Beach,Grand Cayman
+osm-way/62225850,"Harbour Heights",hotel,19.340828,-81.387943,"West Bay Road, West Bay, Seven Mile Beach",Seven Mile Beach,Grand Cayman
+osm-way/62225855,"Hyatt Regency Grand Cayman Beach Suites",hotel,19.338843,-81.387629,"West Bay Road, West Bay",Seven Mile Beach,Grand Cayman
+osm-way/62225861,"The Colonial Club",hotel,19.337912,-81.392348,"West Bay Road, West Bay, Seven Mile Beach",Seven Mile Beach,Grand Cayman
+osm-way/62225867,"The Beachcomber",hotel,19.339166,-81.390059,"West Bay Road, West Bay, Seven Mile Beach",Seven Mile Beach,Grand Cayman
+osm-way/62225874,"Coral Stone Club",hotel,19.339953,-81.387993,"West Bay Road, West Bay",Seven Mile Beach,Grand Cayman
+osm-way/62225876,"Kimpton Seafire Resort and Spa",hotel,19.3536,-81.3879,"West Bay Road, West Bay",Seven Mile Beach,Grand Cayman
+osm-way/62225881,"The Ritz-Carlton",hotel,19.335,-81.38,"West Bay Road, West Bay, Seven Mile Beach",Seven Mile Beach,Grand Cayman
+osm-way/62225888,"The Islands Club",hotel,19.341606,-81.391269,"West Bay Road, West Bay, Seven Mile Beach",Seven Mile Beach,Grand Cayman
+osm-way/80290301,"Grand Cayman Marriott Beach Resort",hotel,19.332,-81.391,"West Bay Road, Whitehall Estate, West Bay",George Town,Grand Cayman
+osm-way/171462753,"Morritt's Grand Resort",hotel,19.303441,-81.100581,"2289, Queens Highway",East End,Grand Cayman
+osm-way/171462767,"Morritt's Tortuga Club",hotel,19.304091,-81.102266,"PO Box 496, Church Avenue, Colliers",East End,Grand Cayman
+osm-way/171507308,"Compass Point Luxury Dive Resort",hotel,19.30604,-81.101161,"Austin Conolly Road",East End,Grand Cayman
+osm-way/369711093,"Sea Breeze, Luxury Condo Rental",hotel,19.373112,-81.407506,"2187, West Bay Road, Grand Cayman, West Bay",West Bay,Grand Cayman
+osm-way/373719218,"The Retreat at Rum Point",hotel,19.3728,-81.2714,"16, Grand Cayman",Rum Point,Grand Cayman
+osm-way/373719330,"Island Houses of Cayman Kai",hotel,19.363912,-81.262489,"Rum Point, Grand Cayman, Cayman Islands",Rum Point,Grand Cayman
+osm-way/374782462,"The Renaissance",hotel,19.338824,-81.390086,"Seven Mile Beach, Grand Cayman, Cayman Islands",Seven Mile Beach,Grand Cayman
+osm-way/374960988,"The Sunshine Hotel and Suites",hotel,19.340183,-81.390879,"1465, Esterley Tibbetts Highway, Grand Cayman, KY1-1201",Seven Mile Beach,Grand Cayman
+osm-way/375236902,"South Bay Beach Club",hotel,19.289045,-81.372918,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-way/375236911,"Hampton by Hilton Grand Cayman Seven Mile Beach",hotel,19.3428,-81.3917,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-way/1310778661,"Indigo Pool & Bar",hotel,19.338429,-81.392478,"Seven Mile Beach, Grand Cayman, Cayman Islands",Seven Mile Beach,Grand Cayman
+osm-way/1351037296,"The Village Inn",hotel,19.66343,-80.057751,"Little Cayman, Little Cayman, Cayman Islands",Little Cayman,Little Cayman
+osm-way/1351632230,"Southern Cross Club",hotel,19.6657,-80.0689,"1400, Guy Banks Road, Sister Islands",Little Cayman,Little Cayman
+osm-node/5105636798,"Almond Beach Villas",villa_rental,19.711093,-79.821565,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-node/5117698005,"Southern Star Condos",villa_rental,19.709879,-79.817652,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-node/6449817081,"Southern Comfort",villa_rental,19.712224,-79.820228,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-node/7499692285,"Doctor Kingbird & Christina Lex",villa_rental,19.286809,-81.373345,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-node/7499845485,"SUNRISE PHASE 3",villa_rental,19.281292,-81.350611,"Grand Cayman, Grand Cayman, Cayman Islands",Grand Cayman,Grand Cayman
+osm-node/7502116385,"PEAKWOOD CLOSE",villa_rental,19.284414,-81.248859,"Sea Spray Drive",Bodden Town,Grand Cayman
+osm-way/26269265,"Sunset Cottage",villa_rental,19.660502,-80.10996,"Grand Cayman, Grand Cayman, Cayman Islands",Grand Cayman,Little Cayman
+osm-way/349629287,"Compass Point",villa_rental,19.304376,-81.101692,"Austin Conolly Road",East End,Grand Cayman
+osm-way/369216664,"Shangri La Bed and Breakfast",villa_rental,19.372773,-81.411277,"Sticky Toffee Lane, West Bay",West Bay,Grand Cayman
+osm-way/370670647,"Majac Apartments",villa_rental,19.287907,-81.376519,"Desmond Drive, George Town",George Town,Grand Cayman
+osm-way/370952615,"Foster Village",villa_rental,19.289024,-81.373053,"Walkers Road, Lambert House",George Town,Grand Cayman
+osm-way/372532243,"7 Mile Beach Resort & Club",villa_rental,19.287983,-81.372177,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-way/373851800,"Crescent Point",villa_rental,19.285521,-81.372985,"319, West Bay Road, West Bay",George Town,Grand Cayman
+osm-way/374487172,"Sun Coast Apartments",villa_rental,19.282897,-81.251865,"Bodden Town Road, Midland Acres",Bodden Town,Grand Cayman
+osm-way/375105264,"Lakeside Villas",villa_rental,19.286673,-81.375944,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-way/399498751,"Seabreezes",villa_rental,19.286186,-81.374128,"9, Eden Road, George Town",George Town,Grand Cayman
+osm-way/399499976,"Dolphin Condos",villa_rental,19.288686,-81.37605,"South Church Street, George Town",George Town,Grand Cayman
+osm-way/1024689467,"ONE Canal Point",villa_rental,19.339072,-81.391491,"Seven Mile Beach, Grand Cayman, Cayman Islands",Seven Mile Beach,Grand Cayman
+osm-way/1201213983,"Lotus",villa_rental,19.339994,-81.392474,"Seven Mile Beach, Grand Cayman, Cayman Islands",Seven Mile Beach,Grand Cayman
+osm-node/764608037,"Calypso Grill",restaurant,19.372824,-81.408917,"Batabano Road, West Bay",West Bay,Grand Cayman
+osm-node/937127269,"Al La Kebab",restaurant,19.286154,-81.375542,"Lawrence Blvd, Whitehall Estate, West Bay",George Town,Grand Cayman
+osm-node/1118465869,"Eats",restaurant,19.339189,-81.390116,"Seven Mile Beach, Grand Cayman, Cayman Islands",Seven Mile Beach,Grand Cayman
+osm-node/1118465887,"Southern Spice",restaurant,19.284832,-81.376093,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-node/1122593411,"Thai Orchid",restaurant,19.284648,-81.373903,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-node/1550989400,"Seymour's Jerk Centre",restaurant,19.286312,-81.374582,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-node/2269076875,"The Brooklyn Pizza + Pasta",restaurant,19.286873,-81.37198,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-node/3356108697,"XQ's",restaurant,19.287939,-81.372358,"233, West Bay Road",George Town,Grand Cayman
+osm-node/3758666509,"Blue Cilantro",restaurant,19.325259,-81.381344,"West Bay Road, West Bay",Grand Cayman,Grand Cayman
+osm-node/3768261259,"Jessie's Juice Bar",restaurant,19.284774,-81.372406,"Market Street, Camana Bay",George Town,Grand Cayman
+osm-node/3772786218,"PD's Sports Bar & Grill",restaurant,19.285377,-81.372218,"638, West Bay Road, West Bay",George Town,Grand Cayman
+osm-node/3772798103,"Saltwater Grill",restaurant,19.287082,-81.375623,"638, West Bay Road, West Bay",George Town,Grand Cayman
+osm-node/3774215831,"Pizza! at Breezes",restaurant,19.285229,-81.37266,"Harbour Drive, George Town",George Town,Grand Cayman
+osm-node/3774336660,"Le Vele",restaurant,19.287513,-81.376534,"147, North Church Street, George Town",George Town,Grand Cayman
+osm-node/4312155144,"Hemingway's",restaurant,19.340611,-81.387827,"Seven Mile Beach, Grand Cayman, Cayman Islands",Seven Mile Beach,Grand Cayman
+osm-node/4787139551,"Gateway of India",restaurant,19.284664,-81.376326,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-node/5225582151,"Yoshi's Sushi",restaurant,19.33917,-81.388783,"Seven Mile Beach, Grand Cayman, Cayman Islands",Seven Mile Beach,Grand Cayman
+osm-node/5225582167,"Pani",restaurant,19.286492,-81.372597,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-node/5314083083,"Petit Paris",restaurant,19.285863,-81.37307,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-node/5406148024,"Banana Resturant Nightclub",restaurant,19.286002,-81.374161,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-node/5423702621,"Bacaro",restaurant,19.339512,-81.387511,"Seven Mile Beach, Grand Cayman, Cayman Islands",Seven Mile Beach,Grand Cayman
+osm-node/5476263024,"China Village",restaurant,19.284514,-81.373681,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-node/5637917122,"Popo Jebs restaurant and bar",restaurant,19.288021,-81.373615,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-node/5685290195,"Kazoku Japanese Bistro",restaurant,19.285584,-81.375283,"6 Plaza Venezia, North Sound Road",George Town,Grand Cayman
+osm-node/6340499585,"Pirates Eatery",restaurant,19.279117,-81.248634,"227, Bodden Town Road",Bodden Town,Grand Cayman
+osm-node/6446923061,"Asian House",restaurant,19.709421,-79.8186,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-node/6447007388,"Paradise Desires & Creations",restaurant,19.710535,-79.817565,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-node/10032097222,"Fresh Kitchen",restaurant,19.288719,-81.37679,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-node/12001825375,"Panne & Pasta",restaurant,19.28503,-81.372377,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-node/12212801687,"Lucky Rabbit",restaurant,19.282243,-81.345692,"Grand Cayman, Grand Cayman, Cayman Islands",Grand Cayman,Grand Cayman
+osm-node/12545657901,"Rumpointment Restaurant",restaurant,19.367022,-81.260033,"Rum Point, Grand Cayman, Cayman Islands",Rum Point,Grand Cayman
+osm-way/62064817,"Grand Old House Restaurant",restaurant,19.2918,-81.3778,"South Church Street, George Town",George Town,Grand Cayman
+osm-way/80290094,"Royal Palms Beach Bar & Reef Grill",restaurant,19.284783,-81.375605,"537, West Bay Road, West Bay, Seven Mile Beach, KY1-1202",George Town,Grand Cayman
+osm-way/369024903,"Cracked Conch",restaurant,19.375694,-81.410092,"West Bay",West Bay,Grand Cayman
+osm-way/369206408,"JJR Restaurant",restaurant,19.377078,-81.411048,"Town Hall Road, West Bay",West Bay,Grand Cayman
+osm-way/369781960,"Edoardo's",restaurant,19.338287,-81.390455,"West Bay",Seven Mile Beach,Grand Cayman
+osm-way/369782046,"Casa 43",restaurant,19.338615,-81.39088,"Canal Point Drive, West Bay",Seven Mile Beach,Grand Cayman
+osm-way/372314303,"Agave",restaurant,19.289052,-81.373889,"221, North Sound Road, George Town",George Town,Grand Cayman
+osm-way/372518392,"Pizza Hut",restaurant,19.284134,-81.374681,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-way/372529878,"Coconut Joe's",restaurant,19.28578,-81.374892,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-way/373112970,"Nadine's Hot Spot",restaurant,19.306732,-81.098848,"John McLean Drive",East End,Grand Cayman
+osm-way/373438587,"Tukka",restaurant,19.306151,-81.099595,"Austin Conolly Road",East End,Grand Cayman
+osm-way/373660954,"Rackam's Waterfront Bar & Grill",restaurant,19.284807,-81.3732,"North Church Street, George Town",George Town,Grand Cayman
+osm-way/374109617,"The White House Grand Cayman",restaurant,19.283728,-81.251579,"Bodden Town Road, Bodden Town",Bodden Town,Grand Cayman
+osm-way/374195107,"Margaritaville",restaurant,19.28465,-81.375963,"32, Harbour Drive, George Town",George Town,Grand Cayman
+osm-way/374960980,"Sunshine Bar and Grill",restaurant,19.340434,-81.388826,"1465, Esterley Tibbetts Highway, West Bay, Seven Mile Beach",Seven Mile Beach,Grand Cayman
+osm-way/375394872,"Welly's Cool Spot",restaurant,19.286275,-81.375167,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-way/525205478,"The Commodore Waterfront Restaurant & Bar",restaurant,19.376136,-81.409035,"Morgans's Harbour, West Bay, KY1-1103",West Bay,Grand Cayman
+osm-way/550203464,"Union Bar and Grill",restaurant,19.285311,-81.375894,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-way/951196459,"Schooner’s Bar and Grill",restaurant,19.377426,-81.41061,"Northwest Point Road, West Bay",West Bay,Grand Cayman
+osm-way/972923458,"Singh's Roti Shop",restaurant,19.286232,-81.375249,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-way/1025320706,"La Esperanza",restaurant,19.708969,-79.818075,"Watering Place Road, Tibbetts Turn",Cayman Brac,Cayman Brac
+osm-node/5322173408,"Café Amazon",restaurant,19.286176,-81.374283,"150, Elgin Avenue",George Town,Grand Cayman
+osm-node/12921325703,"The Village Café & Car",restaurant,19.341448,-81.390237,"Esterley Tibbetts Highway",Seven Mile Beach,Grand Cayman
+osm-way/1423938352,"Tim Hortons",restaurant,19.275809,-81.333151,"Grand Cayman, Grand Cayman, Cayman Islands",Grand Cayman,Grand Cayman
+osm-node/3773731576,"Dairy Queen",restaurant,19.28889,-81.375947,"Harbour Drive, George Town",George Town,Grand Cayman
+osm-node/4402715372,"Domino's",restaurant,19.287908,-81.372267,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-node/5118316114,"Sunset Beach & Oceanview Bar & Snacks",restaurant,19.666495,-80.062067,"Little Cayman, Little Cayman, Cayman Islands",Little Cayman,Little Cayman
+osm-node/5270224821,"Czech Inn Grill",restaurant,19.28475,-81.249924,"Bodden Town, Grand Cayman, Cayman Islands",Bodden Town,Grand Cayman
+osm-way/372518391,"Frying Scottman Fish and Chips",restaurant,19.286566,-81.376346,"Lawrence Boulevard",George Town,Grand Cayman
+osm-node/5117857443,"Le Soleil d'Or - Beach",beach,19.707746,-79.821345,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-way/1351632251,"Southern Cross Fish & Dive Resort",beach,19.664959,-80.058258,"Little Cayman, Little Cayman, Cayman Islands",Little Cayman,Little Cayman
+osm-node/6340812185,"Don Fosters Diving",attraction,19.284433,-81.373046,"South Church Street",George Town,Grand Cayman
+osm-node/10032096922,"Captain Marvin's",attraction,19.337549,-81.388373,"Seven Mile Beach, Grand Cayman, Cayman Islands",Seven Mile Beach,Grand Cayman
+osm-node/697199521,"Pedro St. James",attraction,19.2667,-81.3,"Grand Cayman, Grand Cayman, Cayman Islands",Grand Cayman,Grand Cayman
+osm-node/778613443,"National Museum",attraction,19.284763,-81.371933,"Harbour Drive, George Town, KY1-1105",George Town,Grand Cayman
+osm-node/9454247575,"Captain Charlie Kirkconnell’s Historic House",attraction,19.71014,-79.822265,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-way/374334507,"Botanical Visitors Centre",attraction,19.347936,-81.201264,"North Side, Grand Cayman, Cayman Islands",North Side,Grand Cayman
+osm-way/920056002,"Little Cayman Museum",attraction,19.667163,-80.058779,"Little Cayman, Little Cayman, Cayman Islands",Little Cayman,Little Cayman
+osm-way/1025320522,"Cayman Brac Heritage House",attraction,19.708234,-79.818459,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-node/775748060,"Morgans Harbour Marina",boat_charter,19.375894,-81.411803,"Shorelink Terace, West Bay",West Bay,Grand Cayman
+osm-relation/6209955,"The Blue Tip Golf Course",golf,19.340775,-81.392118,"Esterley Tibbetts Highway, West Bay",Seven Mile Beach,Grand Cayman
+osm-way/1025369940,"West End Point Outlook",activity,19.709587,-79.818022,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-node/566218708,"Health Services Authority",medical,19.285175,-81.376055,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-way/1025320987,"Faith Hospital",medical,19.708643,-79.820716,"215, Dennis Foster Road, Stake Bay",Cayman Brac,Cayman Brac
+osm-node/3764555875,"West Bay Medical Clinic",medical,19.374994,-81.409236,"Church Street, West Bay",West Bay,Grand Cayman
+osm-node/3772778841,"7-Mile Medical Clinic and Care Pharmacy",medical,19.286345,-81.376096,"West Bay Road, West Bay",George Town,Grand Cayman
+osm-node/4828059522,"Doctor Albert Thacker",medical,19.37498,-81.409488,"West Bay, Grand Cayman, Cayman Islands",West Bay,Grand Cayman
+osm-node/5225618055,"Oasis Medical Group",medical,19.374983,-81.409463,"West Bay, Grand Cayman, Cayman Islands",West Bay,Grand Cayman
+osm-way/171462704,"Did Brown Memorial Health Centre",medical,19.348897,-81.202306,"Grand Cayman, Grand Cayman, Cayman Islands",Grand Cayman,Grand Cayman
+osm-way/371845083,"The Children's Clinic",medical,19.287358,-81.37264,"Smith Road, George Town",George Town,Grand Cayman
+osm-way/374372403,"Savannah Pharmacy",medical,19.273082,-81.297561,"Hirst Road",Grand Cayman,Grand Cayman
+osm-node/3758630864,"Smile Dental Clinic",medical,19.286206,-81.374082,"Dorcy Drive, George Town",George Town,Grand Cayman
+osm-node/5312819296,"Cayman Dental & Cayman Orthodontics",medical,19.287838,-81.376295,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-way/371843186,"Pasadora Family Dental Clinic",medical,19.288406,-81.37279,"Smith Road, George Town",George Town,Grand Cayman
+osm-way/371845084,"Merren Dental Clinic",medical,19.28453,-81.373197,"37, Hospital Road, George Town, KY1-1103",George Town,Grand Cayman
+osm-node/3768313076,"Cayman National Bank",financial,19.287541,-81.374406,"Camana Bay",George Town,Grand Cayman
+osm-way/62088528,"Comprehensive Credit Union",financial,19.28915,-81.374094,"94, Huldah Avenue, George Town",George Town,Grand Cayman
+osm-way/1351036368,"Cayman National",financial,19.666652,-80.058134,"Little Cayman, Little Cayman, Cayman Islands",Little Cayman,Little Cayman
+osm-node/6446105116,"CB Rent-a-Car",transport,19.710899,-79.819329,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-way/62184780,"Andy's Rent A Car",transport,19.285491,-81.372826,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-way/372654678,"Apex Car Rental",transport,19.288057,-81.376849,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-way/372654681,"Coconut Car Rentals",transport,19.287979,-81.372122,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-way/372654685,"Economy Car Rental",transport,19.285916,-81.376736,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-way/372654689,"Thrify Car Rental",transport,19.286327,-81.373348,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-way/696539340,"Motor Ventures",transport,19.707736,-79.817819,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-way/1351036370,"Little Cayman Car Rental",transport,19.665977,-80.061911,"Little Cayman, Little Cayman, Cayman Islands",Little Cayman,Little Cayman
+osm-node/12920552501,"Oasis Rubis Batabano",transport,19.375843,-81.411274,"Batabano Road",West Bay,Grand Cayman
+osm-way/62216475,"Foster's Food Fair Republix Plaza",transport,19.374316,-81.410695,"2373, Willie Farrington Drive, West Bay",West Bay,Grand Cayman
+osm-way/217612672,"Forum Lane Parking Garage",transport,19.287851,-81.375772,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-node/5929630044,"Price Right",shopping,19.288612,-81.372369,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-way/310290750,"Cost U Less",shopping,19.337905,-81.387959,"Lime Tree Bay Avenue, West Bay, Seven Mile Beach",Seven Mile Beach,Grand Cayman
+osm-way/373461060,"Kirk Market",shopping,19.287617,-81.372124,"George Town",George Town,Grand Cayman
+osm-way/837720810,"Foster's Camana Bay",shopping,19.322,-81.38,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-node/3763440422,"Hill's Grocery N More",shopping,19.37461,-81.41083,"Birch Tree Hill Road, West Bay",West Bay,Grand Cayman
+osm-way/369216282,"Tiger's Market Express",shopping,19.373559,-81.410913,"Town Hall Road, West Bay",West Bay,Grand Cayman
+osm-way/371946846,"On the Run",shopping,19.286754,-81.373164,"Dorcy Drive, George Town",George Town,Grand Cayman
+osm-node/3773731578,"Rocky's Diamond Gallery",shopping,19.287022,-81.376784,"Harbour Drive, George Town",George Town,Grand Cayman
+osm-node/3773919727,"Diamond Marquise",shopping,19.284842,-81.373897,"Harbour Drive, George Town",George Town,Grand Cayman
+osm-node/3774323567,"Diamond Marquese",shopping,19.288014,-81.375962,"South Church Street, George Town",George Town,Grand Cayman
+osm-node/4904215583,"Kirk Jewelers",shopping,19.287611,-81.375227,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-node/7050020647,"The Jewellery Palace",shopping,19.288547,-81.371946,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-way/372545040,"Princess World Jewelers",shopping,19.286873,-81.372924,"Cardinall Avenue, George Town",George Town,Grand Cayman
+osm-node/5314392193,"3 Girls & A Kiln",shopping,19.284868,-81.373731,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-way/373688278,"Blue Iguana Souvenir Outlet",shopping,19.287105,-81.374938,"South Church Street, George Town",George Town,Grand Cayman
+osm-node/13313602277,"Miracle Brokers",services,19.286488,-81.372129,"140, Kingbird Drive, George Town",George Town,Grand Cayman
+osm-way/371966623,"FedEx Ship Center",services,19.285132,-81.373849,"Dorcy Drive, George Town",George Town,Grand Cayman
+osm-way/171507310,"East End Police Station",services,19.307054,-81.102103,"Austin Conolly Road",East End,Grand Cayman
+osm-way/371889403,"George Town Central Police Station",services,19.2866,-81.3744,"Elgin Avenue, George Town",George Town,Grand Cayman
+osm-node/5116068123,"Water Authority",services,19.707657,-79.8223,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-node/5117688817,"Department of Tourism",services,19.711502,-79.81988,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-way/171506984,"Port Security",services,19.284137,-81.375064,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-way/171507104,"Kearney Gomez Doppler Weather Radar Facility",services,19.305654,-81.099841,"High Rock Drive",East End,Grand Cayman
+osm-way/320317420,"Cayman Islands Customs and Border Control",services,19.288943,-81.375681,"123, Elgin Avenue, George Town",George Town,Grand Cayman
+osm-way/372218852,"Department of Community Rehabilitation",services,19.284753,-81.375319,"Owen Robert's Drive, George Town",George Town,Grand Cayman
+osm-way/372218855,"Beacon House",services,19.287573,-81.373579,"Owen Robert's Drive, George Town",George Town,Grand Cayman
+osm-way/608135790,"Little Cayman District Office",services,19.665014,-80.059115,"Little Cayman, Little Cayman, Cayman Islands",Little Cayman,Little Cayman
+osm-way/903849306,"Port Authority & Customs",services,19.709954,-79.818857,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-way/371284158,"Perfect Image Salon",wellness,19.287467,-81.375602,"Walkers Road, George Town",George Town,Grand Cayman
+osm-node/5312821769,"Align Wellness Studio",wellness,19.287911,-81.376268,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-way/372306223,"South Sound Squash Club",wellness,19.288522,-81.373487,"25, Anne Bonny Crescent",George Town,Grand Cayman
+osm-way/372306230,"Cayman Islands Tennis Club",wellness,19.28647,-81.374987,"27, Anne Bonny Crescent",George Town,Grand Cayman
+osm-way/374479543,"King's Sports Center",wellness,19.286265,-81.349475,"Crewe Road",Grand Cayman,Grand Cayman
+osm-node/5106208695,"St. Mary's Catholic Church",religious,19.707742,-79.822409,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-node/5117667666,"West End Baptist Church",religious,19.710843,-79.81788,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-way/62064810,"Agape Family Worship Center",religious,19.287882,-81.375807,"Fairbanks Road, Lambert House",George Town,Grand Cayman
+osm-way/370952623,"St. Ignatius Catholic Church",religious,19.286146,-81.376597,"Walkers Road, George Town",George Town,Grand Cayman
+osm-way/371817554,"Calvary Baptist Church",religious,19.285789,-81.373395,"Walkers Road, George Town",George Town,Grand Cayman
+osm-way/372247874,"Elmslie United Church",religious,19.285773,-81.373167,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-way/374477905,"First Baptist Church of Grand Cayman",religious,19.283211,-81.349777,"Crewe Road",Grand Cayman,Grand Cayman
+osm-way/374480482,"The Church of Jesus Christ of Latter-day Saints",religious,19.280693,-81.343245,"Selkirk Drive, Tropical Gardens",Grand Cayman,Grand Cayman
+osm-way/1025320607,"Ebeneezer Baptist Church",religious,19.711399,-79.821772,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-node/1461804689,"Clifton Hunter High School",education,19.310847,-81.18386,"Grand Cayman, Grand Cayman, Cayman Islands",Grand Cayman,Grand Cayman
+osm-node/5457869530,"Prospect Primary School",education,19.277438,-81.327132,"169, Poindexter Road, George Town, KY1-1104",Grand Cayman,Grand Cayman
+osm-way/62064786,"Cayman Islands Further Education",education,19.286729,-81.374255,"Walkers Road, Lambert House",George Town,Grand Cayman
+osm-way/62064796,"St Ignatius Catholic School",education,19.284417,-81.374514,"597, Academy Way, Lambert House",George Town,Grand Cayman
+osm-way/62064804,"Tripple C School",education,19.28467,-81.374547,"Fairbanks Road, Lambert House",George Town,Grand Cayman
+osm-way/62064821,"University College of the Cayman Islands",education,19.284456,-81.372724,"Olympic Way, Lambert House",George Town,Grand Cayman
+osm-way/217613995,"John Gray High School",education,19.287777,-81.373901,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-way/369210229,"Grace Christian Academy",education,19.377445,-81.41052,"21, Crescent Close, West Bay",West Bay,Grand Cayman
+osm-way/370952629,"Cayman Preperatory and High School",education,19.285972,-81.37241,"599, Walkers Road",George Town,Grand Cayman
+osm-way/373351650,"Cayman International School",education,19.28569,-81.373348,"Dyke Road, Camana Bay",George Town,Grand Cayman
+serp-ChIJk2RGIaGHJY8RESPsMyA4tYk-wha1b0cae,"The Ritz-Carlton, Grand Cayman",hotel,19.335,-81.38,"Seven Mile Beach, KY1-1209, Cayman Islands",Seven Mile Beach,Grand Cayman
+serp-ChIJafu7Rp2HJY8R0tCKW_lnbbI-dr12zcpjz,"Kimpton Seafire Resort + Spa",hotel,19.3536,-81.3879,"60 Tanager Way, Grand Cayman KY1-1303, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJhx0SqaqHJY8RaBgXRgAQwzA-0h11ha5f6,"Grand Cayman Marriott Resort",hotel,19.332,-81.391,"Seven Mile Beach, 389 W Bay Rd, KY1-1202, Cayman Islands",Seven Mile Beach,Grand Cayman
+serp-ChIJB4xY5leGJY8RVMHdIoZ-wjM-5hybtuskb,"Palm Heights",hotel,19.341401,-81.388537,"Seven Mile Beach Grand Cayman KY1, 747 W Bay Rd, 1110, Cayman Islands",Seven Mile Beach,Grand Cayman
+serp-ChIJJ9KZ0LuLJY8R0B0JXtdr0eQ-0fsdxzb3j,"Black Urchin Boutique Resort",hotel,19.285271,-81.250157,"1264 Bodden Town Rd, Breakers, Cayman Islands",Bodden Town,Grand Cayman
+serp-ChIJ____JKeHJY8R3CO2ceaAkR4-z73fx8mjz,"Caribbean Club",hotel,19.331439,-81.381635,"871 W Bay Rd, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJ9WppJvf1JY8RfLoegH-dWN8-mgajp01eq,"Morritt's Resorts",hotel,19.298788,-81.146622,"Grand Cayman KY1, 2289 Queens Hwy, 1106, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJWSuPAOOLJY8RnAuoe4tUMM8-iok1kn750,"Sea Palm Villas",hotel,19.287376,-81.249956,"258 Bodden Town Rd, Bodden Town KY1-1102, Cayman Islands",Bodden Town,Grand Cayman
+serp-ChIJ7zYk85x9L48RWPOqjzcbOxc-c0be9kogh,"Shangri-La Boutique Bed & Breakfast",hotel,19.375607,-81.412089,"Grand Cayman, West Bay, Cayman Islands",West Bay,Grand Cayman
+serp-ChIJz8VIb56HJY8RBDBw0lN1Zs4-9g6ikegnh,"The Avalon Condominiums",hotel,19.372577,-81.412066,"1371 West Bay Road Grand Cayman, 1083 W Bay Rd, West Bay KY1-1205, Cayman Islands",West Bay,Grand Cayman
+serp-ChIJTTWQalh9L48RcZV9X-Dju_Q-4wy31kq6v,"Ocean Cabanas Dive Resort",diving_snorkeling,19.377023,-81.41096,"559 N W Point Rd, West Bay KY1-1206, Cayman Islands",West Bay,Grand Cayman
+serp-ChIJt8c2NhGHJY8RCT2fGzC7fKg-kpww5iaib,"Cayman Massage & Skincare Lover - Mobile Massage Grand Cayman",spa_wellness,19.288322,-81.373594,"83 Courts Rd, George Town KY1-1204, Cayman Islands",George Town,Grand Cayman
+serp-ChIJF3JSnI6HJY8RbZsQlP9l044-ccnb3p5gc,"Caribbean Time Watersports",water_sports,19.317123,-81.241177,"164 Yacht Club Drive Grand Cayman, KY1-2100, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJ_VJYHoSHJY8RVydfs9p6lcg-j1tuix9d2,"Islandlife Watersports",water_sports,19.376556,-81.411319,"Cayman Islands Yacht Club - West Bay Road, Dock B - #32, KY1-1302, Cayman Islands",West Bay,Grand Cayman
+serp-ChIJB03t_F-GJY8RaVvnwnVa23E-3dzdqncny,"Luxury Cayman Villas",villa_rental,19.353718,-81.246615,"10, 745 Market St, KY1-9006, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJZYLWq4l9L48RiTWa4Ims_bE-kouy3r7dw,"Windsong Luxury Villas",villa_rental,19.374522,-81.409637,"171 Boggy Sand Rd, West Bay, Cayman Islands",West Bay,Grand Cayman
+serp-ChIJJ353f3aGJY8RwbbenLv2E1Q-ry1rr6icb,"Villa Mora — Grand Cayman Villas & Condos",villa_rental,19.287123,-81.376832,"Grand Cayman KY1, 676 S Sound Rd, George Town 1202, Cayman Islands",George Town,Grand Cayman
+serp-ChIJA-fk6HWLJY8RPzb5iT3020A-w9kxmhq8s,"Piece of Mine Villas",villa_rental,19.337373,-81.380972,"396 Seaview Rd, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJhxOoQ8CHJY8RJzy-CAnJBkA-asa47tf84,"Overseas Asset Management",financial,19.292431,-81.376994,"Grand Cayman, The Pavilion, Cricket Square, KY1-1107, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJZeSi66aHJY8RIE3sV1yl-hI-41njnex7e,"Symons & Symons, Attorneys-at-Law - Law firm in the Cayman Islands",services,19.285027,-81.375899,"Unit 422, 4th Floor, Oceanside Suites, 13 Genesis Cl, George Town KY1-1204, Cayman Islands",George Town,Grand Cayman
+serp-ChIJiy8c_mCGJY8Rpq0TyPwluG8-w1oujk7q2,"Sterling Security Solutions",services,19.284072,-81.374595,"7JRC+Q2C, Hospital Rd, George Town, Cayman Islands",George Town,Grand Cayman
+serp-ChIJ0VV3UJb1JY8R6olDxNuhiRs-t4po6yst5,"Geriatric Medicine | Health City Cayman Islands",medical,19.298788,-81.146622,"High Rock, 1283 Sea View Rd, KY1-1005, Cayman Islands",Grand Cayman,Grand Cayman
+osm-node/776452247,"Dolphin Point",hotel,19.373753,-81.409463,"Northwest Point Road, West Bay",West Bay,Grand Cayman
+osm-node/5118275020,"Pia Hall",hotel,19.664366,-80.060203,"Little Cayman, Little Cayman, Cayman Islands",Little Cayman,Little Cayman
+osm-way/62225813,"Casa Caribe",hotel,19.340965,-81.388914,"833, West Bay Road, West Bay, Seven Mile Beach",Seven Mile Beach,Grand Cayman
+osm-way/62225814,"Plantana",hotel,19.342158,-81.390783,"West Bay Road, West Bay, Seven Mile Beach",Seven Mile Beach,Grand Cayman
+osm-way/62225820,"White Sands",hotel,19.341018,-81.392083,"West Bay Road, West Bay",Seven Mile Beach,Grand Cayman
+osm-way/62225832,"Lacovia",hotel,19.33827,-81.391765,"West Bay Road, West Bay, Seven Mile Beach",Seven Mile Beach,Grand Cayman
+osm-way/62225844,"The Avalon",hotel,19.341335,-81.391162,"West Bay Road, West Bay, Seven Mile Beach",Seven Mile Beach,Grand Cayman
+osm-way/62225849,"London House",hotel,19.342162,-81.391933,"1907, West Bay Road, West Bay",Seven Mile Beach,Grand Cayman
+osm-way/62225856,"The Anchorage",hotel,19.341893,-81.391359,"West Bay Road, West Bay",Seven Mile Beach,Grand Cayman
+osm-way/80290173,"Cayman Club",hotel,19.285949,-81.372505,"643, West Bay Road, West Bay, Seven Mile Beach",George Town,Grand Cayman
+osm-way/369704446,"Dolphin Cove",hotel,19.376483,-81.411112,"Garvin Road, West Bay",West Bay,Grand Cayman
+osm-way/373685610,"Sunset House",hotel,19.284867,-81.375353,"South Church Street, George Town",George Town,Grand Cayman
+osm-way/374706914,"Aqua Bay Club",hotel,19.373208,-81.410979,"West Bay Road",West Bay,Grand Cayman
+osm-way/1310778659,"Indigo",hotel,19.340024,-81.388813,"Seven Mile Beach, Grand Cayman, Cayman Islands",Seven Mile Beach,Grand Cayman
+osm-node/7509160085,"#3",villa_rental,19.332194,-81.369932,"7, Spinnaker Road",Grand Cayman,Grand Cayman
+osm-way/274608884,"H",villa_rental,19.3428,-81.3917,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-node/697199527,"Kaibo",restaurant,19.3653,-81.2622,"Rum Point, Grand Cayman, Cayman Islands",Rum Point,Grand Cayman
+osm-node/1122551785,"Solana",restaurant,19.288342,-81.37649,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-node/2269076874,"KARoo",restaurant,19.285128,-81.372729,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-node/5225582168,"Mizu",restaurant,19.28697,-81.37537,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-node/5225626264,"The Waterfront",restaurant,19.284166,-81.371978,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-node/5762490634,"Agua",restaurant,19.285316,-81.373692,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-node/10840229496,"Carib Kitchen",restaurant,19.287515,-81.376715,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-way/369216286,"Alfresco",restaurant,19.377484,-81.408856,"West Bay",West Bay,Grand Cayman
+osm-way/372314314,"Lone Star",restaurant,19.338798,-81.38924,"Seven Mile Beach, Grand Cayman, Cayman Islands",Seven Mile Beach,Grand Cayman
+osm-way/373645852,"The Wharf",restaurant,19.303,-81.386,"West Bay Road, Dog City",George Town,Grand Cayman
+osm-way/373664930,"Sandbar",restaurant,19.287297,-81.375618,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-node/1122551790,"Icoa Fine Foods",restaurant,19.288055,-81.372496,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-node/4313491269,"Häagen-Dazs",restaurant,19.284176,-81.376355,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-node/1046802198,"Salty's",bar,19.282181,-81.345464,"Grand Cayman, Grand Cayman, Cayman Islands",Grand Cayman,Grand Cayman
+osm-node/1046802205,"Fidel Murphys",bar,19.287502,-81.37422,"West Bay Road, West Bay",George Town,Grand Cayman
+osm-node/1118465885,"Aqua Beach",bar,19.285696,-81.373245,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-node/1118465886,"Nectar Bar",bar,19.287449,-81.37445,"West Bay Road",George Town,Grand Cayman
+osm-node/3774323572,"Bar Crudo",bar,19.287458,-81.37531,"South Church Street, George Town",George Town,Grand Cayman
+osm-node/3774336682,"Caybrew",bar,19.288341,-81.376022,"Harbour Drive, George Town",George Town,Grand Cayman
+osm-node/5124855884,"The Lodge",bar,19.339579,-81.390381,"Seven Mile Beach, Grand Cayman, Cayman Islands",Seven Mile Beach,Grand Cayman
+osm-node/5225582150,"Legendz",bar,19.34037,-81.391573,"Seven Mile Beach, Grand Cayman, Cayman Islands",Seven Mile Beach,Grand Cayman
+osm-node/6446092467,"Run Away Bar",bar,19.288521,-81.376675,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-node/6446923059,"Barracudas Bar",bar,19.711266,-79.820822,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-node/6450683434,"Macabuca",bar,19.373972,-81.411142,"West Bay, Grand Cayman, Cayman Islands",West Bay,Grand Cayman
+osm-node/12212801685,"Mike's Bar",bar,19.282475,-81.345642,"Grand Cayman, Grand Cayman, Cayman Islands",Grand Cayman,Grand Cayman
+osm-way/372597775,"Scotty's",bar,19.286599,-81.372746,"Shedden Road, George Town",George Town,Grand Cayman
+osm-way/373660947,"Cabana",bar,19.287817,-81.373779,"Harbour Drive, George Town",George Town,Grand Cayman
+osm-way/1025288079,"Tipsy Turtle",bar,19.708817,-79.819541,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-node/9454247557,"The Splits",attraction,19.707707,-79.820222,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-way/372664544,"Fiddlers Park",activity,19.305052,-81.101336,"East End, Grand Cayman, Cayman Islands",East End,Grand Cayman
+osm-way/370670246,"Cayman Clinic",medical,19.28877,-81.374021,"439, Crewe Road, George Town",George Town,Grand Cayman
+osm-way/371843178,"Lab Inc",medical,19.284481,-81.375256,"Smith Road, George Town",George Town,Grand Cayman
+osm-way/371815672,"Quality",medical,19.28883,-81.375801,"Hospital Road, George Town",George Town,Grand Cayman
+osm-node/3754372294,"Intertrust",financial,19.285072,-81.372335,"Elgin Avenue, George Town",George Town,Grand Cayman
+osm-way/372597768,"Knoll",financial,19.28623,-81.374071,"Shedden Road, George Town",George Town,Grand Cayman
+osm-way/374044254,"RBC",financial,19.281022,-81.34447,"Shamrock Road, Tropical Gardens",Grand Cayman,Grand Cayman
+osm-node/3758666537,"Hertz",transport,19.34076,-81.390431,"Seven Mile Beach, Grand Cayman, Cayman Islands",Seven Mile Beach,Grand Cayman
+osm-way/62184770,"Budget",transport,19.286556,-81.376619,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-way/62184788,"Avis",transport,19.288797,-81.37593,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-way/372529877,"Andy's",transport,19.288073,-81.375538,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-way/372654679,"Alamo",transport,19.288275,-81.374187,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-way/372654688,"SIXT",transport,19.286451,-81.373531,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-way/68794366,"Esso",transport,19.344186,-81.175564,"Grand Cayman, Grand Cayman, Cayman Islands",Grand Cayman,Grand Cayman
+osm-way/371282789,"Home Gas",transport,19.288964,-81.372788,"Walkers Road, George Town",George Town,Grand Cayman
+osm-way/374479555,"Hurley's",shopping,19.281858,-81.345794,"Shamrock Road",Grand Cayman,Grand Cayman
+osm-node/6354602061,"Peanuts",shopping,19.280907,-81.344056,"Grand Cayman, Grand Cayman, Cayman Islands",Grand Cayman,Grand Cayman
+osm-way/372518387,"AA Rubis",shopping,19.285823,-81.373855,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-way/217613994,"Dolphin Mall",shopping,19.286283,-81.3736,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-node/4904215584,"Cartier",shopping,19.287596,-81.37316,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-node/1613763393,"Welcome Home",shopping,19.341522,-81.389311,"Seven Mile Beach, Grand Cayman, Cayman Islands",Seven Mile Beach,Grand Cayman
+osm-node/10032097218,"Kirk Freeport",shopping,19.338737,-81.392263,"Seven Mile Beach, Grand Cayman, Cayman Islands",Seven Mile Beach,Grand Cayman
+osm-node/801360082,"Police Station",services,19.708165,-79.821355,"Creek Road, Creek",Cayman Brac,Cayman Brac
+osm-node/5296606353,"BodyBarn",wellness,19.37513,-81.411414,"West Bay, Grand Cayman, Cayman Islands",West Bay,Grand Cayman
+osm-node/3768261262,"CrossFit",wellness,19.288518,-81.37541,"Market Street, Camana Bay",George Town,Grand Cayman
+osm-node/3772786217,"Get Fitr",wellness,19.287937,-81.375646,"638, West Bay Road, West Bay",George Town,Grand Cayman
+osm-node/10032597817,"Bliss Yoga",wellness,19.288362,-81.374047,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-way/363334835,"World Gym",wellness,19.285302,-81.374445,"Snooze Ln",George Town,Grand Cayman
+osm-way/373716118,"United Church",religious,19.349135,-81.200038,"Grand Cayman, Grand Cayman, Cayman Islands",Grand Cayman,Grand Cayman
+osm-node/5117682396,"UCCI-College",education,19.707988,-79.817991,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+serp-ChIJHaNN7jpCKI8R8MDFypNB0-U-25aji7lh7,"Le Soleil d'Or",hotel,19.694295,-79.844007,"2147 South Side Rd W, KY2-2001, Cayman Islands",Grand Cayman,Cayman Brac
+serp-ChIJj481C52HJY8RX7-KG4wpN-E-e025mhzv7,"Off The Wall Divers",diving_snorkeling,19.287601,-81.375671,"37 Seafarers Wy, George Town, Cayman Islands",George Town,Grand Cayman
+serp-ChIJdUI9_YCHJY8RiKInvKT8Wtw-eg01yj4ej,"Sanctuary Spa",spa_wellness,19.347198,-81.20885,"Andrew Drive 311 Andrew Drive Grand Cayman KY1, 1208, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJyZRaTDeHJY8RkSQSAf-1tNU-yuoxe37i8,"Ananda Wellness",spa_wellness,19.321865,-81.378508,"10 Market St, KY1-9006, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJ4TMYYb6HJY8RxLgu8shnHoI-ssmg1jf4o,"Tours Cayman",activity,19.295242,-81.359742,"8JPM+WF5 Grand Cayman, KY1-1205, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJB7gmlJ2HJY8RbRVSm0YfE1Q-9bzajp54l,"Seascape Villa",villa_rental,19.353718,-81.246615,"677 W Bay Rd, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJK_BQPV-GJY8RvnLHZX191hg-8nognaqgt,"FFP Cayman",financial,19.329847,-81.171222,"2nd Floor, Harbour Centre, 159 Mary St, Grand Cayman KY1-9006, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJp8_XREGHJY8RvRdLlACDidE-0rzzxvddp,"FundBank Ltd.",financial,19.286741,-81.375436,"2nd Floor, The White House, 20 Genesis Cl, George Town KY1-1102, Cayman Islands",George Town,Grand Cayman
+serp-ChIJga4aa6yHJY8R-3-UNrd6FgA-srolgdycu,"Patria Investments",financial,19.293333,-81.321368,"60 Nexus Wy, Cayman Islands",Grand Cayman,Grand Cayman
+osm-node/3758684910,"Canton",restaurant,19.338969,-81.391545,"West Bay Road, West Bay",Seven Mile Beach,Grand Cayman
+osm-node/4108390206,"Ferdinand’s at The Westin Grand Cayman",restaurant,19.335,-81.392,"West Bay Road, Seven Mile Beach",Seven Mile Beach,Grand Cayman
+osm-node/4108407050,"Tortuga Beach Grill and Bar at The Westin Grand Cayman",restaurant,19.335,-81.392,"West Bay Road, Seven Mile Beach",Seven Mile Beach,Grand Cayman
+osm-way/372589417,"Energy Lounge & Restaurant",restaurant,19.288245,-81.375604,"128, Shedden Road, george Town",George Town,Grand Cayman
+osm-way/1189755860,"Pinoy Lechon JJR",restaurant,19.286397,-81.376474,"Goring Avenue",George Town,Grand Cayman
+osm-node/3764555871,"West Bay Pharmacy & Gifts",medical,19.376838,-81.411053,"West Bay Road, West Bay",West Bay,Grand Cayman
+osm-way/369190560,"Hell Post Office",services,19.3794,-81.4068,"Hell Road, West Bay",West Bay,Grand Cayman
+osm-node/801346741,"Aston Rutty Civic Centre",services,19.708269,-79.820592,"Bluff Road, Cayman Brac",Cayman Brac,Cayman Brac
+osm-way/371889400,"Cayman Islands Government Administration Building",services,19.28647,-81.375652,"133, Elgin Avenue, George Town, KY1-9000",George Town,Grand Cayman
+serp-ChIJtfKAaViGJY8RU5OGduskWO0-9cjtux0vw,"Atlantis Dive Center",diving_snorkeling,19.317064,-81.240675,"Box 211, 37 Seafarers Wy, Grand Cayman KY1-1104, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJ997TEmaGJY8RPv29svBGRLM-qe3qgigsn,"Ultra Lounge & Grill",bar,19.284622,-81.377267,"241smith road George town, HENNESSEY Drive, KY1-1003, Cayman Islands",George Town,Grand Cayman
+serp-ChIJV2Q8B0SGJY8Rn2btX49tyQA-dzssfpse8,"The Caymanite Bar & Lounge",bar,19.289014,-81.373102,"351 Dorcy Dr, George Town, Cayman Islands",George Town,Grand Cayman
+serp-ChIJxyxk4tGHJY8RkjcyB0lP_f8-aa7gv22nx,"Sun & Sea Watersports /Jet Ski Rental",water_sports,19.321489,-81.237246,"1453 W Bay Rd, KY1-1301, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJ6_aid2GHJY8RKe9uxoBBwzU-z16j9zq72,"Kittiwake Shipwreck & Artificial Reef",activity,19.37,-81.404,"1320 W Bay Rd, West Bay, Cayman Islands",West Bay,Grand Cayman
+serp-ChIJd2m4C1-GJY8REX2L08JlPlE-r7boax0qj,"Cayman Gifts & Souvenirs",shopping,19.284363,-81.373507,"Cayman Gifts & Souvenirs 19th Fort street Jack & Jill Building George Town Beside The Parliament House Building Grand Cayman KY1, 1102, Cayman Islands",George Town,Grand Cayman
+serp-ChIJda3AFlaGJY8R2um_HLdAlHc-nuyuv54yf,"AddisonLee Cayman Vacation Home",villa_rental,19.289043,-81.374479,"24 Marbel Dr, George Town, Cayman Islands",George Town,Grand Cayman
+serp-ChIJl03dDUmHJY8RgKWJPb7EV4E-eqx5xyx7q,"Ace All Staff Rent-A-Car",transport,19.297559,-81.35707,"Gould's Plaza, School Road Grand Cayman KY1, 1302, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJo6mMeJSHJY8RtbvlRidLqR4-npfwzfe9f,"Supreme car rental cayman",transport,19.284274,-81.373553,"80 Shedden Rd, George Town KY1-9006, Cayman Islands",George Town,Grand Cayman
+serp-ChIJX-axSFuGJY8RS5b2Eef4lW8-95b7rm1w0,"My Personal Concierge Services LTD",services,19.287302,-81.374625,"95 Godfrey Nixon Wy, George Town, Cayman Islands",George Town,Grand Cayman
+serp-ChIJmylMw_aHJY8RWvirwvbKocM-l5mulm2j0,"Robinson Immigration And Concierge service",services,19.321095,-81.238361,"Unit 110 Elizabethan Square 80 Shedden Road Grand Cayman KY1, 1008, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJXy6KqJaHJY8R7dtg57s-mJg-lkpc1nhn9,"Flava Car Rental/ Flava luxury chauffeur service Grand Cayman",transport,19.286279,-81.37343,"31 Canal Ln, George Town, Cayman Islands",George Town,Grand Cayman
+serp-ChIJuRTQnhqHJY8RZNid6kWuioU-t0ovk7966,"Advantage Security Services, Ltd.",services,19.288542,-81.372581,"50 Mary St, George Town KY1-1206, Cayman Islands",George Town,Grand Cayman
+serp-ChIJKVx5cABBKI8R0W9GiimiC34-2we5qdcvt,"The Farm Restaurant",restaurant,19.71,-79.82,"P55R+GX, 2147 South Side Rd W, Stake Bay KY2-2001, Cayman Islands",Grand Cayman,Cayman Brac
+serp-ChIJk09yOl-GJY8R9c8oqClDkrk-ck09bwifd,"Divers Down",diving_snorkeling,19.298571,-81.382232,"19.298661, -81.382126, 65 North Church Street, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJT9cYa4GHJY8Rj1U2H3a7xcs-icnie0wkt,"Globe Night Club",bar,19.284384,-81.375344,"Mary St, George Town KY1-1111, Cayman Islands",George Town,Grand Cayman
+serp-ChIJk7ur9wKHJY8RDso2s9A4B2o-zcgo1524b,"The Cotton Club",bar,19.286139,-81.373968,"unit #4, pedestrian Plaza, 425 Shedden Rd, George Town KY1-1501, Cayman Islands",George Town,Grand Cayman
+serp-ChIJVzvtOV6GJY8Re2PtigaeTe0-dq3ldrlu5,"The Office Lounge",bar,19.287771,-81.374647,"80A Shedden Rd, George Town, Cayman Islands",George Town,Grand Cayman
+serp-ChIJCwtbUKqHJY8R2PVC-N55M_4-7mh6ace4s,"Chelsea's Bar",bar,19.285941,-81.30206,"508 W Bay Rd, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJKXL5AymHJY8RtC3edl77edc-wqpdvmuuu,"Energy Lounge",bar,19.284364,-81.374618,"128 Shedden Road Grand Cayman KY1, 128 Shedden Rd, George Town 1106, Cayman Islands",George Town,Grand Cayman
+serp-ChIJO_86rsqLJY8RNGr2OB5gB6o-py69892ag,"Elite Watersports",water_sports,19.339694,-81.388502,"grand cayman Grand cayman, Seven Mile Beach, KY1-1303, Cayman Islands",Seven Mile Beach,Grand Cayman
+serp-ChIJDcF6x_yHJY8RWiR4p1_Ilsc-rlzndo86z,"Brown Sugar Tours",activity,19.285216,-81.372569,"George Town, Cayman Islands",George Town,Grand Cayman
+serp-ChIJm6-qXv-GJY8RfitgpHNgxWE-n5nikbokr,"7 Mile Shops",shopping,19.28642,-81.375114,"8J78+367, W Bay Rd, George Town, Cayman Islands",George Town,Grand Cayman
+serp-ChIJBdXuUaqHJY8RMtU-srR4BVg-gv5ea4sv5,"West Shore Center",shopping,19.288698,-81.375777,"508 W Bay Rd, George Town, Cayman Islands",George Town,Grand Cayman
+serp-ChIJh0LX13yHJY8RlW_1Z-8Gv7k-617c8bfng,"Galleria Plaza",shopping,19.324538,-81.381148,"638 W Bay Rd, Cayman Islands",Grand Cayman,Grand Cayman
+osm-way/373714260,"Hotel Northern Lights Condos",hotel,19.349327,-81.201049,"PO Box 1751, Church Avenue, Northern Lights",North Side,Grand Cayman
+critical-seven-mile-beach,"Seven Mile Beach",beach,19.3428,-81.3917,"Seven Mile Beach, Grand Cayman",West Bay,Grand Cayman
+serp-ChIJr2pXEYSHJY8RwlKGMTZIsiw-1grq8pi6s,"George's Watersports",water_sports,19.375079,-81.409349,"9J4C+VX3, Yacht Dr, Cayman Islands Yacht Club, Dock B, West Bay, KY1-1204, Cayman Islands",West Bay,Grand Cayman
+serp-ChIJF_4JaNaIJY8Rzpz0A0YUS0w-oldehfdqj,"Countryside Shopping Village",shopping,19.273417,-81.298097,"33 Hirst Rd, Savannah, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJXaMqQ0SGJY8RYBlbthuBBPw-ioq2l3y5a,"Island Dream Villas Grand Cayman",villa_rental,19.287752,-81.37622,"8J2J+467, Commercial Ave, George Town, Cayman Islands",George Town,Grand Cayman
+serp-ChIJrUGbeJWHJY8Rb7S_XRH3sxs-v2ptmj0ne,"Jet Charter Cayman Islands",transport,19.288047,-81.372935,"Safehaven Dr, George Town, Cayman Islands",George Town,Grand Cayman
+serp-ChIJ4x8Ac2eGJY8RUAPFxzmZXh4-h2c9havcc,"Cayman Islands Fund Administrators Association",financial,19.288689,-81.374901,"Elgin Ave, George Town, Cayman Islands",George Town,Grand Cayman
+serp-ChIJq6qqalL0JY8RgdzuXGCYeG4-7wjk72bza,"Heritage Beach",beach,19.303,-81.095,"7RXP+JVC, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJpyP-CJGHJY8RzDF-WRJz8IY-kmxqcrbsq,"Mario’s",restaurant,19.329847,-81.171222,"3, 1358 W Bay Rd, Grand Cayman KY1-1000, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJicc1l3eHJY8RHxeCNHfMMfU-bs87jquhd,"RASA",restaurant,19.33877,-81.388868,"Seven Mile Beach, 32 Seafire Way, KY1-1301, Cayman Islands",Seven Mile Beach,Grand Cayman
+serp-ChIJsSCpvAyHJY8RBLcXyyIwGhQ-zam9tkiqm,"Library By The Sea",bar,19.342247,-81.388302,"Seven Mile Beach, 60 Tanager Way, KY1-1303, Cayman Islands",Seven Mile Beach,Grand Cayman
+serp-ChIJddGax52HJY8Rl_0N-hoabK0-x74ytw9d5,"The Catalyst Group",financial,19.289978,-81.37327,"1207, Grand Cayman KY1, Cayman Islands, 142 Seafarers Wy, Cayman Islands",Grand Cayman,Grand Cayman
+osm-node/4103904892,"The Cayman Breakers Condominiums, Vacation Rental",hotel,19.711517,-79.819027,"1902, South Side Road East",Cayman Brac,Cayman Brac
+osm-node/5117909300,"Brac Haven Villas",hotel,19.70998,-79.818652,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-way/26268919,"Prates Point Resort",hotel,19.6671,-80.060303,"Little Cayman, Little Cayman, Cayman Islands",Little Cayman,Little Cayman
+osm-way/62225848,"The Water Edge",hotel,19.341153,-81.391339,"West Bay Road, West Bay, Seven Mile Beach",Seven Mile Beach,Grand Cayman
+osm-way/368977922,"Rocky Shore Villas",hotel,19.372888,-81.408036,"30, Grass Piece Lane, Boatswain",West Bay,Grand Cayman
+osm-way/374781040,"The Commonwealth",hotel,19.339941,-81.38873,"Seven Mile Beach, Grand Cayman, Cayman Islands",Seven Mile Beach,Grand Cayman
+osm-way/373685611,"Oceana",villa_rental,19.285605,-81.376811,"172, South Church Street, George Town",George Town,Grand Cayman
+osm-way/469610131,"Tamarind Bay",villa_rental,19.286747,-81.374004,"37, Piper Way",George Town,Grand Cayman
+osm-way/903836021,"Sir Turtle Beach Villas",villa_rental,19.666939,-80.061985,"Little Cayman, Little Cayman, Cayman Islands",Little Cayman,Little Cayman
+osm-way/1351487137,"El Sueno Guest House",villa_rental,19.66331,-80.100804,"Grand Cayman, Grand Cayman, Cayman Islands",Grand Cayman,Little Cayman
+osm-node/2269074632,"Bandidos Cantina",restaurant,19.286625,-81.375947,"215, West Bay Road",George Town,Grand Cayman
+osm-node/4108383592,"Beach House at The Westin Grand Cayman",restaurant,19.335,-81.392,"West Bay Road, Seven Mile Beach",Seven Mile Beach,Grand Cayman
+osm-node/4904215590,"Cayman Creperie",restaurant,19.285017,-81.376184,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-node/5117695931,"Captain's Table",restaurant,19.711135,-79.822171,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-node/5314019656,"Uncle Sam's Quality Jerk",restaurant,19.284949,-81.374908,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-node/6446915525,"Star Island",restaurant,19.709565,-79.820409,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-node/12212801686,"Harbour Grille",restaurant,19.282286,-81.345611,"Grand Cayman, Grand Cayman, Cayman Islands",Grand Cayman,Grand Cayman
+osm-way/171506932,"Vivine's Kitchen",restaurant,19.305573,-81.099929,"Austin Conolly Road",East End,Grand Cayman
+osm-way/171507187,"Eastern Star Bar & Grill",restaurant,19.303643,-81.102172,"Austin Conolly Road",East End,Grand Cayman
+osm-way/349629305,"Bombay Chopstix",restaurant,19.303425,-81.099788,"Austin Conolly Road",East End,Grand Cayman
+osm-way/357231779,"Over the Edge Cafe",restaurant,19.349,-81.195,"312, North Side Road, Old Man Bay, KY1-1601",North Side,Grand Cayman
+osm-way/369192331,"Liberty's Restaurant",restaurant,19.372981,-81.40798,"Reverend Blackman Drive, West Bay",West Bay,Grand Cayman
+osm-way/370670646,"Amelia's Kitchen",restaurant,19.28754,-81.375088,"Crewe Road, George Town",George Town,Grand Cayman
+osm-way/371284157,"Top Taste",restaurant,19.288241,-81.374202,"Walkers Road, George Town",George Town,Grand Cayman
+osm-way/371840195,"Season to the Rose",restaurant,19.287603,-81.374921,"Walkers Road, George Town",George Town,Grand Cayman
+osm-way/372664080,"Captain Herman Fish Fry",restaurant,19.304227,-81.098769,"Austin Conolly Road",East End,Grand Cayman
+osm-way/373657770,"Da Fish Shack",restaurant,19.28489,-81.37634,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-way/373688276,"Paradise Restaurant",restaurant,19.288583,-81.373568,"South Church Street, George Town",George Town,Grand Cayman
+osm-way/374307724,"Kurt's Corner",restaurant,19.349002,-81.198231,"Frank Sound Road",North Side,Grand Cayman
+osm-way/374313515,"Pankin's Jerk Centre",restaurant,19.286641,-81.247545,"Shamrock Road",Bodden Town,Grand Cayman
+osm-way/374479549,"Country n' Western",restaurant,19.283501,-81.348367,"Grand Cayman, Grand Cayman, Cayman Islands",Grand Cayman,Grand Cayman
+osm-way/372544044,"Daily Grind Cafe",restaurant,19.284233,-81.376001,"Edward Street, George Town",George Town,Grand Cayman
+osm-node/3772786215,"Smoothie King",restaurant,19.284689,-81.37549,"638, West Bay Road, West Bay",George Town,Grand Cayman
+osm-node/5117680994,"Brac Snack Shack",restaurant,19.707671,-79.820385,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-node/6448696951,"Popo Jeb's Pizza",restaurant,19.707757,-79.819162,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-node/10032114917,"Quiznos",restaurant,19.287934,-81.37441,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-way/371896034,"McDonald's",restaurant,19.285042,-81.374479,"Shedden Road, George Town",George Town,Grand Cayman
+osm-way/1025320812,"Eats & Treats",restaurant,19.710518,-79.820307,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-way/1319740393,"Red Bay Jerk Chicken",restaurant,19.279588,-81.339561,"Grand Cayman, Grand Cayman, Cayman Islands",Grand Cayman,Grand Cayman
+osm-node/6446095496,"Pat's Kitchen and Bar",bar,19.708582,-79.818939,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-way/1025039746,"Point of Sands Beach",beach,19.655,-79.96,"Little Cayman, Little Cayman, Cayman Islands",Little Cayman,Little Cayman
+osm-way/1351485551,"Pirates point Resort",beach,19.659,-80.0997,"Little Cayman, Little Cayman, Cayman Islands",Little Cayman,Little Cayman
+osm-node/1550931122,"Hell",attraction,19.3794,-81.4068,"West Bay, Grand Cayman, Cayman Islands",West Bay,Grand Cayman
+osm-node/5105567590,"Peter's Overlook",attraction,19.711467,-79.821913,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-node/5117880399,"Agriculture Show Ground",attraction,19.70971,-79.821202,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-node/8817882426,"USS Kittiwake Shipwreck",diving_snorkeling,19.37,-81.404,"West Bay, Grand Cayman, Cayman Islands",West Bay,Grand Cayman
+osm-node/819020377,"Cayman Brac Museum",attraction,19.710253,-79.820296,"Dennis Foster Road, Stake Bay",Cayman Brac,Cayman Brac
+osm-way/369024905,"Cayman Motor Museum",attraction,19.376037,-81.411736,"Northwest Point Road, West Bay",West Bay,Grand Cayman
+osm-way/369192355,"West Bay Nurse's Health Center",medical,19.373752,-81.408996,"Reverend Blackman Drive, West Bay",West Bay,Grand Cayman
+osm-way/371843177,"Cayman Orthopedic Group",medical,19.288961,-81.374157,"Smith Road, George Town",George Town,Grand Cayman
+osm-way/372664542,"Lilith McLaughlin Memorial Health Center",medical,19.305904,-81.10152,"Austin Conolly Road",East End,Grand Cayman
+osm-node/801346736,"Cayman Island Dental Clinic",medical,19.712345,-79.819769,"215, Dennis Foster Road, Stake Bay",Cayman Brac,Cayman Brac
+osm-way/372654684,"Dollar Rent A Car",transport,19.286703,-81.374238,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-node/6177029585,"Public Transit Bus Depot",transport,19.287718,-81.373229,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-way/62216396,"Foster's Food Fair",shopping,19.376612,-81.410865,"2373, Willie Farrington Drive, West Bay",West Bay,Grand Cayman
+osm-way/373717148,"Chisolm Grocery and Liquor",shopping,19.352289,-81.212231,"North Side Road",Grand Cayman,Grand Cayman
+osm-way/1025320707,"Bayside Grocery",shopping,19.711311,-79.818781,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-way/1025320813,"L&M Super Store",shopping,19.712193,-79.822484,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-node/3763440405,"Smart N Shop",shopping,19.37447,-81.409695,"Church Street, West Bay",West Bay,Grand Cayman
+osm-node/3763440425,"The Perfect Touch Grocery",shopping,19.373138,-81.412005,"Reverend Blackman Drive, West Bay",West Bay,Grand Cayman
+osm-node/3763440426,"Vidette's Grocery",shopping,19.375559,-81.410597,"Reverend Blackman Drive, West Bay",West Bay,Grand Cayman
+osm-way/369192352,"Hell Service Station",shopping,19.3794,-81.4068,"Hell Road, West Bay",West Bay,Grand Cayman
+osm-way/369744276,"Mitzi's Fine Jewelry",shopping,19.337749,-81.388177,"West Bay Road, West Bay",Seven Mile Beach,Grand Cayman
+osm-way/372544047,"Caribbean Jewellers",shopping,19.285149,-81.376287,"Edward Street, George Town",George Town,Grand Cayman
+osm-node/5396260622,"Hell’s Souvenirs",shopping,19.3794,-81.4068,"West Bay, Grand Cayman, Cayman Islands",West Bay,Grand Cayman
+osm-way/373166350,"The Sandbox Boutique",shopping,19.306103,-81.102342,"Austin Conolly Road",East End,Grand Cayman
+osm-node/819020837,"Post Office",services,19.708555,-79.819893,"327, Spot Bay Road, Spot Bay, KY-2-2400",Cayman Brac,Cayman Brac
+osm-node/3772783666,"Post Smart",services,19.286885,-81.376726,"638, West Bay Road, West Bay",George Town,Grand Cayman
+osm-node/6446923060,"West End Post Office",services,19.707978,-79.817632,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-way/62184771,"Airport Post Office",services,19.288277,-81.376818,"136, Dorcy Drive",George Town,Grand Cayman
+osm-way/369206375,"West Bay Post Office",services,19.375834,-81.409803,"Church Street, West Bay",West Bay,Grand Cayman
+osm-way/372544051,"Cayman Islands Post Office (Historic Building)",services,19.284397,-81.376568,"Edward Street, George Town",George Town,Grand Cayman
+osm-way/373165994,"East End Post Office",services,19.30632,-81.098351,"Austin Conolly Road",East End,Grand Cayman
+osm-way/374042777,"Savannah Post Office",services,19.272164,-81.298615,"1687, Shamrock Road, Savannah",Grand Cayman,Grand Cayman
+osm-way/370672078,"Royal Cayman Islands Police Traffic Department",services,19.284334,-81.372522,"Lyndhurst Avenue, George Town",George Town,Grand Cayman
+osm-node/5105662584,"Brac Department of Agriculture",services,19.71134,-79.821224,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-node/5118342043,"Public Works",services,19.663962,-80.057998,"Little Cayman, Little Cayman, Cayman Islands",Little Cayman,Little Cayman
+osm-way/83121467,"Cayman Islands Legislative Assembly",services,19.287242,-81.373522,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-way/372796854,"Majorie's Beauty Salon",wellness,19.373673,-81.407867,"Mount Pleasant Road, West Bay",West Bay,Grand Cayman
+osm-way/62064778,"Truman Bodden Sports Complex",wellness,19.288202,-81.372128,"Olympic Way, Lambert House",George Town,Grand Cayman
+osm-node/5105577994,"Church of God Full Gospel",religious,19.708331,-79.819769,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-way/171506929,"East End Seventhday Adventist Church",religious,19.30528,-81.099141,"Austin Conolly Road",East End,Grand Cayman
+osm-way/373688275,"Church of God Full Gospel Hall",religious,19.284851,-81.373392,"South Church Street, George Town",George Town,Grand Cayman
+osm-way/543913265,"All Nations United Pentecostal Church",religious,19.287037,-81.375927,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-way/609525763,"South Sound United Church",religious,19.284953,-81.376642,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-node/5105648621,"Spot Bay Primary School",education,19.710587,-79.818593,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-way/45159353,"Lighthouse School",education,19.279801,-81.338791,"Grand Cayman, Grand Cayman, Cayman Islands",Grand Cayman,Grand Cayman
+osm-way/1025287950,"West End Primary School",education,19.709274,-79.817781,"West Side Road, West End",Cayman Brac,Cayman Brac
+osm-way/1025320502,"Creek & Spot Bay Junior School",education,19.711967,-79.821321,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-way/1025320630,"Creek Primary School",education,19.70776,-79.821169,"Creek Road, Creek",Cayman Brac,Cayman Brac
+serp-ChIJ01qy2vb1JY8RhKzN5sKNh2U-wxuzbo5dy,"THE LONDONER AT MORRITT'S TORTUGA CLUB",hotel,19.344986,-81.089418,"2289 Queens Hwy, Colliers, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJmcMcCfOHJY8RDWqAZS9TKqk-qj2zi1tog,"Grand Cayman Nightlife",bar,19.287154,-81.375309,"23 N Church St, George Town, Cayman Islands",George Town,Grand Cayman
+serp-ChIJK05LX_SHJY8R1NnbpJpvD8w-0wvx62w99,"Airwaves Watersports",water_sports,19.324373,-81.17663,"Seven Mile Public Beach, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJL6lYOO19L48R30YHBck01j0-neql6uohs,"Hell, Grand Cayman",activity,19.3794,-81.4068,"Hell Rd, West Bay, Cayman Islands",West Bay,Grand Cayman
+serp-ChIJqZBxZxuGJY8RgxEVjfDS4X4-6xqa15utr,"Grand Harbor Shopping Centre",shopping,19.331143,-81.37976,"7MJ3+MF4, Grand Harbour, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJM0wdGNeHJY8RgOhnG-Uxhik-4kgkom2gh,"Casa Luna — Luxury Cayman Villas",villa_rental,19.280067,-81.392067,"592 South Church Street, S Sound Rd, Grand Cayman, Cayman Islands",Grand Cayman,Grand Cayman
+osm-way/62225870,"The Pinacle",hotel,19.339563,-81.389771,"West Bay Road, West Bay, Seven Mile Beach",Seven Mile Beach,Grand Cayman
+osm-way/62225875,"Sundowner",hotel,19.337809,-81.392442,"1759, West Bay Road, West Bay",Seven Mile Beach,Grand Cayman
+osm-way/373718111,"Novel",hotel,19.366272,-81.258545,"Rum Point, Grand Cayman, Cayman Islands",Rum Point,Grand Cayman
+osm-way/274608895,"B",villa_rental,19.3428,-81.3917,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-node/3761655824,"Catch",restaurant,19.372798,-81.409448,"Batabano Road, West Bay",West Bay,Grand Cayman
+osm-node/5124855883,"Kuboh",restaurant,19.340456,-81.390229,"Seven Mile Beach, Grand Cayman, Cayman Islands",Seven Mile Beach,Grand Cayman
+osm-way/372544049,"Apples",restaurant,19.28668,-81.372139,"Edward Street, George Town",George Town,Grand Cayman
+osm-node/3774179060,"Café del Sol",restaurant,19.287331,-81.376394,"Fort Street, George Town",George Town,Grand Cayman
+osm-node/5967117913,"Full of Beans",restaurant,19.288724,-81.378363,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-node/6447003123,"Kabana Kai Cafe",restaurant,19.708239,-79.821366,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-node/6448695835,"Blue Breeze Cafe",restaurant,19.711794,-79.818144,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-node/1122551789,"Sol",bar,19.287405,-81.372467,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-node/5124855882,"Lillie's",bar,19.337611,-81.391943,"Seven Mile Beach, Grand Cayman, Cayman Islands",Seven Mile Beach,Grand Cayman
+osm-way/171506996,"Pirates Cove Bar",bar,19.30413,-81.100327,"Austin Conolly Road",East End,Grand Cayman
+osm-way/225806361,"Coral Aisle",bar,19.712211,-79.820355,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-way/372518394,"Jet Nightclub",bar,19.28907,-81.373413,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-way/1025369962,"Public Beach",beach,19.6931,-79.8466,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-node/6446867774,"Brac's Clinic",medical,19.712169,-79.820781,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-way/372597767,"IRG",financial,19.285888,-81.374622,"Shedden Road, George Town",George Town,Grand Cayman
+osm-way/372654686,"National",transport,19.289,-81.3546,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-way/372654687,"Payless",transport,19.286293,-81.376077,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-node/776301557,"Texaco",transport,19.373546,-81.40873,"Birch Tree Hill Road, West Bay",West Bay,Grand Cayman
+osm-node/6354579234,"Rubis",transport,19.276016,-81.251528,"Grand Cayman, Grand Cayman, Cayman Islands",Grand Cayman,Grand Cayman
+osm-way/62085172,"Delworth's Esso",transport,19.284661,-81.37224,"North Church Street, George Town",George Town,Grand Cayman
+osm-node/3763466375,"Liberty's",shopping,19.377285,-81.410731,"Reverend Blackman Drive, West Bay",West Bay,Grand Cayman
+osm-way/141688701,"Devil's Hangout",shopping,19.375547,-81.409925,"West Bay, Grand Cayman, Cayman Islands",West Bay,Grand Cayman
+serp-ChIJMeYLHYOHJY8R3S_4ezwCXfE-i6y58lg3p,"Shop Cayman Islands",shopping,19.273417,-81.298097,"342a Dorcy Drive Grand Cayman KY1, 1204, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJEZLA-L-HJY8RaTldYtXGrZ4-f3hm89keq,"JUDY’S TAXI & TOURS",transport,19.377556,-81.409135,"8JRC+FVH, West Bay, Cayman Islands",West Bay,Grand Cayman
+critical-pedro-castle,"Pedro St. James National Historic Site",attraction,19.2667,-81.3,"Pedro Castle Road, Savannah, Grand Cayman",Bodden Town,Grand Cayman
+osm-node/819001334,"Carib Sands Beach Resort",hotel,19.708299,-79.822004,"South Side Road, West End, KY-3",Cayman Brac,Cayman Brac
+osm-node/4103896817,"George Town Villas",hotel,19.2866,-81.3744,"47, Snooze Lane, George Town, Grand Cayman",George Town,Grand Cayman
+osm-way/80290317,"Cayman Reef Resort",hotel,19.285199,-81.376773,"407, West Bay Road, West Bay, Seven Mile Beach",George Town,Grand Cayman
+osm-node/7499878585,"OCEAN CLUB",villa_rental,19.273084,-81.328781,"Ocean Club Condos",Grand Cayman,Grand Cayman
+osm-way/374443847,"Bancroft Villas",villa_rental,19.274707,-81.306345,"Shamrock Road",Grand Cayman,Grand Cayman
+osm-way/608135793,"Blossom Village Cottage",villa_rental,19.663888,-80.05968,"Little Cayman, Little Cayman, Cayman Islands",Little Cayman,Little Cayman
+osm-node/9917366684,"Anchor and Den",restaurant,19.288077,-81.373514,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-way/369024923,"Tortuga Rum Company",restaurant,19.376155,-81.408514,"Northwest Point Road, West Bay",West Bay,Grand Cayman
+osm-way/525200498,"Tahu",restaurant,19.3392,-81.389991,"868, West Bay Road",Seven Mile Beach,Grand Cayman
+osm-node/3355156992,"Governor's Beach",beach,19.34,-81.38,"Seven Mile Beach, Grand Cayman, Cayman Islands",Seven Mile Beach,Grand Cayman
+osm-way/62186626,"Spanish Bay Reef",boat_charter,19.372694,-81.410931,"Conch Point Road, West Bay",West Bay,Grand Cayman
+osm-way/1134311986,"Malportas Bird Sanctuary",activity,19.347198,-81.20885,"Grand Cayman, Grand Cayman, Cayman Islands",Grand Cayman,Grand Cayman
+osm-way/741281737,"Refuel Gas Station",transport,19.288639,-81.373773,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-way/442604176,"Cayman Rugby Club",wellness,19.284896,-81.375171,"South Sound Road",George Town,Grand Cayman
+osm-way/368981210,"Kingdom Hall of Jehovah's Witnesses",religious,19.377176,-81.411108,"15, Finch Drive, Boatswain",West Bay,Grand Cayman
+serp-ChIJkZlnLV-GJY8RW224r7fyoQA-2xokwxfkg,"MUFG Fund Services (Cayman) Ltd",financial,19.28764,-81.372118,"MUFG House, 227 Elgin Ave, George Town, Cayman Islands",George Town,Grand Cayman
+osm-way/62225827,"Heritage Club",hotel,19.338497,-81.391196,"West Bay Road, West Bay",Seven Mile Beach,Grand Cayman
+osm-way/62225845,"The Palms",hotel,19.375348,-81.407719,"West Bay Road, West Bay",West Bay,Grand Cayman
+osm-node/12133258297,"PomPom",restaurant,19.33853,-81.387727,"Seven Mile Beach, Grand Cayman, Cayman Islands",Seven Mile Beach,Grand Cayman
+osm-way/1134527123,"Spotts Beach",beach,19.2705,-81.3146,"Grand Cayman, Grand Cayman, Cayman Islands",Grand Cayman,Grand Cayman
+osm-way/371896035,"Fidelity Bank",financial,19.285472,-81.376773,"Dr. Roy's Drive, George Town",George Town,Grand Cayman
+osm-way/1310780190,"Refuel",transport,19.34066,-81.387804,"Seven Mile Beach, Grand Cayman, Cayman Islands",Seven Mile Beach,Grand Cayman
+serp-ChIJbRTjYMmIJY8RwJ-5bWXGxFA-wik7islfp,"Spotts Public Beach",beach,19.2705,-81.3146,"Savannah, Cayman Islands",Grand Cayman,Grand Cayman
+osm-node/5237175488,"Boggy Sands Café",restaurant,19.375465,-81.407807,"West Bay, Grand Cayman, Cayman Islands",West Bay,Grand Cayman
+osm-node/1118465878,"Paperman's Coffee House",restaurant,19.338345,-81.389373,"Seven Mile Beach, Grand Cayman, Cayman Islands",Seven Mile Beach,Grand Cayman
+osm-node/1721077119,"Barefoot Man",bar,19.302869,-81.098611,"East End, Grand Cayman, Cayman Islands",East End,Grand Cayman
+osm-way/372654683,"Discount Car Rental",transport,19.287709,-81.374927,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-way/477960276,"Billy's Supermarket",shopping,19.712066,-79.817602,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-way/373531424,"Souvenirs",shopping,19.305188,-81.099088,"1, Austin Conolly Road",East End,Grand Cayman
+serp-ChIJhRDf_BZjL48R9UDC_VzHSXI-wsd7rnphj,"Rum point public beach",beach,19.3728,-81.2714,"9PCH+M3W, Rum Point Dr, Rum Point, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJ-XhV5-X1JY8RcvsyzpcKg9k-qemwyxf9c,"Colliers Public Beach",beach,19.3075,-81.0885,"Austin Conolly Dr, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJE6yBPiqEJY8RHRnybnVFj7M-jik73efhh,"South Sound Public Beach",beach,19.2686,-81.3884,"7J96+CJH, S Sound Rd, George Town, Cayman Islands",George Town,Grand Cayman
+serp-ChIJeR3wKN30JY8Rki9hVbD7pbA-4oto76lml,"Lovers Wall - Grand Cayman",activity,19.288739,-81.372585,"19°17'40.3""N 81°08'39.2""W, 133 Elgin Ave, George Town, Cayman Islands",George Town,Grand Cayman
+serp-ChIJQfJgB06PJY8R2csciYMd0mk-uc248bhu8,"Beach Bay",beach,19.281,-81.22,"7P7F+PH9, Beach Bay Rd, Bodden Town, Cayman Islands",Bodden Town,Grand Cayman
+serp-ChIJc3rs-zSHJY8RMzGVD68fW-s-hv0qvvip8,"Vista Beach Bar",bar,19.341984,-81.388846,"Seven Mile Beach, 193 Piper Way, Cayman Islands",Seven Mile Beach,Grand Cayman
+serp-ChIJf4SdUoSGJY8RMiWYnAmS_CI-egczv0zyt,"Bayshore Mall",shopping,19.284126,-81.374418,"7JV8+GQF, S Church St, George Town, Cayman Islands",George Town,Grand Cayman
+serp-ChIJDT8zEl-GJY8Rla18cQRxYJc-7oeuxj63n,"Waterfront Centre",shopping,19.28879,-81.371977,"28 N Church St, George Town, Cayman Islands",George Town,Grand Cayman
+serp-ChIJi_Rn9qiHJY8RRj2tledXUY0-qho77i9mo,"Buckingham Square",shopping,19.326868,-81.381111,"720 W Bay Rd, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJN27Wr-uHJY8RgIstZXDMsLg-ienymxpdb,"Caymanian Village",shopping,19.287307,-81.375843,"7JVH+XF7, George Town, Cayman Islands",George Town,Grand Cayman
+serp-ChIJsWcJ2VeGJY8R6eCNOLdT2yo-49ep44g4s,"Bay Town Plaza",shopping,19.331207,-81.380672,"36 W Bay Rd, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJaw4nU6aHJY8RCkxRXWiPG_g-g3nh7l53n,"Caribbean Plaza",shopping,19.284177,-81.375522,"8JJ9+FPM, W Bay Rd, George Town, Cayman Islands",George Town,Grand Cayman
+critical-airport-owen-roberts,"Owen Roberts International Airport",transport,19.289,-81.3546,"71 Owen Roberts Drive, George Town, Grand Cayman",George Town,Grand Cayman
+critical-cruise-terminal,"George Town Cruise Terminal",transport,19.2866,-81.3744,"Harbour Drive, George Town, Grand Cayman",George Town,Grand Cayman
+critical-hospital-hsc,"Health Services Authority Hospital",medical,19.286862,-81.372932,"95 Hospital Road, George Town, Grand Cayman",George Town,Grand Cayman
+critical-emergency-911,"Emergency Services (911)",emergency,19.285763,-81.373931,"Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-relation/7609274,"Palm Springs",villa_rental,19.286062,-81.373707,"South Church Street, George Town",George Town,Grand Cayman
+osm-node/5122126793,"The Club at Little Cayman",hotel,19.663072,-80.059906,"Little Cayman, Little Cayman, Cayman Islands",Little Cayman,Little Cayman
+osm-way/62225821,"The Great House",hotel,19.34117,-81.389972,"1329, West Bay Road, West Bay, Seven Mile Beach",Seven Mile Beach,Grand Cayman
+osm-way/62225843,"Grand Cayman Beach Suites",hotel,19.341609,-81.389632,"West Bay Road, West Bay, Seven Mile Beach",Seven Mile Beach,Grand Cayman
+osm-way/171507109,"East End Dive Lodge",hotel,19.305026,-81.101638,"Austin Conolly Road",East End,Grand Cayman
+osm-way/372591921,"Foster Bay Villas",hotel,19.339314,-81.392332,"Esterley Tibbetts Highway, West Bay",Seven Mile Beach,Grand Cayman
+osm-relation/1206062,"Laguna Del Mar",hotel,19.285629,-81.375302,"West Bay Road, West Bay, Seven Mile Beach",George Town,Grand Cayman
+osm-node/778675399,"Brac Caribbean Beach Village",villa_rental,19.711898,-79.821566,"South Side Road, West End, KY-3",Cayman Brac,Cayman Brac
+osm-node/4108847990,"Rockhole",villa_rental,19.286158,-81.374357,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-node/4108847991,"Corner",villa_rental,19.285808,-81.376092,"Spring Lane",George Town,Grand Cayman
+osm-node/5117697401,"Seafarer Condos",villa_rental,19.710496,-79.820124,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-node/7499654985,"Palm Garden",villa_rental,19.284356,-81.373597,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-node/7499845486,"SOUTHERN SKIES",villa_rental,19.285414,-81.372097,"SOUTHERN SKIES",George Town,Grand Cayman
+osm-node/7499857485,"WATER STREET",villa_rental,19.298451,-81.299566,"Water Street",Grand Cayman,Grand Cayman
+osm-node/7499858185,"BEDROCK CIRCLE",villa_rental,19.278962,-81.317611,"Bedrock Circle",Grand Cayman,Grand Cayman
+osm-node/7504995685,"Hilton Estates Phase 1",villa_rental,19.286968,-81.373272,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-node/7505013385,"POINT DEXTER",villa_rental,19.278957,-81.325074,"Grand Cayman, Grand Cayman, Cayman Islands",Grand Cayman,Grand Cayman
+osm-node/7505023385,"Norfolk",villa_rental,19.282972,-81.322012,"Norfolk Drive",Grand Cayman,Grand Cayman
+osm-node/7505031285,"SOUTH SHORE",villa_rental,19.273197,-81.327226,"Grand Cayman, Grand Cayman, Cayman Islands",Grand Cayman,Grand Cayman
+osm-node/7505057785,"Mangrove Pointe",villa_rental,19.286619,-81.373792,"Linford Pierson Highway",George Town,Grand Cayman
+osm-node/7509136085,"#1 368",villa_rental,19.287546,-81.372782,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-node/7509146485,"#2 SKY 64",villa_rental,19.286306,-81.375835,"64, Smith Road Villas",George Town,Grand Cayman
+osm-node/10032097221,"Turnberry Villas East",villa_rental,19.339092,-81.389282,"Seven Mile Beach, Grand Cayman, Cayman Islands",Seven Mile Beach,Grand Cayman
+osm-node/11220912224,"Frangipani Villas",villa_rental,19.282293,-81.307496,"Grand Cayman, Grand Cayman, Cayman Islands",Grand Cayman,Grand Cayman
+osm-way/26267428,"Marea Villas",villa_rental,19.665406,-80.060382,"Little Cayman, Little Cayman, Cayman Islands",Little Cayman,Little Cayman
+osm-way/26269255,"Humble and Polite, Little Cayman",villa_rental,19.658482,-80.107954,"Grand Cayman, Grand Cayman, Cayman Islands",Grand Cayman,Little Cayman
+osm-way/255624846,"Rosedale",villa_rental,19.284259,-81.375959,"765, Crewe Road, George Town",George Town,Grand Cayman
+osm-way/370952618,"Poincianas",villa_rental,19.28751,-81.373183,"10, Windermer, George Town",George Town,Grand Cayman
+osm-way/371284153,"Melmac Court",villa_rental,19.28868,-81.374412,"Melmac Avenue, George Town",George Town,Grand Cayman
+osm-way/371817556,"Windsor Apartments",villa_rental,19.284565,-81.376337,"Columbus Close, George Town",George Town,Grand Cayman
+osm-way/373685616,"Coastline Tower",villa_rental,19.287102,-81.374449,"South Church Street, George Town",George Town,Grand Cayman
+osm-way/373685618,"The SeaView",villa_rental,19.284115,-81.374854,"272, South Church Street",George Town,Grand Cayman
+osm-way/374475183,"Vista Caribe",villa_rental,19.279852,-81.342947,"120, Shamrock Road",Grand Cayman,Grand Cayman
+osm-way/442110157,"Emerald Beach Club",villa_rental,19.286647,-81.376791,"South Sound Road, George Town",George Town,Grand Cayman
+osm-way/1025039702,"Just Chillin",villa_rental,19.664082,-80.100078,"Grand Cayman, Grand Cayman, Cayman Islands",Grand Cayman,Little Cayman
+osm-way/1026307705,"Mango Villas",villa_rental,19.373343,-81.408259,"West Bay, Grand Cayman, Cayman Islands",West Bay,Grand Cayman
+osm-node/1461773180,"Calico Jacks Bar & Grill",restaurant,19.341906,-81.391011,"Seven Mile Beach, Grand Cayman, Cayman Islands",Seven Mile Beach,Grand Cayman
+osm-node/3763440404,"Famous Restaurant",restaurant,19.376145,-81.40991,"West Bay, Grand Cayman, Cayman Islands",West Bay,Grand Cayman
+osm-node/3772810352,"Burger Shack",restaurant,19.28425,-81.372212,"Lawrence Boulevard, West Bay",George Town,Grand Cayman
+osm-node/3774323571,"Hard Rock Cafe",restaurant,19.287479,-81.376035,"South Church Street, George Town",George Town,Grand Cayman
+osm-node/5423702622,"Duke's Bar and Grill",restaurant,19.34163,-81.388644,"Seven Mile Beach, Grand Cayman, Cayman Islands",Seven Mile Beach,Grand Cayman
+osm-node/6340812285,"Chicken Chicken",restaurant,19.286513,-81.375075,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-way/372589408,"The Thai Restaurant",restaurant,19.286075,-81.374893,"Shedden Road, George Town",George Town,Grand Cayman
+osm-way/372662553,"The Lighthouse",restaurant,19.294587,-81.198732,"Bodden Town Road",Grand Cayman,Grand Cayman
+osm-node/6449805011,"I'll Be Back Cafe",restaurant,19.710059,-79.819255,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-node/12856185053,"Starbucks",restaurant,19.287294,-81.374432,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-node/6354602094,"Burger King",restaurant,19.280876,-81.343864,"Grand Cayman, Grand Cayman, Cayman Islands",Grand Cayman,Grand Cayman
+osm-node/6446923062,"Barry's Golden Jerk",restaurant,19.710589,-79.818947,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-way/62281822,"Wendy's",restaurant,19.285731,-81.372425,"West Bay Road, Whitehall Estate, West Bay",George Town,Grand Cayman
+osm-node/6441670009,"5 o'clock Somewhere",bar,19.286366,-81.372746,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-node/4406200416,"Smith Barcadere",beach,19.2766,-81.3911,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-node/6954160312,"West Bay Public Beach",beach,19.37,-81.4025,"West Bay, Grand Cayman, Cayman Islands",West Bay,Grand Cayman
+osm-way/62225858,"Boatswains Beach",beach,19.3813,-81.4071,"Northwest Point Road, West Bay",West Bay,Grand Cayman
+osm-way/374039235,"Water Cay Public Beach",beach,19.3547,-81.2755,"Rum Point, Grand Cayman, Cayman Islands",Rum Point,Grand Cayman
+osm-node/3771335587,"Queens Monument",attraction,19.349393,-81.199464,"North Side, Grand Cayman, Cayman Islands",North Side,Grand Cayman
+osm-node/3771359534,"Bulrush Walk",attraction,19.351564,-81.200948,"North Side, Grand Cayman, Cayman Islands",North Side,Grand Cayman
+osm-node/3773731579,"Captain Marvin's Stingray City, Fishing and Island Tours",activity,19.3757,-81.3048,"Harbour Drive, George Town",George Town,Grand Cayman
+osm-node/5117907385,"Brac National Trust Parrot Reserve",attraction,19.707892,-79.821424,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-node/5117960111,"Booby Birds",attraction,19.712402,-79.819768,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-node/5275546432,"Corral Gardens Snorkeling Spot",attraction,19.37681,-81.31578,"Grand Cayman, Grand Cayman, Cayman Islands",Grand Cayman,Grand Cayman
+osm-node/5390506534,"Starfish Point",attraction,19.3563,-81.2835,"Grand Cayman, Grand Cayman, Cayman Islands",Grand Cayman,Grand Cayman
+osm-node/6380961499,"Spots Beach - Quiet beach, good for Snorkeling",attraction,19.284667,-81.376677,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-node/9453960454,"Little Cayman Brac Outlook",attraction,19.709871,-79.818897,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-node/10032096923,"Red Sail Sports - Stingray Landing",activity,19.33876,-81.391256,"Seven Mile Beach, Grand Cayman, Cayman Islands",Seven Mile Beach,Grand Cayman
+osm-node/10162309217,"Snorkelling",attraction,19.285631,-81.375946,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-node/10281454009,"Smith Cove Snorkel Area",attraction,19.2867,-81.3925,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-node/9454247588,"Eldemire Historic House",attraction,19.711059,-79.821012,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-way/80290252,"F. J. Harquail Cultural Centre",attraction,19.286429,-81.375884,"Harquail Drive, West Bay",George Town,Grand Cayman
+osm-way/372530751,"The National Gallery",attraction,19.288442,-81.373253,"Esterley Tibbetts Highway",George Town,Grand Cayman
+osm-node/778675290,"Capt. K. Tibbets",diving_snorkeling,19.708009,-79.819781,"Cayman Brac",Cayman Brac,Cayman Brac
+osm-node/5801869438,"Cali Ship Wreck",diving_snorkeling,19.288808,-81.373554,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-node/776041203,"Governors Creek",boat_charter,19.341571,-81.391403,"Yacht Drive, West Bay",Seven Mile Beach,Grand Cayman
+osm-way/22475931,"Former Britannia Golf Course",golf,19.325902,-81.376611,"Peninsula Avenue, West Bay",Grand Cayman,Grand Cayman
+osm-node/5322136280,"Dart Family Park",activity,19.289018,-81.372041,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-way/55479004,"Water Cay Park",activity,19.365827,-81.259566,"Rum Point, Grand Cayman, Cayman Islands",Rum Point,Grand Cayman
+osm-way/488091028,"Cayman Brac Community Park",activity,19.711199,-79.821158,"West Side Road, West End",Cayman Brac,Cayman Brac
+osm-way/1025333879,"Spot Bay Community Park",activity,19.708419,-79.821886,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-way/1025370057,"Christopher Columbus Park",activity,19.709564,-79.819085,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-way/1351039701,"Quincentennial Park",activity,19.663507,-80.060679,"Little Cayman, Little Cayman, Cayman Islands",Little Cayman,Little Cayman
+osm-relation/9051147,"Barker's National Park",activity,19.387895,-81.371171,"Conch Point Road, West Bay",Grand Cayman,Grand Cayman
+osm-relation/18555790,"Preston Bay Iguana and Turtle Nesting Reserve",activity,19.658663,-80.103607,"Grand Cayman, Grand Cayman, Cayman Islands",Grand Cayman,Little Cayman
+osm-node/9451493566,"Health Clinic",medical,19.665384,-80.058751,"Little Cayman, Little Cayman, Cayman Islands",Little Cayman,Little Cayman
+osm-way/371815677,"Medical Clinic",medical,19.287388,-81.374364,"Smith Road, George Town",George Town,Grand Cayman
+osm-way/373166348,"Sunrise Cottage",medical,19.302669,-81.098295,"Austin Conolly Road",East End,Grand Cayman
+osm-node/3761057586,"Cayman Dental Services",medical,19.284609,-81.37195,"North Sound Road, George Town",George Town,Grand Cayman
+osm-node/4939266023,"First Caribbean International Bank",financial,19.288587,-81.374741,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-node/5225622129,"First Caribbean",financial,19.338481,-81.390948,"Seven Mile Beach, Grand Cayman, Cayman Islands",Seven Mile Beach,Grand Cayman
+osm-node/5746008737,"Scotiabank",financial,19.284108,-81.37565,"18, Forum Lane, Camana Bay",George Town,Grand Cayman
+osm-node/775752506,"Morgan's Harbour Private Dock",transport,19.37524,-81.408688,"Batabano Road, West Bay",West Bay,Grand Cayman
+osm-node/5105752271,"Rubis Gas Station",transport,19.711797,-79.820115,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-node/12499250530,"Village Square Self Serve",transport,19.662996,-80.061706,"Little Cayman, Little Cayman, Cayman Islands",Little Cayman,Little Cayman
+osm-way/62184783,"Long Term Airport Parking",transport,19.285546,-81.375098,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-way/62184800,"Short Term Airport Parking",transport,19.288145,-81.375325,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-way/171507166,"Pickadilly Parking Garage",transport,19.288752,-81.373032,"Elgin Avenue, George Town",George Town,Grand Cayman
+osm-way/217612604,"Solaris Parking Garage",transport,19.287625,-81.375491,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-way/374334504,"Botanical Parking",transport,19.347651,-81.201208,"North Side, Grand Cayman, Cayman Islands",North Side,Grand Cayman
+osm-way/171462747,"Foster's Express IGA",shopping,19.307106,-81.100852,"2206, Austin Conolly Road",East End,Grand Cayman
+osm-node/10032114819,"Mini Mart",shopping,19.337889,-81.391898,"Seven Mile Beach, Grand Cayman, Cayman Islands",Seven Mile Beach,Grand Cayman
+osm-way/368981208,"Joe and Ima's Wayside Store",shopping,19.375609,-81.408011,"Finch Drive, Boatswain",West Bay,Grand Cayman
+osm-way/369029939,"Caribbean Bakery & Grocery",shopping,19.376106,-81.411336,"Church Street, West Bay",West Bay,Grand Cayman
+osm-way/370672072,"Food Mart",shopping,19.286211,-81.375123,"Smith Road, George Town",George Town,Grand Cayman
+osm-way/371843182,"Mini-Mart",shopping,19.28509,-81.372298,"Smith Road, George Town",George Town,Grand Cayman
+osm-way/371966710,"Eastern Avenue Convenience Store",shopping,19.286474,-81.372971,"Eastern Avenue, George Town",George Town,Grand Cayman
+osm-way/373853640,"Tigermarket",shopping,19.285477,-81.372908,"West Bay Road, West Bay",George Town,Grand Cayman
+osm-way/374041386,"Rubis Food Mart",shopping,19.271929,-81.297606,"Shamrock Road, Savannah",Grand Cayman,Grand Cayman
+osm-way/374307723,"Water Boyz",shopping,19.347797,-81.197715,"Frank Sound Road, Old Man Bay",North Side,Grand Cayman
+osm-node/3773731580,"Cayman Duty Free",shopping,19.284525,-81.373551,"Harbour Drive, George Town",George Town,Grand Cayman
+osm-node/3773919726,"Diamonds International",shopping,19.288904,-81.373306,"Harbour Drive, George Town",George Town,Grand Cayman
+osm-node/4904215585,"Island Treasures",shopping,19.287782,-81.373727,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-node/5225582159,"Island Jewellers",shopping,19.285349,-81.37443,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-node/801360084,"Creek Post Office",services,19.711437,-79.822266,"Creek Road, Creek",Cayman Brac,Cayman Brac
+osm-node/3768261267,"Mail Boxes Etc.",services,19.286619,-81.376186,"10, Market Street, Camana Bay, KY1-9006",George Town,Grand Cayman
+osm-node/12557249501,"GGeorge Town Police Station",services,19.2866,-81.3744,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-way/369203057,"West Bay Police Station",services,19.374434,-81.410136,"Church Street, West Bay",West Bay,Grand Cayman
+osm-way/373717147,"Royal Cayman Islands Police Service",services,19.350513,-81.212256,"Hutland Road",Grand Cayman,Grand Cayman
+osm-way/376015929,"Royal Cayman Island Police",services,19.667434,-80.062233,"Little Cayman, Little Cayman, Cayman Islands",Little Cayman,Little Cayman
+osm-way/361825308,"Department of Motor Vehicles",services,19.282198,-81.349245,"990, Crewe Road",Grand Cayman,Grand Cayman
+osm-way/371889413,"Passport Office",services,19.288737,-81.374787,"Humber Lane, George Town",George Town,Grand Cayman
+osm-way/1025321026,"Government Administration Building",services,19.711488,-79.8181,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-node/3763440403,"West Side Beauty & Barber Salon",wellness,19.375953,-81.40801,"Church Street, West Bay",West Bay,Grand Cayman
+osm-node/5109681367,"Get Nailed & More",wellness,19.342091,-81.391277,"Seven Mile Beach, Grand Cayman, Cayman Islands",Seven Mile Beach,Grand Cayman
+osm-way/370672068,"Dee's Beauty Salon",wellness,19.284751,-81.371907,"Crewe Road, George Town",George Town,Grand Cayman
+osm-way/371815678,"DEJON Beauty Salon",wellness,19.287796,-81.37528,"Smith Road, George Town",George Town,Grand Cayman
+osm-node/3768261257,"Anytime Fitness",wellness,19.286522,-81.374742,"Market Street, Camana Bay",George Town,Grand Cayman
+osm-way/62225857,"Ed Bush Sports Complex",wellness,19.376106,-81.410042,"Birch Tree Hill Road, West Bay",West Bay,Grand Cayman
+osm-way/492550316,"Haig Bodden Stadium",wellness,19.286234,-81.251627,"Bodden Town, Grand Cayman, Cayman Islands",Bodden Town,Grand Cayman
+osm-way/1025370105,"Cayman Brac Sports Complex",wellness,19.708122,-79.82025,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-node/5105831740,"Hillside Chapel",religious,19.711857,-79.819764,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-way/372220605,"St Albans Anglican",religious,19.28646,-81.373368,"Shedden Road, George Town",George Town,Grand Cayman
+osm-way/372263156,"New Testament Church of God",religious,19.285642,-81.372086,"Bronze Road, George Town",George Town,Grand Cayman
+osm-way/373111041,"Church of Christ",religious,19.30517,-81.100134,"Austin Conolly Road",East End,Grand Cayman
+osm-way/608135801,"Little Cayman Church",religious,19.66433,-80.058864,"Little Cayman, Little Cayman, Cayman Islands",Little Cayman,Little Cayman
+osm-way/1025320597,"Seventh Day Adventist Church",religious,19.709452,-79.819721,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-way/1025320725,"Fellowship Baptist",religious,19.711025,-79.81962,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-way/1025320763,"Church of God Holiness",religious,19.7091,-79.822329,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-way/1025321068,"Stake's Bay Baptist Church",religious,19.711086,-79.820818,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-way/1025333901,"Church of God (Holiness)",religious,19.711455,-79.818523,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-way/1025333916,"Bethel Baptist Church",religious,19.708724,-79.81833,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-way/311368557,"Cayman Brac High School",education,19.709251,-79.817957,"West Side Road, Stake Bay",Cayman Brac,Cayman Brac
+serp-ChIJUVyDOA5iL48RHgcfZgdG2JQ-v9yf9ylyy,"Cayman Kai Public Beach",beach,19.369,-81.2665,"Rum Point Dr, Rum Point, Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJbZuRBYh9L48RvicTcixlbZE-24905yyz6,"Cemetery Beach",beach,19.3655,-81.3951,"West Bay, Cayman Islands",West Bay,Grand Cayman
+serp-ChIJ2-beWBJiL48R4drvWk1AnyU-4ddz4260u,"Rum Point Beach",beach,19.3728,-81.2714,"Cayman Islands",Grand Cayman,Grand Cayman
+serp-ChIJQV4zdIt9L48RzbGALRtZyBw-mtjvaarbm,"West Bay Beach",beach,19.37,-81.403,"West Bay, Cayman Islands",West Bay,Grand Cayman
+serp-ChIJv_qAc4SGJY8RiBnPj-cgdnA-soj2zt0wi,"Smith's Barcadere",beach,19.285223,-81.376845,"S Church St, George Town, Cayman Islands",George Town,Grand Cayman
+osm-node/5335583424,"Sheiry House",hotel,19.2795,-81.293487,"Grand Cayman, Grand Cayman, Cayman Islands",Grand Cayman,Grand Cayman
+osm-way/62225836,"Bonnie's Arch",hotel,19.377332,-81.41121,"Northwest Point Road, West Bay",West Bay,Grand Cayman
+osm-way/80290069,"Cayman Sands",hotel,19.284168,-81.372448,"West Bay Road, West Bay, Seven Mile Beach, KY-1-1202",George Town,Grand Cayman
+osm-way/80290118,"The Sovereign",hotel,19.288304,-81.373417,"West Bay Road, West Bay, Seven Mile Beach",George Town,Grand Cayman
+osm-way/373718838,"Teraflora",hotel,19.366235,-81.262387,"Rum Point, Grand Cayman, Cayman Islands",Rum Point,Grand Cayman
+osm-way/274608876,"E",villa_rental,19.3428,-81.3917,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-way/274608878,"F",villa_rental,19.3563,-81.2835,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-way/274608880,"G",villa_rental,19.34,-81.38,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-way/274608886,"I",villa_rental,19.3428,-81.3917,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-way/274608887,"J",villa_rental,19.2667,-81.3,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-way/274608889,"K",villa_rental,19.3208,-81.1692,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-way/274608891,"L",villa_rental,19.3428,-81.3917,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-way/274608893,"M",villa_rental,19.3428,-81.3917,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-way/274608894,"A",villa_rental,19.3428,-81.3917,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-way/274608896,"C",villa_rental,19.3428,-81.3917,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-way/274608897,"D",villa_rental,19.2667,-81.3,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-way/1319737277,"Aura",villa_rental,19.303,-81.386,"Grand Cayman, Grand Cayman, Cayman Islands",Grand Cayman,Grand Cayman
+osm-node/697199526,"Rum Point",restaurant,19.3728,-81.2714,"Rum Point, Grand Cayman, Cayman Islands",Rum Point,Grand Cayman
+osm-node/3772786214,"Lime",restaurant,19.286233,-81.375583,"638, West Bay Road, West Bay",George Town,Grand Cayman
+osm-node/6446923079,"Tiger Bay Cafe",restaurant,19.709637,-79.818847,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-way/372221569,"Allure Lounge",bar,19.286329,-81.374058,"Shedden Road, George Town",George Town,Grand Cayman
+osm-way/372263007,"Vic's Bar",bar,19.288528,-81.376052,"Seymour Road, George Town",George Town,Grand Cayman
+osm-way/688053097,"Pool Bar",bar,19.344738,-81.362441,"Grand Cayman, Grand Cayman, Cayman Islands",Grand Cayman,Grand Cayman
+osm-way/171507537,"Pageant Beach",beach,19.2945,-81.383,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-way/373441713,"Colliers Beach",beach,19.3076,-81.089,"East End, Grand Cayman, Cayman Islands",East End,Grand Cayman
+osm-way/373713493,"Barefoot Beach",beach,19.312,-81.102,"North Side, Grand Cayman, Cayman Islands",North Side,Grand Cayman
+osm-way/1025333877,"Long Beach",beach,19.715,-79.77,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-way/1135229187,"Smiths Cove",beach,19.2867,-81.3925,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-node/801368250,"Blow Holes",attraction,19.711989,-79.819139,"South Side Road, Cayman Brac",Cayman Brac,Cayman Brac
+osm-node/5595002783,"Blow Hole",attraction,19.306648,-81.099104,"East End, Grand Cayman, Cayman Islands",East End,Grand Cayman
+osm-node/2310227531,"Kissimmee",diving_snorkeling,19.711427,-79.82065,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-node/2310275954,"Cemetery Reef",diving_snorkeling,19.710928,-79.820236,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-node/776042247,"Salt Creek",boat_charter,19.361924,-81.37636,"Batabano Road, West Bay",Grand Cayman,Grand Cayman
+osm-node/5322136279,"Airport Park",activity,19.286749,-81.375818,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-way/97593643,"Heroes Square",activity,19.285421,-81.373412,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-way/372796858,"Scholars Park",activity,19.376238,-81.408835,"West Bay, Grand Cayman, Cayman Islands",West Bay,Grand Cayman
+osm-node/2269090911,"McRuss",shopping,19.2779,-81.333306,"Grand Cayman, Grand Cayman, Cayman Islands",Grand Cayman,Grand Cayman
+osm-node/3763466373,"Beauty Supplies",wellness,19.376508,-81.412334,"Reverend Blackman Drive, West Bay",West Bay,Grand Cayman
+osm-node/5109681368,"BALⱯNCE",wellness,19.341408,-81.38963,"Seven Mile Beach, Grand Cayman, Cayman Islands",Seven Mile Beach,Grand Cayman
+osm-way/371815680,"Church of God",religious,19.286528,-81.373209,"83 A, Walkers Road, George Town",George Town,Grand Cayman
+serp-ChIJYexJ3aGHJY8RMRwXR9gbOhM-xqui248n3,"Grand Cayman",activity,19.335,-81.38,"7JW8+WG2, George Town, Cayman Islands",George Town,Grand Cayman
+serp-ChIJ____sviGJY8RYEn5OGa3XFo-7ni2ymauk,"Queen's Court Plaza",shopping,19.31113,-81.384492,"W Bay Rd, Cayman Islands",Grand Cayman,Grand Cayman
+critical-stingray-city,"Stingray City",attraction,19.3757,-81.3048,"North Sound, Grand Cayman",North Side,Grand Cayman
+osm-way/1351037302,"Blossom Island Park",activity,19.665547,-80.060902,"Little Cayman, Little Cayman, Cayman Islands",Little Cayman,Little Cayman
+osm-way/371843183,"C. A. Borrolo M.D.",medical,19.289427,-81.378319,"Smith Road, George Town",George Town,Grand Cayman
+osm-node/3772810353,"Seven Mile Beach Dental Clinic",medical,19.3428,-81.3917,"West Bay Road, West Bay",George Town,Grand Cayman
+osm-way/374031622,"Cayman Auto Rentals",transport,19.285307,-81.372717,"George Town, Grand Cayman, Cayman Islands",George Town,Grand Cayman
+osm-way/81123667,"Department of Vehicle and Driver's Licensing",services,19.282264,-81.349001,"Grand Cayman, Grand Cayman, Cayman Islands",Grand Cayman,Grand Cayman
+osm-way/374372405,"Universal Fitness",wellness,19.27232,-81.298302,"Shamrock Road",Grand Cayman,Grand Cayman
+osm-node/5116069838,"Crossroads United Church",religious,19.709653,-79.818287,"Cayman Brac, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-way/171507279,"East End United Church",religious,19.302628,-81.100381,"Austin Conolly Road",East End,Grand Cayman
+osm-way/171507332,"George Town Seventh Day Adventist Church",religious,19.2866,-81.3744,"Smith Road, George Town",George Town,Grand Cayman
+osm-way/349629309,"East End United Church Hall",religious,19.305339,-81.101931,"2479, Austin Conolly Road",East End,Grand Cayman
+osm-way/371889407,"The Peace Chapel",religious,19.284966,-81.376455,"Elgin Avenue, George Town",George Town,Grand Cayman
+osm-way/62237963,"Savannah Primary School",education,19.272744,-81.299476,"Shamrock Road, Savannah",Grand Cayman,Grand Cayman
+serp-ChIJS5U3w1dBKI8RviM7M4-uDLY-4gv23x6o2,"helicopter drop zone",transport,19.708464,-79.823026,"2, Cayman Brac, Cayman Islands",Cayman Brac,Cayman Brac
+osm-node/3761094692,"Barclays",financial,19.289062,-81.375841,"Cardinal Avenue, George Town",George Town,Grand Cayman
+osm-way/374475180,"Esso - Carcam",transport,19.275742,-81.336369,"248, HURLEY MERREN BLVD",Grand Cayman,Grand Cayman
+flight-gcm-gcm-mkynxz7v,"Flight: Miami → Cayman Islands",transport,19.286898,-81.374355,"Miami International Airport",George Town,Grand Cayman
+flight-gcm-gcm-mkynxz7v,"Flight: New York → Cayman Islands",transport,19.285798,-81.372798,"John F. Kennedy International Airport",George Town,Grand Cayman
+flight-gcm-gcm-mkynxz7v,"Flight: Los Angeles → Cayman Islands",transport,19.285478,-81.373626,"Los Angeles International Airport",George Town,Grand Cayman
+flight-gcm-gcm-mkynxz7v,"Flight: London → Cayman Islands",transport,19.288154,-81.376028,"Heathrow Airport",George Town,Grand Cayman
+flight-gcm-gcm-mkynxz7v,"Flight: Toronto → Cayman Islands",transport,19.287894,-81.375591,"Toronto Pearson International Airport",George Town,Grand Cayman
+flight-gcm-gcm-mkynxz7w,"Flight: Atlanta → Cayman Islands",transport,19.287545,-81.375379,"Hartsfield-Jackson Atlanta International Airport",George Town,Grand Cayman
+flight-gcm-gcm-mkynxz7w,"Flight: Dallas → Cayman Islands",transport,19.286248,-81.372988,"Dallas Fort Worth International Airport",George Town,Grand Cayman
+flight-gcm-gcm-mkynxz7w,"Flight: Chicago → Cayman Islands",transport,19.286081,-81.375567,"Chicago O'Hare International Airport",George Town,Grand Cayman
+flight-gcm-gcm-mkynxz7w,"Flight: Cayman Islands → Miami",transport,19.285567,-81.37217,"Owen Roberts International Airport",George Town,Grand Cayman
+flight-gcm-gcm-mkynxz7w,"Flight: Cayman Islands → New York",transport,19.287698,-81.372807,"Owen Roberts International Airport",George Town,Grand Cayman
+flight-gcm-gcm-mkynxz7w,"Flight: Cayman Islands → Los Angeles",transport,19.28769,-81.373811,"Owen Roberts International Airport",George Town,Grand Cayman
+flight-gcm-gcm-mkynxz7w,"Flight: Cayman Islands → London",transport,19.288636,-81.373558,"Owen Roberts International Airport",George Town,Grand Cayman
+flight-gcm-gcm-mkynxz7w,"Flight: Cayman Islands → Toronto",transport,19.284316,-81.373571,"Owen Roberts International Airport",George Town,Grand Cayman
+flight-gcm-gcm-mkynxz7w,"Flight: Cayman Islands → Atlanta",transport,19.286286,-81.376893,"Owen Roberts International Airport",George Town,Grand Cayman
+flight-gcm-gcm-mkynxz7w,"Flight: Cayman Islands → Dallas",transport,19.285808,-81.372416,"Owen Roberts International Airport",George Town,Grand Cayman
+flight-gcm-gcm-mkynxz7w,"Flight: Cayman Islands → Chicago",transport,19.286459,-81.37432,"Owen Roberts International Airport",George Town,Grand Cayman

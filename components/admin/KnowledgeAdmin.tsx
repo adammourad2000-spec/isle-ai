@@ -3,7 +3,7 @@
 // Manage RAG knowledge nodes for the island
 // ============================================
 
-import React, { useState, useMemo, useCallback } from 'react';
+import React, { useState, useMemo, useCallback, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
   Search,
@@ -44,7 +44,7 @@ import {
   Layers
 } from 'lucide-react';
 import { KnowledgeNode, KnowledgeCategory, PriceRange } from '../../types/chatbot';
-import { CAYMAN_KNOWLEDGE_BASE, CAYMAN_CONFIG } from '../../data/cayman-islands-knowledge';
+import { CAYMAN_CONFIG, loadKnowledgeBase } from '../../data/island-knowledge';
 
 // ============ TYPES ============
 
@@ -755,7 +755,8 @@ const DeleteConfirmModal: React.FC<{
 
 const KnowledgeAdmin: React.FC<KnowledgeAdminProps> = ({ onClose }) => {
   // State
-  const [nodes, setNodes] = useState<KnowledgeNode[]>([...CAYMAN_KNOWLEDGE_BASE]);
+  const [nodes, setNodes] = useState<KnowledgeNode[]>([]);
+  const [isLoading, setIsLoading] = useState(true);
   const [selectedNodes, setSelectedNodes] = useState<Set<string>>(new Set());
   const [editingNode, setEditingNode] = useState<KnowledgeNode | undefined>(undefined);
   const [showEditor, setShowEditor] = useState(false);
@@ -770,6 +771,19 @@ const KnowledgeAdmin: React.FC<KnowledgeAdminProps> = ({ onClose }) => {
     sortOrder: 'asc'
   });
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid');
+
+  // Load knowledge base on mount
+  useEffect(() => {
+    loadKnowledgeBase()
+      .then(data => {
+        setNodes([...data]);
+        setIsLoading(false);
+      })
+      .catch(err => {
+        console.error('Failed to load knowledge base:', err);
+        setIsLoading(false);
+      });
+  }, []);
 
   // Filtered and sorted nodes
   const filteredNodes = useMemo(() => {
@@ -918,7 +932,7 @@ const KnowledgeAdmin: React.FC<KnowledgeAdminProps> = ({ onClose }) => {
               </div>
               <div>
                 <h1 className="text-xl font-bold text-white">Knowledge Base</h1>
-                <p className="text-sm text-zinc-400">{CAYMAN_CONFIG.islandName} - Manage AI Knowledge Nodes</p>
+                <p className="text-sm text-zinc-400">{config.island.name} - Manage AI Knowledge Nodes</p>
               </div>
             </div>
             <div className="flex items-center gap-3">
